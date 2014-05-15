@@ -39,6 +39,10 @@
 	margin-top: 2em;
 }
 
+.small {
+         font-size: .8em;
+     }
+ 
 
 .sidebar-left figure {
 	margin-top: 3em;
@@ -63,7 +67,9 @@
 	border: 0;
 	border-bottom: 1px solid #EEEEEE;
 }
-
+ul.posts {
+    margin-bottom: 4em;
+}
 ul.posts li {
     border-bottom: 1px solid #DDD;
     padding-top: 1.5em;

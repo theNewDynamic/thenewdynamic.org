@@ -1,5 +1,15 @@
+<h1>Links</h1>
 
   <ul class="posts">
+    {% for post in site.data.links limit:10 %}
+      <li><a href="{{ post.link }}"><i class="icon-link-ext small"></i> {{ post.title }}</a>  </li>
+    {% endfor %}
+  </ul>
+
+<h1>Latest Articles</h1>
+
+
+<ul class="posts">
     {% for post in site.posts limit:10 %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}

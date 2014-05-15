@@ -1,0 +1,6 @@
+
+  <ul class="posts">
+    {% for post in site.data.links limit:10 %}
+      <a href="{{ post.link }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>

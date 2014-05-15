@@ -1,6 +1,146 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300);html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background:transparent}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}dfn{font-style:italic}h1{font-size:2em;margin:0.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace, monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0}input[type="number"]::-webkit-inner-spin-button,input[type="number"]::-webkit-outer-spin-button{height:auto}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:0.35em 0.625em 0.75em}legend{border:0;padding:0}textarea{overflow:auto}optgroup{font-weight:bold}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}body{color:#555;font-family:"Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;font-size:1em;-webkit-font-smoothing:antialiased;line-height:1.5em}h1,h2,h3,h4,h5,h6{font-family:"Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;line-height:1.25em;margin:0;text-rendering:optimizeLegibility}h1{font-size:2.25em;font-weight:300;margin-bottom:1em}h2{font-size:2em}h3{font-size:1.75em;margin-top:2em;color:#2e4c60}h4{font-size:1.3em;margin-top:1em;margin-bottom:0}h5{font-size:1.25em}h6{font-size:1em}p{margin:0 0 0.75em}a{color:#477dca;text-decoration:none;-webkit-transition:color 0.1s linear;-moz-transition:color 0.1s linear;transition:color 0.1s linear}a:hover{color:#2c5999}a:active,a:focus{color:#2c5999;outline:none}hr{border-bottom:1px solid #ddd;border-left:none;border-right:none;border-top:none;margin:1.5em 0}img{margin:0;max-width:100%}abbr,acronym{border-bottom:1px dotted #ddd;cursor:help}address{display:block;margin:0 0 0.75em}hgroup{margin-bottom:0.75em}del{color:#7b7b7b}blockquote{border-left:2px solid #ddd;color:#7b7b7b;margin:1.5em 0;padding-left:0.75em}cite{color:#959595;font-style:italic}cite:before{content:'\2014 \00A0'}ul,ol{margin:0;padding:0;list-style-type:none}dl{line-height:1.5em;margin-bottom:0.75em}dl dt{font-weight:bold;margin-top:0.75em}dl dd{margin:0}*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}article.hentry{padding:1.5rem;margin:auto;max-width:56.25em;overflow:hidden}article.hentry header{margin-bottom:.5em}article.hentry img{max-width:100%}@media screen and (min-width: 37.5em){article.hentry{padding:2rem 5rem}}
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+
+    <link rel="alternate" type="application/rss+xml" href="/atom.xml" title="RSS Feed">
+
+    <title> </title>
+      
+        <link rel="canonical" href="/assets/css/screen.css" />
+      
+
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+    <!-- Stylesheets -->
+      
+      <link href='/assets/css/screen.css' rel='stylesheet' type="text/css" />
+
+
+    
+
+
+
+
+      <!--[if lt IE 9]>
+        <script>
+          document.createElement('header');
+          document.createElement('nav');
+          document.createElement('section');
+          document.createElement('article');
+          document.createElement('aside');
+          document.createElement('footer');
+        </script>
+        <script src="/assets/bower_components/html5shiv/dis/html5shiv.js"></script>
+        <script src="/assets/bower_components/respond/dest/respond.min.js"></script>
+      <![endif]-->
+
+      <!--[if lte IE 7]>
+        <link rel="stylesheet" media="all" href="http://universal-ie6-css.googlecode.com/files/ie6.0.3.css">
+      <![endif]-->
+
+    
+</head>
+	<body>
+		<div class="sidebar-left">
+  <aside class="sidebar-main">
+    <h1>
+      <a href="">{static is} The New Dynamic</a>
+    </h1>
+      <p>Following the Post-CMS paradigm</p>  
+      <p class="navigation-menu-button" id="js-mobile-menu"><i class="icon-menu"></i></p>
+    
+  </aside>
+  <aside class="sidebar-description js-mobile-menu">
+      <ul>
+      <li class="nav-sidebar-item"><a href="/">home</a></li>
+      <li class="nav-sidebar-item"><a href="/about/">about</a></li>
+    </ul>
+    
+    <figure>
+    <ul class="icons">    
+    <li>
+      <a href="https://github.com/budparr">
+        <i class="icon-github-squared"></i>
+        <span class="username screen-reader-text">budparr on Github</span>
+      </a>
+    </li>
+    <li>
+      <a href="https://twitter.com/budparr">
+        <i class="icon-twitter-squared"></i>
+        <span class="username screen-reader-text">budparr on Twitter</span>
+      </a>
+    </li>
+</ul>
+  </figure>
+  </aside>
+</div>        
+		<section class="content">
+			<article class="hentry">
+  <header>
+    
+    
+  </header>
+  <div class="entry-content prose">
+    @import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300);html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background:transparent}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}dfn{font-style:italic}h1{font-size:2em;margin:0.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace, monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0}input[type="number"]::-webkit-inner-spin-button,input[type="number"]::-webkit-outer-spin-button{height:auto}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:0.35em 0.625em 0.75em}legend{border:0;padding:0}textarea{overflow:auto}optgroup{font-weight:bold}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}body{color:#555;font-family:"Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;font-size:1em;-webkit-font-smoothing:antialiased;line-height:1.5em}h1,h2,h3,h4,h5,h6{font-family:"Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;line-height:1.25em;margin:0;text-rendering:optimizeLegibility}h1{font-size:2.05em;font-weight:300;margin-bottom:.25em}h2{font-size:2em}h3{font-size:1.75em;margin-top:2em;color:#2e4c60}h4{font-size:1.3em;margin-top:1em;margin-bottom:0}h5{font-size:1.25em}h6{font-size:1em}p{margin:0 0 0.75em}a{color:#477dca;text-decoration:none;-webkit-transition:color 0.1s linear;-moz-transition:color 0.1s linear;transition:color 0.1s linear}a:hover{color:#2c5999}a:active,a:focus{color:#2c5999;outline:none}hr{border-bottom:1px solid #ddd;border-left:none;border-right:none;border-top:none;margin:1.5em 0}img{margin:0;max-width:100%}abbr,acronym{border-bottom:1px dotted #ddd;cursor:help}address{display:block;margin:0 0 0.75em}hgroup{margin-bottom:0.75em}del{color:#7b7b7b}blockquote{border-left:2px solid #ddd;color:#7b7b7b;margin:1.5em 0;padding-left:0.75em}cite{color:#959595;font-style:italic}cite:before{content:'\2014 \00A0'}ul,ol{margin:0;padding:0;list-style-type:none}dl{line-height:1.5em;margin-bottom:0.75em}dl dt{font-weight:bold;margin-top:0.75em}dl dd{margin:0}*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}article.hentry{padding:1.5rem;margin:auto;max-width:56.25em;overflow:hidden}article.hentry header{margin-bottom:.5em}article.hentry img{max-width:100%}@media screen and (min-width: 37.5em){article.hentry{padding:2rem 5rem}}
 hr{margin:1em auto;border:0;border-top:1px solid #EEEEEE}.screen-reader-text{position:absolute;top:-9999px;left:-9999px}code,pre{font-family:Menlo, Monaco, "Courier New", monospace}code{padding:.25em .5em;color:#bf616a;background-color:#eee;border-radius:3px}pre{display:block;margin-top:0;margin-bottom:1rem;padding:1rem;font-size:.8rem;line-height:1.4;white-space:pre;white-space:pre-wrap;word-break:break-all;word-wrap:break-word;background-color:#eee}pre code{padding:0;font-size:100%;color:inherit;background-color:transparent}.highlight{margin-bottom:1rem;border-radius:4px}.highlight pre{margin-bottom:0}.gist .gist-file{border:1px solid #437ac9 !important}.gist .gist-file .gist-data{background-color:#4b80cb !important;padding:1em !important}.gist{font-size:13px;line-height:18px;margin-bottom:20px;width:100%}.gist pre{font-family:Menlo,Monaco,'Bitstream Vera Sans Mono','Courier New',monospace !important}.gist-meta{font-family:Helvetica,Arial,sans-serif;font-size:13px !important}.gist-meta a{color:#26a !important;text-decoration:none}.gist-meta a:hover{color:#0e4071 !important}.content{min-width:0;margin-left:0}@media screen and (min-width: 56.25em){.content{min-width:26.25em;margin-left:17%}}
 .sidebar-left{overflow:hidden;width:100%;height:auto;position:static;text-align:center;padding:0;background-color:#933330;color:#969696}.sidebar-left aside{padding:2em 3em}.sidebar-left a{color:#c9c9c9}.sidebar-left .nav-sidebar{padding-left:0;list-style:none;text-align:center;width:100%}.sidebar-left .nav-sidebar-item a{width:100%;text-align:center;display:block;padding-top:.5em;padding-bottom:.5em}.sidebar-left .nav-sidebar-item a:hover,.sidebar-left .nav-sidebar-item a:focus{text-decoration:none;color:#a3a3a3}.sidebar-left .nav-sidebar-item.active a{color:#424242}.sidebar-left hr{margin:1em auto;border-top:1px solid #9f3734}@media screen and (min-width: 56.25em){.sidebar-left{width:17%;height:100%;position:fixed;top:0;left:0;overflow:visible;-webkit-overflow-scrolling:touch}.sidebar-left h1{margin-bottom:1em;margin-top:1em}}
 .sidebar-right{display:none}.sidebar-main{padding-bottom:6em;background-color:#365a71;background-color:#b23e3a}.navigation-menu-button{color:#CCC;cursor:pointer;display:block;font-family:"Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:700;line-height:1.4;margin:0;padding-right:1em;text-transform:uppercase}@media screen and (min-width: 53.75em){.navigation-menu-button{display:none}}
 ul.icons li{display:inline}@font-face{font-family:'fontello';src:url("../font/fontello.eot?20601315");src:url("../font/fontello.eot?20601315#iefix") format("embedded-opentype"),url("../font/fontello.woff?20601315") format("woff"),url("../font/fontello.ttf?20601315") format("truetype"),url("../font/fontello.svg?20601315#fontello") format("svg");font-weight:normal;font-style:normal}[class^="icon-"]:before,[class*=" icon-"]:before{font-family:"fontello";font-style:normal;font-weight:normal;speak:none;display:inline-block;text-decoration:inherit;width:1em;margin-right:.2em;text-align:center;font-variant:normal;text-transform:none;line-height:1em;margin-left:.2em;font-size:120%}.icon-search:before{content:'\e80d'}.icon-link-ext:before{content:'\e803'}.icon-edit:before{content:'\e802'}.icon-menu:before{content:'\e805'}.icon-left-open:before{content:'\e807'}.icon-right-open:before{content:'\e804'}.icon-github-squared:before{content:'\e800'}.icon-twitter-squared:before{content:'\e809'}aside.sidebar-description{padding-top:2em;display:none}@media screen and (min-width: 56.25em){aside.sidebar-description{display:block}}
-.icon-twitter{margin-top:2em}.sidebar-left figure{margin-top:3em}.github-icon-svg,.twitter-icon-svg{display:inline-block;width:16px;height:16px;position:relative;top:3px}.past-events{margin-top:4em}.event{margin:1em auto;border:0;border-bottom:1px solid #EEEEEE}ul.posts li{border-bottom:1px solid #DDD;padding-top:1.5em;padding-bottom:1.5em}
+.icon-twitter{margin-top:2em}.small{font-size:.8em}.sidebar-left figure{margin-top:3em}.github-icon-svg,.twitter-icon-svg{display:inline-block;width:16px;height:16px;position:relative;top:3px}.past-events{margin-top:4em}.event{margin:1em auto;border:0;border-bottom:1px solid #EEEEEE}ul.posts{margin-bottom:4em}ul.posts li{border-bottom:1px solid #DDD;padding-top:1.5em;padding-bottom:1.5em}
+
+  </div>
+    
+ 
+    
+</article>
+
+		</section>
+		<footer id="content-info">
+
+    <ul class="no-bullet">
+      <li class="source-org vcarfd copyright">
+        <a href=""><span class="org fn"></span></a>
+      </li> 
+      <li><a href="http://sonnetmedia.net">site by sonnet media</a></li>   
+    </ul>
+
+</footer>
+<!-- /footer -->
+
+
+<script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+
+
+<script>
+  $(function() {
+    var menu = $('.js-mobile-menu');
+    var menuToggle = $('#js-mobile-menu');
+
+    $(menuToggle).on('click', function(e) {
+      e.preventDefault();
+      menu.slideToggle(function(){
+        if(menu.is(':hidden')) {
+          menu.removeAttr('style');
+        }
+      });
+    });
+  });
+</script>
+
+	</body>
+</html>
+
