@@ -17,3 +17,10 @@ username: budparr
 sass:
     style: :compressed
     sass_dir: assets/css/_sass
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      layout: "page"
