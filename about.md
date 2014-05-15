@@ -1,31 +1,18 @@
 ---
 layout: page
-title: About the Calendar
+title: About the Site
 permalink: /about/
 ---
-I put this calendar together for a client site, so my initial goal was to make it functional. At this point, it's usable but could use some work, so feel free to contribute or leave an issue.
+I've built hundreds of websites over the past dozen years from super simple to the complex. As a long-time user and observer of web publishing technology, and you could say at times a partisan in the CMS wars, I've never been as excited as I am about static site generators and the "Post-CMS world". Why?
 
 
-- add _data folder and the events.yaml file with sample data
-- add [calendar.json](http://localhost:4000/calendar.json) to generate a JSON file
-- add calendar.js to includes folder
-- include jquery/underscore/moment.js in the footer
-- include calendar.js in the footer below the others.
-- add the tags below wherever you want your events to show up.
-
-<strong>Upcoming Events</strong>
-```<div id="calendar"></div>```
+Copy goes here.
 
 
-<strong>Past Events</strong>
-```<div id="calendar-past"></div>```
-
----
-
-##### To Do
 
 
-- [ ] Template (underscore templates).
-- [ ] Improve styling
-- [ ] Styleguide
-- [ ] Fix multi-day events
+
+
+#### Details of the site. 
+
+This site is built with [Jekyll](http://jekyllrb.com/) with my own [theme](https://github.com/budparr/jekyll-on-the-rocks) coded by hand in Sublime Text and is published to an [AWS](http://aws.amazon.com/) S3 bucket, using [@laurilehmijoki's](https://github.com/laurilehmijoki) excellent [S3_website gem](https://github.com/laurilehmijoki/s3_website) and [Travis Continuous Integration](https://travis-ci.org/) Service to push my builds from Github to S3.
