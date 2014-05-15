@@ -1,0 +1,188 @@
+// ------------------------------------------------------------
+// SIDEBAR MODULE - MOBILE FIRST
+// ------------------------------------------------------------
+
+// =============== VARIABLES ===============
+
+$include-sidebar-right: false !default;
+$include-sidebar-left: true !default;
+
+//These must be in % values to calculate widths
+$sidebar-width: 17% !default;
+$sidebar-right-width: 20% !default;
+$sidebar-left-breakpoint: $d-vp !default;
+$sidebar-right-breakpoint: $e-vp !default;
+
+$sidebar-color-background: #933330;//#2e4c60  !default;
+$sidebar-color: #969696 !default;
+
+$sidebar-right-color-background: transparent;//#000 !default;
+$sidebar-right-color: #555 !default;
+
+
+// =============== LEFT SIDEBAR ===============
+
+@if $include-sidebar-left != false {
+
+  .content {
+    min-width: 0;
+    margin-left: 0; //mobile first, nav stays on top
+    
+    @include media($sidebar-left-breakpoint) {
+      min-width: $b-vp; // TODO: change this to more stable variable
+      margin-left:  $sidebar-width; // on larger screens, push out content to make way for sidebar
+    }
+  }
+
+.sidebar-left {
+
+    overflow: hidden;
+    width: 100%; //mobile first, sidebar spans top of screen
+    height: auto;
+    position: static;
+    text-align: center;
+    padding: 0;
+    background-color: $sidebar-color-background;
+    color: $sidebar-color;
+
+aside {
+  padding: 2em 3em;
+}
+
+    a {
+      color: lighten($sidebar-color, 20%); // TODO: Replace with variable
+    }
+      /* Sidebar nav */
+      .nav-sidebar {
+        padding-left: 0;
+        list-style: none;
+        text-align: center;
+        width: 100%;
+      }
+      .nav-sidebar-item a{
+        width: 100%;
+        text-align: center;
+        display: block;
+        padding-top: .5em;
+        padding-bottom: .5em;
+      }
+      .nav-sidebar-item a:hover,
+      .nav-sidebar-item a:focus {
+        text-decoration: none;
+        color: lighten($sidebar-color, 5%);
+        //background-color: darken($sidebar-color-background, 25%);
+      }
+      .nav-sidebar-item.active a {
+        color: darken($sidebar-color, 33%);
+      }
+    hr {
+       margin:1em auto;
+      border-top: 1px solid lighten($sidebar-color-background, 3%);
+    }
+    @include media($sidebar-left-breakpoint) {
+      width: $sidebar-width; // larger screens show the sidebar at this width
+      height: 100%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      overflow: visible;
+
+      h1 {
+        margin-bottom: 1em;
+        margin-top: 1em;
+      }
+      -webkit-overflow-scrolling: touch;
+    }
+  }
+}
+
+@else { // ELSE, if not showing the left sidebar, hide it in case it's called in templates
+  .sidebar-left {
+      display:none;
+
+  }
+}
+
+
+// =============== RIGHT SIDEBAR ===============
+
+@if $include-sidebar-right != false {
+
+.content {
+  margin-right: 0;
+  @include media($sidebar-right-breakpoint) {
+      margin-right:  $sidebar-right-width;
+  }
+}
+.sidebar-right {
+  clear: both;
+    overflow: hidden;
+    z-index: 1000;
+    width: 100%;
+    height: auto;
+    position: static;
+    text-align: left;
+    padding: 2em 7em 4em 2em;
+    background-color: $sidebar-right-color-background;
+    color: $sidebar-right-color;
+
+    @include media($sidebar-right-breakpoint) {
+      padding: 2em 3em;
+
+      section:first-child {
+        margin-top: 37% !important;
+      }
+      section:last-child {
+        margin-bottom: 10% !important;
+      }
+    }
+    @include media($sidebar-left-breakpoint, $sidebar-right-breakpoint) {
+
+      @if $include-sidebar-left != false {
+          margin-left: $sidebar-width;
+          width: 100% - $sidebar-width;
+      }
+    }
+    @include media($sidebar-right-breakpoint) {
+      width: $sidebar-right-width;
+      height: 100%;
+      position: fixed;
+      top: 0;
+      right: 0;
+      overflow-y: scroll;
+      -webkit-overflow-scrolling: touch;
+    }
+  }
+}
+
+@else {
+  .sidebar-right {
+      display:none;
+  }
+}
+
+
+.sidebar-main {
+  padding-bottom: 6em;
+  background-color:#365a71;
+    background-color:#b23e3a ;
+}
+.navigation-menu-button {
+    color: #CCC;
+    cursor: pointer;
+    display: block;
+    //position: absolute;
+    //top: 0;
+    //left: 4px;
+    font-family: $sans-serif;
+    font-weight: 700;
+    line-height: 1.4;
+    margin: 0;
+    padding-right: 1em;
+    text-transform: uppercase;
+
+    @include media ($large-screen) {
+      display: none;
+    }
+}
+ul.icons li {display: inline;}

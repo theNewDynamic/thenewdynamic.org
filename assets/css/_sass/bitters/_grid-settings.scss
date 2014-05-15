@@ -1,0 +1,27 @@
+// Neat Overrides
+///////////////////////////////////////////////////////////////////////////////
+// $column: 90px;
+// $gutter: 30px;
+// $grid-columns: 12;
+// $max-width: em(1088);
+
+// Neat Breakpoints
+///////////////////////////////////////////////////////////////////////////////
+$medium-screen: em(640);
+$large-screen: em(860);
+
+
+//// viewport breakpoints idea from sassparilla, vp= viewport
+$a-vp: em(300);	// first viewport
+$b-vp: em(420);	// up one - 
+$c-vp: em(600);	// up two
+$d-vp: em(900);	// up three
+$e-vp: em(1100);	// up four
+$f-vp: em(1300);	// up five
+$ie-fixed-vp: em(980);    // Viewport for IE fixed width
+
+
+$tiny-screen-up: new-breakpoint(min-width $a-vp 4);
+$small-screen-up: new-breakpoint(min-width $b-vp 4);
+$medium-screen-up: new-breakpoint(min-width $c-vp 4);
+$large-screen-up: new-breakpoint(min-width $large-screen 8);

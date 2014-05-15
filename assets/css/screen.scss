@@ -1,0 +1,72 @@
+---
+---
+// getting started
+	// gem install bourbon neat bitters
+	// cd _sass
+	// bitters install 
+	// cd _sass/libs
+	// bourbon install
+	// neat install
+	// if needed, uncomment and change neat directory in bitters/_bitters
+	// refills and add-ons (modules) are installed manually
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300);
+//Required
+@import "libs/_normalize";
+@import "libs/bourbon/bourbon";
+@import "bitters/bitters";
+@import "libs/neat/neat";
+
+// BASIC MODULES
+@import "modules/article";
+@import "modules/code";
+@import "modules/navigation-side";
+@import "modules/fontello";
+
+
+
+	aside.sidebar-description {
+		padding-top: 2em;
+        display: none;
+        @include media($d-vp) {
+            display: block;
+	       
+            }
+    }
+
+
+.icon-twitter {
+	margin-top: 2em;
+}
+
+
+.sidebar-left figure {
+	margin-top: 3em;
+}
+.github-icon-svg,
+.twitter-icon-svg {
+
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  top: 3px;
+}
+
+
+.past-events{
+	margin-top: 4em;
+}
+
+.event {
+	margin:1em auto;
+	border: 0;
+	border-bottom: 1px solid #EEEEEE;
+}
+
+ul.posts li {
+    border-bottom: 1px solid #DDD;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    
+}

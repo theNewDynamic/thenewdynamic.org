@@ -1,0 +1,19 @@
+# Site settings
+title: "{static is} The New Dynamic"
+email: budparr@gmail.com
+description: "Following the Post-CMS paradigm"
+baseurl: ""
+url: "http://budparr.com"
+port: 3575
+
+# Build settings
+markdown: kramdown
+#permalink: pretty
+permalink: /:categories/:title/
+
+username: budparr
+
+
+sass:
+    style: :compressed
+    sass_dir: assets/css/_sass

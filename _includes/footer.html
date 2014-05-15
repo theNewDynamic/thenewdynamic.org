@@ -1,0 +1,35 @@
+<footer id="content-info">
+
+    <ul class="no-bullet">
+      <li class="source-org vcarfd copyright">
+        <a href=""><span class="org fn">{{site.sitename}}</span></a>
+      </li> 
+      <li><a href="http://sonnetmedia.net">site by sonnet media</a></li>   
+    </ul>
+
+</footer>
+<!-- /footer -->
+
+
+<script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+{% comment %}
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.6.0/moment.min.js"></script>
+<script type="text/javascript">{% include calendar.js  %}</script>
+{% endcomment %}
+
+<script>
+  $(function() {
+    var menu = $('.js-mobile-menu');
+    var menuToggle = $('#js-mobile-menu');
+
+    $(menuToggle).on('click', function(e) {
+      e.preventDefault();
+      menu.slideToggle(function(){
+        if(menu.is(':hidden')) {
+          menu.removeAttr('style');
+        }
+      });
+    });
+  });
+</script>

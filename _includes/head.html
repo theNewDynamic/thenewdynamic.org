@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    {% if site.production == true %}
+      <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+    {% else %}
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    {% endif %}
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+
+    <link rel="alternate" type="application/rss+xml" href="/atom.xml" title="RSS Feed">
+
+    <title>{% if page.title %} {{page.title}} - {% endif %} {{site.sitename}}</title>
+      {% if page.url %}
+        <link rel="canonical" href="{{ page.url }}" />
+      {% endif %}
+
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+    <!-- Stylesheets -->
+      {% comment %}
+      ?generated time stamps the css file for cachebusting - it can be turned off in config
+      {% endcomment %}
+      <link href='/assets/css/screen.css' rel='stylesheet' type="text/css" />
+
+
+    {% if site.include_font_awesome %}
+      <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    {% endif %}
+
+
+
+
+      <!--[if lt IE 9]>
+        <script>
+          document.createElement('header');
+          document.createElement('nav');
+          document.createElement('section');
+          document.createElement('article');
+          document.createElement('aside');
+          document.createElement('footer');
+        </script>
+        <script src="/assets/bower_components/html5shiv/dis/html5shiv.js"></script>
+        <script src="/assets/bower_components/respond/dest/respond.min.js"></script>
+      <![endif]-->
+
+      <!--[if lte IE 7]>
+        <link rel="stylesheet" media="all" href="http://universal-ie6-css.googlecode.com/files/ie6.0.3.css">
+      <![endif]-->
+
+    
+</head>

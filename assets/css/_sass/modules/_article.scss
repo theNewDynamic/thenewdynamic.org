@@ -1,0 +1,28 @@
+article.hentry {
+  padding: 1.5rem;
+  margin:auto;
+  max-width: $d-vp;
+  //min-height: $c-vp;
+  overflow: hidden;
+  header {
+    margin-bottom: .5em;
+  }
+  img {
+  	max-width: 100%;
+  }
+    @include media($medium-screen-up) {
+  	padding: 2rem 5rem;
+  }
+}
+
+hr{
+margin:1em auto;
+border: 0;
+border-top: 1px solid #EEEEEE;
+}
+
+.screen-reader-text { /* Reusable, toolbox kind of class */
+position: absolute;
+top: -9999px;
+left: -9999px;
+}

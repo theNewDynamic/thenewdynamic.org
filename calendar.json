@@ -1,0 +1,23 @@
+---
+layout: none
+---
+{"events": [{% assign first = true %}
+{% for post in site.data.events reversed %}
+    {% if first == false %},{% endif %}
+    {% if first == true %}{% assign first = false %}{% endif %}
+  {
+    "name"    : "{{ post.title }}",
+    "allday"  : "{{ post.allday }}",
+    "start"   : "{{ post.start }}",
+    "end"     : "{{ post.end }}",
+    "starttime"   : "{{ post.start | date: "%I:%M %p"  | downcase }}",
+    "endtime"     : "{{ post.end | date: "%I:%M %p" | downcase }}",
+    "venue"   : "{{ post.venue }}",
+    "address" : "{{ post.address }}",
+    "citystate" : "{{ post.city-state }}", 
+    "website" : "{{ post.website }}",
+    "url"     : "{{ post.url }}",
+    "summary" : "{{ post.summary | strip_html }}"
+  }
+{% endfor %}
+]}
