@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+
+    <link rel="alternate" type="application/rss+xml" href="/atom.xml" title="RSS Feed">
+
+    <title> Markup: Text Alignment -  </title>
+      
+        <link rel="canonical" href="/tests-content/1100-markup-text-alignment/" />
+      
+
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+    <!-- Stylesheets -->
+      
+      <link href='/assets/css/screen.css' rel='stylesheet' type="text/css" />
+
+
+    
+
+
+
+
+      <!--[if lt IE 9]>
+        <script>
+          document.createElement('header');
+          document.createElement('nav');
+          document.createElement('section');
+          document.createElement('article');
+          document.createElement('aside');
+          document.createElement('footer');
+        </script>
+        <script src="/assets/bower_components/html5shiv/dis/html5shiv.js"></script>
+        <script src="/assets/bower_components/respond/dest/respond.min.js"></script>
+      <![endif]-->
+
+      <!--[if lte IE 7]>
+        <link rel="stylesheet" media="all" href="http://universal-ie6-css.googlecode.com/files/ie6.0.3.css">
+      <![endif]-->
+
+    
+</head>
+	<body>
+		<div class="sidebar-left">
+  <aside class="sidebar-main">
+    <h1>
+      <a href="">{static is} The New Dynamic</a>
+    </h1>
+      <p>Following the Post-CMS paradigm</p>  
+      <p class="navigation-menu-button" id="js-mobile-menu"><i class="icon-menu"></i></p>
+    
+  </aside>
+  <aside class="sidebar-description js-mobile-menu">
+      <ul>
+      <li class="nav-sidebar-item"><a href="/">home</a></li>
+      <li class="nav-sidebar-item"><a href="/about/">about</a></li>
+    </ul>
+    
+    <figure>
+    <ul class="icons">    
+    <li>
+      <a href="https://github.com/budparr">
+        <i class="icon-github-squared"></i>
+        <span class="username screen-reader-text">budparr on Github</span>
+      </a>
+    </li>
+    <li>
+      <a href="https://twitter.com/budparr">
+        <i class="icon-twitter-squared"></i>
+        <span class="username screen-reader-text">budparr on Twitter</span>
+      </a>
+    </li>
+</ul>
+  </figure>
+  </aside>
+</div>        
+		<section class="content">
+			<article class="hentry">
+  <header>
+    
+      <h1 class="entry-title">Markup: Text Alignment</h1>
+    
+    
+      <time class='date' datetime="2013-01-09">
+        <small>
+          Wednesday Jan 09, 2013
+        </small>
+      </time>
+    
+  </header>
+  <div class="entry-content prose">
+    <h3>Default</h3>
+<p>This is a paragraph. It should not have any alignment of any kind. It should just flow like you would normally expect. Nothing fancy. Just straight up text, free flowing, with love. Completely neutral and not picking a side or sitting on the fence. It just is. It just freaking is. It likes where it is. It does not feel compelled to pick a side. Leave him be. It will just be better that way. Trust me.</p>
+<h3>Left Align</h3>
+<p style="text-align:left;">This is a paragraph. It is left aligned. Because of this, it is a bit more liberal in it's views. It's favorite color is green. Left align tends to be more eco-friendly, but it provides no concrete evidence that it really is. Even though it likes share the wealth evenly, it leaves the equal distribution up to justified alignment.</p>
+
+<h3>Center Align</h3>
+<p style="text-align:center;">This is a paragraph. It is center aligned. Center is, but nature, a fence sitter. A flip flopper. It has a difficult time making up its mind. It wants to pick a side. Really, it does. It has the best intentions, but it tends to complicate matters more than help. The best you can do is try to win it over and hope for the best. I hear center align does take bribes.</p>
+
+<h3>Right Align</h3>
+<p style="text-align:right;">This is a paragraph. It is right aligned. It is a bit more conservative in it's views. It's prefers to not be told what to do or how to do it. Right align totally owns a slew of guns and loves to head to the range for some practice. Which is cool and all. I mean, it's a pretty good shot from at least four or five football fields away. Dead on. So boss.</p>
+
+<h3>Justify Align</h3>
+<p style="text-align:justify;">This is a paragraph. It is justify aligned. It gets really mad when people associate it with Justin Timberlake. Typically, justified is pretty straight laced. It likes everything to be in it's place and not all cattywampusÂ like the rest of the aligns. I am not saying that makes it better than the rest of the aligns, but it does tend to put off more of anÂ elitistÂ attitude.</p>
+
+  </div>
+    
+ 
+    
+</article>
+
+		</section>
+		<footer id="content-info">
+
+    <ul class="no-bullet">
+      <li class="source-org vcarfd copyright">
+        <a href=""><span class="org fn"></span></a>
+      </li> 
+      <li><a href="http://sonnetmedia.net">site by sonnet media</a></li>   
+    </ul>
+
+</footer>
+<!-- /footer -->
+
+
+<script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+
+
+<script>
+  $(function() {
+    var menu = $('.js-mobile-menu');
+    var menuToggle = $('#js-mobile-menu');
+
+    $(menuToggle).on('click', function(e) {
+      e.preventDefault();
+      menu.slideToggle(function(){
+        if(menu.is(':hidden')) {
+          menu.removeAttr('style');
+        }
+      });
+    });
+  });
+</script>
+
+	</body>
+</html>
+
