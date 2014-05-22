@@ -8,7 +8,7 @@ $include-sidebar-right: false !default;
 $include-sidebar-left: true !default;
 
 //These must be in % values to calculate widths
-$sidebar-width: 17% !default;
+$sidebar-width: 24% !default;
 $sidebar-right-width: 20% !default;
 $sidebar-left-breakpoint: $d-vp !default;
 $sidebar-right-breakpoint: $e-vp !default;
@@ -27,7 +27,7 @@ $sidebar-right-color: #555 !default;
   .content {
     min-width: 0;
     margin-left: 0; //mobile first, nav stays on top
-    
+
     @include media($sidebar-left-breakpoint) {
       min-width: $b-vp; // TODO: change this to more stable variable
       margin-left:  $sidebar-width; // on larger screens, push out content to make way for sidebar

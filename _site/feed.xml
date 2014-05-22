@@ -7,7 +7,7 @@
     <atom:link href="http://budparr.com/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
-        <title>Welcome to the New Dynamic</title>
+        <title>Welcome to {static is} The New Dynamic</title>
         <description>&lt;p&gt;This is the first post. My motivation behind the site is on the &lt;a href=&quot;/about/&quot;&gt;about&lt;/a&gt; page. &lt;/p&gt;
 </description>
         <pubDate>Thu, 15 May 2014 00:00:00 -0400</pubDate>
