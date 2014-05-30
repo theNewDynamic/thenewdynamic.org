@@ -1,5 +1,7 @@
 ---
-title: Welcome to {static is} The New Dynamic
-category: The-Site
+title: "Welcome to {static is} The New Dynamic"
+category: "The-Site"
+published: true
 ---
-This is the first post. My motivation behind the site is on the [about](/about/) page. 
+
+I created {static is} The New Dynamic for the very selfish reason that the more web professionals understand and adopt dynamic sites the better the software and practices will be. ff
