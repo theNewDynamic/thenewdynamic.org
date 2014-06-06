@@ -1,6 +1,16 @@
+{% if include:limit %}
+		{% capture limit %}{{include:limit}}{% endcapture %}
+	{% else %}
+		{% capture limit %}2{% endcapture %}
+{% endif %}
 
-  <ul class="posts">
-    {% for post in site.data.links limit:10 %}
-      <a href="{{ post.link }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+<h1>Links</h1>
+<ul class="posts">
+	{% for post in site.data.links limit:{{limit}} %}
+	  <li><a href="{{ post.link }}"><i class="icon-link-ext small"></i> {{ post.title }}</a>
+	  	<ul>
+	  		<li><span class="small summary">{{post.summary}}</span></li>
+	  	</ul>	
+	    </li>
+	{% endfor %}
+</ul>

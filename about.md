@@ -3,10 +3,6 @@ layout: page
 title: About the Site
 permalink: /about/
 ---
-I've built hundreds of websites over the past dozen years from super simple to the complex. As a long-time user and observer of web publishing technology, and you could say at times a partisan in the CMS wars, I've never been as excited as I am about static site generators and the "Post-CMS world". Why?
-
-
-Copy goes here.
 
 
 

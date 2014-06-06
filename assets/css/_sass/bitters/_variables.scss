@@ -23,17 +23,18 @@ $light-gray: #DDD;
 $light-red: #FBE3E4;
 $light-yellow: #FFF6BF;
 $light-green: #E6EFC2;
+$black: #191919;
 
 
 $heading-color: black;
 $navigation-color-active: red;
 
 // Body Color
-$base-body-color: $blue;//white;
+$base-body-color: #f1f1ed;// $blue;//white;
 
 //  Font Colors
 $base-font-color: $medium-gray;
-$base-accent-color: $blue;
+$base-accent-color: $black;
 
 //  Text Link Colors
 $base-link-color: $base-accent-color;

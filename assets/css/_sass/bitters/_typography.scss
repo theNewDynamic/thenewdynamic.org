@@ -49,9 +49,25 @@ p {
   margin: 0 0 ($base-line-height * .5);
 }
 
+
+
+article p a {
+  background-color: darken($base-body-color, 2%);
+  border: 1px solid darken($base-body-color, 5%);
+  padding-left: .4em;
+  padding-right: .4em;
+
+    &:hover {
+      background-color: darken($base-body-color, 8%);
+    }
+  
+}
+
+
 a {
   color: $base-link-color;
   text-decoration: none;
+  //border-bottom: 1px dashed #ababab;
   @include transition(color 0.1s linear);
 
   &:hover {
@@ -85,6 +101,9 @@ abbr, acronym {
 address {
   display: block;
   margin: 0 0 ($base-line-height / 2);
+}
+small, .small {
+  font-size: .9em;
 }
 
 hgroup {

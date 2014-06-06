@@ -27,9 +27,12 @@
 
 	aside.sidebar-description {
 		padding-top: 2em;
-        display: none;
+		display: none;
         @include media($d-vp) {
             display: block;
+            height: 280px;
+		max-height: 280px;
+        
 	       
             }
     }
@@ -68,11 +71,41 @@
 	border-bottom: 1px solid #EEEEEE;
 }
 ul.posts {
-    margin-bottom: 4em;
+    //margin-bottom: 1em;
 }
 ul.posts li {
-    border-bottom: 1px solid #DDD;
-    padding-top: 1.5em;
-    padding-bottom: 1.5em;
+    //border-bottom: 1px solid #DDD;
+     padding-top: 1em;
+    // padding-bottom: 0;
+    padding-left: 1.3em;
+    text-indent: -1.3em;
     
+}
+
+ul.posts li ul li {
+	padding-bottom: 1.5em;
+	//padding-left: 1.6em;
+	//text-indent: 0;
+
+}
+
+body {
+	background-color: $base-body-color;
+}
+
+.top {
+	height: auto;
+	overflow: hidden;
+	padding: 1em;
+	background-color: darken($base-body-color, 5%);	
+	 @include media($d-vp) {
+    padding: 1em 9.8em;
+	max-height: 272px;   
+	height: 280px;    
+            }
+	
+	
+
+h1 {padding-left: .6em;}
+
 }

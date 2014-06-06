@@ -2,6 +2,12 @@
 layout: default
 section: page
 ---
+{% if page.include_before %}
+  <section class="top">
+    {% include {{page.include_before}} %}
+  </section>
+{% endif %}
+
 <article class="hentry">
   <header>
     {% if page.title %}
@@ -21,6 +27,4 @@ section: page
     {% if page.include %}
       {% include {{page.include}} %}
     {% endif %}
- 
-    
-</article>
+ </article>
