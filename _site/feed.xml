@@ -7,23 +7,6 @@
     <atom:link href="http://www.thenewdynamic.com//feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
-        <title>Static Site Hosting Solutions</title>
-        <description>&lt;p&gt;&lt;em&gt;this post will be updated from time to time. Latest update August 2, 2014&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;One of the great things about static sites is that they can be hosted on &lt;em&gt;any&lt;/em&gt; server. But there are some considerations to think about to get the best performance and ease of use:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Ease of deployment&lt;/li&gt;
-  &lt;li&gt;Handling of cached resources&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Wed, 02 Jul 2014 00:00:00 -0400</pubDate>
-        <link>http://www.thenewdynamic.com//resource/static-site-web-hosts/</link>
-        <guid isPermaLink="true">http://www.thenewdynamic.com//resource/static-site-web-hosts/</guid>
-      </item>
-    
-      <item>
         <title>Welcome to {static is} The New Dynamic</title>
         <description>&lt;p&gt;The purpose of this site is to promote the use of static site generators for people who build websites. I hope to fill the site out and as it grows add functionality to to make it easy to find resources and information related to the top static site generators.&lt;/p&gt;
 
