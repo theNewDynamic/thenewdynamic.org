@@ -16,6 +16,11 @@ Soon, I will make the tags live links and add search and other functionality.
 
 This site is built with [Jekyll](http://jekyllrb.com/) with my own [theme](https://github.com/budparr/jekyll-on-the-rocks) coded by hand in Sublime Text and is published to [Github Pages](https://pages.github.com/).
 
+As if August 2, 2014, this site's ["PageSpeed Insights"](https://developers.google.com/speed/pagespeed/insights/) score is 94/100 for desktop and 87/100 for mobile, with 98/100 for user experience. That's tested on an interior page without the twitter feed and the insights tool's primary complaint is that I'm not using "browser caching," but that's not possible with Github Pages as host. My favorite site on the subject is Patrick Sexton's ["Feedthebot"](http://www.feedthebot.com/pagespeed/)
+
+Of course, PageSpeed Insights doesn't actually test for the speed of a site, just its configuration. A quick ["WebPageTest"](http://www.webpagetest.org/) test from an east coast location (I'm based in New York City) shows load times of 1.096s for first load and 0.523s for subsequent loads and about 1/3rd of a second longer from the west coast. This is a simple and lightweight site, so I wouldn't call these "real world" test examples, but I'd venture that an uncached site similarly constructed on the world's most popular blogging software wouldn't get the same results on a typical hosting set up.
+
+
 I have a branch of this site published to an [AWS](http://aws.amazon.com/) S3 bucket, using [@laurilehmijoki's](https://github.com/laurilehmijoki) excellent [S3_website gem](https://github.com/laurilehmijoki/s3_website) and [Travis Continuous Integration](https://travis-ci.org/) Service to push my builds from Github to S3. Here are some tutorials:
 
 - ["Host a static site on Amazon S3 & deploy with Github & Travis", by Charles Lirsac and the gang from nowhere becaause there ti s no sumehwere](http://lirsac.me/blog/host-on-amazon-s3-and-deploy-with-github-and-travis/)
