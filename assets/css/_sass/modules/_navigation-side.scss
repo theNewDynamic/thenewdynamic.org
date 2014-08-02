@@ -4,19 +4,19 @@
 
 // =============== VARIABLES ===============
 
-$include-sidebar-right: false !default;
+$include-sidebar-right: true !default;
 $include-sidebar-left: true !default;
 
 //These must be in % values to calculate widths
-$sidebar-width: 26% !default;
-$sidebar-right-width: 20% !default;
+$sidebar-width: 24% !default;
+$sidebar-right-width: 22% !default;
 $sidebar-left-breakpoint: $d-vp !default;
 $sidebar-right-breakpoint: $e-vp !default;
 
 $sidebar-color-background:#000000;// #933330;//#2e4c60  !default;
 $sidebar-color: #969696 !default;
 
-$sidebar-right-color-background: transparent;//#000 !default;
+$sidebar-right-color-background: #ededed;//transparent;//#000 !default;
 $sidebar-right-color: #555 !default;
 
 
