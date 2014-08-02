@@ -3,8 +3,9 @@ layout: default
 section: full-width
 ---
 <section>
+{% if page.title %}
   <header>
-    {% if page.title %}
+
       <h1 class="entry-title">{{page.title}}</h1>
     {% endif %}
     {% if page.date %}
@@ -13,14 +14,15 @@ section: full-width
           {{ page.date | date:'%A %b %d, %Y' }}
         </small>
       </time>
-    {% endif %}
+
   </header>
+  {% endif %}
   <div class="entry-content prose">
     {{ content }}
   </div>
     {% if page.include %}
       {% include {{page.include}} %}
     {% endif %}
- 
-    
+
+
 </section>

@@ -84,6 +84,10 @@ ul.posts li {
 
 }
 
+body.full-width section header {
+	padding:2em 2em 0 6em;
+}
+
 ul.posts li ul li {
 	padding-bottom: .5em;
 	padding-top:0.25em;
@@ -95,8 +99,12 @@ ul.posts li ul li {
 .post-box {
 	background-color: #ededed;
 	width: 100%;
-	padding:2em 2em 2em 6em;
 
+
+}
+
+body.home .post-box {
+		padding:2em 2em 2em 6em;
 }
 .post-box-odd {
 	background-color: $base-body-color;
