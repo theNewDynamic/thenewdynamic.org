@@ -23,6 +23,9 @@ section: page
   </header>
   <div class="entry-content prose">
     {{ content }}
+    {% include authors.html %}
+    <hr />
+    {% include sharing.html %}
   </div>
     {% if page.include %}
       {% include {{page.include}} %}

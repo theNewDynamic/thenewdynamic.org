@@ -54,7 +54,7 @@
 
     
 </head>
-	<body class="page">
+	<body class="full-width">
 		<div class="sidebar-left">
   <aside class="sidebar-main">
     <h1>
@@ -91,17 +91,26 @@
   </aside>
 </div>
 		<section class="content">
-			
+			<section>
 
-<article class="hentry">
   <header>
-    
+
       <h1 class="entry-title">Archive</h1>
     
     
-  </header>
   <div class="entry-content prose">
-    <div class="list">
+    <div class="post-box post-box-odd">
+	
+		<h5 class="title">
+			<a href="/resource/static-site-web-hosts/">
+				Static Site Hosting Solutions
+			</a>
+		<br />
+		<small>
+			July 02, 2014
+		</small>
+	</h5>
+		<hr />
 	
 		<h5 class="title">
 			<a href="/the-site/welcome-to-the-new-dynamic/">
@@ -115,7 +124,7 @@
 		<hr />
 	
 		<h5 class="title">
-			<a href="/for%20developers%20and%20designers/the-no-db-landscape/">
+			<a href="/tools/the-no-db-landscape/">
 				The No-db Landscape (part 1)
 			</a>
 		<br />
@@ -129,9 +138,31 @@
 
   </div>
     
- </article>
+
+
+</section>
 
 		</section>
+		
+
+<script type="text/javascript">
+function downloadJSAtOnload() {
+  var element = document.createElement("script");
+  element.src = "/assets/js/scripts.js";
+  document.body.appendChild(element);
+  var element_addthis = document.createElement("script");
+  element_addthis.src = "//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-500704bf6eb0a4da";
+  document.body.appendChild(element_addthis);
+}
+if (window.addEventListener)
+window.addEventListener("load", downloadJSAtOnload, false);
+else if (window.attachEvent)
+window.attachEvent("onload", downloadJSAtOnload);
+else window.onload = downloadJSAtOnload;
+</script>
+
+
+
 	</body>
 </html>
 

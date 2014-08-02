@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: full-width
 title: Archive
 permalink: /archive/
 #include: "snippets/news.html"
@@ -7,7 +7,7 @@ sharing: false
 published: true
 ---
 
-<div class="list">
+<div class="post-box post-box-odd">
 	{% for news in site.posts limit:250 %}
 		<h5 class="title">
 			<a href="{{ news.url }}">

@@ -4,7 +4,7 @@ layout: page
 tags:
   - Static Site Generators
 categories:
-  - For Developers and Designers
+  - tools
 class: dev
 published: true
 ---

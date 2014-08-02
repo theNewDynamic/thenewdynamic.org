@@ -122,6 +122,26 @@
 </section>
 
 		</section>
+		
+
+<script type="text/javascript">
+function downloadJSAtOnload() {
+  var element = document.createElement("script");
+  element.src = "/assets/js/scripts.js";
+  document.body.appendChild(element);
+  var element_addthis = document.createElement("script");
+  element_addthis.src = "//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-500704bf6eb0a4da";
+  document.body.appendChild(element_addthis);
+}
+if (window.addEventListener)
+window.addEventListener("load", downloadJSAtOnload, false);
+else if (window.attachEvent)
+window.attachEvent("onload", downloadJSAtOnload);
+else window.onload = downloadJSAtOnload;
+</script>
+
+
+
 	</body>
 </html>
 

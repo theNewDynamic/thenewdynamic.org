@@ -1,0 +1,56 @@
+{% assign authors = site.data.authors | sort: 'last' %}
+<dl>
+  {% for author in authors %}
+    <div class="content-block">
+      <dt id="{{ author.twitter }}">
+        {{ author.name }}{% if author.position %} - {{ author.position }}{% endif %}
+
+      <a href="https://github.com/{{ author.github }}">
+        <i class="icon-github-squared"></i>
+        <span class="username screen-reader-text">Github</span>
+      </a>
+      <a href="https://twitter.com/{{ author.twitter }}">
+        <i class="icon-twitter-squared"></i>
+        <span class="username screen-reader-text">Twitter</span>
+      </a>
+
+      </dt>
+      {% if author.bio %}
+        <dd>
+          {{ author.bio | markdownify }}
+        </dd>
+      {% endif %}
+      <ul class="no-bullet small">
+      {% capture id %}{{ author.twitter }}{% endcapture %}
+        {% assign articles = site.response %}
+        {% for post in articles %}
+          {% if post.authors contains id %}
+
+          {% if forloop.first %}
+            <strong><small>Articles:</small></strong>
+          {% endif %}
+          <li>
+            <a href='{{post.url}}'>{{ post.title }}</a>
+          </li>
+          {% endif %}
+
+
+
+        {% endfor %}
+      </ul>
+    </div>
+  {% endfor %}
+</dl>
+
+
+
+<!--
+
+{% for article_authors in post.authors %}
+  {% assign author_data = site.data.authors | where: 'twitter', article_authors %}
+    {% for author in author_data %}
+    {{ author.name | markdownify | remove: '<p>' | remove: '</p>'  }}{% if author.position  %} - {{ author.position | markdownify | remove: '<p>' | remove: '</p>'  }}{% endif %}
+    {% endfor %}
+    {% unless forloop.last %}, {% endunless %}
+{% endfor %}
+ -->

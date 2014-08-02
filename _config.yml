@@ -12,7 +12,7 @@ markdown: kramdown
 permalink: /:categories/:title/
 
 username: budparr
-
+addthis_id: ra-500704bf6eb0a4da
 
 sass:
     style: :compressed
@@ -24,3 +24,4 @@ defaults:
       path: "" # empty string for all files
     values:
       layout: "page"
+      authors: budparr
