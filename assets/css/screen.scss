@@ -85,7 +85,10 @@ ul.posts li {
 }
 
 body.full-width section header {
-	padding:2em 2em 0 6em;
+		padding:2em 2em 0 2em;
+	@include media($medium-screen-up) {
+		padding:2em 2em 0 6em;
+	}
 }
 
 ul.posts li ul li {
@@ -95,16 +98,17 @@ ul.posts li ul li {
 	//text-indent: 0;
 
 }
-
 .post-box {
 	background-color: #ededed;
 	width: 100%;
-
-
 }
 
-body.home .post-box {
+.post-box {
+		padding:2em 2em 2em 2em;
+	@include media($medium-screen-up) {
 		padding:2em 2em 2em 6em;
+	}
+
 }
 .post-box-odd {
 	background-color: $base-body-color;
@@ -133,10 +137,6 @@ body {
 	height: 280px;
             }
 
-.right {
-	text-align:right;
-	float:right;
-}
 
 h1 {padding-left: .6em;}
 
