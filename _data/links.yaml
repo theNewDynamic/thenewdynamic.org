@@ -1,6 +1,5 @@
 ---
--
-  title: "GitHub Pages now runs Jekyll 2.2.0"
+- title: "GitHub Pages now runs Jekyll 2.2.0"
   summary: "Long awaited upgrade to GH-Pages to run the post 2.x Jeyll"
   link: "https://github.com/blog/1867-github-pages-now-runs-jekyll-2-2-0"
   tags: "Github, hosting, Jekyll"
@@ -9,6 +8,11 @@
   link: http://www.webhook.com/blog/release-notes-webhook-now-open-to-all/
   summary: "After a private beta for Kickstarter backers, the fully hosted static site generator Webhook is available to the public"
   tags: "Webhook, static site generators"
+
+- title: "Jekyll-hook Updated; Run your own Github Pages"
+  link: "http://developmentseed.org/blog/2014/07/23/jekyll-hook/"
+  summary: "Jekyll-hook is a Node-js server that can build a Jekyll site whenever a commit is pushed to a GitHub repository. Use it instead of GitHub Pages when you need to host a site on your own infrastructure"
+  tags: "Jekyll, static site generators, Development Seed"
 
 - title: "Prismic"
   link: http://aworkinglibrary.com/writing/index-cards/
