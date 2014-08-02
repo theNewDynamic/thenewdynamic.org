@@ -43,14 +43,14 @@ $sidebar-right-color: #555 !default;
     text-align: center;
     padding: 0;
     background-color: $sidebar-color-background;
-    color: $sidebar-color;
+    color: wheat;///$sidebar-color;
 
 aside {
   padding: 2em 3em;
 }
 
     a {
-      color: lighten($sidebar-color, 20%); // TODO: Replace with variable
+      color: lighten($sidebar-color, 25%); // TODO: Replace with variable
     }
       /* Sidebar nav */
       .nav-sidebar {
@@ -90,6 +90,8 @@ aside {
       h1 {
         margin-bottom: 1em;
         margin-top: 1em;
+        font-weight: 700;
+        a {color: #492505;}
       }
       -webkit-overflow-scrolling: touch;
     }

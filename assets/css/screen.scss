@@ -3,18 +3,18 @@
 // getting started
 	// gem install bourbon neat bitters
 	// cd _sass
-	// bitters install 
+	// bitters install
 	// cd _sass/libs
 	// bourbon install
 	// neat install
 	// if needed, uncomment and change neat directory in bitters/_bitters
 	// refills and add-ons (modules) are installed manually
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700);
 //Required
 @import "libs/_normalize";
 @import "libs/bourbon/bourbon";
-@import "bitters/bitters";
+@import "base/base";
 @import "libs/neat/neat";
 
 // BASIC MODULES
@@ -32,8 +32,8 @@
             display: block;
             height: 280px;
 		max-height: 280px;
-        
-	       
+
+
             }
     }
 
@@ -45,7 +45,7 @@
 .small {
          font-size: .8em;
      }
- 
+
 
 .sidebar-left figure {
 	margin-top: 3em;
@@ -79,7 +79,7 @@ ul.posts li {
     // padding-bottom: 0;
     padding-left: 1.3em;
     text-indent: -1.3em;
-    
+
 }
 
 ul.posts li ul li {
@@ -97,14 +97,14 @@ body {
 	height: auto;
 	overflow: hidden;
 	padding: 1em;
-	background-color: darken($base-body-color, 5%);	
+	background-color: darken($base-body-color, 5%);
 	 @include media($d-vp) {
     padding: 1em 9.8em;
-	max-height: 272px;   
-	height: 280px;    
+	max-height: 272px;
+	height: 280px;
             }
-	
-	
+
+
 
 h1 {padding-left: .6em;}
 

@@ -9,12 +9,12 @@ max_age:
   "public/*": 6000
   "*": 300
 
-# gzip:
-#   - .html
+gzip:
+  - .html
 #   - .css
 #   - .md
 
-# s3_endpoint: us-east-1
+s3_endpoint: us-east-1
 
 
 s3_reduced_redundancy: true
