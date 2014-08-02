@@ -21,8 +21,8 @@ $light-yellow: #FFF6BF;
 $light-green: #E6EFC2;
 
 // Background Color
-$base-background-color: white;
-$base-body-color: #f1f1ed;// $blue;//white;
+$base-background-color: #f7f7f7;//white;
+$base-body-color: $base-background-color;//#f1f1ed;// $blue;//white;
 
 // Font Colors
 $base-font-color: $dark-gray;

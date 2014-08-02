@@ -8,16 +8,18 @@ $include-sidebar-right: false !default;
 $include-sidebar-left: true !default;
 
 //These must be in % values to calculate widths
-$sidebar-width: 24% !default;
+$sidebar-width: 26% !default;
 $sidebar-right-width: 20% !default;
 $sidebar-left-breakpoint: $d-vp !default;
 $sidebar-right-breakpoint: $e-vp !default;
 
-$sidebar-color-background: #933330;//#2e4c60  !default;
+$sidebar-color-background:#000000;// #933330;//#2e4c60  !default;
 $sidebar-color: #969696 !default;
 
 $sidebar-right-color-background: transparent;//#000 !default;
 $sidebar-right-color: #555 !default;
+
+
 
 
 // =============== LEFT SIDEBAR ===============
@@ -44,6 +46,11 @@ $sidebar-right-color: #555 !default;
     padding: 0;
     background-color: $sidebar-color-background;
     color: wheat;///$sidebar-color;
+
+    background: url(/assets/img/Ferrari_Formula_1_lineup6.jpg);
+        background-repeat: no-repeat;
+        background-position:70% center;
+
 
 aside {
   padding: 2em 3em;
@@ -90,8 +97,8 @@ aside {
       h1 {
         margin-bottom: 1em;
         margin-top: 1em;
-        font-weight: 700;
-        a {color: #492505;}
+        //font-weight: 700;
+        a {color: #f7f7f7;}
       }
       -webkit-overflow-scrolling: touch;
     }
@@ -164,11 +171,11 @@ aside {
 }
 
 
-.sidebar-main {
-  padding-bottom: 6em;
-  background-color:#365a71;
-    background-color:#b23e3a ;
-}
+// .sidebar-main {
+//   padding-bottom: 6em;
+//   background-color:#365a71;
+//     background-color:#b23e3a ;
+// }
 .navigation-menu-button {
     color: #CCC;
     cursor: pointer;

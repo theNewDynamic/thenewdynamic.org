@@ -60,21 +60,22 @@
     <h1>
       <a href="">{static is} The New Dynamic</a>
     </h1>
-      <p>Following the Post-CMS paradigm</p>  
+      <p>Following the Post-CMS paradigm</p>
       <p class="navigation-menu-button" id="js-mobile-menu"><i class="icon-menu"></i></p>
-    
+
   </aside>
   <aside class="sidebar-description js-mobile-menu">
       <ul>
       <li class="nav-sidebar-item"><a href="/">home</a></li>
       <li class="nav-sidebar-item"><a href="/about/">about</a></li>
       <li class="nav-sidebar-item"><a href="/links/">links</a></li>
+      <li class="nav-sidebar-item"><a href="/resources/">resources</a></li>
     </ul>
-    
+
     <figure>
-    <ul class="icons">    
+    <ul class="icons">
     <li>
-      <a href="https://github.com/budparr">
+      <a href="https://github.com/budparr/thenewdynamic">
         <i class="icon-github-squared"></i>
         <span class="username screen-reader-text">budparr on Github</span>
       </a>
@@ -88,7 +89,7 @@
 </ul>
   </figure>
   </aside>
-</div>        
+</div>
 		<section class="content">
 			
 
@@ -114,38 +115,6 @@
  </article>
 
 		</section>
-		<footer id="content-info">
-
-    <ul class="no-bullet">
-      <li class="source-org vcarfd copyright">
-        <a href=""><span class="org fn"></span></a>
-      </li> 
-      <li><a href="http://sonnetmedia.net">site by sonnet media</a></li>   
-    </ul>
-
-</footer>
-<!-- /footer -->
-
-
-<script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
-
-
-<script>
-  $(function() {
-    var menu = $('.js-mobile-menu');
-    var menuToggle = $('#js-mobile-menu');
-
-    $(menuToggle).on('click', function(e) {
-      e.preventDefault();
-      menu.slideToggle(function(){
-        if(menu.is(':hidden')) {
-          menu.removeAttr('style');
-        }
-      });
-    });
-  });
-</script>
-
 	</body>
 </html>
 

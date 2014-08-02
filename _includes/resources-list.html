@@ -4,7 +4,7 @@
 		{% capture limit %}2{% endcapture %}
 {% endif %}
 <ul class="posts">
-	{% for post in site.data.links limit:{{limit}} %}
+	{% for post in site.data.resources limit:{{limit}} %}
 	  {% include list-format.html %}
 	{% endfor %}
 </ul>

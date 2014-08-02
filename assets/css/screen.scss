@@ -34,6 +34,7 @@
 		max-height: 280px;
 
 
+
             }
     }
 
@@ -72,6 +73,7 @@
 }
 ul.posts {
     //margin-bottom: 1em;
+
 }
 ul.posts li {
     //border-bottom: 1px solid #DDD;
@@ -83,10 +85,29 @@ ul.posts li {
 }
 
 ul.posts li ul li {
-	padding-bottom: 1.5em;
+	padding-bottom: .5em;
+	padding-top:0.25em;
 	//padding-left: 1.6em;
 	//text-indent: 0;
 
+}
+
+.post-box {
+	background-color: #ededed;
+	width: 100%;
+	padding:2em 2em 2em 6em;
+
+}
+.post-box-odd {
+	background-color: $base-body-color;
+
+
+}
+small {
+	font-size:75%;
+}
+h2 small {
+	font-size:50%;
 }
 
 body {

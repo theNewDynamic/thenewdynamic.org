@@ -1,0 +1,7 @@
+<li><a href="{{ post.link }}"><i class="icon-link-ext small"></i> {{ post.title }}</a><small>{% if post.tags %} [{{ post.tags }}]{% endif %}</small>
+{% if post.summary %}
+<ul>
+<li><span class="small summary">{{post.summary}}</span></li>
+</ul>
+{% endif %}
+</li>
