@@ -24,6 +24,10 @@
   summary: "Presented by Michael Bleigh at JSLA on Thursday April 24th 2014: Building with a separated front and back end makes your applications more scalable, flexible, and modular. Learn the ropes of Service-Oriented Architecture, CORS, authentication, and more for static web apps."
   tags: "static apps"
 
+- title: What will be the future of Docpad?
+  link: "https://github.com/bevry/docpad/issues/821"
+  tags: "static site generators, Docpad"
+
 - title: "Mandy Brown takes a purist's approach to publishing online, with Jekyll"
   link: http://aworkinglibrary.com/writing/index-cards/
   summary:
