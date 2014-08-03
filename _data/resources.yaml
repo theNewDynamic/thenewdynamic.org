@@ -3,3 +3,7 @@
   link: "http://www.staticgen.com/"
   summary: "A one-stop listing of open source static site generators"
   tags: "static site generators, open source"
+
+- title: "How to use Tags and Categories [with Jekyll] on Github Pages without Plugins"
+  link: http://www.minddust.com/post/tags-and-categories-on-github-pages/
+  tags: "tutorial, Jekyll, Github Pages"
