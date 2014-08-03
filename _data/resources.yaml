@@ -21,3 +21,9 @@
   source: Tuts+
   link: "http://webdesign.tutsplus.com/articles/introduction-to-webhook-custom-cms-and-website-builder--cms-21481"
   tags: "tutorial, Webhook"
+
+- title: "Getting to Know Metalsmith"
+  source: "Robin Thrift"
+  summary: "First in a series of tutorials on Metalsmith.io"
+  link: "http://www.robinthrift.com/posts/getting-to-know-metalsmith/"
+  tags: "tutorial, Metalsmith.io"
