@@ -12,3 +12,7 @@
   source: Smashing Magazine
   link: http://www.smashingmagazine.com/2014/08/01/build-blog-jekyll-github-pages/
   tags: "tutorial, Jekyll, Github Pages"
+
+- title: "A Field Guide to Static Apps"
+  link: "http://www.staticapps.org/"
+  tags: "static apps"
