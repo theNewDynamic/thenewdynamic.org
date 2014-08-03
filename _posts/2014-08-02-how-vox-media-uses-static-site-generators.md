@@ -12,3 +12,5 @@ Read the rest at [Vox Media's Product blog](http://product.voxmedia.com/2014/7/2
 This is interesting for a lot of reasons. Vox is, aside even from their publishing efforts, is on the forefront of content management with their Chorus CMS, so I'm happy to hear that static sites fit into their vision. I'm also interested to hear that their using Google Spreadsheets for data. As easy as I find Markdown documents and YAML lists, not everyone feels comfortable with them and a spreadsheet is comfortable and certainly good for some data, and, of course, using Google Spreadsheets has the benefit of being great for collaboration.
 
 I've seen others use this approach. Jim Pravetz used GS for an online shop and wrote about it on his blog [("Generating Jekyll Pages From Data")](http://jimpravetz.com/blog/2011/12/generating-jekyll-pages-from-data/), though I believe he's now using Shopify for that site now. Coderwall has a brief tutorial on ["Use a Google Spreadsheet as your JSON backend"](https://coderwall.com/p/duapqq) too.
+
+Vox has made the source code for the [Verge-50 site](https://github.com/voxmedia/verge-50) public so anyeone can benefit from their work.
