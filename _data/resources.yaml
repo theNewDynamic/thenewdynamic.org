@@ -7,3 +7,8 @@
 - title: "How to use Tags and Categories [with Jekyll] on Github Pages without Plugins"
   link: http://www.minddust.com/post/tags-and-categories-on-github-pages/
   tags: "tutorial, Jekyll, Github Pages"
+
+- title: "Build A Blog With Jekyll And GitHub Pages"
+  source: Smashing Magazine
+  link: http://www.smashingmagazine.com/2014/08/01/build-blog-jekyll-github-pages/
+  tags: "tutorial, Jekyll, Github Pages"

@@ -1,7 +1,22 @@
-<li><a href="{{ post.link }}"><i class="icon-link-ext small"></i> {{ post.title }}</a><small>{% if post.tags %} [{{ post.tags }}]{% endif %}</small>
-{% if post.summary %}
-<ul>
-<li><span class="small summary">{{post.summary}}</span></li>
-</ul>
-{% endif %}
+<li>
+	<a href="{{ post.link }}">
+		<i class="icon-link-ext small"></i> {{ post.title }}
+	</a>
+	{% if post.source %} <small>{{ post.source }}</small>{% endif %}
+	{% if post.summary or post.tags %}
+		<ul>
+	{% endif %}
+	{% if post.summary %}
+		<li>
+			<span class="small summary">{{post.summary}}</span>
+		</li>
+	{% endif %}
+	{% if post.tags %}
+		<li>
+			<small>[{{ post.tags }}]</small>
+		</li>
+	{% endif %}
+	{% if post.summary or post.tags %}
+		</ul>
+	{% endif %}
 </li>
