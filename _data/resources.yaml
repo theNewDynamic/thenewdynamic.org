@@ -27,3 +27,9 @@
   summary: "First in a series of tutorials on Metalsmith.io"
   link: "http://www.robinthrift.com/posts/getting-to-know-metalsmith/"
   tags: "tutorial, Metalsmith.io"
+
+- title: "Advanced Jekyll Plugins & Features - Custom Post Types, Category Pages, Pagination, and More"
+  source: "Divshot"
+  summary: "[ed note: pre-Jeyll 2.x] In this article I'm going to discuss some of the unique ways we've tweaked Jekyll to create an advanced blog with custom post types, post type pagination, post type filters and more. I'll introduce you to the plugins we use and share a few things I've written along the way."
+  link: "http://www.divshot.com/blog/web-development/advanced-jekyll-features/"
+  tags: "Jekyll"
