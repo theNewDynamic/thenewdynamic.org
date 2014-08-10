@@ -17,7 +17,7 @@ Aside from the technilogical baggage inherent in most CMSs, the practical usage 
 Contrast this with the typical static site generator, you'd 1) install the software and any dependencies (typically this takes inside of 60 seconds), 2) dump your content in a folder, and 3) start templating. The entire process is a matter of minutes, not hours or days. My example is simplistic, but I've done this. I've taken content in bunch of text files and have freely moved them from one application to the next to find the best fit. In this world you are rewarded for experimentation. 
 
 
-One of the best exemplars of this approach is the static site generator [Metalsmith.io](http://www.metalsmith.io/). Just launched in March of this year, Metalsmith, built on node.js, is as sophisticated as it is simple, owing to its "everything is a plugin" philosophy. 
+One of the best exemplars of this approach is the static site generator [Metalsmith.io](http://www.metalsmith.io/). Just launched in March of this year, Metalsmith, built on node.js, is as sophisticated as it is simple, owing to its "everything is a plugin" philosophy. The Metalsmith site provides some examples, like ebook generator and build tool, and its creator Ian Storm Taylor nicely laid out his use own cases on [Hacker News](https://news.ycombinator.com/item?id=7363734) to demonstrate their thinking. 
 
 
 
