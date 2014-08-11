@@ -10,7 +10,7 @@
   tags: "Webhook, static site generators"
 
 - title: "Jekyll-hook Updated; Run your own Github Pages"
-  link: "http://developmentseed.org/blog/2014/07/23/jekyll-hook/"
+  link: "http://developmentseed.org/blog-2014/blog/2014/07/23/jekyll-hook/"
   summary: "Jekyll-hook is a Node-js server that can build a Jekyll site whenever a commit is pushed to a GitHub repository. Use it instead of GitHub Pages when you need to host a site on your own infrastructure"
   tags: "Jekyll, static site generators, Development Seed"
 
