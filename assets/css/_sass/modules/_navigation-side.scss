@@ -13,7 +13,7 @@ $sidebar-right-width: 22% !default;
 $sidebar-left-breakpoint: $d-vp !default;
 $sidebar-right-breakpoint: $e-vp !default;
 
-$sidebar-color-background:#000000;// #933330;//#2e4c60  !default;
+$sidebar-color-background:#933330;// #933330;//#2e4c60  !default;
 $sidebar-color: #969696 !default;
 
 $sidebar-right-color-background: #ededed;//transparent;//#000 !default;
@@ -47,7 +47,7 @@ $sidebar-right-color: #555 !default;
     background-color: $sidebar-color-background;
     color: wheat;///$sidebar-color;
 
-    background: url(/assets/img/Ferrari_Formula_1_lineup.jpg);
+    //background: url(/assets/img/Ferrari_Formula_1_lineup.jpg);
         background-repeat: no-repeat;
         background-position:70% center;
 

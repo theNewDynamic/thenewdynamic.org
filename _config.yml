@@ -1,7 +1,7 @@
 # Site settings
 sitename: "{static is} The New Dynamic"
 email: budparr@gmail.com
-tagline: "Following the Post-CMS paradigm"
+tagline: "Static Site Generators and the Post-CMS paradigm"
 description: "{static is} The New Dynamic is a site for news and resources for static site generators, such as Jekyll, following the post-CMS paradigm"
 baseurl: ""
 url: "http://www.thenewdynamic.com"
