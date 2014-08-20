@@ -1,4 +1,9 @@
 ---
+- title: "The Changelog #125: Jekyll with Parker Moore"
+  summary: "Lots of Jekyll talk with one of the project owners"
+  link: "http://thechangelog.com/125/"
+  tags: "Jekyll, Prose.io, Github Pages, Divshot"
+
 - title: "GitHub Pages now runs Jekyll 2.2.0"
   summary: "Long awaited upgrade to GH-Pages to run the post 2.x Jeyll"
   link: "https://github.com/blog/1867-github-pages-now-runs-jekyll-2-2-0"
