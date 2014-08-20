@@ -1,4 +1,3 @@
-
 ---
 title: The Post-CMS Landscape
 layout: page
