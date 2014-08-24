@@ -8,7 +8,7 @@
 	{% endif %}
 	{% if post.summary %}
 		<li>
-			<span class="small summary">{{post.summary}}</span>
+			<span class="small summary">{{post.summary | markdownify | remove: '<p>' | remove: '</p>'  }}</span>
 		</li>
 	{% endif %}
 	{% if post.tags %}

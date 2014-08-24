@@ -1,4 +1,8 @@
 ---
+- title: "Lunr.js"
+  link: "http://lunrjs.com/"
+  summary: "Simple full-text search in your browser, with plugins for [Jekyll](https://github.com/slashdotdash/jekyll-lunr-js-search) and [Metalsmith](https://github.com/CMClay/metalsmith-lunr)"
+  tags: "search, Jekyll, Metalsmith" 
 - title: "StaticGen"
   link: "http://www.staticgen.com/"
   summary: "A one-stop listing of open source static site generators"
