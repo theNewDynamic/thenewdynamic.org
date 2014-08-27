@@ -26,6 +26,12 @@
   link: "http://webdesign.tutsplus.com/articles/introduction-to-webhook-custom-cms-and-website-builder--cms-21481"
   tags: "tutorial, Webhook"
 
+- title: "Static Websites with Jekyll"
+  source: Mijingo
+  link: "https://mijingo.com/products/screencasts/jekyll-static-websites-tutorial/"
+  summary: "pre-2.x"
+  tags: "Tutorial, Jekyll"
+
 - title: "Getting to Know Metalsmith"
   source: "Robin Thrift"
   summary: "First in a series of tutorials on Metalsmith.io"
