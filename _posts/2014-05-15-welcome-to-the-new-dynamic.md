@@ -4,7 +4,7 @@ category: "The-Site"
 published: true
 authors: 
   - budparr
-layout: blog
+layout: page
 ---
 
 ![mexico-map.jpg](/assets/img/mexico-map.jpg)
