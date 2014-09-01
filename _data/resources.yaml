@@ -29,8 +29,18 @@
 - title: "Static Websites with Jekyll"
   source: Mijingo
   link: "https://mijingo.com/products/screencasts/jekyll-static-websites-tutorial/"
-  summary: "pre-2.x"
+  summary: "(pre-2.0)"
   tags: "Tutorial, Jekyll"
+
+- title: "Jekyll videos"
+  source: "Thomas Bradley"  
+  link: "http://www.youtube.com/playlist?list=PLWjCJDeWfDdfVEcLGAfdJn_HXyM4Y7_k-"
+  summary: "Video-based (Pre-2.0) Jekyll getting started course"
+
+- title: "Jekyll from Scratch"
+  source: "Mike Greiling"
+  link: "http://pixelcog.com/blog/2013/jekyll-from-scratch-extending-jekyll/"
+  summary: "Helpful (pre-2.0) ideas for new Jekyll users"
 
 - title: "Getting to Know Metalsmith"
   source: "Robin Thrift"
