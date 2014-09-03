@@ -1,6 +1,7 @@
 ---
+title: "What is the Best Static Site Generator"
 published: false
-layout: blog
+layout: page
 ---
 
 "What is the Best Static Site Generator?" Someone asked this on Twitter recently and shortely thereafter Mashable published a decidedly unjournalistic list called "[13 Static Site Generators to Help You Build Your Ultimate Website](http://mashable.com/2014/08/28/static-website-generators/)," which at least is a sign that static sites are coming into the mainstream. 
