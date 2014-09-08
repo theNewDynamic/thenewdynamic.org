@@ -18,6 +18,7 @@ Here are some of the factors I think are important.
 
 - Language (in terms of familiarity or preference): The language the app was built in is important, but for a lot of people, the available templating language or languages is most important for building sites. 
 
+- Documentation
 
 
 
