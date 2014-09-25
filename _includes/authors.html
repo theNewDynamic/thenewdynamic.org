@@ -1,4 +1,3 @@
-
 {% for article_authors in page.authors %}
 {% if forloop.first %}<hr />Author{% if forloop.length >= 2 %}s {% endif %}: {% endif %}
 	{% assign author_data = site.data.authors | where: 'twitter', article_authors %}
