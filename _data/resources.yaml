@@ -1,8 +1,13 @@
 ---
+- title: "PooleApp"
+  link: "http://pooleapp.com/"
+  tags: "data, Jekyll, Metalsmith"
+  summary: "Poole is a free, hosted data store for your static sites to post data to and then easily recover via a simple API."
+
 - title: "Lunr.js"
   link: "http://lunrjs.com/"
   summary: "Simple full-text search in your browser, with plugins for [Jekyll](https://github.com/slashdotdash/jekyll-lunr-js-search) and [Metalsmith](https://github.com/CMClay/metalsmith-lunr)"
-  tags: "search, Jekyll, Metalsmith" 
+  tags: "search, Jekyll, Metalsmith"
 - title: "StaticGen"
   link: "http://www.staticgen.com/"
   summary: "A one-stop listing of open source static site generators"
@@ -33,7 +38,7 @@
   tags: "Tutorial, Jekyll"
 
 - title: "Jekyll videos"
-  source: "Thomas Bradley"  
+  source: "Thomas Bradley"
   link: "http://www.youtube.com/playlist?list=PLWjCJDeWfDdfVEcLGAfdJn_HXyM4Y7_k-"
   summary: "Video-based (Pre-2.0) Jekyll getting started course"
 

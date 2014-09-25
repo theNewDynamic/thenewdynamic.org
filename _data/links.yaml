@@ -1,4 +1,9 @@
 ---
+- title: "Adding a Static Comments System to My Jekyll Build (Introducing Poole)"
+  link: "http://hawksworx.com/blog/adding-a-static-comments-system-to-my-jekyll-build/"
+  tags: "data, Jekyll, Metalsmith"
+  summary: "Poole simply provides a place to post your content with an HTTP Post, and then an API to get it back again using an HTTP Get."
+
 - title: "Prose.io, the markdown editor for Github/Jekyll looking for a new maintainer"
   link: "https://github.com/prose/prose/issues/743"
   tags: "Jekyll, Github"
