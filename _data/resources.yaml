@@ -8,6 +8,7 @@
   link: "http://lunrjs.com/"
   summary: "Simple full-text search in your browser, with plugins for [Jekyll](https://github.com/slashdotdash/jekyll-lunr-js-search) and [Metalsmith](https://github.com/CMClay/metalsmith-lunr)"
   tags: "search, Jekyll, Metalsmith"
+
 - title: "StaticGen"
   link: "http://www.staticgen.com/"
   summary: "A one-stop listing of open source static site generators"
@@ -58,3 +59,8 @@
   summary: "[ed note: pre-Jeyll 2.x] In this article I'm going to discuss some of the unique ways we've tweaked Jekyll to create an advanced blog with custom post types, post type pagination, post type filters and more. I'll introduce you to the plugins we use and share a few things I've written along the way."
   link: "http://www.divshot.com/blog/web-development/advanced-jekyll-features/"
   tags: "Jekyll"
+
+- title: "Jekyll Archives"
+  link: "https://github.com/jekyll/jekyll-archives"
+  summary: "Automatically generate post archives by dates, tags, and categories."
+  tags: "Jekyll, plugins, not GH-Pages"
