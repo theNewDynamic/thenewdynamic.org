@@ -1,4 +1,9 @@
 ---
+- title: "The Way of Metalsmith"
+  link: "http://blog.lecomte.me/posts/2014/way-of-metalsmith/"
+  tags: "metalsmith.io"
+  summary: "A good explainer on the workings of Metalsmith"
+
 - title: "PooleApp"
   link: "http://pooleapp.com/"
   tags: "data, Jekyll, Metalsmith"
