@@ -1,4 +1,9 @@
 ---
+- title: "Webhook released as an app"
+  link: "http://forums.webhook.com/t/try-out-the-webhook-app-beta/234"
+  tags: "Webhook"
+  summary: "An app that replaces the need to use the terminal for all the "wh" commands and doesn't require you to install node on your computer."
+
 - title: "Adding a Static Comments System to My Jekyll Build (Introducing Poole)"
   link: "http://hawksworx.com/blog/adding-a-static-comments-system-to-my-jekyll-build/"
   tags: "data, Jekyll, Metalsmith"
