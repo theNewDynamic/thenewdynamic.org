@@ -1,4 +1,10 @@
 ---
+- title: "Getting Started with Jekyll Collections"
+  link: "http://www.sitepoint.com/getting-started-jekyll-collections/"
+  source: "Taylor Jones, _Sitepoint_"
+  tags: "Jekyll"
+  summary: "Quick overview of Jekyll's collections"
+
 - title: "Building a Blog with Metalsmith"
   link: "http://blakeembrey.com/articles/2014/09/building-a-blog-with-metalsmith/?utm_content=buffer89470&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer"
   tags: "metalsmith.io"
