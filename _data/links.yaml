@@ -1,4 +1,8 @@
 ---
+- title: "Building a static, developer-friendly, open-source knowledge base"
+  link: "http://blog.dobt.co/2014/10/01/knowledge-base/"
+  tags: "Wintersmith"
+
 - title: "Webhook released as an app"
   link: "http://forums.webhook.com/t/try-out-the-webhook-app-beta/234"
   tags: "Webhook"
