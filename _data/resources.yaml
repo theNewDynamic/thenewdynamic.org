@@ -25,7 +25,7 @@
   summary: "Simple full-text search in your browser, with plugins for [Jekyll](https://github.com/slashdotdash/jekyll-lunr-js-search) and [Metalsmith](https://github.com/CMClay/metalsmith-lunr)"
   tags: "search, Jekyll, Metalsmith"
 
-- title: "The Need for a Static Site Generator Part 1 in a series"
+- title: "The Need for a Static Site Generator, Part 1 in a series"
   link: "http://davidtucker.net/articles/move-to-static-site-generator/"
   summary: "Multipart series on choosing a static site generator and working with Wintersmith"
   tags: "Wintersmith"
