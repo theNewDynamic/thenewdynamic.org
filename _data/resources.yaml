@@ -15,6 +15,10 @@
   tags: "metalsmith.io"
   summary: "A good explainer on the workings of Metalsmith"
 
+- title: "Creating a Metalsmith tag plugin"
+  link: "http://blog.krawaller.se/posts/creating-a-metalsmith-tag-plugin/"
+  tags: "metalsmith.io"
+
 - title: "PooleApp"
   link: "http://pooleapp.com/"
   tags: "data, Jekyll, Metalsmith"
@@ -34,6 +38,12 @@
   link: "http://www.staticgen.com/"
   summary: "A one-stop listing of open source static site generators"
   tags: "static site generators, open source"
+
+- title: "Exploring Metalsmith"
+  link: "http://www.abm.io/implementing-a-metalsmith-plugin/"
+  summary: "Making a Metalsmith.io plugin"
+  source: "Ollie Edwards"
+  tags: "Metalsmith.io"
 
 - title: "How to use Tags and Categories [with Jekyll] on Github Pages without Plugins"
   link: http://www.minddust.com/post/tags-and-categories-on-github-pages/
