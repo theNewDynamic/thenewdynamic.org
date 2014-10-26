@@ -4,11 +4,27 @@
   source: "Sylvain Durand"
   tags: "Jekyll, multilingual"
 
+- title: "Compressing Jekyll generated HTML"
+  link: "http://sylvain.durand.tf/compressing-jekyll-generated-html/"
+  source: "Sylvain Durand"
+  tags: "Jekyll"
+
+- title: "Website delivery with Cloudfront"
+  link: "http://sylvain.durand.tf/website-delivery-with-cloudfront/"
+  source: "Sylvain Durand"
+  tags: "Jekyll, deployment, AWS"
+
+- title: "Static website with Jekyll"
+  link: "http://sylvain.durand.tf/static-website-with-jekyll/"
+  source: "Sylvain Durand"
+  tags: "Jekyll, beginner"
+
 - title: "Getting Started with Jekyll Collections"
   link: "http://www.sitepoint.com/getting-started-jekyll-collections/"
   source: "Taylor Jones, _Sitepoint_"
   tags: "Jekyll"
   summary: "Quick overview of Jekyll's collections"
+
 
 - title: "Building a Blog with Metalsmith"
   link: "http://blakeembrey.com/articles/2014/09/building-a-blog-with-metalsmith/?utm_content=buffer89470&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer"
@@ -31,7 +47,7 @@
 
 - title: "Metalsmith on Github Pages"
   link: "http://devo.ps/blog/metalsmith-on-github-pages/"
-  tags: "Github Pages, Metalsmith.io"
+  tags: "Github Pages, Metalsmith.io, deployment"
   summary: "Automate building and pushing to the gh-pages"
 
 - title: "Lunr.js"
