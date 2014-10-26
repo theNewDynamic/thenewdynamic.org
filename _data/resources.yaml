@@ -39,6 +39,11 @@
   summary: "A one-stop listing of open source static site generators"
   tags: "static site generators, open source"
 
+- title: "Difference between Gulp.js and Metalsmith.io"
+  link: "http://stackoverflow.com/questions/23227248/is-there-some-gulp-plugin-that-lets-it-perform-the-function-of-a-static-site-gen/23858857?sgp=2#23858857"
+  summary: "in a nutshell “Basically, Metalsmith is really the Gulp of static site generators, while Gulp is the Gulp of streaming build systems.”"
+  tags: "metalsmith.io"
+
 - title: "Exploring Metalsmith"
   link: "http://www.abm.io/implementing-a-metalsmith-plugin/"
   summary: "Making a Metalsmith.io plugin"
