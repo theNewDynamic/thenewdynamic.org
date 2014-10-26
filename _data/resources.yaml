@@ -24,6 +24,11 @@
   tags: "data, Jekyll, Metalsmith"
   summary: "Poole is a free, hosted data store for your static sites to post data to and then easily recover via a simple API."
 
+- title: "Metalsmith on Github Pages"
+  link: "http://devo.ps/blog/metalsmith-on-github-pages/"
+  tags: "Github Pages, Metalsmith.io"
+  summary: "Automate building and pushing to the gh-pages"
+
 - title: "Lunr.js"
   link: "http://lunrjs.com/"
   summary: "Simple full-text search in your browser, with plugins for [Jekyll](https://github.com/slashdotdash/jekyll-lunr-js-search) and [Metalsmith](https://github.com/CMClay/metalsmith-lunr)"
