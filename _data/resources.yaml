@@ -1,4 +1,9 @@
 ---
+- title: "Making Jekyll multilingual"
+  link: "http://sylvain.durand.tf/making-jekyll-multilingual/"
+  source: "Sylvain Durand"
+  tags: "Jekyll, multilingual"
+
 - title: "Getting Started with Jekyll Collections"
   link: "http://www.sitepoint.com/getting-started-jekyll-collections/"
   source: "Taylor Jones, _Sitepoint_"
