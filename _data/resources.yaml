@@ -25,7 +25,6 @@
   tags: "Jekyll"
   summary: "Quick overview of Jekyll's collections"
 
-
 - title: "Building a Blog with Metalsmith"
   link: "http://blakeembrey.com/articles/2014/09/building-a-blog-with-metalsmith/?utm_content=buffer89470&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer"
   tags: "metalsmith.io"
@@ -50,6 +49,9 @@
   tags: "Github Pages, Metalsmith.io, deployment"
   summary: "Automate building and pushing to the gh-pages"
 
+- title: "Sort and filter in jekyll"
+  link: "http://www.leveluplunch.com/blog/2014/04/03/sort-pages-by-title-filter-array-by-layout-jekyllrb/"
+  tags: "Jekyll, How-to"
 - title: "Lunr.js"
   link: "http://lunrjs.com/"
   summary: "Simple full-text search in your browser, with plugins for [Jekyll](https://github.com/slashdotdash/jekyll-lunr-js-search) and [Metalsmith](https://github.com/CMClay/metalsmith-lunr)"
