@@ -96,6 +96,11 @@
   link: "http://webdesign.tutsplus.com/articles/introduction-to-webhook-custom-cms-and-website-builder--cms-21481"
   tags: "tutorial, Webhook"
 
+- title: "Fun Jekyll Tricks"
+  source: "Brian Knapp, Market Interactive"
+  link: "http://www.madebymarket.com/blog/dev/fun-jekyll-tricks.html"
+  tags: "Jekyll"
+
 - title: "Static Websites with Jekyll"
   source: Mijingo
   link: "https://mijingo.com/products/screencasts/jekyll-static-websites-tutorial/"
