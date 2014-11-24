@@ -52,6 +52,12 @@
 - title: "Sort and filter in jekyll"
   link: "http://www.leveluplunch.com/blog/2014/04/03/sort-pages-by-title-filter-array-by-layout-jekyllrb/"
   tags: "Jekyll, How-to"
+
+- title: "How to create data-driven navigation in Jekyll"
+  link: "http://www.tournemille.com/blog/How-to-create-data-driven-navigation-in-Jekyll/"
+  tags: "Jekyll"
+  source: "Dale Tournemille"
+  
 - title: "Lunr.js"
   link: "http://lunrjs.com/"
   summary: "Simple full-text search in your browser, with plugins for [Jekyll](https://github.com/slashdotdash/jekyll-lunr-js-search) and [Metalsmith](https://github.com/CMClay/metalsmith-lunr)"
