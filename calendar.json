@@ -1,5 +1,5 @@
 ---
-layout: none
+layout: null
 ---
 {"events": [{% assign first = true %}
 {% for post in site.data.events reversed %}
@@ -14,7 +14,7 @@ layout: none
     "endtime"     : "{{ post.end | date: "%I:%M %p" | downcase }}",
     "venue"   : "{{ post.venue }}",
     "address" : "{{ post.address }}",
-    "citystate" : "{{ post.city-state }}", 
+    "citystate" : "{{ post.city-state }}",
     "website" : "{{ post.website }}",
     "url"     : "{{ post.url }}",
     "summary" : "{{ post.summary | strip_html }}"
