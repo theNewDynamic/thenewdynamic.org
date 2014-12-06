@@ -1,4 +1,13 @@
 ---
+- title: "Adding Ajax pagination to Jekyll"
+  link: "http://eduardoboucas.com/blog/2014/11/10/adding-ajax-pagination-to-jekyll.html"
+  tags: "Jekyll"
+
+- title: "Building Dynamic Navbars With Jekyll"
+  link: "http://www.jordanthornque.st/blog/building-dynamic-navbars-with-jekyll/"
+  source: "Jordan Thornquest"
+  tags: "Jekyll"
+
 - title: "Making Jekyll multilingual"
   link: "http://sylvain.durand.tf/making-jekyll-multilingual/"
   source: "Sylvain Durand"

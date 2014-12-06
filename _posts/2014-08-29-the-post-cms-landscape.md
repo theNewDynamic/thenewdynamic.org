@@ -1,14 +1,16 @@
+
+
 ---
 title: "The Post-CMS Landscape"
 layout: page
 published: true
-tags: 
+tags:
   - Static Site Generators
   - Post CMS
   - Prismic.io
   - Content.ly
   - Webhook
-categories: 
+categories:
   - tools
 ---
 
@@ -19,9 +21,9 @@ I didn't [make up](http://ben.balter.com/2012/10/01/welcome-to-the-post-cms-worl
 
 Is there such a thing as a Post-CMS CMS? Perhaps, but it doesn't look much like what we've known in the past. A post-CMS CMS may or may not have a database of some sort, and it may have an editor and many other facets of a CMS, but it won't have layers of pre-built software that comes with it. Each of those components is not only entirely optional, but may very well come from different sources. They're _ála carte_ rather than _prix fixe_; tapas rather than Beef Wellington!
 
-An exemplar of this approach is the static site generator [Metalsmith.io](http://www.metalsmith.io/). Just launched in March and already proving to be popular, Metalsmith, built on Node.js, is as sophisticated as it is simple, owing to its "everything is a plugin" philosophy. 
+An exemplar of this approach is the static site generator [Metalsmith.io](http://www.metalsmith.io/). Just launched in March and already proving to be popular, Metalsmith, built on Node.js, is as sophisticated as it is simple, owing to its "everything is a plugin" philosophy.
 
-Statically generated sites are but a subset of the post-CMS paradigm and actually the most minimal manifestation; the opposite, in most cases, of a CMS. When we think of static site generators we think of content in markdown or text documents, or perhaps a JSON file or even a spreadsheet, which is then processed through templates with the result being an entire website generated at once. There are trade-offs to this approach and one of them is the lack, at the moment, of a truly competent web-based editor. 
+Statically generated sites are but a subset of the post-CMS paradigm and actually the most minimal manifestation; the opposite, in most cases, of a CMS. When we think of static site generators we think of content in markdown or text documents, or perhaps a JSON file or even a spreadsheet, which is then processed through templates with the result being an entire website generated at once. There are trade-offs to this approach and one of them is the lack, at the moment, of a truly competent web-based editor.
 
 Another recent trend: Entirely separating the function of content management from the functions of displaying that content on a website. Stripping the "system" from content management, these tools are billed as "content management as a service" and are entirely focused on the content editing aspects of a website. In fact, none of the features of a content management system are present other than actual content management. You can use your content on as many sites as you like; it's all available via an API to deploy with, typically, a variety of programming languages.
 
