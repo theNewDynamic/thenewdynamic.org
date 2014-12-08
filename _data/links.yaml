@@ -1,4 +1,10 @@
 ---
+- title: "Building a Static CMS"
+  link: "http://carrot.is/coding/static_cms"
+  tags: "Contentful, Netlify"
+  source: "Carrot"
+  summary: "We ended up finding two great services, Contentful and Netlify, that worked well with our current toolset to achieve the Holy Grail: a static CMS."
+
 - title: "Building a static, developer-friendly, open-source knowledge base"
   link: "http://blog.dobt.co/2014/10/01/knowledge-base/"
   tags: "Wintersmith"
