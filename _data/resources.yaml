@@ -3,7 +3,7 @@
   link: "http://thoughtbot.github.io/proteus/"
   tags: "Jekyll, Middleman, Gulp"
   source: "Thoughtbot"
-  summary: "Proteus is a collection of useful starter kits to help you launch your static site or prototype faster. They follow the thoughtbot styleguide and include Thoughtbot front end tools"
+  summary: "Proteus is a collection of useful starter kits to help you launch your static site or prototype faster. They follow the thoughtbot styleguide and include thoughtbot front end tools"
 
 - title: "Dogfooding with Jekyll"
   link: "https://esq.io/blog/posts/dogfooding-with-jekyll/"
