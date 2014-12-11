@@ -1,4 +1,10 @@
 ---
+- title: "Proteus Static Site Starter Kits"
+  link: "http://thoughtbot.github.io/proteus/"
+  tags: "Jekyll, Middleman, Gulp"
+  source: "David Zvenyach"
+  summary: "Proteus is a collection of useful starter kits to help you launch your static site or prototype faster. They follow the thoughtbot styleguide and include Thoughtbot front end tools"
+
 - title: "Dogfooding with Jekyll"
   link: "https://esq.io/blog/posts/dogfooding-with-jekyll/"
   tags: "Jekyll, data files"
