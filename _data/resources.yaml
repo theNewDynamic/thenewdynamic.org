@@ -1,4 +1,15 @@
 ---
+- title: "Wordpress to Jekyll Exporter"
+  link: "https://wordpress.org/plugins/jekyll-exporter/"
+  source: "Ben Balter, Github"
+  summary: "2.0 release, Dec. 2014, [repo](https://github.com/benbalter/wordpress-to-jekyll-exporter)"
+
+- title: "Proteus Static Site Starter Kits"
+  link: "http://thoughtbot.github.io/proteus/"
+  tags: "Jekyll, Middleman, Gulp"
+  source: "Thoughtbot"
+  summary: "Proteus is a collection of useful starter kits to help you launch your static site or prototype faster. They follow the thoughtbot styleguide and include thoughtbot front end tools"
+
 - title: "Dogfooding with Jekyll"
   link: "https://esq.io/blog/posts/dogfooding-with-jekyll/"
   tags: "Jekyll, data files"

@@ -1,4 +1,35 @@
 ---
+- title: "The ultimate list of services for static websites"
+  link: "http://cloudcannon.com/tips/2014/12/12/the-ultimate-list-of-services-for-static-websites.html"
+  source: "CloudCanyon"
+
+- title: "Accelerate your front-end website development with Harp"
+  link: "http://www.webdesignerdepot.com/2014/12/accelerate-your-front-end-website-development-with-harp/"
+  source: "Ezequiel Bruni"
+
+- title: "Why I am writing a web interface for a static site generator"
+  link: "http://screamingatmyscreen.com/2014/10/why-i-am-writing-a-web-interface-for-a-static-site-generator/"
+  source: "Timo Zimmermann"
+  summary: "“Making it easier to create content, bringing features of full blown content management systems to the world of static site generators and still keeping the whole thing simple enough that lots of people will be able to set it up and use it.”"
+
+- title: "Tarbell hits 1.0"
+  link: "http://www.tarbell.io/"
+  summary: "“Google spreadsheets handle content management, so changes to your stories are easy to make without touching a line of code.”"
+
+- title: "Static Sites Can be the Solution"
+  link: "https://www.youtube.com/watch?v=jeQCoiZT5gg&index=11&list=UUT74dcdbbnN4VsDlj9SdeYA"
+  summary: "Video of a talk by Simon Wood at the London Web Meetup"
+
+- title: "Free"
+  link: "http://mixture.io/blog/free/"
+  summary: "We will no longer be actively developing [Mixture.io] but we will continue to maintain its current feature set and push updates when possible."
+
+- title: "Building a Static CMS"
+  link: "http://carrot.is/coding/static_cms"
+  tags: "Contentful, Netlify"
+  source: "Carrot"
+  summary: "We ended up finding two great services, Contentful and Netlify, that worked well with our current toolset to achieve the Holy Grail: a static CMS."
+
 - title: "Building a static, developer-friendly, open-source knowledge base"
   link: "http://blog.dobt.co/2014/10/01/knowledge-base/"
   tags: "Wintersmith"

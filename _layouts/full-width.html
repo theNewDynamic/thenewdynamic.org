@@ -2,12 +2,9 @@
 layout: default
 section: full-width
 ---
-
 {% if page.title %}
   <header>
-
-      <h1 class="entry-title">{{page.title}}</h1>
-
+    <h1 class="entry-title">{{page.title}}</h1>
     {% if page.date %}
       <time class='date' datetime="{{ page.date | date:'%Y-%m-%d' }}">
         <small>
@@ -17,11 +14,9 @@ section: full-width
       {% endif %}
   </header>
 {% endif %}
-
-
   <div class="entry-content prose">
     {{ content }}
   </div>
-    {% if page.include %}
-      {% include {{page.include}} %}
-    {% endif %}
+  {% if page.include %}
+    {% include {{page.include}} %}
+  {% endif %}
