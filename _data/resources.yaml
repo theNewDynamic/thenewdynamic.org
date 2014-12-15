@@ -156,6 +156,11 @@
   link: "http://www.robinthrift.com/posts/getting-to-know-metalsmith/"
   tags: "tutorial, Metalsmith.io"
 
+- title: "Getting Started With Jekyll, The Static Site Generator"
+  link: "https://www.youtube.com/watch?v=iWowJBRMtpc"
+  summary: "Travis Neilson goes through the process of setting up a local Jekyll Installation and gives us a tour of the working parts and how to use Jekyll."
+  tags: "Tutorial, Jekyll"
+
 - title: "Advanced Jekyll Plugins & Features - Custom Post Types, Category Pages, Pagination, and More"
   source: "Divshot"
   summary: "[ed note: pre-Jeyll 2.x] In this article I'm going to discuss some of the unique ways we've tweaked Jekyll to create an advanced blog with custom post types, post type pagination, post type filters and more. I'll introduce you to the plugins we use and share a few things I've written along the way."
