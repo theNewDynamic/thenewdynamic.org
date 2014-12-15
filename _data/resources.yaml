@@ -138,12 +138,13 @@
   source: Mijingo
   link: "https://mijingo.com/products/screencasts/jekyll-static-websites-tutorial/"
   summary: "(pre-2.0)"
-  tags: "Tutorial, Jekyll"
+  tags: "tutorial, Jekyll"
 
 - title: "Jekyll videos"
   source: "Thomas Bradley"
   link: "http://www.youtube.com/playlist?list=PLWjCJDeWfDdfVEcLGAfdJn_HXyM4Y7_k-"
   summary: "Video-based (Pre-2.0) Jekyll getting started course"
+  tags: "tutorial, video, Jekyll"
 
 - title: "Jekyll from Scratch"
   source: "Mike Greiling"
@@ -159,7 +160,7 @@
 - title: "Getting Started With Jekyll, The Static Site Generator"
   link: "https://www.youtube.com/watch?v=iWowJBRMtpc"
   summary: "Travis Neilson goes through the process of setting up a local Jekyll Installation and gives us a tour of the working parts and how to use Jekyll."
-  tags: "Tutorial, Jekyll"
+  tags: "tutorial, video, Jekyll"
 
 - title: "Advanced Jekyll Plugins & Features - Custom Post Types, Category Pages, Pagination, and More"
   source: "Divshot"
