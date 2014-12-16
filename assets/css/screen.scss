@@ -84,8 +84,12 @@ ul.posts li {
     //border-bottom: 1px solid #DDD;
      padding-top: 1em;
     // padding-bottom: 0;
-    padding-left: 1.3em;
-    text-indent: -1.3em;
+    
+}
+
+ul.posts li .summary {
+  padding-left: 1.3em;
+    text-indent: 1.3em;
 
 }
 
