@@ -162,6 +162,11 @@
   link: "http://www.robinthrift.com/posts/getting-to-know-metalsmith/"
   tags: "tutorial, Metalsmith.io"
 
+- title: "Understanding Middleman – the static site generator for faster prototyping"
+  summary: "some elements may be out of date, but an overview of using Middleman"
+  source: "Ben Frain"
+  link: "http://benfrain.com/understanding-middleman-the-static-site-generator-for-faster-prototyping/"  
+
 - title: "Getting Started With Jekyll, The Static Site Generator"
   link: "https://www.youtube.com/watch?v=iWowJBRMtpc"
   summary: "Travis Neilson goes through the process of setting up a local Jekyll Installation and gives us a tour of the working parts and how to use Jekyll."
