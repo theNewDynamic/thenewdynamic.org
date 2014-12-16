@@ -166,6 +166,7 @@
   summary: "some elements may be out of date, but an overview of using Middleman"
   source: "Ben Frain"
   link: "http://benfrain.com/understanding-middleman-the-static-site-generator-for-faster-prototyping/"  
+  tags: "Middleman, tutorial"
 
 - title: "Getting Started With Jekyll, The Static Site Generator"
   link: "https://www.youtube.com/watch?v=iWowJBRMtpc"
