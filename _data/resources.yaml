@@ -1,4 +1,9 @@
 ---
+- title: "Building Middleman Extensions"
+  link: "http://willschenk.com/building-middleman-extensions/"
+  source: "Will Schenk"
+  summary: "For more, see [Middleman Tricks and Hacks](http://willschenk.com/middleman-tricks-and-hacks/) on Will's site"
+
 - title: "Building a bespoke commenting system for a static site"
   link: "http://eduardoboucas.com/blog/2014/12/14/building-a-bespoke-commenting-system-for-a-static-site.html"
   source: "Eduardo Boucas"
