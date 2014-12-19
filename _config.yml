@@ -12,7 +12,7 @@ markdown: kramdown
 #permalink: pretty
 permalink: /:categories/:title/
 production: true
-username: budparr
+username: thenewdynamic
 addthis_id: ra-500704bf6eb0a4da
 google_analytics_id: UA-30899180-4
 default_image: icon-temp.jpg
