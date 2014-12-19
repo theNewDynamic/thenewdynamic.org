@@ -1,4 +1,9 @@
 ---
+- title: "Jekyll Now"
+  link: "https://github.com/barryclark/jekyll-now"
+  summary: "Build a Jekyll blog in minutes, without touching the command line."
+  source: "Barry Clark"
+  
 - title: "Building Middleman Extensions"
   link: "http://willschenk.com/building-middleman-extensions/"
   source: "Will Schenk"
