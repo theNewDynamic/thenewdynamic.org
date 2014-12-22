@@ -1,4 +1,9 @@
 ---
+- title: "Jekyll 3.0 The Road Ahead"
+  source: "Parker Moore (a Jeyll project owner)"
+  link: "https://byparker.com/blog/2014/jekyll-3-the-road-ahead/"
+  summary: "“With Jekyll 3.0, I want to take Jekyll back to its roots: simplicity, extensibility, and speed.”"
+
 - title: "6 Static Blog Generators That Aren’t Jekyll"
   link: "http://www.sitepoint.com/6-static-blog-generators-arent-jekyll/"
   source: "David Turnbull, Sitepoint"
