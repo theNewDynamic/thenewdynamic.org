@@ -43,6 +43,10 @@
   source: "Carrot"
   summary: "We ended up finding two great services, Contentful and Netlify, that worked well with our current toolset to achieve the Holy Grail: a static CMS."
 
+- title: "The Emerging No-CMS Movement"
+  link: "http://www.phillipadsmith.com/2014/01/the-return-of-static-site-generators.html"
+  source: "Phillip Smith"
+
 - title: "Building a static, developer-friendly, open-source knowledge base"
   link: "http://blog.dobt.co/2014/10/01/knowledge-base/"
   tags: "Wintersmith"
