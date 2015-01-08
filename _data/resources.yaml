@@ -1,4 +1,9 @@
 ---
+- title: "Styling a Middleman Blog with Bourbon, Neat, and Bitters"
+  link: "http://robots.thoughtbot.com/middleman-bourbon-walkthrough"
+  source: "Carolann Bonner"
+  tags: "Middleman"
+
 - title: "Building Middleman Extensions"
   link: "http://willschenk.com/building-middleman-extensions/"
   source: "Will Schenk"
