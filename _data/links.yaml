@@ -1,4 +1,9 @@
 ---
+- title: "The Static Showdown"
+  link: "http://www.staticshowdown.com"
+  summary: "A virtual hackathon for static apps"
+  source: "Divshot"
+
 - title: "Statamic, the flat file CMS, now includes a static site generator"
   source: "Statamic"
   link: "http://statamic.com/blog/hello-one-dot-ten"
