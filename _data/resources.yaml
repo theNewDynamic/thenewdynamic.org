@@ -1,4 +1,10 @@
 ---
+- title: "Baking Bread.li"
+  link: "http://www.youtube.com/playlist?list=PLqG97mWmzNL7OFKjx0eXQpwpOaXFRM251"
+  source: "David Darnes"
+  summary: "Video series of the creation of a Jekyll-based website"
+  tags: "Jekyll, How-to, Video"
+  
 - title: "Styling a Middleman Blog with Bourbon, Neat, and Bitters"
   link: "http://robots.thoughtbot.com/middleman-bourbon-walkthrough"
   source: "Carolann Bonner"
