@@ -1,4 +1,4 @@
----
+---  
 - title: "Static Site E-Commerce: Integrating Snipcart with Middleman"
   link: "https://snipcart.com/blog/static-site-e-commerce-integrating-snipcart-with-middleman?utm_content=buffer3734d&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer"
   source: "Snipcart"
@@ -29,6 +29,11 @@
   link: "https://wordpress.org/plugins/jekyll-exporter/"
   source: "Ben Balter, Github"
   summary: "2.0 release, Dec. 2014, [repo](https://github.com/benbalter/wordpress-to-jekyll-exporter)"
+
+- title: "Middleman: the Missing View in the Rails API Stack"
+  link: "https://www.youtube.com/watch?v=-q_oUyEHiEw"
+  source: "Brad Gessler at RailsConf 2014"
+  tags: "Middleman"
 
 - title: "Proteus Static Site Starter Kits"
   link: "http://thoughtbot.github.io/proteus/"
