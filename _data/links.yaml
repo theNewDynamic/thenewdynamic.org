@@ -1,4 +1,7 @@
 ---
+- title: "New Middleman site & identity"
+  link: "https://middlemanapp.com/"
+  
 - title: "Jekyll 3.0.0.beta1 Released"
   link: "http://jekyllrb.com/news/2015/01/24/jekyll-3-0-0-beta1-released/"
   summary: "Jekyll now features incremental regeneration and greatly improved problematic code that caused slow-downs, and much more"
