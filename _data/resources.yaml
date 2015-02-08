@@ -3,7 +3,12 @@
   link: "https://github.com/feedreader/planet-jekyll/blob/gh-pages/QUICKREF.md"
   source: "Planet Jekyll"
   tags: "Jekyll"
-  
+
+- title: "Harpoon"
+  link: "http://www.getharpoon.com/"
+  summary: "A really easy to use static site deployer supporting Amazon s3 and BitBalloon, and integration."
+  tags: "deployment, Amazon S3, Bitballoon"
+
 - title: "Static Site E-Commerce: Integrating Snipcart with Middleman"
   link: "https://snipcart.com/blog/static-site-e-commerce-integrating-snipcart-with-middleman?utm_content=buffer3734d&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer"
   source: "Snipcart"
