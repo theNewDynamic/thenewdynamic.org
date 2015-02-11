@@ -1,4 +1,9 @@
 ---  
+- title: "Octopress Paginate"
+  link: "https://github.com/octopress/paginate"
+  sumary: "Simple and flexible pagination for Jekyll sites' posts and collections"
+  tags: "Jekyll, Octopress"
+  
 - title: "Jekyll Quick Reference (Cheat Sheet)"
   link: "https://github.com/feedreader/planet-jekyll/blob/gh-pages/QUICKREF.md"
   source: "Planet Jekyll"
