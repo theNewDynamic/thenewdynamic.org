@@ -1,7 +1,7 @@
 ---
 title: "Use Wordpress as the Backend to your Static Site, using Roots"
 layout: page
-category: "editing, deployment"
+category: "editing-content"
 ---
 I've seen caching systems that serve static pages from Wordpress before, but this is the first time I've seen Wordpress as the content editing interface for a statically generated site. The gist is that you use the Wordpress JSON API as your data store for the static site generator, so the only job for Wordpress is editing content and outputing a JSON file.
 
