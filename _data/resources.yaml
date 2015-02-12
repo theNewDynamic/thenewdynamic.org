@@ -1,4 +1,8 @@
 ---  
+- title: "Deploying Sculpin Sites to GitHub Pages"
+  link: "https://gist.github.com/mrkrstphr/2e79e55229b2ef7a343a"
+  tags: "Sculpin, deployment"
+
 - title: "Octopress Paginate"
   link: "https://github.com/octopress/paginate"
   sumary: "Simple and flexible pagination for Jekyll sites' posts and collections"
