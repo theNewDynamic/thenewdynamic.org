@@ -1,4 +1,9 @@
 ---
+- title: "I am a Jekyll God"
+  link: "https://medium.com/design-open/becoming-a-jekyll-god-ef722e93f771"
+  source: "Garth Braithwaite"
+  tags: "Jekyll, performance"
+
 - title: "Static Site Generators are Overkill"
   link: "http://thecodebarbarian.com/2015/02/06/static_site_generators"
   source: "Valeri Karpov"
