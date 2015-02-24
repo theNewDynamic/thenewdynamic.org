@@ -1,4 +1,8 @@
 ---
+- title: "Meet the New Members of the Sculpin Organization"
+  link: "http://blog.sculpin.io/2015/02/23/meet-the-new-members-of-the-sculpin-organization/?utm_content=bufferd0992&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer"
+  tags: "Sculpin"
+
 - title: "Major Release for Hugo"
   link: "https://github.com/spf13/hugo/releases"
   summary: "The v0.13.0 release is the largest Hugo release to date. The release introduced some long sought after features (pagination, sequencing, data loading, tons of
