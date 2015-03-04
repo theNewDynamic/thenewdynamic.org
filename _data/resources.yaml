@@ -1,4 +1,9 @@
 ---  
+- title: "Easily Create Elegant Course Websites w/ YAML & Middleman"
+  link: "http://andrew.pilsch.com/blog/2015/03/04/easily-create-elegant-course-websites-w-yaml-middleman/"
+  tags: "Middleman, templates, special uses"
+  source: "Andrew Pilsch"
+
 - title: "Explain like I'm five: Jekyll collections"
   link: "http://ben.balter.com/2015/02/20/jekyll-collections/?utm_content=buffer6fd27&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer"
   tags: "Jekyll"
