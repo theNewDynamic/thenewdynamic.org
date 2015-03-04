@@ -1,4 +1,10 @@
 ---
+- title: "5 reasons you should use Jekyll"
+  link: "http://cloudcannon.com/jekyll/2015/03/04/5-reasons-you-should-use-jekyll.html"
+  tags: "Jekyll"
+  source: "Cloudcannon"
+  summary: "I asked these influencers to share some of their opinions and experiences of Jekyll. I explored what they love, what makes them facepalm, and where they would like to see Jekyll and it's community headed."
+  
 - title: "CMS-functionality for static site generators"
   link: "https://www.contentful.com/learning/resources/contentful-api-cms-static-site-generators/"
   tags: "CMaaS, Contentful"
