@@ -1,6 +1,6 @@
 ---  
-- title: "https://18f.gsa.gov/2015/03/03/how-to-use-github-and-the-terminal-a-guide/"
-  link: "How To Use GitHub and the Terminal: A Guide"
+- link: "https://18f.gsa.gov/2015/03/03/how-to-use-github-and-the-terminal-a-guide/"
+  title: "How To Use GitHub and the Terminal: A Guide"
   summary: "Uses a Jekyll site as the example"
   tags: "Github, Jekyll, open source"
   source: "18F, GSA"
