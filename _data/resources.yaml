@@ -1,4 +1,9 @@
 ---  
+- title: "Static-Site-Samples"
+  link: "https://github.com/remotesynth/Static-Site-Samples?utm_content=buffer9288a&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer"
+  summary: "A collection of simple sites built with various static site engines"
+  tags: "Jekyll, HarpJS, Middleman, Wintersmith"
+  
 - link: "https://18f.gsa.gov/2015/03/03/how-to-use-github-and-the-terminal-a-guide/"
   title: "How To Use GitHub and the Terminal: A Guide"
   summary: "Uses a Jekyll site as the example"
