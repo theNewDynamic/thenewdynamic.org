@@ -1,4 +1,8 @@
 ---  
+- title: "Services for Static Websites"
+  link: "https://github.com/aharris88/services-for-static-websites"
+  source: "Adam Harris"
+
 - title: "Static-Site-Samples"
   link: "https://github.com/remotesynth/Static-Site-Samples?utm_content=buffer9288a&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer"
   summary: "A collection of simple sites built with various static site engines"
