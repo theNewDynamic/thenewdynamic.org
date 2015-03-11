@@ -84,6 +84,12 @@
   source: "Thoughtbot"
   summary: "Proteus is a collection of useful starter kits to help you launch your static site or prototype faster. They follow the thoughtbot styleguide and include thoughtbot front end tools"
 
+- title: "Configuring CloudFlare’s Universal SSL"
+  link: "https://www.benburwell.com/posts/configuring-cloudflare-universal-ssl/"
+  tags: "Jekyll, SSL, Github-Pages"
+  source: "Ben Burwell"
+  summary: "Configuring CloudFlare’s free SSL on a Github Pages (or any) static site."
+
 - title: "Dogfooding with Jekyll"
   link: "https://esq.io/blog/posts/dogfooding-with-jekyll/"
   tags: "Jekyll, data files"
