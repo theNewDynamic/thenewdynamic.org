@@ -1,4 +1,9 @@
 ---  
+- title: "Getting Started with Jekyll"
+  link: "http://developer.telerik.com/featured/getting-started-with-jekyll/?utm_content=bufferc1122&utm_medium=social&utm_source=thenewdynamic.com&utm_campaign=buffer"
+  source: "Brian Rinaldi, Telerik Developer Network"
+  tags: "tutorial, Jeyll"
+
 - title: "Buster, a static site generator for Ghost"
   link: "https://github.com/axitkhurana/buster"
   
