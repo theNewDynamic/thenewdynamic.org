@@ -1,4 +1,9 @@
 ---
+- title: "Making Content Editors and Web Developers Happy Again"
+  link: "http://code.makery.ch/blog/making-content-editors-and-web-developers-happy/"
+  source: "code.makery"
+  tags: "Hugo, Webhook"
+  
 - title: "5 reasons you should use Jekyll"
   link: "http://cloudcannon.com/jekyll/2015/03/04/5-reasons-you-should-use-jekyll.html"
   tags: "Jekyll"
