@@ -1,4 +1,9 @@
 ---  
+- title: "Blogging on Heroku with Middleman"
+  link: "https://blog.pixelcab.in/2015/03/23/blogging-on-heroku-with-middleman/"
+  source: "Michael Shannon at Pixelcabin"
+  tags: "Middleman, tutorial"
+  
 - title: "Getting Started with Jekyll"
   link: "http://developer.telerik.com/featured/getting-started-with-jekyll/?utm_content=bufferc1122&utm_medium=social&utm_source=thenewdynamic.com&utm_campaign=buffer"
   source: "Brian Rinaldi, Telerik Developer Network"
