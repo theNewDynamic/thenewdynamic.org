@@ -120,12 +120,12 @@
   tags: "Jekyll"
 
 - title: "Making Jekyll multilingual"
-  link: "http://sylvain.durand.tf/making-jekyll-multilingual/"
+  link: "http://sylvaindurand.org/making-jekyll-multilingual/"
   source: "Sylvain Durand"
   tags: "Jekyll, multilingual"
 
 - title: "Compressing Jekyll generated HTML"
-  link: "http://sylvain.durand.tf/compressing-jekyll-generated-html/"
+  link: "http://sylvaindurand.org/compressing-jekyll-generated-html/"
   source: "Sylvain Durand"
   tags: "Jekyll"
 
@@ -135,7 +135,7 @@
   tags: "Jekyll, deployment, AWS"
 
 - title: "Static website with Jekyll"
-  link: "http://sylvain.durand.tf/static-website-with-jekyll/"
+  link: "http://sylvaindurand.org/website-delivery-with-cloudfront/"
   source: "Sylvain Durand"
   tags: "Jekyll, beginner"
 
