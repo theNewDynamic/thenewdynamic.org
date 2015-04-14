@@ -1,4 +1,10 @@
 ---  
+- title: "Create a CMS in 15 Minutes"
+  link: "http://voorhoede.nl/blog/create-a-cms-in-15-minutes/"
+  source: "de Voorhoede"
+  tags: "Webhook"
+  summary: "An introduction to Webhook CMS"
+  
 - title: "Blogging on Heroku with Middleman"
   link: "https://blog.pixelcab.in/2015/03/23/blogging-on-heroku-with-middleman/"
   source: "Michael Shannon at Pixelcabin"
