@@ -1,4 +1,10 @@
 ---  
+- title: "Our new website - still Jekyll"
+  link: "https://developmentseed.org/blog/2015/04/20/building-with-jekyll/"
+  source: "Development Seed"
+  tags: "Jekyll"
+  summary: "Tips from a new Jekyll site"
+
 - title: "Create a CMS in 15ish Minutes"
   link: "http://voorhoede.nl/blog/create-a-cms-in-15-minutes/"
   source: "de Voorhoede"
