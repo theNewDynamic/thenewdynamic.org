@@ -13,4 +13,4 @@ Also see the blog post over at [Contentful](https://www.contentful.com/blog/2015
 
 
 
-<iframe width="420" height="315" src="https://www.youtube.com/embed/RzLw2pQXAsk" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="480" src="https://www.youtube.com/embed/RzLw2pQXAsk?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
