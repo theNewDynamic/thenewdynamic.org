@@ -1,4 +1,9 @@
 ---  
+- title: "Building a Static Site Generator Grunt Plugin"
+  link: "http://www.sitepoint.com/building-static-site-generator-grunt-plugin/"
+  date: 2015-04-30
+  source: "Sitepoint, Matthew Daly"
+  
 - title: "Sharing Jekyll posts on social media using front matter and IFTTT"
   link: "https://eduardoboucas.com/blog/2015/04/28/sharing-jekyll-posts-on-social-media-using-front-matter-and-ifttt.html"
   date: 2015-04-29
