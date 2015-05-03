@@ -1,6 +1,0 @@
-source 'https://rubygems.org'
-# gem 'github-pages'
- gem 'jekyll'
-#gem 's3_website'
-#gem 'travis'
-gem 'bootstrap-sass', '~> 3.3.4'

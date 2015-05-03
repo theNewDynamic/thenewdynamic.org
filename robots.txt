@@ -1,6 +1,0 @@
----
-layout: null
----
-# robotstxt.org - if _config production variable is false robots will be disallowed.
-User-agent: *
-Disallow:{% if site.production == false %} / {% endif %}
