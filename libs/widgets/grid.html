@@ -1,0 +1,17 @@
+{# Loop of your Repeatable Form items. Remember, you can sort the order in your CMS if you need. #}
+<ul>
+{% for row in <%- value %> %}
+  <% _.forEach(controlInfo.controls || [], function(fieldInfo) { %>
+  <% if(fieldInfo.controlType !== 'layout') { %>
+    <li>
+      <strong><%- fieldInfo.label %>: </strong>
+      <% if(widgetFiles[fieldInfo.controlType]) { %>
+      <% print(renderWidget(fieldInfo.controlType, fieldInfo.name, controls[fieldInfo.name], 'row.')) %>
+      <% } else { %>
+      {{ row.<%- fieldInfo.name %> }}
+      <% } %>
+    </li>
+  <% } %>
+  <% }); %>
+{% endfor %}
+</ul>

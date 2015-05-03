@@ -1,0 +1,19 @@
+//Base
+@import 
+  "bower_components/normalize-scss/normalize",
+  "bower_components/normalize-opentype.css/normalize-opentype",
+  "bourbon/bourbon",
+  "modules/grid-settings",//overrides bitters grid-settings
+  "neat/neat",
+  "base/base";
+
+// Modules
+@import
+  "modules/layouts";
+
+$bud: green;
+
+.bud {
+  color: $bud;
+}
+

@@ -1,0 +1,59 @@
+/* Now supply the same as above, but with the .wf-loading class added, and without the web fonts specified
+* source: https://github.com/jpamental/responsivetypographybook/blob/master/otf/sass/site.scss
+*/
+.wf-loading body,
+.wf-loading caption,
+.wf-loading th,
+.wf-loading td,
+.wf-loading input,
+.wf-loading textarea,
+.wf-loading legend,
+.wf-loading fieldset {
+  font-family: Helvetica, "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+  font-size: 1em;
+  letter-spacing: 0.055em;
+  line-height: 1.4em;
+}
+
+.wf-loading h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: normal;
+    font-size: 3em;
+    letter-spacing: -.02em;
+  line-height: 1em;
+  margin: 0.75em 0 0.25em;
+}
+
+.wf-loading #page > header h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: normal;
+    font-size: 3.25em;
+  line-height: 1em;
+  margin: 0.1em 0 0.25em;
+}
+
+.wf-loading h2 {
+  font-family: Garamond, Georgia, "Times New Roman", Times, serif;
+  font-weight: normal;
+  font-style: italic;
+    font-size: 2.45em;
+    letter-spacing: 0.01em;
+  line-height: 1.1em;
+  margin: .8em 0 .3em 0;
+}
+
+.wf-loading h3 {
+  font-family: Garamond, Georgia, "Times New Roman", Times, serif;
+  font-weight: normal;
+  font-style: italic;
+    font-size: 1.8em;
+  line-height: 1.2em;
+  margin: 1em 0 .4em 0;
+}
+
+.wf-loading p {
+  font-family: "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+  font-size: 1em;
+  letter-spacing: 0.01em;
+  line-height: 1.39em;
+}

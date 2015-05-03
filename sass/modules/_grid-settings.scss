@@ -1,0 +1,35 @@
+// Using this instead of bitters' grid-settings
+@import "bower_components/neat/app/assets/stylesheets/neat-helpers"; 
+// Neat Overrides
+///////////////////////////////////////////////////////////////////////////////
+// $column: 90px;
+// $gutter: 30px;
+// $grid-columns: 12;
+$max-width: em(1620);
+
+// Neat Breakpoints
+///////////////////////////////////////////////////////////////////////////////
+$medium-screen: em(640);
+$large-screen: em(860);
+$wide-screen: em(1600);
+
+
+//// viewport breakpoints idea from sassparilla, vp= viewport
+$a-vp: em(300); // first viewport
+$b-vp: em(420); // up one -
+$c-vp: em(600); // up two
+$d-vp: em(900); // up three
+$e-vp: em(1100);  // up four
+$f-vp: em(1300);  // up five
+$ie-fixed-vp: em(980);    // Viewport for IE fixed width
+
+
+$tiny-screen-up: new-breakpoint(min-width $a-vp 4);
+$small-screen-up: new-breakpoint(min-width $b-vp 4);
+//$medium-screen-below: new-breakpoint(max-width $c-vp 4);
+$medium-screen-up: new-breakpoint(min-width $c-vp 4);
+
+$normal-screen-up: new-breakpoint(min-width $d-vp 4);
+$large-screen-up: new-breakpoint(min-width $large-screen 8);
+$xlarge-screen-up: new-breakpoint(min-width $e-vp 8);
+$wide-screen-up: new-breakpoint(min-width $wide-screen 8);

@@ -1,0 +1,18 @@
+<div class="push bg"></div>
+<footer class="footer" id="content-info">
+<div class="row">
+  <div id="contact" class="footer-form">
+    {% include "templates/partials/form-contact.html" %}
+  </div>
+  <div class="footer-copy">{{ cms.about.footer_copy|safe }}</div>
+</div>
+
+  <ul class="subfooter no-bullet small-print inline">
+      <li class="source-org vcarfd copyright">{% set now = Date() %}
+        <a href="{{site.url}}"><span class="org fn">&copy; {{ now|date('Y', '-4') }} {{ metadata.sitename }}</span></a>
+      </li>
+      <li><a href="http://sonnetmedia.net">site by sonnet media</a></li>
+    </ul>
+
+
+</footer>

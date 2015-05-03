@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> 
+<html class="no-js" prefix="og: http://ogp.me/ns#"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    {% set now = Date() %}{% set current_unix_date = now|date('U') %}{% set global = cms.global %}  
+    {# Prefetch DNS for Google assets #}
+    <meta http-equiv='x-dns-prefetch-control' content='on'>
+    <link rel='dns-prefetch' href='https://lh3.ggpht.com'>
+    <link rel='dns-prefetch' href='//cloud.typography.com'>
+
+    {# {% include "templates/partials/head-icons.html" %} #}
+
+
+    {% block index_setting %}
+      {% if  getSetting('analytics_id')  %}
+        <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+      {% else %}
+        <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+      {% endif %}
+    {% endblock %}
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>{% block title %}{{ global.name }}{% endblock %}</title>
+
+    {# set to yes to generate a time stamp on the css file for cachebusting  #}
+    {% set bust_cache = 'yes' %}
+    <link href='/static/css/screen.css{% if bust_cache == 'yes' %}?generated={{ current_unix_date }}{% endif %}' rel='stylesheet' type="text/css" />
+
+    {% if  getSetting('analytics_id')  %}
+      {% include "templates/partials/meta-data.html" %}
+    {% endif %}
+
+    <!--[if lte IE 7]>
+    <link rel="stylesheet" media="all" href="http://universal-ie6-css.googlecode.com/files/ie6.0.3.css">
+    <![endif]-->
+
+    <!--[if lt IE 9]>
+    <script src="/static/javascript/modernize/modernize.min.js"></script>
+    <![endif]-->
+
+
+    {% if  getSetting('analytics_id')  %}
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', '{{ getSetting('analytics_id') }}', 'auto');
+        ga('send', 'pageview');
+      </script>
+    {% endif %}
+
+    {# //END head #}
+    {% block head_extra %}
+      {# // TODO: DOES THIS PREV NEXT GO HERE IN HEAD EXTRA? #}
+      {% set prev = prevItem(item, 'publish_date', true) %}
+      {% set next = nextItem(item, 'publish_date', true) %}
+      {% if prev %}
+        <link rel="prefetch" href="{{ url(prev) }}" />
+      {% endif %}
+      {% if next %}
+        <link rel="prefetch" href="{{ url(next) }}" />
+      {% endif %}
+    {% endblock %}
+  </head>
+  <body id="container">
+    <a href="#start-of-content" tabindex="1" class="accessibility-aid js-skip-to-content">Skip to content</a>
+    {% include "templates/partials/navigation.html" %}  
+    <section class="content">
+      <div id="start-of-content" class="accessibility-aid"></div>
+        {% block content %}
+        {% endblock %}
+    </section>
+    {% include "templates/partials/footer.html" %}
+    {% include "templates/partials/scripts.html" %}
+  </body>
+</html>

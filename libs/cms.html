@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Webhook</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="siteName" content="<%= siteName %>">
+  <meta name="buildLive" content="true">
+  {% if cmsSocketPort %}
+  <meta name="socketPort" content="{{ cmsSocketPort }}">
+  {% endif %}
+
+  <link rel="stylesheet" href="http://cms.webhook.com/{{ cmsVersion }}/assets/app.min.css">
+
+  <link rel="shortcut icon" href="/static/images/favicon.png">
+  <link rel="apple-touch-icon icon-precomposed" href="/static/images/touch-icon.png"/>
+
+  {% if firebase_conf.custom %}
+  <script>
+   window.ENV = {
+      dbName:     "{{ firebase_conf.firebase }}",
+      uploadUrl:  "{{ firebase_conf.server }}",
+      embedlyKey: "{{ firebase_conf.embedly }}",
+      selfHosted: true
+    };
+  </script>
+  {% endif %}
+
+  <script src="http://cms.webhook.com/{{ cmsVersion }}/assets/js/config.min.js"></script>
+  <script src="http://cms.webhook.com/{{ cmsVersion }}/assets/vendor.min.js"></script>
+  <script src="http://cms.webhook.com/{{ cmsVersion }}/assets/js/app.min.js"></script>
+
+</head>
+<body>
+  <!--[if lt IE 8]>
+    <p class="browsehappy">
+      You are using an <strong>outdated</strong> browser. Please
+      <a href="http://browsehappy.com/">upgrade your browser</a>
+      to improve your experience.
+    </p>
+  <![endif]-->
+
+  <script>
+    window.App = require('appkit/app')["default"].create();
+  </script>
+</body>
+</html>

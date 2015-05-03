@@ -1,0 +1,9 @@
+{# List the checkboxes available. Output their values. #}
+<ul>
+  {% for option in <%- value %> %}
+    {# Output the values for every option. Alternatively, wrap this in an if statement to only show True values. #}
+    <li>
+      {{ option.label }}: {{ option.value }}
+    </li>
+  {% endfor%}
+</ul>

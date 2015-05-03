@@ -1,0 +1,10 @@
+{# Relationship. Note that use the label you set for the relation, not the content-type name. #}
+<% if(controlInfo.meta ? controlInfo.meta.isSingle : false) { %>
+{# You can ouput more than just the name. Feel free to output more fields from the CMS. #}
+<a href="{{ url(<%- value %>) }}">{{ <%- value %>.name }}</a>
+<% } else { %>
+{% for relation in <%- value %> %}
+  {# You can ouput more than just the name. Feel free to output more fields from the CMS. #}
+  <a href="{{ url(relation) }}">{{ relation.name }}</a>{% if not loop.last %},{% endif %}
+{% endfor %}
+<% } %>

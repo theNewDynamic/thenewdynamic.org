@@ -1,0 +1,11 @@
+{# You can pull out a lot more information from the gallery property. Info here: #}
+{# http://www.webhook.com/docs/widget-template-reference/#image #}
+<ul>
+  {% for image in <%- value %> %}
+    <li>
+      {# You can get the raw image url by accessing image.url #}
+      <img src="{{ image|imageSize(200, 200) }}">
+      <div>{{ image.caption }}</div>
+    </li>
+  {% endfor %}
+</ul>

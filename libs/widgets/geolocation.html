@@ -1,0 +1,9 @@
+{% if <%- value %> %}
+<ul>
+  <li>Latitude: {{ <%- value %>.latitude }}</li>
+  <li>Longitude: {{ <%- value %>.longitude }}</li>
+  <li>
+  <img src="https://maps.googleapis.com/maps/api/staticmap?center={{ <%- value %>.latitude }},{{ <%- value %>.longitude }}&zoom=8&size=400x400&markers=color:red%7C{{ <%- value %>.latitude }},{{ <%- value %>.longitude }}" />
+  </li>
+</ul>
+{% endif %}

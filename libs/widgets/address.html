@@ -1,0 +1,5 @@
+<address>
+  {{ <%- value %>.street1 }}<br/>
+  {% if <%- value %>.street2 %}{{ <%- value %>.street2 }}<br/>{% endif %}
+  {{ <%- value %>.city }}, {{ <%- value %>.state }}. {{ <%- value %>.country }} {{ <%- value %>.zip }}
+</address>

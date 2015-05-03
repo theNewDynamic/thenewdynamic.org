@@ -1,0 +1,44 @@
+{# ------------------------------------------------------- #}
+
+{# LIST VIEW OF ALL <%- typeName %> #}
+
+{# Webhook uses the SWIG.js (like Djagno/Twig) templating system. Their documentation is here: #}
+{# http://paularmstrong.github.io/swig/docs/tags/ #}
+
+{# Learn about calling data into Webhook pages here: #}
+{# http://www.webhook.com/docs/template-rules-and-filters/ #}
+
+{# ------------------------------------------------------- #}
+
+{# Confused what extends and blocks do? Watch a primer: #}
+{# http://www.webhook.com/docs/template-inheritance-blocks/ #}
+{% extends "templates/partials/base.html" %}
+
+{# This sets our page <title>. It will append <%- typeName %> to the site title defined in base.html #}
+{% block title %}{% parent %} - <%= typeName %>{% endblock %}
+
+{% block content %}
+
+  {# The first thing we do is call <%= typeName %> data from the CMS. #}
+  {% set data = cms.<%= typeName %> %}
+
+  {# Next we sort the data by publish_date. The true bit reverses it so it's newest first. Learn more: #}
+  {# http://www.webhook.com/docs/template-rules-and-filters/#sortproperty_reverseorder #}
+  {% set data = data|sort('publish_date', true) %}
+
+  {# This is how you set pagination. It's always important to do this after your sort. #}
+  {% set data = paginate(data, 5) %}
+
+  <h1>List of <%= typeName %></h1>
+
+  {# This forloop can use any data from http:localhost:2000/cms/#/form/<%- typeName %>/ #}
+  <ul>
+    {% for object in data %}
+      <li><a href="{{ url(object) }}">{{ object.name }}</a></li>
+    {% endfor %}
+  </ul>
+
+  {# The actual pagination template, feel free to edit or replace the default one. #}
+  {% include "templates/partials/paginator.html" %}
+
+{% endblock %}

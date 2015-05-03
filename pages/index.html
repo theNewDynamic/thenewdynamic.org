@@ -1,0 +1,41 @@
+{# ------------------------------------------------------- #}
+
+{# YOUR HOMEPAGE #}
+
+{# Webhook uses the SWIG.js (like Djagno/Twig) templating system. Their documentation is here: #}
+{# http://paularmstrong.github.io/swig/docs/tags/ #}
+
+{# Learn about calling data into Webhook pages here: #}
+{# http://www.webhook.com/docs/template-rules-and-filters/ #}
+
+{# ------------------------------------------------------- #}
+
+{# Confused what extends and blocks do? Watch a primer: #}
+{# http://www.webhook.com/docs/template-inheritance-blocks/ #}
+{% extends "templates/partials/base.html" %}
+
+{# This sets our page <title>. It will append "- Homepage" to the site title defined in base. #}
+{% block title %}{% parent %} - Homepage{% endblock %}
+
+{% block content %}
+
+  <h1>Hello world!</h1>
+
+  <p>This is your homepage, located at /pages/index.html.</p>
+
+  <p><a href="/cms/">Looking for the CMS?</a></p>
+
+  {# If you have at least content page type, we show a list. #}
+  {% if cms_types|size !== 0 %}
+
+    <h3>Content types you've created in the CMS so far.</h3>
+
+    <ul>
+    {% for type in cms_types %}
+      <li><a href="{{ url(type) }}">{{ type.name }}</a></li>
+    {% endfor %}
+    </ul>
+
+  {% endif %}
+
+{% endblock %}

@@ -1,0 +1,39 @@
+img, aside img {
+  max-width: 100%;
+}
+
+
+hr {
+
+margin:1em auto;
+border: 0;
+border-top: 1px solid #EEEEEE;
+}
+
+
+.screen-reader-text { /* Reusable, toolbox kind of class */
+position: absolute;
+top: -9999px;
+left: -9999px;
+}
+
+sup, sub {
+//@include adjust-font-size-to($kappa);
+ vertical-align: baseline;
+ position: relative;
+ top: -0.4em;
+}
+sub { top: 0.4em; }
+
+.sharing {
+margin-top: 4em;
+}
+
+
+.hidden-js, .hidden {
+  display: none;
+}
+
+#instantclick-bar {
+  background: $red;
+}
