@@ -1,0 +1,133 @@
+{% extends "templates/partials/base-links.html" %}
+{% block title %}{% parent %} - {{ item.name }}{% endblock %}
+
+
+
+{% block content_aside_left %}
+<h1>List of links</h1>
+{% endblock  %}
+
+
+{% block content_links %}
+  {% set data = cms.links %}
+  {% set data = data|sort('publish_date', true) %}
+  {% set data = paginate(data, 500) %}
+
+  
+<input type="search" placeholder="filter by name, source, or tool" />
+  <ul class="links links-external">
+    {% for object in data %}
+    
+      <li{% if object.video %} id="video-link"{% endif %}>
+        <a href="{{ url(object) }}" target="_blank" class="name">{{ object.name }}</a>
+        {% if object.source %}<small style="color:#777;">by {{ object.source }}</small>{% endif %}
+        <span class="more" onclick="addClass()">
+          <em>{{ object.publish_date|date('F jS, Y') }}</em>
+          {% if object.tool  %}<br />{% endif %}
+          {% for tool in object.tool %}
+            <strong class="tool">{{ tool.name }}{% if not loop.last %}, {% endif %}</strong>
+          {% endfor %}
+          {% if object.summary %}
+          <br />
+          {{object.summary|markdown}}
+          {% endif %}
+
+          {% if object.video %}
+            <div class="embed-container">
+              {% if object.video.provider_name == 'YouTube' %}
+
+                  {% set src = '//www.youtube.com/embed/' + object.video.original_url|replace('http://www.youtube.com/','')|replace('watch\?v=','')|replace('playlist?list=','')  + '?autoplay=0?enablejsapi=1' %}
+                
+                <iframe id="ytplayer" type="text/html" width="640" height="390" src="{{ src }}" frameborder="0">  </iframe>
+
+
+
+
+
+<svg class="defs">
+  <defs>
+    <path id="pause-button-shape"  d="M24,0C10.745,0,0,10.745,0,24s10.745,24,24,24s24-10.745,24-24S37.255,0,24,0z M21,33.064c0,2.201-1.688,4-3.75,4
+    s-3.75-1.799-3.75-4V14.934c0-2.199,1.688-4,3.75-4s3.75,1.801,3.75,4V33.064z M34.5,33.064c0,2.201-1.688,4-3.75,4
+    s-3.75-1.799-3.75-4V14.934c0-2.199,1.688-4,3.75-4s3.75,1.801,3.75,4V33.064z"/>
+    <path id="play-button-shape"  d="M24,0C10.745,0,0,10.745,0,24s10.745,24,24,24s24-10.745,24-24S37.255,0,24,0z M31.672,26.828l-9.344,9.344
+    C20.771,37.729,19.5,37.2,19.5,35V13c0-2.2,1.271-2.729,2.828-1.172l9.344,9.344C33.229,22.729,33.229,25.271,31.672,26.828z"/>
+  </defs>
+</svg>
+
+<div class="buttons">
+  <!-- if we needed to change height/width we could use viewBox here -->
+  <svg class="button" id="play-button">
+    <use xlink:href="#play-button-shape">
+  </svg>
+  <svg class="button" id="pause-button">
+    <use xlink:href="#pause-button-shape">
+  </svg>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              {% else %}
+                {{ object.video.html }} 
+              {% endif %}
+            </div>
+          {% endif %}
+        
+        </span>
+      </li>
+      
+      {% endfor %}
+  </ul>
+
+
+
+{% endblock %}
+
+
+
+  {% block content_aside_right %}      
+    
+    <ul>
+      <li>News</li>
+      <li>Tutorial</li>
+      <li>Review</li>
+      <li>Article/Presentation</li>
+      <li>Resource/Website</li>
+    </ul>
+
+
+{# <h6>Tools</h6> #}
+{% set tools = cms.tools %}
+
+{% set tools = tools%}
+<hr />
+
+
+
+<ul>
+
+
+{% for tool in tools %}
+
+<li>{{ tool.name}}  {{ tool.links_tool.length }}</li>
+
+
+{% endfor %}
+</ul>
+
+
+
+  {% endblock %}

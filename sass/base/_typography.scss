@@ -17,6 +17,13 @@ h6 {
   font-size: $base-font-size;
   line-height: $heading-line-height;
   margin: 0 0 $small-spacing;
+  color: $base-heading-color;
+}
+
+@for $i from 1 through 6 {
+  h#{$i} {
+    font-size: modular-scale((6 - $i), 1em, 1.2);
+  }
 }
 
 p {
@@ -28,16 +35,16 @@ a {
   text-decoration: none;
   transition: color 0.1s linear;
 
-  &:active,
-  &:focus,
-  &:hover {
-    color: darken($action-color, 15%);
-  }
+    &:active,
+    &:focus,
+    &:hover {
+      color: darken($action-color, 15%);
+    }
 
-  &:active,
-  &:focus {
-    outline: none;
-  }
+    &:active,
+    &:focus {
+      outline: none;
+    }
 }
 
 hr {

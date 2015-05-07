@@ -21,7 +21,7 @@ module.exports = function(grunt) {
     },
  concat: {
     dist: {
-      src: ['static/javascript/site.js'],
+      src: ['bower_components/aload/dist/aload.min.js','bower_components/listjs/dist/list.min.js','static/javascript/site-listjs.js', 'static/javascript/site.js'],
       dest: 'static/javascript/dist/scripts.js',
     },
     modernize: {

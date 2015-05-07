@@ -1,6 +1,6 @@
 {# ------------------------------------------------------- #}
 
-{# LIST VIEW OF ALL software #}
+{# LIST VIEW OF ALL events #}
 
 {# Webhook uses the SWIG.js (like Djagno/Twig) templating system. Their documentation is here: #}
 {# http://paularmstrong.github.io/swig/docs/tags/ #}
@@ -14,13 +14,13 @@
 {# http://www.webhook.com/docs/template-inheritance-blocks/ #}
 {% extends "templates/partials/base.html" %}
 
-{# This sets our page <title>. It will append software to the site title defined in base.html #}
-{% block title %}{% parent %} - software{% endblock %}
+{# This sets our page <title>. It will append events to the site title defined in base.html #}
+{% block title %}{% parent %} - events{% endblock %}
 
 {% block content %}
 
-  {# The first thing we do is call software data from the CMS. #}
-  {% set data = cms.software %}
+  {# The first thing we do is call events data from the CMS. #}
+  {% set data = cms.events %}
 
   {# Next we sort the data by publish_date. The true bit reverses it so it's newest first. Learn more: #}
   {# http://www.webhook.com/docs/template-rules-and-filters/#sortproperty_reverseorder #}
@@ -29,9 +29,9 @@
   {# This is how you set pagination. It's always important to do this after your sort. #}
   {% set data = paginate(data, 5) %}
 
-  <h1>List of software</h1>
+  <h1>List of events</h1>
 
-  {# This forloop can use any data from http:localhost:2000/cms/#/form/software/ #}
+  {# This forloop can use any data from http:localhost:2000/cms/#/form/events/ #}
   <ul>
     {% for object in data %}
       <li><a href="{{ url(object) }}">{{ object.name }}</a></li>

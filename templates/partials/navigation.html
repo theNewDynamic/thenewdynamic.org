@@ -1,0 +1,24 @@
+<header class="navigation" role="banner">
+  <div class="navigation-wrapper">
+    <h1 class="logo">
+      <a href="/">
+        {static is} The New Dynamic
+      </a>
+    </h1>
+    <nav role="navigation">
+      <ul id="js-navigation-menu" class="navigation-menu show">
+        {% include "templates/partials/navigation-links.html" %}
+      </ul>
+    </nav>
+    <div class="navigation-tools">
+      <div class="search-bar">
+        <form role="search">
+          <input type="search" placeholder="Enter Search" />
+          <button type="submit">
+            <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/search-icon.png" alt="Search Icon">
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</header>

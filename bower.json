@@ -19,6 +19,7 @@
     "moment": "latest",
     "modernizr": "latest",
     "underscore": "latest",
-    "headroom.js": "latest"
+    "headroom.js": "latest",
+    "aload": "latest"
   }
 }

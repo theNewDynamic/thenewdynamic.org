@@ -12,6 +12,7 @@
     <meta http-equiv='x-dns-prefetch-control' content='on'>
     <link rel='dns-prefetch' href='https://lh3.ggpht.com'>
     <link rel='dns-prefetch' href='//cloud.typography.com'>
+    
 
     {# {% include "templates/partials/head-icons.html" %} #}
 
@@ -32,7 +33,7 @@
     {# set to yes to generate a time stamp on the css file for cachebusting  #}
     {% set bust_cache = 'yes' %}
     <link href='/static/css/screen.css{% if bust_cache == 'yes' %}?generated={{ current_unix_date }}{% endif %}' rel='stylesheet' type="text/css" />
-
+{# <link rel="stylesheet" type="text/css" href="//cloud.typography.com/7044452/619168/css/fonts.css" /> #}
     {% if  getSetting('analytics_id')  %}
       {% include "templates/partials/meta-data.html" %}
     {% endif %}
@@ -78,7 +79,7 @@
         {% block content %}
         {% endblock %}
     </section>
-    {% include "templates/partials/footer.html" %}
+    {# {% include "templates/partials/footer.html" %} #}
     {% include "templates/partials/scripts.html" %}
   </body>
 </html>

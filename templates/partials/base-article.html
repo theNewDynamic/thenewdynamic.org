@@ -1,0 +1,45 @@
+{% extends "templates/partials/base.html" %}
+{% block content %}
+<div class="layout-article">
+  <aside> 
+  {% block content_aside_left %}      
+    <ul>
+      <li>
+        <strong>Last Updated: </strong>
+        {{ item.last_updated|date('F d Y') }}
+      </li>
+      <li>
+        <strong>Publish Date: </strong>
+        {{ item.publish_date|date('F d Y') }}
+      </li>
+    </ul>
+   {% endblock %} 
+  </aside>
+
+  <article> 
+  {% block content_article %} 
+    <h1>{{ item.name }}</h1>
+    <div class="copyTK">    
+      {{ item.markdown_text|markdown }}
+    </div>
+   {% endblock %}  
+  </article>
+
+  <aside> 
+
+  {% block content_aside_right %}      
+    <ul>
+      <li>
+        <strong>Last Updated: </strong>
+        {{ item.last_updated|date('F d Y') }}
+      </li>
+      <li>
+        <strong>Publish Date: </strong>
+        {{ item.publish_date|date('F d Y') }}
+      </li>
+    </ul>
+   {% endblock %} 
+  </aside>
+  
+</div>
+{% endblock %}
