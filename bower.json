@@ -20,6 +20,8 @@
     "modernizr": "latest",
     "underscore": "latest",
     "headroom.js": "latest",
-    "aload": "latest"
+    "aload": "latest",
+    "classie": "~1.0.1",
+    "mixitup": "~2.1.7"
   }
 }

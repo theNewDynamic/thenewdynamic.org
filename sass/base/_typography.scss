@@ -7,6 +7,17 @@ body {
   line-height: $base-line-height;
 }
 
+html.wf-loading body{
+  //@include transition (all .2s ease-out); 
+  @include transition (all .1s ease-out); 
+}
+
+html.wf-active body{
+  
+  //opacity: 1;
+  
+}
+
 h1,
 h2,
 h3,

@@ -46,6 +46,7 @@
     "grunt-simple-watch": "~0.1.2"
   },
   "devDependencies": {
-    "grunt-contrib-sass": "^0.9.2"
+    "grunt-contrib-sass": "^0.9.2",
+    "grunt-jquery-builder": "^0.1.1"
   }
 }

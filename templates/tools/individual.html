@@ -59,37 +59,28 @@
         {% endfor %}
       </li>
       <li>
-        <strong>Type: </strong>
-        {# List the checkboxes available. Output their values. #}
-        <ul>
-          {% for option in item.type %}
-            {# Output the values for every option. Alternatively, wrap this in an if statement to only show True values. #}
-            <li>
-              {{ option.label }}: {{ option.value }}
-            </li>
-          {% endfor%}
-        </ul>
+        <strong>Type of Tool: </strong>
+        {{ item.type_of_tool }}
       </li>
       <li>
         <strong>Summary: </strong>
         {{ item.summary }}
       </li>
       <li>
-        <strong>Links: </strong>
-        {# Output tablular data. Note that it's up to you to output the thead manually. This just output the data. #}
-        <table>
-          <tbody>
-            {% for key, row in item.links %}
-              <tr>
-                {% for key, cell in row %}
-                  <td>
-                    {{ cell }}
-                  </td>
-                {% endfor %}
-              </tr>
-            {% endfor%}
-          </tbody>
-        </table>
+        <strong>Website: </strong>
+        {{ item.website }}
+      </li>
+      <li>
+        <strong>Repo: </strong>
+        {{ item.repo }}
+      </li>
+      <li>
+        <strong>Articles (Tool): </strong>
+        {# Relationship. Note that use the label you set for the relation, not the content-type name. #}
+        {% for relation in item.articles_tool %}
+          {# You can ouput more than just the name. Feel free to output more fields from the CMS. #}
+          <a href="{{ url(relation) }}">{{ relation.name }}</a>{% if not loop.last %},{% endif %}
+        {% endfor %}
       </li>
   </ul>
 {% endblock %}

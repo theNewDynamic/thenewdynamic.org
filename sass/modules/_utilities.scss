@@ -54,3 +54,10 @@ html.js .hidden-js {
 .clear {
   clear: both;
 }
+
+.medium-screen-up {
+  display: none;
+@include media($medium-screen-up) {     
+      display: block;
+    }
+  }

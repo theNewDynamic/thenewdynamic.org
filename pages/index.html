@@ -1,41 +1,94 @@
-{# ------------------------------------------------------- #}
+{% extends "templates/partials/base-links.html" %}
+{% block title %}{% parent %} - {{ item.name }}{% endblock %}
 
-{# YOUR HOMEPAGE #}
 
-{# Webhook uses the SWIG.js (like Djagno/Twig) templating system. Their documentation is here: #}
-{# http://paularmstrong.github.io/swig/docs/tags/ #}
 
-{# Learn about calling data into Webhook pages here: #}
-{# http://www.webhook.com/docs/template-rules-and-filters/ #}
+{% block content_aside_left %}
+<h4>Static Site Generators and the Post-CMS paradigm</h4>
+<button type="button" class="js-menu-trigger sliding-panel-button">Choose a Tool</button>
 
-{# ------------------------------------------------------- #}
+<div class="medium-screen-up">
+<hr />
+{% include "templates/partials/twitter-timeline.html" %}
+</div>
 
-{# Confused what extends and blocks do? Watch a primer: #}
-{# http://www.webhook.com/docs/template-inheritance-blocks/ #}
-{% extends "templates/partials/base.html" %}
+{% endblock  %}
 
-{# This sets our page <title>. It will append "- Homepage" to the site title defined in base. #}
-{% block title %}{% parent %} - Homepage{% endblock %}
 
-{% block content %}
+{% block content_links %}
+  {% set data = cms.links %}
+  {% set data = data|sort('publish_date', true) %}
+  {% set data = paginate(data, 500) %}
 
-  <h1>Hello world!</h1>
+  <div id="filter-container">
+  
+    <input class="search" type="search" placeholder="filter by name, source, or tool" />
+  
+      {# TODO: This reloads the page in some browsers 
+      <form>     
+      <button onclick="linksList.filter();">Reset</button>
+      </form>
+       #}
+  <ul class="links links-external filter-list">
+    {% for object in data %}
+    
+      <li class="{% if object.video %}video-link{% endif %}{% if object.editor_recommends > 1 %} recommended{% endif %}"  >
+        <a href="{{ url(object) }}" target="_blank">
+          <div style="width:100%;">
+            <span class="name">{{ object.name }}</span>
+            {% if object.source %}<small style="color:#777;" class="source">by {{ object.source }}</small>{% endif %} 
+            <span class="type hide">{% if object.type %}{{ object.type }}{% endif %}</span>
+            <span class="recommended hide">{% if object.editor_recommends %}Recommended{% endif %}</span>
 
-  <p>This is your homepage, located at /pages/index.html.</p>
+            <span></span>         
+          </div>
+        </a>
 
-  <p><a href="/cms/">Looking for the CMS?</a></p>
+        <span class="more">
+          <em>{{ object.publish_date|date('F jS, Y') }}</em>
+          {% if object.tool  %}<br />{% endif %}
+          {% for tool in object.tool %}
+            <strong><a href="{{ url(tool) }}" class="tool{{ loop.index }}">{{ tool.name }}</a>{% if not loop.last %}, {% endif %}</strong>
+          {% endfor %}
+          {% if object.summary %}
+          <br />
+          {{object.summary|markdown}}
+          {% endif %}
 
-  {# If you have at least content page type, we show a list. #}
-  {% if cms_types|size !== 0 %}
+          {% if object.video %}
+          <small class="video">VIDEO</small>
+            
+          {% endif %}
+        
+        </span>
+      </li>
+      
+      {% endfor %}
+  </ul>
 
-    <h3>Content types you've created in the CMS so far.</h3>
-
-    <ul>
-    {% for type in cms_types %}
-      <li><a href="{{ url(type) }}">{{ type.name }}</a></li>
-    {% endfor %}
-    </ul>
-
-  {% endif %}
+</div>
 
 {% endblock %}
+
+
+
+  {% block content_aside_right %}      
+    
+    
+<div class="button-group">
+<button id="filter-News" />News {{object.length }}</button>
+<button id="filter-Tutorial" />Tutorial</button>
+<button id="filter-Article" />Article</button>
+<button id="filter-Resource/Website" />Resource</button>
+<button id="filter-Video/Presentation" />Presentation</button>
+<button id="filter-none" />all</button>
+{# <button id="filter-Recommended" />Recommended</button> #}
+</div>
+
+
+
+<ul>
+{% include "templates/partials/navigation-tools-list.html" %}
+<li><a href="/tools/">More Tools</a></li>
+</ul>
+  {% endblock %}

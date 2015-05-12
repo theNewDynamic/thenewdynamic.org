@@ -16,37 +16,37 @@
 
 .layout-article {
   @include outer-container;
-  
-  aside {
-    min-height: 400px;
-  }
   aside { 
-    @include span-columns(12); margin-top:1em; padding:1em;background-color:#d9d9d9; 
-    @include pad(2em);
+    //max-width: 98%;
+    margin-top:1em; 
+    margin-left: auto;
+    margin-right: auto;
+    @include span-columns(12);     
+    @include pad(1em);
+    background-color: $aside-background;
   }
   article { 
-    @include span-columns(12); padding:inherit; margin-top:inherit;
-    @include pad(2em);
+    //max-width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    @include span-columns(12); 
+    padding:inherit; 
+    margin-top:inherit;
+    @include pad(1em);
   }
-
-
   @include media($large-screen) {
     aside { 
       @include span-columns(2.75); 
-      //margin-top:2.5em; 
-      background-color: $aside-background;
+      //max-width: 100%;
     }
     article { 
+      //max-width: 100%;
       @include span-columns(6.5); margin-top:0; 
-
-      //@include span-columns(9.25); margin-top:0; 
-
       @include pad(2em 4em 2em 2em);
       background-color: $article-background;
       .copy {
         @include columns(2 4em);
       }
-
     }
   }
 

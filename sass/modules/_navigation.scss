@@ -19,7 +19,7 @@ header.navigation {
     max-height: $navigation-height;
     padding-left:$navigation-padding;
     padding-right: 2.875em;
-    font-size: 1.125em;
+    font-size: 1.25em;
     line-height: $navigation-height;
     margin:0;
 
@@ -55,19 +55,21 @@ header.navigation {
     clear: both;
     
     display: block;
-    margin: 0 auto;
+    //margin: 0 auto 2em auto;
+    margin: 0 auto 0 auto;
     overflow: visible;
     padding: 0;
     width: 100%;
     z-index: 9999;
-    text-align: center;
+    
     // &.show {
     //   display: block;
       
     // }
 
-    @include media ($horizontal-bar-mode) {
 
+    @include media ($horizontal-bar-mode) {
+      text-align: center;
       display: inline;
       margin: 0;
       padding: 0;
@@ -80,9 +82,8 @@ header.navigation {
     background: $navigation-background;
     display: inline;
     clear: left;
-    line-height: $navigation-height;
-    overflow: hidden;
-    padding-right: 0.8em;
+    line-height: $navigation-height  * .75;
+    overflow: hidden;    
     text-align: right;
     width: 100%;
     z-index: 9999;
@@ -90,6 +91,7 @@ header.navigation {
     text-transform: uppercase;
 
     @include media ($horizontal-bar-mode) {
+      padding-right: 0.8em;
       clear: none;
       background: transparent;
       display: inline;
@@ -103,7 +105,7 @@ header.navigation {
       display: inline-block;
       //font-weight: 400;
       text-decoration: none;
-      font-size: .75em;
+      font-size: .875em;
       font-weight: 700;
       ///background-color: red;
       
@@ -127,206 +129,22 @@ header.navigation {
     padding-bottom: 3px;
   }
 
-  // Sub menus
-
-  li.more.nav-link {
-    padding-right: 0;
-
-    @include media($horizontal-bar-mode) {
-      padding-right: $navigation-submenu-padding;
-    }
-
-    > ul > li:first-child a  {
-      padding-top: 1em;
-    }
-
-    a {
-      margin-right: $navigation-submenu-padding;
-    }
-
-    > a {
-      padding-right: 0.6em;
-    }
-
-    > a:after {
-      @include position(absolute, auto -0.4em auto auto);
-      content: '\25BE';
-      color: $navigation-color;
-    }
-  }
-
-  li.more {
-    overflow: visible;
-    padding-right: 0;
-
-    a {
-      padding-right: 0.8em;
-    }
-
-    > a {
-      padding-right: 1.6em;
-      position: relative;
-
-      @include media($horizontal-bar-mode) {
-        margin-right: $navigation-submenu-padding;
-      }
-
-      &:after {
-        content: '›';
-        font-size: 1.2em;
-        position: absolute;
-        right: $navigation-submenu-padding / 2;
-      }
-    }
-
-    &:focus > .submenu,
-    &:hover > .submenu {
-      display: block;
-    }
-
-    @include media($horizontal-bar-mode) {
-      padding-right: 0.8em;
-      position: relative;
-    }
-  }
-
-  ul.submenu {
-    display: none;
-    padding-left: 0;
-
-    @include media($horizontal-bar-mode) {
-      left: -$navigation-submenu-padding;
-      position: absolute;
-      top: 1.5em;
-    }
-
-    .submenu {
-      @include media($horizontal-bar-mode) {
-        left: $navigation-submenu-width - 0.2em;
-        top: 0;
-      }
-    }
-
-    li {
-      display: block;
-      padding-right: 0;
-
-      @include media($horizontal-bar-mode) {
-        line-height: $navigation-height / 1.3;
-
-        &:first-child > a {
-          border-top-left-radius: $base-border-radius;
-          border-top-right-radius: $base-border-radius;
-        }
-
-        &:last-child > a {
-          border-bottom-left-radius: $base-border-radius;
-          border-bottom-right-radius: $base-border-radius;
-          padding-bottom: 0.7em;
-        }
-      }
-
-      a {
-        background-color: darken($navigation-background, 3%);
-        display: inline-block;
-        text-align: right;
-        width: 100%;
-
-        @include media($horizontal-bar-mode) {
-          background-color: $navigation-background;
-          padding-left: $navigation-submenu-padding;
-          text-align: left;
-          width: $navigation-submenu-width;
-        }
-      }
-    }
-  }
-
+  
   // Elements on the far right
 
-  .navigation-tools {
-    //background: #505050;
-    clear: both;
+ul.secondary-links {
+  display: inline;
+  line-height: $navigation-height;
+  margin-left:.75em;
+  @include media($large-screen) {
     display: block;
-    height: $navigation-height;
-    padding-left: $navigation-padding / 2;
-    padding-right: $navigation-padding;
-
-    @include media($horizontal-bar-mode) {
-      background: transparent;
-      clear: none;
-      float: right;
-    }
-  }
-
-  .sign-up {
-    @include button(flat, $action-color);
-    display: inline;
     float: right;
-    font-size: 0.8em;
-    margin-top: 1em;
-    padding: 0.75em 1em;
-    text-transform: uppercase;
-  }
-
-  // Search bar
-
-  .search-bar {
-    $search-bar-border-color: $base-border-color;
-    $search-bar-border: 1px solid $search-bar-border-color;
-    $search-bar-background: lighten($search-bar-border-color, 10%);
-
-    float: left;
-    padding: 0.85em 0.6em 0.7em 0.6em;
-    width: 60%;
-
-    form {
-      position: relative;
-
-      input[type=search] {
-        @include box-sizing(border-box);
-        background: $navigation-search-background;
-        border-radius: $base-border-radius * 2;
-        border: $navigation-search-border;
-        color: $navigation-color;
-        font-size: 0.9em;
-        font-style: italic;
-        margin: 0;
-        padding: 0.5em 0.8em;
-        width: 100%;
-
-        @include media($horizontal-bar-mode) {
-          width: 100%;
-        }
-      }
-
-      button[type=submit] {
-        @include button(flat, $navigation-search-background);
-        bottom: 0.3em;
-        left: auto;
-        outline: none;
-        padding: 0 9px;
-        position: absolute;
-        right: 0.3em;
-        top: 0.3em;
-
-        img {
-          height: 12px;
-          opacity: 0.7;
-          padding: 1px;
-        }
-      }
-    }
-
-    @include media($horizontal-bar-mode) {
-      display: inline-block;
-      position: relative;
-      width: 16em;
-
-      input {
-        @include box-sizing(border-box);
-        display: block;
-      }
+    li {
+      font-size: 0.8em;
+      font-weight: 400;
     }
   }
+}
+
+  
 }

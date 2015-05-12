@@ -1,22 +1,22 @@
 ul.links li {
+  margin:0 auto .375em auto;
   $background-color: white;
   background-color: darken($background-color, 1%);
   border: 1px solid #eaeaea;
   padding: 1em .75em;
-  margin-bottom: .375em;
   font-size: .9375em;
-  position: relative;
-  @include transition (all .4s ease-in-out); 
+  //position: relative;
+  //////////////////////////////////////border-left:5px solid $background-color;
+  @include transition (all .4s ease-out); 
   a {
     color: black;
   }
-
   .more {
     display: block;
     font-size: .875em;    
     margin-top: .75em;
     padding:1em 4em 1em 1.5em;
-    @include transition (all 6.3s ease-in-out); 
+    @include transition (all 6.3s ease-out); 
     color: $dark-gray;
     background-color: darken($background-color, 3%);
     @include media($medium-screen-up) {
@@ -38,15 +38,18 @@ ul.links li {
   }
 
   &:hover, &:focus, &:active {
-    background-color: $background-color;   
+    //background-color: darken($background-color, 7%);   
     color: $black;
-    border: 1px solid $tnd_red;
+    // a{
+    //   color: $tnd_red;
+    // }
+        box-shadow: 0 13px 20px rgba(0,0,0,0.3);
+
+    //border: 1px solid $tnd_red;
     
     //-webkit-transition-delay: 2s; /* Safari */
     //transition-delay: 2s;
-    .more {
-
-       
+    .more {       
       display: block;
       
     }
@@ -63,10 +66,15 @@ ul.links-external li {
   }
 }
 
-ul.links li#video-link {
-    border-left:2px solid $tnd_red;
+ul.links li.video-link {
+    //////////////////border-left:5px solid transparentize($tnd_red, .45);
   }
 
-  li#video-link.show .more{
+ul.links li.recommended {
+    ///////////border-left:5px solid $tnd_red;
+  }
+
+
+  li.video-link.show .more{
     display: block;
   }

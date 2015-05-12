@@ -1,6 +1,6 @@
 // Typography
-$base-font-family: 'Gotham Narrow SSm A', 'Gotham Narrow SSm B', $helvetica;
-$heading-font-family: 'Gotham Narrow SSm A', 'Gotham Narrow SSm B', $base-font-family;
+$base-font-family: franklin-gothic-urw, $helvetica;
+$heading-font-family: franklin-gothic-urw, $base-font-family;
 
 // $base-font-family: $helvetica;
 // $heading-font-family: $base-font-family;
@@ -9,7 +9,7 @@ $heading-font-family: 'Gotham Narrow SSm A', 'Gotham Narrow SSm B', $base-font-f
 $base-font-size: 1em;
 
 // Line height
-$base-line-height: 1.5;
+$base-line-height: 1.6;
 $heading-line-height: 1.2;
 
 // Other Sizes
@@ -25,13 +25,15 @@ $medium-gray: #646464;
 $black:#27272B;
 $light-gray: #ddd;
 $lightest-gray:#F6F6F6;// #F6F6F6;//#F3F3F3;//#F5F5F5;//#F6F6F6;
-$tnd_red: #B03D3A;// #933330;//#B03D3A;// #933330;
+$tnd_red_brighter: #B03D3A;// #933330;//#B03D3A;// #933330;
+$tnd_red: #8C1613;//#8D2A3A;//933330;
+//#8D2A3A
 
 // Font Colors
 $base-background-color: $lightest-gray;//$tnd_red;
 $base-font-color: $medium-gray;
 $action-color: $tnd_red;
-$base-heading-color:$black;
+$base-heading-color: $black;
 
 // Border
 $base-border-color: $light-gray;
@@ -43,7 +45,7 @@ $form-box-shadow-focus: $form-box-shadow, 0 0 5px adjust-color($action-color, $l
 
 // Articles 
 $article-background: white;//$lightest-gray;
-$aside-background:$article-background;
+$aside-background:transparent;//$article-background;
 //$aside-color: $lightest-gray;
 
 
@@ -54,11 +56,11 @@ $footer-link-color: transparentize($footer-color, 0.6);
 $footer-disclaimer-color: transparentize($footer-color, 0.6);
 
 //navigation
-$navigation-background: #2C343A;//$tnd_red;
+$navigation-background: $tnd_red;//2C343A
 $navigation-padding: 1em;
 $navigation-background: $navigation-background;//$dark-gray;
 $navigation-color: white;
-$navigation-brand-color:transparentize(white, 0.3);
+$navigation-brand-color:wheat;//transparentize(white, 0.3);
 $navigation-color-hover: transparentize(white, 0.3);
 $navigation-height: 60px;
 $navigation-nav-button-background: $action-color;
@@ -70,4 +72,13 @@ $navigation-active-link-color: transparentize(white, 0.5);
 $navigation-submenu-padding: 1em;
 $navigation-submenu-width: 12em;
 $horizontal-bar-mode: $large-screen;
+
+//SLIDING MENU
+$sliding-panel-border-color: $lightest-gray;
+$sliding-panel-background: lighten($sliding-panel-border-color, 5%);
+$sliding-panel-color: $black;
+$sliding-panel-border: 1px solid $sliding-panel-border-color;
+$sliding-panel-background-hover: $action-color;
+$sliding-panel-color-hover: #fff;
+$sliding-panel-background-focus: lighten($sliding-panel-background, 5%);
 

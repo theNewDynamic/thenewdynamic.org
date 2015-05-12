@@ -19,10 +19,32 @@ module.exports = function(grunt) {
         }]
       }
     },
+
+
+  jquery: {
+    dist: {
+      options: {
+        prefix: "jquery-custom-build-",
+        minify: false
+      },
+      output: "static/javascript/dist",
+      versions: {
+        // Remove everything we don't need from 2.x versions static/javascript/dist/jquery-custom-build-2.0.3.js
+        "2.0.3": [ 'ajax', 'css', 'deprecated', 'dimensions', 'effects', 'offset' ]      
+      },
+      
+    }
+  },
+
+
  concat: {
     dist: {
-      src: ['bower_components/aload/dist/aload.min.js','bower_components/listjs/dist/list.min.js','static/javascript/site-listjs.js', 'static/javascript/site.js'],
+      src: ['bower_components/jquery/dist/jquery.min.js','bower_components/listjs/dist/list.js','static/javascript/site.js'],
       dest: 'static/javascript/dist/scripts.js',
+    },
+    listjs: {
+      src: 'static/javascript/site-listjs.js',
+      dest: 'static/javascript/dist/list-filters.min.js'
     },
     modernize: {
       src: ['bower_components/html5shiv/dist/html5shiv.min.js','bower_components/respond/dest/respond.min.js'],
@@ -38,7 +60,8 @@ module.exports = function(grunt) {
     },
     my_target: {
       files: {
-        'static/javascript/dist/scripts.min.js': ['static/javascript/dist/scripts.js']
+        'static/javascript/dist/scripts.min.js': ['static/javascript/dist/scripts.js'],
+        'static/javascript/dist/list-filters.min.js': ['static/javascript/dist/list-filters.js']
       }
     }
   },
@@ -50,7 +73,7 @@ module.exports = function(grunt) {
     watch: {
       concat : {
         files:  'static/javascript/**/*.js',
-        tasks: ['concat', 'uglify', 'build'],
+        tasks: [ 'jquery','concat', 'uglify', 'build'],
          nonull: true,
       },
       sass : {
@@ -68,6 +91,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-sass');
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.loadNpmTasks('grunt-jquery-builder');
 
   // NEVER REMOVE THESE LINES, OR ELSE YOUR PROJECT MAY NOT WORK
   require('./options/generatorOptions.js')(grunt);
