@@ -1,7 +1,13 @@
+.sliding-panel-button {
+  @include button(flat, black);
+  z-index: 999999999998;
+  
+}
+
 .sliding-panel-content {  
   @include position(fixed, 0px 0px 0px auto);
-  @include size(220px 100%);
-  @include transform(translateX(220px));
+  @include size(320px 100%);
+  @include transform(translateX(320px));
   @include transition(all 0.25s linear);
   background: $sliding-panel-background;
   z-index: 999999;
@@ -34,37 +40,27 @@
       color: $sliding-panel-color-hover;
     }
   }
-
-  &.is-visible {
-    @include transform(translateX(0));
-  }
 }
 
-.sliding-panel-fade-screen {
-  @include position(fixed, 0px 0px 0px 0px);
-  @include transition;
-  background: black;
+
+
+.sliding-panel[data-state=open] .sliding-panel-content {
+    @include transform(translateX(0));
+}
+
+.sliding-panel[data-state=closed] .sliding-panel-fade-screen {
   opacity: 0;
   visibility: hidden;
-  z-index: 999998;
-
-  &.is-visible {
-    opacity: 0.5;
-    visibility: visible;
-  }
 }
 
-.sliding-panel-button {
-  @include button(flat, #477DCA);
-  padding: 10px 16px;
-  display: inline-block;
-  cursor: pointer;
-  position: relative;
-  outline: none;
 
-  img {
-    height: 1.3em;
-  }
+.sliding-panel[data-state=open] .sliding-panel-fade-screen {
+  //@include position(fixed, 0px 0px 0px 0px);
+  @include transition;
+  background: black;
+  z-index: 999998;
+  opacity: 0.5;
+  visibility: visible;
 }
 
 // Based on code by Diego Eis

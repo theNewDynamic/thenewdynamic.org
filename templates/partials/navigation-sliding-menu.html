@@ -1,7 +1,11 @@
-{% set tools = tools|sort('name') %}
-<nav class="js-menu sliding-panel-content">
-  <ul>
-    {% include "templates/partials/navigation-tools-list.html" %}
-  </ul>
-</nav>
-<div class="js-menu-screen sliding-panel-fade-screen"></div>
+<div class="sliding-panel" data-state="closed">
+
+  <nav class="js-menu sliding-panel-content" >
+    <ul>
+      {% include "templates/partials/navigation-tools-list.html" %}
+    </ul>
+  </nav>
+
+  <div class="js-menu-screen sliding-panel-fade-screen"></div>
+  
+</div>

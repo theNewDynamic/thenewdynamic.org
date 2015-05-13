@@ -61,3 +61,10 @@ html.js .hidden-js {
       display: block;
     }
   }
+
+  .large-screen {
+  display: none;
+@include media($large-screen) {     
+      display: block;
+    }
+  }

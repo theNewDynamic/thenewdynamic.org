@@ -39,12 +39,8 @@ module.exports = function(grunt) {
 
  concat: {
     dist: {
-      src: ['bower_components/jquery/dist/jquery.min.js','bower_components/listjs/dist/list.js','static/javascript/site.js'],
+      src: ['bower_components/listjs/dist/list.js','bower_components/list.pagination.js/dist/list.pagination.js','static/javascript/site.js'],
       dest: 'static/javascript/dist/scripts.js',
-    },
-    listjs: {
-      src: 'static/javascript/site-listjs.js',
-      dest: 'static/javascript/dist/list-filters.min.js'
     },
     modernize: {
       src: ['bower_components/html5shiv/dist/html5shiv.min.js','bower_components/respond/dest/respond.min.js'],

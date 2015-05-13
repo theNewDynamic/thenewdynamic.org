@@ -7,8 +7,8 @@
   "neat/neat",
   "base/base";
 
-// @import
-//   "vendor/fonts";
+@import
+  "vendor/fontello";
 
 // Modules
 @import
@@ -16,9 +16,18 @@
   "modules/buttons",
   "modules/colors",
   "modules/footer",
+  "modules/icons",
   "modules/layouts",
   "modules/links",
   "modules/navigation",
   "modules/navigation-sliding-menu",
+  "modules/pagination",
   "modules/utilities",
   "modules/utilities-iframes";
+
+  .bud {
+    color: green;
+  }
+.right {
+  text-align: right;
+}

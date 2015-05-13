@@ -1,0 +1,29 @@
+{% if item.type_of_tool %}
+  <h5>{{ item.type_of_tool }}</h5>
+{% endif %}
+
+<ul>
+  {% if item.summary %}
+    {{ item.summary|markdown}}
+  {% endif %}
+
+  {% if item.website %}
+    <li>
+      <a href="{{ item.website }}">Website <i class="icon-ion-android-open smaller"></i></a>
+    </li>
+  {% endif %}
+  
+  {% if item.repo %}
+    <li>
+      <a href="{{ item.repo }}">Repo <i class="icon-ion-android-open smaller"></i></a>
+    </li>
+  {% endif %}
+</ul>
+
+{% if item.showcase_tools %}
+  <hr />
+  <h6>Showcase Sites</h6>
+{% endif %}
+{% for relation in item.showcase_tools %}
+  <a href="{{ url(relation) }}">{{ relation.name }}</a>{% if not loop.last %},{% endif %}
+{% endfor %}

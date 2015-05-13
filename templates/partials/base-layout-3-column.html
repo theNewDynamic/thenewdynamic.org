@@ -1,0 +1,35 @@
+{% extends "templates/partials/base.html" %}
+
+{% block content %}
+  <div class="layout-article">
+    <aside class="left"> 
+      {% block content_aside_left %}     
+        <h4>Static Site Generators and the Post-CMS paradigm</h4>
+        <button type="button" id="js-menu-trigger" class="js-menu-trigger sliding-panel-button">Choose a Tool</button>
+        {# <div class="large-screen"><hr />{% include "templates/partials/twitter-timeline.html" %}</div> #} 
+      {% endblock %} 
+    </aside>
+    <article> 
+      {% block content_center %}   
+        {% set data = cms.links %}
+        {% set data = data|sort('publish_date', true) %}         
+        <div id="filter-container">
+          <input class="search" type="search" placeholder="filter by name, source, or tool" />
+          <ul class="links links-external filter-list">
+            {% for object in data %}    
+              {% include "templates/partials/format-links.html" %}
+            {% endfor %}
+          </ul>
+          <div class="pagination">
+            <ul class="pagination-list"></ul>
+          </div>
+        </div>
+      {% endblock %}  
+    </article>
+    <aside> 
+      {% block content_aside_right %}  
+        {% include "templates/partials/format-links-filters.html" %}    
+      {% endblock %} 
+    </aside>
+  </div>
+{% endblock %}

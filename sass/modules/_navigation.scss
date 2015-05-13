@@ -18,8 +18,8 @@ header.navigation {
     float: left;
     max-height: $navigation-height;
     padding-left:$navigation-padding;
-    padding-right: 2.875em;
-    font-size: 1.25em;
+    
+    font-size: 1.4375em;
     line-height: $navigation-height;
     margin:0;
 
@@ -33,6 +33,7 @@ header.navigation {
     }
     @include media ($horizontal-bar-mode) {
       padding-left:0;// $navigation-padding;
+      padding-right: 3.375em;
     }
   }
 
@@ -82,11 +83,12 @@ header.navigation {
     background: $navigation-background;
     display: inline;
     clear: left;
-    line-height: $navigation-height  * .75;
+    line-height: $navigation-height;
     overflow: hidden;    
     text-align: right;
     width: 100%;
     z-index: 9999;
+    font-family: $heading-font-family;
     
     text-transform: uppercase;
 
@@ -105,7 +107,7 @@ header.navigation {
       display: inline-block;
       //font-weight: 400;
       text-decoration: none;
-      font-size: .875em;
+      font-size: .9375em;
       font-weight: 700;
       ///background-color: red;
       
@@ -133,14 +135,14 @@ header.navigation {
   // Elements on the far right
 
 ul.secondary-links {
-  display: inline;
+  display: none;
   line-height: $navigation-height;
   margin-left:.75em;
   @include media($large-screen) {
     display: block;
     float: right;
     li {
-      font-size: 0.8em;
+      font-size: 0.875em;
       font-weight: 400;
     }
   }

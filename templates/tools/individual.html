@@ -1,86 +1,33 @@
-{# ------------------------------------------------------- #}
-{# INDIVIDUAL VIEW FOR EACH tools #}
-{# This page can use any data from http:localhost:2000/cms/#/form/tools/ #}
-{# Webhook uses the SWIG.js (like Djagno/Twig) templating system. Their documentation is here: #}
-{# http://paularmstrong.github.io/swig/docs/tags/ #}
-{# Learn about calling data into Webhook pages here: #}
-{# http://www.webhook.com/docs/template-rules-and-filters/ #}
-{# ------------------------------------------------------- #}
-{# Confused what extends and blocks do? Watch a primer: #}
-{# http://www.webhook.com/docs/template-inheritance-blocks/ #}
-{% extends "templates/partials/base.html" %}
-{# This sets our page <title>. It will append this tools's name to the site title defined in base.html #}
+{% extends "templates/partials/base-layout-3-column.html" %}
 {% block title %}{% parent %} - {{ item.name }}{% endblock %}
-{% block content %}
-  <p><a href="{{ url('tools') }}">View a list of all tools</a></p>
-  <h1>{{ item.name }}</h1>
-  <ul>
-      <li>
-        <strong>Name: </strong>
-        {{ item.name }}
-      </li>
-      <li>
-        <strong>Create Date: </strong>
-        {# Format the date. You can use PHP's date function to format as needed. http://php.net/manual/en/function.date.php #}
-        {{ item.create_date|date('F d Y') }}
-      </li>
-      <li>
-        <strong>Last Updated: </strong>
-        {# Format the date. You can use PHP's date function to format as needed. http://php.net/manual/en/function.date.php #}
-        {{ item.last_updated|date('F d Y') }}
-      </li>
-      <li>
-        <strong>Publish Date: </strong>
-        {# Format the date. You can use PHP's date function to format as needed. http://php.net/manual/en/function.date.php #}
-        {{ item.publish_date|date('F d Y') }}
-      </li>
-      <li>
-        <strong>Preview URL: </strong>
-        {{ item.preview_url }}
-      </li>
-      <li>
-        <strong>Slug: </strong>
-        {{ item.slug }}
-      </li>
-      <li>
-        <strong>Showcase (Tools): </strong>
-        {# Relationship. Note that use the label you set for the relation, not the content-type name. #}
-        {% for relation in item.showcase_tools %}
-          {# You can ouput more than just the name. Feel free to output more fields from the CMS. #}
-          <a href="{{ url(relation) }}">{{ relation.name }}</a>{% if not loop.last %},{% endif %}
-        {% endfor %}
-      </li>
-      <li>
-        <strong>Links (Tool): </strong>
-        {# Relationship. Note that use the label you set for the relation, not the content-type name. #}
-        {% for relation in item.links_tool %}
-          {# You can ouput more than just the name. Feel free to output more fields from the CMS. #}
-          <a href="{{ url(relation) }}">{{ relation.name }}</a>{% if not loop.last %},{% endif %}
-        {% endfor %}
-      </li>
-      <li>
-        <strong>Type of Tool: </strong>
-        {{ item.type_of_tool }}
-      </li>
-      <li>
-        <strong>Summary: </strong>
-        {{ item.summary }}
-      </li>
-      <li>
-        <strong>Website: </strong>
-        {{ item.website }}
-      </li>
-      <li>
-        <strong>Repo: </strong>
-        {{ item.repo }}
-      </li>
-      <li>
-        <strong>Articles (Tool): </strong>
-        {# Relationship. Note that use the label you set for the relation, not the content-type name. #}
-        {% for relation in item.articles_tool %}
-          {# You can ouput more than just the name. Feel free to output more fields from the CMS. #}
-          <a href="{{ url(relation) }}">{{ relation.name }}</a>{% if not loop.last %},{% endif %}
-        {% endfor %}
-      </li>
-  </ul>
+  
+  {% block content_aside_left %}
+    <h1 class="title">{{ item.name }}</h1>
+    {% include "templates/partials/format-tools-sidebar.html" %}
+  {% endblock %}
+
+{% block content_center %}
+  {% set data = merge(item.articles_tool, item.links_tool) %}
+  {% set data = data|sort('publish_date', true) %}
+
+  <div id="filter-container">
+    <input class="search" type="search" placeholder="filter by name, source, or tool" />
+    <ul class="links links-external filter-list">
+      {% for object in data %}    
+        {% include "templates/partials/format-links.html" %}
+      {% endfor %}
+    </ul>    
+  </div>
+  
+{% endblock %}
+
+
+
+{% block content_aside_right %}
+
+
+{#   {% include "templates/partials/format-links-filters.html" %}     #}
+  {% set prev = prevItem(item, 'name') %}
+  {% set next = nextItem(item, 'name') %}
+  {% include "templates/partials/prev-next.html" %}
 {% endblock %}

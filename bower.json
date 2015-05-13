@@ -22,6 +22,7 @@
     "headroom.js": "latest",
     "aload": "latest",
     "classie": "~1.0.1",
-    "mixitup": "~2.1.7"
+    "mixitup": "~2.1.7",
+    "list.pagination.js": "~0.1.1"
   }
 }

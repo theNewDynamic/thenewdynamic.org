@@ -24,6 +24,12 @@
     @include span-columns(12);     
     @include pad(1em);
     background-color: $aside-background;
+    &.left {
+      text-align:left;
+      h5, h6 {
+        text-align: left;
+      }
+    }
   }
   article { 
     //max-width: 98%;
@@ -38,11 +44,19 @@
     aside { 
       @include span-columns(2.75); 
       //max-width: 100%;
+      &.left {
+      text-align:right;
+      h5, h6 {
+        text-align: right;
+      }
+    }
     }
     article { 
       //max-width: 100%;
-      @include span-columns(6.5); margin-top:0; 
-      @include pad(2em 4em 2em 2em);
+      @include span-columns(6.5); 
+      margin-top:0; 
+      margin-bottom: 20em;
+      @include pad(2em);
       background-color: $article-background;
       .copy {
         @include columns(2 4em);
@@ -51,4 +65,13 @@
   }
 
 
+}
+
+.list {
+  display: inline-block;
+  margin-right: 1em;
+  @include media($medium-screen-up) {
+    display: block;
+    margin-right: 0;    
+  }
 }

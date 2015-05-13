@@ -1,0 +1,14 @@
+<div class="page-icons">
+  {% if prev %}    
+    <a class="previous" href="{{ url(prev) }}{{ variable }}" title="{{ prev.name }}"><i class="icon-ion-ios-arrow-back"></i></a>
+  {% endif %}
+  {% if next %}
+    <a class="next" href="{{ url(next) }}{{ variable }}" title="{{ next.name }}"><i class="icon-ion-ios-arrow-forward"></i></a>
+  {% endif %}
+</div>
+<script>
+  document.body.onkeyup = function(e){
+    {% if prev %}if (e.keyCode == '37') { window.location = '{{ url(prev) }}'; }{% endif %}
+    {% if next %}if (e.keyCode == '39') { window.location = '{{ url(next) }}'; }{% endif %}
+  };
+</script>

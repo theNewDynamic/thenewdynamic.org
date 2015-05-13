@@ -10,6 +10,10 @@ ul.links li {
   @include transition (all .4s ease-out); 
   a {
     color: black;
+
+    &.hover {
+      color: $tnd_red;
+    }
   }
   .more {
     display: block;
@@ -62,6 +66,7 @@ ul.links-external li {
   background-position: 97% 20px;
   
   &:hover {
+    color: $tnd_red;
     background-image: url('/static/images/icon-external-link-11-11-opacity64.png');
   }
 }
@@ -77,4 +82,8 @@ ul.links li.recommended {
 
   li.video-link.show .more{
     display: block;
+  }
+
+  ul.listings li {
+    margin-bottom: 1em;
   }

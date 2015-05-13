@@ -29,6 +29,7 @@ h6 {
   line-height: $heading-line-height;
   margin: 0 0 $small-spacing;
   color: $base-heading-color;
+  font-weight: 700;
 }
 
 @for $i from 1 through 6 {
@@ -39,7 +40,12 @@ h6 {
 
 p {
   margin: 0 0 $small-spacing;
+  font-weight: 400;
 }
+
+// article p {
+//   font-size: 1.0625em;
+// }
 
 a {
   color: $action-color;
@@ -70,4 +76,15 @@ img,
 picture {
   margin: 0;
   max-width: 100%;
+}
+small, .small {
+  font-size: .875em;
+}
+
+.smaller {
+ font-size: .75em; 
+}
+
+.title {
+  margin-bottom: .125em;
 }

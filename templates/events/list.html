@@ -1,44 +1,67 @@
-{# ------------------------------------------------------- #}
-
-{# LIST VIEW OF ALL events #}
-
-{# Webhook uses the SWIG.js (like Djagno/Twig) templating system. Their documentation is here: #}
-{# http://paularmstrong.github.io/swig/docs/tags/ #}
-
-{# Learn about calling data into Webhook pages here: #}
-{# http://www.webhook.com/docs/template-rules-and-filters/ #}
-
-{# ------------------------------------------------------- #}
-
-{# Confused what extends and blocks do? Watch a primer: #}
-{# http://www.webhook.com/docs/template-inheritance-blocks/ #}
-{% extends "templates/partials/base.html" %}
-
-{# This sets our page <title>. It will append events to the site title defined in base.html #}
-{% block title %}{% parent %} - events{% endblock %}
+{% extends "templates/partials/base-layout-article.html" %}
+{% block title %}{% parent %} - Events{% endblock %}
 
 {% block content %}
+<div class="layout-article">
+  <aside>
+      
 
-  {# The first thing we do is call events data from the CMS. #}
-  {% set data = cms.events %}
 
-  {# Next we sort the data by publish_date. The true bit reverses it so it's newest first. Learn more: #}
-  {# http://www.webhook.com/docs/template-rules-and-filters/#sortproperty_reverseorder #}
+</aside>
+
+<article>
+ {% set data = cms.events %}
   {% set data = data|sort('publish_date', true) %}
+  {% set data = paginate(data, 50) %}
 
-  {# This is how you set pagination. It's always important to do this after your sort. #}
-  {% set data = paginate(data, 5) %}
+  <h2>Events</h2>
 
-  <h1>List of events</h1>
-
-  {# This forloop can use any data from http:localhost:2000/cms/#/form/events/ #}
-  <ul>
+  {# This forloop can use any data from http:localhost:2000/cms/#/form/articles/ #}
+  
     {% for object in data %}
-      <li><a href="{{ url(object) }}">{{ object.name }}</a></li>
+      <h3 style="margin-bottom:.125em;"><a href="{{ url(object) }}">{{ object.name }}</a></h3>
+      
+
+        <ul class="listings">
+        {% for row in object.grid %}
+            <li>
+              <strong>Name: </strong>
+              {{ row.name }}
+            </li>
+            <li>
+              <strong>Start Time: </strong>
+              {# Format the date. You can use PHP's date function to format as needed. http://php.net/manual/en/function.date.php #}
+                {{ row.start_time|date('F d Y') }}
+            </li>
+            <li>
+              <strong>Venue: </strong>
+              {# Relationship. Note that use the label you set for the relation, not the content-type name. #}
+                {# You can ouput more than just the name. Feel free to output more fields from the CMS. #}
+                <a href="{{ url(row.venue) }}">{{ row.venue.name }}</a>
+            </li>
+            <li>
+              <strong>Link: </strong>
+              {# Relationship. Note that use the label you set for the relation, not the content-type name. #}
+                {# You can ouput more than just the name. Feel free to output more fields from the CMS. #}
+                <a href="{{ row.link }}">{{ row.link }}</a>
+            </li>
+            <li>
+              <strong>Description: </strong>
+              {{ row.description }}
+            </li>
+        {% endfor %}
+        </ul>
     {% endfor %}
-  </ul>
+  
 
   {# The actual pagination template, feel free to edit or replace the default one. #}
   {% include "templates/partials/paginator.html" %}
 
+      
+      
+  
+  </article>
+  
+  </div>
 {% endblock %}
+

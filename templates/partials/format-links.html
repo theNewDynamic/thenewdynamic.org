@@ -1,0 +1,25 @@
+<li class="{% if object.video %}video-link{% endif %}{% if object.editor_recommends > 1 %} recommended{% endif %}"  >
+  <a href="{{ object.link }}" target="_blank">
+    <div style="width:100%;">
+      <span class="name">{{ object.name }}</span>
+      {% if object.source %} <small style="color:#777;" class="source">by {{ object.source }}</small>{% endif %} 
+      <span class="type hide">{% if object.type %}{{ object.type }}{% endif %}</span>
+      <span class="recommended hide">{% if object.editor_recommends %}Recommended{% endif %}</span>
+    </div>
+  </a>
+  <span class="more">
+    <em>{{ object.publish_date|date('F jS, Y') }}</em>
+    {% if object.tool  %}<br />{% endif %}
+    {% for tool in object.tool %}
+      <strong><a href="{{ url(tool) }}" class="tool{{ loop.index }}">{{ tool.name }}</a>{% if not loop.last %}, {% endif %}</strong>
+    {% endfor %}
+    {% if object.summary %}
+    <br />
+    {{object.summary|markdown}}
+    {% endif %}
+
+    {% if object.video %}
+    <small class="video">VIDEO</small>      
+    {% endif %}  
+  </span>
+</li>
