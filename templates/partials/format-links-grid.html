@@ -1,0 +1,14 @@
+{% if item.links %}
+  {% set links = item.links %}
+ {% elseif object.links %} 
+  {% set links = object.links %}
+{% endif %}
+
+
+{% if links %}
+    {% for object in links %}
+      <li class="listings">
+        <a href="{{ object.link }}">{{ object.name}} <i class="icon-ion-android-open smaller"></i></a>
+      </li>
+    {% endfor %}
+  {% endif %}

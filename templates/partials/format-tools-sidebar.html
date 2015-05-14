@@ -16,13 +16,7 @@
   {% if item.summary %}
     {{ item.summary|markdown}}
   {% endif %}
-  {% if item.links %}
-    {% for object in item.links %}
-      <li class="listings">
-        <a href="{{ object.link }}">{{ object.name}} <i class="icon-ion-android-open smaller"></i></a>
-      </li>
-    {% endfor %}
-  {% endif %}
+  {% include "templates/partials/format-links-grid.html" %}
 </ul>
 
 {% if item.showcase_tools %}

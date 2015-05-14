@@ -3,6 +3,22 @@
 
 {% block content_aside_left %}
   <h2>Events</h2>
+<ul class="listings">
+{% for object in cms.organizations %}
+<li><strong>{{ object.name }}</strong> {% if object.location %}<br /><small>{{ object.location}}</small>{% endif %} 
+
+{% if object.links %}
+<ul class="small">
+  {% include "templates/partials/format-links-grid.html" %}
+  </ul>
+{% endif %}
+
+</li>
+
+
+
+{% endfor %}
+</ul>
 {% endblock %}
 
 {% block content_center %}
