@@ -11,6 +11,7 @@ header.navigation {
     @include clearfix;
     @include outer-container;
     position: relative;
+    padding-top:.3125em; //this is here to account for the varying font sizes in the nav, which makes the top/bottom ratio not even
     z-index: 9999;
   }
 

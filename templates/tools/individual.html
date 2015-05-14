@@ -1,33 +1,23 @@
 {% extends "templates/partials/base-layout-3-column.html" %}
-{% block title %}{% parent %} - {{ item.name }}{% endblock %}
-  
-  {% block content_aside_left %}
-    <h1 class="title">{{ item.name }}</h1>
-    {% include "templates/partials/format-tools-sidebar.html" %}
-  {% endblock %}
+{% block title %}{% parent %} - tools{% endblock %}
+
+{% block content_aside_left %}
+  <h2>{{ item.name }}</h2>
+<div class="small-screen">{% include "templates/partials/format-tools-filters.html" %}</div>
+{% endblock %}
 
 {% block content_center %}
-  {% set data = merge(item.articles_tool, item.links_tool) %}
-  {% set data = data|sort('publish_date', true) %}
+  {% set data = item.tool_category %}
 
+  {% set data = data|sort('name') %}
   <div id="filter-container">
     <input class="search" type="search" placeholder="filter by name, source, or tool" />
-    <ul class="links links-external filter-list">
-      {% for object in data %}    
-        {% include "templates/partials/format-links.html" %}
-      {% endfor %}
-    </ul>    
-  </div>
-  
+    <ul class="links filter-list">
+      {% include "templates/partials/format-tools.html" %}
+    </ul>
+</div>
 {% endblock %}
 
-
-
-{% block content_aside_right %}
-
-
-{#   {% include "templates/partials/format-links-filters.html" %}     #}
-  {% set prev = prevItem(item, 'name') %}
-  {% set next = nextItem(item, 'name') %}
-  {% include "templates/partials/prev-next.html" %}
-{% endblock %}
+{% block content_aside_right %}  
+  <div class="large-screen">{% include "templates/partials/format-tools-filters.html" %}</div>
+{% endblock %} 

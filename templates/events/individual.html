@@ -1,31 +1,7 @@
 {% extends "templates/partials/base-layout-article.html" %}
 {% block title %}{% parent %} - {{ item.name }}{% endblock %}
 
-
-
-
-  
-        <ul>
-        {% for row in item.grid %}
-            <li>
-              <strong>Name: </strong>
-              {{ row.name }}
-            </li>
-            <li>
-              <strong>Start Time: </strong>
-              {# Format the date. You can use PHP's date function to format as needed. http://php.net/manual/en/function.date.php #}
-                {{ row.start_time|date('F d Y') }}
-            </li>
-            <li>
-              <strong>Venue: </strong>
-              {# Relationship. Note that use the label you set for the relation, not the content-type name. #}
-                {# You can ouput more than just the name. Feel free to output more fields from the CMS. #}
-                <a href="{{ url(row.venue) }}">{{ row.venue.name }}</a>
-            </li>
-            <li>
-              <strong>Description: </strong>
-              {{ row.description }}
-            </li>
-        {% endfor %}
-        </ul>
-        
+{% block content_center %}
+{% parent %}
+  {% include "templates/partials/event-listing.html" %}
+{% endblock %}

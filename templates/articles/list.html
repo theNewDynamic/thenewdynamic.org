@@ -1,42 +1,31 @@
-{% extends "templates/partials/base-layout-article.html" %}
+{% extends "templates/partials/base-layout-3-column.html" %}
 {% block title %}{% parent %} - articles{% endblock %}
 
-{% block content %}
-<div class="layout-article">
-  <aside>
-      
+{% block content_aside_left %}
+  <h2>Articles</h2>
+{% endblock %}
 
-
-</aside>
-
-<article>
- {% set data = cms.articles %}
+{% block content_center %}
+  {% set data = cms.articles %}
   {% set data = data|sort('publish_date', true) %}
   {% set data = paginate(data, 50) %}
-
-  <h2>Articles</h2>
-
-  {# This forloop can use any data from http:localhost:2000/cms/#/form/articles/ #}
   
     {% for object in data %}
-      <h3 style="margin-bottom:.125em;"><a href="{{ url(object) }}">{{ object.name }}</a></h3>
+      <h3 style="margin-bottom:.125em;{% if loop.index > 1 %}margin-top:2em;{% endif %}"><a href="{{ url(object) }}">{{ object.name }}</a></h3>
       {% if object.summary %}
         {{ object.summary|markdown}}
       {% else %}
         <p>{{ object.markdown_text|markdown|striptags|truncate(140)}}</p>
       {% endif %}
-          <hr />
     {% endfor %}
   
 
   {# The actual pagination template, feel free to edit or replace the default one. #}
   {% include "templates/partials/paginator.html" %}
 
-      
-      
-  
-  </article>
-  
-  </div>
+    
 {% endblock %}
 
+{% block content_aside_right %}  
+
+{% endblock %}  

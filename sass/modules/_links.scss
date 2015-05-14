@@ -43,10 +43,10 @@ ul.links li {
 
   &:hover, &:focus, &:active {
     //background-color: darken($background-color, 7%);   
-    color: $black;
-    // a{
-    //   color: $tnd_red;
-    // }
+    
+    a{
+      color: $tnd_red;
+    }
         box-shadow: 0 13px 20px rgba(0,0,0,0.3);
 
     //border: 1px solid $tnd_red;

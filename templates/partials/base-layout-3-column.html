@@ -4,8 +4,8 @@
   <div class="layout-article">
     <aside class="left"> 
       {% block content_aside_left %}     
-        <h4>Static Site Generators and the Post-CMS paradigm</h4>
-        <button type="button" id="js-menu-trigger" class="js-menu-trigger sliding-panel-button">Choose a Tool</button>
+        <h4>The Static Web: Static Site Generators <small>and the Post-CMS paradigm</small></h4>
+        {% include "templates/partials/button-choose-a-tool.html" %}
         {# <div class="large-screen"><hr />{% include "templates/partials/twitter-timeline.html" %}</div> #} 
       {% endblock %} 
     </aside>
@@ -28,7 +28,6 @@
     </article>
     <aside> 
       {% block content_aside_right %}  
-        {% include "templates/partials/format-links-filters.html" %}    
       {% endblock %} 
     </aside>
   </div>

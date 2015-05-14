@@ -74,11 +74,11 @@ $navigation-submenu-width: 12em;
 $horizontal-bar-mode: $large-screen;
 
 //SLIDING MENU
-$sliding-panel-border-color: $base-background-color;
-$sliding-panel-background: darken($sliding-panel-border-color, 8%);
-$sliding-panel-color: black;
+$sliding-panel-border-color: lighten($black, 7%);
+$sliding-panel-background: $black;//darken($sliding-panel-border-color, 38%);
+$sliding-panel-color: $light-gray;// black;
 $sliding-panel-border: 1px solid $sliding-panel-border-color;
-$sliding-panel-background-hover: $action-color;
+$sliding-panel-background-hover: lighten($black, 7%);
 $sliding-panel-color-hover: #fff;
 $sliding-panel-background-focus: lighten($sliding-panel-background, 5%);
 
@@ -90,4 +90,21 @@ $pagination-border: 1px solid $pagination-border-color;
 $pagination-background: lighten($pagination-border-color, 10);
 $pagination-hover-background: lighten($pagination-background, 5);
 $pagination-color: $base-font-color;
+
+//Flex boxes
+  
+$flex-box-border-color: $light-gray;
+$flex-box-border: 1px solid $flex-box-border-color;
+$flex-box-background: lighten($light-gray, 10%);
+$flex-box-gutter: 0.4em;
+$flex-box-width: 18em;
+$flex-box-color: transparentize($base-font-color, 0.3);
+$flex-box-top-colors: 
+tomato, 
+#72BFBF, 
+#92B1E3, 
+#E3D743,
+#CCC,
+#F6C05C;
+
 

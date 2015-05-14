@@ -6,8 +6,8 @@
 
 .sliding-panel-content {  
   @include position(fixed, 0px 0px 0px auto);
-  @include size(320px 100%);
-  @include transform(translateX(320px));
+  @include size(300px 100%);
+  @include transform(translateX(300px));
   @include transition(all 0.25s linear);
   background: $sliding-panel-background;
   z-index: 999999;

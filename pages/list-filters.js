@@ -6,6 +6,7 @@ var options = {
 };
 
 var linksList  = new List('filter-container', options);
+var toolsList  = new List('filter-container2', options);
 
 
 if (document.getElementById("filter-News")) {
@@ -88,6 +89,44 @@ if (document.getElementById("filter-Recommended")) {
           });
         };
       }
+
+if (document.getElementById("filter-static-site-generator")) {
+    document.getElementById("filter-static-site-generator").onclick=function(){
+            toolsList.filter(function(item) {
+               if (item.values().type == "Static Site Generator" ) {
+                 return true;
+                 } else {
+                 return false;
+              }
+          });
+        };
+      }
+
+if (document.getElementById("filter-deployment")) {
+    document.getElementById("filter-deployment").onclick=function(){
+            toolsList.filter(function(item) {
+               if (item.values().type == "Hosting/Deployment" ) {
+                 return true;
+                 } else {
+                 return false;
+              }
+          });
+        };
+      }
+if (document.getElementById("filter-other")) {
+    document.getElementById("filter-other").onclick=function(){
+            toolsList.filter(function(item) {
+               if (item.values().type == "Other" ) {
+                 return true;
+                 } else {
+                 return false;
+              }
+          });
+        };
+      }
+
+
+
 if (document.getElementById("filter-none")) {
      document.getElementById("filter-none").onclick=function(){
          linksList.filter();

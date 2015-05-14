@@ -1,5 +1,4 @@
-{% set tools = cms.tools %}
-{% set tools = tools|where('type_of_tool', 'Static Site Generator') %}
+{% set tools = cms.tool %}
 {% set tools = tools|sort('name') %}
 {% for tool in tools %}
     <li class="{{ url(tool)|replace('/tools/','')|replace('/','') }}"><a href="{{ url(tool) }}">{{ tool.name }}</a></li>

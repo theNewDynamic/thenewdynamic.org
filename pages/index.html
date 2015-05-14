@@ -1,2 +1,7 @@
 {% extends "templates/partials/base-layout-3-column.html" %}
 {% block title %}{% parent %}{% endblock %}
+
+
+{% block content_aside_right %}  
+  {% include "templates/partials/format-links-filters.html" %}    
+{% endblock %} 

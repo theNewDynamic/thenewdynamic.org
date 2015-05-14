@@ -1,67 +1,23 @@
-{% extends "templates/partials/base-layout-article.html" %}
+{% extends "templates/partials/base-layout-3-column.html" %}
 {% block title %}{% parent %} - Events{% endblock %}
 
-{% block content %}
-<div class="layout-article">
-  <aside>
-      
-
-
-</aside>
-
-<article>
- {% set data = cms.events %}
-  {% set data = data|sort('publish_date', true) %}
-  {% set data = paginate(data, 50) %}
-
+{% block content_aside_left %}
   <h2>Events</h2>
-
-  {# This forloop can use any data from http:localhost:2000/cms/#/form/articles/ #}
-  
-    {% for object in data %}
-      <h3 style="margin-bottom:.125em;"><a href="{{ url(object) }}">{{ object.name }}</a></h3>
-      
-
-        <ul class="listings">
-        {% for row in object.grid %}
-            <li>
-              <strong>Name: </strong>
-              {{ row.name }}
-            </li>
-            <li>
-              <strong>Start Time: </strong>
-              {# Format the date. You can use PHP's date function to format as needed. http://php.net/manual/en/function.date.php #}
-                {{ row.start_time|date('F d Y') }}
-            </li>
-            <li>
-              <strong>Venue: </strong>
-              {# Relationship. Note that use the label you set for the relation, not the content-type name. #}
-                {# You can ouput more than just the name. Feel free to output more fields from the CMS. #}
-                <a href="{{ url(row.venue) }}">{{ row.venue.name }}</a>
-            </li>
-            <li>
-              <strong>Link: </strong>
-              {# Relationship. Note that use the label you set for the relation, not the content-type name. #}
-                {# You can ouput more than just the name. Feel free to output more fields from the CMS. #}
-                <a href="{{ row.link }}">{{ row.link }}</a>
-            </li>
-            <li>
-              <strong>Description: </strong>
-              {{ row.description }}
-            </li>
-        {% endfor %}
-        </ul>
-    {% endfor %}
-  
-
-  {# The actual pagination template, feel free to edit or replace the default one. #}
-  {% include "templates/partials/paginator.html" %}
-
-      
-      
-  
-  </article>
-  
-  </div>
 {% endblock %}
 
+{% block content_center %}
+  {% set data = cms.events %}
+  {% set data = data|sort('publish_date', true) %}
+  {% set data = paginate(data, 50) %}
+  
+  {% for object in data %}
+    <h3 style="margin-bottom:.125em;"><a href="{{ url(object) }}">{{ object.name }}</a></h3>
+      {% include "templates/partials/event-listing.html" %}
+      <hr />
+  {% endfor %}
+    {# The actual pagination template, feel free to edit or replace the default one. #}
+  {% include "templates/partials/paginator.html" %}
+
+{% endblock %}
+
+{% block content_aside_right %}{% endblock %}
