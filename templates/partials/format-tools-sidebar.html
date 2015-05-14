@@ -2,6 +2,16 @@
   <h5>{{ item.type_of_tool }}</h5>
 {% endif %}
 
+
+{% if item.category %}
+<p>
+
+{% for category in item.category %}<small class="light type"><a href="{{ url(category) }}">{{ category.name }}</a>{% if not loop.last %}, {% endif %}</small>{% endfor %}
+
+</p>
+{% endif %} 
+
+
 <ul>
   {% if item.summary %}
     {{ item.summary|markdown}}

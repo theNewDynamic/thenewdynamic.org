@@ -1,9 +1,9 @@
-{% extends "templates/partials/base-layout-3-column.html" %}
+{% extends "templates/partials/base-layout-2-column.html" %}
 {% block title %}{% parent %} - tools{% endblock %}
 
 {% block content_aside_left %}
   <h2>{{ item.name }}</h2>
-<div class="small-screen">{% include "templates/partials/format-tools-filters.html" %}</div>
+<div class="small-screenTK">{% include "templates/partials/format-tools-filters.html" %}</div>
 {% endblock %}
 
 {% block content_center %}
@@ -12,7 +12,7 @@
   {% set data = data|sort('name') %}
   <div id="filter-container">
     <input class="search" type="search" placeholder="filter by name, source, or tool" />
-    <ul class="links filter-list">
+    <ul class="linksTK filter-list flex-boxes">
       {% include "templates/partials/format-tools.html" %}
     </ul>
 </div>

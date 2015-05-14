@@ -1,13 +1,13 @@
 {% for object in data %}
-  <li>
+  <li class="flex-box" style="border-top-color:{% if object.category %}{% set category = object.category|first %}{% if category.color %}{{ category.color }}{% else %}#f6f6f6{% endif %}{% endif %};">
     <a href="{{ url(object) }}">
-      <h4 class="name" style="display:inline-block;">{{ object.name }}</h4>
-      {% if object.category %}{% for category in object.category %}<small class="light type">{{ category.name }}</small>{% endfor %}{% endif %} 
+      <h4 class="name flex-title">{{ object.name }}</h4>
+      {% if object.category %}{% for category in object.category %}<small class="light type">{{ category.name }}{% if not loop.last %}, {% endif %}</small>{% endfor %}{% endif %} 
       {% set links = object.links_tool %}  
       {% set articles = object.articles_tool %}  
       {% if object.summary %}{{ object.summary|markdown}}{% endif %}
       {% if links.length > 0 || articles.length > 0 %}
-        <div class="light" style="text-align:right;">
+        <div class="light meta">
           <small>
             {% spaceless %}
               {% if links.length > 0 %}{{ links.length }}&nbsp;link{% if links.length > 1 %}s{% endif %}{% endif %}

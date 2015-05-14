@@ -2,9 +2,13 @@
 {% set tools = tools|sort('name') %}
 <div class="button-group">
 {% for tool in tools %}    
-  <a href="{{ url(tool) }}"><button id="filter-static-site-generator" />{{ tool.name }}</button></a>
+  <a href="{{ url(tool) }}">
+    <button style="{% if tool.color %}background-color:{{ tool.color }};{% endif %}{% if tool.text_color %}color:{{ tool.text_color }};{% endif %}">
+      {{ tool.name }}
+    </button>
+  </a>
 {% endfor %}
 {% if item.name %}    
-<a href="/tools/"><button id="filter-static-site-generator" />All</button></a>
+<a href="/tools/"><button>All</button></a>
 {% endif %}
   </div>

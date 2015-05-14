@@ -1,10 +1,10 @@
-{% extends "templates/partials/base-layout-3-column.html" %}
+{% extends "templates/partials/base-layout-2-column.html" %}
 {% block title %}{% parent %} - tools{% endblock %}
 
 {% block content_aside_left %}
 <h1>List of tools</h1>
 
-<div class="small-screen">{% include "templates/partials/format-tools-filters.html" %}<br /></div>
+<div class="small-screenTK">{% include "templates/partials/format-tools-filters.html" %}<br /></div>
 <p class="small">This list is chosen by our editors and includes static site generators and other tools we find interesting. For a more comprehensive list of static site generators, see <a href="http://www.staticgen.com/">StaticGen.com</a>.</p>
 {% endblock %}
 
@@ -13,7 +13,7 @@
   {% set data = data|sort('name') %}
   <div id="filter-container">
     <input class="search" type="search" placeholder="filter by name, source, or tool" />
-    <ul class="links filter-list">
+    <ul class="linksTK filter-list flex-boxes">
       {% include "templates/partials/format-tools.html" %}
     </ul>
 </div>
