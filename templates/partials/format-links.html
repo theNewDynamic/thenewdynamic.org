@@ -1,5 +1,5 @@
 <li class="{% if object.video %}video-link{% endif %}{% if object.editor_recommends > 1 %} recommended{% endif %}"  >
-  <a href="{{ object.link }}" target="_blank">
+  <a href="{% if object.link %}{{ object.link }}{% else %}{{ url(object) }}{% endif %}" target="_blank">
     <div style="width:100%;">
       <span class="name">{{ object.name }}</span>
       {% if object.source %} <small style="color:#777;" class="source">by {{ object.source }}</small>{% endif %} 

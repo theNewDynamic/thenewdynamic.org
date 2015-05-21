@@ -1,8 +1,8 @@
 var options = {
   valueNames: [ 'name','slug' , 'summary', 'date', 'tool', 'tool1', 'tool2', 'tool3', 'tool4', 'tool5', 'source', 'video', 'type', 'recommended'],
-  listClass: 'filter-list',  
-  plugins: [ ListPagination({ paginationClass: "pagination-list" }) ], 
-  page: 200 // how many items should first show up on the page - affects performance
+  listClass: 'filter-list'
+  //plugins: [ ListPagination({ paginationClass: "pagination-list" }) ], 
+  //page: 200 // how many items should first show up on the page - affects performance
 };
 
 var linksList  = new List('filter-container', options);

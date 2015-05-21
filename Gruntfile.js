@@ -39,7 +39,7 @@ module.exports = function(grunt) {
 
  concat: {
     dist: {
-      src: ['bower_components/listjs/dist/list.js','bower_components/list.pagination.js/dist/list.pagination.js','static/javascript/site.js'],
+      src: ['bower_components/listjs/dist/list.js','static/javascript/site.js'],
       dest: 'static/javascript/dist/scripts.js',
     },
     modernize: {

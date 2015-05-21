@@ -1,0 +1,49 @@
+<!-- Metadata -->
+{# TODO: add og, twitter card  #}
+{#   http://ogp.me/ #}
+{% set base_url = getSetting('site_url') %}
+{% set slug = item.slug %}
+{% set current_url = getCurrentUrl() %}
+{% set canonical_url = base_url + slug %}
+{% set item_url = base_url + current_url %}
+{% set site_name = getSetting('site_name') + '- A site about static site generators' %}
+{% if item.meta_description %}
+  {% set description =  item.meta_description|escape %}
+{% else %}
+  {% set description = getSetting('site_description') %}
+{% endif %}
+
+{# GLOBAL DATA #}
+<meta content="{{ site_name }}" property="og:site_name">
+{# TITLE #}
+<meta property="og:title" content="{% if item.name %}{{ item.name }}{% else %} Links about Static Site Generators{% endif %}" />
+{# TYPE #}
+{# <meta property="og:type" content="video.movie" /> #}
+{# IMAGE #}
+{% if item.featured_image %}
+    <meta content="{{ item.featured_image|imageSize('600') }}" property="og:image" data-type="featured image">
+  {% else %}
+    <meta content="{{ getSetting('site_url') }}{{ global.featured_image.url }}" property="og:image" data-type="global image">  
+{% endif %}
+<meta property="og:image:type" content="image/jpeg" />
+{# URL #}
+<meta content="{{ item_url }}" property="og:url">
+<link rel="canonical"  href="{{ canonical_url }}" />
+{% if item._type == 'article' %}
+  <meta name="twitter:card" content="photo">
+  <meta name="twitter:creator" content="@thenewdynamic">
+  <meta name="twitter:site" content="@retroreport">
+  <meta name="twitter:title" content="{{ item.name }}">
+  <meta name="twitter:description" content="{{ item.meta_description }}">
+  <script type="text/javascript">
+    var addthis_share = {
+     url: "{{ item_url }}",
+     title: "{{ item.name }}"
+  }
+  </script>
+{% set media = item.videos[0] %}
+  <meta name="twitter:image:src" content="{{ media.video.thumbnail_url }}">
+  <meta name="twitter:image:width" content="{{ media.video.thumbnail_width }}">
+  <meta name="twitter:image:height" content="{{ media.video.thumbnail_height }}">
+{% endif %}
+<meta property="og:description" content="{{ description  }}">

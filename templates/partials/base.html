@@ -12,13 +12,8 @@
     <meta http-equiv='x-dns-prefetch-control' content='on'>
     <link rel='dns-prefetch' href='https://lh3.ggpht.com'>
     <link rel='dns-prefetch' href='https://ajax.googleapis.com'>
-    
-  
     {# {% include "templates/partials/head-icons.html" %} #}
-
     {% include "templates/partials/font-loader.html" %}
-
-
     {% block index_setting %}
       {% if  getSetting('analytics_id')  %}
         <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
@@ -26,20 +21,16 @@
         <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
       {% endif %}
     {% endblock %}
-
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>{% block title %}{{ global.name }}{% endblock %}</title>
-
     {# set to yes to generate a time stamp on the css file for cachebusting  #}
     {% set bust_cache = 'yes' %}
     <link href='/static/css/screen.css{% if bust_cache == 'yes' %}?generated={{ current_unix_date }}{% endif %}' rel='stylesheet' type="text/css" />
-{# <link rel="stylesheet" type="text/css" href="//cloud.typography.com/7044452/619168/css/fonts.css" /> #}
     {% if  getSetting('analytics_id')  %}
       {% include "templates/partials/meta-data.html" %}
     {% endif %}
-
     <!--[if lte IE 7]>
     <link rel="stylesheet" media="all" href="http://universal-ie6-css.googlecode.com/files/ie6.0.3.css">
     <![endif]-->
@@ -48,8 +39,7 @@
     <script src="/static/javascript/modernize/modernize.min.js"></script>
     <![endif]-->
 
-
-    {% if  getSetting('analytics_id')  %}
+    {% if getSetting('analytics_id')  %}
       <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -59,7 +49,6 @@
         ga('send', 'pageview');
       </script>
     {% endif %}
-
     {# //END head #}
     {% block head_extra %}
       {# // TODO: DOES THIS PREV NEXT GO HERE IN HEAD EXTRA? #}
