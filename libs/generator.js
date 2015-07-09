@@ -642,10 +642,13 @@ module.exports.generator = function (config, options, logger, fileParser) {
           var filename = path.basename(newFile, path.extname(file));
           var extension = path.extname(file);
 
-
-          if(path.extname(file) === '.html' && filename !== 'index' && path.basename(newFile) !== '404.html') {
+          if(path.extname(file) === '.html' && filename !== 'index' && path.basename(newFile) !== '404.html' && file.indexOf('.raw.html') === -1) {
             dir = dir + '/' + filename;
             filename = 'index';
+          }
+
+          if(filename.indexOf('.raw') !== -1 && filename.indexOf('.raw') === (filename.length - 4) && extension === '.html') {
+            filename = filename.slice(0, filename.length - 4);
           }
 
           newFile = dir + '/' + filename + path.extname(file);
