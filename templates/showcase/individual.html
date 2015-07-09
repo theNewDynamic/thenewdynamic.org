@@ -1,0 +1,113 @@
+{# ------------------------------------------------------- #}
+{# INDIVIDUAL VIEW FOR EACH showcase #}
+{# This page can use any data from http:localhost:2000/cms/#/form/showcase/ #}
+{# Webhook uses the SWIG.js (like Djagno/Twig) templating system. Their documentation is here: #}
+{# http://paularmstrong.github.io/swig/docs/tags/ #}
+{# Learn about calling data into Webhook pages here: #}
+{# http://www.webhook.com/docs/template-rules-and-filters/ #}
+{# ------------------------------------------------------- #}
+{# Confused what extends and blocks do? Watch a primer: #}
+{# http://www.webhook.com/docs/template-inheritance-blocks/ #}
+{% extends "templates/partials/base.html" %}
+{# This sets our page <title>. It will append this showcase's name to the site title defined in base.html #}
+{% block title %}{% parent %} - {{ item.name }}{% endblock %}
+{% block content %}
+  <p><a href="{{ url('showcase') }}">View a list of all showcase</a></p>
+  <h1>{{ item.name }}</h1>
+  <ul>
+      <li>
+        <strong>Name: </strong>
+        {{ item.name }}
+      </li>
+      <li>
+        <strong>Create Date: </strong>
+        {# Format the date. You can use PHP's date function to format as needed. http://php.net/manual/en/function.date.php #}
+        {{ item.create_date|date('F d Y') }}
+      </li>
+      <li>
+        <strong>Last Updated: </strong>
+        {# Format the date. You can use PHP's date function to format as needed. http://php.net/manual/en/function.date.php #}
+        {{ item.last_updated|date('F d Y') }}
+      </li>
+      <li>
+        <strong>Publish Date: </strong>
+        {# Format the date. You can use PHP's date function to format as needed. http://php.net/manual/en/function.date.php #}
+        {{ item.publish_date|date('F d Y') }}
+      </li>
+      <li>
+        <strong>Website: </strong>
+        {{ item.website }}
+      </li>
+      <li>
+        <strong>Images: </strong>
+        {# You can pull out a lot more information from the gallery property. Info here: #}
+        {# http://www.webhook.com/docs/widget-template-reference/#image #}
+        <ul>
+          {% for image in item.images %}
+            <li>
+              {# You can get the raw image url by accessing image.url #}
+              <img src="{{ image|imageSize(200, 200) }}">
+              <div>{{ image.caption }}</div>
+            </li>
+          {% endfor %}
+        </ul>
+      </li>
+      <li>
+        <strong>Tools: </strong>
+        {# Relationship. Note that use the label you set for the relation, not the content-type name. #}
+        {% for relation in item.tools %}
+          {# You can ouput more than just the name. Feel free to output more fields from the CMS. #}
+          <a href="{{ url(relation) }}">{{ relation.name }}</a>{% if not loop.last %},{% endif %}
+        {% endfor %}
+      </li>
+      <li>
+        <strong>Speed Index: </strong>
+        {{ item.speed_index }}
+      </li>
+      <li>
+        <strong>About the Project: </strong>
+        {{ item.about_the_project|safe }}
+      </li>
+      <li>
+        <strong>Who is Involved: </strong>
+        {# Loop of your Repeatable Form items. Remember, you can sort the order in your CMS if you need. #}
+        <ul>
+        {% for row in item.who_is_involved %}
+            <li>
+              <strong>Role: </strong>
+              {{ row.role }}
+            </li>
+            <li>
+              <strong>Name: </strong>
+              {{ row.name }}
+            </li>
+            <li>
+              <strong>Links: </strong>
+              {# Output tablular data. Note that it's up to you to output the thead manually. This just output the data. #}
+                <table>
+                  <tbody>
+                    {% for key, row in row.links %}
+                      <tr>
+                        {% for key, cell in row %}
+                          <td>
+                            {{ cell }}
+                          </td>
+                        {% endfor %}
+                      </tr>
+                    {% endfor%}
+                  </tbody>
+                </table>
+            </li>
+        {% endfor %}
+        </ul>
+      </li>
+      <li>
+        <strong>Preview URL: </strong>
+        {{ item.preview_url }}
+      </li>
+      <li>
+        <strong>Slug: </strong>
+        {{ item.slug }}
+      </li>
+  </ul>
+{% endblock %}

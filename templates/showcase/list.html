@@ -1,7 +1,24 @@
-{% extends "templates/partials/base-layout-article.html" %}
-{% block title %}{% parent %} - {{ item.name }}{% endblock %}
+{% extends "templates/partials/base-layout-2-column.html" %}
+{% block title %}{% parent %} - tools{% endblock %}
+
+{% block content_aside_left %}
+<h1>Showcase of Static Sites</h1>
+
+{# <div class="small-screenTK">{% include "templates/partials/format-tools-filters.html" %}<br /></div> #}
+<p class="small">This list is chosen by our editors and includes static site generators and other tools we find interesting. For a more comprehensive list of static site generators, see <a href="http://www.staticgen.com/">StaticGen.com</a>.</p>
+{% endblock %}
 
 {% block content_center %}
-  
-  <h1>The Showcase is coming soon.</h1>
+  {% set data = cms.showcase %}
+  {% set data = data|sort('name') %}
+  <div id="filter-container">
+    {# TODO: Fix Internal Filters <input class="search" type="search" placeholder="filter by name, source, or tool" /> #}
+    <ul class="linksTK filter-list flex-boxes">
+      {% include "templates/partials/format-showcase.html" %}
+    </ul>
+</div>
 {% endblock %}
+
+{% block content_aside_right %}  
+  <div class="large-screen">{% include "templates/partials/format-tools-filters.html" %}</div>
+{% endblock %} 
