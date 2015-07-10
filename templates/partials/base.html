@@ -47,8 +47,22 @@
         })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
         ga('create', '{{ getSetting('analytics_id') }}', 'auto');
         ga('send', 'pageview');
-      </script>
+
+          /**
+          * Function that tracks a click on an outbound link in Google Analytics.
+          * This function takes a valid URL string as an argument, and uses that URL string
+          * as the event label.
+          */
+          var trackOutboundLink = function(url) {
+             ga('send', 'event', 'outbound', 'click', url, {'hitCallback':
+               function () {
+               document.location = url;
+               }
+             });
+          }
+        </script>
     {% endif %}
+
     {# //END head #}
     {% block head_extra %}
       {# // TODO: DOES THIS PREV NEXT GO HERE IN HEAD EXTRA? #}

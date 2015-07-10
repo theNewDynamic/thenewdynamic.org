@@ -1,0 +1,31 @@
+
+  
+  <li class="flex-boxTK" style="border-top-color:{% if item.category %}{% set category = item.category|first %}{% if category.color %}{{ category.color }}{% else %}#f6f6f6{% endif %}{% endif %};">
+
+
+    
+      
+      {% if item.category %}{% for category in item.category %}<small class="light type">{{ category.name }}{% if not loop.last %}, {% endif %}</small>{% endfor %}{% endif %} 
+      {% set links = item.links_tool %}  
+      {% set articles = item.articles_tool %}  
+      {% if item.summary %}{{ item.summary|markdown}}{% endif %}
+            {% for image in item.images %}            
+              {# You can get the raw image url by accessing image.url #}
+              <img src="{{ image|imageSize(1600, 900) }}" style="border:1px solid #ddd;">
+              <div>{{ image.caption }}</div>            
+          {% endfor %}
+
+
+
+          {% if item.about_the_project %}
+
+            <div class="copy-summary">{{ item.about_the_project|safe }}</div>
+          {% endif %}
+      
+
+
+
+      
+    
+  </li>
+

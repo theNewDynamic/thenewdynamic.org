@@ -1,5 +1,5 @@
 {% set tools = cms.tool %}
 {% set tools = tools|sort('name') %}
 {% for tool in tools %}
-    <li class="{{ url(tool)|replace('/tools/','')|replace('/','') }}"><a href="{{ url(tool) }}">{{ tool.name }}</a></li>
-  {% endfor %}
+  <li class="{{ url(tool)|replace('/tools/','')|replace('/','') }}"><a href="{{ url(tool) }}">{{ tool.name }}</a></li>
+{% endfor %}

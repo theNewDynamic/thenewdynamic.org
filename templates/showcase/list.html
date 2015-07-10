@@ -5,7 +5,7 @@
 <h1>Showcase of Static Sites</h1>
 
 {# <div class="small-screenTK">{% include "templates/partials/format-tools-filters.html" %}<br /></div> #}
-<p class="small">This list is chosen by our editors and includes static site generators and other tools we find interesting. For a more comprehensive list of static site generators, see <a href="http://www.staticgen.com/">StaticGen.com</a>.</p>
+<p class="small">This list is chosen by our editors and includes sites that show interesting use-cases of static sites.<br />Click on any image for details.</p>
 {% endblock %}
 
 {% block content_center %}
@@ -14,7 +14,9 @@
   <div id="filter-container">
     {# TODO: Fix Internal Filters <input class="search" type="search" placeholder="filter by name, source, or tool" /> #}
     <ul class="linksTK filter-list flex-boxes">
+    {% for object in data %}
       {% include "templates/partials/format-showcase.html" %}
+      {% endfor %}
     </ul>
 </div>
 {% endblock %}

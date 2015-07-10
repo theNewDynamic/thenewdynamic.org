@@ -55,7 +55,7 @@ a {
     &:active,
     &:focus,
     &:hover {
-      color: $tnd_red;
+      color: $tnd_red_brighter;
     }
 
     &:active,
@@ -91,4 +91,10 @@ small, .small {
 
 .light {
   color:#777;
+}
+
+.copy-summary {
+  text-align: left;
+  color: $black;
+
 }

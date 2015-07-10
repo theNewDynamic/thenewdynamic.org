@@ -4,7 +4,7 @@
 {% set base_url = getSetting('site_url') %}
 {% set slug = item.slug %}
 {% set current_url = getCurrentUrl() %}
-{% set canonical_url = base_url + slug %}
+{% set canonical_url = base_url + '/' + slug %}
 {% set item_url = base_url + current_url %}
 {% set site_name = getSetting('site_name') + '- A site about static site generators' %}
 {% if item.meta_description %}
