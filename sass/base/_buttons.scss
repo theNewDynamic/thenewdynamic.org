@@ -20,7 +20,7 @@ button {
 
   &:hover,
   &:focus {
-    background-color: $action-color;
+    background-color: $light-gray;//$action-color;
     color: #fff;
   }
 
