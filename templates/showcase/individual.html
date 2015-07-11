@@ -8,7 +8,7 @@
 {# <div class="small-screenTK">{% include "templates/partials/format-tools-filters.html" %}<br /></div> #}
  {% if item.website %}
  <small>Website</small><br />
-  <a href="{{ item.website }}" onclick="trackOutboundLink('{{ item.website }}'); return false;">{{ item.website|replace('http://', '')|replace('/', '', 'g') }}&nbsp;<i class="icon-ion-android-open smaller"></i></a>
+  <a href="{{ item.website }}" onclick="trackOutboundLink('{{ item.website }}'); return false;">{{ item.website|replace('(http(s)?)\:', '')|replace('/', '', 'g') }}&nbsp;<i class="icon-ion-android-open smaller"></i></a>
  {% endif %}
 <hr />
 {% spaceless %}
@@ -30,11 +30,13 @@
   {% set tools = item.tools %}
   {% if tools %}
     <hr />
-    <small>Tools</small><br />
+    
     {% for object in tools %}      
-        <a href="{{ url(object) }}">
-          {{ object.name }}
-        </a>
+    <button>
+      <a href="{{ url(object) }}">
+        {{ object.name }}
+      </a>
+    </button>
       {% include "templates/partials/snippet-serial-commas.html" %}
     {% endfor %}
   {% endif %}
