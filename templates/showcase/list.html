@@ -10,7 +10,7 @@
 
 {% block content_center %}
   {% set data = cms.showcase %}
-  {% set data = data|sort('name') %}
+  {% set data = data|sort('publish_date', true) %}
   <div id="filter-container">
     {# TODO: Fix Internal Filters <input class="search" type="search" placeholder="filter by name, source, or tool" /> #}
     <ul class="linksTK filter-list flex-boxes">

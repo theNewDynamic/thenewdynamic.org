@@ -1,66 +1,36 @@
-{% extends "templates/partials/base-layout-2-column.html" %}
+{% extends "templates/partials/base-layout-3-column.html" %}
 {% block title %}{% parent %} - tools{% endblock %}
 
 {% block content_aside_left %}
 
-<h1>Showcase: {{ item.name }}</h1>
+<h1><span class="light small">Showcase</span> {{ item.name }}</h1>
 
 {# <div class="small-screenTK">{% include "templates/partials/format-tools-filters.html" %}<br /></div> #}
- 
+ {% if item.website %}
+ <small>Website</small><br />
   <a href="{{ item.website }}" onclick="trackOutboundLink('{{ item.website }}'); return false;">{{ item.website|replace('http://', '')|replace('/', '', 'g') }}&nbsp;<i class="icon-ion-android-open smaller"></i></a>
- 
-
-
-
-
+ {% endif %}
 <hr />
-
- {% for row in item.who_is_involved %}
-    
-    <h4>  {% if row.role %}{{ row.role }}:{% endif %}&nbsp;{{ row.name }}</h4>
-    
-  
-  
-            {% for key, row in row.links %}
-              
-                {% for key, cell in row %}
-              
-                    {{ cell }}
-              
-                {% endfor %}
-              
-            {% endfor%}
-          
+{% spaceless %}
+  {% for row in item.who_is_involved %}
+    {% if row.role %}
+      <small>{{ row.role }}</small>
+    {% endif %}<br />
+    {% if row.link %}
+      <a href="{{ row.link }}">
+        {{ row.name }}
+      </a>
+      &nbsp;<i class="icon-ion-android-open smaller"></i>
+    {% else %}
+      {{ row.name }}
+    {% endif %}
   {% endfor %}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+{% endspaceless %}
 
   {% set tools = item.tools %}
   {% if tools %}
     <hr />
-    <h4>Tools</h4>
+    <small>Tools</small><br />
     {% for object in tools %}      
         <a href="{{ url(object) }}">
           {{ object.name }}
@@ -83,3 +53,6 @@
 {% endblock %}
 
 
+{% block content_aside_right %}   
+  {% include "templates/partials/prev-next.html" %}
+{% endblock %} 

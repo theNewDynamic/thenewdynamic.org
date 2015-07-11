@@ -96,5 +96,9 @@ small, .small {
 .copy-summary {
   text-align: left;
   color: $black;
+    a {
+      border-bottom: 1px dashed #ccc;
+      color: $tnd_red_brighter;
+    }
 
 }
