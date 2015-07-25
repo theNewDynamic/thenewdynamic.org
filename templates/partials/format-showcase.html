@@ -8,7 +8,11 @@
       <img src="{{ image|imageCrop(400, 225) }}" style="border:1px solid #ddd;">
       <div>{{ image.caption }}</div>            
     {% endfor %}
+    {% if object.about_the_project %}
+    <div>  <small><a href="{{ url(object) }}" class="red">&raquo; read developer notes &laquo;</a></small></div>
+    {% endif %}
     <div class="light meta">
+
       {% if tools %}
         {% for object in tools %}
           <button><a href="{{ url(object) }}">{{ object.name }}</a></button>
