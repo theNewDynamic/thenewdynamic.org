@@ -6,11 +6,12 @@
 {% block content_aside_left %}      
   {% if item.tool %}
     <br />
-    <h5>Mentioned TEST</h5>
+    
     {% for object in item.tool %}
       <h6 class="list"><a href="{{ url(object) }}">{{ object.name }}</a> </h6> 
     {% endfor %}
   {% endif %}
+  {% include "templates/partials/form-mailchimp.html" %}
 {% endblock %} 
 
 {% block content_center %} 

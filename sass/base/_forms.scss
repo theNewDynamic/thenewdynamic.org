@@ -29,7 +29,7 @@ label {
 #{$all-text-inputs},
 select[multiple=multiple],
 textarea {
-  background-color: $base-background-color;
+  background-color: lighten($base-background-color,5%);
   border: $base-border;
   border-radius: $base-border-radius;
   box-shadow: $form-box-shadow;

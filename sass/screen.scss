@@ -5,7 +5,8 @@
   "bourbon/bourbon",
   "modules/grid-settings",//overrides bitters grid-settings
   "neat/neat",
-  "base/base";
+  "base/base",
+  "modules/mixins";
 
 @import
   "vendor/fontello";
@@ -32,4 +33,16 @@
 
 .red {
   color: $tnd_red_brighter;
+}
+.red-background {
+  background-color: $tnd_red_brighter;
+  color: white;
+}
+
+#mc-embedded-subscribe {
+  background-color: $tnd_red_brighter;
+  color: white;
+}
+#mc_embed_signup label {
+  @include accessibility_hidden;
 }
