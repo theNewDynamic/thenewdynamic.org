@@ -114,9 +114,9 @@ module.exports.init = function (swig) {
     if(width === 'auto' && height === 'auto') {
       return image.resize_url;
     } else if(width === 'auto' && height) {
-      source += '=w0-h' + height;
+      source += '=h' + height;
     } else if(width && height === 'auto') {
-      source += '=w' + width + '-h0';
+      source += '=w' + width;
     } else if(width && height) {
       source += '=w' + width + '-h' +height;
     } else if(width && !height) {
@@ -132,7 +132,38 @@ module.exports.init = function (swig) {
     }
 
     return source;
-  }
+  };
+
+  var justinImageSize = function(image, width, height, crop) {
+
+    var source = image.resize_url,
+        parts = source.split('.'),
+        ext = parts.length > 1 ? ('.' + parts.pop()) : '';
+
+    source = parts.join('.');
+
+    if(width === 'auto' && height === 'auto') {
+      return source + '-0x0' + ext;
+    } else if(width === 'auto' && height) {
+      source += '-0x' + height;
+    } else if(width && height === 'auto') {
+      source += '-' + width + 'x0';
+    } else if(width && height) {
+      source += '-' + width + 'x' + height;
+    } else if(width && !height) {
+      source += '-' + width + 'x' + width;
+    }
+
+    if(crop) {
+      source += '-c';
+    } else {
+      source += '-a';
+    }
+
+    source += ext;
+
+    return source;
+  };
 
   var imageSize = function(input, size, deprecatedHeight, deprecatedGrow) {
 
@@ -150,6 +181,10 @@ module.exports.init = function (swig) {
 
       if(!input.resize_url) {
         return input.url;
+      }
+
+      if (input.resize_url.indexOf('http://static-cdn.jtvnw.net') === 0) {
+        return justinImageSize(input, size, deprecatedHeight);
       }
 
       return googleImageSize(input, size, deprecatedHeight);
@@ -199,6 +234,10 @@ module.exports.init = function (swig) {
 
       if(!size) {
         return input.url;
+      }
+
+      if (input.resize_url.indexOf('http://static-cdn.jtvnw.net') === 0) {
+        return justinImageSize(input, size, deprecatedHeight, true);
       }
 
       return googleImageSize(input, size, deprecatedHeight, true);      
@@ -375,6 +414,54 @@ module.exports.init = function (swig) {
     return filtered;
   }
 
+  var relationshipHas = function(input, relationshipName, property) {
+    var filtered = [];
+    var args =  [].slice.apply(arguments);
+    var filters = args.slice(3);
+
+    input.forEach(function(item) {
+      var relationship = item[relationshipName];
+
+      if (relationship) {
+        if(Array.isArray(relationship)) {
+          var include = false;
+
+          relationship.forEach(function(subItem) {
+            if(filters.length === 0 && subItem && subItem[property]) {
+              include = true;
+            }
+
+            if(filters.length > 0) {
+              filters.forEach(function(filter) {
+                if(subItem && subItem[property] === filter) {
+                  include = true;
+                }
+              })
+            }
+          });
+
+          if(include) {
+            filtered.push(item);
+          }
+        } else {
+          if(filters.length === 0 && relationship && relationship[property]) {
+            filtered.push(item);
+          }
+
+          if(filters.length > 0) {
+            filters.forEach(function(filter) {
+              if(subItem && subItem[property] === filter) {
+                filtered.push(item);
+              }
+            })
+          }
+        }
+      }
+    })
+
+    return filtered;
+  }
+
   var exclude = function(input, property) {
     var filtered = [];
 
@@ -511,6 +598,18 @@ module.exports.init = function (swig) {
     return suffix;
   }
 
+  // Down and dirty hack for image classes
+  // ![Real Alt Text|class1 class2 class3](src) -> alt="Real Alt Text" class="class1 class2 class3"
+  // 
+  var imgAltClass = function (input) {
+    var re = /(<img.*)?alt=(['"](.*?)\|(.*?)['"])(.*>)/;
+    var result = "";
+    input.split('\n').forEach(function(e,i) {
+      result += e.replace(re,"$1alt=\"$3\" class=\"$4\"$5");
+    });
+    return result;
+  }
+
   markdown.safe = true;
   linebreaks.safe = true;
   jsonP.safe = true;
@@ -530,6 +629,7 @@ module.exports.init = function (swig) {
   swig.setFilter('markdown', markdown);
   swig.setFilter('date', date);
   swig.setFilter('where', where);
+  swig.setFilter('relationshipHas', relationshipHas);
   swig.setFilter('exclude', exclude);
   swig.setFilter('duration', duration);
   swig.setFilter('abs', abs);
@@ -537,4 +637,5 @@ module.exports.init = function (swig) {
   swig.setFilter('pluralize', pluralize);
   swig.setFilter('jsonp', jsonP);
   swig.setFilter('json', json);
+  swig.setFilter('imgAltClass',imgAltClass);
 };

@@ -1,5 +1,6 @@
 {
   "secretKey"   : "<%= secretKey %>",
   "siteName"    : "<%= siteName %>"<% if (noSearch) { %>,
-  "noSearch"   : <%= noSearch %><% } %>
+  "noSearch"    : <%= noSearch %><% } %><% if (imageproxy) { %>,
+  "imageproxy"  : "<%= imageproxy %>"<% } %>
 }

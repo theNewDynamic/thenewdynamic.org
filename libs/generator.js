@@ -530,7 +530,7 @@ module.exports.generator = function (config, options, logger, fileParser) {
                 removeDirectory('.static-old', function() {
                   fs.unlinkSync('.reset.zip');
 
-                  self.init(config.get('webhook').siteName, config.get('webhook').secretKey, true, config.get('webhook').firebase, function() {
+                  self.init(config.get('webhook').siteName, config.get('webhook').secretKey, true, config.get('webhook').firebase, config.get('webhook').server, function() {
                     callback();
                   });
                 });
@@ -1413,12 +1413,12 @@ module.exports.generator = function (config, options, logger, fileParser) {
    * @param  {Boolean}   copyCms   True if the CMS should be overwritten, false otherwise
    * @param  {Function}  done      Callback to call when operation is done
    */
-  this.init = function(sitename, secretkey, copyCms, firebase, done) {
+  this.init = function(sitename, secretkey, copyCms, firebase, server, done) {
     var oldConf = config.get('webhook');
 
     var confFile = fs.readFileSync('./libs/.firebase.conf.jst');
 
-    if(firebase) {
+    if(firebase || server) {
       confFile = fs.readFileSync('./libs/.firebase-custom.conf.jst');
     }
 
@@ -1429,7 +1429,7 @@ module.exports.generator = function (config, options, logger, fileParser) {
     }
 
     // TODO: Grab bucket information from server eventually, for now just use the site name
-    var templated = _.template(confFile, { secretKey: secretkey, siteName: sitename, firebase: firebase, embedlyKey: oldConf.embedly || 'your-embedly-key', serverAddr: oldConf.server || 'your-server-address', noSearch: noSearch });
+    var templated = _.template(confFile, { secretKey: secretkey, siteName: sitename, firebase: firebase, embedlyKey: oldConf.embedly || 'your-embedly-key', serverAddr: oldConf.server || server || 'your-server-address', noSearch: noSearch, imageproxy: oldConf.imageproxy || null });
 
     fs.writeFileSync('./.firebase.conf', templated);
 
@@ -1583,6 +1583,7 @@ module.exports.generator = function (config, options, logger, fileParser) {
 
   this.enableProduction = function() {
     productionFlag = true;
+    swig.setDefaults({ cache: 'memory' });
   }
 
   return this;

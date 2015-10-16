@@ -1,1 +1,26 @@
-<script src="/static/javascript/dist/scripts.min.js" async></script> 
+{# <script src="/static/javascript/dist/scripts.min.js" async></script>  #}
+
+<script type="text/javascript">
+  
+
+// var myFirebaseRef = new Firebase("https://sonnetmedia-org.firebaseio.com/buckets/www,1thenewdynamic,1org");
+
+
+
+// myFirebaseRef.child("venues").on("value", function(snapshot) {
+//   alert(snapshot.val());  // Alerts "San Francisco"
+// });
+
+
+var ref = new Firebase("https://sonnetmedia-org.firebaseio.com/buckets/www,1thenewdynamic,1org");
+// Retrieve new posts as they are added to our database
+ref.on("child_added", function(snapshot, prevChildKey) {
+  var newPost = snapshot.val();
+  console.log("Venues: " + newPost.name);
+//  console.log("Title: " + newPost.title);
+  //console.log("Previous Post ID: " + prevChildKey);
+});
+
+
+
+</script>
