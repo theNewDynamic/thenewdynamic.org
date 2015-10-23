@@ -22,7 +22,7 @@
   {% endblock %}
 
   {% block content_aside_right %}
-  <h6><a href="{{url(item)}}/json/">JSON version of this page</a></h6>
+  <h6><a href="{{url(item)}}json/">JSON version of this page</a></h6>
     {% set button_copy = "Jump to Another Tool" %}
       {% include "templates/partials/button-choose-a-tool.html" with button_copy %}
 {#   {% include "templates/partials/format-links-filters.html" %}     #}
