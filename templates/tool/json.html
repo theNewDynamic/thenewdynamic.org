@@ -1,0 +1,36 @@
+{% set data = merge(item.articles_tool, item.links_tool) %}
+{% set data = data|sort('publish_date', true) %}
+{
+  "name": "{{item.name}}"
+  {% if item.category %}
+    ,"type":
+    [
+      {% for category in item.category %}
+        "{{ category.name }}"{% if not loop.last %},{% endif %}
+      {% endfor %}
+    ]
+  {% endif %}
+
+  {% if item.summary %}
+  ,"about": "{{ item.summary|e("js") }}"
+  {% endif %}
+
+  {% if data %}
+    ,"links":
+    [
+      {% for object in data %}
+        {
+          "title": "{{ object.name|e("js") }}"
+          {% if object.type %}
+            ,"type":
+              "{{ object.type|e("js")  }}"
+          {% endif %}
+
+          {% if object.source %}
+           ,"source": "{{ object.source|e("js") }}"
+          {% endif %}
+        }{% if not loop.last %},{% endif %}
+      {% endfor %}
+    ]
+  {% endif %}
+}

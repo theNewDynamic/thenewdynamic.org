@@ -1,6 +1,6 @@
 {% extends "templates/partials/base-layout-3-column.html" %}
 {% block title %}{% parent %} - {{ item.name }}{% endblock %}
-  
+
   {% block content_aside_left %}
     <h1 class="title">{{ item.name }}</h1>
     {% include "templates/partials/format-tools-sidebar.html" %}
@@ -13,16 +13,16 @@
     <div id="filter-container">
       <input class="search" type="search" placeholder="filter by name, source, or tool" />
       <ul class="links links-external filter-list">
-        {% for object in data %}    
+        {% for object in data %}
           {% include "templates/partials/format-links.html" %}
         {% endfor %}
-      </ul>    
+      </ul>
     </div>
-    
+
   {% endblock %}
 
   {% block content_aside_right %}
-
+  <h6><a href="{{url(item)}}/json/">JSON version of this page</a></h6>
     {% set button_copy = "Jump to Another Tool" %}
       {% include "templates/partials/button-choose-a-tool.html" with button_copy %}
 {#   {% include "templates/partials/format-links-filters.html" %}     #}
