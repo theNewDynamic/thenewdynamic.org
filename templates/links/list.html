@@ -1,5 +1,0 @@
-{% set data = cms.links %}
-{% set data = data|sort('publish_date', true) %}
-{% for item in data %}
-  {% include "templates/partials/markdown-links.html" %}
-{% endfor %}
