@@ -1,0 +1,18 @@
+@@@<br />
+title: "{{ item.name }}"<br />
+date: {{ item.publish_date|date('c') }}<br />
+posted_date: {{ item.create_date|date('c') }}<br />
+type: {{ item._type }}<br />
+slug: {{ item.slug | replace('showcase/', '') }}<br />
+website: {{ item.website }}<br />
+image_path:{% for image in item.images %}
+  - {{ image.url |replace('webhook-uploads', 'uploads') }}<br />{% endfor %}{% if item.meta_description %}
+excerpt: {{ item.meta_description }}<br />{% endif %}
+tool:{% for relation in item.tools %}
+- {{ relation.name }}<br />{% endfor %}{% for row in item.who_is_involved %}
+creator:{% if row.role %}<br />
+  - role: "{{ row.role }}"<br />{% endif %}{% if row.link %}
+  - link: {{ row.link }}<br />{% endif %}{% if row.name %}
+  - name: {{ row.name }}<br />{% endif %}{% endfor %}
+---<br />
+{{ item.about_the_project|safe| replace("</p>", "", "g")| replace("<p>", "", "g")  }}<br /><br />

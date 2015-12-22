@@ -1,0 +1,14 @@
+@@@
+title: "{{ item.name }}"
+date: {{ item.publish_date|date('c') }}
+posted_date: {{ item.create_date|date('c') }}
+type: {{ item._type }}
+slug: {{ item.slug | replace('tool/', '') }}
+category:{% for category in item.category %}
+  - {{ category.name }}{% endfor %}
+links:{% for relation in item.links %}
+  - {{ relation.link }}{% endfor %}
+---
+{{ item.summary|safe| replace("</p>", "", "g")| replace("<p>", "", "g")  }}
+
+

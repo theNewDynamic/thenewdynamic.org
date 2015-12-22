@@ -1,0 +1,588 @@
+@@@
+title: "How do Static Site Generators Work?"
+date: 2015-11-10T15:22:00.000Z
+posted_date: 2015-11-10T15:22:00.000Z
+type: articles
+slug: how-do-static-site-generators-work
+source:
+excerpt: A brief overview of how a typical static site generator converts markdown files into fully formed HTML files.
+tool:
+---
+### CONTENT IN
+
+Most, but not all, static site generators use markdown files to store content, with information about each file of content specified using YAML formatted front matter. It looks like this:
+```markdown
+
+---
+title: &#39;The Title of an Entry Here&#39;
+date: 2015-04-15
+category: &#39;News&#39;
+excerpt: &#39;A short excerpt here&#39;
+layout: default
+foo: &#39;Bar&#39;
+---
+Some markdown content here, which is likely the longest part. This can be quite long, in fact.
+
+```
+
+
+
+### HTML OUT
+
+Now, imagine a folder of these markdown files on your hard drive. We&#39;ll call this your project. The code of our static site generator could say &quot;for each markdown file in folder x, move it to folder y.&quot; But that&#39;s not too exciting.
+
+Let&#39;s say, instead of just moving that file, the generator reads all the files in a certain directory or directories and creates an &quot;object&quot; with them: &quot;For each file in folder x, list its contents in our object.&quot; That object is just a stored list of all the files, including their file names, any meta-data specified in the front matter, and their content.
+
+That object might look something like this (in Ruby, as output from Jeyll):
+
+
+**\{&quot;layout&quot;=&gt;&quot;default&quot;, &quot;title&quot;=&gt;&quot;The Title of an Entry Here&quot;, &quot;category&quot;=&gt;&quot;News&quot;, &quot;excerpt&quot;=&gt;&quot;A short excerpt here&quot;, &quot;published&quot;=&gt;true, &quot;url&quot;=&gt;&quot;/news/2015/04/14/post-title-here/&quot;, &quot;dir&quot;=&gt;&quot;/news/2015/04/14&quot;, &quot;date&quot;=&gt;2015-04-14 00:00:00 -0400, &quot;id&quot;=&gt;&quot;/news/2015/04/14/post-title-here&quot;, &quot;categories&quot;=&gt;\[&quot;news&quot;], &quot;next&quot;=&gt;, &quot;previous&quot;=&gt;, &quot;tags&quot;=&gt;\[], &quot;path&quot;=&gt;&quot;\_posts/2015-04-14-post-title-here.md&quot;, &quot;content&quot;=&gt;&quot;Some markdown content here, which is likely the longest part. This can be quite long, in fact.&quot;, &quot;section&quot;=&gt;&quot;post&quot;}**
+
+
+You can tell already that in creating the object the static site  generator has extrapolated some information, like a &quot;url&quot; created from our specified date and category: &quot;For each file in folder x, write to our object and combine its category, date and file name to create a url in a format like &#39;/category/yyyy-mm-dd/original-base-filename.html&#39;.&quot;
+
+Once we&#39;ve generated our object, the generator can do quite a bit with it. We can create an HTML page with the url as created above, and that file could be manipulated further using some of the meta-data we&#39;ve specified.
+
+More than likely, we don&#39;t want to display content written in Markdown, so the generator will convert our markdown into HTML before outputting it to our new file: &quot;for each item in the object, convert the value of &#39;content&#39; from markdown to HTML.&quot;
+
+And, of course, we don&#39;t want to just display plain text, we want to style the page. We&#39;ve likely created a set of templates in our project and specified in our content file which template to use for each file.
+
+In our templates we lay out our HTML and also some tags that specify which parts of our file (the content or some piece of metadata) to display: &quot;For each item in our object, apply its content to the template specified as &#39;layout&#39; as we output it as HTML.&quot;
+
+Each template may output other content too. A template might call: &quot;for each item in our object, loop through the ones that have a &#39;category&#39; equal to &#39;news&#39; and display the title.&quot;
+
+So, along the way to just creating the HTML file, the generator will read the templates and output HTML in the format we&#39;ve dictated. In the end, we have a new folder with our fully formed HTML files.
+
+Asset files, like CSS and javascript are just moved into the new folder, so that in the end, that folder contains our fully formed website, which can then be moved to a web server.
+
+So a static site generator converts one set of files into another using templates for instructions on how to output them in their final form.
+
+I highly recommend reading the source code of any static site generator to understand how things work in a real-world setting.
+
+
+@@@
+title: "Jekyll 3.0 (video)"
+date: 2015-10-28T19:18:00.000Z
+posted_date: 2015-10-28T19:01:00.000Z
+type: articles
+slug: jekyll-30-video
+source:
+
+tool:
+  - Jekyll
+---
+The long awaited [Jekyll 3.0](http://jekyllrb.com/news/2015/10/26/jekyll-3-0-released/) was just released. With new features like incremental regeneration, Hook Plugin API, and the Liquid Profiler, Jekyll is poised to be used on larger, more complicated sites.
+
+Here&#39;s a video from the [Static Web-tech Meetup](http://www.staticwebtech.com/presentations/launching-jekyll-3.0/) for the Jekyll launch on October, 26th.
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/sPZK8w55cBQ&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
+@@@
+title: "Get the Book: Static Site Generators Modern Tools for Static Website Development"
+date: 2015-10-05T21:07:00.000Z
+posted_date: 2015-10-05T21:07:00.000Z
+type: articles
+slug: get-the-book-static-site-generators-modern-tools-for-static-website-development
+source:
+excerpt: O’Reilly and Brian Rinaldi have had the foresight to publish the first book on static site generators, called Static Site Generators Modern Tools for Static Website Development.
+tool:
+---
+![](/webhook-uploads/1444079082013_cat.gif) O’Reilly and [Brian Rinaldi](https://twitter.com/remotesynth) have had the foresight to publish the first book on static site generators, called _Static Site Generators Modern Tools for Static Website Development_.
+
+Get your free ebook at the [O&#39;Reilly website](http://www.oreilly.com/web-platform/free/static-site-generators.csp).
+
+@@@
+title: "Cloudflare for Static Sites"
+date: 2015-07-26T02:44:00.000Z
+posted_date: 2015-07-26T02:44:00.000Z
+type: articles
+slug: cloudflare-for-static-sites
+source:
+excerpt: I&#39;ve found Cloudflare to be quite useful for static sites.
+tool:
+  - CloudFlare
+---
+I&#39;ve found [Cloudflare](https://www.cloudflare.com/) to be quite useful for all the sites I manage, including static sites. Aside from their great service, I like keeping DNS information for the sites I manage in one place. When you change DNS settings at Cloudflare, the changes happen very quickly.
+
+I&#39;m not entirely sure static sites&#39; performance benefit from Cloudflare&#39;s network, particulalry if you&#39;re already serving your assets from a CDN, but they offer an incredible number of features for performance, threat control, stats, caching and asset minification, and I think overall Cloudflare is particularly helpful for managing static sites.
+
+I&#39;ve sometimes missed not having an htaccess file for setting up rules on sites I&#39;m serving from Google Cloud, AWS, or Github Pages, but Cloudflare fills that gap. You can set rules (unfortunately only three for free accounts) for forwarding pages, and their &quot;scrapesheild&quot; service allows you to obfuscate email address, offers hotlink protection and server side excludes.
+
+One feature I&#39;m looking forward to trying is their SSL service, which, at a very basic level, is offered for free. I&#39;ve been using Cloudflare for quite a few years now and manage quite a few sites through them. The services they provide have grown significantly and their recent redesign has really helped make everything easy to use.
+
+p.s. If you use Cloudflare, be sure to enable Two-factor authentication in your account.
+
+@@@
+title: "Video and Slides from our first Meetup"
+date: 2015-06-12T03:29:00.000Z
+posted_date: 2015-06-12T03:29:00.000Z
+type: articles
+slug: video-and-slides-from-our-first-meetup
+source:
+excerpt: We had a great first Meetup and here are the slides.
+tool:
+  - Jekyll
+  - Webhook
+---
+We had a great first [Meetup](http://www.meetup.com/The-New-Dynamic/events/222477212/) on June 10th, 2015. I gave a presentation on my history with static sites, why I use them, and some use-cases and examples.
+
+The video is a bit screwed up. We lost it twenty minutes in to the talk and picked up for another 15-20 minutes sometime after. And my head is chopped off in parts.
+
+
+&lt;iframe width=&quot;853&quot; height=&quot;480&quot; src=&quot;https://www.youtube-nocookie.com/embed/videoseries?list=PLP3gqevVmKF_gPf2rz1_mXWxZeBqIi-lK&amp;showinfo=0&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
+---
+
+&lt;script async class=&quot;speakerdeck-embed&quot; data-id=&quot;a8700372e0f64f81a1893202ace51d16&quot; data-ratio=&quot;1.77777777777778&quot; src=&quot;//speakerdeck.com/assets/embed.js&quot;&gt;&lt;/script&gt;
+
+
+[Slides without notes](https://speakerdeck.com/budparr/static-site-generators-and-the-post-cms-paradigm-ii-without-notes)
+
+---
+
+&lt;script async class=&quot;speakerdeck-embed&quot; data-id=&quot;fadb91822fe943dea99f6856e36ff621&quot; data-ratio=&quot;1.34031413612565&quot; src=&quot;//speakerdeck.com/assets/embed.js&quot;&gt;&lt;/script&gt;
+
+
+[Slides with notes](https://speakerdeck.com/budparr/static-site-generators-and-the-post-cms-paradigm-1)
+
+
+**Special thanks to our hosts, [Vector Media](https://www.vectormediagroup.com/)**.
+
+@@@
+title: "All things Jekyll at JekyllConf May 2nd"
+date: 2015-04-22T22:37:00.000Z
+posted_date: 2015-05-02T22:37:00.000Z
+type: articles
+slug: all-things-jekyll-at-jekyllconf-may-2nd
+source:
+excerpt: Check out jekyllconf.com for information on the upcoming JekyllConf web-conference on  Saturday 2nd May 2015
+tool:
+  - Jekyll
+---
+Check out [jekyllconf.com](http://jekyllconf.com/) for information on the upcoming JekyllConf web-conference on 10am - 5pm **(PST)**, Saturday 2nd May 2015
+
+![](/webhook-uploads/1430606212463_jekyllconf.jpg)
+
+And, thanks to [@DavidDarnes](https://github.com/DavidDarnes) for these links to the #jekyllconf videos
+
+For those of you who missed it, the [whole recording](https://www.youtube.com/watch?v=X5sJIL-nOhg) can be found here. Also, here&#39;s the direct links to each speaker within the video:
+
+Brian Rinaldi - [Comparing Jekyll with the Competition1](https://youtu.be/X5sJIL-nOhg?t=11m42s)
+
+Kyle Rush - [Meet the Obama Campaign&#39;s $250 Million Fundraising Platform](https://youtu.be/X5sJIL-nOhg?t=54m42s)
+
+Ben Balter - [GitHub Pages behind the scenes](https://youtu.be/X5sJIL-nOhg?t=1h40m56s)
+
+Tom Preston-Werner - [Some crazy ideas I have for the future of static sites](https://youtu.be/X5sJIL-nOhg?t=2h25m13s)
+
+Brandon Mathis - [What the heck is Octopress and why should I care?(https://youtu.be/X5sJIL-nOhg?t=3h14m42s)
+
+Michael Jovel - [Building Living Style Guides with Jekyll](https://youtu.be/X5sJIL-nOhg?t=3h58m39s)
+
+Mike Neumegen - [A CMS for Jekyll](https://youtu.be/X5sJIL-nOhg?t=4h40m32s)
+
+Parker Moore - [Jekyll 3 and Beyond](https://youtu.be/X5sJIL-nOhg?t=5h25m50s)
+
+@@@
+title: "Use Wordpress as the Backend to your Static Site, using Roots"
+date: 2015-02-12T23:18:00.000Z
+posted_date: 2015-05-02T22:18:00.000Z
+type: articles
+slug: use-wordpress-as-the-backend-to-your-static-site-using-roots
+source:
+
+tool:
+  - Roots
+---
+I&#39;ve seen caching systems that serve static pages from Wordpress before, but this is the first time I&#39;ve seen Wordpress as the content editing interface for a statically generated site. The gist is that you use the Wordpress JSON API as your data store for the static site generator, so the only job for Wordpress is editing content and outputing a JSON file.
+
+There is some complexity here: running an instance of Wordpress as well as Roots, deoployed via [Netlify](https://www.netlify.com/) and Github. But there are plenty of use-cases for something like this where you need the interface for editing (or, perhaps, just have a lot of content in Wordpress), but want to take advantage of the flexibility and performance or scalability of a static site. It looks like the Carrot Creative team are working on a lot of integrations for [Roots](http://roots.cx/). Here&#39;s a tutorial on setting it up, which altogether takes about twenty minutes.
+
+&lt;iframe width=&quot;640&quot; height=&quot;480&quot; src=&quot;https://www.youtube.com/embed/gdWZ0Bpvmw4?rel=0&amp;showinfo=0&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
+@@@
+title: "Static Site Generators Coming into the Mainstream"
+date: 2014-12-17T23:14:00.000Z
+posted_date: 2015-05-02T22:14:00.000Z
+type: articles
+slug: static-site-generators-coming-into-the-mainstream
+source:
+
+tool:
+---
+Thoughtworks, the San Francisco-based software development firm, has included static site generators on their &quot;Technology Radar&quot; for 2015, saying that:
+
+&gt; &quot;Static site generators like Middleman or Jekyll have become popular for creating simple websites or blogs, but we are increasingly seeing their use as part of more complex application stacks. The default assumption that all content delivered over HTTP has to be dynamically created on request is shifting, with more teams looking to use static pre-generated content.&quot;
+
+See the rest of the Technology Radar at the [Thoughtworks website](http://www.thoughtworks.com/radar/techniques).
+
+
+@@@
+title: "The Post-CMS Landscape"
+date: 2014-08-29T22:21:00.000Z
+posted_date: 2015-05-02T22:21:00.000Z
+type: articles
+slug: the-post-cms-landscape
+source:
+
+tool:
+  - Metalsmith
+  - Osmek
+  - Contentful
+  - Prismic
+---
+
+In [_The No-db Landscape_](/tools/the-no-db-landscape/) I wrote about the differences between &quot;flat-file&quot; CMSs and static site generators. Today we&#39;ll have a look at the idea of a &quot;Post-CMS&quot; and some new developments.
+
+
+I didn&#39;t [make up](http://ben.balter.com/2012/10/01/welcome-to-the-post-cms-world/) it up, but I love the idea of a  [&quot;Post CMS&quot;](http://developmentseed.org/blog/2012/07/27/build-cms-free-websites/) world and it should resonate with anyone who has devoted countless hours to installing, configuring, updating and coding big content management systems. To my mind, &quot;post-CMS&quot; means the disaggregation and, in many cases, elimination of the component parts of a CMS. What remains is simply the tools we need to for a particular project and nothing more.
+
+Is there such a thing as a Post-CMS CMS? Perhaps, but it doesn&#39;t look much like what we&#39;ve known in the past. A post-CMS CMS may or may not have a database of some sort, and it may have an editor and many other facets of a CMS, but it won&#39;t have layers of pre-built software that comes with it. Each of those components is not only entirely optional, but may very well come from different sources. They&#39;re _ála carte_ rather than _prix fixe_; tapas rather than Beef Wellington!
+
+An exemplar of this approach is the static site generator [Metalsmith.io](http://www.metalsmith.io/). Just launched in March and already proving to be popular, Metalsmith, built on Node.js, is as sophisticated as it is simple, owing to its &quot;everything is a plugin&quot; philosophy.
+
+Statically generated sites are but a subset of the post-CMS paradigm and actually the most minimal manifestation; the opposite, in most cases, of a CMS. When we think of static site generators we think of content in markdown or text documents, or perhaps a JSON file or even a spreadsheet, which is then processed through templates with the result being an entire website generated at once. There are trade-offs to this approach and one of them is the lack, at the moment, of a truly competent web-based editor.
+
+Another recent trend: Entirely separating the function of content management from the functions of displaying that content on a website. Stripping the &quot;system&quot; from content management, these tools are billed as &quot;content management as a service&quot; and are entirely focused on the content editing aspects of a website. In fact, none of the features of a content management system are present other than actual content management. You can use your content on as many sites as you like; it&#39;s all available via an API to deploy with, typically, a variety of programming languages.
+
+CMaaS examples include [Osmek](http://osmek.com/), [Contentful](https://www.contentful.com/), and [Prismic](https://prismic.io/). [Webhook](http://www.webhook.com/) is a closely related example, though it&#39;s a fully blown system, it is also a static site generator.
+
+One contender in the CMaaS field, Prismic.io, has created their own static site generator, [baked.js](http://prismicio.github.io/baked.js/) [(blog post)](https://blog.prismic.io/U3TAFgEAAC8AwopU/bakedjs-integrate-content-management-into-a-static-website-generator-using-javascript). Additionally, the community has contributed plugins for Metalsmith to integrate both [Prismic.io](https://github.com/mbanting/metalsmith-prismic) and [Contentful](https://github.com/contentful/contentful-metalsmith).
+
+One aspect of static site generators I enjoy is the ease with which one can move content from one application to another. After all, these are developer tools and should be chosen to fit the job. One wonders though, with the CMaaS systems, how easy it would be to move content from on system to another if a provider went out of business, changed their service or pricing, or your needs changed.
+
+@@@
+title: "Search Options for Static Websites"
+date: 2014-08-24T22:10:00.000Z
+posted_date: 2015-05-02T22:10:00.000Z
+type: articles
+slug: search-options-for-static-websites
+source:
+
+tool:
+---
+Here are some options for adding search and/or filters to your static website. These have various approaches, costs and ease of implementation.
+
+- [Lunr.js](http://lunrjs.com/) (plugins: [Jeyll](https://github.com/slashdotdash/jekyll-lunr-js-search), [Metalsmith](https://github.com/CMClay/metalsmith-lunr))
+- [List.js](http://listjs.com/)
+- [Swiftype](https://swiftype.com/)
+- [Tipue Search](http://www.tipue.com/search/)
+- [Google Custom Search Engine](https://www.google.com/cse/)
+- [Tapir](http://tapirgo.com/)
+- [Jekyll search with JSON](http://mathayward.com/jekyll-search/)
+
+The less-technically inclined may want to look at something like Swiftype (paid, but has a limited free option), Tapir or Tipue. I use List.js extensively for filtering and recommend it highly.
+
+@@@
+title: "How Vox Media uses Static Site Generators"
+date: 2014-08-02T22:09:00.000Z
+posted_date: 2015-05-02T22:09:00.000Z
+type: articles
+slug: how-vox-media-uses-static-site-generators
+source:
+excerpt: Here&#39;s the forward thinking Vox Media on their use of Middleman as part of their publishing strategy
+tool:
+  - Middleman
+---
+I&#39;m constantly on the lookout for sophisticated and interesting uses of static site generators. Here&#39;s the forward thinking Vox Media on their use of Middleman as part of their publishing strategy:
+
+&gt; In a nutshell, our Editorial Apps system consists of a static [Middleman](http://middlemanapp.com/) site, which is populated from one or more Google Spreadsheets at build time (using our [middleman-google-drive](https://github.com/voxmedia/middleman-google_drive) extension, which we&#39;ll talk about in a future article), and then deployed to [Chorus](http://product.voxmedia.com/2012/5/6/5426772/all-together-now-introducing-the-vox-product-blog-and-chorus) by doing a git push and using git post-receive hooks, in a way not unlike deploying an app to [Heroku](https://www.heroku.com/).
+
+Read the rest at [Vox Media&#39;s Product blog](http://product.voxmedia.com/2014/7/29/5863004/take-a-peek-at-the-code-that-powered-the-verge-50).
+
+This is interesting for a lot of reasons. Vox is, aside even from their publishing efforts, is on the forefront of content management with their Chorus CMS, so I&#39;m happy to hear that static sites fit into their vision. I&#39;m also interested to hear that their using Google Spreadsheets for data. As easy as I find Markdown documents and YAML lists, not everyone feels comfortable with them and a spreadsheet is comfortable and certainly good for some data, and, of course, using Google Spreadsheets has the benefit of being great for collaboration.
+
+I&#39;ve seen others use this approach. Jim Pravetz used GS for an online shop and wrote about it on his blog [(&quot;Generating Jekyll Pages From Data&quot;)](http://jimpravetz.com/blog/2011/12/generating-jekyll-pages-from-data/), though I believe he&#39;s now using Shopify for that site now. Coderwall has a brief tutorial on [&quot;Use a Google Spreadsheet as your JSON backend&quot;](https://coderwall.com/p/duapqq) too.
+
+Vox has made the source code for the [Verge-50 site](https://github.com/voxmedia/verge-50) public so anyeone can benefit from their work.
+
+@@@
+title: "Getting Started with Static Site Generators"
+date: 2014-07-26T22:08:00.000Z
+posted_date: 2015-05-02T22:08:00.000Z
+type: articles
+slug: getting-started-with-static-site-generators
+source:
+
+tool:
+---
+Here are some of the blog posts that first got me excited about the potential for static site generators:
+
+- [&quot;Meet the Obama campaign&#39;s $250 million fundraising platform&quot;, by Kyle Rush](http://kylerush.net/blog/meet-the-obama-campaigns-250-million-fundraising-platform/)
+- [&quot;The Static Web Returns&quot;, by Rob Muhlestein](http://robmuh.com/the-static-web-returns/)
+- [&quot;How We Build CMS-Free Websites&quot;, by Dave Cole at Development Seed](http://developmentseed.org/blog/2012/07/27/build-cms-free-websites/)
+- [Why? &quot;The Great Web Slowdown [INFOGRAPHIC]&quot;, by Tammy Everts](http://www.webperformancetoday.com/2014/02/25/the-great-web-slowdown-infographic/)
+- [&quot;Welcome to the Post-CMS World&quot;, by Ben Balter](http://ben.balter.com/2012/10/01/welcome-to-the-post-cms-world/)
+- [**Not the app!** &quot;Healthcare.gov: Code Developed by the People and for the People, Released Back to the People&quot; by Alex Howard at _The Atlantic_](http://www.theatlantic.com/technology/archive/2013/06/healthcaregov-code-developed-by-the-people-and-for-the-people-released-back-to-the-people/277295/)
+
+@@@
+title: "Jekyll Content Decision Tree"
+date: 2014-06-11T22:07:00.000Z
+posted_date: 2015-05-02T22:07:00.000Z
+type: articles
+slug: jekyll-content-decision-tree
+source:
+
+tool:
+---
+With the addition of collections in Jekyll 2.0 there are a lot of choices one can make about how to structure their site. Besides collections, now you can also add JSON files to the _data directory. I put together this decision tree to help anyone who needs it. This, of course, reflects my own way of thinking about content in a static site generator context, specifically applied to Jekyll. One thing I love about not using a database is that your content is much closer to its original form: documents are documents, data is data. Note that this variety may very well change in the future as collections pages and posts converge toward one content type, likely to be collections with optional features of posts, I’m guessing.
+
+[pdf](http://www.thenewdynamic.com/assets/files/jekyll-content-140611_v1.pdf)
+
+![](/webhook-uploads/1430604406205_jekyll-content-140611_v1.png)
+
+@@@
+title: "Welcome to {static is} The New Dynamic"
+date: 2014-05-15T22:03:00.000Z
+posted_date: 2015-05-02T22:04:00.000Z
+type: articles
+slug: welcome-to-static-is-the-new-dynamic
+source:
+
+tool:
+---
+The purpose of this site is to promote the use of static site generators for people who build websites. I hope to fill the site out and as it grows add functionality to to make it easy to find resources and information related to the top static site generators.
+
+[Test rr](http://www.retroreport.org/video/where-is-my-grandchild/?utm_source=internal-tnd&amp;utm_medium=banner&amp;utm_content=ad1&amp;utm_campaign=tnd-test)
+
+
+@@@
+title: "The No-DB Landscape"
+date: 2014-03-14T22:02:00.000Z
+posted_date: 2015-05-02T22:02:00.000Z
+type: articles
+slug: the-no-db-landscape
+source:
+
+tool:
+---
+It&#39;s no coincidence that as I&#39;ve become obsessed with website performance I&#39;ve also become enamored with building sites with no database. They&#39;re unequivocally faster, simpler to maintain and build, and more secure and stable than database-driven websites. There are tradeoffs of course, but in my view well worth it. I don&#39;t understand the talk I see about static sites being for &quot;hackers&quot; or small or simple sites. I&#39;ve seen some [large](http://kylerush.net/blog/meet-the-obama-campaigns-250-million-fundraising-platform/), [complex](http://developmentseed.org/blog/2013/09/19/relaunching-undp-portal/) and [highly trafficked](http://developmentseed.org/blog/2013/10/24/its-called-jekyll/) sites built this way. See my earlier [post](/article/2014/03/06/static-site-generators-introduction/) in this series for more information.
+
+For the most part I&#39;ve been using two applications. For purely static sites I use [**Jekyll**](http://jekyllrb.com) and for &quot;flat-file&quot; CMS sites I&#39;ve used [**Statamic**](http://statamic.com). Each is excellent in its own right, yet serves a different purpose than the other.
+
+This article is aimed squarely at the designer/developer building websites for clients. Choosing the right technology is an important part of a developer&#39;s job so I&#39;ll go into my thinking here about when I why I might choose either.
+
+
+
+### So what is the difference between a &quot;Flat File CMS&quot; and a &quot;Static Site Generator&quot;?
+Both flat-file CMSs (or file-based CMSs) and statically generated websites have no database at all. That alone is significant. All of your site&#39;s content is merely a collection of text files.
+
+This is what a document might look like in a flat-file site (or see [this post as a raw text file](https://raw.github.com/budparr/budparr.github.io/master/article/_posts/2014-03-14-static-site-generator-landscape.md)):
+
+~~~
+---
+title: Title
+category: Category
+layout: article
+date: November 10, 2013
+author: authorname
+---
+content goes here
+
+
+
+~~~
+
+Generally speaking templates and layout schemes tend to be similar in both types of sites in that they use a central default or base layout and some easy way to include partials in your templates. While this layout scheme is not unique to no-db websites, it&#39;s a natural fit. In contrast to some of the popular, &quot;traditional&quot; content management systems, these apps assume nothing about your design, thankfully.
+
+All of the no-db applications organize content similarly in pages that can be organized around collections or categories, though folder structures and the way URL schemes vary from one app to another.
+
+#### The similarities end there.
+**Static site generators** do little more than the name implies. They compile text-based content files (when I say text file that may mean any sort of text file, depending on the app, including markdown or text) into HTML pages using templates to determine the layout of the page. Depending on the app, they may process Sass/Less or other files to help make development more efficient.
+
+Once the site is compiled you get a folder with your website in it. None of these are currently what you would call a CMS because there is no control panel and no inherent asset/content organizing principle or interface. And not a single bell or whistle to be found.
+
+Most, though not all, of these apps run on a local computer via command line and once the site is compiled it can be moved to pretty much any server. There are more direct methods of deployment, including, prominently, Jekyll&#39;s integration with Github&#39;s Pages hosting service, which builds the site for you whenever you update your site&#39;s Github repo.
+
+The beauty of purely static sites, besides the significant performance gain, is that you can create all the complex queries you want in your templates and the end user will not be impacted because they&#39;re not run when the page loads, but at build time. Personally, this is a revelation. The value of a well organized website is that it should keep content creators from repeating themselves while simultaneously creating rich relationships and context around the content of a site. Static sites give me the freedom to create all the complex relationships I like, using content from wherever appropriate, with near total impunity in terms of performance.
+
+Keep in mind, that since the site is purely static, calendars or  other dynamic elements will need to be done outside of the site. I&#39;ve been using javascript for calendaring in Jekyll, so this so far has not proven to be a problem.
+
+While both types of software could be called flat-file, what we mean when we say **&quot;flat-file CMS&quot;** is likely to be a dynamic application that creates HTML pages on the fly when the page loads. These are a terrific go-between the traditional CMS and static site generators because there are no issues with deployment and no problems with dynamic content like calendars while still maintaining the benefits of storing your content in text files. Optionally, you can offer content creators a control panel and WYSIWYG editor, which is very often necessary for client work.
+
+#### Flat-file CMS
+
+Among the flat-file CMSs there are only a handful that have held my attention. [**Pico**](http://pico.dev7studios.com/) is a very lightweight flat-file CMS created by Gilbert Pellegrom from Dev7studios (interestingly, a Wordpress plugin shop). [**Kirby**](http://getkirby.com/) is the creation of Bastian Allgeier, which at $39.00 per site appears to be a sophisticated system at a low cost.
+
+[**Statamic**](http://statamic.com/), which is also commercial and priced at $99 per site for developers, is an elegant CMS that is my go-to when I need to have a control panel for clients. You can give them the option of writing in Markdown, text, or WYSIWG. The feedback I&#39;ve gotten from clients is that it&#39;s extremely easy to use, though some people get confused about what is a page and what is a post and how to create them. [_ed note: as of Jan 2015, Statamic now includes the option of outputting your site&#39;s pages statically_]
+
+Statamic uses a templating language that is simple yet fully featured. Organizing complex sites is doable but there&#39;s a learning curve. I&#39;ve tripped up here and there figuring out how to create field groups for a particular content collection, as well as figuring out how URL structures and navigation work, but I&#39;ve never felt that there was anything I could not create.
+
+I really put Statamic through its paces last year when I had--under a very tight deadline--to put together a conference website where I had to bring together schedules for events from various disparate parts of the conference (in addition to the main conference there was a film festival and a children&#39;s festival and an art festival). For all the events there were related participants, and related venues. You&#39;ll see if you visit the page that it loads fairly quickly given its size (the content is greyed out because I wanted to show past events but make them grey as the event&#39;s time past). Each event, participant and venue page listed out all the other relationships as well.
+
+Statamic enjoys an active developer community and has a growing number of very polished add-ons. A Statamic site can get fairly expensive, given that integrated search and contact forms  will cost you $49 each, bringing a fully featured site to about $200, but the use-case here is for when you need to have a control panel that is confidently designed and a broad feature set.
+
+Here are some additional examples of sites I&#39;ve built in Statamic: [1](http://jackwhyland.com/), [2](http://themothbook.org/)
+
+Update: As of January, 2015, Statamic, mentioned above, includes static output. Conceivably that means you could run the site locally and deploy to any server.
+
+
+#### Static Site Generators
+
+I have a feeling that the best of the static site generators will surface as &quot;web architectures&quot; rather than just static site generators. That&#39;s the phrase [**Docpad**](http://docpad.org/) uses to describe itself and even though what it does is precisely generate a website, Docpad is indeed an extensible tool set for building any sort of website, even one with a database, or with dynamic characteristics.
+
+Likewise, [**Harp**](http://harpjs.com/) bills itself as a web server, making the distinction between generating a website and all the other processes that go into a modern website, like Sass, or Jade templates, or coffeeScript. Similarly, [**Middleman**](http://middlemanapp.com/) describes itself as simply a collection of tools.
+
+Ingeniously, the developers behind Harp have also built a commercial [platform](https://www.harp.io/) for deploying sites (the server itself is open source) that appears to be as simple as placing files in a Dropbox folder. I like to have a sense that a project will have longevity, so open source projects, in my view, should have a business model close at hand so that the core developers are able to continue on with the project.
+
+Many of the static site generators are open source, but not all. [**Siteleaf**](http://www.siteleaf.com/) is a commercial product, which, uniquely, provides a control panel for content entry. With Siteleaf it appears that you can manage multiple sites from one control panel and deploy to any number of servers.
+
+One reason I love static site generators is that you can define custom fields on the fly just by writing in the field in the front matter of a page, or defining it in a YAML file and then referencing it in your template. I&#39;m not sure yet how this would work in Siteleaf because of the control panel, but I imagine for straight page-based sites where you have to give clients a control panel, it&#39;s a good choice. I should note that the control panel is nicely designed and seems extremely friendly, but that very friendliness makes it simplistic enough that I would hesitate to use it for larger clients who might prefer something more serious.
+
+With [Jekyll](http://jekyllrb.com) sites--the only static site generator I&#39;ve used in production--I&#39;ve been using the [prose.io](Prose) content editor. Prose is terrific and works hand-in-hand with GitHub, allowing you to easily traverse all your repositories and files within. For each repository you can define files to exclude so content creators can only see files they&#39;d want to work on. Prose also allows you to define your front-matter in a config file so the user can easily edit an entry’s metadata.
+
+---
+
+It&#39;s important to note that Prose’s development isn&#39;t terribly active as of this writing and it has some quirky behavior that makes it not entirely suitable for client use, but I don&#39;t feel it&#39;s that far away from being a great minimalist content editor. In fact, I&#39;ve edited some of this post using it on my iPhone.
+
+Jekyll is a Ruby app created by the founder of Github. It&#39;s the house-app for serving Github Pages, that company&#39;s free static website hosting service, and that alone gives it a leg up on most of these apps, even if just making deployment a bit easier than otherwise.
+
+As of this writing, when used with GitHub Pages, Jekyll doesn&#39;t allow any plugins because of restrictions on the hosting platform. If deployment isn&#39;t an issue there are plugins put out there to overcome some of Jekyll’s--born a “blogging platform for hackers”--lacunae, and there will be a whitelist of plugins allowed in a future release and I&#39;ve managed to get by fine without them.
+
+Jekyll is also a bit more structured than many of the apps, using a post and page model where posts get taxonomies and chronological sorting whereas pages do not. The lack of taxonomies and sorting for pages is a big shortcoming, but I know that the project owners are working toward a more flexible, collections-based, model. All in all, I&#39;ve enjoyed having to find creative solutions to Jekyll&#39;s constraints and have managed to create some fairly complex relationships between pieces of content, even if most everything has to be nested in little _posts folders scattered throughout the site.
+
+I use Jekyll&#39;s data model liberally and have enjoyed the freedom of just dumping lists in a Yaml file to use anywhere on a site, like turning that data into JSON files for use in, say, a calendar, or tabular data, or relationships like authors on a multi-author site.
+
+Here&#39;s an example of a data file for a list of articles I&#39;ve used in Jekyll:
+
+~~~
+
+-
+  title: &quot;Biometric Privacy Trade-off Exposed in Missing Jet&#39;s Passports&quot;
+  date: 2014-03-10
+  publication: &quot;Bloomberg Businessweek&quot;
+  link_to_original: &quot;http://www.businessweek.com/&quot;
+  category: Finance
+
+-
+  title: &quot;New Details Emerge in Mystery of Bronze Apollo Held by Hamas&quot;
+  date: 2014-02-10
+  link_to_original: &quot;http://www.businessweek.com/&quot;
+  publication: &quot;Bloomberg Businessweek&quot;
+  category: Ancient
+
+
+~~~
+
+To my mind there&#39;s nothing simpler than dumping some info in a text file, which compared to copying out each line of these into separate fields in a control panel is cumbersome.
+
+One thing to be aware of for more complex sites is that for a large site the time to build the site can get pretty long. It&#39;s page generation that takes so long (though we&#39;re mostly talking about a matter of seconds) so I&#39;ve moved anything I can into data files, which has proven to dramatically help build-times.
+
+The guys running and contributing to the project are avid and thoughtful about where Jekyll is going and it&#39;s integration with Github make it the best place to start for anyone new to static site generators, particularly given its ease of deployment and use of the easy, if somewhat limited, [Liquid](https://github.com/Shopify/liquid/wiki/Liquid-for-Designers) templating language.
+
+My use case for Jekyll is for when I need a simple deployment and when I need to know the app will have a long life, which its Github backing would seem to ensure. Despite any shortcomings mention above, I really enjoy working with it, find it quite easy to use. The site this article was published on, [budparr.com](http://budparr.com) was created on Jekyll as well as several others, including a project I have in beta that has quite an involved content-set.
+
+While Jekyll is my go-to app (and the app of choice for the firm that introduced me to static site generators, Development Seed) I&#39;m actively looking at Middleman, also a Ruby app; Docpad, Harp, [Assemblejs](http://assemble.io/), and Siteleaf for use in a variety of projects. There are [myriad](http://staticsitegenerators.net/) choices to suit your needs.
+
+With no-db websites in general, it&#39;s proven not difficult to move content and even site structure between apps, so it should be easy to get to know several of them so that you can always choose the right set of tools for the task at hand. I&#39;ve never liked the way CMSs develop fan-bases rather than user-bases and welcome the change to choosing toolsets to get a job done.
+
+I&#39;ll go into these more as I&#39;ve gotten a chance to build some sites with them and report back.
+
+@@@
+title: "Basics of Markdown"
+date: 2014-03-09T22:01:00.000Z
+posted_date: 2015-05-02T22:01:00.000Z
+type: articles
+slug: basics-of-markdown
+source:
+
+tool:
+---
+
+[_An abreviated form of this article is available as a Gist on Github_](https://gist.github.com/budparr/9257428)
+
+### What is Markdown?
+
+Markdown is a formatting syntax that allows you to write in plain text in any editing program, but still format your document like you would with a word processor. It was created to convert plain text into HTML for publishing on the web and happens to be super easy to write and just as easy to read even without being converted.
+
+Markdown ensures that a writer&#39;s intended formatting never gets lost. If you&#39;ve ever labored on a Word document only to have its formatting scrambled when you sent it to be published to your website or when a colleague opened it in another program, you&#39;ll appreciate the simplicity and stability of Markdown.
+
+While you can edit Markdown files in any text editor, there are are some, like [iA Writer for Macs](http://www.iawriter.com/mac/), that are specially built to make this easy way of writing even easier.
+
+### How do I write in Markdown?
+
+Markdown is extremely simple. In fact, it&#39;s mostly plain text, so writing a paragraph would be the same as with any text editor (there&#39;s a line between each paragraph).
+
+If you want to put in a line break
+you merely put two spaces after a line
+and it shows up like this.
+
+#### Emphasis
+
+If you want to make a word **bold**, you merely put two asterisks around it:
+
+``` like **this** ``` is  like **this**
+
+To emphasize a word with *italics* you put one asterisk around it:
+
+``` like *this*``` is  like *this*
+
+or
+
+``` use an _underscore_ ``` to get the same results.
+
+_You can even use these same characters to emphasize complete sentences_.
+
+
+
+#### Links
+
+[Links are simple](https://www.google.com/search?q=markdown). Just put the text to be linked in [] brackets, and the link in () parenthesis.
+
+``` [Links are simple](https://www.google.com/search?q=markdown) ```
+
+
+
+#### Blockquotes
+
+When typing an extended quote, just put the &quot;greater than&quot; sign before the paragraph.
+
+~~~
+
+&gt; &quot;I have dipped into books of aesthetics, but I had an uncomfortable feeling that I was reading the works of astronomers who had never looked at the stars. They were writing about poetry as if poetry were a task, and not what it really is, a passion, and a joy.&quot;
+
+~~~
+
+&gt; &quot;I have dipped into books of aesthetics, but I had an uncomfortable feeling that I was reading the works of astronomers who had never looked at the stars. They were writing about poetry as if poetry were a task, and not what it really is, a passion, and a joy.&quot;
+
+#### Lists
+
+- Using Lists is Easy
+- Just use a dash with a space before each line
+
+~~~
+- Using Lists is Easy
+- Just use a dash with a space before each line
+~~~
+
+
+#### Headings
+
+~~~
+
+# The largest heading
+## The second largest heading
+…
+###### The 6th largest heading
+
+~~~
+
+#### Images
+
+Images are just like links, but they have an exclamation point in front of them (and of course the link should be to where the image is!). The text between the brackets becomes the title, but it&#39;s not required.
+
+![Images are easy](https://c1.staticflickr.com/3/2835/12680465824_c959772b64_t.jpg)
+
+~~~
+
+![Images are easy](http://link-to-image.jpg)
+
+~~~
+
+
+
+### Resources
+
+See also [&quot;What is Markdown&quot;](http://whatismarkdown.com/) for a list of good Markdown editors.
+
+If you&#39;re editing content in a Jekyll-based site, you can use the [prose editor](http://prose.io/), if your site is configured for it. If you want more advanced formatting, check out the original [Markdown site](http://daringfireball.net/projects/markdown/), or the [Github Markdown page](http://guides.github.com/overviews/mastering-markdown/).

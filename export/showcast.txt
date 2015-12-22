@@ -1,0 +1,273 @@
+@@@
+title: "Sequoia Capital"
+date: 2015-12-15T02:43:00.000Z
+posted_date: 2015-12-15T02:43:00.000Z
+type: showcase
+slug: sequoia-capital
+website: https://www.sequoiacap.com/
+image_path: - /uploads/1450147287427_showcase-static-sequoia.jpg
+tool: - Middleman
+- Netlify
+- Contentful
+creator:
+- role: "Design, Dev"
+- link: http://www.instrument.com
+- name: Instrument
+---
+Sequoia requested a simple solution that retained the ability to easily manage content and provide features such as localization and search. Instead of building something complex using large databases, multiple servers, and other layers of infrastructure, we used hosted services that provide simpler solutions to these complications. Static site generation was used to provide a [straightforward, fast, and secure site](http://www.smashingmagazine.com/2015/11/modern-static-website-generators-next-big-thing/). Read the rest at [Instrument.com](http://www.instrument.com/latest/when-simple-is-the-only-option)
+
+@@@
+title: "Norm Daniels"
+date: 2015-10-16T18:01:00.000Z
+posted_date: 2015-10-16T18:01:00.000Z
+type: showcase
+slug: norm-daniels
+website: http://normhere.com/
+image_path: - /uploads/1445018372505_screenshot-normhere.jpg
+tool: - Jekyll
+- CloudCannon
+creator:
+- role: "Designer, Developer"
+- link: http://brandonsetter.com/
+- name: Brandon Setter
+---
+Jekyll and Cloudcannon make my life as a designer so much less hectic. What would have taken me hours and hours to setup on a Wordpress install only took me about 30 mins using Jekyll and Front Matter for a full featured photo gallery and CMS. WOW! It came down to time savings, ease for me, and speed of a static site. No annoying databases to deal with and no management of WP. Glorious! Not to mention Jekyll and Cloudcannon together make it beautiful and easy for the client to manage the photo gallery and website as a whole. Also see the Case Study at [Cloudcannon.com](http://cloudcannon.com/customers/brandon-setter/)
+
+@@@
+title: "Netflix Devices"
+date: 2015-10-15T20:42:00.000Z
+posted_date: 2015-10-15T20:42:00.000Z
+type: showcase
+slug: netflix-devices
+website: https://devices.netflix.com/en/
+image_path: - /uploads/1444963245916_screenshot-netflix.jpg
+tool: - Jekyll
+- CloudCannon
+creator: ---
+Netflix partnered with CloudCannon to rebuild [Netflix Devices](https://devices.netflix.com/). Devices was originally a Drupal site and was rebuilt in a fraction of the time using [Jekyll](http://jekyllrb.com/). The site is static so it loads quickly and reliably scales to the millions of Netflix visitors. The Partner Marketing team have taken control of their site. They’re empowered to quickly try out new messaging and update content directly on the page. Netflix Devices is translated into 16 languages which all get served from the same Jekyll site.
+Read the rest of the case study at [cloudcannon.com/customers/netflix/](http://cloudcannon.com/customers/netflix/)
+
+@@@
+title: "18F"
+date: 2015-10-05T21:34:00.000Z
+posted_date: 2015-10-05T21:34:00.000Z
+type: showcase
+slug: 18f
+website: https://18f.gsa.gov/
+image_path: - /uploads/1444963911164_screenshot-18f-1.jpg
+tool: - Jekyll
+creator:
+- role: "Design, Development"
+- link: https://18f.gsa.gov
+- name: 18F
+---
+The official website of 18F.
+
+@@@
+title: "MapBox"
+date: 2015-10-05T21:12:00.000Z
+posted_date: 2015-10-05T21:12:00.000Z
+type: showcase
+slug: mapbox
+website: https://www.mapbox.com/
+image_path: - /uploads/1444963925320_screenshot-mapbox-1.jpg
+tool: - Jekyll
+- Prose.io
+creator:
+- role: "Development, Design"
+- link: https://developmentseed.org
+- name: Development Seed
+---
+[How We Build CMS-Free Websites](https://developmentseed.org/blog/2012/07/27/build-cms-free-websites/)[How We Build CMS-Free Websites](https://developmentseed.org/blog/2012/07/27/build-cms-free-websites/)
+
+@@@
+title: "Development Seed"
+date: 2015-10-05T21:11:00.000Z
+posted_date: 2015-10-05T21:11:00.000Z
+type: showcase
+slug: development-seed
+website: https://developmentseed.org
+image_path: - /uploads/1444963940140_screenshot-developmentseed.jpg
+tool: - Jekyll
+- Prose.io
+creator:
+- role: "Development, Design"
+- link: https://developmentseed.org
+- name: Development Seed
+---
+[How We Build CMS-Free Websites](https://developmentseed.org/blog/2012/07/27/build-cms-free-websites/)[How We Build CMS-Free Websites](https://developmentseed.org/blog/2012/07/27/build-cms-free-websites/)
+
+@@@
+title: "Nodejs.org"
+date: 2015-09-28T16:47:00.000Z
+posted_date: 2015-10-28T16:48:00.000Z
+type: showcase
+slug: nodejsorg
+website: https://nodejs.org/en/
+image_path: - /uploads/1446050712434_screenshot-nodejs.jpg
+tool: - Metalsmith
+creator:
+- role: "Dev, Desgin"
+- link: https://github.com/nodejs/new.nodejs.org
+- name: Node.js Foundation
+---
+
+@@@
+title: "Twitchcon"
+date: 2015-09-24T19:00:00.000Z
+posted_date: 2015-09-24T19:00:00.000Z
+type: showcase
+slug: twitchcon
+website: http://www.twitchcon.com/
+image_path: - /uploads/1443121125423_twitchcon.jpg
+tool: - Webhook
+creator: - link: https://twitter.com/alexisg
+- name: Alexis Gallisá
+---
+
+@@@
+title: "White House Social and Behavioral Sciences Team"
+date: 2015-09-15T16:41:00.000Z
+posted_date: 2015-10-28T16:41:00.000Z
+type: showcase
+slug: white-house-social-and-behavioral-sciences-team
+website: https://sbst.gov/
+image_path: - /uploads/1446050119463_screenshot-sbst.jpg
+tool: - Jekyll
+- Federalist
+creator:
+- role: "Development, Design"
+- link: https://18f.gsa.gov/
+- name: 18F
+---
+"Rather than building a custom CMS from scratch, Federalist puts a layer on top of an open source platform which already has proven scalability," says Jeremia Kimelman, a developer on the program. "That's one of the great things about this platform." Read the full blog-post at "[New Federalist platform lets agencies quickly launch websites](https://18f.gsa.gov/2015/09/15/federalist-platform-launch/)"
+
+@@@
+title: "The Changelog Newsletter"
+date: 2015-08-30T14:57:00.000Z
+posted_date: 2015-08-30T14:57:00.000Z
+type: showcase
+slug: the-changelog-newsletter
+website: https://changelog.com/weekly/
+image_path: - /uploads/1440946470090_changelog.jpg
+tool: - Middleman
+creator:
+- role: "Developer"
+- link: https://changelog.com/
+- name: Adam Stacoviak — Founder & Editor-in-chief, The Changelog
+---
+Via the [Trello API](https://trello.com/docs/). We have a sub-200 LOC Ruby script that connects to the board (using the [Ruby Trello](https://github.com/jeremytregunna/ruby-trello) gem), loops over the lists, and outputs ERB (Ruby-embedded HTML) according to the rules laid out above. [Middleman](https://middlemanapp.com/) consumes that output and produces HTML that is shipped off to [Campaign Monitor](https://www.campaignmonitor.com/) for delivery. More at ["Trello as a CMS"](https://changelog.com/trello-as-a-cms/)
+
+@@@
+title: "adigoodrich.com"
+date: 2015-08-17T12:42:00.000Z
+posted_date: 2015-08-17T12:42:00.000Z
+type: showcase
+slug: adigoodrichcom
+website: http://www.adigoodrich.com/
+image_path: - /uploads/1439815236256_tnd-showcase-adigoodrich.jpg
+tool: - Webhook
+creator:
+- role: "Designer, developer"
+- link: http://www.erin.io/
+- name: Erin Keeffe
+---
+As a designer who loves to code, I wanted a way to combine the simplicity and joy of a static site builder with something that I could confidently deploy to clients with a fully functional, modern, VMC-based CMS. Webhook fits that need perfectly. It allows me to focus on the design and front-end development of a project while Webhook takes care of all the back-end functionality that’s required for most content driven/blog style sites today. The result is a beautiful, fully custom site that loads super fast without the usual development overhead of a custom site or the legacy bloat of a platform like WordPress.
+
+@@@
+title: "Vesterheim Norwegian-American Museum"
+date: 2015-07-10T13:38:00.000Z
+posted_date: 2015-07-10T13:38:00.000Z
+type: showcase
+slug: vesterheim-norwegian-american-museum
+website: http://vesterheim.org/
+image_path: - /uploads/1436535424517_thenewdynamic-showcase-vesterheim-org-150710.jpg
+tool: - Jekyll
+creator:
+- role: "Developer"
+- link: https://github.com/faustgertz
+- name: Faust Gertz
+---
+
+@@@
+title: "eSolia"
+date: 2015-07-09T13:18:00.000Z
+posted_date: 2015-07-09T13:18:00.000Z
+type: showcase
+slug: esolia
+website: http://esolia.com/
+image_path: - /uploads/1436586928778_thenewdynamic-showcase-esolia-com-150710.jpg
+tool: - Hugo
+creator:
+- role: "Site owner, developer"
+- link: https://twitter.com/eSolia_Inc
+- name: eSolia Inc.
+---
+eSolia had experimented with various other site generators, both proprietary and open source, and with server-side CMSs. We wanted the superior security and performance of a static site, without having to deal with development environment dependencies, meaning having to keep various libraries updated. [Hugo](http://gohugo.io/), written in the modern Go language, fits that requirement perfectly. It is not only available as a single, easy-to-install binary file for Mac, Linux and Windows, it was written to be insanely great in terms of speed and performance. Most sites build in milliseconds; in fact it takes longer to sync them to your web host than it does to generate the site! We like it so much that we built my personal site [Rick Cogley Central](http://rick.cogley.info/), eSolia's [English esolia.com](http://esolia.com/) and [Japanese esolia.co.jp](http://esolia.co.jp/) sites, and finally, eSolia's professional blog at [eSolia.pro](http://esolia.pro/) in it. As of July 2015, Hugo's community is vibrant, development is actively proceeding, and we'd love to welcome new users to the fold. Also see:[Why Hugo? A static site generator optimized for performance](http://esolia.pro/en/why-did-esolia-choose-hugo/)[](http://esolia.pro/en/why-did-esolia-choose-hugo/)
+
+@@@
+title: "UN World Statistics"
+date: 2015-06-27T13:22:00.000Z
+posted_date: 2015-10-27T13:22:00.000Z
+type: showcase
+slug: un-world-statistics
+website: https://worldstatisticsday.org/
+image_path: - /uploads/1445952048351_screenshot-un-statistics-static-site.jpg
+tool: - Jekyll
+creator: ---
+
+@@@
+title: "Cramer"
+date: 2014-12-11T05:05:00.000Z
+posted_date: 2015-07-11T04:05:00.000Z
+type: showcase
+slug: cramer
+website: http://cramer.com/
+image_path: - /uploads/1436587518099_thenewdynamic-showcase-cramer-com-150710.jpg
+tool: - Webhook
+creator:
+- role: "Developer"
+- link: https://github.com/ericwebster
+- name: Eric Websiter
+---
+
+@@@
+title: "Sement.io"
+date: 2014-10-28T13:57:00.000Z
+posted_date: 2015-10-28T13:57:00.000Z
+type: showcase
+slug: sementio
+website: https://segment.com
+image_path: - /uploads/1446040366623_screenshot-segment.jpg
+tool: - Metalsmith
+---
+By the creators of Metalsmith. If it's just the simplest blog with a running series of Markdown files, then really any of the static site generators will do. But once you get into trying to implement some more advanced features then you run up against the limitations of most (if not all) of them because they assume way too much up front. A couple real-world examples from us at Segment.io are: **Documentation** - for our [docs](https://segment.io/docs) we want to be able to use the same simple static site generator without having all of the blogging logic. Basically the nesting of the files should result in the nesting of the URLs. But we also want to be able to tie in metadata that we have in our database about all of our integrations. And we'd also like to be able to write custom handlebars helpers that turn a simple JSON object into a widget that renders API calls in any of our supported languages. **Academy** - for our [academy](https://segment.io/academy) I really want to get to the point where we can generate PDFs for each of our articles and being to re-distribute them that was as eBooks (or potentially for a collection of articles) because that kind of thing appeals to enterprises who are looking for guidance. And we could even end up doing the same thing with our docs pages. And then we also want to have custom handlebars helpers for. **Blog** - for our [blog](https://segment.io/blog) we want just the most basic implementation, although maybe with some niceties about author metadata to load in avatars and such.Whenever you try and get into additional features that weren't considered by the original "static site" (or worse "static blog") generators, you usually end up building really cludgey code, if it's even possible. So with Metalsmith we avoid all of that, because the plugins can do whatever they want, and it's super trivial to add local plugins to the mix if you're cooking up something which you know is unique to just you. source: Ian Storm Taylor, posted at [Hacker News](https://news.ycombinator.com/item?id=7363734)
+
+@@@
+title: "The Verge 50"
+date: 2014-07-30T03:47:00.000Z
+posted_date: 2015-07-11T03:47:00.000Z
+type: showcase
+slug: the-verge-50
+website: http://www.theverge.com/a/the-verge-50
+image_path: - /uploads/1436586481330_thenewdynamic-showcase-verge-at-50-ogov-150710.jpg
+tool: - Middleman
+creator:
+- role: "Design, development"
+- link: http://product.voxmedia.com/
+- name: Vox Product
+---
+Last December, The Verge published [The Verge 50](http://www.theverge.com/a/the-verge-50), one of our earliest examples of our [Editorial Apps](https://source.opennews.org/en-US/learning/evolution-news-apps-teams/) system built by VP of Technology [Pablo Mercado](https://twitter.com/odacrem "Ham") during last October's [VAX](http://product.voxmedia.com/2013/10/4/5426870/product-team-all-hands-2013-return-of-vax) hackathon, inspired by the work done by the [NPR Visuals](http://blog.apps.npr.org/) team. In a nutshell, our Editorial Apps system consists of a static [Middleman](http://middlemanapp.com/) site, which is populated from one or more Google Spreadsheets at build time (using our [middleman-google-drive](https://github.com/voxmedia/middleman-google_drive) extension, which we'll talk about in a future article), and then deployed to [Chorus](http://product.voxmedia.com/2012/5/6/5426772/all-together-now-introducing-the-vox-product-blog-and-chorus) by doing a `git push` and using git post-receive hooks, in a way not unlike deploying an app to [Heroku](https://www.heroku.com/). Continue reading at [Vox Product](http://product.voxmedia.com/2014/7/29/5863004/take-a-peek-at-the-code-that-powered-the-verge-50)
+
+@@@
+title: "Healthcare.gov"
+date: 2014-07-11T03:30:00.000Z
+posted_date: 2015-07-11T03:30:00.000Z
+type: showcase
+slug: healthcaregov
+website: https://www.healthcare.gov/
+image_path: - /uploads/1436585373639_thenewdynamic-showcase-healthcare-ogov-150710.jpg
+tool: - Jekyll
+---
+
+#### [Healthcare.gov: Code Developed by the People and for the People, Released Back to the People](http://www.theatlantic.com/technology/archive/2013/06/healthcaregov-code-developed-by-the-people-and-for-the-people-released-back-to-the-people/277295/)

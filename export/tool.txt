@@ -1,0 +1,1332 @@
+
+
+
+@@@
+title: "Fuse.js Search"
+date: 2015-12-15T02:46:00.000Z
+posted_date: 2015-12-15T02:46:00.000Z
+type: tool
+slug: fusejs-search
+category:
+  - Interaction
+links:
+  - http://kiro.me/projects/fuse.html
+---
+If you need a lightweight, fast way to search through a list of items, and allow mispellings, then Fuse.js is for you. Forget all server-side logic. This is done all in JavaScript.
+
+
+
+
+@@@
+title: "Static Website Manager"
+date: 2015-12-07T22:10:00.000Z
+posted_date: 2015-12-07T22:10:00.000Z
+type: tool
+slug: static-website-manager
+category:
+  - Editing
+  - CMS
+links:
+  - https://www.staticwebsitemanager.com/
+---
+Static Website Manager is a web-based CMS for your Jekyll website or blog. We offer a collaborative git-based platform, a standardized content management system with live website previews, external deployments to your favorite hosting prodivers, and form responders to animate your static website!
+
+
+
+
+@@@
+title: "Jekyll Gdrive Plugin"
+date: 2015-12-02T19:10:00.000Z
+posted_date: 2015-12-02T19:10:00.000Z
+type: tool
+slug: jekyll-gdrive-plugin
+category:
+  - Editing
+links:
+  - https://github.com/netlify/jekyll-gdrive
+---
+Access data from a Google Drive Spreadsheet in your Jekyll sites
+
+
+
+
+@@@
+title: "s3_website"
+date: 2015-12-02T03:30:00.000Z
+posted_date: 2015-12-02T03:30:00.000Z
+type: tool
+slug: s3_website
+category:
+  - Hosting-Deployment
+links:
+  - https://github.com/laurilehmijoki/s3_website
+---
+Create and configure an S3 website for you - Upload your static website to AWS S3 - Jekyll, Nanoc, and Middleman are automatically supported - Help you use AWS Cloudfront to distribute your website - Improve page speed with HTTP cache control and gzipping
+Set HTTP redirects for your website
+
+
+
+
+@@@
+title: "Kickster"
+date: 2015-11-27T03:29:00.000Z
+posted_date: 2015-11-27T03:29:00.000Z
+type: tool
+slug: kickster
+category:
+  - Helper
+links:
+  - http://kickster.nielsenramon.com/
+  - https://github.com/nielsenramon/kickster
+---
+Automated deployment of Jekyll projects to GitHub pages using Kickster and Circle CI.
+
+
+
+
+@@@
+title: "A Free Jekyll Website Template for Nonprofits"
+date: 2015-11-19T17:33:00.000Z
+posted_date: 2015-11-19T17:33:00.000Z
+type: tool
+slug: a-free-jekyll-website-template-for-nonprofits
+category:
+  - Themes
+links:
+  - https://github.com/smartergiving/free-nonprofit-starter-website
+---
+A Free Jekyll Website Template for Nonprofits, by SmarterGiving
+
+
+
+
+@@@
+title: "Hugo Themes"
+date: 2015-11-13T02:58:00.000Z
+posted_date: 2015-11-13T02:58:00.000Z
+type: tool
+slug: hugo-themes
+category:
+  - Themes
+links:
+  - http://themes.gohugo.io/
+  - https://github.com/spf13/hugo/
+---
+Official Hugo theme directory
+
+
+
+
+@@@
+title: "Jekyll Themes"
+date: 2015-11-13T02:53:00.000Z
+posted_date: 2015-11-13T02:53:00.000Z
+type: tool
+slug: jekyll-themes
+category:
+  - Themes
+links:
+  - http://jekyllthemes.org/
+  - https://github.com/mattvh/jekyllthemes/
+---
+A directory of the best-looking themes for Jekyll blogs
+
+
+
+
+@@@
+title: "Made Mistakes Jekyll Themes"
+date: 2015-11-12T19:23:00.000Z
+posted_date: 2015-11-12T19:23:00.000Z
+type: tool
+slug: made-mistakes-jekyll-themes
+category:
+  - Themes
+links:
+  - https://mademistakes.com/work/jekyll-themes/
+---
+
+
+
+
+
+@@@
+title: "Pixyll Jekyll Theme"
+date: 2015-11-12T19:21:00.000Z
+posted_date: 2015-11-12T19:21:00.000Z
+type: tool
+slug: pixyll-jekyll-theme
+category:
+  - Themes
+links:
+  - https://github.com/johnotander/pixyll
+  - http://pixyll.com/
+---
+A simple, beautiful Jekyll theme that's mobile first.
+
+
+
+
+@@@
+title: "Typeform"
+date: 2015-11-12T04:04:00.000Z
+posted_date: 2015-11-12T04:04:00.000Z
+type: tool
+slug: typeform
+category:
+  - Interaction
+links:
+  - http://www.typeform.com/
+---
+
+
+
+
+
+@@@
+title: "Lanyon"
+date: 2015-11-12T02:09:00.000Z
+posted_date: 2015-11-12T02:09:00.000Z
+type: tool
+slug: lanyon
+category:
+  - Themes
+links:
+  - https://github.com/poole/lanyon
+  - http://lanyon.getpoole.com/
+---
+An unassuming Jekyll theme that places content first by tucking away navigation in a drawer.
+
+
+
+
+@@@
+title: "Hyde"
+date: 2015-11-12T02:07:00.000Z
+posted_date: 2015-11-12T02:07:00.000Z
+type: tool
+slug: hyde
+category:
+  - Themes
+links:
+  - https://github.com/poole/hyde
+  - http://hyde.getpoole.com/
+---
+A brazen two-column Jekyll theme that pairs a prominent sidebar with uncomplicated content.
+
+
+
+
+@@@
+title: "Jekyll-lambda"
+date: 2015-11-12T02:04:00.000Z
+posted_date: 2015-11-12T02:04:00.000Z
+type: tool
+slug: jekyll-lambda
+category:
+  - Themes
+links:
+  - https://github.com/lauris/jekyll-lambda
+---
+An ascetic theme for Jekyll.
+
+
+
+
+@@@
+title: "Dr. Jekyll&#39;s Themes"
+date: 2015-11-12T02:03:00.000Z
+posted_date: 2015-11-12T02:03:00.000Z
+type: tool
+slug: dr-jekylls-themes
+category:
+  - Themes
+links:
+  - http://drjekyllthemes.github.io/
+---
+A free static site generator theme directory
+
+
+
+
+@@@
+title: "Siteleaf"
+date: 2015-11-10T04:43:00.000Z
+posted_date: 2015-11-10T04:43:00.000Z
+type: tool
+slug: siteleaf
+category:
+  - CMS
+  - Editing
+  - Static Site Generator
+links:
+  - http://www.siteleaf.com/
+---
+Content management simplified. Edit in the cloud, publish anywhere.
+
+
+
+
+@@@
+title: "Meet Hyde"
+date: 2015-11-10T04:21:00.000Z
+posted_date: 2015-11-10T04:21:00.000Z
+type: tool
+slug: meet-hyde
+category:
+  - Editing
+links:
+  - http://meethyde.com/
+  - https://github.com/MeetHyde/MeetHyde
+---
+Simple Content Management for Jekyll Powered Github Pages
+
+
+
+
+@@@
+title: "Hexo Admin"
+date: 2015-10-19T23:12:00.000Z
+posted_date: 2015-10-19T23:12:00.000Z
+type: tool
+slug: hexo-admin
+category:
+  - Editing
+links:
+  - https://github.com/jaredly/hexo-admin
+---
+An admin UI for the Hexo blog engine. Based off of the Ghost interface, with inspiration from svbtle and prose.io.
+
+
+
+
+@@@
+title: "Aerobatic"
+date: 2015-10-15T15:17:00.000Z
+posted_date: 2015-10-15T15:17:00.000Z
+type: tool
+slug: aerobatic
+category:
+  - Hosting-Deployment
+links:
+---
+Static Website Hosting for Bitbucket
+
+
+
+
+@@@
+title: "Nanoc"
+date: 2015-10-11T17:38:00.000Z
+posted_date: 2015-10-11T17:38:00.000Z
+type: tool
+slug: nanoc
+category:
+  - Static Site Generator
+links:
+  - http://nanoc.ws/
+  - https://github.com/nanoc/nanoc
+---
+nanoc is a static site generator, fit for building anything from a small personal blog to a large corporate web site.
+
+
+
+
+@@@
+title: "Coil CMS"
+date: 2015-10-05T18:17:00.000Z
+posted_date: 2015-10-05T18:17:00.000Z
+type: tool
+slug: coil-cms
+category:
+  - Editing
+links:
+  - https://github.com/getnikola/coil
+---
+Making Nikola accessible for non-programmers, casual users, and all other people that don’t feel comfortable using the command line.
+
+
+
+
+@@@
+title: "Kirby"
+date: 2015-10-04T13:04:00.000Z
+posted_date: 2015-10-04T13:04:00.000Z
+type: tool
+slug: kirby
+category:
+  - CMS
+links:
+  - http://getkirby.com/
+---
+Kirby is a file‑based CMS. Easy to setup. Easy to use. Flexible as hell.
+
+
+
+
+@@@
+title: "Grav"
+date: 2015-10-04T13:03:00.000Z
+posted_date: 2015-10-04T13:03:00.000Z
+type: tool
+slug: grav
+category:
+  - CMS
+links:
+  - http://getgrav.org/
+---
+Flat-file CMS.
+In a nutshell, installing Grav is a matter of unzipping the file. It is fast, has sophisticated caching, and a light footprint for optimal performance. Content is just simple markdown files in folders, with no complicated databases to deal with. Open Source
+
+
+
+
+@@@
+title: "Netlify CMS"
+date: 2015-10-03T16:57:00.000Z
+posted_date: 2015-10-03T16:57:00.000Z
+type: tool
+slug: netlify-cms
+category:
+  - Editing
+  - CMS
+links:
+  - https://github.com/netlify/netlify-cms
+---
+A CMS for static site generators. Give non-technical users a simple way to edit and add content to any site built with a static site generator.
+
+
+
+
+@@@
+title: "Federalist"
+date: 2015-10-03T16:53:00.000Z
+posted_date: 2015-10-03T16:53:00.000Z
+type: tool
+slug: federalist
+category:
+  - Editing
+links:
+  - https://github.com/18F/federalist
+---
+Federalist is a unified interface for publishing static government websites. It automates common tasks for integrating GitHub, Prose, and Amazon Web Services to provide a simple way for developers to launch new websites or more easily manage existing ones. [under active development]
+
+
+
+
+@@@
+title: "Gatsby"
+date: 2015-10-02T21:18:00.000Z
+posted_date: 2015-10-02T21:18:00.000Z
+type: tool
+slug: gatsby
+category:
+  - Static Site Generator
+links:
+  - https://github.com/gatsbyjs/gatsby
+---
+Transform plain text into dynamic blogs and websites using the latest web technologies. A React.js static site generator. <small>[_n.b. in an early stage of development_]</small>
+
+
+
+
+@@@
+title: "Flatmarket"
+date: 2015-08-30T03:57:00.000Z
+posted_date: 2015-08-30T03:57:00.000Z
+type: tool
+slug: flatmarket
+category:
+  - Interaction
+links:
+  - https://json.expert/flatmarket/
+  - https://github.com/christophercliff/flatmarket
+---
+Flatmarket is a free, open source e-commerce platform for static websites. Its simple architecture makes it extremely reliable, secure, and inexpensive to operate. View the source on GitHub.
+
+The platform uses Stripe for payment processing and is built on the latest web technologies like hapi, React, and Webpack.
+
+
+
+
+@@@
+title: "Upstatic"
+date: 2015-08-11T13:59:00.000Z
+posted_date: 2015-08-11T13:59:00.000Z
+type: tool
+slug: upstatic
+category:
+  - Hosting-Deployment
+links:
+  - http://beta.upstatic.io/
+---
+A better way to deploy static websites to Amazon S3
+
+
+
+
+@@@
+title: "Nikola"
+date: 2015-07-24T02:31:00.000Z
+posted_date: 2015-07-24T02:31:00.000Z
+type: tool
+slug: nikola
+category:
+  - Static Site Generator
+links:
+  - https://getnikola.com/
+  - https://github.com/getnikola/nikola
+---
+Python-based static site generator  that supports reStructuredText, Markdown, IPython (Jupyter) Notebooks and HTML, and have plugins for many other formats.
+
+
+
+
+@@@
+title: "Codeship"
+date: 2015-06-10T03:14:00.000Z
+posted_date: 2015-06-10T03:14:00.000Z
+type: tool
+slug: codeship
+category:
+  - Hosting-Deployment
+links:
+  - https://codeship.com/
+---
+Continuous Integration and Delivery to Automate your development and deployment workflow
+
+
+
+
+@@@
+title: "Jekyll Search with JSON"
+date: 2015-05-16T22:58:00.000Z
+posted_date: 2015-05-16T22:58:00.000Z
+type: tool
+slug: jekyll-search-with-json
+category:
+  - Interaction
+links:
+  - http://mathayward.com/jekyll-search/
+---
+“With the Liquid templating language, used by Jekyll, I built a JSON encoded feed for posts and pages on the site which I wanted to show up in search results.”
+
+
+
+
+@@@
+title: "Google Custom Search Engine"
+date: 2015-05-16T22:55:00.000Z
+posted_date: 2015-05-16T22:55:00.000Z
+type: tool
+slug: google-custom-search-engine
+category:
+  - Interaction
+links:
+  - https://cse.google.com/cse/
+---
+With Google Custom Search, add a search box to your homepage to help people find what they need on your website.
+
+
+
+
+@@@
+title: "Tipue"
+date: 2015-05-16T22:55:00.000Z
+posted_date: 2015-05-16T22:55:00.000Z
+type: tool
+slug: tipue
+category:
+  - Interaction
+links:
+  - http://www.tipue.com/search/
+---
+Tipue Search is a site search engine jQuery plugin. It's free, open source, responsive and fast.
+
+
+
+
+@@@
+title: "SwifType"
+date: 2015-05-16T22:54:00.000Z
+posted_date: 2015-05-16T22:54:00.000Z
+type: tool
+slug: swiftype
+category:
+  - Interaction
+links:
+  - https://swiftype.com/
+---
+Add great search to any website
+
+
+
+
+@@@
+title: "List.js"
+date: 2015-05-16T22:53:00.000Z
+posted_date: 2015-05-16T22:53:00.000Z
+type: tool
+slug: listjs
+category:
+  - Interaction
+links:
+  - http://www.listjs.com/
+---
+Tiny, invisible and simple, yet powerful and incredibly fast vanilla JavaScript that adds search, sort, filters and flexibility to plain HTML lists, tables, or anything.
+
+
+
+
+@@@
+title: "Divshot"
+date: 2015-05-16T22:42:00.000Z
+posted_date: 2015-05-16T22:42:00.000Z
+type: tool
+slug: divshot
+category:
+  - Hosting-Deployment
+links:
+  - https://divshot.com/
+  - https://divshot.com/blog/
+---
+Static Web Hosting for Developers **CLOSED. Divshot was bought by Google's Firebase in 2015 and closed**
+
+
+
+
+@@@
+title: "BitBalloon"
+date: 2015-05-16T22:38:00.000Z
+posted_date: 2015-05-16T22:38:00.000Z
+type: tool
+slug: bitballoon
+category:
+  - Hosting-Deployment
+links:
+  - https://www.bitballoon.com/
+---
+The ultimate hosting platform for your HTML5 sites & apps
+
+
+
+
+@@@
+title: "Poole"
+date: 2015-05-16T19:00:00.000Z
+posted_date: 2015-05-16T19:00:00.000Z
+type: tool
+slug: poole
+category:
+  - Helper
+links:
+  - https://github.com/poole
+---
+Poole is a fully furnished Jekyll setup, designed to be a consistent and flexible starting point for Jekyll projects, including themes.
+
+
+
+
+@@@
+title: "Brunch"
+date: 2015-05-16T18:47:00.000Z
+posted_date: 2015-05-16T18:47:00.000Z
+type: tool
+slug: brunch
+category:
+  - Build Tool
+links:
+  - http://brunch.io/
+---
+Brunch is an ultra-fast HTML5 build tool
+
+
+
+
+@@@
+title: "Surge"
+date: 2015-05-15T16:24:00.000Z
+posted_date: 2015-05-15T16:24:00.000Z
+type: tool
+slug: surge
+category:
+  - Hosting-Deployment
+links:
+  - https://surge.sh/
+---
+Zero-bullshit, single–command, bring your own source control web publishing CDN. Yes, it's free.
+
+
+
+
+@@@
+title: "Formspree"
+date: 2015-05-15T12:20:00.000Z
+posted_date: 2015-05-15T12:20:00.000Z
+type: tool
+slug: formspree
+category:
+  - Interaction
+links:
+  - https://formspree.io/
+---
+Just send your form to our URL and we'll forward it to your email. No PHP, Javascript or sign up required — perfect for static sites! Formspree is a tool maintained by the community at Assembly.
+
+
+
+
+@@@
+title: "Snipcart"
+date: 2015-05-15T01:54:00.000Z
+posted_date: 2015-05-15T01:54:00.000Z
+type: tool
+slug: snipcart
+category:
+  - Interaction
+links:
+  - https://snipcart.com/
+---
+Effortless shopping cart: Using simple HTML markup, turn any existing website into an extensive shopping cart platform. Snipcart allows payment processing, shipping estimates and order management without ever letting your customers leave your website.
+
+
+
+
+@@@
+title: "Shoal Hosting"
+date: 2015-05-14T18:03:00.000Z
+posted_date: 2015-05-14T18:03:00.000Z
+type: tool
+slug: shoal-hosting
+category:
+  - Hosting-Deployment
+links:
+  - http://shoalhosting.com/
+---
+Shoal Hosting provides automated deployment and hosting for Sculpin-based websites.
+
+
+
+
+@@@
+title: "Prose.io"
+date: 2015-05-14T17:18:00.000Z
+posted_date: 2015-05-14T17:18:00.000Z
+type: tool
+slug: proseio
+category:
+  - Editing
+links:
+  - http://prose.io
+---
+Prose provides a beautifully simple content authoring environment for CMS-free websites. It's a web-based interface for managing content on GitHub. Use it to create, edit, and delete files, and save your changes directly to GitHub. Host your website on GitHub Pages for free, or set up your own GitHub webhook server.
+
+
+
+
+@@@
+title: "Google Cloud Storage"
+date: 2015-05-14T17:17:00.000Z
+posted_date: 2015-05-14T17:17:00.000Z
+type: tool
+slug: google-cloud-storage
+category:
+  - Hosting-Deployment
+links:
+  - https://cloud.google.com/storage/
+---
+Standard Storage provides the highest level of durability, availability and performance of all Google Cloud Storage services. It’s specifically designed for use cases requiring low latency and frequent data access, such as website content distribution and video streaming. Standard storage is all about performance.
+
+
+
+
+@@@
+title: "Form Keep"
+date: 2015-05-14T14:25:00.000Z
+posted_date: 2015-05-14T14:25:00.000Z
+type: tool
+slug: form-keep
+category:
+  - Interaction
+links:
+  - https://formkeep.com/
+---
+Form endpoints for designers and developers. No iframes, JavaScript embeds, or CSS overrides. (commercial)
+
+
+
+
+@@@
+title: "Heroku"
+date: 2015-05-14T04:04:00.000Z
+posted_date: 2015-05-14T04:04:00.000Z
+type: tool
+slug: heroku
+category:
+  - Hosting-Deployment
+links:
+  - https://www.heroku.com/
+---
+A platform as a service (PaaS) that enables developers to build and run applications entirely in the cloud.
+
+
+
+
+@@@
+title: "Harp Platform"
+date: 2015-05-14T02:05:00.000Z
+posted_date: 2015-05-14T02:05:00.000Z
+type: tool
+slug: harp-platform
+category:
+  - Hosting-Deployment
+links:
+  - https://www.harp.io/
+---
+Hosting/Deployment Platform for Harpjs
+
+
+
+
+@@@
+title: "Statamic"
+date: 2015-05-08T22:01:00.000Z
+posted_date: 2015-05-08T22:01:00.000Z
+type: tool
+slug: statamic
+category:
+  - CMS
+links:
+  - http://statamic.com/
+---
+A Flat-file CMS that also generates static pages as output
+
+
+
+
+@@@
+title: "Octopress"
+date: 2015-05-08T22:01:00.000Z
+posted_date: 2015-05-08T22:01:00.000Z
+type: tool
+slug: octopress
+category:
+  - Helper
+links:
+  - https://github.com/octopress/octopress
+---
+Octopress is an obsessively designed toolkit for writing and deploying Jekyll blogs.
+
+
+
+
+@@@
+title: "Pelican"
+date: 2015-05-08T22:01:00.000Z
+posted_date: 2015-05-08T22:01:00.000Z
+type: tool
+slug: pelican
+category:
+  - Static Site Generator
+links:
+  - http://blog.getpelican.com/
+---
+
+
+
+
+
+@@@
+title: "Hexo"
+date: 2015-05-08T22:01:00.000Z
+posted_date: 2015-05-08T22:01:00.000Z
+type: tool
+slug: hexo
+category:
+  - Static Site Generator
+links:
+---
+
+
+
+
+
+@@@
+title: "Harp"
+date: 2015-05-08T22:01:00.000Z
+posted_date: 2015-05-08T22:01:00.000Z
+type: tool
+slug: harp
+category:
+  - Static Site Generator
+links:
+  - http://harpjs.com/
+  - https://twitter.com/HarpWebServer
+  - https://github.com/sintaxi/harp
+  - https://www.harp.io/
+---
+The static web server with built-in preprocessing.
+
+
+
+
+@@@
+title: "CloudCannon"
+date: 2015-05-08T22:00:00.000Z
+posted_date: 2015-05-08T22:00:00.000Z
+type: tool
+slug: cloudcannon
+category:
+  - Editing
+  - Hosting-Deployment
+  - CMS
+links:
+  - http://cloudcannon.com/
+---
+A source control backed CMS for developers working with non-developers
+
+
+
+
+@@@
+title: "Crossbow"
+date: 2015-05-08T22:00:00.000Z
+posted_date: 2015-05-08T22:00:00.000Z
+type: tool
+slug: crossbow
+category:
+  - Static Site Generator
+links:
+  - https://github.com/Crossbow-js/crossbow
+---
+
+
+
+
+
+@@@
+title: "Grunt"
+date: 2015-05-08T22:00:00.000Z
+posted_date: 2015-05-08T22:00:00.000Z
+type: tool
+slug: grunt
+category:
+  - Build Tool
+links:
+  - http://gruntjs.com/
+---
+Grunt is a task-based command line build tool for JavaScript projects. The Grunt ecosystem is huge and it's growing every day. With literally hundreds of plugins to choose from, you can use Grunt to automate just about anything with a minimum of effort.
+
+
+
+
+@@@
+title: "Gulp"
+date: 2015-05-08T22:00:00.000Z
+posted_date: 2015-05-08T22:00:00.000Z
+type: tool
+slug: gulp
+category:
+  - Build Tool
+links:
+  - http://gulpjs.com/
+---
+
+
+
+
+
+@@@
+title: "Sculpin"
+date: 2015-05-08T22:00:00.000Z
+posted_date: 2015-05-08T22:00:00.000Z
+type: tool
+slug: sculpin
+category:
+  - Static Site Generator
+links:
+  - https://sculpin.io/
+  - https://github.com/sculpin/sculpin
+---
+culpin is a static site generator written in PHP. It converts Markdown files, Twig templates and standard HTML into a static HTML site that can be easily deployed.
+
+
+
+
+@@@
+title: "Osmek"
+date: 2015-05-08T21:52:00.000Z
+posted_date: 2015-05-08T21:52:00.000Z
+type: tool
+slug: osmek
+category:
+  - Content API
+links:
+  - http://osmek.com/
+---
+
+
+
+
+
+@@@
+title: "CloudFlare"
+date: 2015-05-08T21:52:00.000Z
+posted_date: 2015-05-08T21:52:00.000Z
+type: tool
+slug: cloudflare
+category:
+  - Hosting-Deployment
+links:
+  - https://www.cloudflare.com
+---
+Leverage CloudFlare's global network to serve lightning-fast DNS; Distribute your content around the world so it’s closer to your visitors.
+
+
+
+
+@@@
+title: "Github Pages"
+date: 2015-05-08T21:52:00.000Z
+posted_date: 2015-05-08T21:52:00.000Z
+type: tool
+slug: github-pages
+category:
+  - Hosting-Deployment
+links:
+  - https://pages.github.com/
+---
+Hosted directly from your GitHub repository.
+
+
+
+
+@@@
+title: "Prismic"
+date: 2015-05-08T21:51:00.000Z
+posted_date: 2015-05-08T21:51:00.000Z
+type: tool
+slug: prismic
+category:
+  - Editing
+  - CMS
+  - Content API
+links:
+  - https://prismic.io/
+---
+
+
+
+
+
+@@@
+title: "React"
+date: 2015-05-08T21:49:00.000Z
+posted_date: 2015-05-08T21:49:00.000Z
+type: tool
+slug: react
+category:
+links:
+---
+
+
+
+
+
+@@@
+title: "Harpoon"
+date: 2015-05-02T21:33:00.000Z
+posted_date: 2015-05-02T21:33:00.000Z
+type: tool
+slug: harpoon
+category:
+  - Hosting-Deployment
+links:
+  - http://www.getharpoon.com/
+---
+deploys static sites to S3 and BitBalloon
+
+
+
+
+@@@
+title: "Proteus Static Site Starter Kits "
+date: 2015-05-02T21:16:00.000Z
+posted_date: 2015-05-02T21:16:00.000Z
+type: tool
+slug: proteus-static-site-starter-kits
+category:
+  - Helper
+links:
+  - http://thoughtbot.github.io/proteus/
+---
+Proteus is a collection of useful starter kits to help you launch your static site or prototype faster. They follow the thoughtbot styleguide and include thoughtbot front end tools
+
+
+
+
+@@@
+title: "Lunr.js"
+date: 2015-05-02T20:37:00.000Z
+posted_date: 2015-05-02T20:37:00.000Z
+type: tool
+slug: lunrjs
+category:
+  - Interaction
+links:
+  - http://lunrjs.com/
+---
+lunr.js is a simple full text search engine for your client side applications. It is designed to be small, yet full featured, enabling you to provide a great search experience without the need for external, server side, search services, with plugins for Jekyll and Metalsmith
+
+
+
+
+@@@
+title: "Contentful"
+date: 2015-05-02T02:57:00.000Z
+posted_date: 2015-05-02T02:57:00.000Z
+type: tool
+slug: contentful
+category:
+  - Editing
+  - CMS
+  - Content API
+links:
+  - https://www.contentful.com/
+---
+A single tool to reach any screen: API-first content management system for multi-device online publishing
+
+
+
+
+@@@
+title: "Wintersmith"
+date: 2015-05-02T02:57:00.000Z
+posted_date: 2015-05-02T02:57:00.000Z
+type: tool
+slug: wintersmith
+category:
+  - Static Site Generator
+links:
+  - http://www.staticgen.com/wintersmith
+---
+
+
+
+
+
+@@@
+title: "Drupan"
+date: 2015-05-02T02:56:00.000Z
+posted_date: 2015-05-02T02:56:00.000Z
+type: tool
+slug: drupan
+category:
+  - CMS
+links:
+  - https://github.com/fallenhitokiri/drupan
+---
+Drupan is a flexible static site generator helping you to create blogs, single page applications or traditional websites. While being opionionated the plugin system allows you to extend it with any functionallity you desire.
+
+
+
+
+@@@
+title: "Tarbell"
+date: 2015-05-02T02:56:00.000Z
+posted_date: 2015-05-02T02:56:00.000Z
+type: tool
+slug: tarbell
+category:
+  - Static Site Generator
+links:
+---
+
+
+
+
+
+@@@
+title: "Netlify"
+date: 2015-05-02T02:56:00.000Z
+posted_date: 2015-05-02T02:56:00.000Z
+type: tool
+slug: netlify
+category:
+  - Hosting-Deployment
+links:
+  - https://www.netlify.com/
+  - https://twitter.com/netlify
+  - https://github.com/netlify
+---
+Builds, deploys & hosts your static site or app
+
+
+
+
+@@@
+title: "PoolApp.com"
+date: 2015-05-02T02:41:00.000Z
+posted_date: 2015-05-02T02:41:00.000Z
+type: tool
+slug: poolappcom
+category:
+links:
+---
+
+
+
+
+
+@@@
+title: "Docpad"
+date: 2015-05-02T02:39:00.000Z
+posted_date: 2015-05-02T02:39:00.000Z
+type: tool
+slug: docpad
+category:
+  - Static Site Generator
+links:
+---
+
+
+
+
+
+@@@
+title: "Roots"
+date: 2015-05-02T02:39:00.000Z
+posted_date: 2015-05-02T02:39:00.000Z
+type: tool
+slug: roots
+category:
+  - Static Site Generator
+links:
+  - http://roots.cx/
+---
+Roots is a static site compiler, that generates static html, css, and javascript files. It's very good at helping to build static front-ends. It is sponsored heavily by Carrot Creative, and makes frequent, highly variable builds quicker and easier for freelancers and agencies. It's a truly excellent framework for quickly and easily building small to medium sized front-ends of any kind.
+
+
+
+
+@@@
+title: "Middleman"
+date: 2015-05-02T01:55:00.000Z
+posted_date: 2015-05-02T01:55:00.000Z
+type: tool
+slug: middleman
+category:
+  - Static Site Generator
+links:
+  - https://middlemanapp.com/
+  - https://github.com/middleman/middleman
+---
+Build static websites with an easy-to-use framework. Middleman is a static site generator using all the shortcuts and tools in modern web development.
+
+
+
+
+@@@
+title: "Webhook"
+date: 2015-05-02T01:55:00.000Z
+posted_date: 2015-05-02T01:55:00.000Z
+type: tool
+slug: webhook
+category:
+  - Static Site Generator
+  - CMS
+  - Editing
+links:
+  - http://www.webhook.com/
+  - https://github.com/webhook/webhook-cms
+---
+Webhook provides static site reliability with a cutting edge, real-time CMS that builds itself.
+
+
+
+
+@@@
+title: "Metalsmith"
+date: 2015-05-02T01:54:00.000Z
+posted_date: 2015-05-02T01:54:00.000Z
+type: tool
+slug: metalsmith
+category:
+  - Static Site Generator
+links:
+  - http://www.metalsmith.io/
+  - https://github.com/segmentio/metalsmith.io
+  - https://metalsmith-slack.herokuapp.com
+---
+An extremely simple, pluggable static site generator.
+
+
+
+
+@@@
+title: "Hugo"
+date: 2015-05-02T01:41:00.000Z
+posted_date: 2015-05-02T01:41:00.000Z
+type: tool
+slug: hugo
+category:
+  - Static Site Generator
+links:
+  - http://gohugo.io/
+  - https://github.com/spf13/hugo
+  - https://twitter.com/spf13
+---
+
+
+
+
+
+@@@
+title: "Jekyll"
+date: 2015-05-02T01:20:00.000Z
+posted_date: 2015-05-02T01:20:00.000Z
+type: tool
+slug: jekyll
+category:
+  - Static Site Generator
+links:
+  - http://jekyllrb.com/
+  - https://github.com/jekyll/jekyll
+  - https://twitter.com/jekyllrb
+---
+
+
+
+
+
+@@@
+title: "Buster"
+date: 2014-05-26T02:52:00.000Z
+posted_date: 2015-05-26T02:52:00.000Z
+type: tool
+slug: buster
+category:
+  - Static Site Generator
+links:
+  - https://github.com/axitkhurana/buster
+---
+Super simple, Totally awesome, Brute force static site generator for Ghost. Start with a clean, no commits Github repository.
+Generate Static Pages. Preview. Deploy to Github Pages. Warning! This project is a hack. It's not official.
+
+
+
+
+@@@
+title: "Middleman Blog Editor"
+date: 2014-05-02T20:45:00.000Z
+posted_date: 2015-05-02T20:45:00.000Z
+type: tool
+slug: middleman-blog-editor
+category:
+  - Editing
+links:
+  - http://middleman-blog-editor.awardwinningfjords.com/
+---
+Middleman Blog Editor is a paid extension to Middleman which adds WYSIWYG article editing and a blog organization interface.
+
+
+

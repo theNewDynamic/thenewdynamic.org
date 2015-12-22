@@ -2,14 +2,11 @@
 title: "{{ item.name }}"
 date: {{ item.publish_date|date('c') }}
 posted_date: {{ item.create_date|date('c') }}
-editor_recommends: {{ item.editor_recommends }}
-type: {{ item.type }}
-slug: {{ item.slug }}
+type: {{ item._type }}
+slug: {{ item.slug | replace('articles/', '') }}
 source: {{ item.source }}
-link: {{ item.link }}
+{% if item.meta_description %}excerpt: {{ item.meta_description }}{% endif %}
 tool:{% for relation in item.tool %}
   - {{ relation.name }}{% endfor %}
 ---
-{{ item.summary |safe |replace('<p>', '') | replace('</p>', '') }}
-
-{{ item.video.html|safe  }}
+{{ item.markdown_text }}

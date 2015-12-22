@@ -1,0 +1,1 @@
+csplit -k -n 3 tools.txt '/^@@@/' {'999'}; for i in xx*; do sed -i '' 's/@@@/---/g' $i; done; for i in xx*; do mv $i `egrep -m1 -e 'slug:.*' $i | sed -e s/[^\]\[A-Za-z0-9~.,_{}\(\)\'\-\+]/-/g -e s/slug---//`.md; done
