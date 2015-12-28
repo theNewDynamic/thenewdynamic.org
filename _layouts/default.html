@@ -1,0 +1,52 @@
+---
+layout: compress
+---
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+      {% if site.production == true %}
+        <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+      {% else %}
+        <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+      {% endif %}
+
+      <meta name="HandheldFriendly" content="True">
+      <meta name="MobileOptimized" content="320">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+      {% include global/meta-data.html %}
+
+      <link rel="icon" href="{{ site.url }}/favicon.ico" type="image/x-icon">
+        <link href='/static/css/main.min.css{% if site.bust_css_cache %}?generated={{ site.time | date: "%Y%m%d%H%S" }}{% endif %}' rel='stylesheet' type="text/css" />
+
+{% stylesheet 'screen' screen %}
+
+      <!--[if lt IE 9]>
+        <script src="/static/js/dist/html5shiv.min.js"></script>
+        <script src="/static/js/dist/respond.min.js"></script>
+      <![endif]-->
+
+      <!--[if lte IE 7]>
+        <link rel="stylesheet" media="all" href="http://universal-ie6-css.googlecode.com/files/ie6.0.3.css">
+      <![endif]-->
+</head>
+  <body  id="container" class="{{ page.style }}{% if page.class %} {{ page.class }}{% endif %} {{page.url | replace: '/', '' }} {{ jekyll.environment }}">
+    <a href="#start-of-content" tabindex="1" class="accessibility-aid js-skip-to-content">Skip to content</a>
+    {% include global/nav-topbar.html %}
+    <section id="main" class="content">
+      <div id="start-of-content" class="accessibility-aid"></div>
+      {{content}}
+      {{ jekyll.environment }}
+    </section>
+    {% include global/scripts.html %}
+    {% if site.production == true %}
+      {% include global/analytics.html %}
+    {% endif %}
+  </body>
+</html>

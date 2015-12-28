@@ -1,0 +1,4 @@
+<title>{% if page.title_meta %} {{ page.title_meta }} {% elsif page.title %}{{ page.title | escape }} - {% endif %} {{site.sitename}}</title>
+{% if page.url %}
+  <link rel="canonical" href="{{site.url}}" />
+{% endif %}

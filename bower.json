@@ -1,0 +1,16 @@
+{
+  "name": "www.thenewdynamic.org",
+  "description": "Static Site Generators and the Post-CMS Paradigm",
+  "main": "bower.json",
+  "authors": [
+    "budparr <budparr@sonnetmedia.net>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/budparr/thenewdynamic",
+  "moduleType": [],
+  "private": true,
+  "dependencies": {
+    "foundation-sites": "~6.1.1",
+    "jquery": "~2.1.4"
+  }
+}

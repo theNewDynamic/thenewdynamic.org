@@ -1,0 +1,112 @@
+categories:
+  - ''
+
+
+
+## DO NOT EDIT BELOW THIS LINE
+full_rebuild: true
+url:
+sitename:
+timezone: Etc/Zulu
+include:
+  - _pages
+exclude:
+  - readme.md
+  - todo.md
+  - license.md
+  - Gemfile
+  - Gemfile.lock
+  - bower.json
+  - CNAME
+  - node_modules
+  - sass
+  - gulpfile.js
+  - package.json
+  - javascript
+  - vendor
+permalink: pretty
+future: false
+
+# PLUGINS
+gems:
+- jekyll-assets
+
+# PRODUCTION
+production: false
+google_analytics_id: UA-xxxx
+bust_css_cache: true
+
+# CONTENT
+collections:
+  landing_pages:
+    output: true
+    permalink: '/:path/'
+  events:
+    output: false
+    permalink: '/:collection/:path/'
+    future: true
+  programs:
+    output: false
+    permalink: '/:collection/:path/'
+  books:
+    output: false
+  staff:
+    output: false
+    permalink: '/:collection/:path/'
+
+# DEFAULTS
+defaults:
+  - scope:
+      path: ''
+      type: pages
+    values:
+      layout: page
+  - scope:
+      path: ''
+      type: posts
+    values:
+      layout: post
+  - scope:
+      path: ''
+      type: events
+    values:
+      layout: page
+  - scope:
+      path: ''
+      type: landing_pages
+    values:
+      layout: page
+  - scope:
+      path: ''
+      type: programs
+    values:
+      layout: page
+  - scope:
+      path: ''
+      type: staff
+    values:
+      layout: page
+
+# ASSETS
+assets:
+  compress:
+    css: true
+    js: true
+  cache: .asset-cache
+  cdn: https://cdn.example.com
+  skip_baseurl_with_cdn: false
+  skip_prefix_with_cdn: false
+  prefix: "/assets"
+  assets:
+    - "*.png"
+    - "*.scss"
+  digest: true
+  sources:
+    - _assets/_sass
+    - _assets/fonts
+    - _assets/img
+    - _assets/js
+    - _assets/bower
+  features:
+    automatic_img_size: true
+    automatic_img_alt : true
