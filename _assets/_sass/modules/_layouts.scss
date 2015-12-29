@@ -1,0 +1,131 @@
+.layout {
+  @include outer-container;
+  margin-left:auto;
+  margin-right:auto;
+  @include pad(2em);
+  aside { 
+    @include span-columns(5);
+  }
+  article { 
+    @include span-columns(9); 
+  }
+  section {
+    @include span-columns(7);
+  }
+}
+.layout-2-column {
+
+  @include outer-container;
+  aside { 
+    //max-width: 98%;
+    margin-top:1em; 
+    margin-left: auto;
+    margin-right: auto;
+    @include span-columns(12);     
+    @include pad(1em);
+    background-color: $aside-background;
+    &.left {
+      text-align:left;
+      h5, h6 {
+        text-align: left;
+      }
+    }
+  }
+  article { 
+    //max-width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    @include span-columns(12); 
+    padding:inherit; 
+    margin-top:inherit;
+    @include pad(1em);
+  }
+  @include media($large-screen) {
+    aside { 
+      @include span-columns(2.75); 
+      //max-width: 100%;
+      &.left {
+      text-align:right;
+      h5, h6 {
+        text-align: right;
+      }
+    }
+    }
+    article { 
+      //max-width: 100%;
+      @include span-columns(9.25); 
+      margin-top:0; 
+      margin-bottom: 20em;
+      @include pad(2em);
+      background-color: $article-background;
+      .copy {
+        @include columns(2 4em);
+      }
+    }
+  }
+
+
+
+}
+
+.layout-article {
+  @include outer-container;
+  aside { 
+    //max-width: 98%;
+    margin-top:1em; 
+    margin-left: auto;
+    margin-right: auto;
+    @include span-columns(12);     
+    @include pad(1em);
+    background-color: $aside-background;
+    &.left {
+      text-align:left;
+      h5, h6 {
+        text-align: left;
+      }
+    }
+  }
+  article { 
+    //max-width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    @include span-columns(12); 
+    padding:inherit; 
+    margin-top:inherit;
+    @include pad(1em);
+  }
+  @include media($large-screen) {
+    aside { 
+      @include span-columns(2.75); 
+      //max-width: 100%;
+      &.left {
+      text-align:right;
+      h5, h6 {
+        text-align: right;
+      }
+    }
+    }
+    article { 
+      //max-width: 100%;
+      @include span-columns(6.5); 
+      margin-top:0; 
+      margin-bottom: 20em;
+      @include pad(2em);
+      background-color: $article-background;
+      .copy {
+        @include columns(2 4em);
+      }
+    }
+  }
+
+
+}
+
+.list {
+  display: inline-block;
+  margin-right: 1em;
+  @include media($medium-screen-up) {
+    display: block;
+    margin-right: 0;    
+  }
+}

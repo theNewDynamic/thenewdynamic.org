@@ -1,0 +1,28 @@
+{
+  "name": "normalize-opentype.css",
+  "version": "0.2.4",
+  "description": "Adds OpenType features—ligatures, kerning, and more—to Normalize.css.",
+  "homepage": "http://kennethormandy.com/journal/normalize-opentype-css",
+  "author": "Kenneth Ormandy <hello@kennethormandy.com>",
+  "license": "MIT",
+  "repository": "git@github.com:kennethormandy/normalize-opentype.css.git",
+  "keywords": [
+    "normalize",
+    "type",
+    "typography",
+    "opentype",
+    "fonts",
+    "css"
+  ],
+  "scripts": {
+    "build-css": "node-sass normalize-opentype.scss normalize-opentype.css",
+    "build-prefix": "autoprefixer normalize-opentype.css",
+    "build": "npm run build-css && npm run build-prefix",
+    "test": "open test/index.html"
+  },
+  "devDependencies": {
+    "normalize.css": "<4.0.0",
+    "node-sass": "~2.0.1",
+    "autoprefixer": "~4.0.0"
+  }
+}

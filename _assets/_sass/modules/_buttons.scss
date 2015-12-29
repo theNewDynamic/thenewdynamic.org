@@ -1,0 +1,43 @@
+.button-group button {
+  width: 100%;
+  margin-bottom: .375em;
+  font-size: .875em;
+  padding: .5em;
+  &:hover,
+  &:focus {
+    background-color: $action-color !important;
+    color: #fff !important;
+  }
+}
+
+//Trying to override twitter gradients
+
+// .btn {
+//   background-image: none !important;
+// }
+
+// .btn-o .btn {
+//     position: relative;
+//     background-color: #eee;
+//     background-image: -webkit-linear-gradient(#fff,#fff)!important;
+//     background-image: linear-gradient(#fff,#fff)!important;
+//     border: #ccc solid 1px;
+//     border-radius: 3px;
+//     color: #333;
+//     font-weight: bold;
+//     text-shadow: 0 1px 0 rgba(255,255,255,.5);
+//     cursor: pointer;
+//     height: 18px;
+// }
+
+
+// .btn i {
+//     position: absolute;
+//     top: 50%;
+//     left: 2px;
+//     margin-top: -5px;
+//     width: 16px;
+//     height: 13px;
+//     background: none !important;
+//     background-image: none !important;
+// }

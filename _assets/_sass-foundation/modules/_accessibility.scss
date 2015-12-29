@@ -1,4 +1,4 @@
-.accessibility-aid {
+.accessibility-aid, a.accessibility-aid {
     height: 1px;
     width: 1px;
     clip: rect(1px, 1px, 1px, 1px);
@@ -7,7 +7,7 @@
     margin: 0
 }
 
-.accessibility-aid:focus {
+.accessibility-aid:focus, a.accessibility-aid:focus {
     height: auto;
     width: auto;
     clip: auto;
@@ -21,6 +21,12 @@
     color: #333
 }
 
-.is-stats .accessibility-aid:focus {
+.is-stats .accessibility-aid:focus, .is-stats a.accessibility-aid:focus {
     top: 34px
+}
+
+.screen-reader-text { /* Reusable, toolbox kind of class */
+position: absolute;
+top: -9999px;
+left: -9999px;
 }

@@ -1,0 +1,77 @@
+img, aside img {
+  max-width: 100%;
+}
+
+
+hr {
+
+margin:1em auto;
+border: 0;
+border-top: 1px solid #EEEEEE;
+}
+
+
+hr.section-divider {
+  border-top:none;
+  display:block;
+  width:100%;
+  clear:both;
+  margin:0 4em ;
+}
+
+
+hr.transparent {
+  border-top:1px solid transparent;
+}
+
+.sharing {
+  margin-top: 4em;
+}
+.hidden {
+  display: none;
+}
+html.no-js .hidden-js {
+  visibility: hidden;
+}
+html.js .hidden-js {
+  visibility: visible;
+}
+
+.invisible{
+  visibility: hidden;
+}
+
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+
+.clear {
+  clear: both;
+}
+
+.medium-screen-up {
+  display: none;
+@include media($medium-screen-up) {     
+      display: block;
+    }
+  }
+
+  .large-screen {
+  display: none;
+@include media($large-screen) {     
+      display: block;
+    }
+  }
+
+  .small-screen {
+  display: block;
+@include media($large-screen) {     
+      display: none;
+    }
+  }

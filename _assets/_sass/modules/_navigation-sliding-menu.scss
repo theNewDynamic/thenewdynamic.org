@@ -1,0 +1,66 @@
+.sliding-panel-button {
+  @include button(flat, black);
+  z-index: 999999999998;
+  
+}
+
+.sliding-panel-content {  
+  @include position(fixed, 0px 0px 0px auto);
+  @include size(300px 100%);
+  @include transform(translateX(300px));
+  @include transition(all 0.25s linear);
+  background: $sliding-panel-background;
+  z-index: 999999;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+
+  ul {
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  li a {
+    border-bottom: $sliding-panel-border;
+    color: $sliding-panel-color;
+    display: block;
+    font-weight: bold;
+    padding: 1em;
+    text-decoration: none;
+
+    &:focus {
+      background-color: $sliding-panel-background-focus;
+    }
+
+    &:hover {
+      background-color: $sliding-panel-background-hover;
+      color: $sliding-panel-color-hover;
+    }
+  }
+}
+
+
+
+.sliding-panel[data-state=open] .sliding-panel-content {
+    @include transform(translateX(0));
+}
+
+.sliding-panel[data-state=closed] .sliding-panel-fade-screen {
+  opacity: 0;
+  visibility: hidden;
+}
+
+
+.sliding-panel[data-state=open] .sliding-panel-fade-screen {
+  //@include position(fixed, 0px 0px 0px 0px);
+  @include transition;
+  background: black;
+  z-index: 999998;
+  opacity: 0.5;
+  visibility: visible;
+}
+
+// Based on code by Diego Eis

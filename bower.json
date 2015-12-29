@@ -11,6 +11,8 @@
   "private": true,
   "dependencies": {
     "foundation-sites": "~6.1.1",
-    "jquery": "~2.1.4"
+    "jquery": "~2.1.4",
+    "normalize-scss": "~3.0.3",
+    "normalize-opentype.css": "~0.2.4"
   }
 }
