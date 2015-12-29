@@ -32,8 +32,7 @@ gems:
 - jekyll-assets
 
 # PRODUCTION
-production: false
-google_analytics_id: UA-xxxx
+google_analytics_id: UA-30899180-4
 bust_css_cache: true
 
 # CONTENT
@@ -93,7 +92,7 @@ assets:
     css: true
     js: true
   cache: .asset-cache
-  cdn: https://cdn.example.com
+  cdn: /
   skip_baseurl_with_cdn: false
   skip_prefix_with_cdn: false
   prefix: "/assets"
