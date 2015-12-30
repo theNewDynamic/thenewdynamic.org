@@ -95,17 +95,18 @@ assets:
   cdn: /
   skip_baseurl_with_cdn: false
   skip_prefix_with_cdn: false
-  prefix: "/assets"
   assets:
     - "*.png"
     - "*.scss"
-  digest: true
+    - "*.svg"
+    - "*.js"
+  digest: default
   sources:
+    - _assets/bower/html5shiv/dist/html5shiv.min.js
     - _assets/_sass
     - _assets/fonts
     - _assets/img
     - _assets/js
-    - _assets/bower
   features:
     automatic_img_size: true
     automatic_img_alt : true
