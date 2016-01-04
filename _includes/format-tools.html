@@ -1,0 +1,25 @@
+
+  <li class="flex-box" style="border-top-color:{% if object.category %}{% assign category = object.category|first %}{% if category.color %}{{ category.color }}{% else %}#f6f6f6{% endif %}{% endif %};">
+    <a href="{{ url(object) }}">
+      <h4 class="name flex-title">{{ object.title }}</h4>
+        {{object.category}}
+      {% if object.category %}{% for category in object.category %}<small class="light type">{{ category.name }}{% unless forloop.last %}, {% endunless %}</small>{% endfor %}{% endif %}
+      {% assign links = object.links_tool %}
+      {% assign articles = object.articles_tool %}
+      {% if object.summary %}{{ object.summary|markdown}}{% endif %}
+      {% if links.length > 0 || articles.length > 0 %}
+        <div class="light meta">
+          <small>
+
+              {% if links.length > 0 %}{{ links.length }}&nbsp;link{% if links.length > 1 %}s{% endif %}{% endif %}
+
+              {% if links.length > 0 && articles.length > 0 %},&nbsp;{% endif %}
+
+              {% if articles.length > 0 %}{{ articles.length }}&nbsp;article{% if articles.length > 1 %}s{% endif %}{% endif %}
+
+        </small>
+        </div>
+      {% endif %}
+    </a>
+  </li>
+

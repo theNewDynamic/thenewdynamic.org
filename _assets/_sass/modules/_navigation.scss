@@ -1,15 +1,15 @@
 header.navigation {
-  
+
 
   background-color: $navigation-background;
   //border-bottom: 1px solid darken($navigation-background, 10);
   min-height: $navigation-height;
   width: 100%;
   z-index: 999;
-
+font-size: .875em;
   .navigation-wrapper {
     @include clearfix;
-    @include outer-container;
+    //@include outer-container;
     position: relative;
     padding-top:.3125em; //this is here to account for the varying font sizes in the nav, which makes the top/bottom ratio not even
     z-index: 9999;
@@ -18,8 +18,8 @@ header.navigation {
   .logo {
     float: left;
     max-height: $navigation-height;
-    padding-left:$navigation-padding;
-    
+    padding-left:.375em;//$navigation-padding;
+
     font-size: 1.875em;
     line-height: $navigation-height;
     margin:0;
@@ -33,29 +33,25 @@ header.navigation {
 
     }
     @include media ($horizontal-bar-mode) {
-      padding-left:0;// $navigation-padding;
-      padding-right: 3.375em;
+      //padding-left:0;// $navigation-padding;
+      padding-right: 1.375em;
     }
   }
 
-  
+
 
   // Nav menu
 
   nav {
-    float: none;
-    min-height: $navigation-height;
+    float: left;
+    //min-height: $navigation-height;
     z-index: 9999999;
-
-    @include media ($horizontal-bar-mode) {
-      float: left;
-    }
   }
 
   ul.navigation-menu {
     -webkit-transform-style: preserve-3d; // stop webkit flicker
     clear: both;
-    
+
     display: block;
     //margin: 0 auto 2em auto;
     margin: 0 auto 0 auto;
@@ -63,10 +59,10 @@ header.navigation {
     padding: 0;
     width: 100%;
     z-index: 9999;
-    
+
     // &.show {
     //   display: block;
-      
+
     // }
 
 
@@ -85,12 +81,12 @@ header.navigation {
     display: inline;
     clear: left;
     line-height: $navigation-height;
-    overflow: hidden;    
+    overflow: hidden;
     text-align: right;
     width: 100%;
     z-index: 9999;
     font-family: $heading-font-family;
-    
+
     text-transform: uppercase;
 
     @include media ($horizontal-bar-mode) {
@@ -111,7 +107,7 @@ header.navigation {
       font-size: .9375em;
       font-weight: 700;
       ///background-color: red;
-      
+
       padding-left: .75em;
       padding-right: .75em;
 
@@ -132,11 +128,12 @@ header.navigation {
     padding-bottom: 3px;
   }
 
-  
+
   // Elements on the far right
 
 ul.secondary-links {
-  display: none;
+  //display: none;
+  float: left;
   line-height: $navigation-height;
   margin-left:.75em;
   @include media($large-screen) {
@@ -149,5 +146,5 @@ ul.secondary-links {
   }
 }
 
-  
+
 }
