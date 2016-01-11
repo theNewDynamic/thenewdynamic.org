@@ -8,10 +8,5 @@ slug: links/welcome-to-the-post-cms-world
 source: Ben Balter
 link: http://ben.balter.com/2012/10/01/welcome-to-the-post-cms-world/
 tool:
-  - Jekyll
----
-
-
-
-
+  - jekyll
 ---

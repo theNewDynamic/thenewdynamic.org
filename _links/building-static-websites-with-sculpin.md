@@ -8,7 +8,7 @@ slug: links/building-static-websites-with-sculpin
 source: Oliver Davies
 link: http://opdavies.github.io/phpsw-sculpin/#/
 tool:
-  - Sculpin
+  - sculpin
 ---
 
 

@@ -8,7 +8,7 @@ slug: links/advanced-jekyll-plugins-features-custom-post-types-category-pages-pa
 source: Divshot
 link: https://divshot.com/blog/web-development/advanced-jekyll-features/
 tool:
-  - Jekyll
+  - jekyll
 ---
 [ed note: pre-Jeyll 2.x] In this article I’m going to discuss some of the unique ways we’ve tweaked Jekyll to create an advanced blog with custom post types, post type pagination, post type filters and more. I’ll introduce you to the plugins we use and share a few things I’ve written along the way.
 

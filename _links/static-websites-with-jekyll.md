@@ -8,7 +8,7 @@ slug: links/static-websites-with-jekyll
 source: Mijingo
 link: https://mijingo.com/products/screencasts/jekyll-static-websites-tutorial/
 tool:
-  - Jekyll
+  - jekyll
 ---
 [pre-2.0], not free
 

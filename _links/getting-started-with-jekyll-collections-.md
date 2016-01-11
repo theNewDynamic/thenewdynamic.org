@@ -8,7 +8,7 @@ slug: links/getting-started-with-jekyll-collections
 source: Taylor Jones, *Sitepoint*
 link: http://www.sitepoint.com/getting-started-jekyll-collections/
 tool:
-  - Jekyll
+  - jekyll
 ---
 Quick overview of Jekyll’s collections
 

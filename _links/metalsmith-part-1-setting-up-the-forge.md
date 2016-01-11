@@ -8,7 +8,7 @@ slug: links/metalsmith-part-1-setting-up-the-forge
 source: Robin Thrift
 link: http://www.robinthrift.com/posts/metalsmith-part-1-setting-up-the-forge/
 tool:
-  - Metalsmith
+  - metalsmith
 ---
 a basic folder structure for Metalsmith could look like and we will also set up the basic build script.
 

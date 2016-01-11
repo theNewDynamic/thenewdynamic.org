@@ -8,10 +8,10 @@ slug: links/static-site-samples
 source: Brian Rinaldi
 link: https://github.com/remotesynth/Static-Site-Samples?utm_content=buffer9288a&amp;utm_medium=social&amp;utm_source=twitter.com&amp;utm_campaign=buffer
 tool:
-  - Jekyll
-  - Harp
-  - Middleman
-  - Wintersmith
+  - jekyll
+  - harp
+  - middleman
+  - wintersmith
 ---
 A collection of simple sites built with various static site engines
 

@@ -8,7 +8,7 @@ slug: links/accelerate-your-front-end-website-development-with-harp
 source: Ezequiel Bruni
 link: http://www.webdesignerdepot.com/2014/12/accelerate-your-front-end-website-development-with-harp/
 tool:
-  - Harp
+  - harp
 ---
 
 

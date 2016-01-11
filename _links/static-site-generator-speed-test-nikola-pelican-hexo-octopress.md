@@ -8,10 +8,10 @@ slug: links/static-site-generator-speed-test-nikola-pelican-hexo-octopress
 source: Chris Warrick
 link: https://chriswarrick.com/blog/2015/07/23/ssg-speed-test/
 tool:
-  - Nikola
-  - Pelican
-  - Hexo
-  - Octopress
+  - nikola
+  - pelican
+  - hexo
+  - octopress
 ---
 
 

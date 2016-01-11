@@ -8,7 +8,7 @@ slug: links/the-new-rootscx-is-live-as-well-as-roots-30
 source: Roots
 link: http://roots.cx/
 tool:
-  - Roots
+  - roots
 ---
 
 

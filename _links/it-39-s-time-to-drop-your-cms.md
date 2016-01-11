@@ -8,8 +8,8 @@ slug: links/its-time-to-drop-your-cms
 source: Owen Williams, The Apartment
 link: http://theapartment.co/dev/2015/09/10/drop-that-old-cms/
 tool:
-  - Jekyll
-  - CloudCannon
+  - jekyll
+  - cloudcannon
 ---
 Every time I’ve had to build a marketing site for a company, large or small, the debate rages over which CMS should be used. Usually it comes to the conclusion that every CMS is terrible, so we’ll run with the least-awful one.
 

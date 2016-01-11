@@ -8,8 +8,8 @@ slug: links/hybrid-static-a-new-app-architecture
 source: Roots.cx
 link: http://roots.cx/articles/hybrid-static
 tool:
-  - Roots
-  - Contentful
+  - roots
+  - contentful
 ---
 
 

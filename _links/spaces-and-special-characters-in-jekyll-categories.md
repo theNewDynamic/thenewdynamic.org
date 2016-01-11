@@ -8,7 +8,7 @@ slug: links/spaces-and-special-characters-in-jekyll-categories
 source: Piotr Świderek
 link: http://fusil.li/blog/spaces-and-special-characters-in-jekyll-categories/
 tool:
-  - Jekyll
+  - jekyll
 ---
 A solution for when you want a category name consisting of more than one word or/and containing special characters.
 

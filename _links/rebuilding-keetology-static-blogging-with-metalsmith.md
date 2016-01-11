@@ -8,7 +8,7 @@ slug: links/rebuilding-keetology-static-blogging-with-metalsmith
 source: Mark &quot;KEETO&quot; Obcena
 link: http://keetology.com/blog/rebuilding-keetology
 tool:
-  - Metalsmith
+  - metalsmith
 ---
 
 

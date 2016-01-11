@@ -2,26 +2,41 @@
   @include outer-container;
   margin-left:auto;
   margin-right:auto;
-  @include pad(2em);
-  aside { 
-    @include span-columns(5);
+  @include pad(2em 2em 1em 2em);
+  @include media($large-screen) {
+  aside, .column-2 {
+    @include span-columns(5 of 14);
   }
-  article { 
-    @include span-columns(9); 
+  article, .column-1 {
+    @include span-columns(9 of 14);
   }
-  section {
-    @include span-columns(7);
+  section, .column-3 {
+    @include span-columns(7 of 14);
+
+  }
+}
+  .column-3 {
+    display: table-cell;
+    color: #EEE;
+    font-family: $heading-font-family;
+  }
+  .column-3 p{
+    color: #f7f7f7;
+    vertical-align: bottom;
+  }
+  p {
+    color: white;
   }
 }
 .layout-2-column {
 
   @include outer-container;
-  aside { 
+  aside {
     //max-width: 98%;
-    margin-top:1em; 
+    margin-top:1em;
     margin-left: auto;
     margin-right: auto;
-    @include span-columns(12);     
+    @include span-columns(12);
     @include pad(1em);
     background-color: $aside-background;
     &.left {
@@ -31,18 +46,18 @@
       }
     }
   }
-  article { 
+  article {
     //max-width: 98%;
     margin-left: auto;
     margin-right: auto;
-    @include span-columns(12); 
-    padding:inherit; 
+    @include span-columns(12);
+    padding:inherit;
     margin-top:inherit;
     @include pad(1em);
   }
   @include media($large-screen) {
-    aside { 
-      @include span-columns(2.75); 
+    aside {
+      @include span-columns(2.75);
       //max-width: 100%;
       &.left {
       text-align:right;
@@ -51,10 +66,10 @@
       }
     }
     }
-    article { 
+    article {
       //max-width: 100%;
-      @include span-columns(9.25); 
-      margin-top:0; 
+      @include span-columns(9.25);
+      margin-top:0;
       margin-bottom: 20em;
       @include pad(2em);
       background-color: $article-background;
@@ -70,12 +85,12 @@
 
 .layout-article {
   @include outer-container;
-  aside { 
+  aside {
     //max-width: 98%;
-    margin-top:1em; 
+    margin-top:1em;
     margin-left: auto;
     margin-right: auto;
-    @include span-columns(12);     
+    @include span-columns(12);
     @include pad(1em);
     background-color: $aside-background;
     &.left {
@@ -85,18 +100,18 @@
       }
     }
   }
-  article { 
+  article {
     //max-width: 98%;
     margin-left: auto;
     margin-right: auto;
-    @include span-columns(12); 
-    padding:inherit; 
+    @include span-columns(12);
+    padding:inherit;
     margin-top:inherit;
     @include pad(1em);
   }
   @include media($large-screen) {
-    aside { 
-      @include span-columns(2.75); 
+    aside {
+      @include span-columns(2.75);
       //max-width: 100%;
       &.left {
       text-align:right;
@@ -105,10 +120,10 @@
       }
     }
     }
-    article { 
+    article {
       //max-width: 100%;
-      @include span-columns(6.5); 
-      margin-top:0; 
+      @include span-columns(6.5);
+      margin-top:0;
       margin-bottom: 20em;
       @include pad(2em);
       background-color: $article-background;
@@ -126,6 +141,6 @@
   margin-right: 1em;
   @include media($medium-screen-up) {
     display: block;
-    margin-right: 0;    
+    margin-right: 0;
   }
 }

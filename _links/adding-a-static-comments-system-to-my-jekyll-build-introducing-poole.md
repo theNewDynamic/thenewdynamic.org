@@ -8,8 +8,8 @@ slug: links/adding-a-static-comments-system-to-my-jekyll-build-introducing-poole
 source: Phil Hawksworth
 link: http://hawksworx.com/blog/adding-a-static-comments-system-to-my-jekyll-build/
 tool:
-  - Jekyll
-  - Metalsmith
+  - jekyll
+  - metalsmith
 ---
 
 

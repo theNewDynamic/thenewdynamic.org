@@ -8,7 +8,7 @@ slug: links/statamic-the-flat-file-cms-now-includes-a-static-site-generator
 source: Statamic
 link: http://statamic.com/blog/hello-one-dot-ten
 tool:
-  - Statamic
+  - statamic
 ---
 The popular flat-file CMS adds a static site generation to its feature set
 

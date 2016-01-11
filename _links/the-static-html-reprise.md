@@ -8,7 +8,7 @@ slug: links/the-static-html-reprise
 source: Andrew Goodricke
 link: http://www.andrewgoodricke.com/posts/2015-06-11_static_html_reprise.html
 tool:
-  - Metalsmith
+  - metalsmith
 ---
 Static site generators are returning us to the roots of the web without losing the benefits of the last 25+ years of progress.
 

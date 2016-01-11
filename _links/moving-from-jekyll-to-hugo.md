@@ -8,8 +8,8 @@ slug: links/moving-from-jekyll-to-hugo
 source: Fredrik Loch
 link: http://fredrikloch.me/post/moving_jekyll_hugo/
 tool:
-  - Hugo
-  - Jekyll
+  - hugo
+  - jekyll
 ---
 
 

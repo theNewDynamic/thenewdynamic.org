@@ -8,7 +8,7 @@ slug: links/modern-documentation-with-docpad
 source: Lukasz Gornicki
 link: http://derberg.github.io/posts/2015-02-16.html
 tool:
-  - Docpad
+  - docpad
 ---
 Introduction to DocPad, the tool you should start using. (also other Docpad posts on the site)
 

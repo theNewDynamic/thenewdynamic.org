@@ -8,7 +8,7 @@ slug: links/why-hugo-a-static-site-generator-optimized-for-performance
 source: Rick Cogley, eSolia
 link: http://esolia.pro/en/why-did-esolia-choose-hugo/
 tool:
-  - Hugo
+  - hugo
 ---
 
 

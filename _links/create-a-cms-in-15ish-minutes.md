@@ -8,7 +8,7 @@ slug: links/create-a-cms-in-15ish-minutes
 source: de Voorhoede
 link: http://voorhoede.nl/blog/create-a-cms-in-15-minutes/
 tool:
-  - Webhook
+  - webhook
 ---
 An introduction to Webhook CMS
 

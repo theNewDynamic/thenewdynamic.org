@@ -8,7 +8,7 @@ slug: links/sort-and-filter-in-jekyll
 source: Justin Musgrove, Leveluplunch
 link: http://www.leveluplunch.com/blog/2014/04/03/sort-pages-by-title-filter-array-by-layout-jekyllrb/
 tool:
-  - Jekyll
+  - jekyll
 ---
 
 

@@ -8,7 +8,7 @@ slug: links/125-jekyll-with-parker-moore
 source: The Changelog
 link: https://changelog.com/125/
 tool:
-  - Jekyll
+  - jekyll
 ---
 Podcase with lots of Jekyll talk with one of the project owners.
 

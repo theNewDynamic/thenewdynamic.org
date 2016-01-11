@@ -8,7 +8,7 @@ slug: links/how-we-built-our-blog
 source: Jon Chan, Stack
 link: http://blog.stackexchange.com/2015/07/how-we-built-our-blog/
 tool:
-  - Jekyll
+  - jekyll
 ---
 A walkthrough of a large Wordpress to Jekyll migration.
 

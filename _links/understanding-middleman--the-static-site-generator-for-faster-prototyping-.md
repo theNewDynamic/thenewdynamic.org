@@ -8,7 +8,7 @@ slug: links/understanding-middleman-the-static-site-generator-for-faster-prototy
 source: Ben Frain
 link: http://benfrain.com/understanding-middleman-the-static-site-generator-for-faster-prototyping/
 tool:
-  - Middleman
+  - middleman
 ---
 some elements may be out of date, but an overview of using Middleman
 

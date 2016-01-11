@@ -8,7 +8,7 @@ slug: links/tarbell-hits-10
 source: Tarbell
 link: http://www.tarbell.io/
 tool:
-  - Tarbell
+  - tarbell
 ---
 “Google spreadsheets handle content management, so changes to your stories are easy to make without touching a line of code.”
 

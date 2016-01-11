@@ -8,7 +8,7 @@ slug: links/making-a-news-app-with-middleman
 source: Cindy Royal
 link: https://www.youtube.com/watch?v=KEWtdYm6hhY
 tool:
-  - Middleman
+  - middleman
 ---
 This will walk you through the process of building an editorial app using middleman. [repo](https://github.com/cindyroyal/top_albums)
 

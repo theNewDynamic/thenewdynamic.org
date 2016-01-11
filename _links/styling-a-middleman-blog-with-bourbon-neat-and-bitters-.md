@@ -8,7 +8,7 @@ slug: links/styling-a-middleman-blog-with-bourbon-neat-and-bitters
 source: Carolann Bonner
 link: https://robots.thoughtbot.com/middleman-bourbon-walkthrough
 tool:
-  - Middleman
+  - middleman
 ---
 
 

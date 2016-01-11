@@ -11,6 +11,6 @@ tool:
 creator:
   - role: "Developer"
   - link: https://github.com/ericwebster
--   name: Eric Websiter
+  - name: Eric Websiter
 ---
 

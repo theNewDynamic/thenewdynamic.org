@@ -8,7 +8,7 @@ slug: links/the-emerging-no-cms-movement
 source: Phillip Smith
 link: http://www.phillipadsmith.com/2014/01/the-return-of-static-site-generators.html
 tool:
-  - Jekyll
+  - jekyll
 ---
 Exploring the resurgence of static site generators
 

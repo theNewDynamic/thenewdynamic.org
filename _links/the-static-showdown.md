@@ -8,7 +8,7 @@ slug: links/the-static-showdown
 source: Divshot
 link: http://www.staticshowdown.com/
 tool:
-  - Divshot
+  - divshot
 ---
 A virtual hackathon for static apps
 

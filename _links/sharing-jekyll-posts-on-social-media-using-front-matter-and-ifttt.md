@@ -8,7 +8,7 @@ slug: links/sharing-jekyll-posts-on-social-media-using-front-matter-and-ifttt
 source: Eduardo Boucas
 link: https://eduardoboucas.com/blog/2015/04/28/sharing-jekyll-posts-on-social-media-using-front-matter-and-ifttt.html
 tool:
-  - Jekyll
+  - jekyll
 ---
 
 

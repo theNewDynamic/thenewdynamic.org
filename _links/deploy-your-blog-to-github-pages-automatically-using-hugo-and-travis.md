@@ -8,8 +8,8 @@ slug: links/deploy-your-blog-to-github-pages-automatically-using-hugo-and-travis
 source: Roman Coedo
 link: http://rcoedo.com/post/hugo-static-site-generator/
 tool:
-  - Hugo
-  - Github Pages
+  - hugo
+  - github-pages
 ---
 
 

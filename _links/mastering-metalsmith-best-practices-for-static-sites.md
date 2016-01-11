@@ -8,7 +8,7 @@ slug: links/mastering-metalsmith-best-practices-for-static-sites
 source: Patrick Heeney
 link: http://evocode.com/blog/mastering-metalsmith-best-practices-for-static-sites/
 tool:
-  - Metalsmith
+  - metalsmith
 ---
 
 

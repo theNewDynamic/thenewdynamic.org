@@ -8,7 +8,7 @@ slug: links/make-a-static-website-with-jekyll
 source: Tania Rascia
 link: http://www.taniarascia.com/make-a-static-website-with-jekyll/
 tool:
-  - Jekyll
+  - jekyll
 ---
 
 

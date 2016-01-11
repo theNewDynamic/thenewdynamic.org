@@ -8,10 +8,10 @@ slug: links/prototype-with-proteus
 source: Joshua Ogle, Thoughbot
 link: https://robots.thoughtbot.com/prototype-with-proteus
 tool:
-  - Proteus Static Site Starter Kits
-  - Middleman
-  - Jekyll
-  - Gulp
+  - proteus-static-site-starter-kits
+  - middleman
+  - jekyll
+  - gulp
 ---
 If you are pressed for time anything that speeds up your setup is going to mean more time to polish or squeeze in one more feature. That’s why we made a collection of static site starter kits called Proteus.
 

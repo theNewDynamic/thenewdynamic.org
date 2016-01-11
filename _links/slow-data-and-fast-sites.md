@@ -8,8 +8,8 @@ slug: links/slow-data-and-fast-sites
 source: HFC Technology Academy
 link: http://willschenk.com/slow-data-and-fast-sites/
 tool:
-  - Middleman
-  - React
+  - middleman
+  - react
 ---
 building fast, searchable, functional sites that fail gracefully
 

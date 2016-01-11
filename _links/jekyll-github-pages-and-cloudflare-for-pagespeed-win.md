@@ -8,9 +8,9 @@ slug: links/jekyll-github-pages-and-cloudflare-for-pagespeed-win
 source: James Steinbach (@jdsteinbach), Scotch.io
 link: https://scotch.io/tutorials/jekyll-github-pages-and-cloudflare-for-pagespeed-win
 tool:
-  - Jekyll
-  - Github Pages
-  - CloudFlare
+  - jekyll
+  - github-pages
+  - cloudflare
 ---
 
 

@@ -8,7 +8,7 @@ slug: links/configuring-cloudflares-universal-ssl
 source: Ben Burwell
 link: https://www.benburwell.com/posts/configuring-cloudflare-universal-ssl/
 tool:
-  - Jekyll
+  - jekyll
 ---
 Configuring CloudFlare’s free SSL on a Github Pages (or any) static site.
 

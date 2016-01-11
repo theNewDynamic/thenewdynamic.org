@@ -8,7 +8,7 @@ slug: links/building-a-style-guide-with-jekyll
 source: Michael Rose, Made Mistakes
 link: https://mademistakes.com/articles/jekyll-style-guide/
 tool:
-  - Jekyll
+  - jekyll
 ---
 
 

@@ -8,8 +8,8 @@ slug: links/making-content-editors-and-web-developers-happy-again
 source: Code.Makery
 link: http://code.makery.ch/blog/making-content-editors-and-web-developers-happy/
 tool:
-  - Webhook
-  - Hugo
+  - webhook
+  - hugo
 ---
 
 

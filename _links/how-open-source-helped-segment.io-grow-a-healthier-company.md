@@ -8,7 +8,7 @@ slug: links/how-open-source-helped-segmentio-grow-a-healthier-company
 source: Steven Melendez, *Fast Company*
 link: http://www.fastcolabs.com/3034216/how-open-source-helped-segmentio-grow-a-healthier-company
 tool:
-  - Metalsmith
+  - metalsmith
 ---
 Background on Segment.io’s (creator of metalsmith.io) open source philosophy
 

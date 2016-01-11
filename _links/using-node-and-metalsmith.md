@@ -8,7 +8,7 @@ slug: links/using-node-and-metalsmith
 source: Peter Morlion
 link: http://www.petermorlion.com/using-node-and-metalsmith/
 tool:
-  - Metalsmith
+  - metalsmith
 ---
 
 

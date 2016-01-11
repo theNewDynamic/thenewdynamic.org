@@ -8,7 +8,7 @@ slug: links/rearchitecting-github-pages
 source: Charlie Somerville, Github Engineering
 link: http://githubengineering.com/rearchitecting-github-pages
 tool:
-  - Github Pages
+  - github-pages
 ---
 GitHub Pages, our static site hosting service, has always had a very simple architecture. From launch up until around the beginning of 2015, the entire service ran on a single pair of machines…
 

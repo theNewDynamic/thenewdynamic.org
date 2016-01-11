@@ -8,7 +8,7 @@ slug: links/launching-jekyll-30
 source: StaticWebTech
 link: http://www.staticwebtech.com/presentations/launching-jekyll-3.0/
 tool:
-  - Jekyll
+  - jekyll
 ---
 
 

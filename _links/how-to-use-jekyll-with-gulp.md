@@ -8,8 +8,8 @@ slug: links/how-to-use-jekyll-with-gulp
 source: Benoît Boucart
 link: http://blog.webbb.be/use-jekyll-with-gulp/
 tool:
-  - Jekyll
-  - Gulp
+  - jekyll
+  - gulp
 ---
 
 

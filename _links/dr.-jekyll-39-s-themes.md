@@ -8,7 +8,7 @@ slug: links/dr-jekylls-themes
 source: Gerald Bauer
 link: http://drjekyllthemes.github.io/
 tool:
-  - Jekyll
+  - jekyll
 ---
 a free static site generator theme directory
 

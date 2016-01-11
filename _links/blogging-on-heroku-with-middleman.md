@@ -8,7 +8,7 @@ slug: links/blogging-on-heroku-with-middleman
 source: Michael Shannon at Pixelcabin
 link: https://blog.pixelcab.in/2015/03/23/blogging-on-heroku-with-middleman/
 tool:
-  - Middleman
+  - middleman
 ---
 
 

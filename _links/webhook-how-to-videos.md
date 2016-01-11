@@ -8,7 +8,7 @@ slug: links/webhook-how-to-videos
 source: Dave Snider, Webhook
 link: https://vimeo.com/webhook
 tool:
-  - Webhook
+  - webhook
 ---
 
 

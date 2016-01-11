@@ -8,7 +8,7 @@ slug: links/environments-in-jekyll
 source: Christoph Schiessl
 link: http://www.csinaction.com/2015/02/07/environments-in-jekyll-aka-jekyll_env/
 tool:
-  - Jekyll
+  - jekyll
 ---
 
 

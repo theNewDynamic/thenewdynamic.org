@@ -8,8 +8,8 @@ slug: links/metalsmith-on-github-pages
 source: Ronan Berder, devo.ps
 link: http://devo.ps/blog/metalsmith-on-github-pages/
 tool:
-  - Metalsmith
-  - Github Pages
+  - metalsmith
+  - github-pages
 ---
 Automate building and pushing to gh-pages
 

@@ -8,7 +8,7 @@ slug: links/dynamic-static-site-generators-strategies
 source: Tim Nash
 link: https://timnash.co.uk/dynamic-static-site-generators-strategies/
 tool:
-  - Jekyll
+  - jekyll
 ---
 Using WordPress as part of a static site generator workflow to help make part of the process more dynamic.
 

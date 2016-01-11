@@ -9,6 +9,7 @@ links:
   - http://gohugo.io/
   - https://github.com/spf13/hugo
   - https://twitter.com/spf13
+description: Extremely fast (build times) written in golang.
 ---
 
 

@@ -8,9 +8,9 @@ slug: links/simple-static-sites
 source: Rowan, Netengine.com
 link: http://netengine.com.au/blog/simple-static-sites/
 tool:
-  - Contentful
-  - Netlify
-  - Middleman
+  - contentful
+  - netlify
+  - middleman
 ---
 
 

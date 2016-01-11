@@ -8,7 +8,7 @@ slug: links/building-sites-with-middleman-video-series
 source: Watch and Learn
 link: https://www.youtube.com/playlist?list=PLUBR53Dw-Ef-JqMxSWYmZjHRKxg1RI1NA
 tool:
-  - Middleman
+  - middleman
 ---
 
 

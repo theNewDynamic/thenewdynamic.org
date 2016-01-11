@@ -8,7 +8,7 @@ slug: links/test-your-jekyll-blog-with-travis-ci
 source: Jacob Tomlinson
 link: http://www.jacobtomlinson.co.uk/jekyll/2015/02/18/test-you-jekyll-blog-with-travis-ci/
 tool:
-  - Jekyll
+  - jekyll
 ---
 
 

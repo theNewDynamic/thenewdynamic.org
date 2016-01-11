@@ -8,7 +8,7 @@ slug: links/meet-the-new-members-of-the-sculpin-organization
 source: Beau Simensen
 link: http://blog.sculpin.io/2015/02/23/meet-the-new-members-of-the-sculpin-organization/?utm_content=bufferd0992&amp;utm_medium=social&amp;utm_source=twitter.com&amp;utm_campaign=buffer
 tool:
-  - Sculpin
+  - sculpin
 ---
 
 

@@ -8,7 +8,7 @@ slug: links/architecting-better-landing-pages-building-robust-static-sites-in-re
 source: Zoltan Olah, Percolate Studio
 link: http://blog.percolatestudio.com/engineering/architecting-better-landing-pages/
 tool:
-  - React
+  - react
 ---
 
 

@@ -8,7 +8,7 @@ slug: links/explain-like-im-five-jekyll-collections
 source: Ben Balter
 link: http://ben.balter.com/2015/02/20/jekyll-collections/
 tool:
-  - Jekyll
+  - jekyll
 ---
 
 

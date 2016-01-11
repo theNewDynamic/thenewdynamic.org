@@ -8,9 +8,9 @@ slug: links/hands-on-experience-with-hugo-as-a-static-site-generator
 source: Thomas Peham, Usersnap
 link: http://usersnap.com/blog/hands-on-experience-with-hugo-static-site-generator/
 tool:
-  - Hugo
-  - Codeship
-  - Divshot
+  - hugo
+  - codeship
+  - divshot
 ---
 
 

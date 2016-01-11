@@ -8,7 +8,7 @@ slug: links/metalsmith-part-2-shaping-the-metal
 source: Robin Thrift
 link: http://www.robinthrift.com/posts/metalsmith-part-2-shaping-the-metal/
 tool:
-  - Metalsmith
+  - metalsmith
 ---
 Delving further into the subject and look at some Metalsmith internals.
 

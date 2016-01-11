@@ -8,7 +8,7 @@ slug: links/how-we-built-the-new-evocode
 source: Patrick Heeney, Evocode
 link: http://evocode.com/blog/how-we-built-the-new-evocode/
 tool:
-  - Metalsmith
+  - metalsmith
 ---
 
 

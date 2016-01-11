@@ -8,7 +8,7 @@ slug: links/website-delivery-with-cloudfront
 source: Sylvain Durand
 link: http://sylvaindurand.org/website-delivery-with-cloudfront/
 tool:
-  - Jekyll
+  - jekyll
 ---
 Also for other tools
 

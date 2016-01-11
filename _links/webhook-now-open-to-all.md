@@ -8,7 +8,7 @@ slug: links/webhook-now-open-to-all
 source: Webhook
 link: http://www.webhook.com/blog/release-notes-webhook-now-open-to-all/
 tool:
-  - Webhook
+  - webhook
 ---
 After a private beta for Kickstarter backers, the fully hosted static site generator Webhook is available to the public.
 

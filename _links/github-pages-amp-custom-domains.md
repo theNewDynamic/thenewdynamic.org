@@ -8,7 +8,7 @@ slug: links/github-pages-custom-domains
 source: David Darnes
 link: http://daviddarnes.github.io/articles/github-pages-custom-domains/
 tool:
-  - Github Pages
+  - github-pages
 ---
 I’ve created a list of all the ways you can use GitHub Pages and a custom domain.
 

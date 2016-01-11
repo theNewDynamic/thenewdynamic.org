@@ -8,7 +8,7 @@ slug: links/octopress-30-qa-on-hacker-news
 source:
 link: https://news.ycombinator.com/item?id=8895231
 tool:
-  - Octopress
+  - octopress
 ---
 Octopress 3.0 is coming
 

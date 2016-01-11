@@ -8,7 +8,7 @@ slug: links/jekyll-archives
 source: Jekyll
 link: https://github.com/jekyll/jekyll-archives
 tool:
-  - Jekyll
+  - jekyll
 ---
 Automatically generate post archives by dates, tags, and categories.
 

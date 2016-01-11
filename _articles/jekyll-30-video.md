@@ -7,7 +7,7 @@ slug: jekyll-30-video
 source:
 
 tool:
-  - Jekyll
+  - jekyll
 ---
 The long awaited [Jekyll 3.0](http://jekyllrb.com/news/2015/10/26/jekyll-3-0-released/) was just released. With new features like incremental regeneration, Hook Plugin API, and the Liquid Profiler, Jekyll is poised to be used on larger, more complicated sites.
 

@@ -8,7 +8,7 @@ slug: links/forging-static-sites-with-metalsmith
 source: Rob Ribeiro
 link: https://www.youtube.com/watch?v=cAq5_5Yy7Tg
 tool:
-  - Metalsmith
+  - metalsmith
 ---
 
 

@@ -8,7 +8,7 @@ slug: links/static-site-generation-using-metalsmith
 source: David Boyer
 link: https://slidr.io/misterdai/static-site-generation-using-metalsmith#1
 tool:
-  - Metalsmith
+  - metalsmith
 ---
 Overview of what static site generation actually means, how it compares to dynamic based sites and areas of cross-over between the two. Then delves deeper into Metalsmith as the Node.js tool used to demonstrate the generation process. Also see [video](https://skillsmatter.com/skillscasts/6757-forging-static-sites-with-metalsmith#video), which requires you to log-in. [code](https://github.com/misterdai/metalsmith-examples)
 

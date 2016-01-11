@@ -8,7 +8,7 @@ slug: links/building-a-blog-with-metalsmith-2
 source: Leo, OkayThree
 link: http://www.okaythree.com/2015/03/building-a-blog-with-metalsmith/
 tool:
-  - Metalsmith
+  - metalsmith
 ---
 
 

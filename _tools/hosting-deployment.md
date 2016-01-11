@@ -24,3 +24,4 @@ categorytk:
 color: "#929292"
 text_color: "#ebebeb"
 ---
+Hosting for your static site.

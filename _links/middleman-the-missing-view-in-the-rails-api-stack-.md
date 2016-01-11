@@ -8,7 +8,7 @@ slug: links/middleman-the-missing-view-in-the-rails-api-stack
 source: Brad Gessler at RailsConf 2014
 link: https://youtu.be/-q_oUyEHiEw
 tool:
-  - Middleman
+  - middleman
 ---
 
 

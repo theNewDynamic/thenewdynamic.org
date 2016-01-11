@@ -10,6 +10,43 @@ layout: default
     <h1>
       {{ page.title }}
     </h1>
+    {% include group-by-array.html collection=site.links field='tool' %}
+
+
+{% assign general_articles = site.links | where: 'tool', '' %}
+
+{% for link in general_articles %}
+
+<h6>
+  <a href='#'>{{ link.title }}</a>
+</h6>
+{% endfor %}
+
+<hr />
+
+
+<ul>
+  {% for tag in group_names %}
+    {% assign posts = group_items[forloop.index0] | sort: 'date' | reverse  %}
+
+    {% assign tool = site.tool | where: 'slug', tag  %}
+
+    <li>
+      <h2>{{ tool[0].title }}
+        {% if posts.size > 0 %}
+         <small style="font-size:.5em;">({{ posts.size }} link{% if posts.size > 1 %}s{% endif %})</small>
+         {% endif %}
+       </h2>
+      <ul>
+        {% for post in posts %}
+        <li>
+          <a href='{{ site.baseurl }}{{ post.url }}'>{{ post.title }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </li>
+  {% endfor %}
+</ul>
     {{content}}
   </article>
   <aside>

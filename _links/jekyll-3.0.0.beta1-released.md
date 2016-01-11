@@ -8,7 +8,7 @@ slug: links/jekyll-300beta1-released
 source: Jekyll
 link: http://jekyllrb.com/news/2015/01/24/jekyll-3-0-0-beta1-released/
 tool:
-  - Jekyll
+  - jekyll
 ---
 Jekyll now features incremental regeneration and greatly improved problematic code that caused slow-downs, and much more
 

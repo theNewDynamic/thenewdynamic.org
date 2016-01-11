@@ -8,7 +8,7 @@ slug: links/introduction-to-webhook-custom-cms-and-website-builder
 source: Kezz Bracey, Tuts+
 link: http://webdesign.tutsplus.com/articles/introduction-to-webhook-custom-cms-and-website-builder--cms-21481
 tool:
-  - Webhook
+  - webhook
 ---
 
 

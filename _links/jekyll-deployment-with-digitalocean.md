@@ -8,7 +8,7 @@ slug: links/jekyll-deployment-with-digitalocean
 source: Paul Anthony Webb
 link: http://dsgn.io/thoughts/post/jekyll-deployment-with-digitalocean/
 tool:
-  - Jekyll
+  - jekyll
 ---
 
 

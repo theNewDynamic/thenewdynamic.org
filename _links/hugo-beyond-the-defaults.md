@@ -8,7 +8,7 @@ slug: links/hugo-beyond-the-defaults
 source: Nate Finch
 link: https://npf.io/2014/08/hugo-beyond-the-defaults/
 tool:
-  - Hugo
+  - hugo
 ---
 
 

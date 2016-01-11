@@ -8,7 +8,7 @@ slug: links/the-way-of-metalsmith
 source: Jocelyn Lecomte
 link: http://blog.lecomte.me/posts/2014/way-of-metalsmith/
 tool:
-  - Metalsmith
+  - metalsmith
 ---
 A good explainer on the workings of Metalsmith
 

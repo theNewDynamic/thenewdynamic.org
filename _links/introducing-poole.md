@@ -8,8 +8,8 @@ slug: links/introducing-poole
 source: Mark Otto
 link: http://markdotto.com/2014/01/02/introducing-poole/
 tool:
-  - Jekyll
-  - Poole
+  - jekyll
+  - poole
 ---
 It’s a fully furnished Jekyll setup, designed to be a consistent and flexible starting point for Jekyll projects. It’s available today, and I’m releasing two open source themes with it.
 

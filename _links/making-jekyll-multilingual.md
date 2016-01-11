@@ -8,7 +8,7 @@ slug: links/making-jekyll-multilingual
 source: Sylvain Durand
 link: http://sylvaindurand.org/making-jekyll-multilingual/
 tool:
-  - Jekyll
+  - jekyll
 ---
 
 

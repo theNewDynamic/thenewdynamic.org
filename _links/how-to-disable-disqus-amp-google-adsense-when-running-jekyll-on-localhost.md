@@ -8,7 +8,7 @@ slug: links/how-to-disable-disqus-google-adsense-when-running-jekyll-on-localhos
 source: Jon Cuevas, Archon Digital
 link: http://archon.digital/articles/disable-adsense-disqus-jekyll-localhost/
 tool:
-  - Jekyll
+  - jekyll
 ---
 
 

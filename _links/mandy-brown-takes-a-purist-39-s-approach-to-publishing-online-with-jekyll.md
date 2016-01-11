@@ -8,7 +8,7 @@ slug: links/mandy-brown-takes-a-purists-approach-to-publishing-online-with-jekyl
 source: A Working Library
 link: http://aworkinglibrary.com/writing/index-cards/
 tool:
-  - Jekyll
+  - jekyll
 ---
 
 

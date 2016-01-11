@@ -8,7 +8,7 @@ slug: links/webhook-released-as-an-app
 source: Webhook
 link: http://forums.webhook.com/t/try-out-the-webhook-app-beta/234
 tool:
-  - Webhook
+  - webhook
 ---
 An app that replaces the need to use the terminal for all the ‘wh’ commands and doesn’t require you to install node on your computer.
 

@@ -8,7 +8,7 @@ slug: links/new-middleman-site-identity
 source: Middleman App
 link: https://middlemanapp.com/
 tool:
-  - Middleman
+  - middleman
 ---
 
 

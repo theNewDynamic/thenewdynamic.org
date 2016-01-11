@@ -8,7 +8,7 @@ slug: links/jekyll-codex
 source: J.H. van der Schee
 link: http://jekyllcodex.org
 tool:
-  - Jekyll
+  - jekyll
 ---
 
 

@@ -8,7 +8,7 @@ slug: links/awesome-metalsmith-a-curated-list-of-awesome-metalsmith-resources
 source: Andy Jiang (lambtron), Segment
 link: https://github.com/lambtron/awesome-metalsmith
 tool:
-  - Metalsmith
+  - metalsmith
 ---
 
 

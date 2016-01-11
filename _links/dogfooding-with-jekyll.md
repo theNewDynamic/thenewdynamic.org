@@ -8,7 +8,7 @@ slug: links/dogfooding-with-jekyll
 source: David Zvenyach
 link: https://esq.io/blog/posts/dogfooding-with-jekyll/
 tool:
-  - Jekyll
+  - jekyll
 ---
 Using the new `data_source` configuration to serve mankind
 

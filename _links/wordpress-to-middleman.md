@@ -8,7 +8,7 @@ slug: links/wordpress-to-middleman
 source: James Stone @ Static Web Tech Meetup
 link: http://www.staticwebtech.com/presentations/wordpress-to-middleman/
 tool:
-  - Middleman
+  - middleman
 ---
 
 

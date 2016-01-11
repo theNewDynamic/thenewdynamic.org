@@ -8,8 +8,8 @@ slug: links/a-new-siteleaf
 source: Siteleaf
 link: http://v2.siteleaf.com/
 tool:
-  - Siteleaf
-  - Jekyll
+  - siteleaf
+  - jekyll
 ---
 Siteleaf v2 brings full compatibility with Jekyll, the same open source technology GitHub uses to power over half a million websites.
 
