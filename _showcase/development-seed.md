@@ -5,10 +5,10 @@ posted_date: 2015-10-05T21:11:00.000Z
 type: showcase
 slug: development-seed
 website: https://developmentseed.org
-image_path: /uploads/1444963940140_screenshot-developmentseed.jpg
+image_path: 1444963940140_screenshot-developmentseed.jpg
 tool:
-  - Jekyll
-  - Prose.io
+  - jekyll
+  - proseio
 creator:
   - role: "Development, Design"
   - link: https://developmentseed.org

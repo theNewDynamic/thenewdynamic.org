@@ -2,9 +2,9 @@
 layout: default
 ---
 {% if page.category %} {% comment %} if a category page, just show results from that cat {% endcomment %}
-  {% assign data = site.tool | where: 'category', page.category | sort: 'title' %}
+  {% assign data = site.showcase | where: 'category', page.category | sort: 'date' | reverse %}
 {% else %} {% comment %} otherwise show all tools {% endcomment %}
-  {% assign data = site.tool | sort: 'title'  %}
+  {% assign data = site.showcase | sort: 'date' | reverse  %}
 {% endif %}
 
 <div class="hero">
@@ -25,14 +25,23 @@ layout: default
       <input class="search" type="search" placeholder="filter by name, source, or tool" />
         <ul class="linksTK filter-list flex-boxes">
           {% for object in data %}
-            {% include format-tools.html %}
+            {% include _format-showcase.html %}
           {% endfor %}
         </ul>
     </div>
   </article>
   <aside class="bottom">
     <div class="small-screenTK">
-      {% include format-tools-filters.html %}
+      {% include group-by-array.html collection=site.showcase field='tool' %}
+      <div class="button-group">
+        {% for tag in group_names  %}
+          <a href="/showcase/{{tag.url}}">
+            <button>
+              {{tag | capitalize }}
+            </button>
+          </a>
+        {% endfor %}
+      </div>
     </div>
   </aside>
 </div>

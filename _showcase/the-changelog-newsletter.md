@@ -5,9 +5,9 @@ posted_date: 2015-08-30T14:57:00.000Z
 type: showcase
 slug: the-changelog-newsletter
 website: https://changelog.com/weekly/
-image_path: /uploads/1440946470090_changelog.jpg
+image_path: 1440946470090_changelog.jpg
 tool:
-  - Middleman
+  - middleman
 creator:
   - role: "Developer"
   - link: https://changelog.com/

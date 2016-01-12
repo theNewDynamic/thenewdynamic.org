@@ -5,7 +5,8 @@ categories:
 
 ## DO NOT EDIT BELOW THIS LINE
 full_rebuild: true
-url:
+url: http://www.thenewdynamic.org
+image_url: http://thenewdynamic.imgix.net
 sitename:
 timezone: Etc/Zulu
 include:
@@ -85,6 +86,11 @@ defaults:
       type: staff
     values:
       layout: page
+  - scope:
+      path: ''
+      type: showcase
+    values:
+      layout: showcase-individual
 
 # ASSETS
 assets:

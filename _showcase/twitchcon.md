@@ -5,9 +5,9 @@ posted_date: 2015-09-24T19:00:00.000Z
 type: showcase
 slug: twitchcon
 website: http://www.twitchcon.com/
-image_path: /uploads/1443121125423_twitchcon.jpg
+image_path: 1443121125423_twitchcon.jpg
 tool:
-  - Webhook
+  - webhook
 creator:
   - link: https://twitter.com/alexisg
   - name: Alexis Gallisá

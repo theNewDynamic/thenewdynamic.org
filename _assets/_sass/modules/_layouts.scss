@@ -5,13 +5,13 @@
   @include pad(2em 2em 1em 2em);
   @include media($large-screen) {
   aside, .column-2 {
-    @include span-columns(5 of 14);
+    @include span-columns(3.75 of 12);
   }
   article, .column-1 {
-    @include span-columns(9 of 14);
+    @include span-columns(9 of 12);
   }
   section, .column-3 {
-    @include span-columns(7 of 14);
+    @include span-columns(4 of 12);
 
   }
 }

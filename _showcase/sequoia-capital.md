@@ -5,11 +5,11 @@ posted_date: 2015-12-15T02:43:00.000Z
 type: showcase
 slug: sequoia-capital
 website: https://www.sequoiacap.com/
-image_path: /uploads/1450147287427_showcase-static-sequoia.jpg
+image_path: 1450147287427_showcase-static-sequoia.jpg
 tool:
-  - Middleman
-  - Netlify
-  - Contentful
+  - middleman
+  - netlify
+  - contentful
 creator:
   - role: "Design, Dev"
   - link: http://www.instrument.com

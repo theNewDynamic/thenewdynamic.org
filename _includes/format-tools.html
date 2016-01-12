@@ -5,34 +5,19 @@
   <li class="flex-box" style="border-top-color:{% if tool_category[0].color %}{{ tool_category[0].color  }}{% else %}#f6f6f6{% endif %};">
     <a href="{{ object.url }}">
       <h4 class="name flex-title">{{ object.title }}</h4>
-
-
         {% unless page.category %}
         <small class="light type">{{ tool_category[0].title }}</small>
         {% endunless %}
-
-
           {% for link in articles %}
-
             {% if link.title contains object.title %}
           <h1>:{{ link.title}}:</h1>
           {% endif %}
           {% endfor %}
-
-
-{% if object.description %}
-  <p class="small">
-    {{ object.description }}
-  </p>
-{% endif %}
-
-
-
-
-      {% if object.summary %}{{ object.summary|markdown}}{% endif %}
-
-
-
+          {% if object.description %}
+          <p class="small">
+            {{ object.description }}
+          </p>
+          {% endif %}
     </a>
   </li>
 

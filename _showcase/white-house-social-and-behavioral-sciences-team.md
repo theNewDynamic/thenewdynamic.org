@@ -5,10 +5,10 @@ posted_date: 2015-10-28T16:41:00.000Z
 type: showcase
 slug: white-house-social-and-behavioral-sciences-team
 website: https://sbst.gov/
-image_path: /uploads/1446050119463_screenshot-sbst.jpg
+image_path: 1446050119463_screenshot-sbst.jpg
 tool:
-  - Jekyll
-  - Federalist
+  - jekyll
+  - federalist
 creator:
   - role: "Development, Design"
   - link: https://18f.gsa.gov/

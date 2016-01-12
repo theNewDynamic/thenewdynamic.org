@@ -5,9 +5,9 @@ posted_date: 2015-07-09T13:18:00.000Z
 type: showcase
 slug: esolia
 website: http://esolia.com/
-image_path: /uploads/1436586928778_thenewdynamic-showcase-esolia-com-150710.jpg
+image_path: 1436586928778_thenewdynamic-showcase-esolia-com-150710.jpg
 tool:
-  - Hugo
+  - hugo
 creator:
   - role: "Site owner, developer"
   - link: https://twitter.com/eSolia_Inc

@@ -1,0 +1,45 @@
+{% assign tools_used = object.tool  %}
+
+
+
+
+
+<li class="flex-box" style="border-top-color:#f6f6f6;">
+  <a href="{{ object.url }}">
+    <h4 class="name flex-title" style="min-height:53px;">
+      {{ object.title }}
+    </h4>
+
+      <img src="{{ site.image_url }}/{{ object.image_path }}?w=225&h=125&fit=clamp&exp=1" style="border:1px solid #ddd;">
+
+
+    {% if object.content %}
+    <div>  <small><a href="{{ url(object) }}" class="red">&raquo; read developer notes &laquo;</a></small></div>
+    {% endif %}
+    <div class="light meta">
+
+
+      {% if tools_used %}
+      {% assign count = '0' %}
+        {% for object in tools_used %}
+
+            {% for tool in site.tool %}
+              {% assign slugged = tool.url | replace: 'tool', '' | replace: '/', '' %}
+
+                {% if object == slugged %}
+                {% capture count %}{{ count | plus: '1' }}{% endcapture %}
+
+                  <button type="button" name="button">
+                    {{ tool.title }}
+                  </button>
+                {% endif %}
+
+
+            {% endfor %}
+
+
+        {% endfor %}
+      {% endif %}
+    </div>
+  </a>
+</li>

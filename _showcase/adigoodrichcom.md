@@ -5,9 +5,9 @@ posted_date: 2015-08-17T12:42:00.000Z
 type: showcase
 slug: adigoodrichcom
 website: http://www.adigoodrich.com/
-image_path: /uploads/1439815236256_tnd-showcase-adigoodrich.jpg
+image_path: 1439815236256_tnd-showcase-adigoodrich.jpg
 tool:
-  - Webhook
+  - webhook
 creator:
   - role: "Designer, developer"
   - link: http://www.erin.io/

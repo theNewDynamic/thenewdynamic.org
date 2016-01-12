@@ -5,9 +5,9 @@ posted_date: 2015-07-11T03:47:00.000Z
 type: showcase
 slug: the-verge-50
 website: http://www.theverge.com/a/the-verge-50
-image_path: /uploads/1436586481330_thenewdynamic-showcase-verge-at-50-ogov-150710.jpg
+image_path: 1436586481330_thenewdynamic-showcase-verge-at-50-ogov-150710.jpg
 tool:
-  - Middleman
+  - middleman
 creator:
   - role: "Design, development"
   - link: http://product.voxmedia.com/
