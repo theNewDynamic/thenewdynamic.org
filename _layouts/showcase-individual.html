@@ -9,33 +9,42 @@ layout: default
       </h1>
     </div>
     <div class="column-3">
-
+      {% include _tool-used.html %}
     </div>
   </div>
 </div>
 <div class="layout-2-column">
   <article>
 
-    <img src="{{ site.image_url }}/{{ page.image_path }}?w=875" style="border:1px solid #ddd;">
+    <img src="{{ site.image_url }}/{{ page.image_path }}?&usm=10" style="border:1px solid #ddd;margin: auto;">
     <hr />
     {% if page.content %}
       <h4>About the Project</h4>
+
+      {{page.name}}
       {{ page.content }}
     {% endif %}
   </article>
   <aside class="bottom">
     <div class="small-screenTK">
-        tools
-        creators
-
-        <div class="PageNavigation">
-  {% if page.previous.url %}
-    <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
-  {% endif %}
-  {% if page.next.url %}
-    <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
-  {% endif %}
-</div>
+        {% if page.website %}
+        <a href="{{ page.website }}" target="_blank">{{ page.website }} <i class="icon-ion-android-open smaller"></i></a>
+        <hr />
+        {% endif %}
+        {% if page.creator[0].role %}
+          {{ page.creator[0].role }}:<br />
+        {% endif %}
+        {% if page.creator[2].name %}
+          {% if page.creator[1].link %}
+            <a href="{{ page.creator[1].link }}">
+              {{ page.creator[2].name }} <i class="icon-ion-android-open smaller"></i>
+            </a>
+          {% else %}
+            {{ page.creator[2].name }}
+          {% endif %}
+        {% endif %}
+        <hr />
+          {% include _prev-next.html %}
 
     </div>
   </aside>

@@ -9,6 +9,7 @@ image_path: 1443121125423_twitchcon.jpg
 tool:
   - webhook
 creator:
+  - role:
   - link: https://twitter.com/alexisg
   - name: Alexis Gallisá
 ---

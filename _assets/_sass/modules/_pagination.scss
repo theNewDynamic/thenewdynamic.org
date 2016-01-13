@@ -1,4 +1,4 @@
-.pagination {  
+.pagination {
   text-align: center;
   margin-top:3em;
   ul {
@@ -6,7 +6,7 @@
     margin: 0;
     padding: 0;
     text-align: center;
-    
+
     li {
       display: inline;
       list-style: none;
@@ -14,7 +14,7 @@
 
     ul li {
       display: none;
-      
+
       &:nth-child(1),
       &:nth-child(2),
       &:nth-child(3) {
@@ -65,9 +65,10 @@ a.previous, a.next {
       outline: none;
       padding: ($base-spacing / 4) ($gutter / 2);
       text-decoration: none;
-  
-  
+      &:hover {
+        background: darken($pagination-background, 5%);
+      }
+
 }
 
 
- 

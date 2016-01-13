@@ -2,8 +2,10 @@
   @include outer-container;
   margin-left:auto;
   margin-right:auto;
-  @include pad(2em 2em 1em 2em);
+    @include pad(1em .75em);
+
   @include media($large-screen) {
+      @include pad(2em 2em 1em 2em);
   aside, .column-2 {
     @include span-columns(3.75 of 12);
   }

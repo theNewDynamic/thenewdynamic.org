@@ -1,4 +1,17 @@
 .hero {
-  
-  background-color:#821412;
+  background-color:darken($tnd_red, .9%);
+  button {
+    margin-right: 1em;
+    margin-top: .5em;
+  }
+  a button{
+    font-size: 1.1em;
+    color: lighten($tnd_red, .9%);
+    background-color: #ddd;
+    border-color: lighten($tnd_red, 1%);
+    &:hover {
+      background-color: lighten($tnd_red, 5%);
+      color: #ddd;
+    }
+  }
 }

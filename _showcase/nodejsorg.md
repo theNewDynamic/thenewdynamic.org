@@ -9,7 +9,7 @@ image_path: 1446050712434_screenshot-nodejs.jpg
 tool:
   - metalsmith
 creator:
-  - role: "Dev, Desgin"
+  - role: "Dev, Design"
   - link: https://github.com/nodejs/new.nodejs.org
   - name: Node.js Foundation
 ---
