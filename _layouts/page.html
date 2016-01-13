@@ -10,8 +10,22 @@ layout: default
     <h1>
       {{ page.title }}
     </h1>
-    
+
     {{content}}
+
+    {% assign files = site.static_files  %}
+
+<h5>Uploads</h5>
+    {% for file in files %}
+    {% if file.path contains 'uploads' %}
+      <a href="{{file.path}}">
+        <img src="{{file.path}}" alt="" style="height:30px;" />
+      </a>
+      {% endif %}
+
+    {% endfor %}
+
+
   </article>
   <aside>
     {% if page.date %}
