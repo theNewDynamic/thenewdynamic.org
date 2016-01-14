@@ -1,0 +1,10 @@
+{
+   "scssSrcPath":"./dev/_sass",
+   "jsSrcPath":"./dev/js",
+   "imgSrcPath":"./src/img",
+   "cssDistPath":"./static/css",
+   "jsDistPath":"./static/js",
+   "imgDistPath":"./static/images",
+   "browserList":"> 1%', 'last 2 versions', 'Firefox ESR', 'Opera 12.1",
+   "tasksPath":"./gulp/tasks"
+}

@@ -1,0 +1,50 @@
+//Base
+@import
+  //"../bower/normalize-scss/_normalize.scss",
+  //"../bower/normalize-opentype.css/normalize-opentype.scss",
+  "bourbon/bourbon",
+  "modules/grid-settings",//overrides bitters grid-settings
+  "neat/neat",
+  "base/base",
+  "modules/mixins";
+
+@import
+  "vendor/fontello";
+
+// Modules
+@import
+  "modules/accessibility",
+  "modules/buttons",
+  "modules/code",
+  "modules/colors",
+  "modules/flex-box",
+  "modules/footer",
+  "modules/hero",
+  "modules/icons",
+  "modules/layouts",
+  "modules/links",
+  "modules/navigation",
+  "modules/navigation-sliding-menu",
+  "modules/pagination",
+  "modules/utilities",
+  "modules/utilities-iframes";
+
+.right {
+  text-align: right;
+}
+
+.red {
+  color: $tnd_red_brighter;
+}
+.red-background {
+  background-color: $tnd_red_brighter;
+  color: white;
+}
+
+#mc-embedded-subscribe {
+  background-color: $tnd_red_brighter;
+  color: white;
+}
+#mc_embed_signup label {
+  @include accessibility_hidden;
+}
