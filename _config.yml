@@ -4,8 +4,6 @@ categories:
 
 
 ## DO NOT EDIT BELOW THIS LINE
-layouts_dir:  ./_application/layouts
-includes_dir:  ./_application/includes
 full_rebuild: true
 url: http://www.thenewdynamic.org
 image_url: http://thenewdynamic.imgix.net
