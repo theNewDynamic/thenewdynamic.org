@@ -2,11 +2,11 @@ header.navigation {
 
 
   background-color: $navigation-background;
-  //border-bottom: 1px solid darken($navigation-background, 10);
+  border-bottom: 1px solid lighten($navigation-background, 10);
   min-height: $navigation-height;
   width: 100%;
   z-index: 999;
-font-size: .875em;
+  font-size: .875em;
   .navigation-wrapper {
     @include clearfix;
     //@include outer-container;

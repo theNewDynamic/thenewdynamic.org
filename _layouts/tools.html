@@ -6,19 +6,6 @@ layout: default
 {% else %} {% comment %} otherwise show all tools {% endcomment %}
   {% assign data = site.tool | sort: 'title'  %}
 {% endif %}
-
-<div class="hero">
-  <div class="layout">
-    <div class="column-2">
-      <h1 style="color:white;">
-        {{ page.title }}
-      </h1>
-    </div>
-    <div class="column-3">
-      {{ page.content }}
-    </div>
-  </div>
-</div>
 <div class="layout-2-column">
   <article>
     <div id="filter-container">

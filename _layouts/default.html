@@ -25,7 +25,7 @@ layout: compress
       <link rel="icon" href="{{ site.url }}/favicon.ico" type="image/x-icon">
 
         <link href='/static/css/main.min.css{% if site.bust_css_cache %}?generated={{ site.time | date: "%Y%m%d%H%S" }}{% endif %}' rel='stylesheet' type="text/css" />
-        
+
 
 
       <!--[if lt IE 9]>
@@ -42,6 +42,7 @@ layout: compress
     {% include global/nav-topbar.html %}
     <section id="main" class="content">
       <div id="start-of-content" class="accessibility-aid"></div>
+      {% include _hero.html %}
       {{content}}
     </section>
     {% include global/scripts.html %}

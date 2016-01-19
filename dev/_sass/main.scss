@@ -1,7 +1,8 @@
 //Base
 @import
-  //"../bower/normalize-scss/_normalize.scss",
-  //"../bower/normalize-opentype.css/normalize-opentype.scss",
+
+  "./node_modules/normalize.scss/normalize.scss",
+  "./node_modules/normalize-opentype.css/normalize-opentype.scss",
   "bourbon/bourbon",
   "modules/grid-settings",//overrides bitters grid-settings
   "neat/neat",

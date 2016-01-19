@@ -9,6 +9,7 @@ url: http://www.thenewdynamic.org
 image_url: http://thenewdynamic.imgix.net
 sitename:
 timezone: Etc/Zulu
+port: 3575
 include:
   - _pages
 exclude:
@@ -30,7 +31,7 @@ future: false
 
 # PLUGINS
 gems:
-- jekyll-assets
+- jekyll-sitemap
 
 # PRODUCTION
 google_analytics_id: UA-30899180-4

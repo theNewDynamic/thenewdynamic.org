@@ -20,7 +20,7 @@ $base-z-index: 0;
 
 // Colors
 $blue: #477dca;
-$dark-gray: #333;
+$dark-gray: #262930;
 $medium-gray: #646464;
 $black:#27272B;
 $light-gray: #ddd;
@@ -33,7 +33,7 @@ $tnd_red: #8C1613;//#8D2A3A;//933330;
 // Font Colors
 $base-background-color: $lightest-gray;//$tnd_red;
 $base-font-color: $medium-gray;
-$action-color: $black;//$tnd_red;
+$action-color: $tnd_red;//$tnd_red;
 $base-heading-color: $black;
 
 // Border
@@ -58,7 +58,7 @@ $footer-link-color: transparentize($footer-color, 0.6);
 $footer-disclaimer-color: transparentize($footer-color, 0.6);
 
 //navigation
-$navigation-background: $tnd_red;//2C343A
+$navigation-background: $dark-gray;//$tnd_red;//2C343A
 $navigation-padding: 1em;
 $navigation-background: $navigation-background;//$dark-gray;
 $navigation-color: white;

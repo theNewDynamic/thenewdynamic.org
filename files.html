@@ -1,0 +1,15 @@
+---
+layout: page
+---
+
+    {% assign files = site.static_files  %}
+
+<h5>Uploads yomanma</h5>
+    {% for file in files %}
+    {% if file.path contains 'uploads' %}
+      <a href="{{file.path}}">
+        <img src="{{file.path}}" alt="" style="height:30px;" />
+      </a>
+      {% endif %}
+
+    {% endfor %}

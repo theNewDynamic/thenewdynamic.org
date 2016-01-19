@@ -7,18 +7,13 @@ layout: default
     {% include global/form-mailchimp.html %}
   </aside>
   <article>
+    {% comment %}
     <h1>
       {{ page.title }}
     </h1>
 
+     {% endcomment %}
     {{content}}
-
-    {% if page.url == '/links/' %}
-      {% include _list-links.html %}
-    {% endif %}
-
-
-
   </article>
   <aside>
     {% if page.date %}

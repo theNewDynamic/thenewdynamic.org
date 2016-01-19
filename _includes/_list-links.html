@@ -3,10 +3,10 @@
 
 {% assign general_articles = site.links | where: 'tool', '' %}
 
-{% for link in general_articles %}
+{% for object in general_articles %}
 
 <h6>
-<a href='#'>{{ link.title }}</a>
+<a href='#'>{{ object.title }}</a>
 </h6>
 {% endfor %}
 
