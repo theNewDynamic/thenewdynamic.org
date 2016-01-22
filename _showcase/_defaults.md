@@ -1,13 +1,11 @@
 ---
 title:
 date:
-posted_date:
+tool:
 website:
-image_path:
-tools_used:
-  tool:
 creator:
   - role:
   - link:
   - name:
+image_path:
 ---
