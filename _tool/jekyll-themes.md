@@ -4,7 +4,7 @@ date: 2015-11-13T02:53:00.000Z
 posted_date: 2015-11-13T02:53:00.000Z
 type: tool
 slug: jekyll-themes
-tools: theme
+tool_type: theme
 links:
   website: http://jekyllthemes.org/
   github: https://github.com/mattvh/jekyllthemes/

@@ -4,7 +4,7 @@ date: 2015-05-08T21:52:00.000Z
 posted_date: 2015-05-08T21:52:00.000Z
 type: tool
 slug: cloudflare
-tools: hosting-deployment
+tool_type: hosting-deployment
 links:
   website: https://www.cloudflare.com
 ---

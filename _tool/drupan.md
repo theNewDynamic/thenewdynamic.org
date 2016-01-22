@@ -4,7 +4,7 @@ date: 2015-05-02T02:56:00.000Z
 posted_date: 2015-05-02T02:56:00.000Z
 type: tool
 slug: drupan
-tools: cms
+tool_type: cms
 links:
   github: https://github.com/fallenhitokiri/drupan
 ---

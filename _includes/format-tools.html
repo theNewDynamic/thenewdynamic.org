@@ -1,4 +1,4 @@
-{% assign tool_category = site.tools | where: 'category', object.tools  %}
+{% assign tool_category = site.tool_type | where: 'category', object.tools  %}
 {% assign links = site.links %}
 {% assign articles = site.articles  | where: 'tool', object %}
 

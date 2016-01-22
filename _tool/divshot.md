@@ -4,7 +4,7 @@ date: 2015-05-16T22:42:00.000Z
 posted_date: 2015-05-16T22:42:00.000Z
 type: tool
 slug: divshot
-tools: hosting-deployment
+tool_type: hosting-deployment
 links:
   website: https://divshot.com/
   blog: https://divshot.com/blog/

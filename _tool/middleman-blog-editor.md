@@ -4,7 +4,7 @@ date: 2014-05-02T20:45:00.000Z
 posted_date: 2015-05-02T20:45:00.000Z
 type: tool
 slug: middleman-blog-editor
-tools: editing
+tool_type: editing
 links:
   website: http://middleman-blog-editor.awardwinningfjords.com/
 ---

@@ -1,7 +1,7 @@
 ---
 title:
 date:
-tools:
+tool_type:
 links:
   website:
   github:

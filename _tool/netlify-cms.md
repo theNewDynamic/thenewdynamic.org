@@ -4,7 +4,7 @@ date: 2015-10-03T16:57:00.000Z
 posted_date: 2015-10-03T16:57:00.000Z
 type: tool
 slug: netlify-cms
-tools: editing
+tool_type: editing
 tags:
   - Editing
   - CMS

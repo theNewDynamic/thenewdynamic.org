@@ -4,7 +4,7 @@ date: 2015-05-02T21:16:00.000Z
 posted_date: 2015-05-02T21:16:00.000Z
 type: tool
 slug: proteus-static-site-starter-kits
-tools: helper
+tool_type: helper
 links:
   website: http://thoughtbot.github.io/proteus/
 ---

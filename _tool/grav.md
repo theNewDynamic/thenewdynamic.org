@@ -4,7 +4,7 @@ date: 2015-10-04T13:03:00.000Z
 posted_date: 2015-10-04T13:03:00.000Z
 type: tool
 slug: grav
-tools: cms
+tool_type: cms
 links:
   website: http://getgrav.org/
 ---

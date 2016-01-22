@@ -4,7 +4,7 @@ date: 2015-11-13T02:58:00.000Z
 posted_date: 2015-11-13T02:58:00.000Z
 type: tool
 slug: hugo-themes
-tools: theme
+tool_type: theme
 links:
   website: http://themes.gohugo.io/
   github: https://github.com/spf13/hugo/

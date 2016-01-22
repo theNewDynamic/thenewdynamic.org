@@ -4,7 +4,7 @@ date: 2015-05-16T18:47:00.000Z
 posted_date: 2015-05-16T18:47:00.000Z
 type: tool
 slug: brunch
-tools: build-tool
+tool_type: build-tool
 links:
   website: http://brunch.io/
 ---

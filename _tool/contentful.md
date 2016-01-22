@@ -4,7 +4,7 @@ date: 2015-05-02T02:57:00.000Z
 posted_date: 2015-05-02T02:57:00.000Z
 type: tool
 slug: contentful
-tools: editing
+tool_type: editing
 tags:
   - Editing
   - CMS

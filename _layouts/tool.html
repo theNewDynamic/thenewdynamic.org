@@ -5,7 +5,7 @@ layout: default
   {% if page.date %}
   <aside class="top">
 
-{% assign tool_category = site.tools | where: 'category', page.tools  %}
+{% assign tool_category = site.tool_type | where: 'category', page.tools  %}
 
   <h3>{{ tool_category[0].title }}</h3>
 

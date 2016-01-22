@@ -4,7 +4,7 @@ date: 2015-05-08T22:00:00.000Z
 posted_date: 2015-05-08T22:00:00.000Z
 type: tool
 slug: cloudcannon
-tools: editing
+tool_type: editing
 tags:
   - Editing
   - Hosting-Deployment

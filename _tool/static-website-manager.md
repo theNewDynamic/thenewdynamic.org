@@ -4,7 +4,7 @@ date: 2015-12-07T22:10:00.000Z
 posted_date: 2015-12-07T22:10:00.000Z
 type: tool
 slug: static-website-manager
-tools: editing
+tool_type: editing
 tags:
   - Editing
   - CMS

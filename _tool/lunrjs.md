@@ -4,7 +4,7 @@ date: 2015-05-02T20:37:00.000Z
 posted_date: 2015-05-02T20:37:00.000Z
 type: tool
 slug: lunrjs
-tools: interaction
+tool_type: interaction
 tags:
  - Search
 links:

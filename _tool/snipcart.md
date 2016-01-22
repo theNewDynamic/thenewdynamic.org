@@ -4,7 +4,7 @@ date: 2015-05-15T01:54:00.000Z
 posted_date: 2015-05-15T01:54:00.000Z
 type: tool
 slug: snipcart
-tools: interaction
+tool_type: interaction
 links:
   website: https://snipcart.com/
 ---
