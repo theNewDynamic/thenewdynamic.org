@@ -6,9 +6,9 @@ type: showcase
 slug: development-seed
 website: https://developmentseed.org
 image_path: 1444963940140_screenshot-developmentseed.jpg
-tool:
-  - jekyll
-  - proseio
+tools:
+  tool: jekyll
+  tool: proseio
 creator:
   - role: "Development, Design"
   - link: https://developmentseed.org
