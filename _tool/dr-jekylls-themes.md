@@ -4,9 +4,9 @@ date: 2015-11-12T02:03:00.000Z
 posted_date: 2015-11-12T02:03:00.000Z
 type: tool
 slug: dr-jekylls-themes
-category: theme
+tools: theme
 links:
-  - http://drjekyllthemes.github.io/
+  website: http://drjekyllthemes.github.io/
 ---
 A free static site generator theme directory
 

@@ -5,6 +5,11 @@ layout: default
   {% if page.date %}
   <aside class="top">
 
+{% assign tool_category = site.tools | where: 'category', page.tools  %}
+
+  <h3>{{ tool_category[0].title }}</h3>
+
+
       <ul>
         {% for object in page.links %}
           <li>

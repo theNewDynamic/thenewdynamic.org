@@ -4,10 +4,10 @@ date: 2015-08-30T03:57:00.000Z
 posted_date: 2015-08-30T03:57:00.000Z
 type: tool
 slug: flatmarket
-category: interaction
+tools: interaction
 links:
-  - https://json.expert/flatmarket/
-  - https://github.com/christophercliff/flatmarket
+  website: https://json.expert/flatmarket/
+  github: https://github.com/christophercliff/flatmarket
 ---
 Flatmarket is a free, open source e-commerce platform for static websites. Its simple architecture makes it extremely reliable, secure, and inexpensive to operate. View the source on GitHub.
 
