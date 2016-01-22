@@ -7,8 +7,8 @@ slug: development-seed
 website: https://developmentseed.org
 image_path: 1444963940140_screenshot-developmentseed.jpg
 tools_used:
-  tool: jekyll
-  tool: proseio
+  tools: jekyll
+  tools: proseio
 creator:
   - role: "Development, Design"
   - link: https://developmentseed.org
