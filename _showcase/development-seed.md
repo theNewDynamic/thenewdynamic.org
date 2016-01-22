@@ -6,7 +6,7 @@ type: showcase
 slug: development-seed
 website: https://developmentseed.org
 image_path: 1444963940140_screenshot-developmentseed.jpg
-tool:
+tools_used:
   tool: jekyll
   tool: proseio
 creator:
