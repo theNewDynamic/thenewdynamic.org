@@ -7,6 +7,4 @@ links:
   github:
   twitter:
 description:
-tools_used:
-  tool: 
 ---
