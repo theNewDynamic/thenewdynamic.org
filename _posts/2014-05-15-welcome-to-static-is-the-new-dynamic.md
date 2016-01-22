@@ -2,7 +2,7 @@
 title: "Welcome to {static is} The New Dynamic"
 date: 2014-05-15T22:03:00.000Z
 posted_date: 2015-05-02T22:04:00.000Z
-type: articles
+category: article
 slug: welcome-to-static-is-the-new-dynamic
 source:
 

@@ -1,0 +1,38 @@
+{% if page.category %}
+  <h3>
+    {{ page.category | capitalize }}
+  </h3>
+{% endif %}
+
+{% if page.date %}
+  <h6>
+    Published {{ page.date | date: "%B %-d, %Y"}}
+  </h6>
+{% endif %}
+
+{% if page.start_at %}
+  <h5 class="deemphasize">
+    Event Date:
+    {% if event_date >= current_date %}
+      {{ page.start_at | date: "%A, %b %d" }}
+      {{ page.start_at | date: "@  %I:%M %p" | replace: ' 0', '' | downcase }}
+    {% else %}
+      {{ page.start_at | date: "%b %d, %Y" }}
+    {% endif %}
+  </h5>
+{% endif %}
+
+{% if page.meetup %}
+  {% capture meetup_slug %}/meetups/{{ page.meetup}}/{% endcapture %}
+  {% assign meetups = site.meetups | where: 'url', meetup_slug %}
+  {% assign meetup = meetups[0] %}
+
+  {% if page.link and page.link != '' %}
+    <a href="{{ page.link }}">
+      {{ meetup.title }}
+      {% include snippets/icon-external-link.html %}
+    </a>
+  {% else %}
+    {{ meetup.title }}
+  {% endif %}
+{% endif %}

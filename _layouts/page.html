@@ -1,28 +1,21 @@
 ---
 layout: default
 ---
-<div class="layout-article">
-  <aside class="left">
-    {% include global/heading-page.html %}
-    {% include global/form-mailchimp.html %}
+<div class="has-layout layout-article">
+  {% if page.date %}
+  <aside class="top">
+    <h6>
+      Published {{ page.date | date: "%B %-d, %Y"}}
+    </h6>
   </aside>
-  <article>
-    <h1>
-      {{ page.title }}
-    </h1>
-
-    {{content}}
-
+  {% endif %}
+  <article class="hentry">
+    {{ content }}
     {% if page.url == '/links/' %}
       {% include _list-links.html %}
     {% endif %}
-
-
-
   </article>
   <aside>
-    {% if page.date %}
-      <h6>Published {{ page.date | date: "%B %-d, %Y"}}</h6>
-    {% endif %}
+    {% include global/form-mailchimp.html %}
   </aside>
 </div>

@@ -6,9 +6,9 @@ type: tool
 slug: jekyll
 category: static-site-generator
 links:
-  - http://jekyllrb.com/
-  - https://github.com/jekyll/jekyll
-  - https://twitter.com/jekyllrb
+  website: http://jekyllrb.com
+  github: https://github.com/jekyll/jekyll
+  twitter: https://twitter.com/jekyllrb
 description: Ruby based static site generator with blogging and collections.
 ---
 

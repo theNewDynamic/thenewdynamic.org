@@ -19,11 +19,12 @@ $small-spacing: $base-spacing / 2;
 $base-z-index: 0;
 
 // Colors
-$blue: #477dca;
-$dark-gray: #262930;
+$blue: #3A516A;//#446184;
+$dark-gray: #252830;// #262930;
 $medium-gray: #646464;
 $black:#27272B;
 $light-gray: #ddd;
+$white_gray: #EEEBE6;
 $lightest-gray:#F6F6F6;// #F6F6F6;//#F3F3F3;//#F5F5F5;//#F6F6F6;
 $white:#fafafa;
 $tnd_red_brighter: #B03D3A;// #933330;//#B03D3A;// #933330;
@@ -31,10 +32,10 @@ $tnd_red: #8C1613;//#8D2A3A;//933330;
 //#8D2A3A
 
 // Font Colors
-$base-background-color: $lightest-gray;//$tnd_red;
+$base-background-color: $white_gray;//$lightest-gray;//$tnd_red;
 $base-font-color: $medium-gray;
 $action-color: $tnd_red;//$tnd_red;
-$base-heading-color: $black;
+$base-heading-color: $medium-gray;// $black;
 
 // Border
 $base-border-color: darken($lightest-gray, 4%);
@@ -58,7 +59,7 @@ $footer-link-color: transparentize($footer-color, 0.6);
 $footer-disclaimer-color: transparentize($footer-color, 0.6);
 
 //navigation
-$navigation-background: $dark-gray;//$tnd_red;//2C343A
+$navigation-background: $blue;//$dark-gray;//$tnd_red;//2C343A
 $navigation-padding: 1em;
 $navigation-background: $navigation-background;//$dark-gray;
 $navigation-color: white;

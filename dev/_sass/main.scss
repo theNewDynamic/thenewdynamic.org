@@ -27,19 +27,26 @@
   "modules/navigation",
   "modules/navigation-sliding-menu",
   "modules/pagination",
+  "modules/ribbon",
   "modules/utilities",
   "modules/utilities-iframes";
 
 .right {
   text-align: right;
 }
-
+.flush {
+  margin-bottom: 0;
+}
 .red {
   color: $tnd_red_brighter;
 }
 .red-background {
   background-color: $tnd_red_brighter;
   color: white;
+}
+
+.highlight {
+  color: $tnd_red_brighter;
 }
 
 #mc-embedded-subscribe {

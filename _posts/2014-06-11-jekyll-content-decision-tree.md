@@ -2,7 +2,7 @@
 title: "Jekyll Content Decision Tree"
 date: 2014-06-11T22:07:00.000Z
 posted_date: 2015-05-02T22:07:00.000Z
-type: articles
+category: article
 slug: jekyll-content-decision-tree
 source:
 

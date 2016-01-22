@@ -1,23 +1,22 @@
 ---
 layout: default
 ---
-<div class="layout-article">
-  <aside class="left">
-    {% include global/heading-page.html %}
-    {% include global/form-mailchimp.html %}
-  </aside>
-  <article>
-    {% comment %}
-    <h1>
-      {{ page.title }}
-    </h1>
+<div class="has-layout layout-article">
+  <aside class="top">
+    {% include _format-post-metadata.html %}
+<hr />
 
-     {% endcomment %}
-    {{content}}
+  </aside>
+  <article class="hentry">
+    {{ page.content | markdownify }}
   </article>
   <aside>
-    {% if page.date %}
-      <h6>Published {{ page.date | date: "%B %-d, %Y"}}</h6>
-    {% endif %}
+
+    <div style="margin:2em auto;">
+      {% include _prev-next.html %}
+    </div>
+
+    {% include global/form-mailchimp.html %}
+
   </aside>
 </div>

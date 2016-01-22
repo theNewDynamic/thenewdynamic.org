@@ -1,5 +1,5 @@
 .hero {
-  $hero-background-color:$navigation-background;
+  $hero-background-color:darken($navigation-background, 2%);
   background-color:darken($hero-background-color, .9%);
   padding-top: 3em;
   padding-bottom:3em;

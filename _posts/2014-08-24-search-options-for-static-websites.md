@@ -2,7 +2,7 @@
 title: "Search Options for Static Websites"
 date: 2014-08-24T22:10:00.000Z
 posted_date: 2015-05-02T22:10:00.000Z
-type: articles
+category: article
 slug: search-options-for-static-websites
 source:
 

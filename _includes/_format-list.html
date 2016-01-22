@@ -2,7 +2,7 @@
   <a href='{% if object.collection == 'links' %}{{ object.link }}{% else %}{{ object.url }}{% endif %}'>
     {{ object.title }}
     {% if object.collection == 'links' %}
-      <i class="icon-ion-android-open smaller"></i>
+      {% include snippets/icon-external-link.html %}
     {% endif %}
   </a>
 </h6>

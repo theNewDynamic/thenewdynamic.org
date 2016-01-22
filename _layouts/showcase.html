@@ -6,7 +6,7 @@ layout: default
 {% else %} {% comment %} otherwise show all tools {% endcomment %}
   {% assign data = site.showcase | sort: 'date' | reverse  %}
 {% endif %}
-<div class="layout-2-column">
+<div class="has-layout layout-2-column">
   <article>
     <div id="filter-container">
       <input class="search" type="search" placeholder="filter by name, source, or tool" />

@@ -1,6 +1,6 @@
 categories:
   - ''
-
+description: "Static Site Generators <small>and the Post-CMS paradigm</small>"
 
 
 ## DO NOT EDIT BELOW THIS LINE
@@ -46,11 +46,14 @@ collections:
     output: true
     permalink: '/link/:path/'
     future: true
+  meetups:
+      output: false
   showcase:
     output: true
     permalink: '/:collection/:path/'
   tool:
-    output: false
+    output: true
+    permalink: '/:collection/:path/'
   tools:
     output: true
     permalink: '/:collection/:path/'
@@ -79,9 +82,14 @@ defaults:
       layout: page
   - scope:
       path: ''
+      type: tool
+    values:
+      layout: tool
+  - scope:
+      path: ''
       type: tools
     values:
-      layout: tools
+      layout: tools    
   - scope:
       path: ''
       type: staff
