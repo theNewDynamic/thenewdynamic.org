@@ -54,9 +54,9 @@ collections:
   tool:
     output: true
     permalink: '/:collection/:path/'
-  tools:
+  _tool_type:
     output: true
-    permalink: '/:collection/:path/'
+    permalink: '/tools/:path/'
 
 # DEFAULTS
 defaults:
@@ -89,7 +89,7 @@ defaults:
       path: ''
       type: tools
     values:
-      layout: tools    
+      layout: tools
   - scope:
       path: ''
       type: staff
