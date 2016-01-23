@@ -12,7 +12,7 @@ layout: default
       <input class="search" type="search" placeholder="filter by name, source, or tool" />
         <ul class="linksTK filter-list flex-boxes">
           {% for object in data %}
-            {% include _format-showcase.html %}
+            {% include _showcase.html %}
           {% endfor %}
         </ul>
     </div>
@@ -22,13 +22,40 @@ layout: default
       {% include group-by-array.html collection=site.showcase field='tool' %}
       <div class="button-group">
         {% for tag in group_names  %}
-          <a href="/showcase/{{tag.url}}">
-            <button>
-              {{tag | capitalize }}
+
+            <button id="filter-{{ tag | slugify }}">
+              {{ tag }}
             </button>
-          </a>
+
         {% endfor %}
       </div>
     </div>
   </aside>
 </div>
+
+<script type="text/javascript">
+{% for tag in group_names  %}
+if (document.getElementById("filter-{{ tag | slugify }}")) {
+    document.getElementById("filter-{{ tag | slugify }}").onclick=function(){
+            linksList.filter(function(item) {
+               if (item.values().tool == "{{ tag | slugify }}" ) {
+                 return true;
+                 } else {
+                 return false;
+              }
+          });
+        };
+      }
+      if (document.getElementById("filter-{{ tag | slugify }}")) {
+          document.getElementById("filter-{{ tag | slugify }}").onclick=function(){
+                  linksList.filter(function(item) {
+                     if (item.values().tool2 == "{{ tag | slugify }}" ) {
+                       return true;
+                       } else {
+                       return false;
+                    }
+                });
+              };
+            }
+  {% endfor %}
+</script>

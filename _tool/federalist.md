@@ -3,7 +3,6 @@ title: "Federalist"
 date: 2015-10-03T16:53:00.000Z
 posted_date: 2015-10-03T16:53:00.000Z
 type: tool
-slug: federalist
 tool_type: editing
 links:
   github: https://github.com/18F/federalist

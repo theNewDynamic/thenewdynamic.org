@@ -8,7 +8,7 @@ layout: default
         <ul class="linksTK filter-list flex-boxes">
           {% assign data = site.posts | sort: 'date' | reverse  %}
           {% for object in data %}
-            {% include _format-posts.html %}
+            {% include _posts.html %}
           {% endfor %}
         </ul>
     </div>
@@ -17,7 +17,7 @@ layout: default
     <div class="small-screenTK">
       {% assign links = site.links | sort: 'date' | reverse %}
       {% for object in links limit:4  %}
-        {% include _format-list.html %}
+        {% include _list.html %}
       {% endfor %}
       {% include group-by-array.html collection=site.showcase field='tool' %}
       <div class="button-group">
