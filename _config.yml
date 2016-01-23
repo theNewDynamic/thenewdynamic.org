@@ -8,6 +8,7 @@ full_rebuild: true
 url: http://www.thenewdynamic.org
 image_url: http://thenewdynamic.imgix.net
 sitename:
+incremental: true
 timezone: Etc/Zulu
 port: 3575
 include:
