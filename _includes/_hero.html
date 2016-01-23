@@ -11,6 +11,16 @@
       {% if page.tool %}
         {% include _tool-used.html %}
       {% endif %}
+      {% if page.tool_type %}
+      {% assign tool_category = site.tool_type | where: 'category', page.tool_type  %}
+
+      <a href="{{ tool_category[0].url }}">
+        <button type="button" name="button">
+          {{ tool_category[0].title }}
+        </button>
+      </a>
+
+      {% endif %}
 
 
 

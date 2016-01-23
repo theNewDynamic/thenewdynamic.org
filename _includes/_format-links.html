@@ -1,0 +1,30 @@
+<li style="margin-bottom:1em;">
+  <a href="{{ object.link }}" target="_blank">
+    <div style="width:100%;">
+      <span class="name">{{ object.title }}</span>
+
+      {% if object.source %} <small style="color:#777;" class="source">by {{ object.source }}</small>{% endif %}
+
+      <span class="type hide">{% if object.type %}{{ object.type }}{% endif %}</span>
+
+      <span class="recommended">{% if object.editor_recommends %}Recommended{% endif %}</span>
+
+    </div>
+  </a>
+  <span class="more">
+    <em>
+      {{ object.date |date: '%b %d, %y' }}
+    </em>
+
+    {% if object.content %}
+    <br />
+     {{object.content | markdownify }}
+    {% endif %}
+
+    {% if object.video %}
+    <small class="video">VIDEO</small>
+    {% endif %}
+
+  </span>
+  </a>
+</li>

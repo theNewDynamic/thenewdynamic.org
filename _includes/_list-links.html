@@ -2,17 +2,16 @@
 
 
 {% assign general_articles = site.links | where: 'tool', '' %}
-
+<h2>General Links</h2>
+<ul class="links links-external filter-list" style="margin-bottom:4em;">
 {% for object in general_articles %}
 
-<h6>
-<a href='#'>{{ object.title }}</a>
-</h6>
+{% include _format-links.html %}
 {% endfor %}
-
+</ul>
 <hr />
 
-
+<h2>Links by Tool</h2>
 <ul>
 {% for tag in group_names %}
 {% assign posts = group_items[forloop.index0] | sort: 'date' | reverse  %}
@@ -20,16 +19,14 @@
 {% assign tool = site.tool | where: 'slug', tag  %}
 
 <li>
-  <h2>{{ tool[0].title }}
+  <h3 id="{{ tool[0].url | replace: '/tool/', '' | replace: '/',''  }}">{{ tool[0].title }}
     {% if posts.size > 0 %}
      <small style="font-size:.5em;">({{ posts.size }} link{% if posts.size > 1 %}s{% endif %})</small>
      {% endif %}
-   </h2>
-  <ul>
-    {% for post in posts %}
-    <li>
-      <a href='{{ site.baseurl }}{{ post.url }}'>{{ post.title }}</a>
-    </li>
+   </h3>
+  <ul class="links links-external filter-list" style="margin-bottom:4em;">
+    {% for object in posts %}
+    {% include _format-links.html %}
     {% endfor %}
   </ul>
 </li>

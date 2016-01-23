@@ -8,6 +8,10 @@ gulp.task('watch', function () {
          gulp.start('js-uglify');
      });
 
+     plugins.watch(config.jsSrcPath + '/**/*.js', function () {
+         gulp.start('js-concat',['js-uglify']);
+     });
+
      // Builds CSS
      plugins.watch(config.scssSrcPath + '/**/*.scss', function () {
          gulp.start('sass-compile');

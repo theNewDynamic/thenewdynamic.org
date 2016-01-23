@@ -2,7 +2,7 @@
 layout: default
 ---
 {% if page.category %} {% comment %} if a category page, just show results from that cat {% endcomment %}
-  {% assign data = site.tool | where: 'tools', page.category | sort: 'title' %}
+  {% assign data = site.tool | where: 'tool_type', page.category | sort: 'title' %}
 {% else %} {% comment %} otherwise show all tools {% endcomment %}
   {% assign data = site.tool | sort: 'title'  %}
 {% endif %}

@@ -54,7 +54,7 @@ collections:
   tool:
     output: true
     permalink: '/:collection/:path/'
-  _tool_type:
+  tool_type:
     output: true
     permalink: '/tools/:path/'
 
@@ -87,7 +87,7 @@ defaults:
       layout: tool
   - scope:
       path: ''
-      type: tools
+      type: tool_type
     values:
       layout: tools
   - scope:

@@ -22,6 +22,8 @@ button {
   &:focus {
     background-color: $light-gray;//$action-color;
     color: #fff;
+    @include transition(all .250s ease-in-out);
+
   }
 
   &:disabled {

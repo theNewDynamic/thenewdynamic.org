@@ -4,6 +4,7 @@
    "imgSrcPath":"./src/img",
    "cssDistPath":"./static/css",
    "jsDistPath":"./static/js",
+   "jsDistConcatPath":"./static/js/dist",
    "imgDistPath":"./static/images",
    "jekyllPath":"['./index.html', './_posts/*', './_layouts/*', './_includes/*' , './assets/*', './assets/**/*']",
    "browserList":"> 1%', 'last 2 versions', 'Firefox ESR', 'Opera 12.1",

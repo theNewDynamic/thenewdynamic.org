@@ -1,7 +1,7 @@
-{% assign tools = site.tool_type %}
+{% assign tools = site.tool_type | sort:'title' %}
 {% comment %} {% assign tools = tools|sort('name') %} {% endcomment %}
 <div class="button-group">
-{% for tool in tools %}
+{% for tool in tools%}
   <a href="{{ tool.url }}">
     <button style="{% if tool.color %}background-color:{{ tool.color }};{% endif %}{% if tool.text_color %}color:{{ tool.text_color }};{% endif %}">
       {{ tool.title }}

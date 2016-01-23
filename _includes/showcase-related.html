@@ -1,0 +1,20 @@
+{% assign showcase = site.showcase  %}
+{% assign count = '0' %}
+{% for object in showcase %}
+  {% if object.tool contains this_tool %}
+    {% capture count %}{{ count | plus: '1' }}{% endcapture %}
+    {% if count == '1' %}
+      <h3 class="flush">
+        {{ page.title }} Showcase Sites
+      </h3>
+      <small>
+        click image for more information
+      </small>
+      <hr />
+    {% endif %}
+    <a href="{{ object.url }}">
+      <img src="{{ site.image_url }}/{{ object.image_path }}?&usm=10" style="border:1px solid #ddd;margin: auto;">
+    </a>
+    <hr />
+  {% endif %}
+{% endfor %}

@@ -6,7 +6,7 @@ editor_recommends:
 type: Tutorial
 slug: links/create-a-cms-in-15ish-minutes
 source: de Voorhoede
-link: http://voorhoede.nl/blog/create-a-cms-in-15-minutes/
+link: https://www.voorhoede.nl/en/blog/create-a-cms-in-15ish-minutes/
 tool:
   - webhook
 ---

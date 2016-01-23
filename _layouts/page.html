@@ -16,6 +16,10 @@ layout: default
     {% endif %}
   </article>
   <aside>
+    {% if page.url contains '/links/' %}
+      {% include tools-list.html %}
+    {% endif %}
+
     {% include global/form-mailchimp.html %}
   </aside>
 </div>

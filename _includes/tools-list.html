@@ -1,0 +1,12 @@
+{% assign tools = site.tool %}
+
+<ul>
+
+  {% for object in tools %}
+    <li>
+      <a href="#{{ object.url | replace: '/tool/','' | replace: '/','' }}">
+        {{ object.title}}
+      </a>
+    </li>
+  {% endfor %}
+</ul>

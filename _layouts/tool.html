@@ -1,11 +1,13 @@
 ---
 layout: default
 ---
+{% assign this_tool = page.url | replace: '/tool/','' | replace: '/', '' %}
+{% assign tool_category = site.tool_type | where: 'category', page.tools  %}
 <div class="has-layout layout-article">
   {% if page.date %}
   <aside class="top">
 
-{% assign tool_category = site.tool_type | where: 'category', page.tools  %}
+
 
   <h3>{{ tool_category[0].title }}</h3>
 
@@ -48,15 +50,47 @@ layout: default
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   </aside>
   {% endif %}
   <article class="hentry">
     {{ content }}
+    {% include links-related.html %}
+    {% include showcase-related.html %}
+
+
+
+
+
+
     {% if page.url == '/links/' %}
       {% include _list-links.html %}
     {% endif %}
   </article>
   <aside>
+    <div style="margin:2em auto;">
+      {% include _prev-next.html %}
+    </div>
     {% include global/form-mailchimp.html %}
   </aside>
 </div>

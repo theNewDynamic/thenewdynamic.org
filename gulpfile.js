@@ -5,6 +5,9 @@ var plugins = require('gulp-load-plugins')();
 // JS Minification
 require(config.tasksPath + '/js-uglify')(gulp, plugins, config);
 
+// JS Concatenation
+require(config.tasksPath + '/js-concat')(gulp, plugins, config);
+
 // SASS Compliation
 require(config.tasksPath + '/sass-compile')(gulp, plugins, config);
 
