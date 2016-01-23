@@ -19,7 +19,7 @@ layout: default
   </article>
   <aside class="bottom">
     <div class="small-screenTK">
-      {% include group-by-array.html collection=site.showcase field='tool' %}
+      {% comment %} include group-by-array.html collection=site.showcase field='tool'
       <div class="button-group">
         {% for tag in group_names  %}
 
@@ -29,10 +29,11 @@ layout: default
 
         {% endfor %}
       </div>
+       {% endcomment %}
     </div>
   </aside>
 </div>
-
+{% comment %}
 <script type="text/javascript">
 {% for tag in group_names  %}
 if (document.getElementById("filter-{{ tag | slugify }}")) {
@@ -59,3 +60,4 @@ if (document.getElementById("filter-{{ tag | slugify }}")) {
             }
   {% endfor %}
 </script>
+ {% endcomment %}
