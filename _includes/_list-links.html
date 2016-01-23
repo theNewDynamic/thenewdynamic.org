@@ -19,7 +19,10 @@
 {% assign tool = site.tool | where: 'slug', tag  %}
 
 <li>
-  <h3 id="{{ tool[0].url | replace: '/tool/', '' | replace: '/',''  }}">{{ tool[0].title }}
+  <h3 id="{{ tool[0].url | replace: '/tool/', '' | replace: '/',''  }}">
+    <a href="{{ tool[0].url }}">
+      {{ tool[0].title }}
+    </a>
     {% if posts.size > 0 %}
      <small style="font-size:.5em;">({{ posts.size }} link{% if posts.size > 1 %}s{% endif %})</small>
      {% endif %}
