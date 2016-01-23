@@ -1,34 +1,21 @@
 <div class="hero">
   <div class="has-layout">
-
-      <h1>
-        {{ page.title }}
-      </h1>
-
-      <div class="hero-content">
-        {{ page.description }}
-      </div>
-      {% if page.tool %}
-        {% include _tool-used.html %}
-      {% endif %}
-      {% if page.tool_type %}
+    <h1>
+      {{ page.title }}
+    </h1>
+    <div class="hero-content">
+      {{ page.description }}
+    </div>
+    {% if page.tool %}
+      {% include _tool-used.html %}
+    {% endif %}
+    {% if page.tool_type %}
       {% assign tool_category = site.tool_type | where: 'category', page.tool_type  %}
-
       <a href="{{ tool_category[0].url }}">
         <button type="button" name="button">
           {{ tool_category[0].title }}
         </button>
       </a>
-
-      {% endif %}
-
-
-
+    {% endif %}
   </div>
 </div>
-
-{% comment %}
-<div class="column-2"></div>
-<div class="column-3"></div>
-
- {% endcomment %}

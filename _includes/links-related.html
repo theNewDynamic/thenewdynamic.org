@@ -5,17 +5,11 @@
   {% if object.tool contains this_tool %}
     {% capture count %}{{ count | plus: '1' }}{% endcapture %}
     {% if count == '1' %}
-
       <h3>
         {{ page.title }} Links
       </h3>
-
-
     {% endif %}
-
     {% include _format-links.html %}
-
-
   {% endif %}
 {% endfor %}
 </ul>

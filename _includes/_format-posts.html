@@ -1,32 +1,18 @@
 {% assign tools_used = object.tool  %}
 {% assign current_date = site.time | date: "%Y%m%d" %}
-    {% assign event_date = object.start_at | date: "%Y%m%d" %}
-
-
-
+{% assign event_date = object.start_at | date: "%Y%m%d" %}
 <li class="flex-box" style="border:1px solid #eee;">
   <a href="{{ object.url }}">
-{% if event_date >= current_date %}
-
-    <div class="ribbon-wrapper">
-      <div class="ribbon">Upcoming!</div>
-    </div>
-
-{% endif %}
-
-
-
+    {% if event_date >= current_date %}
+      <div class="ribbon-wrapper">
+        <div class="ribbon">Upcoming!</div>
+      </div>
+    {% endif %}
     <h4 class="flush name flex-title">
-
       {{ object.title }}
-
-
-
     </h4>
-
     {% if object.start_at %}
       <h5 class="deemphasize">
-
         {% if event_date >= current_date %}
           {{ object.start_at | date: "%A, %b %d" }}
           {{ object.start_at | date: "@  %I:%M %p" | replace: ' 0', '' | downcase }}
@@ -35,34 +21,20 @@
         {% endif %}
       </h5>
     {% endif %}
-
     {% if object.meetup %}
-
       {% capture meetup_slug %}/meetups/{{ object.meetup}}/{% endcapture %}
-
-    {% assign meetups = site.meetups | where: 'url', meetup_slug %}
-    {% assign meetup = meetups[0] %}
-
-{% if object.link and object.link != '' %}
-  <a href="{{ object.link }}">{{ meetup.title }}</a>
-
-  {% else %}
-  {{ meetup.title }}
-  {% endif %}
-
-
-
-
-
-
+      {% assign meetups = site.meetups | where: 'url', meetup_slug %}
+      {% assign meetup = meetups[0] %}
+      {% if object.link and object.link != '' %}
+        <a href="{{ object.link }}">
+          {{ meetup.title }}
+        </a>
+      {% else %}
+        {{ meetup.title }}
+      {% endif %}
     {% endif %}
-
-
     {% if object.description %}
-
-    {{ object.description | markdownify }}
+      {{ object.description | markdownify }}
     {% endif %}
-
-
-</a>
+  </a>
 </li>

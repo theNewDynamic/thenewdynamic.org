@@ -4,85 +4,23 @@ layout: default
 {% assign this_tool = page.url | replace: '/tool/','' | replace: '/', '' %}
 {% assign tool_category = site.tool_type | where: 'category', page.tools  %}
 <div class="has-layout layout-article">
-  {% if page.date %}
   <aside class="top">
-
-
-
-  <h3>{{ tool_category[0].title }}</h3>
-
-
-      <ul>
-        {% for object in page.links %}
-          <li>
-            <a href="{{object[1]}}">{{ object[0] |replace: 'https://', '' |replace: 'http://', '' | capitalize }}</a>
-          </li>
-        {% endfor %}
-      </ul>
-
-    {% comment %} ---
-    title: "Jekyll"
-    date: 2015-05-02T01:20:00.000Z
-    posted_date: 2015-05-02T01:20:00.000Z
-    type: tool
-    slug: jekyll
-    category: static-site-generator
-    links:
-      - http://jekyllrb.com/
-      - https://github.com/jekyll/jekyll
-      - https://twitter.com/jekyllrb
-    description: Ruby based static site generator with blogging and collections.
-    ---
-
-
-
- {% endcomment %}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-{% include links-related.html %}
-
-
+    <h3>
+      {{ tool_category[0].title }}
+    </h3>
+    <ul>
+      {% for object in page.links %}
+        <li>
+          <a href="{{object[1]}}">{{ object[0] |replace: 'https://', '' |replace: 'http://', '' | capitalize }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+    {% include links-related.html %}
   </aside>
-  {% endif %}
   <article class="hentry">
     {{ content }}
-
+    <hr />
     {% include showcase-related.html %}
-
-
-
-
-
-
     {% if page.url == '/links/' %}
       {% include _list-links.html %}
     {% endif %}

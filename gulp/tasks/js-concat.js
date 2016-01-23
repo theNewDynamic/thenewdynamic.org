@@ -5,7 +5,7 @@ gulp.task('js-concat', ['js-uglify'], function() {
 
   return gulp.src(
       [
-      './node_modules/jquery/dist/jquery.js',
+      
       config.jsSrcPath + '/*.js'
       ])
 

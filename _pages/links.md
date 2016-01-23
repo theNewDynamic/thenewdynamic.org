@@ -2,5 +2,5 @@
 title: Links
 date:
 permalink: /links/
-comments: true
+layout: links
 ---

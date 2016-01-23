@@ -1,7 +1,5 @@
-{% assign tools = site.tool %}
-
+{% assign tools = site.tool | sort: 'title' %}
 <ul>
-
   {% for object in tools %}
     <li>
       <a href="#{{ object.url | replace: '/tool/','' | replace: '/','' }}">

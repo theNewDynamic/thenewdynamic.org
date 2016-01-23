@@ -1,6 +1,4 @@
 header.navigation {
-
-
   background-color: $navigation-background;
   border-bottom: 1px solid lighten($navigation-background, 2%);
   min-height: $navigation-height;
@@ -50,9 +48,9 @@ header.navigation {
 
   ul.navigation-menu {
     -webkit-transform-style: preserve-3d; // stop webkit flicker
-    clear: both;
+    //clear: both;
 
-    display: block;
+    display: inline;
     //margin: 0 auto 2em auto;
     margin: 0 auto 0 auto;
     overflow: visible;
@@ -79,7 +77,7 @@ header.navigation {
   ul li.nav-link {
     background: $navigation-background;
     display: inline;
-    clear: left;
+    //clear: left;
     line-height: $navigation-height;
     overflow: hidden;
     text-align: right;
@@ -132,10 +130,10 @@ header.navigation {
   // Elements on the far right
 
 ul.secondary-links {
-  //display: none;
+  display: inline;
   float: left;
   line-height: $navigation-height;
-  margin-left:.75em;
+  ///////////////margin-left:.75em;
   @include media($large-screen) {
     display: block;
     float: right;

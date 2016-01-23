@@ -4,19 +4,15 @@ layout: default
 <div class="has-layout layout-article">
   <aside class="top">
     {% include _format-post-metadata.html %}
-<hr />
-
+    <hr />
   </aside>
   <article class="hentry">
     {{ page.content | markdownify }}
   </article>
   <aside>
-
     <div style="margin:2em auto;">
       {% include _prev-next.html %}
     </div>
-
     {% include global/form-mailchimp.html %}
-
   </aside>
 </div>

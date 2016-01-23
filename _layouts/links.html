@@ -1,0 +1,75 @@
+---
+layout: default
+---
+<div class="has-layout layout-article">
+  {% if page.date %}
+  <aside class="top">
+    <h6>
+      Published {{ page.date | date: "%B %-d, %Y"}}
+    </h6>
+  </aside>
+  {% endif %}
+  <article class="hentry">
+    {{ content }}
+    {% comment %} list links {% endcomment %}
+    {% include group-by-array.html collection=site.links field='tool' %}
+    {% assign general_articles = site.links | where: 'tool', '' %}
+    <h2>
+      General Links
+    </h2>
+    <ul class="links links-external filter-list" style="margin-bottom:4em;">
+      {% for object in general_articles %}
+        {% include _format-links.html %}
+      {% endfor %}
+    </ul>
+    <hr />
+    <h2>
+      Links by Tool
+    </h2>
+    <ul>
+      {% for tag in group_names %}
+        {% assign posts = group_items[forloop.index0] | sort: 'date' | reverse  %}
+        {% assign tool = site.tool | where: 'slug', tag  %}
+        <li>
+          <h3 id="{{ tool[0].url | replace: '/tool/', '' | replace: '/',''  }}">
+            <a href="{{ tool[0].url }}">
+              {{ tool[0].title }}
+            </a>
+            {% if posts.size > 0 %}
+              <small style="font-size:.5em;">
+                ({{ posts.size }} link{% if posts.size > 1 %}s{% endif %})
+              </small>
+            {% endif %}
+          </h3>
+          <ul class="links links-external filter-list" style="margin-bottom:4em;">
+            {% for object in posts %}
+              {% include _format-links.html %}
+            {% endfor %}
+          </ul>
+        </li>
+      {% endfor %}
+    </ul>
+    {% comment %} END list links {% endcomment %}
+
+  </article>
+  <aside>
+    {% comment %} links {% endcomment %}
+
+    <h3>Tools</h3>
+    <small>click to skip to that tool</small>
+    <ul>
+      {% for tag in group_names %}
+      {% assign tool = site.tool | where: 'slug', tag  %}
+        <li>
+          <a href="#{{ tool[0].url | replace: '/tool/','' | replace: '/','' }}">
+              {{ tool[0].title }}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+
+
+    {% comment %} END links {% endcomment %}
+    {% include global/form-mailchimp.html %}
+  </aside>
+</div>

@@ -1,5 +1,5 @@
 ---
-title: "A Free Jekyll Website Template for Nonprofits"
+title: "Free Jekyll Website Template for Nonprofits"
 date: 2015-11-19T17:33:00.000Z
 posted_date: 2015-11-19T17:33:00.000Z
 type: tool
