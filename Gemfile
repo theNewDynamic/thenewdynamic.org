@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+# gem 'github-pages'
 #gem 'jekyll'
 #gem "jekyll", "3.1.0.pre.rc2"
 gem "jekyll", "3.1.0.pre.rc3"
@@ -13,6 +14,6 @@ group :jekyll_plugins do
   #gem 'jekyll-archives'
 end
 # gem 'jekyll-paginate'
-# gem 'github-pages'
+
 # gem 'jekyll-picture-tag'
 # gem 'jekyll_pages_api_search'

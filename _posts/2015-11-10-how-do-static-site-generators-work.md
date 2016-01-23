@@ -11,20 +11,21 @@ tool:
 ### CONTENT IN
 
 Most, but not all, static site generators use markdown files to store content, with information about each file of content specified using YAML formatted front matter. It looks like this:
-```markdown
+
 
 ---
-title: 'The Title of an Entry Here'
-date: 2015-04-15
-category: 'News'
-excerpt: 'A short excerpt here'
-layout: default
-foo: 'Bar'
----
+  
+- - -  
+title: 'The Title of an Entry Here'  
+date: 2015-04-15  
+category: 'News'  
+excerpt: 'A short excerpt here'  
+layout: default  
+foo: 'Bar'  
+- - -  
 Some markdown content here, which is likely the longest part. This can be quite long, in fact.
 
-```
-
+---
 
 
 ### HTML OUT

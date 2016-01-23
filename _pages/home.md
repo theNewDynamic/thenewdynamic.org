@@ -1,7 +1,9 @@
 ---
 layout: home
 permalink: /
-title: "Static Site Generators and the Post-CMS paradigm"
-#description: 'The Static Web: Static Site Generators and the Post-CMS paradigm'
+description: 'The Static Web: Static Site Generators and the Post-CMS paradigm. <br />
+Resources for designers and developers.
+
+'
 ---
 home page

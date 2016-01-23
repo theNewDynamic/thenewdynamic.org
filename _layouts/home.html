@@ -15,14 +15,18 @@ layout: default
   </article>
   <aside class="bottom">
     <div class="small-screenTK">
+      <h3>Latest Links</h3>
       {% assign links = site.links | sort: 'date' | reverse %}
-      {% for object in links limit:4  %}
-        {% include _list.html %}
-      {% endfor %}
+      <ul class="links links-external filter-list" style="margin-bottom:4em;">
+        {% for object in links limit:4  %}
+          {% include _links.html %}
+        {% endfor %}
+      </ul>
       {% include group-by-array.html collection=site.showcase field='tool' %}
+      <h3>Showcased Tools</h3>
       <div class="button-group">
         {% for tag in group_names  %}
-          <a href="/showcase/{{tag.url}}">
+          <a href="/tool/{{tag}}">
             <button>
               {{tag | capitalize }}
             </button>

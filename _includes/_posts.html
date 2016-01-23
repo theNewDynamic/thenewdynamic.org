@@ -1,7 +1,7 @@
 {% assign tools_used = object.tool  %}
 {% assign current_date = site.time | date: "%Y%m%d" %}
 {% assign event_date = object.start_at | date: "%Y%m%d" %}
-<li class="flex-box" style="border:1px solid #eee;">
+<li class="flex-box{% if forloop.index == 1 %} flex-box-big{% endif %}" style="border:1px solid #eee;">
   <a href="{{ object.url }}">
     {% if event_date >= current_date %}
       <div class="ribbon-wrapper">
