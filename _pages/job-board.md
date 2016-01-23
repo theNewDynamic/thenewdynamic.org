@@ -1,7 +1,6 @@
 ---
 title: Job Board
 date:
-permalink: /job-board/
 ---
 Coming Soon! If you are a designer or developer who works with static technology, get in touch and we'll post your information here.
 

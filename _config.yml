@@ -65,6 +65,7 @@ defaults:
       type: pages
     values:
       layout: page
+      permalink: /:basename/
   - scope:
       path: ''
       type: posts

@@ -1,6 +1,5 @@
 ---
 title: About
-permalink: /about/
 ---
 {static is} The New Dynamic began in 2014 by Bud Parr to help fellow front-end developers and designers utilize static web technology in their work. The purpose of this site is to promote the use of static site generators for people who build websites.
 
