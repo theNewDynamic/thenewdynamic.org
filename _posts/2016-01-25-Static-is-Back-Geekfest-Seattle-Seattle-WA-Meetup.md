@@ -1,5 +1,5 @@
 ---
-title: "Static is Back - Geekfest Seattle (Seattle, WA) - Meetup"
+title: "Static is Back - Geekfest Seattle Meetup"
 category: event
 date: 2016-01-25T12:00:00.000Z
 start_at: 2016-02-06T12:00:00.000Z

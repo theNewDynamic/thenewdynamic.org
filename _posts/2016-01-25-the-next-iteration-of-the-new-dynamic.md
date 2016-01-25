@@ -1,6 +1,6 @@
 ---
 title: The Next Iteration of The New Dynamic
-date: 2016-01-25T00:09:00.000Z
+date: 2016-01-25T19:09:00.000Z
 category: article
 description: "Jekyll, Netlify, CloudCannon, job board coming soon"
 ---
