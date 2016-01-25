@@ -11,6 +11,3 @@ tool:
   - pelican
 ---
 First in a series
-
-
-
