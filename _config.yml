@@ -7,7 +7,8 @@ description: "Static Site Generators <small>and the Post-CMS paradigm</small>"
 full_rebuild: true
 url: http://www.thenewdynamic.org
 image_url: https://thenewdynamic.imgix.net
-sitename:
+future: false
+sitename: Static is The New Dynamic
 incremental: true
 timezone: Etc/Zulu
 port: 3575
@@ -28,7 +29,6 @@ exclude:
   - javascript
   - vendor
 permalink: pretty
-future: false
 
 # PLUGINS
 # gems: [jekyll-sitemap, jekyll-imgix]
