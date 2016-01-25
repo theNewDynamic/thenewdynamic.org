@@ -60,8 +60,9 @@ layout: default
     <ul>
       {% for tag in group_names %}
       {% assign tool = site.tool | where: 'slug', tag  %}
+      {% assign posts = group_items[forloop.index0] | sort: 'date' | reverse  %}
         <li>
-          <a href="#{{ tool[0].url | replace: '/tool/','' | replace: '/','' }}">
+          <a href="#{{ tool[0].slug }}">
               {{ tool[0].title }}
           </a>
           {% if posts.size > 0 %}
