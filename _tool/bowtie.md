@@ -1,6 +1,6 @@
 ---
 title: "BowTie.io"
-date: 2016-01-14 23:30
+date: 2016-01-14T18:47:00.000Z
 tool_type: hosting-deployment
 links:
   website: https://bowtie.io
