@@ -1,5 +1,5 @@
 ---
-title: showcase
+title: Static Site Showcase
 date:
 layout: showcase
 regenerate: true

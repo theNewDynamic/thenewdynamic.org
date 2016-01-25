@@ -4,11 +4,17 @@
     <h4 class="name flex-title" style="min-height:53px;">
       {{ object.title }}
     </h4>
-        {% assign image = object.image_path %}
-        <img src={{ image | imgix_url: w: 225, h: 125, fit:'clamp', exp:'1' }} style="border:1px solid #ddd;">
-    {% if object.content %}
-    <div>  <small><a href="{{ url(object) }}" class="red">&raquo; read developer notes &laquo;</a></small></div>
-    {% endif %}
+      {% assign image = object.image_path %}
+      <img src={{ image | imgix_url: w: 225, h: 125, fit:'clamp', exp:'1' }} style="border:1px solid #ddd;">
+    {% comment %} TODO: Remove this
+      {% if object.content %}
+        <div>
+          <small>
+            <a href="{{ url(object) }}" class="red">&raquo; read developer notes &laquo;</a>
+          </small>
+        </div>
+      {% endif %}
+     {% endcomment %}
     <div class="light meta">
       {% if tools_used %}
       {% assign count = '0' %}
