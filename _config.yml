@@ -6,7 +6,7 @@ description: "Static Site Generators <small>and the Post-CMS paradigm</small>"
 ## DO NOT EDIT BELOW THIS LINE
 full_rebuild: true
 url: http://www.thenewdynamic.org
-image_url: http://thenewdynamic.imgix.net
+image_url: https://thenewdynamic.imgix.net
 sitename:
 incremental: true
 timezone: Etc/Zulu
