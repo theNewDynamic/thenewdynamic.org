@@ -10,6 +10,9 @@ I had intended to host the site on S3 as I had originally done, provisioning my 
 
 As I've building up my collections on the site, I've set up defaults for managing the site's content in [CloudCannon's](http://cloudcannon.com/) editor, which is beautiful and capable. I use it for my clients, so, even though I do most of my work locally, I like having the ability to do so. Defaults are pretty easy to set up and have the added benefit of forcing you to standardize your fields a bit.
 
+I've also started using [Imgix](https://www.imgix.com/) for provisioning images. It's super nice being able to manipulate images on the fly and their CDN is fast and it's quite easy to get up and running. Stay tuned for a post soon about getting up and running.
+
+
 ### Changes
 
 #### Job Board
