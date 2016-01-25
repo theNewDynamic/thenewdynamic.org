@@ -5,6 +5,7 @@ posted_date: 2015-05-08T22:01:00.000Z
 type: tool
 slug: statamic
 tool_type: cms
+description: "Flat-file CMS. (not static)"
 links:
   website: http://statamic.com/
 ---

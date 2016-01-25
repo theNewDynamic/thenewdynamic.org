@@ -18,8 +18,3 @@ tool:
   - Static Website Manager
 color: "#ebebeb"
 ---
-
-
-
-
-
