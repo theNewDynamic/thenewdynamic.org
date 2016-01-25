@@ -31,9 +31,10 @@ permalink: pretty
 future: false
 
 # PLUGINS
-gems:
-- jekyll-sitemap
-
+# gems: [jekyll-sitemap, jekyll-imgix]
+imgix:
+  source: thenewdynamic.imgix.net # Your imgix source address
+  secure_url_token: 6BaKs9WMBNT1tnPZ # (optional) The Secure URL Token associated with your source
 # PRODUCTION
 google_analytics_id: UA-30899180-4
 bust_css_cache: true

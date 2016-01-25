@@ -7,7 +7,7 @@ group :jekyll_plugins do
   # gem "jekyll-lunr-js-search"
   # gem 'jekyll-assets'
   # gem 'autoprefixer-rails'
-  # gem 'uglifier'
+  gem 'jekyll-imgix'
   gem 'jekyll-sitemap'
   #gem 'jekyll-archives'
 end

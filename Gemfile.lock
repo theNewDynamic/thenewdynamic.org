@@ -23,6 +23,8 @@ GEM
       typhoeus (~> 0.7)
       yell (~> 2.0)
     i18n (0.7.0)
+    imgix (1.0.0)
+      addressable
     jekyll (3.1.0)
       colorator (~> 0.1)
       jekyll-sass-converter (~> 1.0)
@@ -32,6 +34,8 @@ GEM
       mercenary (~> 0.3.3)
       rouge (~> 1.7)
       safe_yaml (~> 1.0)
+    jekyll-imgix (0.1.1)
+      imgix
     jekyll-sass-converter (1.4.0)
       sass (~> 3.4)
     jekyll-sitemap (0.9.0)
@@ -68,6 +72,7 @@ PLATFORMS
 DEPENDENCIES
   html-proofer
   jekyll
+  jekyll-imgix
   jekyll-sitemap
 
 BUNDLED WITH

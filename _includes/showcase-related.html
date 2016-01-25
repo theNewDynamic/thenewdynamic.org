@@ -12,9 +12,12 @@
       </small>
       <hr />
     {% endif %}
-    <a href="{{ object.url }}">
-      <img src="{{ site.image_url }}/{{ object.image_path }}?&usm=10" style="border:1px solid #ddd;margin: auto;">
-    </a>
+    {% if page.image_path %}
+      <a href="{{ object.url }}">
+        {% assign image = page.image_path %}
+        <img src={{ image | imgix_url }} style="border:1px solid #ddd;margin: auto;">
+      </a>
+    {% endif %}
     <hr />
   {% endif %}
 {% endfor %}
