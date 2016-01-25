@@ -23,7 +23,7 @@ GEM
       typhoeus (~> 0.7)
       yell (~> 2.0)
     i18n (0.7.0)
-    jekyll (3.1.0.pre.rc3)
+    jekyll (3.1.0)
       colorator (~> 0.1)
       jekyll-sass-converter (~> 1.0)
       jekyll-watch (~> 1.1)
@@ -67,7 +67,7 @@ PLATFORMS
 
 DEPENDENCIES
   html-proofer
-  jekyll (= 3.1.0.pre.rc3)
+  jekyll
   jekyll-sitemap
 
 BUNDLED WITH
