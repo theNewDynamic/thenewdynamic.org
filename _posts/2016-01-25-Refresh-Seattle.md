@@ -2,7 +2,7 @@
 title: "Workshop: Best Practices in Static Web hosting"
 category: event
 start_at: 2016-01-27T19:00:00.000Z
-link: http://refreshseattle.org/
+link: http://refreshseattle.org/events/27
 description: Continuous deployment with Aerobatic and Bitbucket
 venue:  Code Fellows
 address: "511 Boren Ave. N, Seattle, WA 98109"
