@@ -12,9 +12,9 @@
       </small>
       <hr />
     {% endif %}
-    {% if page.image_path %}
+    {% if object.image_path %}
       <a href="{{ object.url }}">
-        {% assign image = page.image_path %}
+        {% assign image = object.image_path %}
         <img src={{ image | imgix_url }} style="border:1px solid #ddd;margin: auto;">
       </a>
     {% endif %}
