@@ -57,3 +57,9 @@
 #mc_embed_signup label {
   @include accessibility_hidden;
 }
+
+.heading {
+  width: 100%;
+  clear: both;
+  margin: 1em auto;
+}

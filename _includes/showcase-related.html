@@ -4,13 +4,14 @@
   {% if object.tool contains this_tool %}
     {% capture count %}{{ count | plus: '1' }}{% endcapture %}
     {% if count == '1' %}
+    <div class="heading">
       <h3 class="flush">
         {{ page.title }} Showcase Sites
       </h3>
       <small>
         click image for more information
       </small>
-      <hr />
+      </div>
     {% endif %}
     {% if object.image_path %}
       <a href="{{ object.url }}">

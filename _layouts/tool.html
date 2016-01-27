@@ -11,7 +11,7 @@ layout: default
     <ul>
       {% for object in page.links %}
         <li>
-          <a href="{{object[1]}}">{{ object[0] |replace: 'https://', '' |replace: 'http://', '' | capitalize }}</a>
+          <a href="{{object[1]}}">{{ object[0] |replace: 'https://', '' |replace: 'http://', '' | capitalize }} {% include snippets/icon-external-link.html %}</a>
         </li>
       {% endfor %}
     </ul>
@@ -19,7 +19,6 @@ layout: default
   </aside>
   <article class="hentry">
     {{ content }}
-    <hr />
     {% include showcase-related.html %}
   </article>
   <aside>
