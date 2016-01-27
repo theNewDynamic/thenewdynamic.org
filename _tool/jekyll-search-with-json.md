@@ -5,6 +5,7 @@ posted_date: 2015-05-16T22:58:00.000Z
 type: tool
 slug: jekyll-search-with-json
 tool_type: interaction
+tag: jekyll
 tags:
  - Search
 links:

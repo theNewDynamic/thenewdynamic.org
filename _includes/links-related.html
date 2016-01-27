@@ -1,6 +1,6 @@
 {% assign links = site.links | sort: 'date' | reverse  %}
 {% assign count = '0' %}
-<ul class="links links-external filter-list" style="margin-bottom:4em;">
+<ul class="links links-external filter-list" style="margin:4em 0;">
 {% for object in links %}
   {% if object.tool contains this_tool %}
     {% capture count %}{{ count | plus: '1' }}{% endcapture %}

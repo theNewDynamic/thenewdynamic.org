@@ -1,0 +1,17 @@
+
+
+{% assign data = site.tool | where: 'tag', page.slug | sort: 'title' %}
+
+<h3 class="flush">
+  Related Tools
+</h3>
+
+<ul class="linksTK links-externaltk" style="margin:0;">
+{% for object in data %}
+    <li>
+      <a href="{{ object.url }}">
+        {{ object.title }}
+      </a>
+    </li>
+{% endfor %}
+</ul>
