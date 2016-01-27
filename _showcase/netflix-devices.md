@@ -1,6 +1,6 @@
 ---
 title: "Netflix Devices"
-date: 2015-10-15T20:42:00.000Z
+date: 2015-10-25T20:42:00.000Z
 posted_date: 2015-10-15T20:42:00.000Z
 type: showcase
 slug: netflix-devices

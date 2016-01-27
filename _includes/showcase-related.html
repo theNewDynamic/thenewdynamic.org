@@ -1,4 +1,4 @@
-{% assign showcase = site.showcase  %}
+{% assign showcase = site.showcase | sort: "date" | reverse  %}
 {% assign count = '0' %}
 {% for object in showcase %}
   {% if object.tool contains this_tool %}
