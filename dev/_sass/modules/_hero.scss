@@ -1,8 +1,12 @@
 .hero {
   $hero-background-color:darken($navigation-background, 2%);
   background-color:darken($hero-background-color, .9%);
-  padding-top: 3em;
-  padding-bottom:3em;
+  padding-top: 1em;
+  padding-bottom:1em;
+  @include media ($horizontal-bar-mode) {
+    padding-top: 3em;
+    padding-bottom:3em;
+  }
   button {
     margin-right: 1em;
     margin-top: .5em;
@@ -25,8 +29,10 @@
   }
   }
   .hero-content {
-    font-size: 1.125em;
     font-weight: 300;
     color: white;
+    @include media ($horizontal-bar-mode) {
+      font-size: 1.125em;
+    }
   }
 }

@@ -20,7 +20,7 @@ ul.links li {
     display: block;
     font-size: .875em;
     margin-top: .75em;
-    padding:1em 4em 1em 1.5em;
+    padding:1em 1em 1em 1.5em;
     @include transition (all 6.3s ease-out);
     color: $dark-gray;
     background-color: darken($background-color, 3%);
