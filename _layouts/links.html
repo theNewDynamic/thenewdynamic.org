@@ -13,7 +13,7 @@ layout: default
     {{ content }}
     {% comment %} list links {% endcomment %}
     {% include group-by-array.html collection=site.links field='tool' %}
-    {% assign general_articles = site.links | where: 'tool', '' %}
+    {% assign general_articles = site.links | where: 'tool', '' | reverse %}
     <h2>
       General Links
     </h2>
