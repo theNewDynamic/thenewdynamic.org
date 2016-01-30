@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'fontello';
-  src: url('../../static/font/fontello.eot?63593820');
-  src: url('../../static/font/fontello.eot?63593820#iefix') format('embedded-opentype'),
-       url('../../static/font/fontello.woff?63593820') format('woff'),
-       url('../../static/font/fontello.ttf?63593820') format('truetype'),
-       url('../../static/font/fontello.svg?63593820#fontello') format('svg');
+  src: url('../../static/font/fontello.eot?90077133');
+  src: url('../../static/font/fontello.eot?90077133#iefix') format('embedded-opentype'),
+       url('../../static/font/fontello.woff?90077133') format('woff'),
+       url('../../static/font/fontello.ttf?90077133') format('truetype'),
+       url('../../static/font/fontello.svg?90077133#fontello') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -14,7 +14,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'fontello';
-    src: url('../font/fontello.svg?63593820#fontello') format('svg');
+    src: url('../font/fontello.svg?90077133#fontello') format('svg');
   }
 }
 */
@@ -54,11 +54,12 @@
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 
-.icon-ion-ios-arrow-back:before { content: '\e802'; } /* '' */
-.icon-ion-ios-arrow-forward:before { content: '\e803'; } /* '' */
-.icon-ion-android-arrow-dropup:before { content: '\e806'; } /* '' */
-.icon-ion-android-arrow-dropdown:before { content: '\e807'; } /* '' */
-.icon-ion-social-twitter:before { content: '\e808'; } /* '' */
-.icon-ion-information-circled:before { content: '\e809'; } /* '' */
-.icon-ion-social-github:before { content: '\e80a'; } /* '' */
-.icon-ion-android-open:before { content: '\e80b'; } /* '' */
+.icon-ion-ios-arrow-left:before { content: '\e800'; } /* '' */
+.icon-ion-ios-arrow-right:before { content: '\e801'; } /* '' */
+.icon-ion-android-arrow-dropup:before { content: '\e802'; } /* '' */
+.icon-ion-social-twitter-outline:before { content: '\e803'; } /* '' */
+.icon-ion-ios-information:before { content: '\e804'; } /* '' */
+.icon-ion-social-github:before { content: '\e805'; } /* '' */
+.icon-link-ext:before { content: '\e806'; } /* '' */
+.icon-ion-ios-videocam-outline:before { content: '\e807';color: red; } /* '' */
+.icon-ion-ios-star-outline:before { content: '\e808'; color: red;} /* '' */

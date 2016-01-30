@@ -7,7 +7,14 @@
 
       <span class="type hide">{% if object.type %}{{ object.type }}{% endif %}</span>
 
-      <span class="recommended">{% if object.editor_recommends %}Recommended{% endif %}</span>
+      <span class="recommended">{% if object.editor_recommends %}
+        <i class="icon-ion-ios-star-outline"></i>
+        {% endif %}</span>
+
+      {% if object.video %}
+      <i class="icon-ion-ios-videocam-outline"></i>
+      {% endif %}
+
 
     </div>
   </a>
@@ -23,6 +30,7 @@
 
     {% if object.video %}
     <small class="video">VIDEO</small>
+    <i class="icon-ion-ios-videocam-outline"></i>
     {% endif %}
 
   </span>
