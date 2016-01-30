@@ -3,6 +3,7 @@ title: "Why Static Website Generators Are The Next Big Thing"
 date: 2015-11-02T16:22:00.000Z
 posted_date: 2015-11-02T16:22:00.000Z
 editor_recommends: 3
+category: essentials
 type: Article
 slug: links/why-static-website-generators-are-the-next-big-thing
 source: Mathias Biilmann, Smashing Magazine

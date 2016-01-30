@@ -14,12 +14,24 @@ layout: default
     {% comment %} list links {% endcomment %}
     {% include group-by-array.html collection=site.links field='tool' %}
     {% assign general_articles = site.links | where: 'tool', '' | reverse %}
+    {% assign essentials = site.links | where: 'category', 'essentials' | reverse %}
+    <h2>
+      Essentials
+    </h2>
+    <ul class="links links-external filter-list" style="margin-bottom:4em;">
+      {% for object in essentials %}
+        {% include _links.html %}
+      {% endfor %}
+    </ul>
     <h2>
       General Links
     </h2>
     <ul class="links links-external filter-list" style="margin-bottom:4em;">
+
       {% for object in general_articles %}
+        {% unless object.category == 'essentials' %}
         {% include _links.html %}
+        {% endunless %}
       {% endfor %}
     </ul>
     <hr />
