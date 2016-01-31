@@ -1,12 +1,27 @@
 ---
 layout: default
 ---
-{% assign data = site.posts | where: 'category', 'event' | sort: 'date' | reverse  %}
+{% assign events_upcoming = site.posts | where: 'category', 'event' | sort: 'start_at' %}
+{% assign events = site.posts | where: 'category', 'event' | sort: 'date' | reverse  %}
+
+
 <div class="has-layout layout-2-column">
   <article class="hentry">
         <ul class="linksTK filter-list flex-boxes">
-          {% for object in data %}
-            {% include _posts.html %}
+          {% for object in events_upcoming %}
+            {% assign event_date = object.start_at | date: "%Y%m%d" %}
+            {% assign current_date = site.time | date: "%Y%m%d" %}
+            {% if event_date >= current_date %}
+              {% include _posts.html %}
+            {% endif %}
+          {% endfor %}
+
+          {% for object in events %}
+            {% assign event_date = object.start_at | date: "%Y%m%d" %}
+            {% assign current_date = site.time | date: "%Y%m%d" %}
+            {% if event_date <= current_date %}
+              {% include _posts.html %}
+            {% endif %}
           {% endfor %}
         </ul>
   </article>
