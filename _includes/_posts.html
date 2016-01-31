@@ -24,6 +24,7 @@
         {% endif %}
       </h5>
     {% endif %}
+    {% if object.category %}<span class="type hide">{{ object.category  }}</span>{% endif %}
     {% if object.meetup %}
       {% capture meetup_slug %}/meetups/{{ object.meetup}}/{% endcapture %}
       {% assign meetups = site.meetups | where: 'url', meetup_slug %}
