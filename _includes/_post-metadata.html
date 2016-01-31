@@ -35,4 +35,13 @@
   {% else %}
     {{ meetup.title }}
   {% endif %}
+{% else %}
+  {% if page.link and page.link != '' and page.venue %}
+    <a href="{{ page.link }}">
+      {{ page.venue }}
+    </a>
+  {% endif %}
 {% endif %}
+
+
+
