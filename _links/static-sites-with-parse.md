@@ -9,7 +9,7 @@ source: Yon Bergman
 link: http://www.yonbergman.com/2015/04/28/static-sites-with-parse/
 tool:
 ---
-
+[_ed. Note that Parse is closing_]
 
 
 
