@@ -10,6 +10,9 @@
     {% endif %}
     <h4 class="flush name flex-title">
       {{ object.title }}
+      {% if object.video %}
+       &nbsp;{% include snippets/icon-video.html %}
+      {% endif %}
     </h4>
     {% if object.start_at %}
       <h5 class="deemphasize">
@@ -25,13 +28,7 @@
       {% capture meetup_slug %}/meetups/{{ object.meetup}}/{% endcapture %}
       {% assign meetups = site.meetups | where: 'url', meetup_slug %}
       {% assign meetup = meetups[0] %}
-      {% if object.link and object.link != '' %}
-        <a href="{{ object.link }}">
-          {{ meetup.title }}
-        </a>
-      {% else %}
         {{ meetup.title }}
-      {% endif %}
     {% endif %}
     {% if object.description %}
       {{ object.description | markdownify }}

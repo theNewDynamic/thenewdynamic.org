@@ -5,7 +5,8 @@ posted_date: 2015-06-12T03:29:00.000Z
 category: event
 slug: video-and-slides-from-our-first-meetup
 source:
-description: We had a great first Meetup and here are the slides.
+description: Why use Static Site Generators and How they Work
+video: true
 tool:
   - Jekyll
   - Webhook
