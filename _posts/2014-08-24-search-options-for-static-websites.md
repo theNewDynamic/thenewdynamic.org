@@ -18,5 +18,7 @@ Here are some options for adding search and/or filters to your static website. T
 - [Tapir](http://tapirgo.com/)
 - [Jekyll search with JSON](http://mathayward.com/jekyll-search/)
 
+- [18F's jekyll Pages API Search](https://github.com/18F/jekyll_pages_api_search)
+
 The less-technically inclined may want to look at something like Swiftype (paid, but has a limited free option), Tapir or Tipue. I use List.js extensively for filtering and recommend it highly.
 
