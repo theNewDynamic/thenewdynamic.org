@@ -7,7 +7,7 @@ type: Tutorial
 tool:
   - middleman
 ---
-> This is part one of a small series about Middleman, “a static site generator using all the shortcuts and tools in modern web development”. The first two tutorials will cover the basics, after which we’ll put what we’ve learned into action with a practical project. Middleman does require the use of Ruby, but don’t hesitate to read on if this is alien to you; this series is completely newbie-friendly.
+This is part one of a small series about Middleman, “a static site generator using all the shortcuts and tools in modern web development”. The first two tutorials will cover the basics, after which we’ll put what we’ve learned into action with a practical project. Middleman does require the use of Ruby, but don’t hesitate to read on if this is alien to you; this series is completely newbie-friendly.
 
 
 
