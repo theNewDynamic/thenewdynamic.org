@@ -11,7 +11,14 @@ links:
   twitter: https://twitter.com/jekyllrb
 description: Ruby based static site generator with blogging and collections
 ---
-Jekyll is the most popular static site generator, and among the oldest. It enjoys an avid community and a dedicated core team. 
+Jekyll is the most popular static site generator, and among the oldest. It enjoys an avid community and a dedicated core team.
+
+Resources:  
+[Jekyll Cheat Sheet](http://cheat.jekyll.tips/)  
+[Jekyll Tips](http://jekyll.tips/)  
+[Awesome Jekyll](https://github.com/planetjekyll/awesome-jekyll)  
+[Jekyll Tags and Filters (Jekyll 2.4 as of this writing)](http://jekyll.pygmeeweb.com/tests/)  
+[Jekyll Weekly Newsletter](http://jekyllweekly.com/)
 
 
 
