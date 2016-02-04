@@ -1,11 +1,11 @@
 ---
-title: "JekyllConf - The free, online global conference for all things Jekyll"
+title: "JekyllConf"
 start_at: 2016-05-07T10:00:00.000Z
 category: event
 link: http://jekyllconf.com/
 venue: JekyllCOnf Online
 link: http://jekyllconf.com/
-Description: "The free, online global conference for all things Jekyll"
+description: "The free, online global conference for all things Jekyll"
 tool:
   - Jekyll
 ---
