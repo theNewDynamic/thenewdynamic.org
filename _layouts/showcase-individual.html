@@ -2,7 +2,7 @@
 layout: default
 ---
 <div class="has-layout layout-2-column">
-  <article>
+  <article class="hentry">
     {% if page.image_path %}
       {% assign image = page.image_path %}
       <img src={{ image | imgix_url }} style="border:1px solid #ddd;margin: auto;">
