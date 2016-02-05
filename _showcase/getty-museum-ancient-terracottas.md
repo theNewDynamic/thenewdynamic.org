@@ -4,6 +4,7 @@ date: 2016-02-04T03:47:00.000Z
 website: http://www.getty.edu/publications/terracottas/
 image_path: getty-museum-ancient-terracottas.jpg
 tool:
+  - lunrjs
   - middleman
 creator:
   - role: "Design, development"
