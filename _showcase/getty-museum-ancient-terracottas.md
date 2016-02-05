@@ -2,7 +2,7 @@
 title: "Getty Museum's Ancient Terracottas"
 date: 2016-02-04T03:47:00.000Z
 website: http://www.getty.edu/publications/terracottas/
-image_path: getty-museum-ancient-terracottas.jpg
+image_path: getty-museum-ancient-terracottas-1600.jpg
 tool:
   - middleman
   - lunrjs
