@@ -7,7 +7,9 @@ layout: default
     <hr />
   </aside>
   <article class="hentry">
-    {{ page.content | markdownify }}
+    <div class="prose">
+      {{ page.content | markdownify }}
+    </div>
   </article>
   <aside>
     <div style="margin:2em auto;">
