@@ -13,9 +13,13 @@
           <h1>:{{ link.title}}:</h1>
           {% endif %}
           {% endfor %}
-          {% if object.description %}
+          {% if object.description and object.description != '' %}
           <p class="small">
             {{ object.description }}
+          </p>
+          {% elsif object.content !='' %}
+          <p class="small">
+            {{ object.content | truncate: 75 }}
           </p>
           {% endif %}
     </a>
