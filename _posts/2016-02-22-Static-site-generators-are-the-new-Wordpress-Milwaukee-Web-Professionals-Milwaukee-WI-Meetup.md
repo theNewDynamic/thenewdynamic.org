@@ -1,7 +1,7 @@
 ---
 title: "Static site generators are the new Wordpress - Milwaukee Web Professionals Meetup"
 category: event
-date: 2016-02-22 13:41
+date: 2016-02-21 13:41
 venue:  "Tannery Business Center, Milwaukee, WI"
 start_at: 2016-02-24T18:00:00.000Z
 link: http://www.meetup.com/mke-web-pros/events/228178537/
