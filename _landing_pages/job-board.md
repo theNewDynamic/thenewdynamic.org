@@ -1,6 +1,5 @@
 ---
 title: Job Board
-date:
 ---
 Coming Soon! If you are a designer or developer who works with static technology, get in touch and we'll post your information here.
 

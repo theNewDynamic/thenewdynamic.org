@@ -1,11 +1,12 @@
 categories:
-  - ''
+  - 'article'
+  - 'event'
 description: "Static Site Generators <small>and the Post-CMS paradigm</small>"
 
 
 ## DO NOT EDIT BELOW THIS LINE
 version: 3.0.3
-full_rebuild: true
+# full_rebuild: true
 url: http://www.thenewdynamic.org
 image_url: https://thenewdynamic.imgix.net
 future: false
@@ -42,6 +43,9 @@ bust_css_cache: true
 
 # CONTENT
 collections:
+  landing_pages:
+    output: true
+    permalink: '/:path/'
   links:
     output: true
     permalink: '/link/:path/'
@@ -60,12 +64,6 @@ collections:
 
 # DEFAULTS
 defaults:
-  - scope:
-      path: ''
-      type: pages
-    values:
-      layout: page
-      permalink: /:basename/
   - scope:
       path: ''
       type: posts
