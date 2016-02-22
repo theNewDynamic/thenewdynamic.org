@@ -1,7 +1,6 @@
 ---
 title: "Static Showdown - Worldwide Virtual Hackathon for Progressive Web Apps"
 source:
-date: 2016-02-19 08:59
 start_at: 2016-02-20T18:00:00.000Z
 link: https://2016.staticshowdown.com/
 category: event
