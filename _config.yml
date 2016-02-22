@@ -31,6 +31,7 @@ exclude:
   - vendor
 permalink: pretty
 
+
 # PLUGINS
 # gems: [jekyll-sitemap, jekyll-imgix]
 imgix:
@@ -41,9 +42,6 @@ bust_css_cache: true
 
 # CONTENT
 collections:
-  articles:
-    output: true
-    permalink: '/article/:path/'
   links:
     output: true
     permalink: '/link/:path/'
@@ -73,6 +71,7 @@ defaults:
       type: posts
     values:
       layout: post
+      category: article
   - scope:
       path: ''
       type: events
