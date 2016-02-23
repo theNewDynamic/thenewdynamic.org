@@ -4,9 +4,13 @@ layout: default
 <div class="has-layout layout-2-column">
   <article>
     <div id="filter-container">
-      <input class="search" type="search" placeholder="filter by name, source, or tool" />
+      <input class="search" type="search" placeholder="filter posts" />
         <ul class="linksTK filter-list flex-boxes">
           {% assign data = site.posts | sort: 'date' | reverse  %}
+          {% assign data_featured = site.posts |where: 'featured', true | sort: 'date' | reverse  %}
+          {% for object in data_featured %}
+            {% include _posts.html %}
+          {% endfor %}
           {% for object in data %}
             {% include _posts.html %}
           {% endfor %}
