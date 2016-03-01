@@ -1,5 +1,6 @@
 ---
 layout: home
+title: ''
 permalink: /
 regenerate: true
 description: '**The Static Web: Static Site Generators and the Post-CMS paradigm.** <br />
