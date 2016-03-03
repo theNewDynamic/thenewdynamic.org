@@ -8,6 +8,8 @@ require(config.tasksPath + '/js-uglify')(gulp, plugins, config);
 // JS Concatenation
 require(config.tasksPath + '/js-concat')(gulp, plugins, config);
 
+require(config.tasksPath + '/file-copy')(gulp, plugins, config);
+
 // SASS Compliation
 require(config.tasksPath + '/sass-compile')(gulp, plugins, config);
 

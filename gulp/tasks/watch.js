@@ -5,7 +5,7 @@ gulp.task('watch', function () {
 
      // Builds JavaScript
      plugins.watch(config.jsSrcPath + '/**/*.js', function () {
-         gulp.start('js-uglify');
+         gulp.start('js-uglify', 'file-copy');
      });
 
      plugins.watch(config.jsSrcPath + '/**/*.js', function () {
