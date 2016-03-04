@@ -2,7 +2,7 @@
 title: Full Stack Static
 category: event
 meetup: the-new-dynamic
-featured: true
+featured: false
 start_at: 2015-12-02T18:30:00.000Z
 venue: Workmarket
 address:
