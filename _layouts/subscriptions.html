@@ -1,0 +1,27 @@
+---
+layout: default
+---
+<div class="has-layout layout-article">
+  {% if page.date %}
+  <aside class="top">
+    <h6>
+      Published {{ page.date | date: "%B %-d, %Y"}}
+    </h6>
+  </aside>
+  {% endif %}
+  <article class="hentry spf-animate">
+    {{ content }}
+
+    <div class="row">
+      {% include subscription.html %}
+    </div>
+
+  </article>
+  <aside>
+    {% if page.url contains '/links/' %}
+      {% include tools-list.html %}
+    {% endif %}
+
+    {% include global/form-mailchimp.html %}
+  </aside>
+</div>

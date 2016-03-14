@@ -1,0 +1,47 @@
+{% assign subscriptions = page.subscriptions %}
+  {% for object in subscriptions %}
+
+  <hr />
+
+  <h6> object: {{ object }}</h6>
+  <h6>name: {{ object.subscription.name }}</h6>
+  <h6>term: {{ object.subscription.term_months }}</h6>
+  <h6>subscription_price: {{ object.subscription.subscription_price }}</h6>
+
+
+
+
+
+    <a style="margin-top:-2em;text-align:right;"
+      href="#"
+      class="snipcart-add-item"
+      data-item-id=" term months: {{ object.term_months}}"
+      data-item-name="{{ object.name }}"
+      data-item-price="{{ object.subscription_price}}"
+      data-item-weight="20"
+      data-item-url="{{ page.url }}"
+      data-item-description="{{ page.content | striptags }}">
+
+      <button type="button" name="button" class="special">
+        Buy {{ page.title }}
+      </button>
+    </a>
+
+    <small>
+      ${{ object.price }}
+      {% if object.shipping_charge %}
+        {% if object.shipping_charge < 0.01 %}
+          &nbsp;Free Shipping
+        {% endif %}
+      {% endif %}
+    </small>
+    <hr />
+
+  {% endfor %}
+
+
+
+
+
+
+
