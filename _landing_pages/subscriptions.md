@@ -5,7 +5,7 @@ subscriptions:
   - subscription:
       name: '6 Month subscription'
       term_months: 6
-      subscription_price: 25.99
+      subscription_price: 1.99
   - subscription:
       name: '12 Month subscription'
       term_months: 12
