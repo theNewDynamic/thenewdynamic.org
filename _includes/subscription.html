@@ -8,19 +8,22 @@
   <h6>term: {{ object.subscription.term_months }}</h6>
   <h6>subscription_price: {{ object.subscription.subscription_price }}</h6>
 
-
+<hr />
 
 
 
     <a style="margin-top:-2em;text-align:right;"
       href="#"
-      class="snipcart-add-item"
-      data-item-id=" term months: {{ object.term_months}}"
-      data-item-name="{{ object.name }}"
-      data-item-price="{{ object.subscription_price}}"
-      data-item-weight="20"
-      data-item-url="{{ page.url }}"
-      data-item-description="{{ page.content | striptags }}">
+      class="snipcart-add-plan"
+
+      data-plan-id="subscription_{{object.subscription.term_months }}"
+    data-plan-name="{{ object.subscription.name }}"
+    data-plan-interval="Day"
+    data-plan-amount="{{ object.subscription.subscription_price }}"
+    data-plan-url="{{ page.url }}">
+
+
+
 
       <button type="button" name="button" class="special">
         Buy {{ page.title }}
