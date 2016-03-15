@@ -11,7 +11,7 @@ url: http://www.thenewdynamic.org
 image_url: https://thenewdynamic.imgix.net
 future: false
 sitename: Static is The New Dynamic
-incremental: true
+incremental: false
 timezone: Etc/Zulu
 port: 3575
 include:
@@ -35,6 +35,9 @@ permalink: pretty
 
 # PLUGINS
 # gems: [jekyll-sitemap, jekyll-imgix]
+gems:
+  - jekyll-seo-tag
+  - jekyll/imgix
 imgix:
   source: thenewdynamic.imgix.net # Your imgix source address
 # PRODUCTION

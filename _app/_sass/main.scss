@@ -12,7 +12,6 @@
 @import
   "vendor/fontello";
 
-// Modules
 @import
   "modules/articles",
   "modules/accessibility",
@@ -54,16 +53,14 @@
   background-color: $tnd_red_brighter;
   color: white;
 }
+
 #mc_embed_signup label {
   @include accessibility_hidden;
 }
+
 
 .heading {
   width: 100%;
   clear: both;
   margin: 1em auto;
-}
-
-.buddy {
-  color: green;
 }

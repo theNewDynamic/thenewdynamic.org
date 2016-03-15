@@ -19,6 +19,7 @@ subscriptions:
       term_months: 3
       subscription_price: 11.99
 ---
-THIS IS A TEST PAGEFor the moment, if you want to submit a link or tool or a site for the showcase, give us a shout on Twitter
+THIS IS A TEST PAGE
+
 
 

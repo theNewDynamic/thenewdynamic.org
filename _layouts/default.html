@@ -20,11 +20,18 @@ layout: compress
       <meta name="MobileOptimized" content="320">
       <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-      {% include global/meta-data.html %}
+
 
       <link rel="icon" href="{{ site.url }}/favicon.ico" type="image/x-icon">
 
         <link href='/assets/css/main.min.css{% if site.bust_css_cache %}?generated={{ site.time | date: "%Y%m%d%H%S" }}{% endif %}' rel='stylesheet' type="text/css" />
+
+
+
+        {% if jekyll.environment == "production" %}
+          {% include global/analytics.html %}
+          {% include global/seo.html %}
+        {% endif %}
 
 
 
@@ -45,9 +52,6 @@ layout: compress
       {% include _hero.html %}
       {{content}}
     </section>
-    {% include global/scripts.html %}
-    {% if jekyll.environment == "production" %}
-      {% include global/analytics.html %}
-    {% endif %}
+    {% include global/scripts.html %}    
   </body>
 </html>
