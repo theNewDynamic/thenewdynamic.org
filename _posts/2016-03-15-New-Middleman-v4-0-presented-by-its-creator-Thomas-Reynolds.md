@@ -22,6 +22,8 @@ Come gather with like-minded SF Static Web Techies--and bring your friends--for 
 
 Netlify & Wikia organize and sponsor this session of the SF Static Web Tech meetup.
 
+[Go to Meetup Page](http://www.meetup.com/sf-static-web-tech/events/229493139/?utm_content=buffer309d9&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)
+
 
 
 
