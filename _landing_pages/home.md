@@ -8,4 +8,3 @@ Resources for designers and developers.
 
 '
 ---
-home page
