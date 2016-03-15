@@ -20,6 +20,7 @@ $base-z-index: 0;
 
 // Colors
 $blue: #3A516A;//#446184;
+$blue-dark: #0F2634;
 $dark-gray: #252830;// #262930;
 $medium-gray: #646464;
 $black:#27272B;
@@ -59,7 +60,7 @@ $footer-link-color: transparentize($footer-color, 0.6);
 $footer-disclaimer-color: transparentize($footer-color, 0.6);
 
 //navigation
-$navigation-background: $blue;//$dark-gray;//$tnd_red;//2C343A
+$navigation-background: $blue-dark;//$dark-gray;//$tnd_red;//2C343A
 $navigation-padding: 1em;
 $navigation-background: $navigation-background;//$dark-gray;
 $navigation-color: white;

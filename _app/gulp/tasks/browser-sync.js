@@ -19,10 +19,5 @@ gulp.task 'browser-sync', ->
       port: 3014,
       server: "./"
   })
-
-
-
-
-
    });
 };

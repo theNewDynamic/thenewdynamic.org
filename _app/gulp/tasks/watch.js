@@ -1,24 +1,18 @@
 module.exports = function(gulp, plugins, config) {
 gulp.task('watch', function () {
 
-//WIP
-
      // Builds JavaScript
-     plugins.watch(config.jsSrcPath + '/**/*.js', function () {
+     plugins.watch(config.scriptsWatch + '/**/*.js', function () {
          gulp.start('js-uglify', 'file-copy');
      });
 
-     plugins.watch(config.jsSrcPath + '/**/*.js', function () {
-         gulp.start('js-concat',['js-uglify']);
-     });
-
      // Builds CSS
-     plugins.watch(config.scssSrcPath + '/**/*.scss', function () {
+     plugins.watch(config.scssSrc + '/**/*.scss', function () {
          gulp.start('sass-compile');
      });
 
      // Optimizes Images
-     plugins.watch([config.imgSrcPath + '/**/*.jpg', config.imgSrcPath + '/**/*.png', config.imgSrcPath + '/**/*.svg'], function () {
+     plugins.watch([config.imgSrc + '/**/*.jpg', config.imgSrc + '/**/*.png', config.imgSrc + '/**/*.svg'], function () {
          gulp.start('image-minification');
      });
 
