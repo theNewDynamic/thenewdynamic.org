@@ -19,7 +19,7 @@
 }
 */
 
- [class^="icon-"]:before, [class*=" icon-"]:before {
+ [class^="icons-"]:before, [class*=" icons-"]:before {
   font-family: "fontello";
   font-style: normal;
   font-weight: normal;
@@ -54,12 +54,12 @@
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 
-.icon-ion-ios-arrow-left:before { content: '\e800'; } /* '' */
-.icon-ion-ios-arrow-right:before { content: '\e801'; } /* '' */
-.icon-ion-android-arrow-dropup:before { content: '\e802'; } /* '' */
-.icon-ion-social-twitter-outline:before { content: '\e803'; } /* '' */
-.icon-ion-ios-information:before { content: '\e804'; } /* '' */
-.icon-ion-social-github:before { content: '\e805'; } /* '' */
-.icon-link-ext:before { content: '\e806'; } /* '' */
-.icon-ion-ios-videocam-outline:before { content: '\e807';color: red; } /* '' */
-.icon-ion-ios-star-outline:before { content: '\e808'; color: red;} /* '' */
+.icons-ion-ios-arrow-left:before { content: '\e800'; } /* '' */
+.icons-ion-ios-arrow-right:before { content: '\e801'; } /* '' */
+.icons-ion-android-arrow-dropup:before { content: '\e802'; } /* '' */
+.icons-ion-social-twitter-outline:before { content: '\e803'; } /* '' */
+.icons-ion-ios-information:before { content: '\e804'; } /* '' */
+.icons-ion-social-github:before { content: '\e805'; } /* '' */
+.icons-link-ext:before { content: '\e806'; } /* '' */
+.icons-ion-ios-videocam-outline:before { content: '\e807';color: red; } /* '' */
+.icons-ion-ios-star-outline:before { content: '\e808'; color: red;} /* '' */
