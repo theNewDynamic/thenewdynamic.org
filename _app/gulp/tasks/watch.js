@@ -6,6 +6,11 @@ gulp.task('watch', function () {
          gulp.start('js-uglify', 'file-copy');
      });
 
+     plugins.watch(config.scriptsWatch + '/**/*.js', function () {
+         gulp.start('js-hint', ['js-uglify']);
+     });
+
+
      // Builds CSS
      plugins.watch(config.scssSrc + '/**/*.scss', function () {
          gulp.start('sass-compile');

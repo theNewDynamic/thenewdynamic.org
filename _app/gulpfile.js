@@ -5,8 +5,7 @@ var plugins = require('gulp-load-plugins')();
 // JS Minification - uglify my scripts
 require(config.tasksPath + '/js-uglify')(gulp, plugins, config);
 
-// JS Concatenation - add my scripts to vendor scripts
-//////////////////require(config.tasksPath + '/js-concat')(gulp, plugins, config);
+require(config.tasksPath + '/js-hint')(gulp, plugins, config);
 
 // COPY vendor files from NPM to public directory
 require(config.tasksPath + '/file-copy')(gulp, plugins, config);
