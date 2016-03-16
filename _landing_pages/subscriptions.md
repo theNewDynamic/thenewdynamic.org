@@ -1,6 +1,7 @@
 ---
 title: Subscriptions
 layout: subscriptions
+commerce: true
 subscriptions:
   - subscription:
       name: '6 Month subscription'

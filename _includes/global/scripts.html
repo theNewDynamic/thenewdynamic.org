@@ -7,13 +7,16 @@
 </script>
 
 
-
-<script type="text/javascript" src="https://cdn.snipcart.com/scripts/snipcart.js" id="snipcart"
-  data-api-key="YmFjYzE4MGEtN2YxYi00NDg5LWEyZGMtZTNmNWI0ZjgzM2Iw" async></script>
-
-<link type="text/css" href="https://cdn.snipcart.com/themes/base/snipcart.min.css" rel="stylesheet" />
-
-
-
  {% endcomment %}
+
+
+ {% if page.commerce == true %}
+
+ <script type="text/javascript" src="https://cdn.snipcart.com/scripts/snipcart.js" id="snipcart"
+   data-api-key="YmFjYzE4MGEtN2YxYi00NDg5LWEyZGMtZTNmNWI0ZjgzM2Iw" async></script>
+
+ <link type="text/css" href="https://cdn.snipcart.com/themes/base/snipcart.min.css" rel="stylesheet" />
+
+
+{% endif %}
 
