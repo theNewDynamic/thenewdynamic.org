@@ -128,3 +128,8 @@ assets:
   features:
     automatic_img_size: true
     automatic_img_alt : true
+
+compress_html:
+  ignore:
+    envs: [development]
+  profile: false
