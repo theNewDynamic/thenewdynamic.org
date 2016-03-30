@@ -1,50 +1,53 @@
+<p>
+  Subscriptions are ongoing and you can cancel at any time.
+</p>
+
+URL: {{ site.url }}{{ page.url }} <br />
 {% assign subscriptions = page.subscriptions %}
   {% for object in subscriptions %}
 
-  <hr />
-
-  <h6> object: {{ object }}</h6>
-  <h6>name: {{ object.subscription.name }}</h6>
-  <h6>term: {{ object.subscription.term_months }}</h6>
-  <h6>subscription_price: {{ object.subscription.subscription_price }}</h6>
-
-<hr />
+    {% assign subscription_price = object.subscription.subscription_price %}
+    {% assign shipping_charge = object.subscription.shipping_charge %}
+    {% capture total_price %}{{ subscription_price | plus: shipping_charge }} {% endcapture %}
 
 
 
-    <a style="margin-top:-2em;text-align:right;"
-      href="#"
+  <div style="padding: 1em;background-color:#f6f6f6;border:1px solid #777;margin:3em auto;">
+    <h6>Definitions (button attributes)</h6>
+    <ul>
+      <li>object: {{ object }}</li>
+      <li>name: {{ object.subscription.name }}</li>
+      <li>term: {{ object.subscription.term_months }}</li>
+      <li>subscription_price: {{ subscription_price }}</li>
+      {% if shipping_charge %}<li>shipping_charge: {{ shipping_charge }}</li>{% endif %}
+      <li>total_price: {{ total_price }}</li>
+    </ul>
+  </div>
+
+
+      <button type="button" name="button"
       class="snipcart-add-plan"
+        data-plan-id="subscription_{{object.subscription.term_months }}"
+        data-plan-name="{{ object.subscription.name }}"
+        data-plan-interval="Day"
+        data-plan-amount="{{ total_price }}"
+        data-plan-url="{{ site.url }}{{ page.url }}">
 
-      data-plan-id="subscription_{{object.subscription.term_months }}"
-    data-plan-name="{{ object.subscription.name }}"
-    data-plan-interval="Day"
-    data-plan-amount="{{ object.subscription.subscription_price }}"
-    data-plan-url="{{ site.url }}{{ page.url }}">
+            {{ object.subscription.name }}
+
+            </button>
 
 
-
-
-      <button type="button" name="button" class="special">
-        Buy {{ page.title }}
-      </button>
-    </a>
 
     <small>
-      ${{ object.price }}
-      {% if object.shipping_charge %}
-        {% if object.shipping_charge < 0.01 %}
-          &nbsp;Free Shipping
+      ${{ total_price }}
+        {% if shipping_charge %}
+          ({{ subscription_price }} + {{ shipping_charge }} shipping)
         {% endif %}
-      {% endif %}
     </small>
+
+
+
     <hr />
 
   {% endfor %}
-
-
-
-
-
-
-
