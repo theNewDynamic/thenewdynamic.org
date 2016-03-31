@@ -1,4 +1,4 @@
-<script src="/assets/js/scripts.min.js" async></script>
+
 {% comment %}
 <script src="/static/js/dist/spf.js"></script>
 
@@ -11,12 +11,13 @@
 
 
  {% if page.commerce == true %}
+ <script src="/assets/js/scripts.min.js"></script>
 
  <script type="text/javascript" src="https://cdn.snipcart.com/scripts/snipcart.js" id="snipcart"
    data-api-key="YmFjYzE4MGEtN2YxYi00NDg5LWEyZGMtZTNmNWI0ZjgzM2Iw" async></script>
 
  <link type="text/css" href="https://cdn.snipcart.com/themes/base/snipcart.min.css" rel="stylesheet" />
 
-
+{% else %}
+<script src="/assets/js/scripts.min.js" async></script>
 {% endif %}
-

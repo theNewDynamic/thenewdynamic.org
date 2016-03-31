@@ -2,6 +2,16 @@
   Subscriptions are ongoing and you can cancel at any time.
 </p>
 
+
+{% include {{site.test}} %}
+
+<div class="snipcart-summary">
+</div>
+
+<a href="#" class="snipcart-user-profile">
+  User profile
+</a>
+
 URL: {{ site.url }}{{ page.url }} <br />
 {% assign subscriptions = page.subscriptions %}
   {% for object in subscriptions %}
