@@ -132,3 +132,12 @@ compress_html:
   ignore:
     envs: [development]
   profile: false
+
+atom:
+  buildCommand:
+    - /Users/budparr/.rbenv/shims/bundle
+    - exec
+    - jekyll
+    - build
+  buildEnv:
+    JEKYLL_ENV: PRODUCTION

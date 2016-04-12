@@ -10,7 +10,7 @@ layout: compress
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
       {% include global/font-loader.html %}
-      {% if jekyll.environment == "production" %}
+      {% if site.production == true and page.sitemap != false %}
         <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
       {% else %}
         <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
@@ -52,6 +52,6 @@ layout: compress
       {% include _hero.html %}
       {{content}}
     </section>
-    {% include global/scripts.html %}    
+    {% include global/scripts.html %}
   </body>
 </html>
