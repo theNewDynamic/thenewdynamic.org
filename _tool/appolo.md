@@ -10,7 +10,3 @@ links:
   github: https://github.com/nicnocquee/appolo
 ---
 Plugins and Themes for Jekyll to create App Portfolio for Developers http://www.delightfuldev.com/appolo
-
-
-
-
