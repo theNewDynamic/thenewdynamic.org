@@ -1,5 +1,5 @@
 ---
-title: "The New Ebay, website introducing new Ebay apps"
+title: "Ebay apps site"
 date: 2016-04-12T00:00:00.000Z
 tool:
  - middleman
@@ -9,7 +9,7 @@ creator:
   - role: Design, Development
   - link: http://www.instrument.com/latest/the-new-ebay-creating-excitement-through-code
   - name: Instrument
-image_path: /uploads/showcase-ebay.jpg
+image_path: /showcase-ebay.jpg
 ---
 
 ### Build Architecture
