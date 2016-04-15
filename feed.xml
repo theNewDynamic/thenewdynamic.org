@@ -104,7 +104,7 @@ layout: null
 
           {{ post.excerpt | strip_html | replace: '\n', ' ' | strip | xml_escape }}
           {% if post.link %}
-            <br /><a href='{{ post.link}}'>link to original</a>
+            <h3><a href='{{ post.link}}'>link to original</a></h3>
            {% endif %}
            ]]>
         </summary>
@@ -112,7 +112,7 @@ layout: null
 
 
 
-      {% assign post_image = post.image %}
+      {% assign post_image = post.image_path %}
       {% if post_image %}
         {% unless post_image contains "://" %}
           {% assign post_image = post_image | prepend: url_base | xml_escape  %}
