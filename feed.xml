@@ -96,7 +96,7 @@ layout: null
       {% endfor %}
 
       {% if post.excerpt and post.excerpt != empty %}
-        <summary>
+        <summary type="html">
 
           <![CDATA[
 
