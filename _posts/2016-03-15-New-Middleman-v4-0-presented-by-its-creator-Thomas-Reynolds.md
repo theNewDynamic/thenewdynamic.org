@@ -5,7 +5,7 @@ date: 2016-03-15 17:47
 start_at: 2016-03-22T19:00:00.000Z
 venue: Wikia (conference room)
 address: "360 3rd Street #750, 7th floor, San Francisco, CA"
-link: http://www.meetup.com/sf-static-web-tech/events/229493139/?utm_content=buffer309d9&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
+link: http://www.meetup.com/sf-static-web-tech/events/229493139/
 type: event
 category: event
 description: 'About the newest, largely re-written version Middleman'
@@ -22,11 +22,4 @@ Come gather with like-minded SF Static Web Techies--and bring your friends--for 
 
 Netlify & Wikia organize and sponsor this session of the SF Static Web Tech meetup.
 
-[Go to Meetup Page](http://www.meetup.com/sf-static-web-tech/events/229493139/?utm_content=buffer309d9&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)
-
-
-
-
-
-
-
+[Go to Meetup Page](http://www.meetup.com/sf-static-web-tech/events/229493139/)
