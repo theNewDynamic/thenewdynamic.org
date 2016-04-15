@@ -10,6 +10,7 @@ group :jekyll_plugins do
   # gem 'autoprefixer-rails'
   gem 'jekyll-imgix'
   gem 'jekyll-sitemap'
+  gem 'jekyll-feed'
   #gem 'jekyll-archives'
 end
 # gem 'jekyll-paginate'
