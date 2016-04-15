@@ -43,7 +43,7 @@ layout: null
   {% for post in posts limit: 30 | reverse %}
   {% unless post.draft %}
     <entry{% if post.lang %} xml:lang="{{ post.lang }}"{% endif %}>
-      <title>{{ post.title | markdownify | strip_html | replace: '\n', ' ' | strip | xml_escape }}</title>
+      <title>{{ post.collection | capitalize}}: {{ post.title | markdownify | strip_html | replace: '\n', ' ' | strip | xml_escape }}</title>
       <link href="{% if post.link %}{{ post.link }}{% else %}{{ post.url | prepend: url_base }}{% endif %}" rel="alternate" type="text/html" title="{{ post.title | xml_escape }}" />
       <published>{{ post.date | date_to_xmlschema }}</published>
       {% if post.last_modified_at %}
@@ -99,7 +99,7 @@ layout: null
         <summary>
 
           <![CDATA[
-          <strong>{{ post.collection | capitalize}}</strong><br />
+
 
 
           {{ post.excerpt | strip_html | replace: '\n', ' ' | strip | xml_escape }}
