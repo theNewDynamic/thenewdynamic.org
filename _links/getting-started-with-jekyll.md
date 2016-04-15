@@ -6,11 +6,7 @@ editor_recommends:
 type: Tutorial
 slug: links/getting-started-with-jekyll
 source: Brian Rinaldi, Telerik Developer Network
-link: http://developer.telerik.com/featured/getting-started-with-jekyll/?utm_content=bufferc1122&amp;utm_medium=social&amp;utm_source=thenewdynamic.com&amp;utm_campaign=buffer
+link: http://developer.telerik.com/featured/getting-started-with-jekyll/
 tool:
   - jekyll
 ---
-
-
-
-
