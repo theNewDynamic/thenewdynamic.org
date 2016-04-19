@@ -111,6 +111,10 @@ defaults:
       type: showcase
     values:
       layout: showcase-individual
+  - scope:
+      path: '_pages'
+    values:
+      permalink: /:basename/
 
 # ASSETS
 assets:
