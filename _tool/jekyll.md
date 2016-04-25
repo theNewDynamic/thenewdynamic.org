@@ -19,7 +19,4 @@ Resources:
 [Awesome Jekyll](https://github.com/planetjekyll/awesome-jekyll)  
 [Jekyll Tags and Filters (Jekyll 2.4 as of this writing)](http://jekyll.pygmeeweb.com/tests/)  
 [Jekyll Weekly Newsletter](http://jekyllweekly.com/)
-
-
-
-
+[Jekyll Theme Unit Test](https://github.com/mmistakes/jekyll-theme-unit-test)

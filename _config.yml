@@ -116,6 +116,8 @@ defaults:
     values:
       permalink: /:basename/
 
+
+markdown: kramdown
 # ASSETS
 assets:
   compress:
