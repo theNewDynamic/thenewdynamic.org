@@ -1,12 +1,12 @@
 ---
-title: "The Jam Stack"
+title: "The JAM Stack"
 published: true
 start_at: 2016-04-06T12:00:00.000Z
 description: "Netlify CEO Mathias Biilmann speaking at SmashingConf on the JAM Stack."
 video: https://vimeo.com/163522126
 date: "2016-04-29 15:29:10 -0400"
 ---
-[Netlify](https://www.netlify.com/) CEO Mathias Biilmann (_this site is hosted with Netlify_) gave a talk at [Smashing Conference](http://smashingconf.com/sf-2016/speakers/mathias-biilman) in San Francisco last week. It's is a great discussion of need for and growth of the static web stack, which he describes, compellingly, as the "Jam Stack," starting with a git-based workflow.
+[Netlify](https://www.netlify.com/) CEO Mathias Biilmann (_this site is hosted with Netlify_) gave a talk at [Smashing Conference](http://smashingconf.com/sf-2016/speakers/mathias-biilman) in San Francisco last week. It's is a great discussion of need for and growth of the static web stack, which he describes, compellingly, as the "JAM Stack," starting with a git-based workflow.
 
 
 JAM Philosophy
