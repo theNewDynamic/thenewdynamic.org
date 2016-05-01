@@ -4,6 +4,12 @@ categories:
 title: The New Dynamic
 description: "Static Site Generators <small>and the Post-CMS paradigm</small>"
 
+type:
+  - Article
+  - Tutorial
+  - Presentation
+
+
 ## DO NOT EDIT BELOW THIS LINE
 version: 3.0.3
 # full_rebuild: true
