@@ -57,10 +57,10 @@ collections:
     output: true
     permalink: '/:path/'
   links:
-    output: true
+    output: false
     permalink: '/link/:path/'
     future: true
-    descriptionyo: 'Links to Stuff, yo'
+    description: 'Links to from around the web'
   meetups:
       output: false
   showcase:
