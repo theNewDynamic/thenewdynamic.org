@@ -49,6 +49,7 @@ imgix:
 # PRODUCTION
 google_analytics_id: UA-30899180-4
 bust_css_cache: true
+production: true
 
 # CONTENT
 collections:
