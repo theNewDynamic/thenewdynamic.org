@@ -1,5 +1,6 @@
 ---
 title: "JekyllConf"
+date: 2016-05-05T12:01:00.000Z
 start_at: 2016-05-07T10:00:00.000Z
 category: event
 link: http://jekyllconf.com/
@@ -22,8 +23,3 @@ Yes, all the videos will be publicly available on YouTube.
 ### Who's running JekyllConf and why?
 
 [CloudCannon](http://cloudcannon.com/) is organising JekyllConf. We want to do our part in growing the community and showcase all the awesome people and projects using Jekyll.
-
-
-
-
-
