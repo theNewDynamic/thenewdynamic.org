@@ -14,7 +14,6 @@ I'm honored to have been part of the second annual [Jekyll Conference](http://je
 
 Here are my slides and the video from the talk, and you can find everyone else's at the [Jekyllconf](http://jekyllconf.com/) website.
 
-&lt;iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/A1nTuNjoNbg?rel=0&showinfo=0" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
 
 <div class="embed-container"><iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/A1nTuNjoNbg?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen=""></iframe></div>
 
