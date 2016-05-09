@@ -6,19 +6,12 @@ category: event
 link: http://jekyllconf.com/
 venue: JekyllCOnf Online
 link: http://jekyllconf.com/
-description: "The free, online global conference for all things Jekyll"
+description: "The free, online global conference for all things Jekyll (videos)"
 tool:
   - Jekyll
 ---
 ## Details
-
-### Where is JekyllConf being held?
-
-Right here on this website! We're using Google Hangouts on Air to stream the speaker sessions right to this website.
-
-### I can't attend, will the videos be available later?
-
-Yes, all the videos will be publicly available on YouTube.
+Vidoes for the conference are posted on the website, and Youtube. Here's a link to the [Youtube playlist](https://www.youtube.com/playlist?list=PLrxYIq_0LFJdi2HJ6lnY4nm7ewu221hyS).
 
 ### Who's running JekyllConf and why?
 
