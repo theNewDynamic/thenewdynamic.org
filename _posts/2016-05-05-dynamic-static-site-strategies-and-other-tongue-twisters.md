@@ -1,6 +1,6 @@
 ---
 title: "Dynamic Site Strategies (and Other Tongue Twisters)"
-published: true
+published: false
 date: 2016-05-05T12:00:00.000Z
 category: event
 start_at: 2016-05-15T11:30:00.000Z
