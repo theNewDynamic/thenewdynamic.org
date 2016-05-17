@@ -28,4 +28,4 @@ Anyway, that's the underlying philosophy behind the project. It is 100% static �
 
 [source, Github](https://github.com/gettypubs/terracottas)
 
-Additional Blog Posts: ["Building Books with Middleman Extensions"](http://egardner.github.io/posts/2015/building-books-with-middleman/), "[An Editor’s View of Digital Publishing](http://blogs.getty.edu/iris/an-editors-view-of-digital-publishing/)"
+Additional Blog Posts: "[Building Books with Middleman Extensions](http://egardner.github.io/posts/2015/building-books-with-middleman/)", "[An Editor’s View of Digital Publishing](http://blogs.getty.edu/iris/an-editors-view-of-digital-publishing/)"
