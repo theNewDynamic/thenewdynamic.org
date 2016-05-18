@@ -17,14 +17,14 @@ gulp.task('watch', function () {
      });
 
      // Optimizes Images
-     plugins.watch([config.imgSrcPath + '/**/*.jpg', config.imgSrcPath + '/**/*.png', config.imgSrcPath + '/**/*.svg'], function () {
+     plugins.watch([config.imgSrcPath + '/*.jpg', config.imgSrcPath + '/*.png', config.imgSrcPath + '/*.svg'], function () {
          gulp.start('image-minification');
      });
 
-     plugins.watch(config.jekyllPath, function () {
+     plugins.watch(config.jekyllSrc + '/*.*', function () {
          gulp.start('build-jekyll');
      });
-     plugins.watch(config.jekyllPath, function () {
+     plugins.watch(config.jekyllSrc + '/*.*', function () {
          gulp.start('serve');
      });
 
