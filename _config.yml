@@ -1,29 +1,40 @@
+# Site Varialbes
+sitename: Static is The New Dynamic
+author: Bud Parr
+url: https://www.thenewdynamic.org
+image_url: https://thenewdynamic.imgix.net
 categories:
   - 'article'
   - 'event'
 title: The New Dynamic
 description: "Static Site Generators <small>and the Post-CMS paradigm</small>"
-
 type:
   - Article
   - Tutorial
   - Presentation
 
+# Jekyll
+version: 3.0.3
+# full_rebuild: true
+incremental: true
+port: 3575
+markdown: kramdown
+future: false
+incremental: false
+timezone: Etc/Zulu
 
-## DO NOT EDIT BELOW THIS LINE
+# PRODUCTION
+google_analytics_id: UA-30899180-4
+bust_css_cache: true
+production: true
+
+
+# Structure
+
 plugins_dir:  ./_app/_plugins
 layouts_dir:  ./_app/_layouts
 includes_dir: ./_app/_includes
 
-version: 3.0.3
-# full_rebuild: true
-url: https://www.thenewdynamic.org
-image_url: https://thenewdynamic.imgix.net
-future: false
-sitename: Static is The New Dynamic
-incremental: false
-timezone: Etc/Zulu
-port: 3575
 include:
   - _pages
 exclude:
@@ -42,7 +53,7 @@ exclude:
   - vendor
 permalink: pretty
 
-author: Bud Parr
+
 # PLUGINS
 # gems: [jekyll-sitemap, jekyll-imgix]
 gems:
@@ -50,10 +61,12 @@ gems:
   - jekyll/imgix
 imgix:
   source: thenewdynamic.imgix.net # Your imgix source address
-# PRODUCTION
-google_analytics_id: UA-30899180-4
-bust_css_cache: true
-production: true
+
+compress_html:
+  ignore:
+    envs: [development]
+  profile: false
+
 
 # CONTENT
 collections:
@@ -126,44 +139,3 @@ defaults:
       path: '_pages'
     values:
       permalink: /:basename/
-
-
-markdown: kramdown
-# ASSETS
-assets:
-  compress:
-    css: true
-    js: true
-  cache: .asset-cache
-  cdn: /
-  skip_baseurl_with_cdn: false
-  skip_prefix_with_cdn: false
-  assets:
-    - "*.png"
-    - "*.scss"
-    - "*.svg"
-    - "*.js"
-  digest: default
-  sources:
-    - _assets/bower/html5shiv/dist/html5shiv.min.js
-    - _assets/_sass
-    - _assets/fonts
-    - _assets/img
-    - _assets/js
-  features:
-    automatic_img_size: true
-    automatic_img_alt : true
-
-compress_html:
-  ignore:
-    envs: [development]
-  profile: false
-
-atom:
-  buildCommand:
-    - /Users/budparr/.rbenv/shims/bundle
-    - exec
-    - jekyll
-    - build
-  buildEnv:
-    JEKYLL_ENV: PRODUCTION

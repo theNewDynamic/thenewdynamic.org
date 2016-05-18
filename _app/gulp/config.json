@@ -19,7 +19,10 @@
     ],
   "filesSrcJsDest":"./../assets/js",
 
- "jekyllSrc": "./../",
+  "jekyllPath": ".",
+
+
+  "jekyllSrc": "./..",
    "jekylldest": "./../_site",
    "jekyllConfig": "./../_config.yml",
 
