@@ -17,13 +17,16 @@ gulp.task('watch', function () {
      });
 
      // Optimizes Images
-     plugins.watch([config.imgSrc + '/**/*.jpg', config.imgSrc + '/**/*.png', config.imgSrc + '/**/*.svg'], function () {
+     plugins.watch([config.imgSrcPath + '/**/*.jpg', config.imgSrcPath + '/**/*.png', config.imgSrcPath + '/**/*.svg'], function () {
          gulp.start('image-minification');
      });
 
-    //  plugins.watch(config.jekyllPath, function () {
-    //      gulp.start('build-jekyll');
-    //  });
+     plugins.watch(config.jekyllPath, function () {
+         gulp.start('build-jekyll');
+     });
+     plugins.watch(config.jekyllPath, function () {
+         gulp.start('serve');
+     });
 
 
      //plugins.watch(sync.css).on('change', bs1.reload);

@@ -11,6 +11,10 @@ type:
 
 
 ## DO NOT EDIT BELOW THIS LINE
+plugins_dir:  ./_app/_plugins
+layouts_dir:  ./_app/_layouts
+includes_dir: ./_app/_includes
+
 version: 3.0.3
 # full_rebuild: true
 url: https://www.thenewdynamic.org

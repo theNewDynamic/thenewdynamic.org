@@ -1,21 +1,19 @@
-cp = require('child_process');
+var cp = require('child_process');
+
 module.exports = function(gulp, plugins, config) {
+/**
+ * Build the Jekyll Site
+ */
+gulp.task('build-jekyll', function(done) {
+
+  return cp.spawn('bundle', ['exec', 'jekyll', 'serve', '-q', '--source=' + config.jekyllSrc, '--destination=' + config.jekylldest, '--config=' + config.jekyllConfig], { stdio: 'inherit' })
+  .on('close', done);
 
 
-  // Rebuild Jekyll
-  gulp.task('build-jekyll', (code) => {
-    return cp.spawn('jekyll', ['build'], {stdio: 'inherit'})
-      .on('error', (error) => gutil.log(gutil.colors.red(error.message)))
-      .on('close', code);
-  })
+});
 
-  // Setup Server
-  gulp.task('server', () => {
-    connect.server({
-      root: ['_site'],
-      port: 4001
-    });
-  })
-
+// gulp.task('jekyll-rebuild', ['build-jekyll'], function() {
+//   plugins.browsersync.reload();
+// });
 
 };
