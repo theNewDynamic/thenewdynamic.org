@@ -77,7 +77,12 @@ gulp.task('js-uglify', function() {
  */
 gulp.task('jekyll-build', function (done) {
     browserSync.notify(messages.jekyllBuild);
-    return cp.spawn(jekyll, ['build'], {stdio: 'inherit'})
+
+    var jekyllEnv = process.env;
+    jekyllEnv.JEKYLL_ENV = 'production';
+    //jekyllEnv.JEKYLL_ENV = 'development';
+
+    return cp.spawn(jekyll, ['build'], {stdio: 'inherit', env:jekyllEnv})
         .on('close', done);
 });
 
