@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-{% assign posts = site.posts | where: 'start_at', -'' %}
+{% assign posts = site.posts  %}
 {% assign events_upcoming = posts | where: 'category', 'event' | sort: 'start_at', 'last' %}
 {% assign events = site.posts | where: 'category', 'event' | sort: 'date', 'last' | reverse  %}
 
