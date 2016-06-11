@@ -27,7 +27,8 @@ layout: compress
 
         <link href='/assets/css/main.min.css{% if site.bust_css_cache %}?generated={{ site.time | date: "%Y%m%d%H%S" }}{% endif %}' rel='stylesheet' type="text/css" />
 
-
+{% include global/icons.html %}
+<link rel="manifest" href="{{ site.url }}/manifest.json">
 
         {% if jekyll.environment == "production" %}
           {% include global/analytics.html %}

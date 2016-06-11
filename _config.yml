@@ -13,6 +13,10 @@ type:
   - Tutorial
   - Presentation
 
+short_name: BPNY
+display: fullscreen
+
+
 # Jekyll
 version: 3.0.3
 # full_rebuild: true
@@ -59,6 +63,7 @@ permalink: pretty
 gems:
   - jekyll-seo-tag
   - jekyll/imgix
+  - jekyll-gist
 imgix:
   source: thenewdynamic.imgix.net # Your imgix source address
 

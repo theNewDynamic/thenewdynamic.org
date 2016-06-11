@@ -11,6 +11,7 @@ group :jekyll_plugins do
   gem 'jekyll-imgix'
   gem 'jekyll-sitemap'
   gem 'jekyll-feed'
+  gem 'jekyll-gist'
   #gem 'jekyll-archives'
 end
 # gem 'jekyll-paginate'
