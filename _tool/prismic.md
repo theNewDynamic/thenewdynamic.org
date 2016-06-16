@@ -12,8 +12,4 @@ tags:
 links:
   website: https://prismic.io/
 ---
-
-
-
-
-
+Content as a Service
