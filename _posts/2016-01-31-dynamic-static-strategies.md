@@ -1,5 +1,6 @@
 ---
 title: "Dynamic Static Site Strategies (and Other Tongue Twisters)"
+date: 2016-06-15T11:20:00.000Z
 start_at: 2016-06-15T11:20:00.000Z
 category: event
 link: "http://smashingconf.com/ny-2016/speakers/phil-hawksworth"
@@ -17,3 +18,10 @@ From the talk description:
 [more at Smashing Conference](http://smashingconf.com/ny-2016/speakers/phil-hawksworth)
 
 Also see a video of Phil's talk at Generate London in this post: ["Generate London: Break through the limits of static site generators"](/event/2015/09/17/generate-london/)
+
+
+
+
+<div class="embed-container">
+  <script async class="speakerdeck-embed" data-id="a749dd2bfe024f71a262ddce74dcc228" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+</div>
