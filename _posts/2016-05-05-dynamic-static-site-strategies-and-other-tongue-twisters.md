@@ -1,7 +1,7 @@
 ---
 title: "Dynamic Site Strategies (and Other Tongue Twisters)"
 published: false
-date: 2016-06-16T12:00:00.000Z
+date: 2016-06-15T12:00:00.000Z
 category: event
 start_at: 2016-05-15T11:30:00.000Z
 venue: Smashing Conference, NYC
