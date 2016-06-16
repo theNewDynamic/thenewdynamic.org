@@ -12,8 +12,4 @@ tags:
 links:
   website: http://www.siteleaf.com/
 ---
-Content management simplified. Edit in the cloud, publish anywhere.
-
-
-
-
+Jekyll-based Web editor
