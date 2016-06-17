@@ -21,7 +21,10 @@ Also see a video of Phil's talk at Generate London in this post: ["Generate Lond
 
 
 
+---
 
 <div class="embed-container">
   <script async class="speakerdeck-embed" data-id="a749dd2bfe024f71a262ddce74dcc228" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 </div>
+
+---
