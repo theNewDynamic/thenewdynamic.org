@@ -16,8 +16,9 @@ In this talk we'll explore some unexpected capabilities and characteristics of "
 
 ---
 
-<div class="embed-container">
-  <script async class="speakerdeck-embed" data-id="a749dd2bfe024f71a262ddce74dcc228" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
-</div>
+<div class="embed-container"><script async class="speakerdeck-embed" data-id="a749dd2bfe024f71a262ddce74dcc228" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script></div>
+
+
+
 
 ---
