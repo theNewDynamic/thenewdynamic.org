@@ -5,4 +5,5 @@ posted_date: 2016-05-14T13:49:00.000Z
 type: tools
 category: content-management
 color: "#CECECE"
+redirect_from: "/tools/editing/"
 ---

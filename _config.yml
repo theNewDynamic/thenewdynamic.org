@@ -64,6 +64,7 @@ gems:
   - jekyll-seo-tag
   - jekyll/imgix
   - jekyll-gist
+  - jekyll-redirect-from
 imgix:
   source: thenewdynamic.imgix.net # Your imgix source address
 

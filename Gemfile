@@ -8,6 +8,7 @@ group :jekyll_plugins do
   # gem "jekyll-lunr-js-search"
   # gem 'jekyll-assets'
   # gem 'autoprefixer-rails'
+  gem 'jekyll-redirect-from'
   gem 'jekyll-imgix'
   gem 'jekyll-sitemap'
   gem 'jekyll-feed'
