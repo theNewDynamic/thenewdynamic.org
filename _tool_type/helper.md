@@ -9,8 +9,8 @@ tool:
   - Proteus Static Site Starter Kits
   - Poole
   - Kickster
-color: "#a9a9a9"
-text_color: "#ebebeb"
+color: "#AEAEAE"
+text_color: "#FFF"
 ---
 
 

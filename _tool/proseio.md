@@ -4,7 +4,7 @@ date: 2015-05-14T17:18:00.000Z
 posted_date: 2015-05-14T17:18:00.000Z
 type: tool
 slug: proseio
-tool_type: editing
+tool_type: content-management
 links:
   website: http://prose.io
 ---

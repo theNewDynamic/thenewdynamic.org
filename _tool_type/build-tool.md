@@ -8,7 +8,7 @@ tool:
   - Grunt
   - Gulp
   - Brunch
-color: "#f5f5f5"
+color: "#D9D9D9"
 ---
 
 

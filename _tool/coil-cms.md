@@ -4,7 +4,7 @@ date: 2015-10-05T18:17:00.000Z
 posted_date: 2015-10-05T18:17:00.000Z
 type: tool
 slug: coil-cms
-tool_type: editing
+tool_type: content-management
 links:
   github: https://github.com/getnikola/coil
 ---
