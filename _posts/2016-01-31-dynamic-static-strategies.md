@@ -20,6 +20,11 @@ From the talk description:
 Also see a video of Phil's talk at Generate London in this post: ["Generate London: Break through the limits of static site generators"](/event/2015/09/17/generate-london/)
 
 
+---
+
+<div class="embed-container">
+<iframe src="https://player.vimeo.com/video/174172567?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
 
 ---
 
