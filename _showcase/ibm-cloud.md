@@ -8,7 +8,7 @@ creator:
   - role:
   - link:
   - name:
-image_path: /uploads/showcase-ibm-cloud-800px.png
+image_path: /showcase-ibm-cloud-800px.png
 ---
 
 
