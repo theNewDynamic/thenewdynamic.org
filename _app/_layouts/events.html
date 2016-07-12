@@ -2,8 +2,8 @@
 layout: default
 ---
 {% assign posts = site.posts  %}
-{% assign events_upcoming = posts | where: 'category', 'event' | sort: 'start_at', 'last' %}
-{% assign events = site.posts | where: 'category', 'event' | sort: 'date', 'last' | reverse  %}
+{% assign events_upcoming = site.categories.event | sort: 'start_at', 'last' %}
+{% assign events = site.categories.event | sort: 'date', 'last' | reverse  %}
 
 
 <div class="has-layout layout-2-column">
