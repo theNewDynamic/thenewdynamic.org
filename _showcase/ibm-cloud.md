@@ -17,6 +17,7 @@ When we first released our site many many years ago it was mostly made of a very
 Jekyll was the right choice for us because it is well established and with an active community. Its toolset also fit us very nicely and it's fun to work with. Going static made things faster by working with files locally instead of with a database and made the website lighter.
 
 Tools we're using:
+
 - GitHub Enterprise
 - TravisCI
 - IBM Bluemix DevOps Services
