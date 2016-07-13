@@ -2,6 +2,7 @@
 title: "A conversation about static and dynamic websites"
 source: 18F
 date: 2016-07-11 22:56
+category: essentials
 link: https://18f.gsa.gov/2016/07/11/conversation-about-static-dynamic-websites/
 type: Article
 tool:
