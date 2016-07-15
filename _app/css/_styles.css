@@ -1,0 +1,11 @@
+
+/*.element {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}*/
+
+.bg-transition {
+  transition: background-color 0.5s ease;
+  
+}

@@ -1,0 +1,87 @@
+# jekyll-seo-tag
+title: "Lean Jekyll"
+description: "A starter for using jekyll"
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+author: []
+twitter:
+  username: budparr
+facebook:
+  app_id: 
+  publisher: 
+  admins: 
+logo: /assets/images/jekyll-white.svg
+google_site_verification:
+github:
+  username: budparr
+owner: The New Dynamic
+# manifest
+short_name: The Shortname
+display: fullscreen
+
+# development meta data
+image_url: http://thenewdynamic.imgix.net
+google_analytics_id: UA-xxxxx-4
+version: 3.0.3
+incremental: true
+#port: 3575
+
+
+# Settings
+production: false
+bust_css_cache: false
+full_rebuild: true
+timezone: Etc/Zulu
+compress_html:
+  ignore:
+    envs: [development]
+  profile: false
+gems:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+plugins_dir:  ./_app/_plugins
+layouts_dir:  ./_app/_layouts
+includes_dir: ./_app/_includes
+
+permalink: pretty
+
+# CONTENT
+exclude:
+  - readme.md
+  - todo.md
+  - license.md
+  - Gemfile
+  - Gemfile.lock
+  - CNAME
+  - node_modules
+  - sass
+  - gulpfile.js
+  - package.json
+  - postcss.config.js
+
+collections:
+  landing_pages:
+    output: true
+    permalink: '/:path/'
+
+defaults:
+  - scope:
+      path: ''
+    values:
+      layout: page-single
+  - scope:
+      path: ''
+      type: 'landing_pages'
+    values:
+      layout: page-single
+  - scope:
+      path: ''
+      type: pages
+      permalink: /:basename/
+    values:
+      layout: page-single
+  - scope:
+      path: ''
+      type: posts
+    values:
+      layout: page-single
+      schema: BlogPosting

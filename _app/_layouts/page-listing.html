@@ -1,0 +1,15 @@
+---
+layout: default
+schema: https://schema.org/WebPage
+---
+
+
+<div class="media flex-wrap">
+  {% for post in site.posts  %}
+    <div class="p4 bg-near-white border media-body">
+      <a href="{{post.url}}">
+        {{ post.title }}
+      </a>
+    </div>
+  {% endfor %}
+</div>

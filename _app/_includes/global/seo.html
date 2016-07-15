@@ -1,0 +1,10 @@
+{% seo %}
+<!-- bpny -->
+{% if page.featured_image_path  %}
+  {% assign image = page.featured_image_path | prepend: site.url  %}
+  <meta property="og:image" content="{{ image }}" />
+{% endif %}
+{% if page.image_path  %}
+  {% assign image = page.image_path | prepend: site.url  %}
+  <meta property="og:image" content="{{ image }}" />
+{% endif %}
