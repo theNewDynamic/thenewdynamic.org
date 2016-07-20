@@ -1,11 +1,13 @@
 ---
 title: hillaryclinton.com
-date:
+date: 2016-08-04T00:00:00.000Z
 tool:
-website:
+website: 'https://www.hillaryclinton.com/'
 creator:
   - role:
   - link:
   - name:
-image_path:
+image_path: /uploads/showcase-hillaryclinton.png
 ---
+
+
