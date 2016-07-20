@@ -7,7 +7,7 @@ links:
   website: 'http://assemble.io/'
   github: 'https://github.com/assemble/assemble/'
   twitter: 'https://twitter.com/assemblejs'
-description:
+description: 'Static site generator and rapid prototyping framework for Node.js, Grunt.js, and Yeoman and Gulp.'
 ---
 
 
