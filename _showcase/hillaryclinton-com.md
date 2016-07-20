@@ -1,6 +1,6 @@
 ---
 title: hillaryclinton.com
-date: 2016-08-04T00:00:00.000Z
+date: 2016-07-19T00:00:00.000Z
 tool:
   - assemble
 website: 'https://www.hillaryclinton.com/'
