@@ -6,7 +6,7 @@ tool:
 website: 'https://bluejaywireless.com/'
 creator:
   - role: 'Design, Development'
-  - link: 6-static-blog-generators-that-arent-jekyll
+  - link: http://www.bigdcreative.com/
   - name: Big D Creative
 image_path: /uploads/showcase-blue-jay-wireless.png
 ---
