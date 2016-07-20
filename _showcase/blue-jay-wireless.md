@@ -8,7 +8,7 @@ creator:
   - role: 'Design, Development'
   - link: http://www.bigdcreative.com/
   - name: Big D Creative
-image_path: /uploads/showcase-blue-jay-wireless.png
+image_path: /showcase-blue-jay-wireless.png
 ---
 
 
