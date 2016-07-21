@@ -1,11 +1,14 @@
 ---
 title: Pattern Lab
-date:
+date: 2016-07-20T00:00:00.000Z
 tool:
-website:
+  - jekyll
+website: 'http://patternlab.io/'
 creator:
   - role:
   - link:
   - name:
-image_path:
+image_path: /uploads/showcase-pattern-lab.png
 ---
+
+
