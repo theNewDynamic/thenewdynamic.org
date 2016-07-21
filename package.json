@@ -10,7 +10,7 @@
     "push:origin": "git push --tags origin HEAD:lean",
     "test": "echo \"Error: no test specified\" && exit 0",
     "clean:assets": "rm -rf assets",
-    "copy:files": "rm -f 'assets/js/legacy/*' && copyfiles -f node_modules/flexibility/dist/flexibility.js node_modules/html5shiv/dist/html5shiv.min.js assets/js/legacy && rm -rf assets/font/ && copyfiles -u 2 '_app/font/**/*.*' ./assets/font/",
+    "copy:files": "rm -f 'assets/js/legacy/*' && copyfiles -f node_modules/flexibility/dist/flexibility.js node_modules/html5shiv/dist/html5shiv.min.js assets/js/legacy && rm -rf assets/fonts/ && copyfiles -u 2 '_app/fonts/**/*.*' ./assets/fonts/",
     "uglify:js": "mkdir -p assets/js && uglifyjs _app/js/*.js -m -o assets/js/app.js && uglifyjs node_modules/jquery/dist/jquery.js _app/js/*.js -m -c -o assets/js/app.min.js",
     "lint:js": "eslint _app/js",
     "build:js": "npm run lint:js && npm run uglify:js",
@@ -27,12 +27,12 @@
     "clean:jekyll": "bundle exec jekyll clean",
     "build:jekyll": "bundle exec jekyll build",
     "watch:jekyll": "onchange '_app/_includes/**/*' '_app/_layouts/**/*' '**/*.md' '_data/*.*' -- run-s build:jekyll reload",
-    "serve": "browser-sync start --server '_site' --files '_site/assets/js/*.js' '_site/assets/css/*.css'",
+    "serve": "browser-sync start --server '_site' --files './_site/assets/js/app.min.js' './_site/assets/css/main.css'",
     "reload": "browser-sync reload",
     "start-with-scss": "npm-run-all copy:files build:scss build:js compress:img build:jekyll --parallel watch:scss watch:js watch:jekyll watch:img serve",
     "watch-with-scss": "run-p build:jekyll watch:scss watch:js watch:jekyll watch:img serve",
     "start:fresh": "npm-run-all copy:files copy:basscss build:css build:js compress:img build:jekyll --parallel watch:css watch:js watch:jekyll watch:img serve",
-    "start": "run-p build:jekyll watch:css watch:js watch:jekyll watch:img serve"
+    "start": "npm-run-all build:jekyll --parallel watch:css watch:js watch:jekyll watch:img serve"
   },
   "repository": {
     "type": "git",

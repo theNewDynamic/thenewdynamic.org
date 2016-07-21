@@ -1,15 +1,12 @@
-<nav class="bg-brand block clearfix px2">
-  <div class="">    
-    {% for object in site.data.nav-links %}
-     <a class="hover-moon-gray text-decoration-none h4 inline-block py3 mr3{% if page.url == object.url %} white{% else %} silver{% endif %}" href="{{ object.url }}" title="{{ object.title }}">
-      {{ object.title }}
-     </a>
+<div class="clearfix">
+  <nav class="col py2 font-family-brand bg-white borderTK border-silver rounded h4 bg-black">
+    <a href="/" class=" hover-silver px1 py1">
+      <img src="/assets/images/ic_home_black_24px.svg" class="align-bottom line-height-2" style="margin-bottom:.125em">
+    </a>
+    {% for object in navigation-links-primary %}
+      <a class="caps py1 px1 lg-px2 line-height-2 black text-decoration-none hover-silver{% if page.url == object.url %} bg-near-brand{% endif %}" href="{{ object.url }}" title="{{ object.title }}">
+        {{ object.title }}
+      </a>
     {% endfor %}
-  </div>
-</nav>
-
-<header class="center px4 py4 bg-brand" role="banner">
-  <img src="{{ site.logo }}" class=" pa1 ba b--black-10 h3 w3" alt="avatar" style="height:90px;">  
-  <h1 class="h1 f2-ns fw6 white">{{ site.title }}</h1>
-  <h2 class="h3 silver fw2 ttu tracked">{{ site.description }}</h2>
-</header>
+  </nav>
+</div>

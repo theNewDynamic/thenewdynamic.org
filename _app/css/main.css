@@ -1,16 +1,10 @@
 @import 'sanitize.css';
 @import 'normalize-opentype.css/normalize-opentype.css';
-
-@import '_fonts';
-
 @import '_basscss';
-
-@import 'modules/accessibility';
-
-@import 'colors';
-
-/*Variables*/
-@import '_variables-colors';
-@import '_variables-media-queries';
-
+@import '_fonts';
+@import '_layout';
+@import '_colors';
+@import '_media-queries';
 @import '_styles';
+@import 'modules/_accessibility';
+@import 'modules/_transitions';

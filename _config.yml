@@ -1,7 +1,7 @@
 # jekyll-seo-tag
-title: "Lean Jekyll"
-description: "A starter for using jekyll"
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+title: "the New Dynamic"
+description: "Static Site Generators and the Post-CMS paradigm"
+url: https://www.thenewdynamic.org
 author: []
 twitter:
   username: budparr
@@ -18,9 +18,20 @@ owner: The New Dynamic
 short_name: The Shortname
 display: fullscreen
 
+
+categories:
+  - 'article'
+  - 'event'
+
+type:
+  - Article
+  - Tutorial
+  - Presentation
+
+
 # development meta data
 image_url: http://thenewdynamic.imgix.net
-google_analytics_id: UA-xxxxx-4
+google_analytics_id: UA-30899180-4
 version: 3.0.3
 incremental: true
 #port: 3575
@@ -58,30 +69,74 @@ exclude:
   - package.json
   - postcss.config.js
 
+# CONTENT
 collections:
   landing_pages:
     output: true
     permalink: '/:path/'
+  links:
+    output: false
+    permalink: '/link/:path/'
+    future: true
+    description: 'Links to from around the web'
+  meetups:
+      output: false
+  showcase:
+    output: true
+    permalink: '/:collection/:path/'
+  tool:
+    output: true
+    permalink: '/:collection/:path/'
+  tool_type:
+    output: true
+    permalink: '/tools/:path/'
 
+# DEFAULTS
 defaults:
-  - scope:
-      path: ''
-    values:
-      layout: page-single
-  - scope:
-      path: ''
-      type: 'landing_pages'
-    values:
-      layout: page-single
-  - scope:
-      path: ''
-      type: pages
-      permalink: /:basename/
-    values:
-      layout: page-single
   - scope:
       path: ''
       type: posts
     values:
       layout: page-single
-      schema: BlogPosting
+      category: article
+  - scope:
+      path: ''
+      type: events
+    values:
+      layout: page-single
+  - scope:
+      path: ''
+      type: landing_pages
+    values:
+      layout: page-single
+      feed: false
+  - scope:
+      path: ''
+      type: tool
+    values:
+      layout: page-listing
+  - scope:
+      path: ''
+      type: tool_type
+    values:
+      layout: page-listing
+  - scope:
+      path: ''
+      type: staff
+    values:
+      layout: page-single
+      feed: false
+  - scope:
+      path: ''
+      type: meetups
+    values:
+      feed: false
+  - scope:
+      path: ''
+      type: showcase
+    values:
+      layout: page-listing
+  - scope:
+      path: '_pages'
+    values:
+      permalink: /:basename/

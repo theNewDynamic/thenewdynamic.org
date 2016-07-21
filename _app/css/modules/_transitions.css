@@ -1,0 +1,9 @@
+
+.bg-transition {
+  transition: background-color 0.5s ease;
+  
+}
+
+.transition {
+  transition: all 0.5s ease;
+}

@@ -1,0 +1,28 @@
+primary:
+    - title: "Articles"
+      url: /articles/
+
+    - title: "Links"
+      url: /links/
+
+    - title: "Tools"
+      url: /tools/  
+
+    - title: "Showcase"
+      url: /showcase/    
+
+    - title: "Events"
+      url: /events/    
+
+    - title: "Job Board"
+      url: /job-board/    
+
+secondary:
+    - title: "About"
+      url: /about/
+
+    - title: "Submit"
+      url: /submit/
+
+    - title: "Privacy"
+      url: /privacy/  

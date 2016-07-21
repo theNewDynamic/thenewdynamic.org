@@ -6,6 +6,9 @@ layout: compress
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+{% assign navigation-links-primary = site.data.navigation-links.primary %}
+{% assign navigation-links-secondary = site.data.navigation-links.secondary %}
+{% include font-loader.html %}
   <head>
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -41,10 +44,11 @@ layout: compress
   <body  id="container" class="{% if page.class %} {{ page.class }} {% endif %}{{ jekyll.environment }}">
     <a href="#content" tabindex="1" class="hide-until-focused absolute top-0 left-0 bg-white-70 py3 px2">Skip to content</a>
     {% include global/header.html %}    
-      <main id="content" role="main">
+    {% include global/nav-side.html %}    
+      <main id="content" role="main" class="col-12 lg-col-9">
         {{content}}
       </div>
-    {% include global/footer.html %}
+    
     {% include global/scripts.html %}
   </body>
 </html>
