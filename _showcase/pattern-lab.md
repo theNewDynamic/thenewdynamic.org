@@ -8,7 +8,7 @@ creator:
   - role:
   - link:
   - name:
-image_path: /uploads/showcase-pattern-lab.png
+image_path: /showcase-pattern-lab.png
 ---
 
 
