@@ -8,14 +8,16 @@ layout: default
       <img src={{ image | imgix_url }} style="border:1px solid #ddd;margin: auto;">
     {% endif %}
     <hr />
-    {% if page.content %}
+    {% capture number_of_words %}{{ page.content | number_of_words | minus: 3 }}{% endcapture %}
+
+    {% unless number_of_words contains '-'  %}
       <h4>Developer's Notes</h4>
 
       {{page.name}}
       <div class="prose">
         {{ page.content }}
       </div>
-    {% endif %}
+    {% endunless %}
   </article>
   <aside class="bottom">
     <div class="small-screenTK">
