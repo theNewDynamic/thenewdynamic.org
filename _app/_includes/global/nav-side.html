@@ -25,7 +25,7 @@
     
     <div class="mt3">
       {% for object in site.data.navigation-links.secondary %}
-        <a class="text-decoration-none font-family-brand h5 pl2 py1 silver inline sm-block md-block lg-block hover-bg-brand-darken hover-white{% if page.url == object.url %} bg-brand-darken{% endif %}" href="{{ object.url }}" title="{{ object.title }}">
+        <a class="text-decoration-none font-family-brand h5 px2 py1 silver inline  hover-bg-brand-darken rounded hover-white{% if page.url == object.url %} bg-brand-darken{% endif %}" href="{{ object.url }}" title="{{ object.title }}">
           {{ object.title }}
         </a>      
       {% endfor %}
