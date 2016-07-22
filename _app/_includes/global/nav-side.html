@@ -1,27 +1,42 @@
-{% assign navigation-links = site.data.navigation-links %}
-<header class="flefx flex-column fixed bottom-0 right-0 height-100 col-12 sm-col-12 lg-col-3 z2 bg-brand overflow-y transition" role="banner" data-search-index="false">
+<header id="expandable-nav-side" class="expandable transition flex flex-column fixed top-0 right-0 height-100 w-sidebar-lg z2 bg-brand overflow-y" role="banner" data-search-index="false">
+  <div class="block m2 right-align md-hide lg-hide mb2">
+    {% include components/button-close.html %}
+  </div>
 
-  <a href="/" class="text-decoration-none block white bold font-family-brand h1 line-height-1 pt2 lg-pt3 pl3 lg-pl2">    
+  <a href="/" class="text-decoration-none sm-hide block white bold font-family-brand h1 line-height-1 pt2 lg-pt3 pl2">    
     {{ site.title | default: 'Home' }}    
   </a>
+  
   {% if site.description %}
-  <p class="btn silver pl3">
-    {{ site.description }}
-  </p>
+    <p class="btn silver pl3">
+      {{ site.description }}
+    </p>
   {% endif %}
-  
-  {% for object in navigation-links-secondary %}
-      <a class="btn btn-primary pl3 inline-block lg-block hover-silver{% if page.url == object.url %} bg-near-brand{% endif %}" href="{{ object.url }}" title="{{ object.title }}">
-        {{ object.title }}
-      </a>
-      
-      {% endfor %}
-  
 
-    <div class="block mx3 my3" style="margin-top:auto;">
-      <a href="/join-our-mailing-list/" class="btn btn-primary btn-outline border border-silver block rounded">
+  <nav class="mt3">
+
+    {% for object in site.data.navigation-links.primary %}
+      <a class="text-decoration-none font-family-brand h2 bold pl2 py1 silver block hover-bg-brand-darken hover-white{% if page.url == object.url %} bg-brand-darken{% endif %}" href="{{ object.url }}" title="{{ object.title }}">
+        {{ object.title }}
+      </a>      
+    {% endfor %}
+    
+    
+    
+    <div class="mt3">
+      {% for object in site.data.navigation-links.secondary %}
+        <a class="text-decoration-none font-family-brand h5 pl2 py1 silver inline sm-block md-block lg-block hover-bg-brand-darken hover-white{% if page.url == object.url %} bg-brand-darken{% endif %}" href="{{ object.url }}" title="{{ object.title }}">
+          {{ object.title }}
+        </a>      
+      {% endfor %}
+    </div>  
+  
+  </nav>
+  
+  <div class="mx2 my4">
+    <a href="/join-our-mailing-list/" class="btn  btn-primary btn-outline border border-silver block rounded">
       join the mailing list
     </a>
-    </div>
+  </div>
   
 </header>

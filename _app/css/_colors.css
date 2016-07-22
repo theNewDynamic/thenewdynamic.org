@@ -15,14 +15,16 @@
   --dark-gray:#333;
   --mid-gray:#555;
   --gray: #777;
-  --silver: #ddd;
-  --light-silver: #aaa;
+  --silver: #F2F2F2;
+  --light-silver: #F2F2F2;
   --moon-gray: #ccc;
   --light-gray: #eee;
-  --near-white: #f4f4f4;
+  --near-white: #f8f8f8;
   --white: #fff;
   --tnd-red: #8C1613;
   --tnd-red-lighter: #A21513;
+  --tnd-red-darker: #7D0200;
+  
   --brand-old: rgb(12, 30, 41);
   --brand: var(--tnd-red);
   --slate: #537282;
@@ -36,16 +38,17 @@
  
 }
 
-h1,h2,h3 {
-  color: var(--near-black);
-}
+
+h1,h2,h3 {color: var(--near-black);}
 .bg-brand { background-color: var(--brand)}
+
+.bg-brand-darken { background-color: var(--tnd-red-darker)}
+.hover-bg-brand-darken:hover { background-color: var(--tnd-red-darker)}
 
 .bg-black  { background-color: var(--black) }
 .bg-gray   { background-color: var(--gray) }
 .bg-silver { background-color: var(--silver) }
 .bg-white  { background-color: var(--white) }
-
 .bg-white-70 { background-color: var(--white-70)}
 .bg-near-white { background-color: var(--near-white)}
 

@@ -21,6 +21,7 @@
 
 
 @import 'src/_basscss/basscss-addons/modules/border-colors';
+@import 'src/_basscss/basscss-addons/modules/responsive-layout';
 @import 'src/_basscss/basscss-addons/modules/responsive-margin';
 @import 'src/_basscss/basscss-addons/modules/responsive-padding';
 

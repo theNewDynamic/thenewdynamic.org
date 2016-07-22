@@ -1,12 +1,12 @@
-<div class="clearfix">
-  <nav class="col py2 font-family-brand bg-white borderTK border-silver rounded h4 bg-black">
-    <a href="/" class=" hover-silver px1 py1">
-      <img src="/assets/images/ic_home_black_24px.svg" class="align-bottom line-height-2" style="margin-bottom:.125em">
+<div class="clearfix bg-brand md-hide lg-hide">
+  <h1>
+    <a href="/" class="text-decoration-none block white bold font-family-brand sm-h1 md-h1 lg-h1 line-height-1 lg-pt1 pl2 lg-pl2">    
+      {{ site.title | default: 'Home' }}    
     </a>
-    {% for object in navigation-links-primary %}
-      <a class="caps py1 px1 lg-px2 line-height-2 black text-decoration-none hover-silver{% if page.url == object.url %} bg-near-brand{% endif %}" href="{{ object.url }}" title="{{ object.title }}">
-        {{ object.title }}
-      </a>
-    {% endfor %}
-  </nav>
+  </h1>
+  
+  <div class="flex-auto"><!-- adds space between the menu and the search bar on the right --> </div>
+  
+  {% include components/button-menu.html %}
+
 </div>
