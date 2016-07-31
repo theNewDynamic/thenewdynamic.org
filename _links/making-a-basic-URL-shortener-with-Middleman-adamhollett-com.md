@@ -1,13 +1,13 @@
 ---
 title: "Making a basic URL shortener with Middleman"
 source: Adam Hollett
-date: 2016-07-26 09:05
+date: 2016-07-27 22:37
 link: http://adamhollett.com/posts/2016/07/middleman-url-shortener/
 type: Tutorial
 tool:
   - middleman
 ---
-It turned out to be fairly simple to generate redirecting HTML pages dynamically with Middleman. 
+About a year ago, I bought admh.lt, a shortened version of my adamhollett.com domain name that also happens to be the slug I use for my username on many sites. admh.lt just redirects to adamhollett.com, but it retains anything else that’s been appended to the URL, so admh.lt/posts redirects to adamhollett.com/posts.
 
 
 
