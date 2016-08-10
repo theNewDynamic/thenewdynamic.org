@@ -1,6 +1,7 @@
 ---
 title: 'September the New Dynamic Meetup: Demo Forestry.io CMS for Jekyll and Hugo Static Sites'
 published: true
+date: 2016-08-10T12:00:00.000Z
 category: event
 meetup: the-new-dynamic
 start_at: 2016-09-08T19:00:00.000Z
