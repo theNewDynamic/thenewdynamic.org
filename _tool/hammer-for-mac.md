@@ -10,4 +10,4 @@ description:
 ---
 
 
-Hammer is a commercial Mac OS desktop app that generate static sites locally, and integrates with the Forge static hosting service.
+Hammer is a commercial Mac OS desktop app that generate static sites locally, and integrates with the [Forge](/tool/forge/) static hosting service.
