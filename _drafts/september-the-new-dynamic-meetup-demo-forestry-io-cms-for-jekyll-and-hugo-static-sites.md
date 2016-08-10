@@ -6,7 +6,7 @@ meetup: the-new-dynamic
 start_at: 2016-09-08T19:00:00.000Z
 venue: Vector Media Group
 address: '18 West 21st St, 8th Fl'
-link:
+link: http://www.meetup.com/The-New-Dynamic/events/233150800/
 description:
 ---
 
