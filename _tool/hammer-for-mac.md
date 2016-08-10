@@ -1,6 +1,6 @@
 ---
 title: Hammer for Mac
-date:
+date: 2016-08-09T00:00:00.000Z
 tool_type:
 links:
   website: 'http://hammerformac.com/'
