@@ -7,7 +7,7 @@ type: Article
 category: essentials
 tool:
   - jekyll
-  - staticman
+  - static-man
 ---
 I’ve been really interested in finding the ideal solution to add user-generated content, such as comments on a blog post, to a static site.
 
