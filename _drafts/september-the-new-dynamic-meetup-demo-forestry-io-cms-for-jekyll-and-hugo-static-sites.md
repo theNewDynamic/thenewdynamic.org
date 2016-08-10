@@ -6,16 +6,16 @@ meetup: the-new-dynamic
 start_at: 2016-09-08T19:00:00.000Z
 venue: Vector Media Group
 address: '18 West 21st St, 8th Fl'
-link: http://www.meetup.com/The-New-Dynamic/events/233150800/
-description:
+link:
+description: 'Demo Forestry.io CMS and a short presentation on "convince your boss/client"'
 ---
 
 
-Scott Gallant, co-founder of Forestry.io will talk about the CMS he's creating for Jekyll and Hugo static site generators.&nbsp;&nbsp;
+Scott Gallant, co-founder of Forestry.io will talk about the CMS he's creating for Jekyll and Hugo static site generators.
 
 The fact that Forestry.io works on Hugo as well as Jekyll sites is a huge step forward for all of us, and I urge you to attend to see what Scott's up to and give feedback to help make the product the best it can be at this early stage.
 
-We will begin the Meetup with a short presentation called "Convince your Boss/Client" about why site owners should consider static web tech.&nbsp;
+We will begin the Meetup with a short presentation called "Convince your Boss/Client" about why site owners should consider static web tech.
 
 ---
 
@@ -27,14 +27,14 @@ Big shout out to this month's venue sponsor Vector Media Group.
 
 Location:
 
-**Vector Media Group&nbsp;**
-<br>18 West 21st St, 8th Floor&nbsp;
+**Vector Media Group**
+<br>18 West 21st St, 8th Floor
 <br>New York, NY 10010
 
 ---
 
-O'Reilly's Velocity Conference is coming to NYC this September and should be of interest to many members.&nbsp;
+O'Reilly's Velocity Conference is coming to NYC this September and should be of interest to many members.
 
-Use discount code PCND and get 20% off passes: &nbsp;
+Use discount code PCND and get 20% off passes:
 
 http://conferences.oreilly.com/velocity/devops-web-performance-ny
