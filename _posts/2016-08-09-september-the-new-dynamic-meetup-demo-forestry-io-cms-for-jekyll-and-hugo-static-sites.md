@@ -11,7 +11,7 @@ description: 'Demo Forestry.io CMS and a short presentation on "convince your bo
 ---
 
 
-Scott Gallant, co-founder of Forestry.io will talk about the CMS he's creating for Jekyll and Hugo static site generators.
+Scott Gallant, co-founder of [Forestry.io](https://forestry.io/) will talk about the CMS he's creating for Jekyll and Hugo static site generators.
 
 The fact that Forestry.io works on Hugo as well as Jekyll sites is a huge step forward for all of us, and I urge you to attend to see what Scott's up to and give feedback to help make the product the best it can be at this early stage.
 
