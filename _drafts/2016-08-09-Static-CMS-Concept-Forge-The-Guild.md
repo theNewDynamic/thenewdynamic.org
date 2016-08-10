@@ -27,4 +27,4 @@ Still, this brings home, in my view, the biggest problem with CMaaS products. It
 
 Steve also looks at [Cockpit](http://getcockpit.com/), a PHP-based API-driven CMS, which I've evaluated before and really liked. An API-driven CMS lets you, essentially, host your own CMaaS. Cockpit is pretty slick and easy to get started with, but its development is flagging, having been created by one person.
 
-At any rate, it's nice to see other people consumed with exploring some of the same issues I have, and writing about them (which I've not done much of). Check out the rest of the post at *The Guild*: [“Static CMS Concept.”](http://guild.beach.io/t/static-cms-concept/103)
+At any rate, it's nice to see other people consumed with exploring some of the same issues I have, and writing about them (which I've not done much of). Check out the rest of the post at *The Guild*: “[Static CMS Concept.](http://guild.beach.io/t/static-cms-concept/103)”
