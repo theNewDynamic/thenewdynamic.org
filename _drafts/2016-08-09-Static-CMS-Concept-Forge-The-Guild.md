@@ -15,10 +15,14 @@ Quoting Christian Owens, CEO at Paddle on using Contentful with the Hammer app, 
 
 > My favourite thing about this is that prior to using contentful our two options were:
 >
-> - install wordpress and build something.
+> * install wordpress and build something.
+> * manage the whole thing statically with markdown files and forego some functionality.
 >
-> - manage the whole thing statically with markdown files and forego some functionality.
 >
 > the other option was to build some kind of docs CMS from scratch, but who has time for that!
 
-Steve also says that the biggest feedback about Contentful has been about pricing, which, despite having a generous free level, ramps up from their to $249 per month (when the post was written, Contentful had a slightly different pricing structure)
+Steve also says that the biggest feedback about Contentful has been about pricing, which, despite having a generous free level, ramps up from their to $249 per month (when the post was written, Contentful had a slightly different pricing structure). That brings home, in my view, the biggest problem with CMaaS products, is vendor lock-in. At the point you go from 0 to 249, you're captive, so I'd likely only see using the free version if you're prepared to pay the full boat.
+
+Steve also looks at Cockpit, a PHP-based API-driven CMS, which I've evaluated.&nbsp;
+
+&nbsp;
