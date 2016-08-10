@@ -9,7 +9,7 @@ tool:
 ---
 
 
-Steve Schofield has been exploring various content management concepts, including Content Management as a Service (CMaaS), and API-driven strategies at the Beach blog, "The Guild." Beach is the maker of the desktop static site generator app, [Hammer for Mac](http://hammerformac.com/), and the [Forge](https://getforge.com/) static hosting service.
+Steve Schofield has been exploring various content management concepts, including Content Management as a Service (CMaaS), and API-driven strategies at the Beach blog, "The Guild." [Beach](http://beach.io/) is the maker of the desktop static site generator app, [Hammer for Mac](http://hammerformac.com/), and the [Forge](https://getforge.com/) static hosting service.
 
 Quoting Christian Owens, CEO at Paddle on using Contentful with the Hammer app, he writes:
 
@@ -23,6 +23,6 @@ Quoting Christian Owens, CEO at Paddle on using Contentful with the Hammer app, 
 
 Steve also says that the biggest feedback about Contentful has been about pricing, which, despite having a generous free level, ramps up from their to $249 per month (when the post was written, Contentful had a slightly different pricing structure). That brings home, in my view, the biggest problem with CMaaS products, is vendor lock-in. At the point you go from 0 to 249, you're captive, so I'd likely only see using the free version if you're prepared to pay the full boat.
 
-Steve also looks at Cockpit, a PHP-based API-driven CMS, which I've evaluated.&nbsp;
+Steve also looks at [Cockpit](http://getcockpit.com/), a PHP-based API-driven CMS, which I've evaluated.&nbsp;
 
 &nbsp;
