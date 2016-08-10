@@ -9,7 +9,7 @@ tool:
 ---
 
 
-Steve Schofield has been exploring various content management concepts, including Content Management as a Service (CMaaS), and API-driven strategies at the Beach blog, "The Guild." Beach is the maker of the desktop static site generator app,&nbsp;[Hammer for Mac](http://hammerformac.com/), and the [Forge](https://getforge.com/) static hosting service.
+Steve Schofield has been exploring various content management concepts, including Content Management as a Service (CMaaS), and API-driven strategies at the Beach blog, "The Guild." Beach is the maker of the desktop static site generator app, [Hammer for Mac](http://hammerformac.com/), and the [Forge](https://getforge.com/) static hosting service.
 
 Quoting Christian Owens, CEO at Paddle on using Contentful with the Hammer app, he writes:
 
