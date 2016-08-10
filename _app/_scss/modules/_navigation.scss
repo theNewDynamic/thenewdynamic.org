@@ -1,5 +1,5 @@
 header.navigation {
-  background-color:darken($navigation-background, 2%);//#27272B;// $navigation-background;
+  background-color:$navigation-background;//#27272B;// $navigation-background;
   border-bottom: 1px solid darken($navigation-background, 1%);
   min-height: $navigation-height;
   width: 100%;

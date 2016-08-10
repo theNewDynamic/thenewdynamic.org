@@ -1,6 +1,6 @@
 .hero {
-  $hero-background-color:darken($navigation-background, 2%);
-  background-color:darken($hero-background-color, .9%);
+  $hero-background-color:$navigation-background;
+  background-color:$hero-background-color;
   padding-top: 1em;
   padding-bottom:1em;
   @include media ($horizontal-bar-mode) {
