@@ -6,7 +6,7 @@ editor_recommends:
 type: Video/Presentation
 slug: links/video-forging-static-sites-with-metalsmith
 source: David Boyer at CodeNode, London
-link: https://skillsmatter.com/skillscasts/6757-forging-static-sites-with-metalsmith#showModal?modal-signup-complete
+link: https://skillsmatter.com/skillscasts/6757-forging-static-sites-with-metalsmith#showModal?modal-signup-complete/
 tool:
   - metalsmith
 ---

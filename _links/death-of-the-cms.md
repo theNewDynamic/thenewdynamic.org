@@ -2,7 +2,7 @@
 title: "The death of the CMS"
 source: Davide Borsatto
 date: 2016-07-14 13:13
-link: https://medium.com/@davide.borsatto/the-death-of-the-cms-cec078a0d1b9
+link: https://medium.com/@davide.borsatto/the-death-of-the-cms-cec078a0d1b9/
 type: Article
 category: essentials
 ---

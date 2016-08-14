@@ -6,7 +6,7 @@ editor_recommends:
 type: Article
 slug: links/jekyll-versus-the-competition
 source: Brian Rinaldi
-link: http://remotesynthesis.com/general/2015/05/07/jekyll-versus-competition
+link: http://remotesynthesis.com/general/2015/05/07/jekyll-versus-competition/
 tool:
   - jekyll
 ---

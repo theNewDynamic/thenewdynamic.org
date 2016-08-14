@@ -57,7 +57,8 @@ exclude:
   - vendor
 permalink: pretty
 
-
+utm_parameters_links: '?utm_source=thenewdynamic.org&utm_medium=website&utm_campaign=links'
+utm_parameters_showcase: '?utm_source=thenewdynamic.org&utm_medium=website&utm_campaign=showcase'
 # PLUGINS
 # gems: [jekyll-sitemap, jekyll-imgix]
 gems:

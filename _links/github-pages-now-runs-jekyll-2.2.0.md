@@ -6,7 +6,7 @@ editor_recommends:
 type: News
 slug: links/github-pages-now-runs-jekyll-220
 source: Github
-link: https://github.com/blog/1867-github-pages-now-runs-jekyll-2-2-0
+link: https://github.com/blog/1867-github-pages-now-runs-jekyll-2-2-0/
 tool:
   - jekyll
 ---

@@ -7,7 +7,7 @@ category: essentials
 type: Article
 slug: links/an-introduction-to-static-site-generators
 source: Eduardo Bouças
-link: http://davidwalsh.name/introduction-static-site-generators
+link: http://davidwalsh.name/introduction-static-site-generators/
 tool:
   - jekyll
 ---

@@ -6,7 +6,7 @@ editor_recommends:
 type: Article
 slug: links/when-simple-is-the-only-option
 source: Instrument
-link: http://www.instrument.com/latest/when-simple-is-the-only-option
+link: http://www.instrument.com/latest/when-simple-is-the-only-option/
 tool:
   - contentful
   - middleman

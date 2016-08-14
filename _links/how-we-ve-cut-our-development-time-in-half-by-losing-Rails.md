@@ -2,7 +2,7 @@
 title: "How we've cut our development time in half by losing Rails"
 source: Cezar Halmagean
 date: 2016-06-15 12:56
-link: http://mixandgo.com/blog/how-weve-cut-our-development-time-in-half-by-losing-rails?utm_source=twitter.com&utm_medium=social&utm_campaign=New+Blog+Post&utm_content=Post+2016-06-15
+link: http://mixandgo.com/blog/how-weve-cut-our-development-time-in-half-by-losing-rails/
 type: Tutorial
 category: essentials
 tool:

@@ -2,7 +2,7 @@
 title: "Building a static website with Jekyll and GitHub Pages"
 source: Amanda Visconti, Programming Historian
 date: 2016-04-18 00:31
-link: http://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages
+link: http://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages/
 type: Tutorial
 tool:
   - jekyll

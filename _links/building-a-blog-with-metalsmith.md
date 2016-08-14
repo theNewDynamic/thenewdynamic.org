@@ -6,7 +6,7 @@ editor_recommends:
 type: Tutorial
 slug: links/building-a-blog-with-metalsmith
 source: Blake Embrey
-link: http://blakeembrey.com/articles/2014/09/building-a-blog-with-metalsmith
+link: http://blakeembrey.com/articles/2014/09/building-a-blog-with-metalsmith/
 tool:
   - metalsmith
 ---

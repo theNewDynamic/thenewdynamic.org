@@ -6,7 +6,7 @@ editor_recommends:
 type: Resource/Website
 slug: links/buster-a-static-site-generator-for-ghost
 source: Akshit Khurana
-link: https://github.com/axitkhurana/buster
+link: https://github.com/axitkhurana/buster/
 tool:
  - buster
 ---

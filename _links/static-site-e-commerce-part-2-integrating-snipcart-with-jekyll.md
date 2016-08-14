@@ -6,7 +6,7 @@ editor_recommends:
 type: Tutorial
 slug: links/static-site-e-commerce-part-2-integrating-snipcart-with-jekyll
 source: Snipcart
-link: https://snipcart.com/blog/static-site-e-commerce-(part-2)-integrating-snipcart-with-jekyll
+link: https://snipcart.com/blog/static-site-e-commerce-(part-2)-integrating-snipcart-with-jekyll/
 tool:
   - snipcart
   - jekyll

@@ -6,7 +6,7 @@ editor_recommends:
 type: Tutorial
 slug: links/harpjs-previous-and-next-using-ejs
 source: Ian Rose
-link: http://ianrose.me/articles/harp-js-previous-and-next-using-ejs
+link: http://ianrose.me/articles/harp-js-previous-and-next-using-ejs/
 tool:
   - harp
 ---

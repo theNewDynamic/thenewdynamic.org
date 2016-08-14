@@ -6,7 +6,7 @@ editor_recommends:
 type: Tutorial
 slug: links/building-technical-documentation-with-metalsmith
 source: Andy Jiang, Segment
-link: https://segment.com/blog/building-technical-documentation-with-metalsmith
+link: https://segment.com/blog/building-technical-documentation-with-metalsmith/
 tool:
   - metalsmith
 ---

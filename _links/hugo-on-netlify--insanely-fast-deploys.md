@@ -6,7 +6,7 @@ editor_recommends:
 type: Article
 slug: links/hugo-on-netlify-insanely-fast-deploys
 source: Netlify
-link: https://www.netlify.com/blog/2015/07/30/hugo-on-netlify-insanely-fast-deploys
+link: https://www.netlify.com/blog/2015/07/30/hugo-on-netlify-insanely-fast-deploys/
 tool:
   - hugo
   - netlify

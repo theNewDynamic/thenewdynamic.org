@@ -6,7 +6,7 @@ editor_recommends:
 type: Article
 slug: links/rearchitecting-github-pages
 source: Charlie Somerville, Github Engineering
-link: http://githubengineering.com/rearchitecting-github-pages
+link: http://githubengineering.com/rearchitecting-github-pages/
 tool:
   - github-pages
 ---
