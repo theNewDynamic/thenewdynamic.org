@@ -35,7 +35,7 @@ schema: https://schema.org/WebPage
       {% assign links = (links | sort: 'date', 'last' | reverse)  %}
       {% if links.size > 0 %}
         <h3>
-          {{item.title }} ({{ links.size }} links)
+          {{item.title }} ({{ links.size }} link{% if links.size > 1 %}s{% endif %})
         </h3>
         <ul class="list-reset">
           {% for object in links   %}

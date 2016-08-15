@@ -71,6 +71,7 @@ a:hover {
 .blue  { color: var(--blue) }
 
 .hover-black:hover { color: var(--black); }
+.hover-blue:hover { color: var(--blue); }
 .hover-near-black:hover { color: var(--near-black); }
 .hover-dark-gray:hover { color: var(--dark-gray); }
 .hover-mid-gray:hover { color: var(--mid-gray); }
