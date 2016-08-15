@@ -22,7 +22,7 @@ layout: default
   <aside class="bottom">
     <div class="small-screenTK">
         {% if page.website %}
-        <a href="{{ page.website }}" target="_blank">{{ page.website }} <i class="icons-ion-android-open smaller"></i></a>
+        <a href="{{ page.website }}{{ site.utm_parameters_showcase }}" target="_blank">{{ page.website }} <i class="icons-ion-android-open smaller"></i></a>
         <hr />
         {% endif %}
         {% if page.creator[0].role %}
