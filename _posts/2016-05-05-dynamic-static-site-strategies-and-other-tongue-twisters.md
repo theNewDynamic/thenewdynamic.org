@@ -1,7 +1,7 @@
 ---
-title: "Dynamic Site Strategies (and Other Tongue Twisters)"
-published: false
-date: 2016-06-15T12:00:00.000Z
+title: "TEST Dynamic Site Strategies (and Other Tongue Twisters)"
+published: true
+date: 2017-06-15T12:00:00.000Z
 category: event
 start_at: 2016-06-15T11:30:00.000Z
 description: Slides of the conference talk

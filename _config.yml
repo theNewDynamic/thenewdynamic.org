@@ -35,6 +35,8 @@ google_analytics_id: UA-30899180-4
 version: 3.0.3
 incremental: true
 #port: 3575
+utm_parameters_links: '?utm_source=thenewdynamic.org&utm_medium=website&utm_campaign=links'
+utm_parameters_showcase: '?utm_source=thenewdynamic.org&utm_medium=website&utm_campaign=showcase'
 
 
 # Settings
@@ -54,7 +56,7 @@ layouts_dir:  ./_app/_layouts
 includes_dir: ./_app/_includes
 
 permalink: pretty
-
+future: false
 # CONTENT
 exclude:
   - readme.md
@@ -84,9 +86,9 @@ collections:
   showcase:
     output: true
     permalink: '/:collection/:path/'
-  tool:
+  tools:
     output: true
-    permalink: '/:collection/:path/'
+    permalink: '/tool/:path/'
   tool_type:
     output: true
     permalink: '/tools/:path/'

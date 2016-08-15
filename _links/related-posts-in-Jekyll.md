@@ -2,7 +2,7 @@
 title: "Related posts in Jekyll"
 source: Frank Lin
 date: 2016-07-13 12:53
-link: https://www.flinhong.com/front-end/related-posts-in-jekyll
+link: https://www.flinhong.com/front-end/related-posts-in-jekyll/
 type: Tutorial
 tool:
   - jekyll

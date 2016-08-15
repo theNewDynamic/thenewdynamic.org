@@ -4,13 +4,47 @@ section: page-listing
 schema: https://schema.org/WebPage
 ---
 
+<div class="p2">
+  {{ content }}
 
-<div class="media flex-wrap">
-  {% for post in site.posts  limit: 55 %}
-    <div class="p4 bg-near-white media-body">
-      <a href="{{post.url}}">
-        {{ post.title }}
-      </a>
-    </div>
-  {% endfor %}
+
+
+  
+
+  <div class="col col-12 lg-col-5 bg-white p2">
+    <h3>Articles and Event Recaps</h3>
+
+    {% assign posts = "" | split: "|" %}
+    {% for item in site.posts %}      
+      {% if item.category != 'event' %}
+        {% assign posts = posts | push: item %}
+      {% endif %}
+    {% endfor %}
+
+    {% assign posts = posts | sort: 'date', 'last' | reverse  %}
+
+    {% for object in posts   %}
+        {% include components/article-list-item.html %}
+    {% endfor %}
+
+
+  </div>
+
+
+  <div class="col col-5">
+    
+    
+{% include list-events.html %}
+
+
+
+
+
+
+
+  </div>
+
+
+
+
 </div>

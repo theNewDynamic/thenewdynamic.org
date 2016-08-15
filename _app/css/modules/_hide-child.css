@@ -1,0 +1,2 @@
+.hide-child-until-hover > .hidden-child {display: none;}
+.hide-child-until-hover:hover > .hidden-child {display: block;}

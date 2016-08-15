@@ -6,7 +6,7 @@ editor_recommends:
 type: Resource/Website
 slug: links/jekyll-codex
 source: J.H. van der Schee
-link: http://jekyllcodex.org
+link: http://jekyllcodex.org/
 tool:
   - jekyll
 ---

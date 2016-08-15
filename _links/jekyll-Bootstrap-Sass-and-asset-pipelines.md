@@ -2,7 +2,7 @@
 title: "Jekyll, Bootstrap, Sass, and asset pipelines"
 source: Aerobatic
 date: 2016-03-23 20:00
-link: https://www.aerobatic.com/blog/jekyll-assets-bootstrap
+link: https://www.aerobatic.com/blog/jekyll-assets-bootstrap/
 type: Tutorial
 tool:
   - jekyll

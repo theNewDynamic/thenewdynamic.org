@@ -1,10 +1,18 @@
-<div class="clearfix bg-brand md-hide lg-hide">
-  <h1>
+{% assign link_classes = ' text-decoration-none font-family-brand h3 px2 py1 black inline transition hover-color-brand' %}
+ 
+<div class="clearfix sm-bg-brand mb2">
+  
+  <h1 class="md-hide lg-hide">
     <a href="/" class="text-decoration-none block white bold font-family-brand sm-h1 md-h1 lg-h1 line-height-1 lg-pt1 pl2 lg-pl2">    
       {{ site.title | default: 'Home' }}    
     </a>
   </h1>
   
+  <div class="bg-white border border-silver lg-ml2 col lg-mt2 lg-mr2 lg-px2 pt2 pb1">
+   {% include global/nav-links.html link_classes=link_classes %}
+
+  </div>
+
   <div class="flex-auto"><!-- adds space between the menu and the search bar on the right --> </div>
   
   {% include components/button-menu.html %}

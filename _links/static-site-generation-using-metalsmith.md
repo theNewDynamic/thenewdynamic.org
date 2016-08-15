@@ -6,7 +6,7 @@ editor_recommends:
 type: Video/Presentation
 slug: links/static-site-generation-using-metalsmith
 source: David Boyer
-link: https://slidr.io/misterdai/static-site-generation-using-metalsmith#1
+link: https://slidr.io/misterdai/static-site-generation-using-metalsmith#1/
 tool:
   - metalsmith
 ---

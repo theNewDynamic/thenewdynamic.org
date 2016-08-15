@@ -1,0 +1,49 @@
+---
+layout: default
+section: links
+schema: https://schema.org/WebPage
+---
+{% assign latest = (site.links | where_exp: 'item', 'item.category != "essentials"' | sort: 'date', 'last' | reverse ) %}
+{% assign essentials = (site.links | where: 'category', 'essentials' | sort: 'date', 'last' | reverse ) %}
+<div class="p2">
+  {{ content }}
+  <div class="col col-12 lg-col-5 bg-white p2">
+    <h2>
+      Latest
+    </h2>
+    <ul class="list-reset">
+      {% for object in latest limit:5 %}  
+        {% include components/links.html %}
+      {% endfor %}
+    </ul>
+
+    <h2>
+      Essentials
+    </h2>
+    <ul class="list-reset">    
+      {% for object in essentials %}
+        {% include components/links.html %}
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="col col-5 ml2 bg-white p2">
+  <h2>Links by tool</h2>
+    {% assign tools = (site.tools | sort: 'title')  %}
+    {% for item in tools %}
+      {% assign slug = item.slug  %}  
+      {% assign links = (site.links | where_exp: 'object', 'object.tool contains slug') %}
+      {% assign links = (links | sort: 'date', 'last' | reverse)  %}
+      {% if links.size > 0 %}
+        <h3>
+          {{item.title }} ({{ links.size }} links)
+        </h3>
+        <ul class="list-reset">
+          {% for object in links   %}
+            {% include components/links.html %}
+          {% endfor %}
+        </ul>
+      {% endif %}
+    {% endfor %}
+
+  </div>
+</div>

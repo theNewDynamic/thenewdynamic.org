@@ -6,7 +6,7 @@ editor_recommends:
 type: News
 slug: links/jekyll-archives
 source: Jekyll
-link: https://github.com/jekyll/jekyll-archives
+link: https://github.com/jekyll/jekyll-archives/
 tool:
   - jekyll
 ---

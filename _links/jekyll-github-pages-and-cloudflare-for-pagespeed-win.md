@@ -6,7 +6,7 @@ editor_recommends: 2
 type: Tutorial
 slug: links/jekyll-github-pages-and-cloudflare-for-pagespeed-win
 source: James Steinbach (@jdsteinbach), Scotch.io
-link: https://scotch.io/tutorials/jekyll-github-pages-and-cloudflare-for-pagespeed-win
+link: https://scotch.io/tutorials/jekyll-github-pages-and-cloudflare-for-pagespeed-win/
 tool:
   - jekyll
   - github-pages

@@ -6,7 +6,7 @@ editor_recommends: 2
 type: Article
 slug: links/static-a-revival
 source: Kyle MacDonald, Carrot Creative
-link: http://carrot.is/coding/static
+link: http://carrot.is/coding/static/
 tool:
   - roots
 ---

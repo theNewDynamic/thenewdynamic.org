@@ -6,7 +6,7 @@ editor_recommends:
 type: Resource/Website
 slug: links/services-for-static-websites
 source: Adam Harris
-link: https://github.com/aharris88/services-for-static-websites
+link: https://github.com/aharris88/services-for-static-websites/
 tool:
 ---
 

@@ -6,7 +6,7 @@ editor_recommends:
 type: News
 slug: links/major-release-for-hugo
 source: Steve Francia
-link: https://github.com/spf13/hugo/releases
+link: https://github.com/spf13/hugo/releases/
 tool:
   - hugo
 ---

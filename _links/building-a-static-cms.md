@@ -6,7 +6,7 @@ editor_recommends:
 type: Article
 slug: links/building-a-static-cms
 source:
-link: http://carrot.is/coding/static_cms
+link: http://carrot.is/coding/static_cms/
 tool:
   - contentful
   - roots

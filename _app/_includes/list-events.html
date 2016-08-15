@@ -1,0 +1,21 @@
+
+    {% assign events = "" | split: "|" %}
+    {% for item in site.posts %}
+      {% assign current_date = site.time | date: "%Y%m%d"  %}
+      {% assign postdate = item.date | date: "%Y%m%d"  %}    
+      {% if postdate > current_date and item.category == 'event' %}
+        {% assign events = events | push: item %}
+      {% endif %}
+    {% endfor %}
+
+    {% assign upcoming_events = events | sort: 'date', 'last' | reverse  %}
+    {% if upcoming_events.size > 0 %}
+      <h3>Upcoming Events</h3>
+    {% endif %}
+    {% for object in upcoming_events limit: 10  %}
+        {% include components/article-list-item.html %}
+    {% endfor %}
+
+{% comment %}
+  this technique may be superceded by the where_exp filter in 3.2
+{% endcomment %}

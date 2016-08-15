@@ -2,7 +2,7 @@
 title: "Netlify: Interview with Parker Moore from Jekyll"
 source: Aaron Autrand, Netlify
 date: 2016-03-14 12:46
-link: https://www.netlify.com/blog/2016/03/11/interview-with-parker-moore-from-jekyll
+link: https://www.netlify.com/blog/2016/03/11/interview-with-parker-moore-from-jekyll/
 type: Article
 tool:
   - jekyll

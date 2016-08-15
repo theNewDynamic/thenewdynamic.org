@@ -6,7 +6,7 @@ editor_recommends:
 type: Resource/Website
 slug: links/awesome-jekyll
 source: Gerald Bauer
-link: https://github.com/planetjekyll/awesome-jekyll
+link: https://github.com/planetjekyll/awesome-jekyll/
 tool:
   - jekyll
 ---

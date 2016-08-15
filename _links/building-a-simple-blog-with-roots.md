@@ -6,7 +6,7 @@ editor_recommends:
 type: Tutorial
 slug: links/building-a-simple-blog-with-roots
 source: Jeff Escalante, Carrot Creative
-link: http://carrot.is/coding/roots_blog_tutorial
+link: http://carrot.is/coding/roots_blog_tutorial/
 tool:
   - roots
 ---

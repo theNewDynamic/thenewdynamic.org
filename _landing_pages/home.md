@@ -8,4 +8,4 @@ Resources for designers and developers.
 
 '
 ---
-home sweet home
+# A guide to the best way to build fast, efficient websites.

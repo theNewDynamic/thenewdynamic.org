@@ -39,11 +39,11 @@ layout: compress
         {% endif %}
         {% include global/seo.html %}
 </head>
-  <body  id="container" class="{% if page.class %} {{ page.class }} {% endif %}{{ jekyll.environment }} bg-near-whiteTK">
+  <body  id="container" class="{% if page.class %} {{ page.class }} {% endif %}{{ jekyll.environment }} bg-off-white">
     <a href="#content" tabindex="1" class="hide-until-focused absolute top-0 left-0 bg-white-70 py3 px2">Skip to content</a>
     {% include global/header.html %}    
     {% include global/nav-side.html %}    
-      <main id="content" role="main" class="col-12 lg-col-9">
+      <main id="content" role="main" class="m-sidebar">
         {{content}}
       </div>
     

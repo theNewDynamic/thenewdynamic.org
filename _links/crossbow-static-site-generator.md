@@ -6,7 +6,7 @@ editor_recommends:
 type: News
 slug: links/crossbow-static-site-generator
 source: Crossbow
-link: http://quick.as/ly3uw2m
+link: http://quick.as/ly3uw2m/
 tool:
   - crossbow
 ---

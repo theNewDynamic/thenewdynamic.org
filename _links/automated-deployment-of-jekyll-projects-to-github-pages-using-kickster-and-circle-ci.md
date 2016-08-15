@@ -6,7 +6,7 @@ editor_recommends:
 type: Article
 slug: links/automated-deployment-of-jekyll-projects-to-github-pages-using-kickster-and-circle-ci
 source: Nielsen Ramon
-link: https://medium.com/@nielsenramon/automated-deployment-of-jekyll-projects-to-github-pages-using-kickster-and-circle-ci-6ccc0b6cb872#.k3u9sa1eb
+link: https://medium.com/@nielsenramon/automated-deployment-of-jekyll-projects-to-github-pages-using-kickster-and-circle-ci-6ccc0b6cb872/
 tool:
   - jekyll
 ---

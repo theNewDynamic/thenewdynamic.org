@@ -2,7 +2,7 @@
 title: "Integrating Gulp into Your Jekyll Workflow"
 source: Rob Wise
 date: 2015-08-01 23:14
-link: https://robwise.github.io/blog/jekyll-and-gulp
+link: https://robwise.github.io/blog/jekyll-and-gulp/
 type: Tutorial
 tool:
   - jekyll

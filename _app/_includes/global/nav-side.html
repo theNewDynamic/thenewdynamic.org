@@ -1,42 +1,32 @@
-<header id="expandable-nav-side" class="expandable transition flex flex-column fixed top-0 right-0 height-100 w-sidebar-lg z2 bg-brand overflow-y" role="banner" data-search-index="false">
+<header id="expandable-nav-side" class="expandable transition light-gray flex flex-column fixed top-0 right-0 height-100 w-sidebar-lg z2 bg-brand overflow-y" role="banner" data-search-index="false">
   <div class="block m2 right-align md-hide lg-hide mb2">
     {% include components/button-close.html %}
   </div>
 
-  <a href="/" class="text-decoration-none sm-hide block white bold font-family-brand h1 line-height-1 pt2 lg-pt3 pl2">    
+  <a href="/" class="text-decoration-none transition sm-hide block white hover-silver bold font-family-brand h1 line-height-1 pt2 lg-pt3 pl2">    
     {{ site.title | default: 'Home' }}    
   </a>
   
   {% if site.description %}
-    <p class="btn silver pl3">
+    <p class="btn wheat pl3">
       {{ site.description }}
     </p>
   {% endif %}
 
-  <nav class="mt3">
-
-    {% for object in site.data.navigation-links.primary %}
-      <a class="text-decoration-none font-family-brand h2 bold pl2 py1 silver block hover-bg-brand-darken hover-white{% if page.url == object.url %} bg-brand-darken{% endif %}" href="{{ object.url }}" title="{{ object.title }}">
-        {{ object.title }}
-      </a>      
-    {% endfor %}
-    
-    
-    
-    <div class="mt3">
-      {% for object in site.data.navigation-links.secondary %}
-        <a class="text-decoration-none font-family-brand h5 px2 py1 silver inline  hover-bg-brand-darken rounded hover-white{% if page.url == object.url %} bg-brand-darken{% endif %}" href="{{ object.url }}" title="{{ object.title }}">
-          {{ object.title }}
-        </a>      
-      {% endfor %}
-    </div>  
-  
-  </nav>
   
   <div class="mx2 my4">
-    <a href="/join-our-mailing-list/" class="btn  btn-primary btn-outline border border-silver block rounded">
+    <a href="/join-our-mailing-list/" class="btn  btn-primary btn-outline transition border border-silver block rounded">
       join the mailing list
     </a>
   </div>
-  
+  <div class="flex-auto"><!-- adds space between the menu and the search bar on the right --> </div>
+
+  <div class="mt3">
+      {% for object in site.data.navigation-links.secondary %}
+        <a class="{% if page.url == object.url %} bg-brand-darken{% endif %} text-decoration-none h5 white inline-block px2 py2" href="{{ object.url }}" title="{{ object.title }}">
+          {{ object.title }}
+        </a>      
+      {% endfor %}
+    </div>
+
 </header>

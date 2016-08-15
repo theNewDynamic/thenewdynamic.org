@@ -1,7 +1,6 @@
 ---
 title: Want to Speed up Your Website? Skip the database
 subtitle: Introduction to static site generators and a new paradigm for building websites
-layout: page
 tags: [Static Site Generators]
 ---
 ### The Very Brief History
