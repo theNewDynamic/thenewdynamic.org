@@ -13,7 +13,7 @@
   --black: #000;
   --near-black: #171515;
   --dark-gray:#333;
-  --mid-gray:#555;
+  --mid-gray:#565a5c;
   --gray: #777;
   --silver: #EEE;
   --light-silver: #F2F2F2;
@@ -62,6 +62,7 @@ a:hover {
 .bg-near-white { background-color: var(--near-white)}
 
 .black  { color: var(--black) }
+.mid-gray { color: var(--mid-gray)}
 .moon-gray  { color: var(--moon-gray) }
 .gray   { color: var(--gray) }
 .silver { color: var(--silver) }

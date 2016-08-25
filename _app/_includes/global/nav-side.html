@@ -1,19 +1,24 @@
 <header id="expandable-nav-side" class="expandable transition light-gray flex flex-column fixed top-0 right-0 height-100 w-sidebar-lg z2 bg-brand overflow-y" role="banner" data-search-index="false">
-  <div class="block m2 right-align md-hide lg-hide mb2">
+  <div class="block m2 left-align md-hide lg-hide mb2">
     {% include components/button-close.html %}
   </div>
 
-  <a href="/" class="text-decoration-none transition sm-hide block white hover-silver bold font-family-brand h1 line-height-1 pt2 lg-pt3 pl2">    
-    {{ site.title | default: 'Home' }}    
+  <a href="/" class="text-decoration-none transition sm-hide block white hover-silver bold font-family-brand h1 line-height-1 pt2 lg-pt3 pl2">
+    {{ site.title | default: 'Home' }}
   </a>
-  
+
   {% if site.description %}
     <p class="btn wheat pl3">
       {{ site.description }}
     </p>
   {% endif %}
 
-  
+
+ <div>
+
+ </div>
+
+
   <div class="mx2 my4">
     <a href="/join-our-mailing-list/" class="btn  btn-primary btn-outline transition border border-silver block rounded">
       join the mailing list
@@ -25,7 +30,7 @@
       {% for object in site.data.navigation-links.secondary %}
         <a class="{% if page.url == object.url %} bg-brand-darken{% endif %} text-decoration-none h5 white inline-block px2 py2" href="{{ object.url }}" title="{{ object.title }}">
           {{ object.title }}
-        </a>      
+        </a>
       {% endfor %}
     </div>
 

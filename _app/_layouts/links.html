@@ -34,16 +34,37 @@ schema: https://schema.org/WebPage
       {% assign links = (site.links | where_exp: 'object', 'object.tool contains slug') %}
       {% assign links = (links | sort: 'date', 'last' | reverse)  %}
       {% if links.size > 0 %}
-        <h3>
-          {{item.title }} ({{ links.size }} link{% if links.size > 1 %}s{% endif %})
+        <h3 class="h2">  
+          <a  href="#{{ item.slug }}" class="text-decoration-none mid-gray hover-black">          
+            {{item.title }} <span class="h5">({{ links.size }} link{% if links.size > 1 %}s{% endif %})  +</span>
+          </a>  
         </h3>
-        <ul class="list-reset">
-          {% for object in links   %}
-            {% include components/links.html %}
-          {% endfor %}
-        </ul>
+        
+
+        <div class="hidden-content" id="{{item.slug}}">
+          <a href="{{ item.url }}" class="text-decoration-none h3 inline-block">
+            {{ item.title }} <span class="h6">(detail page &#8594;)</span>
+          </a>
+          
+
+          <ul class="list-reset">
+            {% for object in links   %}
+              {% include components/links.html %}            
+            {% endfor %}
+          </ul>
+        </div>
+        
+
       {% endif %}
     {% endfor %}
 
   </div>
 </div>
+<style type="text/css">
+  .hidden-content {
+    display: none;
+  }
+  .hidden-content:target {
+    display: block; 
+  }
+</style>
