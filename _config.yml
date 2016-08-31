@@ -16,9 +16,6 @@ type:
 short_name: BPNY
 display: fullscreen
 
-
-# Jekyll
-version: 3.0.3
 # full_rebuild: true
 incremental: true
 port: 3575
