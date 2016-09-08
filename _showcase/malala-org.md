@@ -9,7 +9,7 @@ creator:
   - role:
   - link:
   - name:
-image_path: /uploads/showcase-malala-org-roots-static-site-generator.jpg
+image_path: showcase-malala-org-roots-static-site-generator.jpg
 ---
 
 

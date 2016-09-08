@@ -8,7 +8,7 @@ creator:
   - role:
   - link:
   - name:
-image_path: /uploads/showcase-earlylightmedia-roots.jpg
+image_path: showcase-earlylightmedia-roots.jpg
 ---
 
 
