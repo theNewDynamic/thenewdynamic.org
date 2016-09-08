@@ -8,7 +8,7 @@ creator:
   - role: Design/Development
   - link: http://populate.tools/
   - name: Populate
-image_path: /uploads/showcase-the-panama-papers-jekyll.jpg
+image_path: showcase-the-panama-papers-jekyll.jpg
 ---
 
 
