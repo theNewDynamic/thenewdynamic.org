@@ -7,8 +7,8 @@ meetup: the-new-dynamic
 start_at: 2016-10-20 18:30:00
 venue: Civic Hall
 address: 156 5th Ave.
-link:
-description:
+link: http://www.meetup.com/The-New-Dynamic/events/234297506/
+description: 
 ---
 
 
