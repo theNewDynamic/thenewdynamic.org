@@ -3,8 +3,10 @@ title: Algolia
 date:
 tool_type:
 links:
-  website:
+  website: 'https://www.algolia.com'
   github:
   twitter:
 description:
 ---
+
+
