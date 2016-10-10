@@ -1,8 +1,7 @@
 ---
 title: test
 date:
-tool_type:
-  - content-management
+tool_type: content-management
 links:
   website:
   github:
