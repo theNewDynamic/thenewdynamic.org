@@ -8,7 +8,7 @@ creator:
   - role: 'Design/Development'
   - link:
   - name: IBM
-image_path: /uploads//showcase-ibm-cloud-800px.png
+image_path: /uploads/showcase-ibm-cloud-800px.png
 ---
 
 

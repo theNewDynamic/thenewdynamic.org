@@ -30,7 +30,7 @@ type:
 
 
 # development meta data
-image_url: http://thenewdynamic.imgix.net
+image_url: https://thenewdynamic.imgix.net
 google_analytics_id: UA-30899180-4
 version: 3.0.3
 incremental: false

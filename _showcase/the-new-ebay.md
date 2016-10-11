@@ -9,7 +9,7 @@ creator:
   - role: Design, Development
   - link: http://www.instrument.com/latest/the-new-ebay-creating-excitement-through-code
   - name: Instrument
-image_path: /uploads//showcase-ebay.jpg
+image_path: /uploads/showcase-ebay.jpg
 ---
 
 ### Build Architecture
