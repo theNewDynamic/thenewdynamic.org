@@ -1,15 +1,19 @@
 :root {
-  --sidebar-width: 290px;
+  --sidebar-width: 18rem;
+  --translatex: -300px;
   --sidebar-width-sm: 290px;
 }
   /*to show and hide the side nav*/
 
-.expandable { transform: translateX(var(--sidebar-width))}
+.expandable { transform: translateX(var(--translatex))}
 
 @media (--breakpoint-md) {
   .expandable {transform: translateX(0)}
-  .m-sidebar {
+  .m-sidebar-right {
     margin-right: var(--sidebar-width);
+  }
+  .m-sidebar-left {
+    margin-left: var(--sidebar-width);
   }
 }
 

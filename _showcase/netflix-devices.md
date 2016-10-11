@@ -5,7 +5,7 @@ posted_date: 2015-10-15T20:42:00.000Z
 type: showcase
 slug: netflix-devices
 website: https://devices.netflix.com/en/
-image_path: 1444963245916_screenshot-netflix.jpg
+image_path: /uploads/1444963245916_screenshot-netflix.jpg
 tool:
   - jekyll
   - cloudcannon

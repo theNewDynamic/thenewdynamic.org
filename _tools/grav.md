@@ -4,7 +4,8 @@ date: 2015-10-04T13:03:00.000Z
 posted_date: 2015-10-04T13:03:00.000Z
 type: tool
 slug: grav
-tool_type: content-management
+tool_type: 
+  -  content-management
 description: "Flat-file CMS. (not static)"
 links:
   website: http://getgrav.org/

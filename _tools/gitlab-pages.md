@@ -1,6 +1,7 @@
 ---
 title: "Gitlab Pages"
-tool_type: hosting-deployment
+tool_type: 
+  -  hosting-deployment
 links:
   website: http://pages.gitlab.io/
 description: "Host your static websites on GitLab.com for free, or on your own GitLab EE instance."

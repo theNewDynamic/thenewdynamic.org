@@ -1,32 +1,38 @@
 <li class="hidden-child_2 hide-child-until-hover my1 px2 py1 bg-near-white hover-bg-silver transition">
-
   <a href="{{ object.link }}{{ site.utm_parameters_links }}" target="_blank" class="text-decoration-none">
-    
-      <div class="name black hover-blue">{{ object.title }}</div>
-      {% if object.source %} <small class="gray source">by {{ object.source }}</small>{% endif %}
-      <span class="type hide">{% if object.type %}{{ object.type }}{% endif %}</span>
-      <span class="recommended">{% if object.editor_recommends %}
+    <div class="name black hover-blue">
+      {{ object.title }}
+    </div>
+    {% if object.source %}
+      <small class="gray source">
+        by {{ object.source }}
+      </small>
+    {% endif %}
+    <span class="type hide">
+      {% if object.type %}{{ object.type }}{% endif %}
+    </span>
+    <span class="recommended">
+      {% if object.editor_recommends %}
         <i class="icons-ion-ios-star-outline"></i>
-        {% endif %}</span>
-      {% if object.video %}
-      <img src="/assets/images/ic_videocam_black_24px.svg" class="align-bottom">
       {% endif %}
-
+    </span>
+    {% if object.video %}
+      <img src="/assets/images/ic_videocam_black_24px.svg" class="align-bottom">
+    {% endif %}
   </a>
-
   <span class="hidden-child h6 transition">
     <em>
       {{ object.date |date: '%b %d, %y' }}
     </em>
     {% if object.content %}
-    <br />
-     {{object.content | markdownify }}
+      <br />
+      {{object.content | markdownify }}
     {% endif %}
     {% if object.video %}
-    <small class="video">VIDEO</small>
-    <img src="/assets/images/ic_videocam_black_24px.svg" class="align-bottom">
+      <small class="video">
+        VIDEO
+      </small>
+      <img src="/assets/images/ic_videocam_black_24px.svg" class="align-bottom">
     {% endif %}
   </span>
-  
-
 </li>

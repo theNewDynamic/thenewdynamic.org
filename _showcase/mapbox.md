@@ -5,7 +5,7 @@ posted_date: 2015-10-05T21:12:00.000Z
 type: showcase
 slug: mapbox
 website: https://www.mapbox.com/
-image_path: 1444963925320_screenshot-mapbox-1.jpg
+image_path: /uploads/1444963925320_screenshot-mapbox-1.jpg
 tool:
   - jekyll
   - proseio

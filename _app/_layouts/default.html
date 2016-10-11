@@ -25,28 +25,27 @@ layout: compress
 
       <link rel="manifest" href="{{ site.url }}/manifest.json">
       <meta name="generator" content="Jekyll">
-      
+
       <!--[if lt IE 9]>
         <script src="/assets/js/legacy/html5shiv.min.js"></script>
-        <script src="/assets/js/legacy/flexibility.js"></script>        
+        <script src="/assets/js/legacy/flexibility.js"></script>
       <![endif]-->
 
       <link rel="icon" href="{{ site.url }}/favicon.ico" type="image/x-icon">
 
       {% if jekyll.environment == "production" %}
           {% include global/analytics.html %}
-          
+
         {% endif %}
         {% include global/seo.html %}
 </head>
-  <body  id="container" class="{% if page.class %} {{ page.class }} {% endif %}{{ jekyll.environment }} bg-off-white">
+  <body  id="container" class="{% if page.class %} {{ page.class }} {% endif %}{{ jekyll.environment }} md-flex flex-column height-100 bg-off-white">
     <a href="#content" tabindex="1" class="hide-until-focused absolute top-0 left-0 bg-white-70 py3 px2">Skip to content</a>
-    {% include global/header.html %}    
-    {% include global/nav-side.html %}    
-      <main id="content" role="main" class="m-sidebar">
+     <!-- include global/header.html %} -->
+      <main id="content" role="main" class="md-flex">
+        {% include global/nav-side.html %}
         {{content}}
       </div>
-    
     {% include global/scripts.html %}
   </body>
 </html>

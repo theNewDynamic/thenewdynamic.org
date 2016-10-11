@@ -1,37 +1,68 @@
-<header id="expandable-nav-side" class="expandable transition light-gray flex flex-column fixed top-0 right-0 height-100 w-sidebar-lg z2 bg-brand overflow-y" role="banner" data-search-index="false">
-  <div class="block m2 left-align md-hide lg-hide mb2">
+<header id="expandable-nav-sside"
+class="
+expandableTK
+transition
+light-gray
+md-flex
+flex-column
+height-100
+sidebar-width
+col-12
+overflow-y
+bg-primary-color
+"
+role="banner" data-search-index="false">
+
+<!-- fixed top-0 left-0  w-sidebar-lg z2  -->
+
+  <div class="block m2 left-align md-hide lg-hide mb2" style="display:none;">
     {% include components/button-close.html %}
   </div>
 
-  <a href="/" class="text-decoration-none transition sm-hide block white hover-silver bold font-family-brand h1 line-height-1 pt2 lg-pt3 pl2">
+  <a href="/" class="text-decoration-none transition sm-hideTK block white hover-silver bold font-family-brand h1 line-height-1 pt2 lg-pt3 pl2">
     {{ site.title | default: 'Home' }}
   </a>
 
   {% if site.description %}
-    <p class="btn wheat pl3">
+    <p class="btn wheat pl3 pb0">
       {{ site.description }}
     </p>
   {% endif %}
 
 
- <div>
 
- </div>
+      <div class="mt0 mb3 ml1">
+        {% for object in site.data.navigation-links.secondary %}
+          <a class="{% if page.url == object.url %} bg-brand-darken{% endif %} text-decoration-none h6 white inline-block p1" href="{{ object.url }}" title="{{ object.title }}">
+            {{ object.title }}
+          </a>
+        {% endfor %}
+      </div>
+      {% assign link_classes = ' text-decoration-none font-family-brand h3 px2 py1 white block right-align transition hover-gray hover-bg-brand-darken' %}
+      {% include global/nav-links.html link_classes=link_classes %}
+      <div class="sm-hide">
+      <div class="mt3 hide">
 
-
-  <div class="mx2 my4">
-    <a href="/join-our-mailing-list/" class="btn  btn-primary btn-outline transition border border-silver block rounded">
-      join the mailing list
-    </a>
-  </div>
-  <div class="flex-auto"><!-- adds space between the menu and the search bar on the right --> </div>
-
-  <div class="mt3">
-      {% for object in site.data.navigation-links.secondary %}
-        <a class="{% if page.url == object.url %} bg-brand-darken{% endif %} text-decoration-none h5 white inline-block px2 py2" href="{{ object.url }}" title="{{ object.title }}">
-          {{ object.title }}
-        </a>
-      {% endfor %}
+        {% assign tools = site.tool_type | sort:'title' %}
+        {% for tool in tools %}
+          <a href="{{ tool.url }}" class="col-12 block right-align text-decoration-none white bold px2 py1 btnt fbtn-primary hover-white hover-bg-black {% if tool.color %}background-color:{{ tool.color }};{% endif %}{% if tool.text_color %}color:{{ tool.text_color }};{% endif %}">
+            {{ tool.title }}
+          </a>
+        {% endfor %}
+        {% if page.title %}
+          <a href="/tools/" class="col-12 right-align btn btn-primary">
+            All
+          </a>
+        {% endif %}
+      </div>
+    <div class="flex-auto"><!-- adds space between the menu and the search bar on the right --> </div>
+    <div class="mx2 my4">
+      <a href="/join-our-mailing-list/" class="btn  btn-primary btn-outline transition border border-silver block rounded">
+        join the mailing list
+      </a>
     </div>
+
+
+</div>
 
 </header>

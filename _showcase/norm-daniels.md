@@ -5,7 +5,7 @@ posted_date: 2015-10-16T18:01:00.000Z
 type: showcase
 slug: norm-daniels
 website: http://normhere.com/
-image_path: 1445018372505_screenshot-normhere.jpg
+image_path: /uploads/1445018372505_screenshot-normhere.jpg
 tool:
   - jekyll
   - cloudcannon

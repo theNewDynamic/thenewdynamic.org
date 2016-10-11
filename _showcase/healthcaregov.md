@@ -5,7 +5,7 @@ posted_date: 2015-07-11T03:30:00.000Z
 type: showcase
 slug: healthcaregov
 website: https://www.healthcare.gov/
-image_path: 1436585373639_thenewdynamic-showcase-healthcare-ogov-150710.jpg
+image_path: /uploads/1436585373639_thenewdynamic-showcase-healthcare-ogov-150710.jpg
 tool:
   - jekyll
 ---

@@ -6,3 +6,17 @@ schema: 'Article'
 <div class="mx-auto bg-white moon-gray col-12 md-col-10 lg-col-8 borderTK rounded border-silver p2 sm-p4 lg-p3 mb4 pb4">
   {% include article.html %}
 </div>
+<div class="mt3">
+
+  {% assign tools = site.tool_type | sort:'title' %}
+  {% for tool in tools %}
+    <a href="{{ tool.url }}" class="col-12 block right-align text-decoration-none black bold px2 py1 btnt fbtn-primary hover-white hover-bg-black {% if tool.color %}background-color:{{ tool.color }};{% endif %}{% if tool.text_color %}color:{{ tool.text_color }};{% endif %}">
+      {{ tool.title }}
+    </a>
+  {% endfor %}
+  {% if page.title %}
+    <a href="/tools/" class="col-12 right-align btn btn-primary">
+      All
+    </a>
+  {% endif %}
+</div>

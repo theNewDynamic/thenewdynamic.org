@@ -5,7 +5,7 @@ posted_date: 2015-10-27T13:22:00.000Z
 type: showcase
 slug: un-world-statistics
 website: https://worldstatisticsday.org/
-image_path: 1445952048351_screenshot-un-statistics-static-site.jpg
+image_path: /uploads/1445952048351_screenshot-un-statistics-static-site.jpg
 tool:
   - jekyll
 creator:

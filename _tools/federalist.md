@@ -3,7 +3,8 @@ title: "Federalist"
 date: 2015-10-03T16:53:00.000Z
 posted_date: 2015-10-03T16:53:00.000Z
 type: tool
-tool_type: content-management
+tool_type: 
+  -  content-management
 links:
   github: https://github.com/18F/federalist
 ---

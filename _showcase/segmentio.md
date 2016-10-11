@@ -5,7 +5,7 @@ posted_date: 2015-10-28T13:57:00.000Z
 type: showcase
 slug: segmentio
 website: https://segment.com
-image_path: 1446040366623_screenshot-segment.jpg
+image_path: /uploads/1446040366623_screenshot-segment.jpg
 tool:
   - metalsmith
 ---

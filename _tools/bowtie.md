@@ -1,7 +1,8 @@
 ---
 title: "BowTie.io"
 date: 2016-01-14T18:47:00.000Z
-tool_type: hosting-deployment
+tool_type: 
+  -  hosting-deployment
 description: "Static Hosting for Application Developers and Digital Agencies (currently in public beta)"
 links:
   website: https://bowtie.io

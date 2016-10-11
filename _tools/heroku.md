@@ -4,7 +4,8 @@ date: 2015-05-14T04:04:00.000Z
 posted_date: 2015-05-14T04:04:00.000Z
 type: tool
 slug: heroku
-tool_type: hosting-deployment
+tool_type: 
+  -  hosting-deployment
 links:
   website: https://www.heroku.com/
 ---

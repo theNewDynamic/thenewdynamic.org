@@ -49,8 +49,8 @@
   "homepage": "https://github.com/budparr/jekyll-base#readme",
   "devDependencies": {
     "autoprefixer": "^6.3.6",
-    "basscss": "^8.0.1",
-    "basscss-addons": "^1.0.0-beta4",
+    "basscss": "^8.0.2",
+    "basscss-addons": "^1.0.0",
     "bourbon-neat": "^1.7.4",
     "browser-sync": "^2.12.10",
     "copyfiles": "^0.2.1",

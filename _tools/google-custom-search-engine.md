@@ -4,7 +4,8 @@ date: 2015-05-16T22:55:00.000Z
 posted_date: 2015-05-16T22:55:00.000Z
 type: tool
 slug: google-custom-search-engine
-tool_type: interaction
+tool_type: 
+  -  interaction
 links:
   website: https://cse.google.com/cse/
 ---

@@ -1,7 +1,7 @@
 <nav>
   {% for object in site.data.navigation-links.primary %}
-    <a class="{% if page.url == object.url %} gray{% endif %}{{ link_classes }}" href="{{ object.url }}" title="{{ object.title }}">
+    <a class="{% if page.url contains object.url %} accent-color{% endif %}{{ link_classes }}" href="{{ object.url }}" title="{{ object.title }}">
       {{ object.title }}
-    </a>      
+    </a>
   {% endfor %}
 </nav>

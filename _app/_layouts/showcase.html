@@ -1,0 +1,42 @@
+---
+layout: default
+section: page-listing
+schema: https://schema.org/WebPage
+---
+{% assign tool_type = (site.tool_type)  | sort: 'title', 'last' %}
+{% if page.url == '/showcase/' %}
+  {% assign showcase = (site.showcase | sort: 'title', 'last' ) %}
+
+{% else %}
+  {% assign tools = (site.tools | where: 'tool_type', page.slug | sort: 'title', 'last' ) %}
+  {% assign title = page.title  %}
+{% endif %}
+
+<div class="p2">
+  <h1>
+    Showcase{% if title %}: {{ title }}{% endif %}
+  </h1>
+  {{ content }}
+
+  <div class="clearfix col-12 mb3">
+    {% for object in tool_type %}
+      <a href="{{ object.url }}" class="{{ site.btn_classes }}{% if page.url contains object.url %} accent-color{% endif %}" style="background-color:{{ object.color }};color:{{ object.text_color }}">
+        {{ object.title }}
+      </a>
+    {% endfor %}
+    <a href="/tools/" class="{{ site.btn_classes }}{% if page.url == '/tools/' %} accent-color{% endif %}">
+      All
+    </a>
+  </div>
+
+  <div class="flex flex-wrap justify-around">
+    {% for object in showcase %}
+      {% assign tool = object.tool_type[0] %}
+      {% assign related_tool_type = site.tool_type | where: 'slug', tool %}
+      <a href="{{ object.link }}" class="col-12 sm-col-6 md-col-6 lg-col-4 rounded pr2 mb2 black text-decoration-none">
+        <div>
+          <img src="{{ object.image_path }}" alt="" />
+        </div>
+      </a>
+    {% endfor %}
+  </div>
