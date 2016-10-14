@@ -6,7 +6,7 @@ schema: 'Article'
 <div class="mx-auto bg-white moon-gray col-12 md-col-10 lg-col-8 borderTK rounded border-silver p2 sm-p4 lg-p3 mb4 pb4">
   {% include article.html %}
 </div>
-<div class="mt3">
+
 
   {% assign tools = site.tool_type | sort:'title' %}
   {% for tool in tools %}
@@ -19,4 +19,3 @@ schema: 'Article'
       All
     </a>
   {% endif %}
-</div>

@@ -1,25 +1,27 @@
 ---
+title: Showcase
 layout: default
 section: page-listing
 schema: https://schema.org/WebPage
+paginate:
+  collection: showcase
 ---
 {% assign tool_type = (site.tool_type)  | sort: 'title', 'last' %}
+{% assign showcase = site.showcase %}
 {% if page.url == '/showcase/' %}
   {% assign tools = (site.tools  sort: 'title', 'last' ) %}
-  {% assign showcase = (site.showcase | sort: 'date', 'last' | reverse) %}
 
 {% else %}
   {% assign tools = (site.tools | where: 'tool_type', page.slug | sort: 'title', 'last' ) %}
   {% assign title = page.title  %}
 {% endif %}
 
-<div class="p3">
-  <h1>
-    Showcase{% if title %}: {{ title }}{% endif %}
+  <h1 class="">
+    {{ layout.title }}{% if title %}: {{ title }}{% endif %}
   </h1>
   {{ content }}
 
-  <div class="clearfix col-12 mb3" style="display:none;">
+  <div class="clearfix col-12 mb3 hide">
     {% for object in tools %}
       <a href="{{ object.url }}" class="mb2 {{ site.btn_classes }}{% if page.url contains object.url %} accent-color{% endif %}">
         {{ object.title }}
@@ -29,13 +31,14 @@ schema: https://schema.org/WebPage
       All
     </a>
   </div>
-
+  {% if showcase %}
+    {% assign showcase = showcase | sort: 'date', 'last' | reverse %}
   <div class="flex flex-wrap justify-around">
     {% for object in showcase %}
       {% assign image = object.image_path | prepend: site.image_url | remove: 'uploads/' %}
       {% assign tool = object.tool_type[0] %}
       {% assign related_tool_type = site.tool_type | where: 'slug', tool %}
-      <a href="{{ object.link }}" class=" col-12 sm-col-6 md-col-6 lg-col-6 pr2 mb2 black text-decoration-none">
+      <a href="{{ object.url }}" class=" col-12 sm-col-6 md-col-6 lg-col-6 sm-pr3 mb4 black text-decoration-none">
           <div class="hide-child-until-hover relative transition">
             <img src="{{ image }}" alt="" class="border z1" />
           <div class="hidden-child center absolute top-0 right-0 bottom-0 bg-primary-color-dark white z2 col-12 " style="padding-top:20%;">
@@ -52,4 +55,5 @@ schema: https://schema.org/WebPage
       </a>
     {% endfor %}
   </div>
+{% endif %}
  <!-- | append: '?w=800&h=800&fit=crop' -->

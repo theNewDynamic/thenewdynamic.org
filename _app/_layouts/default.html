@@ -44,7 +44,10 @@ layout: compress
      <!-- include global/header.html %} -->
       <main id="content" role="main" class="md-flex">
         {% include global/nav-side.html %}
-        {{content}}
+        <div class="{{ site.wrapper_class }}">
+          {{content}}
+        </div>
+
       </div>
     {% include global/scripts.html %}
   </body>

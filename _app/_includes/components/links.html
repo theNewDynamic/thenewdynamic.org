@@ -1,4 +1,5 @@
-<li class="hidden-child_2 hide-child-until-hover my1 px2 py1 bg-near-white hover-bg-silver transition">
+<li class="dont-display-child-until-hover my1 px2 py1 bg-near-white hover-bg-silver col-12 transition">
+
   <a href="{{ object.link }}{{ site.utm_parameters_links }}" target="_blank" class="text-decoration-none">
     <div class="name black hover-blue">
       {{ object.title }}
@@ -20,7 +21,8 @@
       <img src="/assets/images/ic_videocam_black_24px.svg" class="align-bottom">
     {% endif %}
   </a>
-  <span class="hidden-child h6 transition">
+
+  <div class="hidden-child h6 transition">
     <em>
       {{ object.date |date: '%b %d, %y' }}
     </em>
@@ -34,5 +36,6 @@
       </small>
       <img src="/assets/images/ic_videocam_black_24px.svg" class="align-bottom">
     {% endif %}
-  </span>
+  </div>
+
 </li>

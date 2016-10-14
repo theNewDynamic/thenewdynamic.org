@@ -1,29 +1,33 @@
 
 
 body {
-  background-color: green;
+  /*background-color: green;*/
+  border-top: 6px solid green;
 }
 
 @media (--breakpoint-sm) {
   body {
-    background-color: red;
+    /*background-color: red;*/
+    border-top: 6px solid red;
   }
 }
 @media (--breakpoint-md) {
   body {
-    background-color: blue;
+    /*background-color: blue;*/
+    border-top: 6px solid blue;
   }
 }
 
 @media (--breakpoint-md-lg) {
   body, .bp {
-    background-color: #FFF;
+    /*background-color: #FFF;*/
+    border-top: 6px solid #ccc;
   }
 }
 
 @media (--breakpoint-lg) {
   body, .bp {
-    background-color: #ccc;
+    /*background-color: #ccc;*/
+    border-top: 6px solid #444;
   }
 }
-

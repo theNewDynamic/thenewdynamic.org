@@ -4,18 +4,18 @@ section: page-listing
 schema: https://schema.org/WebPage
 ---
 
-<div class="p2">
+
   {{ content }}
 
 
 
-  
+
 
   <div class="col col-12 lg-col-5 bg-white p2">
     <h3>Articles and Event Recaps</h3>
 
     {% assign posts = "" | split: "|" %}
-    {% for item in site.posts %}      
+    {% for item in site.posts %}
       {% if item.category != 'event' %}
         {% assign posts = posts | push: item %}
       {% endif %}
@@ -32,8 +32,8 @@ schema: https://schema.org/WebPage
 
 
   <div class="col col-5">
-    
-    
+
+
 {% include list-events.html %}
 
 
@@ -43,8 +43,3 @@ schema: https://schema.org/WebPage
 
 
   </div>
-
-
-
-
-</div>

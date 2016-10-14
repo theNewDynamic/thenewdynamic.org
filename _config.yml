@@ -15,7 +15,7 @@ github:
   username: budparr
 owner: The New Dynamic
 # manifest
-short_name: The Shortname
+short_name: The New Dynamic
 display: fullscreen
 
 
@@ -32,14 +32,16 @@ type:
 # development meta data
 image_url: https://thenewdynamic.imgix.net
 google_analytics_id: UA-30899180-4
-version: 3.0.3
 incremental: false
 #port: 3575
 utm_parameters_links: '?utm_source=thenewdynamic.org&utm_medium=website&utm_campaign=links'
 utm_parameters_showcase: '?utm_source=thenewdynamic.org&utm_medium=website&utm_campaign=showcase'
 
 box_classes: 'bg-white p2'
-btn_classes: 'btn btn-primary bg-primary-color-dark text-decoration-none hover-white hover-bg-black'
+btn_classes: 'mb4 btn btn-primary bg-primary-color-dark text-decoration-none hover-white hover-bg-black'
+
+
+wrapper_class: 'p3'
 
 # Settings
 production: false
@@ -53,11 +55,13 @@ compress_html:
 gems:
   - jekyll-seo-tag
   - jekyll-sitemap
+  - octopress-paginate
+
 plugins_dir:  ./_app/_plugins
 layouts_dir:  ./_app/_layouts
 includes_dir: ./_app/_includes
 
-permalink: pretty
+#permalink: pretty
 future: false
 # CONTENT
 exclude:

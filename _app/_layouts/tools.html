@@ -12,12 +12,11 @@ schema: https://schema.org/WebPage
   {% assign title = page.title  %}
 {% endif %}
 
-<div class="p3">
+
   <h1>
     Tools{% if title %}: {{ title }}{% endif %}
   </h1>
   {{ content }}
-
   <div class="clearfix col-12 mb3">
     {% for object in tool_type %}
       <a href="{{ object.url }}" class="{{ site.btn_classes }}{% if page.url contains object.url %} accent-color{% endif %}" style="background-color:{{ object.color }};color:{{ object.text_color }}">
@@ -48,4 +47,4 @@ schema: https://schema.org/WebPage
         </div>
       </a>
     {% endfor %}
-  </div>
+  
