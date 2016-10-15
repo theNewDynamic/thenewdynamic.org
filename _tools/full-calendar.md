@@ -1,8 +1,7 @@
 ---
 title: Full Calendar
 date: 2016-06-16T00:00:00.000Z
-tool_type: 
-  - 
+tool_type:
   - interaction
 links:
   website: 'http://fullcalendar.io/'

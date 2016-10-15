@@ -7,5 +7,3 @@ tool:
   - firebase
 ---
 This article assumes familiarity with the previous articles in the series, building upon principles learned therein. This article is an intermediate level tutorial and additionally assumes basic web development knowledge.
-
-

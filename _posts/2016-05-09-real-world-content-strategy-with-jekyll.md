@@ -1,6 +1,5 @@
 ---
 title: Real World Content Strategy With Jekyll
-published: true
 subtitle: 'Conference talk from Jekyllconf (video, slides)'
 video: 'https://youtu.be/A1nTuNjoNbg'
 description: Video and slides from JekyllConf 2016

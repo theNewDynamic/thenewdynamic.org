@@ -1,8 +1,7 @@
 ---
 title: "Knownly"
 date: 2015-05-08T22:00:00.000Z
-tool_type: 
-  -  hosting-deployment
+tool_type: hosting-deployment
 description: "Publish your website in under 2 minutes without a webserver"
 tags:
   - Hosting-Deployment

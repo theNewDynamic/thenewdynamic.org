@@ -4,8 +4,7 @@ date: 2015-08-30T03:57:00.000Z
 posted_date: 2015-08-30T03:57:00.000Z
 type: tool
 slug: flatmarket
-tool_type: 
-  -  interaction
+tool_type: interaction
 links:
   website: https://json.expert/flatmarket/
   github: https://github.com/christophercliff/flatmarket

@@ -4,8 +4,7 @@ date: 2015-11-12T02:09:00.000Z
 posted_date: 2015-11-12T02:09:00.000Z
 type: tool
 slug: lanyon
-tool_type: 
-  -  theme
+tool_type: theme
 links:
   website: http://lanyon.getpoole.com/
   github: https://github.com/poole/lanyon  

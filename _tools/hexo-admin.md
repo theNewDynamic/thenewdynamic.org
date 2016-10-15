@@ -4,8 +4,7 @@ date: 2015-10-19T23:12:00.000Z
 posted_date: 2015-10-19T23:12:00.000Z
 type: tool
 slug: hexo-admin
-tool_type: 
-  -  content-management
+tool_type: content-management
 links:
   github: https://github.com/jaredly/hexo-admin
 ---

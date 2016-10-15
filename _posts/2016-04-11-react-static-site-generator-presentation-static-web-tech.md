@@ -1,7 +1,7 @@
 ---
 title: "Gatsby - a React.js SSB - Presented by creator Kyle Mathews (video)"
 published: true
-category: event-recap
+category: event
 meetup: static-web-tech-meetup
 tool:
  - gatsby

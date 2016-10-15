@@ -4,8 +4,7 @@ date: 2015-12-02T03:30:00.000Z
 posted_date: 2015-12-02T03:30:00.000Z
 type: tool
 slug: s3_website
-tool_type: 
-  -  hosting-deployment
+tool_type: hosting-deployment
 links:
   github: https://github.com/laurilehmijoki/s3_website
 ---

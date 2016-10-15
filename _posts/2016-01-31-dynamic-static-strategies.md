@@ -4,6 +4,7 @@ date: 2016-06-15T11:20:00.000Z
 start_at: 2016-06-15T11:20:00.000Z
 category: event
 link: "http://smashingconf.com/ny-2016/speakers/phil-hawksworth"
+video: https://vimeo.com/174172567
 venue: "Smashing Conference"
 description: "Explore some unexpected capabilities and characteristics of “static” sites"
 ---

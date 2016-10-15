@@ -4,8 +4,7 @@ date: 2015-05-02T01:20:00.000Z
 posted_date: 2015-05-02T01:20:00.000Z
 type: tool
 slug: jekyll
-tool_type: 
-  -  static-site-generator
+tool_type: static-site-generator
 links:
   website: 'http://jekyllrb.com'
   github: 'https://github.com/jekyll/jekyll'
@@ -20,6 +19,7 @@ Resources:
 <br>[Jekyll Cheat Sheet](http://cheat.jekyll.tips/)
 <br>[Jekyll Tips](http://jekyll.tips/)
 <br>[Awesome Jekyll](https://github.com/planetjekyll/awesome-jekyll)
+<br>[Jekyll Now (great starter repo)](https://github.com/barryclark/jekyll-now)
 <br>[Jekyll Tags and Filters (Jekyll 2.4 as of this writing)](http://jekyll.pygmeeweb.com/tests/)
 <br>[Jekyll Weekly Newsletter](http://jekyllweekly.com/) [Jekyll Theme Unit Test](https://github.com/mmistakes/jekyll-theme-unit-test)
 <br>[Deploy a Website (Jekyll) course on Codecademy](https://www.codecademy.com/courses/deploy-a-website)

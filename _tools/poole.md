@@ -4,8 +4,7 @@ date: 2015-05-16T19:00:00.000Z
 posted_date: 2015-05-16T19:00:00.000Z
 type: tool
 slug: poole
-tool_type: 
-  -  helper
+tool_type: helper
 links:
   github: https://github.com/poole
 ---
