@@ -24,20 +24,15 @@ layout: compress
       <link href='/assets/css/main.css{% if site.bust_css_cache %}?generated={{ site.time | date: "%Y%m%d%H%S" }}{% endif %}' rel='stylesheet' type="text/css" />
 
       <link rel="manifest" href="{{ site.url }}/manifest.json">
-      <meta name="generator" content="Jekyll">
-
-      <!--[if lt IE 9]>
-        <script src="/assets/js/legacy/html5shiv.min.js"></script>
-        <script src="/assets/js/legacy/flexibility.js"></script>
-      <![endif]-->
+      <meta name="generator" content="Jekyll">      
 
       <link rel="icon" href="{{ site.url }}/favicon.ico" type="image/x-icon">
 
       {% if jekyll.environment == "production" %}
-          {% include global/analytics.html %}
-
-        {% endif %}
+        {% include global/analytics.html %}
         {% include global/seo.html %}
+      {% endif %}
+
 </head>
   <body  id="container" class="{% if page.class %} {{ page.class }} {% endif %}{{ jekyll.environment }} md-flex flex-column height-100 bg-off-white">
     <a href="#content" tabindex="1" class="hide-until-focused absolute top-0 left-0 bg-white-70 py3 px2">Skip to content</a>
@@ -47,7 +42,6 @@ layout: compress
         <div class="{{ site.wrapper_class }}">
           {{content}}
         </div>
-
       </div>
     {% include global/scripts.html %}
   </body>

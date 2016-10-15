@@ -1,5 +1,5 @@
 ---
-title: Events
+title: Articles
 layout: default
 section: links
 schema: https://schema.org/WebPage
@@ -35,11 +35,11 @@ schema: https://schema.org/WebPage
 <div class="flex flex-wrap">
 
   {% for object in articles limit:50 %}
-    {% if object.category contains 'event' %}
+    {% unless object.category contains 'event' %}
       <div class="col-12 md-col-6 pr2 mb2">
         {% include components/article-list-item.html %}
       </div>
-    {% endif %}
+    {% endunless %}
   {% endfor %}
 
 </div>

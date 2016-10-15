@@ -1,5 +1,4 @@
 ---
 title: Articles
-comments: true
+layout: articles
 ---
-you

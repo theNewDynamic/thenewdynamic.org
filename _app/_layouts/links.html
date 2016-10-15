@@ -1,4 +1,5 @@
 ---
+title: Links from around the web
 layout: default
 section: links
 schema: https://schema.org/WebPage
@@ -8,6 +9,10 @@ schema: https://schema.org/WebPage
 {% assign box_classes = 'list-reset col-12 md-col-6 md-pr2 mr-auto'  %}
 {% assign list_classes = 'list-reset col-12'  %}
 {% assign list_heading_classes = 'bold h2 pl2'  %}
+
+<h1 class="">
+  {{ layout.title }}{% if title %}: {{ title }}{% endif %}
+</h1>
   {{ content }}
 
   <div class="flex flex-wrap">

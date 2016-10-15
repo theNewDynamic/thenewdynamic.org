@@ -1,9 +1,17 @@
-<a href="{{ object.url }}" class="h4 block mb3 text-decoration-none bg-white black hover-underline">
-        {{ object.title }} ({{ object.category }}) {% if object.video  %}<img src="/assets/images/ic_videocam_black_24px.svg" class="align-bottom">{% endif %}
-        <br />
-         {% if object.description %}
-          <span class="h5 gray text-decoration-none">
-            {{ object.description | markdownify | remove: '<p>' | remove: '</p>' }}
-          </span>
-        {% endif %}
-      </a>
+<a href="{{ object.url }}" class="p3 bg-near-white hover-bg-silver hover-box-shadow block text-decoration-none default-text-color relative">
+  {% if object.video  %}
+    <img src="/assets/images/ic_videocam_black_24px.svg" class="absolute top-0 right-0 muted m1">
+  {% endif %}
+  <div class="h2 text-decoration-none">
+    {{ object.title }}
+  </div>
+  ({{ object.category }})
+  <br />
+  {% if object.description %}
+    <span class="h4">
+      {{ object.description | strip_html }}
+    </span>
+  {% else %}
+    {{ object.excerpt | strip_html }}
+  {% endif %}
+</a>
