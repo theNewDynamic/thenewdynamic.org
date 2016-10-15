@@ -1,5 +1,5 @@
 ---
-title: Events
+title: Meetups
 layout: default
 section: links
 schema: https://schema.org/WebPage
@@ -31,12 +31,22 @@ schema: https://schema.org/WebPage
 </div> -->
 {% endcomment %}
 
+{% assign current_date = site.time | date: "%Y%m%d" %}
+
+
 
 <div class="flex flex-wrap">
 
   {% for object in articles limit:50 %}
     {% if object.category contains 'event' %}
+    {% assign event_date = object.start_at | date: "%Y%m%d" %}
       <div class="col-12 md-col-6 pr2 mb2">
+        {% if event_date >= current_date %}
+          <div class="h4 py1 px3 bg-red white">
+            Upcoming: {{ object.start_at | date: "%A, %b %d" }} <a href="{{ object.link }}" class="text-decoration-none right-align p2 white bg-dark-accent-color">JOIN</a>
+          </div>
+        {% endif %}
+
         {% include components/article-list-item.html %}
       </div>
     {% endif %}

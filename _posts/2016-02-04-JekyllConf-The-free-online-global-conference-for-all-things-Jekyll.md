@@ -2,7 +2,8 @@
 title: "JekyllConf"
 date: 2016-05-05T12:01:00.000Z
 start_at: 2016-05-07T10:00:00.000Z
-category: event
+category:
+  - event-recap
 link: http://jekyllconf.com/
 venue: JekyllCOnf Online
 video: https://www.youtube.com/playlist?list=PLrxYIq_0LFJdi2HJ6lnY4nm7ewu221hyS

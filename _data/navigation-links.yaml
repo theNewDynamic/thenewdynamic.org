@@ -6,16 +6,16 @@ primary:
       url: /links/
 
     - title: "Tools"
-      url: /tools/  
+      url: /tools/
 
     - title: "Showcase"
-      url: /showcase/    
+      url: /showcase/
 
-    - title: "Events"
+    - title: "Meetups"
       url: /events/    
 
     - title: "Job Board"
-      url: /job-board/    
+      url: /job-board/
 
 secondary:
     - title: "About"
@@ -25,4 +25,4 @@ secondary:
       url: /submit/
 
     - title: "Privacy"
-      url: /privacy/  
+      url: /privacy/

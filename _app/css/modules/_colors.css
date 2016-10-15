@@ -1,6 +1,6 @@
 a { color: var(--blue)}
 .muted { opacity: .5 }
-.bg-red { background-color: red;}
+.bg-red { background-color: var(--red);}
 
 .white {color: var(--white)}
 .bg-white {background-color: var(--white)}
