@@ -4,7 +4,8 @@ date: 2015-11-19T17:33:00.000Z
 posted_date: 2015-11-19T17:33:00.000Z
 type: tool
 slug: a-free-jekyll-website-template-for-nonprofits
-tool_type: theme
+tool_type: 
+  - theme
 links:
   github: https://github.com/smartergiving/free-nonprofit-starter-website
 ---

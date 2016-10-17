@@ -1,0 +1,110 @@
+<form method="POST" action="">
+  <input name="options[redirect]" type="hidden" value="https://my-site.com">
+  <!-- e.g. "2016-01-02-this-is-a-post" -->
+  <input name="options[slug]" type="hidden" value="{{ page.slug }}">
+
+
+  <input class="input transition" name="fields[name]" aria-label="Name" placeholder="Name of the person who wrote the article" type="text" required>
+
+  <input id="email" class="input transition" name="fields[email]" aria-label="Email" placeholder="Email Address" type="email" required>
+  <span id="email_feedback" aria-live="polite"></span>
+
+
+
+  <label class="label">
+    Link
+  </label>
+  <input class="input" name="fields[email]" placeholder="Link to your article" type="email">
+
+
+  <label class="label">
+    Message
+  </label>
+  <textarea class="textarea" name="fields[message]"></textarea>
+
+  <button  formnovalidate class="btn btn-primary" type="submit">Go!</button>
+
+</form>
+
+
+<style>
+/*textarea:required:invalid, input:required:invalid {
+background-color: lightyellow;
+}*/
+/*textarea:required:valid, input:required:valid {
+background-color: green;
+color:white;
+
+}*/
+
+input:required + label::after { content: "*"; }
+
+/*input:invalid + label::after { content: ' ⨉'; }*/
+/*input:valid + label::after { content: ' ✓'; }*/
+
+    .submitted input:invalid { background-color: rgba(255,0,0,0.25); }
+    .submitted input:valid { background-color: rgba(0,255,0,0.25); }
+    .submitted input:invalid + label::after { content: ' ⨉'; }
+    .submitted input:valid + input::after { content: ' ✓'; }
+
+
+</style>
+
+
+<script type="text/javascript">
+// document.getElementById('email').addEventListener('keyup', function(){
+//
+// function setError(el, msg) {
+//   el.parentNode.querySelector('strong').innerHTML = "Error:";
+//   el.parentNode.className='error';
+//   el.parentNode.querySelector('span').innerHTML = msg;
+// }
+//
+// function setSuccess(el) {
+//   el.parentNode.querySelector('strong').innerHTML = "OK:";
+//   el.parentNode.className='success';
+//   el.parentNode.querySelector('span').innerHTML = "&check;";
+// }
+//
+// var val = this.value;
+//
+// if (val !== "") {
+//   if (taken_usernames.indexOf(val.trim())+1) {
+//     setError(this, '&cross; Sorry, this username is taken.');
+//   } else {
+//     setSuccess(this, '&check; You can use this username.');
+//   }
+// } else {
+//   document.getElementById('email_feedback').innerHTML = '';
+//   document.getElementById('email_feedback')
+//     .parentNode.className = '';
+//   document.querySelector('[for="email"] strong').innerHTML = '';
+// }
+//
+// });
+//
+//
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    document.forms[0].addEventListener('submit',function(e){
+        e.preventDefault();
+        e.currentTarget.classList.add('submitted');
+    });
+});
+
+</script>
+<!--
+
+
+title: "Develop sites over HTTPS from static site generators (like Jekyll)"
+source: Paul Bakaus
+date: 2016-08-05 11:46
+link: https://paulbakaus.com/tutorials/html5/serve-pwaamp-over-https-from-static-site-generators-like-jekyll/
+type: Tutorial
+tool:
+  - jekyll
+  - grow
+
+copy
+ -->

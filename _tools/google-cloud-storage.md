@@ -4,7 +4,8 @@ date: 2015-05-14T17:17:00.000Z
 posted_date: 2015-05-14T17:17:00.000Z
 type: tool
 slug: google-cloud-storage
-tool_type: hosting-deployment
+tool_type: 
+  - hosting-deployment
 links:
   website: https://cloud.google.com/storage/
 ---

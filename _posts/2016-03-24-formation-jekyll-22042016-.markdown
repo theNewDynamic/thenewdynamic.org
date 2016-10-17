@@ -1,6 +1,7 @@
 ---
 title: "Formation Jekyll 22/04/2016 | Central"
 date: 2016-03-24 18:58
+published: false
 start_at: 2016-04-22T:00:00.000Z
 venue: "Central's office, Brussels"
 link: http://central.team/workshops/jekyll/

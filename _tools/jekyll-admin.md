@@ -4,7 +4,8 @@ date: 2016-08-24T00:41:00.000Z
 posted_date: 2016-08-24T00:41:00.000Z
 type: tool
 tag: jekyll
-tool_type: content-management
+tool_type: 
+  - content-management
 links:
   github: https://github.com/jekyll/jekyll-admin
 description: A Jekyll plugin that provides users with a traditional CMS-style graphical interface to author content and administer Jekyll sites.

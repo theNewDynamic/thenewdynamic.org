@@ -4,7 +4,8 @@ date: 2014-05-26T02:52:00.000Z
 posted_date: 2015-05-26T02:52:00.000Z
 type: tool
 slug: buster
-tool_type: static-site-generator
+tool_type: 
+  - static-site-generator
 links:
   github: https://github.com/axitkhurana/buster
 description: Brute force static site generator for Ghost

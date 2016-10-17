@@ -4,8 +4,8 @@ layout: default
 section: links
 schema: https://schema.org/WebPage
 ---
-{% assign articles = site.posts  | sort: 'date', 'last' | reverse %}
-
+{% assign articles = site.posts | where: 'meetup', 'the-new-dynamic' | sort: 'date', 'last' | reverse %}
+{% assign meetups = site.meetups | where_exp: 'item', 'item.slug != "the-new-dynamic"'  %}
 {% assign box_classes = 'list-reset col-12 md-col-8 md-pr2 mr-auto'  %}
 {% assign list_classes = 'list-reset col-12'  %}
 {% assign list_heading_classes = 'bold h2 pl2'  %}
@@ -34,17 +34,20 @@ schema: https://schema.org/WebPage
 {% assign current_date = site.time | date: "%Y%m%d" %}
 
 
-
+<h2 class="h2 bold">
+  Recent & Upcoming
+</h2>
 <div class="flex flex-wrap">
-
   {% for object in articles limit:50 %}
     {% if object.category contains 'event' %}
     {% assign event_date = object.start_at | date: "%Y%m%d" %}
       <div class="col-12 md-col-6 pr2 mb2">
         {% if event_date >= current_date %}
-          <div class="h4 py1 px3 bg-red white">
-            Upcoming: {{ object.start_at | date: "%A, %b %d" }} <a href="{{ object.link }}" class="text-decoration-none right-align p2 white bg-dark-accent-color">JOIN</a>
-          </div>
+
+             <a href="{{ object.link }}" class="block h4 py1 px3 text-decoration-none white bg-accent-color hover-bg-black">
+            Upcoming: {{ object.start_at | date: "%A, %b %d" }}  {{ object.start_at | date: "%l:%M %P" }} <span class="pl4">JOIN</span>
+            </a>
+
         {% endif %}
 
         {% include components/article-list-item.html %}
@@ -52,4 +55,17 @@ schema: https://schema.org/WebPage
     {% endif %}
   {% endfor %}
 
+</div>
+
+<div class="clearfix col-12">
+<h2 class="h2 bold">
+  Other Meetups
+</h2>
+
+
+{% for object in meetups  %}
+  <a href="{{ object.website }}" class="h3 block text-decoration-none mr4">
+    <span class="bold">{{ object.title }}</span>{% if object.location %}, {{object.location }}{% endif %}
+  </a>
+{% endfor %}
 </div>

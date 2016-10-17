@@ -1,7 +1,8 @@
 ---
 title: Serum
 date: 2016-08-11T00:00:00.000Z
-tool_type: helper
+tool_type: 
+  - helper
 tag: jekyll
 links:
   website: 'https://chrome.google.com/webstore/detail/serum/ffboflhdigfmnnokjjcmfipgehggjhlj'

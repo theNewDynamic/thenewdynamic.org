@@ -4,7 +4,8 @@ date: 2015-05-08T21:51:00.000Z
 posted_date: 2015-05-08T21:51:00.000Z
 type: tool
 slug: prismic
-tool_type: content-management
+tool_type: 
+  - content-management
 tags:
   - Editing
   - CMS

@@ -2,10 +2,10 @@
 title: Search for Static Sites
 published: true
 category: event
-meetup: http://www.meetup.com/the-new-dynamic/
+meetup: the-new-dynamic
 video: https://youtu.be/zahaMg3X0Tc
 venue: Mouse
-address: "55 Broad St. New York, NY" 
+address: "55 Broad St. New York, NY"
 description: "A presentation at the New Dynamic Meetup, by Aidan Feldman"
 ---
 Aidan Feldman, a developer with the GSA's 18F group (Building the 21st century digital government) discussed Search on Static Sites and some of the approaches his team at 18F have taken to create robust search options for static sites

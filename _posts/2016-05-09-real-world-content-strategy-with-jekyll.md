@@ -1,6 +1,7 @@
 ---
 title: Real World Content Strategy With Jekyll
 subtitle: 'Conference talk from Jekyllconf (video, slides)'
+meetup: the-new-dynamic
 video: 'https://youtu.be/A1nTuNjoNbg'
 description: Video and slides from JekyllConf 2016
 tags:

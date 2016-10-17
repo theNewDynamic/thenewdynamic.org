@@ -122,7 +122,7 @@ defaults:
       path: ''
       type: tool
     values:
-      layout: page-listing
+      layout: tool
   - scope:
       path: ''
       type: tool_type
@@ -148,3 +148,21 @@ defaults:
       path: '_pages'
     values:
       permalink: /:basename/
+
+
+staticmanapp:
+
+allowedFields: ['name', 'email', 'comment']
+branch: 'gh-pages'
+filename: entry{@timestamp}
+format: 'json'
+generatedFields:
+  myField:
+    type: date
+    options:
+      format: timestamp
+moderation: true
+path: _data/posts/{options.post-slug}
+requiredFields: ['name', 'comment']
+transforms:
+  email: 'md5'  

@@ -1,7 +1,8 @@
 ---
 title: "Jekyll Hook"
 date: 2013-05-01T01:20:00.000Z
-tool_type: hosting-deployment
+tool_type: 
+  - hosting-deployment
 tag: jekyll
 links:
   post: https://developmentseed.org/blog/2013/05/01/introducing-jekyll-hook/

@@ -7,7 +7,8 @@ schema: 'Article'
   {% include article.html %}
 </div>
 
-
+{% comment %}
+<!-- 
   {% assign tools = site.tool_type | sort:'title' %}
   {% for tool in tools %}
     <a href="{{ tool.url }}" class="col-12 block right-align text-decoration-none black bold px2 py1 btnt fbtn-primary hover-white hover-bg-black {% if tool.color %}background-color:{{ tool.color }};{% endif %}{% if tool.text_color %}color:{{ tool.text_color }};{% endif %}">
@@ -18,4 +19,7 @@ schema: 'Article'
     <a href="/tools/" class="col-12 right-align btn btn-primary">
       All
     </a>
-  {% endif %}
+  {% endif %} -->
+
+
+ {% endcomment %}

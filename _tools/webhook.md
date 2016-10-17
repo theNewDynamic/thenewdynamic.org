@@ -5,7 +5,8 @@ published: false
 posted_date: 2015-05-02T01:55:00.000Z
 type: tool
 slug: webhook
-tool_type: static-site-generator
+tool_type: 
+  - static-site-generator
 tags:
   - Static Site Generator
   - CMS
