@@ -1,105 +1,70 @@
 <form method="POST" action="">
-  <input name="options[redirect]" type="hidden" value="https://my-site.com">
+  <input name="options[redirect]" tabindex="1"  type="hidden" value="https://my-site.com">
   <!-- e.g. "2016-01-02-this-is-a-post" -->
   <input name="options[slug]" type="hidden" value="{{ page.slug }}">
 
 
-  <input class="input transition" name="fields[name]" aria-label="Name" placeholder="Name of the person who wrote the article" type="text" required>
-
-  <input id="email" class="input transition" name="fields[email]" aria-label="Email" placeholder="Email Address" type="email" required>
-  <span id="email_feedback" aria-live="polite"></span>
-
+  {% for object in site.type  %}
+    <input aria-label="Type of LInk" class="inline-block h4 my3 mr1" type="radio" name="type" value="{{ object }}"{% if forloop.first %} checked{% endif %}/><span class="h5 mr2">{{ object }}</span>
+  {% endfor %}
 
 
-  <label class="label">
-    Link
-  </label>
-  <input class="input" name="fields[email]" placeholder="Link to your article" type="email">
+
+  <input required id="title" aria-label="title" class="input transition" name="fields[title]" placeholder="Title of the Article" tabindex="1" type="text">
+  <span class="feedback" aria-live="polite"></span>
 
 
-  <label class="label">
-    Message
-  </label>
-  <textarea class="textarea" name="fields[message]"></textarea>
+  <input required id="name" aria-label="name" class="input transition" name="fields[name]" placeholder="Name of the person who wrote the article" tabindex="1" type="text">
+  <span class="feedback" aria-live="polite"></span>
 
-  <button  formnovalidate class="btn btn-primary" type="submit">Go!</button>
+
+  <input required pattern="https?://.+" class="input link" aria-label="link" name="fields[link]" placeholder="Link to the article e.g. http://example.com" tabindex="3"  type="text">
+  <span class="feedback" aria-live="polite"></span>
+
+
+  {% assign tools = site.tools | sort: 'title'  %}
+
+
+
+  <select class="select" multiple class="select-multiple" aria-label="select the tool" style="height:auto !important;">
+    <option class="muted" selected> -- Related Tool -- </option>
+    {% for tool in tools  %}
+      <option class="block h4 mb2 mr2" value="{{ tool.slug }}">{{ tool.title }}</option>
+    {% endfor %}
+  </select>
+
+
+{% comment %}
+  <datalist id="tools">
+    {% for tool in tools  %}
+      <option value="{{ tool.slug }}">{{ tool.title }}</option>
+    {% endfor %}
+  </datalist>
+  <input type="text" class="input" aria-label="select the related tool" tabindex="5" placeholder="Select a related tool" name="tools" list="tools" multiple>
+
+{% endcomment %}
+
+  <textarea class="textarea" aria-label="summary" placeholder="Summary of the article" tabindex="4" name="fields[message]"></textarea>
+
+
+  <input required id="email" aria-label="email" class="input transition mt4 mb2" name="fields[email]" placeholder="Your email address" tabindex="2"  type="email">
+  <span class="feedback" aria-live="polite"></span>
+
+
+
+  <button class="btn btn-primary" tabindex="5"  type="submit">Go!</button>
 
 </form>
+<!-- formnovalidate -->
 
+{% include forms/validation.html %}
 
-<style>
-/*textarea:required:invalid, input:required:invalid {
-background-color: lightyellow;
-}*/
-/*textarea:required:valid, input:required:valid {
-background-color: green;
-color:white;
-
-}*/
-
-input:required + label::after { content: "*"; }
-
-/*input:invalid + label::after { content: ' ⨉'; }*/
-/*input:valid + label::after { content: ' ✓'; }*/
-
-    .submitted input:invalid { background-color: rgba(255,0,0,0.25); }
-    .submitted input:valid { background-color: rgba(0,255,0,0.25); }
-    .submitted input:invalid + label::after { content: ' ⨉'; }
-    .submitted input:valid + input::after { content: ' ✓'; }
-
-
-</style>
-
-
-<script type="text/javascript">
-// document.getElementById('email').addEventListener('keyup', function(){
-//
-// function setError(el, msg) {
-//   el.parentNode.querySelector('strong').innerHTML = "Error:";
-//   el.parentNode.className='error';
-//   el.parentNode.querySelector('span').innerHTML = msg;
-// }
-//
-// function setSuccess(el) {
-//   el.parentNode.querySelector('strong').innerHTML = "OK:";
-//   el.parentNode.className='success';
-//   el.parentNode.querySelector('span').innerHTML = "&check;";
-// }
-//
-// var val = this.value;
-//
-// if (val !== "") {
-//   if (taken_usernames.indexOf(val.trim())+1) {
-//     setError(this, '&cross; Sorry, this username is taken.');
-//   } else {
-//     setSuccess(this, '&check; You can use this username.');
-//   }
-// } else {
-//   document.getElementById('email_feedback').innerHTML = '';
-//   document.getElementById('email_feedback')
-//     .parentNode.className = '';
-//   document.querySelector('[for="email"] strong').innerHTML = '';
-// }
-//
-// });
-//
-//
-
-
-document.addEventListener("DOMContentLoaded", function() {
-    document.forms[0].addEventListener('submit',function(e){
-        e.preventDefault();
-        e.currentTarget.classList.add('submitted');
-    });
-});
-
-</script>
 <!--
 
 
 title: "Develop sites over HTTPS from static site generators (like Jekyll)"
 source: Paul Bakaus
-date: 2016-08-05 11:46
+
 link: https://paulbakaus.com/tutorials/html5/serve-pwaamp-over-https-from-static-site-generators-like-jekyll/
 type: Tutorial
 tool:
@@ -108,3 +73,16 @@ tool:
 
 copy
  -->
+<style media="screen">
+  .select-multiple {
+    font-family: inherit;
+  font-size: inherit;
+  display: block;
+  width: 100%;
+  padding: .5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+  }
+</style>
