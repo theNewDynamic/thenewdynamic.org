@@ -1,0 +1,29 @@
+---
+layout: default
+section: page-single
+schema: 'Article'
+---
+{% assign submission_links = site.landing_pages | where_exp: 'item', 'item.title contains "Submit"'  %}
+<div class="col-12 md-col-8 mx-auto">
+  {% for object in  submission_links %}
+    {% unless page.url == object.url %}
+      <a href="{{ object.url }}" class="btn btn-primary">{{ object.title }}</a>
+    {% endunless %}
+  {% endfor %}
+</div>
+
+<div class="{{ site.page-single_classes }}">
+  {% if page.title %}
+    <h1>
+      {{ page.title }}
+    </h1>
+  {% endif %}
+
+
+{{ page.content | markdownify }}
+
+{% capture form %}forms/{{ page.slug }}.html{% endcapture %}
+
+  {% include {{ form }} %}
+
+</div>

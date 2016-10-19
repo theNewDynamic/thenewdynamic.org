@@ -3,7 +3,8 @@ layout: default
 section: page-listing
 schema: https://schema.org/WebPage
 ---
-{% assign tool_type = (site.tool_type)  | sort: 'title', 'last' %}
+{% assign box_classes = 'col-12 sm-col-6 md-col-6 lg-col-4 rounded pr2 mb2 black text-decoration-none'  %}
+{% assign tool_type = page.tool_type %}
 {% if page.url == '/tools/' %}
   {% assign tools = (site.tools | sort: 'title', 'last' ) %}
 
@@ -13,43 +14,33 @@ schema: https://schema.org/WebPage
 {% endif %}
 
 
-  <h1>
-    Tools{% if title %}: {{ title }}{% endif %}
+<div class="clearfix col-12 mb3">
+  {% for tool in tool_type %}
+    {% assign tool_types = site.tool_type | where: 'slug', tool %}
+    {% for object in tool_types  %}
+      {% include components/buttons-tools-list.html %}
+    {% endfor %}
+  {% endfor %}
+</div>
+
+  <h1 class="m0">
+     {{ page.title }}
   </h1>
-  {{ content }}
-  <div class="clearfix col-12 mb3">
-    {% for object in tool_type %}
-      <a href="{{ object.url }}" class="{{ site.btn_classes }}{% if page.url contains object.url %} accent-color{% endif %}" style="background-color:{{ object.color }};color:{{ object.text_color }}">
-        {{ object.title }}
-      </a>
-    {% endfor %}
-    <a href="/tools/" class="{{ site.btn_classes }}{% if page.url == '/tools/' %} accent-color{% endif %}">
-      All
-    </a>
-  </div>
+  {% if page.description %}
+  <h2 class="mt0">
+  {{ page.description }}
+  </h2>
 
-  <div class="flex flex-wrap justify-around">
-    {% for object in tools %}
-    {% assign links = site.links | where_exp: 'item', 'item.tool contains object.slug' %}
-      {% assign tool = object.tool_type[0] %}
-      {% assign related_tool_type = site.tool_type | where: 'slug', tool %}
-      <a href="{{ object.url }}" class="col-12 sm-col-6 md-col-6 lg-col-4 rounded pr2 mb2 black text-decoration-none">
-        <div class="p2 relative hover-bg-black hover-text-on-primary-color bg-primary-color-light" style="height:7.5rem;border-top:4px solid {{ related_tool_type[0].color }};">
-          <div class="h5 absolute top-0 right-0 mt1 mr1">{{ links.size }}</div>
-
-          <div class="h3 bold">
-            {{ object.title }}
-          </div>
+  {% endif %}
 
 
 
-          <div class="h6">
-            {% if object.description %}
-              {{ object.description | markdownify | remove: '<p>' | remove: '</p>' | truncate: 150 }}
-            {% else %}
-              {{ object.content | markdownify | strip_html | truncate: 150 }}
-            {% endif %}
-          </div>
-        </div>
-      </a>
-    {% endfor %}
+  <div class="flex flex-wrap">
+
+
+    <div class="{{ box_classes }} p2 relative hover-bg-black hover-text-on-primary-color bg-primary-color-light">
+
+            {{ page.content | markdownify }}
+
+
+    </div>

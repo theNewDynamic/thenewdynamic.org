@@ -1,5 +1,5 @@
 ---
-title: Submit a Link
+title: Submit a Showcase Site
 layout: submit
 include: forms/submit-link.html
 ---

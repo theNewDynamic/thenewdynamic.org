@@ -12,10 +12,10 @@ primary:
       url: /showcase/
 
     - title: "Meetups"
-      url: /events/    
+      url: /events/
 
-    - title: "Job Board"
-      url: /job-board/
+    # - title: "Job Board"
+    #   url: /job-board/
 
 secondary:
     - title: "About"
