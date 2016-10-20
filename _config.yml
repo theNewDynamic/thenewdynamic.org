@@ -149,20 +149,15 @@ defaults:
     values:
       permalink: /:basename/
 
+github_user: budparr
+github_repo: thenewdynamic
 
 staticmanapp:
-
-allowedFields: ['name', 'email', 'comment']
-branch: 'gh-pages'
-filename: entry{@timestamp}
-format: 'json'
-generatedFields:
-  myField:
-    type: date
-    options:
-      format: timestamp
-moderation: true
-path: _data/posts/{options.post-slug}
-requiredFields: ['name', 'comment']
-transforms:
-  email: 'md5'
+  branch: 'gh-pages'
+  filename: entry{@timestamp}
+  format: 'json'
+  moderation: true
+  path: _data/posts/{options.post-slug}
+  requiredFields: ['name', 'comment']
+  transforms:
+    email: 'md5'
