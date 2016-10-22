@@ -65,14 +65,15 @@ a { color: var(--blue)}
   --gray:   #AAAAAA;
   --light-gray: #EEE;
   --dark-gray:  #333;
-  --black:  #111111;
+  --black:  #191919;
   --blue: #07c;
   --red: #8C1613;
-
-  --primary-color: var(--gray);
+  --tnd-red: #8C1613;
+  --gold: #D7D9B1;
+  --primary-color: var(--tnd-red);
   --primary-color-light:var(--silver);
   --primary-color-dark:var(--black);
-  --accent-color          : #448AFF;
+  --accent-color          : var(--gold);
   --text-on-primary-color    : #FFFFFF;
   --default-text-color    : #212121;
   --secondary-text-color  : #555;

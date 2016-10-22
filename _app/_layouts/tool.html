@@ -4,15 +4,22 @@ section: page-listing
 schema: https://schema.org/WebPage
 ---
 {% assign box_classes = 'col-12 sm-col-6 md-col-6 lg-col-4 rounded pr2 mb2 black text-decoration-none'  %}
+{% assign box_inner_classes = 'pb1 pt1 relative hover-bg-primary-color-dark hover-text-on-primary-color bg-primary-color-light'  %}
+{% assign box_link_classes = 'text-decoration-none block px2 py1 hover-primary-color-dark hover-bg-primary-color-light'  %}
+
+{% assign resources = page.resources  %}
+{% assign links = page.links  %}
+{% assign slug = page.slug  %}
+{% assign related_links = site.links | where_exp: 'item', 'item.tool contains slug' %}
+{% assign related_tools = site.tools | where_exp: 'item', 'item.tag contains slug' %}
+
 {% assign tool_type = page.tool_type %}
 {% if page.url == '/tools/' %}
   {% assign tools = (site.tools | sort: 'title', 'last' ) %}
-
 {% else %}
   {% assign tools = site.tools | where_exp: 'item','item.tool_type contains page.slug' | sort: 'title', 'last' %}
   {% assign title = page.title  %}
 {% endif %}
-
 
 <div class="clearfix col-12 mb3">
   {% for tool in tool_type %}
@@ -23,24 +30,86 @@ schema: https://schema.org/WebPage
   {% endfor %}
 </div>
 
-  <h1 class="m0">
-     {{ page.title }}
-  </h1>
-  {% if page.description %}
+<h1 class="m0 md-h00">
+  {{ page.title }}
+</h1>
+{% if page.description %}
   <h2 class="mt0">
-  {{ page.description }}
+    {{ page.description }}
   </h2>
+{% endif %}
 
+<div class="flex flex-wrap">
+
+  <div class="{{ box_classes }} pr2 ">
+    <div class="{{ box_inner_classes }} px2 pb2">
+      {{ page.content | markdownify }}
+      {% if links.website %}
+        <a href="{{ links.website }}" class="text-decoration-none hover-primary-color-light pr2">
+          website
+        </a>
+      {% endif %}
+      {% if links.github %}
+        <a href="{{ links.github }}" class="text-decoration-none hover-primary-color-light pr2">
+          Github
+        </a>
+      {% endif %}
+      {% if links.twitter %}
+        <a href="{{ links.twitter }}" class="text-decoration-none hover-primary-color-light pr2">
+          Twitter
+        </a>
+      {% endif %}
+    </div>
+  </div>
+
+  {% if resources %}
+    <div class="{{ box_classes }} pr2 ">
+      <h3 class="m0 center bg-primary-color-dark primary-color-light col-12 py1">
+        Resources
+      </h3>
+      <div class="{{ box_inner_classes }}">
+        {% for object in resources  %}
+          <a href="{{ object.link }}" class="{{ box_link_classes }}">
+            {{ object.name }}
+          </a>
+        {% endfor %}
+      </div>
+    </div>
+  {% endif %}
+
+  {% if related_tools %}
+    <div class="{{ box_classes }} pr2 ">
+      <h3 class="m0 center bg-primary-color-dark primary-color-light col-12 py1">
+        Related Tools
+      </h3>
+      <div class="{{ box_inner_classes }}">
+        {% for object in related_tools  %}
+          <a href="{{ object.url }}" class="{{ box_link_classes }}">
+            {{ object.title }}
+          </a>
+        {% endfor %}
+      </div>
+    </div>
   {% endif %}
 
 
 
+
+
+
+</div>
+
+
+{% if related_links %}
+  {% assign related_links = related_links | sort: 'date', 'last' | reverse %}
+  <h2>
+    Related Links
+  </h2>
   <div class="flex flex-wrap">
-
-
-    <div class="{{ box_classes }} p2 relative hover-bg-black hover-text-on-primary-color bg-primary-color-light">
-
-            {{ page.content | markdownify }}
-
-
-    </div>
+    {% for object in related_links %}
+      <ul class="list-reset md-col-4 pr2 mb0">
+        {% include components/links.html %}
+      </ul>
+    {% endfor %}
+  </div>
+{% endif %}
