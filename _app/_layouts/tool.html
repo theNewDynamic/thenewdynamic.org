@@ -12,8 +12,8 @@ schema: https://schema.org/WebPage
 {% assign slug = page.slug  %}
 {% assign related_links = site.links | where_exp: 'item', 'item.tool contains slug' %}
 {% assign related_tools = site.tools | where_exp: 'item', 'item.tag contains slug' %}
-
 {% assign tool_type = page.tool_type %}
+
 {% if page.url == '/tools/' %}
   {% assign tools = (site.tools | sort: 'title', 'last' ) %}
 {% else %}
@@ -34,7 +34,7 @@ schema: https://schema.org/WebPage
   {{ page.title }}
 </h1>
 {% if page.description %}
-  <h2 class="mt0">
+  <h2 class="mt0 mb2">
     {{ page.description }}
   </h2>
 {% endif %}
@@ -62,7 +62,7 @@ schema: https://schema.org/WebPage
     </div>
   </div>
 
-  {% if resources %}
+  {% if resources.size > 0 %}
     <div class="{{ box_classes }} pr2 ">
       <h3 class="m0 center bg-primary-color-dark primary-color-light col-12 py1">
         Resources
@@ -77,7 +77,7 @@ schema: https://schema.org/WebPage
     </div>
   {% endif %}
 
-  {% if related_tools %}
+  {% if related_tools.size > 0 %}
     <div class="{{ box_classes }} pr2 ">
       <h3 class="m0 center bg-primary-color-dark primary-color-light col-12 py1">
         Related Tools
@@ -100,7 +100,7 @@ schema: https://schema.org/WebPage
 </div>
 
 
-{% if related_links %}
+{% if related_links.size > 0 %}
   {% assign related_links = related_links | sort: 'date', 'last' | reverse %}
   <h2>
     Related Links
