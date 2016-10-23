@@ -5,10 +5,12 @@ tool:
  - middleman
  - contentful
 website: http://anywhere.ebay.com/mobile/
+repo:
 creator:
-  - role: Design, Development
-  - link: http://www.instrument.com/latest/the-new-ebay-creating-excitement-through-code
   - name: Instrument
+    role: Design, Development
+    url: http://www.instrument.com/latest/the-new-ebay-creating-excitement-through-code    
+    twitter_username:
 image_path: /uploads/showcase-ebay.jpg
 ---
 

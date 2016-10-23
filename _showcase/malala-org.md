@@ -5,11 +5,11 @@ tool:
   - roots
   - contentful
 website: 'https://www.malala.org/'
+repo:
 creator:
-  - role:
-  - link:
-  - name:
+  - role: "Design/Development"
+    url: http://carrot.is/
+    name: Carrot Creative
+    twitter_username: carrot
 image_path: /uploads/showcase-malala-org-roots-static-site-generator.jpg
 ---
-
-

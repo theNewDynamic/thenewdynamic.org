@@ -6,9 +6,8 @@ tool:
 website: 'http://patternlab.io/'
 creator:
   - role:
-  - link:
-  - name:
+    url:
+    name:
+    twitter_username:
 image_path: /uploads/showcase-pattern-lab.png
 ---
-
-

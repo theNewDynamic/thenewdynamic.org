@@ -5,9 +5,10 @@ tool:
   - assemble
 website: 'https://www.hillaryclinton.com/'
 creator:
-  - role:
-  - link:
-  - name:
+  - name: 'Hillary for America tech team'
+    role: 'Design/Development'
+    url: https://www.hillaryclinton.com/page/tech/    
+    twitter_username:
 image_path: /uploads/showcase-hillaryclinton.png
 ---
 

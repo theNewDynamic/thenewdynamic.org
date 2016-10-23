@@ -2,14 +2,16 @@
 title: "Getty Museum's Ancient Terracottas"
 date: 2016-02-04T03:47:00.000Z
 website: 'http://www.getty.edu/publications/terracottas/'
-image_path: /uploads/getty-museum-ancient-terracottas-1600.jpg
+repo:
 tool:
   - middleman
   - lunrjs
 creator:
-  - role: 'Design, development'
-  - link: 'http://egardner.github.io/'
   - name: 'Eric Gardner, Getty Museum'
+    role: 'Design/Development'
+    url: 'http://egardner.github.io/'    
+    twitter_username:
+image_path: /uploads/getty-museum-ancient-terracottas-1600.jpg
 ---
 
 

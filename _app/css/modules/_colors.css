@@ -73,7 +73,7 @@ a { color: var(--blue)}
 
 
   --primary-color: var(--tnd-red);
-  --primary-color-light:var(--silver);
+  --primary-color-light:var(--near-white);
   --primary-color-dark:var(--black);
   --accent-color          : var(--gold);
   --text-on-primary-color    : #FFFFFF;

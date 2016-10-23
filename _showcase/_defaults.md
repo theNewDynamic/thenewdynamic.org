@@ -3,9 +3,11 @@ title:
 date:
 tool:
 website:
+repo:
 creator:
-  - role:
-  - link:
   - name:
+    role: 'Design/Development'
+    url:
+    twitter_username:
 image_path:
 ---

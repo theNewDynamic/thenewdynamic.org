@@ -4,11 +4,12 @@ date: 2016-09-07T00:00:00.000Z
 tool:
   - jekyll
 website: 'https://panamapapers.icij.org/'
+repo: 
 creator:
   - name: Populate
     role: Design/Development
-    url: http://populate.tools/    
-    twitter_username:
+    url: http://www.populate.tools
+    twitter_username: populatetools
 image_path: /uploads/showcase-the-panama-papers-jekyll.jpg
 ---
 

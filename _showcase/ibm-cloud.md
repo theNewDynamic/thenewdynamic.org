@@ -4,10 +4,12 @@ date: 2016-07-12T00:00:00.000Z
 tool:
   - jekyll
 website: 'https://mobilefirstplatform.ibmcloud.com/'
+repo:
 creator:
-  - role: 'Design/Development'
-  - link:
   - name: IBM
+    role: 'Design/Development'
+    url:    
+    twitter_username:
 image_path: /uploads/showcase-ibm-cloud-800px.png
 ---
 
