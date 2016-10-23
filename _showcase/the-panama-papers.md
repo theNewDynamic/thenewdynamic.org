@@ -5,9 +5,9 @@ tool:
   - jekyll
 website: 'https://panamapapers.icij.org/'
 creator:
-  - role: Design/Development
-  - link: http://populate.tools/
   - name: Populate
+    role: Design/Development
+    link: http://populate.tools/    
 image_path: /uploads/showcase-the-panama-papers-jekyll.jpg
 ---
 

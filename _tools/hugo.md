@@ -4,7 +4,7 @@ date: 2015-05-02T01:41:00.000Z
 posted_date: 2015-05-02T01:41:00.000Z
 type: tool
 slug: hugo
-tool_type: 
+tool_type:
   - static-site-generator
 links:
   website: http://gohugo.io/
@@ -13,7 +13,4 @@ links:
 description: Extremely fast (build times) written in golang.
 ---
 
-
-
-
-
+Hugo is a general-purpose website framework. Technically speaking, Hugo is a static site generator.

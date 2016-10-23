@@ -1,14 +1,14 @@
 primary:
-    - title: "Articles"
+    - title: "articles"
       url: /articles/
 
-    - title: "Links"
+    - title: "links"
       url: /links/
 
-    - title: "Tools"
+    - title: "tools"
       url: /tools/
 
-    - title: "Showcase"
+    - title: "showcase"
       url: /showcase/
 
     - title: "Meetups"
@@ -18,11 +18,11 @@ primary:
     #   url: /job-board/
 
 secondary:
-    - title: "About"
+    - title: "about"
       url: /about/
 
-    - title: "Submit"
+    - title: "submit"
       url: /submit/
 
-    - title: "Privacy"
+    - title: "privacy"
       url: /privacy/

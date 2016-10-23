@@ -1,1 +1,0 @@
-window.onload=function(){var n=document.getElementById("js-mobile-menu");var e=document.getElementById("navigation-menu");n.addEventListener("click",function(){e.classList.toggle("show")})};

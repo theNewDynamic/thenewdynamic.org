@@ -1,0 +1,74 @@
+---
+title: Showcase
+layout: default
+section: page-listing
+schema: https://schema.org/WebPage
+paginate:
+  collection: showcase
+---
+{% assign title = page.title  %}
+{% assign page_tools = page.tool %}
+{% assign website = page.website  %}
+
+{% assign creator_name = page.creator.name  %}
+{% assign creator_link = page.creator.link  %}
+{% assign creator_role = page.creator.role  %}
+
+
+
+{% assign image = page.image_path | prepend: site.image_url | remove: 'uploads/' %}
+
+
+
+<div class="clearfix col-12 mb3">
+  {% for tool in page_tools %}
+    {% assign tools = site.tools | where: 'slug', tool %}
+    {% for object in tools  %}
+      {% include components/buttons-tools-list.html %}
+    {% endfor %}
+  {% endfor %}
+</div>
+
+
+
+
+
+
+
+  <h1 class="">
+    {{ layout.title }}{% if title %}: {{ title }}{% endif %}
+  </h1>
+
+
+  <div class="col-12 clearfix flex flex-wrap">
+    <div class="col-12 md-col-9 pr2">
+      <img src="{{ image }}" alt="{{ title }} image" class="border border-divider-color" />
+    </div>
+    <div class="col-12 md-col-3 p2 bg-silver ">
+
+      {% if website %}
+        <a href="{{ website }}" class="text-decoration-none">link</a>
+      {% endif %}
+
+
+      {% if creator_name %}
+      <h2>{{ creator_name }}</h2>
+      {% endif%}
+      {% if creator_link  %}
+      {{ creator_link }}
+      {% endif%}
+      {% if creator_role  %}
+      {{ creator_role }}
+      {% endif%}
+
+
+
+
+
+
+
+    </div>
+
+  </div>
+
+  {{ content }}

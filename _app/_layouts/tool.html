@@ -13,6 +13,10 @@ schema: https://schema.org/WebPage
 {% assign related_links = site.links | where_exp: 'item', 'item.tool contains slug' %}
 {% assign related_tools = site.tools | where_exp: 'item', 'item.tag contains slug' %}
 {% assign tool_type = page.tool_type %}
+{% assign showcase = site.showcase | where_exp: 'item', 'item.tool contains slug' %}
+{% assign related_articles = site.posts | where_exp: 'item', 'item.tool contains slug' %}
+
+
 
 {% if page.url == '/tools/' %}
   {% assign tools = (site.tools | sort: 'title', 'last' ) %}
@@ -45,20 +49,31 @@ schema: https://schema.org/WebPage
     <div class="{{ box_inner_classes }} px2 pb2">
       {{ page.content | markdownify }}
       {% if links.website %}
-        <a href="{{ links.website }}" class="text-decoration-none hover-primary-color-light pr2">
+        <a href="{{ links.website }}" class="btn btn-outline text-decoration-none hover-primary-color-light hover-bg-accent-color pr2">
           website
         </a>
       {% endif %}
       {% if links.github %}
-        <a href="{{ links.github }}" class="text-decoration-none hover-primary-color-light pr2">
+        <a href="{{ links.github }}" class="btn btn-outline text-decoration-none hover-primary-color-light hover-bg-accent-color pr2">
           Github
         </a>
       {% endif %}
       {% if links.twitter %}
-        <a href="{{ links.twitter }}" class="text-decoration-none hover-primary-color-light pr2">
+        <a href="{{ links.twitter }}" class="btn btn-outline text-decoration-none hover-primary-color-light hover-bg-accent-color pr2">
           Twitter
         </a>
       {% endif %}
+
+      {% if related_articles.size > 0 %}
+          {% for object in related_articles %}
+              <h3>
+                <a href="{{ object.url }}" class="text-decoration-none hover-primary-color-light">
+                  {{ object.title }}
+                </a>
+              </h3>
+          {% endfor %}
+      {% endif %}
+
     </div>
   </div>
 
@@ -92,17 +107,33 @@ schema: https://schema.org/WebPage
     </div>
   {% endif %}
 
-
-
-
-
-
 </div>
+
+
+{% if showcase.size > 0 %}
+
+    <h2 id="showcase">
+      Showcase Sites
+    </h2>
+<div class="flex flex-wrap">
+      {% for object in showcase  %}
+      {% assign title = object.title %}
+      {% assign url = object.url %}
+      {% assign image = object.image_path | prepend: site.image_url | remove: 'uploads/' %}
+      {% assign tool = object.tool_type[0] %}
+      {% assign tools = object.tool %}
+      {% assign related_tool_type = site.tool_type | where: 'slug', tool %}
+        {% include components/showcase-item.html %}
+      {% endfor %}
+
+  </div>
+{% endif %}
+
 
 
 {% if related_links.size > 0 %}
   {% assign related_links = related_links | sort: 'date', 'last' | reverse %}
-  <h2>
+  <h2 id="links">
     Related Links
   </h2>
   <div class="flex flex-wrap">

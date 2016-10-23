@@ -39,10 +39,16 @@ layout: compress
      <!-- include global/header.html %} -->
       <main id="content" role="main" class="md-flex">
         {% include global/nav-side.html %}
-        <div class="{{ site.wrapper_class }}">
-          {{content}}
+        <div class="col-12">
+          {% include forms/search.html %}
+          <div class="{{ site.wrapper_class }}">
+            {{content}}
+          </div>
         </div>
       </div>
     {% include global/scripts.html %}
+    {% if layout.script %}
+        <script src="{{ layout.script }}"{% unless layout.load_script_async == false %} async{% endunless %}></script>
+    {% endif %}
   </body>
 </html>

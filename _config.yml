@@ -41,7 +41,7 @@ box_classes: 'bg-white p2'
 btn_classes: 'mb4 btn btn-primary bg-primary-color-dark text-decoration-none hover-white hover-bg-black'
 page-single_classes: 'mx-auto bg-white moon-gray col-12 md-col-10 lg-col-7 bordertk rounded border-silver mb4 pb4'
 
-wrapper_class: 'p3'
+wrapper_class: 'pt2 pr3 pb3 pl3'
 
 # Settings
 production: false
@@ -109,6 +109,11 @@ defaults:
       category: article
   - scope:
       path: ''
+      type: links
+    values:
+      exclude_from_search: true
+  - scope:
+      path: ''
       type: events
     values:
       layout: page-single
@@ -118,6 +123,7 @@ defaults:
     values:
       layout: page-single
       feed: false
+      exclude_from_search: true
   - scope:
       path: ''
       type: tools
@@ -130,12 +136,6 @@ defaults:
       layout: tools
   - scope:
       path: ''
-      type: staff
-    values:
-      layout: page-single
-      feed: false
-  - scope:
-      path: ''
       type: meetups
     values:
       feed: false
@@ -143,7 +143,7 @@ defaults:
       path: ''
       type: showcase
     values:
-      layout: page-listing
+      layout: showcase-item
   - scope:
       path: '_pages'
     values:

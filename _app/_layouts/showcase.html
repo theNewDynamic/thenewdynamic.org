@@ -35,24 +35,13 @@ paginate:
     {% assign showcase = showcase | sort: 'date', 'last' | reverse %}
   <div class="flex flex-wrap justify-around">
     {% for object in showcase %}
+      {% assign title = object.title %}
+      {% assign url = object.url %}
       {% assign image = object.image_path | prepend: site.image_url | remove: 'uploads/' %}
       {% assign tool = object.tool_type[0] %}
+      {% assign tools = object.tool %}
       {% assign related_tool_type = site.tool_type | where: 'slug', tool %}
-      <a href="{{ object.url }}" class=" col-12 sm-col-6 md-col-6 lg-col-6 sm-pr3 mb4 black text-decoration-none">
-          <div class="hide-child-until-hover relative transition">
-            <img src="{{ image }}" alt="" class="border z1" />
-          <div class="hidden-child center absolute top-0 right-0 bottom-0 bg-primary-color-dark white z2 col-12 " style="padding-top:20%;">
-            <div class="h1 px2">
-              {{ object.title }}
-            </div>
-            {% for item in object.tool %}
-              <div class="btn btn-outline h6">
-                {{ item }}
-              </div>
-            {% endfor %}
-          </div>
-        </div>
-      </a>
+      {% include components/showcase-item.html %}
     {% endfor %}
   </div>
 {% endif %}

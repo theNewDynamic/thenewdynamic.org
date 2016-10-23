@@ -70,6 +70,8 @@ a { color: var(--blue)}
   --red: #8C1613;
   --tnd-red: #8C1613;
   --gold: #D7D9B1;
+
+
   --primary-color: var(--tnd-red);
   --primary-color-light:var(--silver);
   --primary-color-dark:var(--black);
