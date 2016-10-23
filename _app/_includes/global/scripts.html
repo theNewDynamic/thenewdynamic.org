@@ -13,3 +13,17 @@
     var s = document.getElementsByTagName('script')[0];
     s.parentNode.insertBefore(wf, s);
   })(); </script>
+
+
+
+
+<script>
+  document.body.onkeyup = function(e){
+    {% if page.previous %}
+      if (e.keyCode == '37') { window.location = '{{ page.previous.url }}'; }
+    {% endif %}
+    {% if page.next %}
+      if (e.keyCode == '39') { window.location = '{{ page.next.url }}'; }
+    {% endif %}
+  };
+</script>
