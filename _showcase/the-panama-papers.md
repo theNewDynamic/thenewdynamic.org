@@ -7,7 +7,8 @@ website: 'https://panamapapers.icij.org/'
 creator:
   - name: Populate
     role: Design/Development
-    link: http://populate.tools/    
+    url: http://populate.tools/    
+    twitter_username:
 image_path: /uploads/showcase-the-panama-papers-jekyll.jpg
 ---
 
