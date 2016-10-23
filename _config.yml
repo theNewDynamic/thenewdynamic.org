@@ -107,6 +107,7 @@ defaults:
     values:
       layout: page-single
       category: article
+      collection_name: 'Articles & Event Recaps'
   - scope:
       path: ''
       type: links
@@ -129,6 +130,7 @@ defaults:
       type: tools
     values:
       layout: tool
+      collection_name: ' Tools'
   - scope:
       path: ''
       type: tool_type
@@ -144,6 +146,7 @@ defaults:
       type: showcase
     values:
       layout: showcase-item
+      collection_name: Showcase
   - scope:
       path: '_pages'
     values:

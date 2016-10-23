@@ -14,12 +14,13 @@ load_script_async: false
 </div>
 <script>
   window.store = {
-  {% assign docs  = (site.documents | where_exp: 'item' , 'item.exclude_from_search != true' | sort: 'collection') %}
+  {% assign docs  = site.documents | where_exp: 'item' , 'item.exclude_from_search != true' %}
   {% for entry in docs %}
+    {% assign collection_name = site.collections | where: "label", collection | first %}
     "{{ entry.url | slugify }}": {
       "title": "{{ entry.title | remove: '*' | xml_escape }}",
       "url": "{{ entry.url | xml_escape }}",
-      {% if entry.collection %}"category": "{{ entry.collection | xml_escape }}",{% endif %}
+      {% if entry.collection_name %}"category": "{{ entry.collection_name | xml_escape }}",{% endif %}
       "content": "{{ entry.description | remove: '*'| remove: '_'| strip_html | strip_newlines | xml_escape }}{{ entry.content | strip_html | strip_newlines | truncatewords: 250 | xml_escape }}"{% if entry.staff %},
       "author": "{{ entry.staff[0] | strip_newlines | xml_escape }} {{ entry.staff[1] | strip_newlines | xml_escape }} {{ entry.staff[2] | strip_newlines | xml_escape }}"
       {% endif %}

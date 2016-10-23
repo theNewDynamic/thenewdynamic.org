@@ -7,7 +7,7 @@
 
       for (var i = 0; i < results.length; i++) {  // Iterate over the results
         var item = store[results[i].ref];
-        appendString += '<li class="mb3 block">' + item.category + '<br /><a class="text-decoration-none hover-black" href="' + item.url + '"><h3 class="m0">' + item.title + '</h3></a>';
+        appendString += '<li class="mb3 block">' + item.category + '<br /><a class="text-decoration-none muted hover-black" href="' + item.url + '"><h3 class="m0">' + item.title + '</h3></a>';
         if (item.content) {
           appendString += '<p class="mt0">' + item.content.substring(0, 150) + '...</p></li>';
         };
@@ -41,7 +41,7 @@
     // a boost of 10 to indicate matches on this field are more important.
     var idx = lunr(function () {
       this.field('id');
-      this.field('title', { boost: 10 });
+      this.field('title', { boost: 30 });
       this.field('author');
       this.field('category');
       this.field('content');
