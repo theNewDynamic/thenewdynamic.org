@@ -86,7 +86,7 @@ schema: https://schema.org/WebPage
       </h3>
       <div class="{{ box_inner_classes }}">
         {% for object in resources  %}
-          <a href="{{ object.link }}" class="{{ box_link_classes }}">
+          <a href="{{ object.url }}" class="{{ box_link_classes }}">
             {{ object.name }}
           </a>
         {% endfor %}

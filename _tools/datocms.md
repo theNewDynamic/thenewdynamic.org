@@ -9,7 +9,7 @@ links:
   twitter: https://twitter.com/datocms
 resources:
   - name: Blog
-    link: https://www.datocms.com/blog/
+    url: https://www.datocms.com/blog/
 description: DatoCMS is a fully customizable administrative area for your static websites.
 ---
 

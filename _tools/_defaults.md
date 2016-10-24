@@ -8,6 +8,6 @@ links:
   twitter:
 resources:
   - name: 
-    link: 
+    url: 
 description:
 ---
