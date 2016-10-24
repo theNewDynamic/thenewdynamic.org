@@ -6,7 +6,7 @@ tool_type:
 links:
   website: 'https://www.datocms.com/'
   github:
-  twitter:
+  twitter: https://twitter.com/datocms
 resources:
   - name: Blog
     link: https://www.datocms.com/blog/
