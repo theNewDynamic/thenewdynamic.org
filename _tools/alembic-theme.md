@@ -5,11 +5,11 @@ tool_type:
   - theme
 urls:
   website:
-  github: https://github.com/daviddarnes/alembic
+  github:
   twitter:
 resources:
-  - name: ''
-    url: ''
+  - name: "How to Create and Publish a Jekyll Theme Gem at Tuts+ by the theme's author"
+    url: 'https://webdesign.tutsplus.com/tutorials/how-to-create-and-publish-a-jekyll-theme-gem--cms-27475'
 description: A Jekyll boilerplate theme designed to be a starting point for any Jekyll website.
 ---
 
