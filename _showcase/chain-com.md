@@ -1,7 +1,7 @@
 ---
 title: chain.com
 date: 2016-10-26 00:00:00
-tool: jekyll
+tools:
 website: 'https://chain.com/'
 repo:
 creator:
