@@ -45,9 +45,9 @@ page-single_classes: 'mx-auto bg-white moon-gray col-12 md-col-10 lg-col-7 borde
 wrapper_class: 'pt2 pr3 pb3 pl3'
 
 # Settings
-production: false
+production: true
 bust_css_cache: false
-full_rebuild: true
+#full_rebuild: true
 timezone: Etc/Zulu
 compress_html:
   ignore:
