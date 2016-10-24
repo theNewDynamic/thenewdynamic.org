@@ -7,7 +7,7 @@ links:
   github:
   twitter:
 resources:
-  - name: 
-    url: 
+  - name: ''
+    url: ''
 description:
 ---

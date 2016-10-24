@@ -4,12 +4,12 @@ date: 2016-10-24 00:00:00
 tool_type:
   - theme
 links:
-  website:
+  website: 
   github:
   twitter:
 resources:
-  - name:
-    url:
+  - name: ''
+    url: ''
 description: A Jekyll boilerplate theme designed to be a starting point for any Jekyll website.
 ---
 
