@@ -165,4 +165,4 @@ staticman:
  format: json
  moderation: true
  path: "_data/links"
- requiredFields: ['name', 'title', 'description', 'rating']
+ requiredFields: ['title', 'source', 'email']
