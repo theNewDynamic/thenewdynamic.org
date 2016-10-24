@@ -1,6 +1,6 @@
 ---
 title: 'Alembic Theme & Starter'
-date:
+date: 2016-10-24 00:00:00
 tool_type:
 links:
   website:
@@ -11,3 +11,5 @@ resources:
     url:
 description:
 ---
+
+
