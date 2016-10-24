@@ -1,7 +1,7 @@
 ---
 title: "Hosting-Deployment"
 published: true
-color: "#333"
+color: "#826754"
 text_color: "#ebebeb"
 ---
 Hosting for your static site.

@@ -1,5 +1,5 @@
 ---
 title: "Helper"
-color: "#AEAEAE"
+color: "#aa7942"
 text_color: "#FFF"
 ---

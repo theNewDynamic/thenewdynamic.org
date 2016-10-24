@@ -5,4 +5,4 @@ include: tools
 data: tool
 regenerate: true
 ---
-Here you'll find a list of tools.
+Each tool lists the number of articles about it on the upper-right hand.

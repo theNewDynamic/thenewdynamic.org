@@ -1,6 +1,6 @@
 ---
 title: "Content Management"
 published: true
-color: "#CECECE"
+color: "#ABA194"
 redirect_from: "/tools/editing/"
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Themes"
 published: true
-color: "#000000"
+color: "#6D676E"
 text_color: "#ffffff"
 ---
