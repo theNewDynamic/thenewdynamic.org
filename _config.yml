@@ -156,19 +156,13 @@ defaults:
 github_user: budparr
 github_repo: thenewdynamic
 
+
 staticman:
-  branch: 'redesign-160714'
-  allowedFields: ['tool_type', 'title', 'source', 'link', 'tool', 'content', 'email']
-  filename: entry{@timestamp}
-  format: 'json'
-  moderation: false
-  path: _data/posts/{options.post-slug}
-  #requiredFields: ['name', 'comment']
-  redirect: /thank-you/
-  generatedFields:
-    the_date:
-      type: date
-      options:
-        format: timestamp
-  transforms:
-    email: 'md5'
+ allowedFields: ['tool_type', 'title', 'source', 'link', 'tool', 'content', 'email']
+ branch: redesign-160714
+ commitMessage: "Hey Bud, here is a new entry."
+ filename: "entry{@timestamp}"
+ format: json
+ moderation: true
+ path: "_data/links"
+ requiredFields: ['name', 'title', 'description', 'rating']
