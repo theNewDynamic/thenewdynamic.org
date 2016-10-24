@@ -55,7 +55,7 @@ schema: https://schema.org/WebPage
       {% if related_articles.size > 0 %}
           {% for object in related_articles %}
               <h3>
-                <a href="{{ object.url }}" class="text-decoration-none hover-primary-color-light">
+                <a href="{{ object.url }}" class="text-decoration-none hover-primary-color-dark">
                   {{ object.title }}
                 </a>
               </h3>
