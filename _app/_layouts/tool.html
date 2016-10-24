@@ -15,7 +15,7 @@ schema: https://schema.org/WebPage
 {% assign related_links = site.links | where_exp: 'item', 'item.tool contains slug' %}
 {% assign related_tools = site.tools | where_exp: 'item', 'item.tag contains slug' %}
 {% assign tool_type = page.tool_type %}
-{% assign showcase = site.showcase | where_exp: 'item', 'item.tool contains slug' %}
+{% assign showcase = site.showcase | where_exp: 'item', 'item.tools contains slug' %}
 {% assign related_articles = site.posts | where_exp: 'item', 'item.tool contains slug' %}
 
 
