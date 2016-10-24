@@ -1,3 +1,5 @@
-<a href="{{ object.url }}" class="{{ site.btn_classes }}{% if page.url contains object.url %} accent-color{% endif %}" style="background-color:{{ object.color }};color:{{ object.text_color }}">
+<a href="{{ object.url }}" class="{{ site.btn_classes }}" style="background-color:{{ object.color }};{% if page.url contains object.url %}color:#ccc;{% endif %}">
   {{ object.title }}
 </a>
+
+<!-- color:{{ object.text_color }} -->
