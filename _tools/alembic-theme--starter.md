@@ -4,14 +4,27 @@ date: 2016-10-24 00:00:00
 tool_type:
   - theme
 urls:
-  website: 
+  website:
   github:
   twitter:
 resources:
-  - name: ''
-    url: ''
+  - name:
+    url:
 description: A Jekyll boilerplate theme designed to be a starting point for any Jekyll website.
 ---
 
 
 Alembic is a starting point for Jekyll projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately. Install it, configure it, tweak it, push it.
+
+Features include:
+
+* Extensive set of shortcodes to include various elements; such as buttons, icons, figure images and more
+* Solid typographic framework from Sassline
+* Configurable navigation via a single file
+* Modular Jekyll components
+* Easily interchangeable sidebar
+* Contact form built in using Formspree
+* Works on GitHub Pages out of the box
+* Designed with Siteleaf in mind
+
+&nbsp;
