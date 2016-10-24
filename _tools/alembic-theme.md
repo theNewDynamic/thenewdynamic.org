@@ -5,7 +5,7 @@ tool_type:
   - theme
 urls:
   website:
-  github:
+  github: https://github.com/daviddarnes/alembic
   twitter:
 resources:
   - name: "How to Create and Publish a Jekyll Theme Gem at Tuts+ by the theme's author"

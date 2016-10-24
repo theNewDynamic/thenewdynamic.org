@@ -72,26 +72,24 @@ schema: https://schema.org/WebPage
       </h3>
       <div class="{{ box_inner_classes }}">
 
-       <div class="px2">
+        <div class="px2">
           {% if links.website %}
-        <a href="{{ links.website }}" class="btn btn-outline text-decoration-none hover-primary-color-light hover-bg-accent-color mx2">
-          website
-        </a>
-      {% endif %}
-      {% if links.github %}
-        <a href="{{ links.github }}" class="btn btn-outline text-decoration-none hover-primary-color-light hover-bg-accent-color mx2">
-          Github
-        </a>
-      {% endif %}
-      {% if links.twitter %}
-        <a href="{{ links.twitter }}" class="btn btn-outline text-decoration-none hover-primary-color-light hover-bg-accent-color mx2">
-          Twitter
-        </a>
-      {% endif %}
-       </div>
-
-
-
+            <a href="{{ links.website }}" class="btn btn-outline text-decoration-none hover-primary-color-light hover-bg-accent-color mx2">
+              website
+            </a>
+          {% endif %}
+          {% if links.github %}
+            <a href="{{ links.github }}" class="btn btn-outline text-decoration-none hover-primary-color-light hover-bg-accent-color mx2">
+              Github
+            </a>
+          {% endif %}
+          {% if links.twitter %}
+            <a href="{{ links.twitter }}" class="btn btn-outline text-decoration-none hover-primary-color-light hover-bg-accent-color mx2">
+              Twitter
+            </a>
+          {% endif %}
+         </div>
+         
         {% for object in resources  %}
           <a href="{{ object.url }}" class="{{ box_link_classes }}">
             {{ object.name }}
