@@ -3,7 +3,7 @@ title: "Netflix Devices"
 date: 2015-10-25T20:42:00.000Z
 website: https://devices.netflix.com/en/
 repo:
-tool:
+tools:
   - jekyll
   - cloudcannon
 creator:

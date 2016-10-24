@@ -3,7 +3,7 @@ title: "UN World Statistics"
 date: 2015-06-27T13:22:00.000Z
 website: https://worldstatisticsday.org/
 repo:
-tool:
+tools:
   - jekyll
 creator:
   - name: United Nations

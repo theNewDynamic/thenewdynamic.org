@@ -3,7 +3,7 @@ title: "Sequoia Capital"
 date: 2015-12-15T02:43:00.000Z
 website: https://www.sequoiacap.com
 repo:
-tool:
+tools:
   - middleman
   - netlify
   - contentful

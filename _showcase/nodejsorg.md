@@ -3,7 +3,7 @@ title: "Nodejs.org"
 date: 2015-09-28T16:47:00.000Z
 website: https://nodejs.org/en/
 repo:
-tool:
+tools:
   - metalsmith
 creator:
   - name: Node.js Foundation

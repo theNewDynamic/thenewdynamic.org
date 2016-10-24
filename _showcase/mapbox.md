@@ -3,7 +3,7 @@ title: "MapBox"
 date: 2015-10-05T21:12:00.000Z
 website: https://www.mapbox.com/
 repo:
-tool:
+tools:
   - jekyll
   - proseio
 creator:

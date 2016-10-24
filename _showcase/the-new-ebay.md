@@ -1,7 +1,7 @@
 ---
 title: "Ebay apps site"
 date: 2016-04-12T00:00:00.000Z
-tool:
+tools:
  - middleman
  - contentful
 website: http://anywhere.ebay.com/mobile/

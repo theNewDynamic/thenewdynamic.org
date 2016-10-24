@@ -6,7 +6,7 @@ type: showcase
 slug: esolia
 website: http://esolia.com/
 image_path: /uploads/1436586928778_thenewdynamic-showcase-esolia-com-150710.jpg
-tool:
+tools:
   - hugo
 creator:
   - name: eSolia Inc.

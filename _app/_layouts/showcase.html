@@ -40,7 +40,7 @@ paginate:
       {% assign url = object.url %}
       {% assign image = object.image_path | prepend: site.image_url | remove: 'uploads/' %}
       {% assign tool = object.tool_type[0] %}
-      {% assign tools = object.tool %}
+      {% assign tools = object.tools %}
       {% assign related_tool_type = site.tool_type | where: 'slug', tool %}
       {% include components/showcase-item.html showcase_item_links=showcase_item_links %}
     {% endfor %}

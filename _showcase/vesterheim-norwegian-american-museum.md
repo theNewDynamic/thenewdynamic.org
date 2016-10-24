@@ -3,7 +3,7 @@ title: "Vesterheim Norwegian-American Museum"
 date: 2015-07-10T13:38:00.000Z
 website: http://vesterheim.org/
 repo:
-tool:
+tools:
   - jekyll
 creator:
   - role: "Developer"

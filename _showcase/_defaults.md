@@ -1,7 +1,7 @@
 ---
 title:
 date:
-tool:
+tools:
 website:
 repo:
 creator:

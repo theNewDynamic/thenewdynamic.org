@@ -3,7 +3,7 @@ title: "Development Seed"
 date: 2015-10-05T21:11:00.000Z
 website: https://www.developmentseed.org
 repo:
-tool:
+tools:
   - jekyll
   - proseio
 creator:
