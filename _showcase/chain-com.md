@@ -7,10 +7,10 @@ tools:
 website: 'https://chain.com/'
 repo:
 creator:
-  - name:
+  - name: Jules Forest
     role: Design/Development
-    url:
-    twitter_username:
+    url: 'http://github.com/julesforrest'
+    twitter_username: julesforrest
 image_path: /uploads/showcase-jekyll-chain.png
 ---
 
