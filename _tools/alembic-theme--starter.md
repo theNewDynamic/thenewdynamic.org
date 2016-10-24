@@ -5,7 +5,7 @@ tool_type:
   - theme
 urls:
   website:
-  github:
+  github: https://github.com/daviddarnes/alembic
   twitter:
 resources:
   - name:
@@ -26,5 +26,3 @@ Features include:
 * Contact form built in using Formspree
 * Works on GitHub Pages out of the box
 * Designed with Siteleaf in mind
-
-&nbsp;
