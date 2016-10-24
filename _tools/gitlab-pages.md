@@ -1,5 +1,6 @@
 ---
 title: "Gitlab Pages"
+date: 2016-08-07T21:18:00.000Z
 featured: false
 tool_type:
   - hosting-deployment
