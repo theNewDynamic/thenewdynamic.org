@@ -8,8 +8,8 @@ urls:
   github: https://github.com/daviddarnes/alembic
   twitter:
 resources:
-  - name:
-    url:
+  - name: ''
+    url: ''
 description: A Jekyll boilerplate theme designed to be a starting point for any Jekyll website.
 ---
 
