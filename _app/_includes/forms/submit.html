@@ -1,12 +1,12 @@
 {% assign tools = site.tools | sort: 'title'  %}
-<form method="POST" action="https://api.staticman.net/v1/entry/{{ site.github_user }}/{{ site.github_repo }}/{{ site.staticmanapp.branch }}">
-  <input name="options[redirect]" tabindex="1"  type="hidden" value="/thank-you/">
+<form method="POST" action="https://api.staticman.net/v1/entry/{{ site.github_user }}/{{ site.github_repo }}/{{ site.staticman.branch }}">
+  <input name="options[redirect]" tabindex="1"  type="hidden" value="{{ site.url }}/thank-you/">
   <!-- e.g. "2016-01-02-this-is-a-post" -->
   <input name="options[slug]" type="hidden" value="{{ site.time | date: '%Y-%M-%D' }}-link">
 
 
   {% for object in site.type  %}
-    <input aria-label="Type of LInk" class="inline-block h4 my3 mr1" type="radio" name="type" tabindex="1" value="{{ object }}"{% if forloop.first %} checked{% endif %}/><span class="h5 mr2">{{ object }}</span>
+    <input aria-label="Type of LInk" class="inline-block h4 my3 mr1" type="radio" name="fields[tool_type]" tabindex="1" value="{{ object }}"{% if forloop.first %} checked{% endif %}/><span class="h5 mr2">{{ object }}</span>
   {% endfor %}
 
   <input required id="title" aria-label="title" class="input transition" name="fields[title]" placeholder="Title of the Article" tabindex="2" type="text">
