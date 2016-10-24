@@ -4,7 +4,7 @@ section: page-listing
 schema: https://schema.org/WebPage
 ---
 {% assign box_classes = 'col-12 sm-col-6 md-col-6 lg-col-4 rounded pr2 mb2 black text-decoration-none'  %}
-{% assign box_inner_classes = 'pb1 pt1 rounded relative transition hover-text-on-primary-color bg-primary-color-light hover-bg-accent-color'  %}
+{% assign box_inner_classes = 'pb1 pt1 rounded relative transition bg-primary-color-light'  %}
 {% assign box_link_classes = 'text-decoration-none block px2 py1 hover-primary-color-dark hover-bg-primary-color-light'  %}
 {% assign showcase_item_links = 'col-12 sm-col-6 md-col-6 lg-col-6 sm-pr3 mb4 black text-decoration-none'  %}
 {% assign link_classes = 'dont-display-child-until-hover my1 px2 py1 bg-near-white hover-bg-silver col-12 transition' %}
@@ -50,21 +50,7 @@ schema: https://schema.org/WebPage
   <div class="{{ box_classes }} pr2 ">
     <div class="{{ box_inner_classes }} px2 pb2">
       {{ page.content | markdownify }}
-      {% if links.website %}
-        <a href="{{ links.website }}" class="btn btn-outline text-decoration-none hover-primary-color-light hover-bg-accent-color pr2">
-          website
-        </a>
-      {% endif %}
-      {% if links.github %}
-        <a href="{{ links.github }}" class="btn btn-outline text-decoration-none hover-primary-color-light hover-bg-accent-color pr2">
-          Github
-        </a>
-      {% endif %}
-      {% if links.twitter %}
-        <a href="{{ links.twitter }}" class="btn btn-outline text-decoration-none hover-primary-color-light hover-bg-accent-color pr2">
-          Twitter
-        </a>
-      {% endif %}
+      
 
       {% if related_articles.size > 0 %}
           {% for object in related_articles %}
@@ -79,12 +65,33 @@ schema: https://schema.org/WebPage
     </div>
   </div>
 
-  {% if resources.size > 0 and resources[0].name !=""  %}
+  {% if resources.size > 0 or links.website or links.github or links.twitter  %}
     <div class="{{ box_classes }} pr2 ">
-      <h3 class="m0 center bg-primary-color-dark primary-color-light col-12 py1">
+      <h3 class="m0 center bg-accent-color primary-color-light col-12 py1">
         Resources
       </h3>
       <div class="{{ box_inner_classes }}">
+
+       <div class="px2">
+          {% if links.website %}
+        <a href="{{ links.website }}" class="btn btn-outline text-decoration-none hover-primary-color-light hover-bg-accent-color mx2">
+          website
+        </a>
+      {% endif %}
+      {% if links.github %}
+        <a href="{{ links.github }}" class="btn btn-outline text-decoration-none hover-primary-color-light hover-bg-accent-color mx2">
+          Github
+        </a>
+      {% endif %}
+      {% if links.twitter %}
+        <a href="{{ links.twitter }}" class="btn btn-outline text-decoration-none hover-primary-color-light hover-bg-accent-color mx2">
+          Twitter
+        </a>
+      {% endif %}
+       </div>
+
+
+
         {% for object in resources  %}
           <a href="{{ object.url }}" class="{{ box_link_classes }}">
             {{ object.name }}
@@ -96,7 +103,7 @@ schema: https://schema.org/WebPage
 
   {% if related_tools.size > 0 %}
     <div class="{{ box_classes }} pr2 ">
-      <h3 class="m0 center bg-primary-color-dark primary-color-light col-12 py1">
+      <h3 class="m0 center bg-accent-color primary-color-light col-12 py1">
         Related Tools
       </h3>
       <div class="{{ box_inner_classes }}">
