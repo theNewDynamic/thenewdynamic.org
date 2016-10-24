@@ -1,8 +1,0 @@
-<h6>
-  <a href='{% if object.collection == 'links' %}{{ object.link }}{% else %}{{ object.url }}{% endif %}'>
-    {{ object.title }}
-    {% if object.collection == 'links' %}
-      {% include snippets/icon-external-link.html %}
-    {% endif %}
-  </a>
-</h6>
