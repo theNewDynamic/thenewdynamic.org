@@ -1,7 +1,9 @@
 ---
 title: chain.com
-date: 2016-10-26 00:00:00
+date: 2016-10-24 00:00:00
 tools:
+  - jekyll
+  - siteleaf
 website: 'https://chain.com/'
 repo:
 creator:
