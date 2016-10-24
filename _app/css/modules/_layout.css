@@ -1,0 +1,31 @@
+
+:root {
+
+
+  --space-1: .5rem;
+  --space-2: 1rem;
+  --space-3: 2rem;
+  --space-4: 4rem;
+  --sidebar-width: 18rem;
+}
+
+
+
+
+/*.element {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}*/
+
+.overflow-y {
+overflow-y: auto;
+}
+@media (--breakpoint-md) {
+  .height-100 {
+    min-height:100vh;
+  }
+  .sidebar-width {
+    flex: 0 0 15.625rem;
+  }
+}

@@ -1,0 +1,148 @@
+---
+layout: default
+section: page-listing
+schema: https://schema.org/WebPage
+---
+{% assign box_classes = 'col-12 sm-col-6 md-col-6 lg-col-4 rounded pr2 mb2 black text-decoration-none'  %}
+{% assign box_inner_classes = 'pb1 pt1 relative hover-bg-primary-color-dark hover-text-on-primary-color bg-primary-color-light'  %}
+{% assign box_link_classes = 'text-decoration-none block px2 py1 hover-primary-color-dark hover-bg-primary-color-light'  %}
+{% assign showcase_item_links = 'col-12 sm-col-6 md-col-6 lg-col-6 sm-pr3 mb4 black text-decoration-none'  %}
+{% assign link_classes = 'dont-display-child-until-hover my1 px2 py1 bg-near-white hover-bg-silver col-12 transition' %}
+
+{% assign resources = page.resources  %}
+{% assign links = page.links  %}
+{% assign slug = page.slug  %}
+{% assign related_links = site.links | where_exp: 'item', 'item.tool contains slug' %}
+{% assign related_tools = site.tools | where_exp: 'item', 'item.tag contains slug' %}
+{% assign tool_type = page.tool_type %}
+{% assign showcase = site.showcase | where_exp: 'item', 'item.tool contains slug' %}
+{% assign related_articles = site.posts | where_exp: 'item', 'item.tool contains slug' %}
+
+
+
+{% if page.url == '/tools/' %}
+  {% assign tools = (site.tools | sort: 'title', 'last' ) %}
+{% else %}
+  {% assign tools = site.tools | where_exp: 'item','item.tool_type contains page.slug' | sort: 'title', 'last' %}
+  {% assign title = page.title  %}
+{% endif %}
+
+<div class="clearfix col-12 mb3">
+  {% for tool in tool_type %}
+    {% assign tool_types = site.tool_type | where: 'slug', tool %}
+    {% for object in tool_types  %}
+      {% include components/buttons-tools-list.html %}
+    {% endfor %}
+  {% endfor %}
+</div>
+
+<h1 class="m0 md-h00">
+  {{ page.title }}
+</h1>
+{% if page.description %}
+  <h2 class="mt0 mb2">
+    {{ page.description }}
+  </h2>
+{% endif %}
+
+<div class="flex flex-wrap">
+
+  <div class="{{ box_classes }} pr2 ">
+    <div class="{{ box_inner_classes }} px2 pb2">
+      {{ page.content | markdownify }}
+      {% if links.website %}
+        <a href="{{ links.website }}" class="btn btn-outline text-decoration-none hover-primary-color-light hover-bg-accent-color pr2">
+          website
+        </a>
+      {% endif %}
+      {% if links.github %}
+        <a href="{{ links.github }}" class="btn btn-outline text-decoration-none hover-primary-color-light hover-bg-accent-color pr2">
+          Github
+        </a>
+      {% endif %}
+      {% if links.twitter %}
+        <a href="{{ links.twitter }}" class="btn btn-outline text-decoration-none hover-primary-color-light hover-bg-accent-color pr2">
+          Twitter
+        </a>
+      {% endif %}
+
+      {% if related_articles.size > 0 %}
+          {% for object in related_articles %}
+              <h3>
+                <a href="{{ object.url }}" class="text-decoration-none hover-primary-color-light">
+                  {{ object.title }}
+                </a>
+              </h3>
+          {% endfor %}
+      {% endif %}
+
+    </div>
+  </div>
+
+  {% if resources.size > 0 %}
+    <div class="{{ box_classes }} pr2 ">
+      <h3 class="m0 center bg-primary-color-dark primary-color-light col-12 py1">
+        Resources
+      </h3>
+      <div class="{{ box_inner_classes }}">
+        {% for object in resources  %}
+          <a href="{{ object.link }}" class="{{ box_link_classes }}">
+            {{ object.name }}
+          </a>
+        {% endfor %}
+      </div>
+    </div>
+  {% endif %}
+
+  {% if related_tools.size > 0 %}
+    <div class="{{ box_classes }} pr2 ">
+      <h3 class="m0 center bg-primary-color-dark primary-color-light col-12 py1">
+        Related Tools
+      </h3>
+      <div class="{{ box_inner_classes }}">
+        {% for object in related_tools  %}
+          <a href="{{ object.url }}" class="{{ box_link_classes }}">
+            {{ object.title }}
+          </a>
+        {% endfor %}
+      </div>
+    </div>
+  {% endif %}
+
+</div>
+
+
+{% if showcase.size > 0 %}
+
+    <h2 id="showcase">
+      Showcase Sites
+    </h2>
+<div class="flex flex-wrap">
+      {% for object in showcase  %}
+      {% assign title = object.title %}
+      {% assign url = object.url %}
+      {% assign image = object.image_path | prepend: site.image_url | remove: 'uploads/' %}
+      {% assign tool = object.tool_type[0] %}
+      {% assign tools = object.tool %}
+      {% assign related_tool_type = site.tool_type | where: 'slug', tool %}
+        {% include components/showcase-item.html showcase_item_links=showcase_item_links %}
+      {% endfor %}
+
+  </div>
+{% endif %}
+
+
+
+{% if related_links.size > 0 %}
+  {% assign related_links = related_links | sort: 'date', 'last' | reverse %}
+  <h2 id="links">
+    Related Links
+  </h2>
+  <div class="flex flex-wrap">
+    {% for object in related_links %}
+      <ul class="list-reset md-col-4 pr2 mb0">
+        {% include components/links.html link_classes=link_classes %}
+      </ul>
+    {% endfor %}
+  </div>
+{% endif %}

@@ -1,0 +1,18 @@
+<a href="{{ object.url }}" class="p3 bg-near-white hover-bg-silver transition hover-box-shadow block text-decoration-none default-text-color relative">
+  {% if object.video  %}
+    <img src="/assets/images/ic_videocam_black_24px.svg" class="absolute top-0 right-0 muted m1">
+  {% endif %}
+
+  <div class="h2 text-decoration-none">
+    {{ object.title }}
+  </div>
+  ({{ object.category }})
+  <br />
+  {% if object.description %}
+    <span class="h4">
+      {{ object.description | strip_html }}
+    </span>
+  {% else %}
+    {{ object.excerpt | strip_html }}
+  {% endif %}
+</a>

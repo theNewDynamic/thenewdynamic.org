@@ -1,0 +1,28 @@
+/*using these for the overlay on showcase images*/
+.hide-child-until-hover > .hidden-child {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s linear;}
+.hide-child-until-hover:hover > .hidden-child {
+  visibility: visible;
+  transition: visibility 0s, opacity 0.5s linear;
+  opacity: .9;
+}
+
+/* using these to hide the link description */
+.dont-display-child-until-hover > .hidden-child {
+
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s linear;
+  height: 0px;
+}
+.dont-display-child-until-hover:hover {
+    box-shadow: 0 13px 20px rgba(0,0,0,.3);
+}
+.dont-display-child-until-hover:hover > .hidden-child {
+  visibility: visible;
+  transition: visibility 0s, opacity 0.5s linear;
+  opacity: .9;
+  height: auto;
+}

@@ -1,0 +1,17 @@
+<div class="p2 relative hover-bg-black hover-text-on-primary-color bg-primary-color-light" style="border-top:4px solid {{ related_tool_type[0].color }};">
+  {% if links.size > 0 %}
+    <div class="h5 absolute top-0 right-0 mt1 mr1">
+      {{ links.size }}
+    </div>
+  {% endif %}
+  <div class="h3 bold">
+    {{ object.title }}
+  </div>
+  <div class="h6">
+    {% if object.description %}
+      {{ object.description | markdownify | remove: '<p>' | remove: '</p>' | truncate: 150 }}
+    {% else %}
+      {{ object.content | markdownify | strip_html | truncate: 150 }}
+    {% endif %}
+  </div>
+</div>

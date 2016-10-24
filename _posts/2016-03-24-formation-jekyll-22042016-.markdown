@@ -1,0 +1,19 @@
+---
+title: "Formation Jekyll 22/04/2016 | Central"
+date: 2016-03-24 18:58
+published: false
+start_at: 2016-04-22T:00:00.000Z
+venue: "Central's office, Brussels"
+link: http://central.team/workshops/jekyll/
+type: event
+category: event
+description: 'Apprenez à créer et organiser des sites statiques avec Jekyll'
+tool:
+  - jekyll
+---
+Jekyll est sans conteste le plus populaire des static site generators. Jekyll permet de générer facilement des sites statiques en HTML / CSS / JS à partir de fichiers de données et d’un language de templating simple. Pas besoin d’une base de données ou d’un CMS.
+Jekyll possède de nombreux avantages par rapport à un CMS classique (rapidité de déploiement, coût de hosting, sécurité, performance, etc.). Ses utilisations sont également diverses: outil de prototypage, générateur de documentation, outil de production, etc. Nous vous proposons de découvrir Jekyll en une journée.
+
+Pour qui?
+
+Ce workshop est pour le designer ou le développeur qui souhaite facilement construire un prototype, un style guide, un site de documentation, un blog ou un site simple. Jekyll étant facile à prendre en main il s'adresse également à toutes personnes ayant des bases en HTML/CSS et souhaitant réaliser ce type de sites.

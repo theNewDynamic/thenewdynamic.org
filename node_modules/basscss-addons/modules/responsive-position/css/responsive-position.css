@@ -1,0 +1,35 @@
+/* Basscss Responsive Position */
+
+@media (min-width: 40em) {
+  .sm-relative { position: relative }
+  .sm-absolute { position: absolute }
+  .sm-fixed    { position: fixed }
+
+  .sm-top-0    { top: 0 }
+  .sm-right-0  { right: 0 }
+  .sm-bottom-0 { bottom: 0 }
+  .sm-left-0   { left: 0 }
+}
+
+@media (min-width: 52em) {
+  .md-relative { position: relative }
+  .md-absolute { position: absolute }
+  .md-fixed    { position: fixed }
+
+  .md-top-0    { top: 0 }
+  .md-right-0  { right: 0 }
+  .md-bottom-0 { bottom: 0 }
+  .md-left-0   { left: 0 }
+}
+
+@media (min-width: 64em) {
+  .lg-relative { position: relative }
+  .lg-absolute { position: absolute }
+  .lg-fixed    { position: fixed }
+
+  .lg-top-0    { top: 0 }
+  .lg-right-0  { right: 0 }
+  .lg-bottom-0 { bottom: 0 }
+  .lg-left-0   { left: 0 }
+}
+

@@ -1,0 +1,39 @@
+{% assign tools = site.tools | sort: 'title'  %}
+<form method="POST" action="https://api.staticman.net/v1/entry/{{ site.github_user }}/{{ site.github_repo }}/{{ site.staticman.branch }}">
+  <input name="options[redirect]" tabindex="1"  type="hidden" value="{{ site.url }}/thank-you/">
+  <!-- e.g. "2016-01-02-this-is-a-post" -->
+  <input name="options[slug]" type="hidden" value="{{ site.time | date: '%Y-%M-%D' }}-link">
+
+
+  {% for object in site.type  %}
+    <input aria-label="Type of LInk" class="inline-block h4 my3 mr1" type="radio" name="fields[tool_type]" tabindex="1" value="{{ object }}"{% if forloop.first %} checked{% endif %}/><span class="h5 mr2">{{ object }}</span>
+  {% endfor %}
+
+  <input required id="title" aria-label="title" class="input transition" name="fields[title]" placeholder="Title of the Article" tabindex="2" type="text">
+
+  <input required id="name" aria-label="name" class="input transition" name="fields[source]" placeholder="Name of the person who wrote the article" tabindex="3" type="text">
+  <span class="feedback" aria-live="polite"></span>
+
+
+  <input required pattern="https?://.+" class="input link" aria-label="link" name="fields[link]" placeholder="Link to the article e.g. http://example.com" tabindex="4"  type="text">
+  <span class="feedback" aria-live="polite"></span>
+
+  <select class="select" multiple class="select-multiple" aria-label="select the tool" name="fields[tool]" tabindex="5" style="height:auto !important;">
+    <option class="muted" selected> -- Related Tool -- </option>
+    {% for tool in tools  %}
+      <option class="block h4 mr2" value="{{ tool.slug }}">{{ tool.title }}</option>
+    {% endfor %}
+  </select>
+
+  <textarea class="textarea" aria-label="summary" placeholder="Summary of the article" tabindex="6" name="fields[content]"></textarea>
+
+
+  <input required id="email" aria-label="email" class="input transition mt4 mb2" name="fields[email]" placeholder="Your email address" tabindex="7"  type="email">
+  <span class="feedback" aria-live="polite"></span>
+
+  <button class="btn btn-primary" tabindex="8"  type="submit">Send it along</button>
+
+</form>
+<!-- formnovalidate -->
+
+{% include forms/validation.html %}

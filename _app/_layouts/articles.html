@@ -1,0 +1,45 @@
+---
+title: Articles
+layout: default
+section: links
+schema: https://schema.org/WebPage
+---
+{% assign articles = site.posts  | sort: 'date', 'last' | reverse %}
+
+{% assign box_classes = 'list-reset col-12 md-col-8 md-pr2 mr-auto'  %}
+{% assign list_classes = 'list-reset col-12'  %}
+{% assign list_heading_classes = 'bold h2 pl2'  %}
+
+<h1>
+  {{ layout.title }}
+</h1>
+{{ content }}
+
+
+{% comment %}
+{% assign tags = post.tags %}
+<!--
+<div class="clearfix col-12 mb3">
+  {% for tag in tags %}
+    <a href="{{ object.url }}" class="{{ site.btn_classes }}{% if page.url contains object.url %} accent-color{% endif %}" style="background-color:{{ object.color }};color:{{ object.text_color }}">
+      {{ tag }}
+    </a>
+  {% endfor %}
+  <a href="/tools/" class="{{ site.btn_classes }}{% if page.url == '/tools/' %} accent-color{% endif %}">
+    All
+  </a>
+</div> -->
+{% endcomment %}
+
+
+<div class="flex flex-wrap">
+
+  {% for object in articles limit:50 %}
+    {% unless object.category contains 'event' %}
+      <div class="col-12 md-col-6 pr2 mb2">
+        {% include components/article-list-item.html %}
+      </div>
+    {% endunless %}
+  {% endfor %}
+
+</div>

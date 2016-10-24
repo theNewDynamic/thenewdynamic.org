@@ -1,0 +1,1849 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<style type="text/css">
+@font-face{
+font-family:"Avenir Next W00_n4";
+src:url("/assets/fonts/069faa0e-9913-48c4-9ef7-89a4bc080b65.eot?#iefix") format("eot")
+}
+@font-face{
+font-family:"Avenir Next W00";
+src:url("/assets/fonts/069faa0e-9913-48c4-9ef7-89a4bc080b65.eot?#iefix");
+src:url("/assets/fonts/069faa0e-9913-48c4-9ef7-89a4bc080b65.eot?#iefix") format("eot"),url("/assets/fonts/7db1f672-3a8f-4d19-9c49-7f61aed450b5.woff2") format("woff2"),url("/assets/fonts/4ab86b35-c0c2-42b5-98ad-4b6eba66b197.woff") format("woff"),url("/assets/fonts/276b3566-1c3b-4bc1-8915-15314f091f29.ttf") format("truetype"),url("/assets/fonts/5d02f5f4-46e7-453a-aef9-3e7106d7bb68.svg#5d02f5f4-46e7-453a-aef9-3e7106d7bb68") format("svg");
+font-weight: 400;
+font-style: normal;
+}
+@font-face{
+font-family:"Avenir Next W00_i4";
+src:url("/assets/fonts/78f55966-cc8e-4f4c-bf8b-8fe59be9fe96.eot?#iefix") format("eot")
+}
+@font-face{
+font-family:"Avenir Next W00";
+src:url("/assets/fonts/78f55966-cc8e-4f4c-bf8b-8fe59be9fe96.eot?#iefix");
+src:url("/assets/fonts/78f55966-cc8e-4f4c-bf8b-8fe59be9fe96.eot?#iefix") format("eot"),url("/assets/fonts/b17468ea-cf53-4635-984b-4d930a68ed4d.woff2") format("woff2"),url("/assets/fonts/4d1d0d0d-9ea6-4117-901f-8b32ca1ab936.woff") format("woff"),url("/assets/fonts/66b50093-e606-427c-a42a-a44b2f9ff219.ttf") format("truetype"),url("/assets/fonts/78695677-7ebb-4ef8-8996-eff09dc64f26.svg#78695677-7ebb-4ef8-8996-eff09dc64f26") format("svg");
+font-weight: 400;
+font-style: italic;
+}
+@font-face{
+font-family:"Avenir Next W00_n7";
+src:url("/assets/fonts/fb4117a5-14ee-4035-8692-935bfff7fc2e.eot?#iefix") format("eot")
+}
+@font-face{
+font-family:"Avenir Next W00";
+src:url("/assets/fonts/fb4117a5-14ee-4035-8692-935bfff7fc2e.eot?#iefix");
+src:url("/assets/fonts/fb4117a5-14ee-4035-8692-935bfff7fc2e.eot?#iefix") format("eot"),url("/assets/fonts/4c04fb14-abdb-4f93-82bb-734d1b84307b.woff2") format("woff2"),url("/assets/fonts/04d2f223-2786-40c9-8481-be9dd47d8e7f.woff") format("woff"),url("/assets/fonts/bce3274e-f498-48ae-b269-a6930df496e7.ttf") format("truetype"),url("/assets/fonts/68f0375d-f66f-4f88-822a-5a0b61d2efc0.svg#68f0375d-f66f-4f88-822a-5a0b61d2efc0") format("svg");
+font-weight: 700;
+font-style: normal;
+}
+@font-face{
+font-family:"Avenir Next W00_i7";
+src:url("/assets/fonts/8316f326-afe6-49dc-a5d8-cd1d521182c2.eot?#iefix") format("eot")
+}
+@font-face{
+font-family:"Avenir Next W00";
+src:url("/assets/fonts/8316f326-afe6-49dc-a5d8-cd1d521182c2.eot?#iefix");
+src:url("/assets/fonts/8316f326-afe6-49dc-a5d8-cd1d521182c2.eot?#iefix") format("eot"),url("/assets/fonts/395aeb70-3407-45d6-91b3-3d9a114af9bd.woff2") format("woff2"),url("/assets/fonts/5f0686cb-9605-4656-8b38-9b8ca092ca9b.woff") format("woff"),url("/assets/fonts/5fafc2a7-1ec9-4ba2-8d0b-836dfae0023b.ttf") format("truetype"),url("/assets/fonts/f2ab6bd3-14da-4c86-949e-eddf030a8147.svg#f2ab6bd3-14da-4c86-949e-eddf030a8147") format("svg");
+font-weight: 700;
+font-style: italic;
+}
+@font-face{
+font-family:"URW Franklin Gothic W01_n7";
+src:url("/assets/fonts/c40605b0-5302-4f69-9ad6-dd7f8f27f1a0.eot?#iefix") format("eot")
+}
+@font-face{
+font-family:"URW Franklin Gothic W01";
+src:url("/assets/fonts/c40605b0-5302-4f69-9ad6-dd7f8f27f1a0.eot?#iefix");
+src:url("/assets/fonts/c40605b0-5302-4f69-9ad6-dd7f8f27f1a0.eot?#iefix") format("eot"),url("/assets/fonts/011200c5-40ca-4ab0-98e6-d675a122d5e0.woff2") format("woff2"),url("/assets/fonts/447deeb7-22d1-417c-add1-e22d48b874df.woff") format("woff"),url("/assets/fonts/b222db6a-478d-4191-a8cb-5d4020b858a7.ttf") format("truetype"),url("/assets/fonts/0439968a-ef1e-4f09-a523-d77031577e51.svg#0439968a-ef1e-4f09-a523-d77031577e51") format("svg");
+font-weight: 700;
+font-style: normal;
+}
+</style>
+<script type="text/javascript">
+var MTIProjectId='0279604d-1ddd-4c0d-b491-eff8ca0e76df';
+ (function() {
+        var mtiTracking = document.createElement('script');
+        mtiTracking.type='text/javascript';
+        mtiTracking.async='true';
+        mtiTracking.src=('https:'==document.location.protocol?'https:':'http:')+'//fast.fonts.net/t/trackingCode.js';
+        (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild( mtiTracking );
+   })();
+</script>
+
+
+  <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <link rel="prefetch" href="/search-results/" as="html">
+      
+        <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+      
+
+      <meta name="HandheldFriendly" content="True">
+      <meta name="MobileOptimized" content="320">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+      <link href='/assets/css/main.css' rel='stylesheet' type="text/css" />
+
+      <link rel="manifest" href="http://2016-10-23-v1-tnd.surge.sh/manifest.json">
+      <meta name="generator" content="Jekyll">
+
+      <link rel="icon" href="http://2016-10-23-v1-tnd.surge.sh/favicon.ico" type="image/x-icon">
+
+      
+
+</head>
+  <body  id="container" class="development md-flex flex-column height-100 bg-off-white">
+    
+     <!-- include global/header.html %} -->
+      <main id="content" role="main" class="md-flex">
+        
+
+<header class="transition light-gray md-flex flex-column height-100 sidebar-width col-12 pl3 lg-pl2 overflow-y bg-primary-color" role="banner" data-search-index="false">
+
+
+  <a href="/" class="text-decoration-none transition sm-hideTK block white hover-silver bold font-family-brand h1 line-height-1 pt2 lg-pt3">
+    the New Dynamic
+  </a>
+
+  
+    <p class="h5 accent-color m0 bold pt1 pb2">
+      build faster better websites
+    </p>
+  
+
+
+
+  <div class="mt0 lg-mb3">
+    
+      <a class=" pr2 text-decoration-none h6 white inline-block" href="/about/" title="about">
+        about
+      </a>
+    
+      <a class=" pr2 text-decoration-none h6 white inline-block" href="/submit/" title="submit">
+        submit
+      </a>
+    
+      <a class=" pr2 text-decoration-none h6 white inline-block" href="/privacy/" title="privacy">
+        privacy
+      </a>
+    
+  </div>
+
+  <nav class="mb2">
+    
+      <a class=" text-decoration-none font-family-brand h3 pr3 py1 sm-py1 white inline-block lg-block right-align transition hover-accent-color hover-bg-brand-darken" href="/articles/" title="articles">
+        articles
+      </a>
+    
+      <a class=" text-decoration-none font-family-brand h3 pr3 py1 sm-py1 white inline-block lg-block right-align transition hover-accent-color hover-bg-brand-darken" href="/links/" title="links">
+        links
+      </a>
+    
+      <a class=" text-decoration-none font-family-brand h3 pr3 py1 sm-py1 white inline-block lg-block right-align transition hover-accent-color hover-bg-brand-darken" href="/tools/" title="tools">
+        tools
+      </a>
+    
+      <a class=" text-decoration-none font-family-brand h3 pr3 py1 sm-py1 white inline-block lg-block right-align transition hover-accent-color hover-bg-brand-darken" href="/showcase/" title="showcase">
+        showcase
+      </a>
+    
+      <a class=" text-decoration-none font-family-brand h3 pr3 py1 sm-py1 white inline-block lg-block right-align transition hover-accent-color hover-bg-brand-darken" href="/events/" title="Meetups">
+        Meetups
+      </a>
+    
+  </nav>
+
+
+  <div class="sm-hide">
+    <div class="mt3 hide">
+      
+        
+          <a href="/tools/content-management/" class="col-12 block right-align text-decoration-none white bold px2 py1 btnt fbtn-primary hover-white hover-bg-black background-color:#ABA194;">
+            Content Management
+          </a>
+        
+          <a href="/tools/helper/" class="col-12 block right-align text-decoration-none white bold px2 py1 btnt fbtn-primary hover-white hover-bg-black background-color:#aa7942;color:#FFF;">
+            Helper
+          </a>
+        
+          <a href="/tools/hosting-deployment/" class="col-12 block right-align text-decoration-none white bold px2 py1 btnt fbtn-primary hover-white hover-bg-black background-color:#826754;color:#ebebeb;">
+            Hosting-Deployment
+          </a>
+        
+          <a href="/tools/interaction/" class="col-12 block right-align text-decoration-none white bold px2 py1 btnt fbtn-primary hover-white hover-bg-black background-color:#6D545D;color:#d6d6d6;">
+            Interaction
+          </a>
+        
+          <a href="/tools/static-site-generator/" class="col-12 block right-align text-decoration-none white bold px2 py1 btnt fbtn-primary hover-white hover-bg-black background-color:#8c1613;color:#f5d69d;">
+            Static Site Generator
+          </a>
+        
+          <a href="/tools/theme/" class="col-12 block right-align text-decoration-none white bold px2 py1 btnt fbtn-primary hover-white hover-bg-black background-color:#6D676E;color:#ffffff;">
+            Themes
+          </a>
+        
+      
+        <a href="/tools/" class="col-12 right-align btn btn-primary">
+          All
+        </a>
+      
+    </div>
+    <div class="flex-auto"><!-- adds space between the menu and the search bar on the right --> </div>
+    <div class="mx2 my4 xs-hide">
+      <a href="/join-our-mailing-list/" class="btn btn-primary transition">
+        join the mailing list
+      </a>
+    </div>
+  </div>
+</header>
+
+        <div class="col-12">
+          <form role="search" action="/search-results/" method="get" data-search-index="false" class="bg-near-white col-12 m0 fit clearfix">
+  <button type="submit" class="font-family-primary line-height-1 bg-transparent white m0 py1 px2 h5 muted">
+    <img src="/uploads/site/ic_search_black_24px.svg" alt="Search Icon" class="inlne-block secondary-text-color">
+  </button>
+  <input type="search" aria-label="search" autocomplete="off" placeholder="search" name="query" id="search-box"
+  class="col-10 mt1 py1 pr2 pl0 lg-px2 xlg-wide not-rounded rounded-left h4 font-family-primary disabled-text-color hover-white border-muted"/>
+</form>
+
+
+<style media="screen">
+  input.col-10:focus {
+
+    opacity: .5;
+  }
+</style>
+
+          <div class="pt2 pr3 pb3 pl3">
+            <div class="mx-auto bg-white moon-gray col-12 md-col-10 lg-col-7 bordertk rounded border-silver mb4 pb4 clearfix">
+        
+
+
+<ul id="search-results" class="list-reset text-decoration-none">
+  <li>
+    <img src="/uploads/site/balls.svg">
+  </li>
+</ul>
+</div>
+<script>
+  window.store = {
+  
+  
+    
+    "tool-jekyll-themes": {
+      "title": "Jekyll Themes",
+      "url": "/tool/jekyll-themes/",
+      "category": " Tools",
+      "content": "A directory of the best-looking themes for Jekyll blogs"
+    }
+    ,
+  
+    
+    "tool-made-mistakes-jekyll-themes": {
+      "title": "Made Mistakes Jekyll Themes",
+      "url": "/tool/made-mistakes-jekyll-themes/",
+      "category": " Tools",
+      "content": ""
+    }
+    ,
+  
+    
+    "tool-pixyll-jekyll-theme": {
+      "title": "Pixyll Jekyll Theme",
+      "url": "/tool/pixyll-jekyll-theme/",
+      "category": " Tools",
+      "content": "A simple, beautiful Jekyll theme that's mobile first."
+    }
+    ,
+  
+    
+    "tool-typeform": {
+      "title": "Typeform",
+      "url": "/tool/typeform/",
+      "category": " Tools",
+      "content": ""
+    }
+    ,
+  
+    
+    "tool-lanyon": {
+      "title": "Lanyon",
+      "url": "/tool/lanyon/",
+      "category": " Tools",
+      "content": "An unassuming Jekyll theme that places content first by tucking away navigation in a drawer."
+    }
+    ,
+  
+    
+    "tool-hyde": {
+      "title": "Hyde",
+      "url": "/tool/hyde/",
+      "category": " Tools",
+      "content": "A brazen two-column Jekyll theme that pairs a prominent sidebar with uncomplicated content."
+    }
+    ,
+  
+    
+    "tool-jekyll-lambda": {
+      "title": "Jekyll-lambda",
+      "url": "/tool/jekyll-lambda/",
+      "category": " Tools",
+      "content": "An ascetic theme for Jekyll."
+    }
+    ,
+  
+    
+    "tool-dr-jekylls-themes": {
+      "title": "Dr. Jekyll's Themes",
+      "url": "/tool/dr-jekylls-themes/",
+      "category": " Tools",
+      "content": "A free static site generator theme directory"
+    }
+    ,
+  
+    
+    "tool-siteleaf": {
+      "title": "Siteleaf",
+      "url": "/tool/siteleaf/",
+      "category": " Tools",
+      "content": "Siteleaf is a content management system for Jekyll-based websites that offers robust user-management, previews, text editor, and asset management."
+    }
+    ,
+  
+    
+    "tool-meet-hyde": {
+      "title": "Meet Hyde",
+      "url": "/tool/meet-hyde/",
+      "category": " Tools",
+      "content": "Simple Content Management for Jekyll Powered Github Pages"
+    }
+    ,
+  
+    
+    "tool-hexo-admin": {
+      "title": "Hexo Admin",
+      "url": "/tool/hexo-admin/",
+      "category": " Tools",
+      "content": "An admin UI for the Hexo blog engine. Based off of the Ghost interface, with inspiration from svbtle and prose.io."
+    }
+    ,
+  
+    
+    "tool-aerobatic": {
+      "title": "Aerobatic",
+      "url": "/tool/aerobatic/",
+      "category": " Tools",
+      "content": "Static Website Hosting for BitbucketGit push and your web site is live. The easiest way to deploy and manage your static HTML website straight from Bitbucket"
+    }
+    ,
+  
+    
+    "tool-nanoc": {
+      "title": "Nanoc",
+      "url": "/tool/nanoc/",
+      "category": " Tools",
+      "content": "nanoc is a static site generator, fit for building anything from a small personal blog to a large corporate web site."
+    }
+    ,
+  
+    
+    "tool-coil-cms": {
+      "title": "Coil CMS",
+      "url": "/tool/coil-cms/",
+      "category": " Tools",
+      "content": "Making Nikola accessible for non-programmers, casual users, and all other people that don’t feel comfortable using the command line."
+    }
+    ,
+  
+    
+    "tool-kirby": {
+      "title": "Kirby",
+      "url": "/tool/kirby/",
+      "category": " Tools",
+      "content": "Kirby is a file‑based CMS. Easy to setup. Easy to use. Flexible as hell."
+    }
+    ,
+  
+    
+    "tool-grav": {
+      "title": "Grav",
+      "url": "/tool/grav/",
+      "category": " Tools",
+      "content": "Flat-file CMS. (not static)In a nutshell, installing Grav is a matter of unzipping the file. It is fast, has sophisticated caching, and a light footprint for optimal performance. Content is just simple markdown files in folders, with no complicated databases to deal with. Open Source"
+    }
+    ,
+  
+    
+    "tool-netlify-cms": {
+      "title": "Netlify CMS",
+      "url": "/tool/netlify-cms/",
+      "category": " Tools",
+      "content": "A CMS for static site generators. Give non-technical users a simple way to edit and add content to any site built with a static site generator."
+    }
+    ,
+  
+    
+    "tool-federalist": {
+      "title": "Federalist",
+      "url": "/tool/federalist/",
+      "category": " Tools",
+      "content": "Federalist is a unified interface for publishing static government websites. It automates common tasks for integrating GitHub, Prose, and Amazon Web Services to provide a simple way for developers to launch new websites or more easily manage existing ones. [under active development]"
+    }
+    ,
+  
+    
+    "tool-gatsby": {
+      "title": "Gatsby",
+      "url": "/tool/gatsby/",
+      "category": " Tools",
+      "content": "Transform plain text into dynamic blogs and websites using the latest web technologies. A React.js static site generator. [_n.b. in an early stage of development_]---#### From an interview with Gatsby's creator, Kyle Matthews at [Aerobatic.com](https://www.aerobatic.com/blog/gatsbyjs)**Why Gatsby? The Advantage of React Over Templates**The current crop of content management systems (CMS) utilizes templates to organize content. Things like Liquid Jekyll, S/Twig, etc. While these work, there is now a better approach — components. The leading web component framework is, of course, ReactJS. See what the React team says themselves about the advantages of components are over templates:&gt; Traditionally, web application UIs are built using templates or HTML directives. These templates dictate the full set of abstractions that you are allowed to use to build your UI. React [and Gatsby] approaches building user interfaces differently by breaking them into components. This means React uses a real, full featured programming language (JavaScript) to render views, which we see as an advantage over templates for a few reasons:&gt; By unifying your markup with its corresponding view logic, React [and thus Gatsby] can actually make views easier to extend and maintain.**Why GatsbyJS was created**I asked Kyle Mathews why he created GatsbyJS, and why he thinks React components are better:&gt; Four main reasons. React components are perfect if you want a “progressive” website as it’s trivial to layer in javascript-driven experiences on top of the static HTML version.&gt; Second, React components are highly reusable/sharable. There’s a huge number of fantastic React components already available on NPM (see..."
+    }
+    ,
+  
+    
+    "tool-flatmarket": {
+      "title": "Flatmarket",
+      "url": "/tool/flatmarket/",
+      "category": " Tools",
+      "content": "Flatmarket is a free, open source e-commerce platform for static websites. Its simple architecture makes it extremely reliable, secure, and inexpensive to operate. View the source on GitHub.The platform uses Stripe for payment processing and is built on the latest web technologies like hapi, React, and Webpack."
+    }
+    ,
+  
+    
+    "tool-upstatic": {
+      "title": "Upstatic",
+      "url": "/tool/upstatic/",
+      "category": " Tools",
+      "content": "A better way to deploy static websites to Amazon S3Upstatic is a free tool that automatically configures and optimizes Amazon S3 for static website hosting and deploys when you need it to."
+    }
+    ,
+  
+    
+    "tool-nikola": {
+      "title": "Nikola",
+      "url": "/tool/nikola/",
+      "category": " Tools",
+      "content": "Python-based static site generator  that supports reStructuredText, Markdown, IPython (Jupyter) Notebooks and HTML, and have plugins for many other formats."
+    }
+    ,
+  
+    
+    "tool-codeship": {
+      "title": "Codeship",
+      "url": "/tool/codeship/",
+      "category": " Tools",
+      "content": "Continuous Integration and Delivery to Automate your development and deployment workflow"
+    }
+    ,
+  
+    
+    "tool-jekyll-search-with-json": {
+      "title": "Jekyll Search with JSON",
+      "url": "/tool/jekyll-search-with-json/",
+      "category": " Tools",
+      "content": "“With the Liquid templating language, used by Jekyll, I built a JSON encoded feed for posts and pages on the site which I wanted to show up in search results.”"
+    }
+    ,
+  
+    
+    "tool-tipue": {
+      "title": "Tipue",
+      "url": "/tool/tipue/",
+      "category": " Tools",
+      "content": "Tipue Search is a site search engine jQuery plugin. It's free, open source, responsive and fast."
+    }
+    ,
+  
+    
+    "tool-google-custom-search-engine": {
+      "title": "Google Custom Search Engine",
+      "url": "/tool/google-custom-search-engine/",
+      "category": " Tools",
+      "content": "With Google Custom Search, add a search box to your homepage to help people find what they need on your website."
+    }
+    ,
+  
+    
+    "tool-swiftype": {
+      "title": "SwifType",
+      "url": "/tool/swiftype/",
+      "category": " Tools",
+      "content": "Add great search to any website"
+    }
+    ,
+  
+    
+    "tool-listjs": {
+      "title": "List.js",
+      "url": "/tool/listjs/",
+      "category": " Tools",
+      "content": "Tiny, invisible and simple, yet powerful and incredibly fast vanilla JavaScript that adds search, sort, filters and flexibility to plain HTML lists, tables, or anything."
+    }
+    ,
+  
+    
+    "tool-bitballoon": {
+      "title": "BitBalloon",
+      "url": "/tool/bitballoon/",
+      "category": " Tools",
+      "content": "The ultimate hosting platform for your HTML5 sites &amp; apps"
+    }
+    ,
+  
+    
+    "tool-poole": {
+      "title": "Poole",
+      "url": "/tool/poole/",
+      "category": " Tools",
+      "content": "Poole is a fully furnished Jekyll setup, designed to be a consistent and flexible starting point for Jekyll projects, including themes."
+    }
+    ,
+  
+    
+    "tool-brunch": {
+      "title": "Brunch",
+      "url": "/tool/brunch/",
+      "category": " Tools",
+      "content": "Brunch is an ultra-fast HTML5 build tool."
+    }
+    ,
+  
+    
+    "tool-surge": {
+      "title": "Surge",
+      "url": "/tool/surge/",
+      "category": " Tools",
+      "content": "Zero-bullshit, single–command, bring your own source control web publishing CDN. Yes, it's free."
+    }
+    ,
+  
+    
+    "tool-formspree": {
+      "title": "Formspree",
+      "url": "/tool/formspree/",
+      "category": " Tools",
+      "content": "Just send your form to our URL and we'll forward it to your email. No PHP, Javascript or sign up required — perfect for static sites! Formspree is a tool maintained by the community at Assembly."
+    }
+    ,
+  
+    
+    "tool-snipcart": {
+      "title": "Snipcart",
+      "url": "/tool/snipcart/",
+      "category": " Tools",
+      "content": "Effortless shopping cart: Using simple HTML markup, turn any existing website into an extensive shopping cart platform. Snipcart allows payment processing, shipping estimates and order management without ever letting your customers leave your website."
+    }
+    ,
+  
+    
+    "tool-shoal-hosting": {
+      "title": "Shoal Hosting",
+      "url": "/tool/shoal-hosting/",
+      "category": " Tools",
+      "content": "For Sculpin-based websitesShoal Hosting provides automated deployment and hosting for Sculpin-based websites."
+    }
+    ,
+  
+    
+    "tool-proseio": {
+      "title": "Prose.io",
+      "url": "/tool/proseio/",
+      "category": " Tools",
+      "content": "Prose provides a beautifully simple content authoring environment for CMS-free websites. It's a web-based interface for managing content on GitHub. Use it to create, edit, and delete files, and save your changes directly to GitHub. Host your website on GitHub Pages for free, or set up your own GitHub webhook server.Todd at*Webs by Todd* has written some helpful [documentation on using Prose.io](http://www.websbytodd.com/documentation/using-prose/#write-your-post), which, though written for a specific set-up, may be helpful."
+    }
+    ,
+  
+    
+    "tool-google-cloud-storage": {
+      "title": "Google Cloud Storage",
+      "url": "/tool/google-cloud-storage/",
+      "category": " Tools",
+      "content": "Standard Storage provides the highest level of durability, availability and performance of all Google Cloud Storage services. It’s specifically designed for use cases requiring low latency and frequent data access, such as website content distribution and video streaming. Standard storage is all about performance."
+    }
+    ,
+  
+    
+    "tool-form-keep": {
+      "title": "Form Keep",
+      "url": "/tool/form-keep/",
+      "category": " Tools",
+      "content": "Form endpoints for designers and developers. No iframes, JavaScript embeds, or CSS overrides. (commercial)"
+    }
+    ,
+  
+    
+    "tool-heroku": {
+      "title": "Heroku",
+      "url": "/tool/heroku/",
+      "category": " Tools",
+      "content": "A platform as a service (PaaS) that enables developers to build and run applications entirely in the cloud."
+    }
+    ,
+  
+    
+    "tool-harp-platform": {
+      "title": "Harp Platform",
+      "url": "/tool/harp-platform/",
+      "category": " Tools",
+      "content": "Hosting/Deployment Platform for Harpjs"
+    }
+    ,
+  
+    
+    "tool-statamic": {
+      "title": "Statamic",
+      "url": "/tool/statamic/",
+      "category": " Tools",
+      "content": "Flat-file CMS. (not static)A Flat-file CMS that also generates static pages as output"
+    }
+    ,
+  
+    
+    "tool-pelican": {
+      "title": "Pelican",
+      "url": "/tool/pelican/",
+      "category": " Tools",
+      "content": ""
+    }
+    ,
+  
+    
+    "tool-octopress": {
+      "title": "Octopress",
+      "url": "/tool/octopress/",
+      "category": " Tools",
+      "content": "Octopress is an obsessively designed toolkit for writing and deploying Jekyll blogs."
+    }
+    ,
+  
+    
+    "tool-hexo": {
+      "title": "Hexo",
+      "url": "/tool/hexo/",
+      "category": " Tools",
+      "content": ""
+    }
+    ,
+  
+    
+    "tool-harp": {
+      "title": "Harp",
+      "url": "/tool/harp/",
+      "category": " Tools",
+      "content": "The static web server with built-in preprocessing."
+    }
+    ,
+  
+    
+    "tool-sculpin": {
+      "title": "Sculpin",
+      "url": "/tool/sculpin/",
+      "category": " Tools",
+      "content": "culpin is a static site generator written in PHP. It converts Markdown files, Twig templates and standard HTML into a static HTML site that can be easily deployed."
+    }
+    ,
+  
+    
+    "tool-knownly": {
+      "title": "Knownly",
+      "url": "/tool/knownly/",
+      "category": " Tools",
+      "content": "Publish your website in under 2 minutes without a webserverCode in HTML/CSS/Javascript, Save to Dropbox, Instantly Live- Host multiple websites from one Dropbox account- Websites at Knownly sub-domains are free forever- Up to 3 websites on custom domains for $4.99 / month"
+    }
+    ,
+  
+    
+    "tool-gulp": {
+      "title": "Gulp",
+      "url": "/tool/gulp/",
+      "category": " Tools",
+      "content": ""
+    }
+    ,
+  
+    
+    "tool-grunt": {
+      "title": "Grunt",
+      "url": "/tool/grunt/",
+      "category": " Tools",
+      "content": "Grunt is a task-based command line build tool for JavaScript projects. The Grunt ecosystem is huge and it's growing every day. With literally hundreds of plugins to choose from, you can use Grunt to automate just about anything with a minimum of effort."
+    }
+    ,
+  
+    
+    "tool-crossbow": {
+      "title": "Crossbow",
+      "url": "/tool/crossbow/",
+      "category": " Tools",
+      "content": ""
+    }
+    ,
+  
+    
+    "tool-cloudcannon": {
+      "title": "CloudCannon",
+      "url": "/tool/cloudcannon/",
+      "category": " Tools",
+      "content": "A source control backed CMS for developers working with non-developers"
+    }
+    ,
+  
+    
+    "tool-osmek": {
+      "title": "Osmek",
+      "url": "/tool/osmek/",
+      "category": " Tools",
+      "content": "Content as a Service"
+    }
+    ,
+  
+    
+    "tool-github-pages": {
+      "title": "Github Pages",
+      "url": "/tool/github-pages/",
+      "category": " Tools",
+      "content": "Hosted directly from your GitHub repository."
+    }
+    ,
+  
+    
+    "tool-cloudflare": {
+      "title": "CloudFlare",
+      "url": "/tool/cloudflare/",
+      "category": " Tools",
+      "content": "Leverage CloudFlare's global network to serve lightning-fast DNS; Distribute your content around the world so it’s closer to your visitors."
+    }
+    ,
+  
+    
+    "tool-prismic": {
+      "title": "Prismic",
+      "url": "/tool/prismic/",
+      "category": " Tools",
+      "content": "Content as a Service"
+    }
+    ,
+  
+    
+    "tool-react": {
+      "title": "React",
+      "url": "/tool/react/",
+      "category": " Tools",
+      "content": ""
+    }
+    ,
+  
+    
+    "tool-harpoon": {
+      "title": "Harpoon",
+      "url": "/tool/harpoon/",
+      "category": " Tools",
+      "content": "deploys static sites to S3 and BitBalloon"
+    }
+    ,
+  
+    
+    "tool-proteus-static-site-starter-kits": {
+      "title": "Proteus Starter Kits ",
+      "url": "/tool/proteus-static-site-starter-kits/",
+      "category": " Tools",
+      "content": "Proteus is a collection of useful starter kits to help you launch your static site or prototype faster. They follow the thoughtbot styleguide and include thoughtbot front end tools"
+    }
+    ,
+  
+    
+    "tool-lunrjs": {
+      "title": "Lunr.js",
+      "url": "/tool/lunrjs/",
+      "category": " Tools",
+      "content": "lunr.js is a simple full text search engine for your client side applications. It is designed to be small, yet full featured, enabling you to provide a great search experience without the need for external, server side, search services, with plugins for Jekyll and Metalsmith"
+    }
+    ,
+  
+    
+    "tool-wintersmith": {
+      "title": "Wintersmith",
+      "url": "/tool/wintersmith/",
+      "category": " Tools",
+      "content": ""
+    }
+    ,
+  
+    
+    "tool-contentful": {
+      "title": "Contentful",
+      "url": "/tool/contentful/",
+      "category": " Tools",
+      "content": "A single tool to reach any screen: API-first content management system for multi-device online publishing"
+    }
+    ,
+  
+    
+    "tool-tarbell": {
+      "title": "Tarbell",
+      "url": "/tool/tarbell/",
+      "category": " Tools",
+      "content": ""
+    }
+    ,
+  
+    
+    "tool-netlify": {
+      "title": "Netlify",
+      "url": "/tool/netlify/",
+      "category": " Tools",
+      "content": "Builds, deploys &amp; hosts your static site or app"
+    }
+    ,
+  
+    
+    "tool-drupan": {
+      "title": "Drupan",
+      "url": "/tool/drupan/",
+      "category": " Tools",
+      "content": "Drupan is a flexible static site generator helping you to create blogs, single page applications or traditional websites. While being opionionated the plugin system allows you to extend it with any functionallity you desire."
+    }
+    ,
+  
+    
+    "tool-roots": {
+      "title": "Roots",
+      "url": "/tool/roots/",
+      "category": " Tools",
+      "content": "Roots is a static site compiler, that generates static html, css, and javascript files. It's very good at helping to build static front-ends. It is sponsored heavily by Carrot Creative, and makes frequent, highly variable builds quicker and easier for freelancers and agencies. It's a truly excellent framework for quickly and easily building small to medium sized front-ends of any kind."
+    }
+    ,
+  
+    
+    "tool-docpad": {
+      "title": "Docpad",
+      "url": "/tool/docpad/",
+      "category": " Tools",
+      "content": ""
+    }
+    ,
+  
+    
+    "tool-middleman": {
+      "title": "Middleman",
+      "url": "/tool/middleman/",
+      "category": " Tools",
+      "content": "Build static websites with an easy-to-use framework. Middleman is a static site generator using all the shortcuts and tools in modern web development."
+    }
+    ,
+  
+    
+    "tool-metalsmith": {
+      "title": "Metalsmith",
+      "url": "/tool/metalsmith/",
+      "category": " Tools",
+      "content": "An extremely simple, pluggable static site generator."
+    }
+    ,
+  
+    
+    "tool-hugo": {
+      "title": "Hugo",
+      "url": "/tool/hugo/",
+      "category": " Tools",
+      "content": "Extremely fast (build times) written in golang.Hugo is a general-purpose website framework. Technically speaking, Hugo is a static site generator."
+    }
+    ,
+  
+    
+    "tool-jekyll": {
+      "title": "Jekyll",
+      "url": "/tool/jekyll/",
+      "category": " Tools",
+      "content": "Ruby-based static site generator with blogging and collectionsJekyll is the most popular static site generator, and among the oldest. It enjoys an avid community and a dedicated core team."
+    }
+    ,
+  
+    
+    "tool-assemble": {
+      "title": "Assemble",
+      "url": "/tool/assemble/",
+      "category": " Tools",
+      "content": "Static site generator and rapid prototyping framework for Node.js, Grunt.js, and Yeoman and Gulp.Static site generator and rapid prototyping framework for Node.js, Grunt.js, and Yeoman and Gulp. Render templates with Handlebars, Lo-Dash or any template engine. Used by Less.js / lesscss.org, Topcoat, Web Experience Toolkit, and hundreds of other projects to build sites, themes, components, documentation, blogs and gh-pages."
+    }
+    ,
+  
+    
+    "tool-buster": {
+      "title": "Buster",
+      "url": "/tool/buster/",
+      "category": " Tools",
+      "content": "Brute force static site generator for GhostSuper simple, Totally awesome, Brute force static site generator for Ghost. Start with a clean, no commits Github repository.Generate Static Pages. Preview. Deploy to Github Pages. Warning! This project is a hack. It's not official.---"
+    }
+    ,
+  
+    
+    "tool-middleman-blog-editor": {
+      "title": "Middleman Blog Editor",
+      "url": "/tool/middleman-blog-editor/",
+      "category": " Tools",
+      "content": "Middleman Blog Editor is a paid extension to Middleman which adds WYSIWYG article editing and a blog organization interface."
+    }
+    ,
+  
+    
+    "tool-jekyll-hook": {
+      "title": "Jekyll Hook",
+      "url": "/tool/jekyll-hook/",
+      "category": " Tools",
+      "content": "A server that listens for webhook posts from GitHub, generates a website with Jekyll, and moves it somewhere to be published.A server that listens for webhook posts from GitHub, generates a website with Jekyll, and moves it somewhere to be published. Use this to run your own GitHub Pages-style web server. Great for when you need to serve your websites behind a firewall, need extra server-level features like HTTP basic auth (see below for an NGINX config with basic auth), or want to host your site directly on a CDN or file host like S3. It's cutomizable with two user-configurable shell scripts and a config file."
+    }
+    ,
+  
+    
+    "tool-marsupio": {
+      "title": "Marsupi",
+      "url": "/tool/marsupio/",
+      "category": " Tools",
+      "content": "Deploy your website from GitHub. View it at any branch, tag, or commit.Marsupi deploys a version of your web app for every git hash.Each version of your project gets a unique URL."
+    }
+    ,
+  
+    
+    "tool-gitlab-pages": {
+      "title": "Gitlab Pages",
+      "url": "/tool/gitlab-pages/",
+      "category": " Tools",
+      "content": "Host your static websites on GitLab.com for free, or on your own GitLab EE instance.Use with any static website generator. Add multiple custom domains and secure them with your own TLS certificates. Create custom error pages."
+    }
+    ,
+  
+    
+    "tool-algolia": {
+      "title": "Algolia Hosted Search",
+      "url": "/tool/algolia/",
+      "category": " Tools",
+      "content": "Hosted Search API that delivers instant and relevant results from the first keystrokeFounded in 2012, Algolia is a privately held company created by veterans in the fields of algorithms, search engines and text mining.We help users deliver an intuitive search-as-you-type experience on their websites and mobile apps. Basically, we make finding things easier. We are a customer-focused, dev-centric company dedicated to changing the way people think about search."
+    }
+    ,
+  
+    
+    "tool-rooftop-cms": {
+      "title": "Rooftop CMS",
+      "url": "/tool/rooftop-cms/",
+      "category": " Tools",
+      "content": "Rooftop CMS: WordPress without bordersA hosted API-first WordPress CMS for developers and content creators"
+    }
+    ,
+  
+    
+    "tool-jekyll-admin": {
+      "title": "Jekyll Admin",
+      "url": "/tool/jekyll-admin/",
+      "category": " Tools",
+      "content": "A Jekyll plugin that provides users with a traditional CMS-style graphical interface to author content and administer Jekyll sites.![](https://cloud.githubusercontent.com/assets/282759/17258537/62e23ed6-5595-11e6-89b0-31c787f0492a.png)A Jekyll plugin that provides users with a traditional CMS-style graphical interface to author content and administer Jekyll sites. The project is divided into two parts. A Ruby-based HTTP API that handles Jekyll and filesystem operations, and a Javascript-based front end, built on that API."
+    }
+    ,
+  
+    
+    "tool-serum": {
+      "title": "Serum",
+      "url": "/tool/serum/",
+      "category": " Tools",
+      "content": "A simple extension to make link-blogging to a Github-hosted Jekyll blog easy.A simple extension to make link-blogging to a Github-hosted Jekyll blog easy.Install it from the Chrome WebStoreJust select the text you want to quote, click the toolbar button and make any necessary tweaks to the post and the new post file is added to the _drafts directory of your Jekyll blog on Github."
+    }
+    ,
+  
+    
+    "tool-static-man": {
+      "title": "Staticman",
+      "url": "/tool/static-man/",
+      "category": " Tools",
+      "content": "User-generated content are typically the Achilles heel of any static site — a blog commenting platform, a reviews section or a voting system are just a few common examples. To implement these on a static site, developers often resort to third-party services that inject content into pages through JavaScript embeds or iframes.**free and open source**"
+    }
+    ,
+  
+    
+    "tool-hammer-for-mac": {
+      "title": "Hammer for Mac",
+      "url": "/tool/hammer-for-mac/",
+      "category": " Tools",
+      "content": "Hammer is a commercial Mac OS desktop app that generate static sites locally, and integrates with the [Forge](/tool/forge/) static hosting service."
+    }
+    ,
+  
+    
+    "tool-forge": {
+      "title": "Forge",
+      "url": "/tool/forge/",
+      "category": " Tools",
+      "content": "Static Web Hosting Made Simple"
+    }
+    ,
+  
+    
+    "tool-pubstorm": {
+      "title": "Nitrous PubStorm",
+      "url": "/tool/pubstorm/",
+      "category": " Tools",
+      "content": "Free Web Publishing and Hosting for DevelopersIncludes an SSL certificate from Let's Encrypt."
+    }
+    ,
+  
+    
+    "tool-drive-cms": {
+      "title": "Drive CMS",
+      "url": "/tool/drive-cms/",
+      "category": " Tools",
+      "content": "A content management system (CMS) built on an interface everyone understands.The Google Drive CMS uses a combination of Google Sheets and Google Docs to maintain content on a website. These documents are sent to a site or a supporting service (e.g. a Firebase database) via a POST request to an API the admin specifies.Also see [“How I used Google Drive and Firebase to give my static site a CMS”](https://words.mxbry.com/how-i-used-google-drive-and-firebase-to-give-my-static-site-a-cms-7226e01a51b5#.dm0n2lmmb)"
+    }
+    ,
+  
+    
+    "tool-userapp": {
+      "title": "UserApp",
+      "url": "/tool/userapp/",
+      "category": " Tools",
+      "content": "The user management API - Fastest way to build user management with payments, email, and social.UserApp is a cloud-based user management API for web apps with the purpose to relieve developers from having to program logic for user authentication, sign-up, invoicing, feature/property/permission management, and more."
+    }
+    ,
+  
+    
+    "tool-full-calendar": {
+      "title": "Full Calendar",
+      "url": "/tool/full-calendar/",
+      "category": " Tools",
+      "content": "A drag-n-drop jQuery plugin for displaying events on a full-sized calendar."
+    }
+    ,
+  
+    
+    "tool-forestry": {
+      "title": "Forestry",
+      "url": "/tool/forestry/",
+      "category": " Tools",
+      "content": "A simple CMS for Jekyll and Hugo sites. (in beta)"
+    }
+    ,
+  
+    
+    "tool-firebase-hosting": {
+      "title": "Firebase Hosting",
+      "url": "/tool/firebase-hosting/",
+      "category": " Tools",
+      "content": "Firebase Hosting provides fast and secure static hosting for your web app.Firebase Hosting is built for the modern web developer. Static sites are more powerful than ever with the rise of front-end JavaScript frameworks like Angular and static generator tools like Jekyll. Whether you are deploying a simple app landing page or a complex Progressive Web App, Hosting gives you the infrastructure, features, and tooling tailored to deploying and managing static websites."
+    }
+    ,
+  
+    
+    "tool-phenomic": {
+      "title": "Phenomic",
+      "url": "/tool/phenomic/",
+      "category": " Tools",
+      "content": "Modern static website generator for creating dynamic websites using React components.Phenomic is under active early development."
+    }
+    ,
+  
+    
+    "tool-jekyll-cheatsheat": {
+      "title": "Jekyll Cheatsheet",
+      "url": "/tool/jekyll-cheatsheat/",
+      "category": " Tools",
+      "content": "A directory of the best-looking themes for Jekyll blogs"
+    }
+    ,
+  
+    
+    "tool-hook-forms": {
+      "title": "Hook Forms",
+      "url": "/tool/Hook-Forms/",
+      "category": " Tools",
+      "content": "Spam-free web forms using your current HTML. No more captchas.  Attack spam on the backend &amp; see all submissions in one place."
+    }
+    ,
+  
+    
+    "tool-bowtie": {
+      "title": "BowTie.io",
+      "url": "/tool/bowtie/",
+      "category": " Tools",
+      "content": "Static Hosting for Application Developers and Digital Agencies (currently in public beta)Get the benefits of static – enhanced with tools to make building, extending, and maintaining the project easier.BowTie adds User Management, Admin Controls, Stripe Payments, Zapier, and an On-site Editor to your static site."
+    }
+    ,
+  
+    
+    "tool-appolo": {
+      "title": "Appolo",
+      "url": "/tool/appolo/",
+      "category": " Tools",
+      "content": "Plugins and Themes for Jekyll to create App Portfolio for Developers http://www.delightfuldev.com/appolo"
+    }
+    ,
+  
+    
+    "tool-fusejs-search": {
+      "title": "Fuse.js Search",
+      "url": "/tool/fusejs-search/",
+      "category": " Tools",
+      "content": "If you need a lightweight, fast way to search through a list of items, and allow mispellings, then Fuse.js is for you. Forget all server-side logic. This is done all in JavaScript."
+    }
+    ,
+  
+    
+    "tool-jekyll-gdrive-plugin": {
+      "title": "Jekyll Gdrive Plugin",
+      "url": "/tool/jekyll-gdrive-plugin/",
+      "category": " Tools",
+      "content": "Access data from a Google Drive Spreadsheet in your Jekyll sites"
+    }
+    ,
+  
+    
+    "tool-s3-website": {
+      "title": "s3_website",
+      "url": "/tool/s3_website/",
+      "category": " Tools",
+      "content": "Create and configure an S3 website for you - Upload your static website to AWS S3 - Jekyll, Nanoc, and Middleman are automatically supported - Help you use AWS Cloudfront to distribute your website - Improve page speed with HTTP cache control and gzippingSet HTTP redirects for your website"
+    }
+    ,
+  
+    
+    "tool-kickster": {
+      "title": "Kickster",
+      "url": "/tool/kickster/",
+      "category": " Tools",
+      "content": "Automated deployment of Jekyll projects to GitHub pages using Kickster and Circle CI."
+    }
+    ,
+  
+    
+    "tool-free-jekyll-website-template-for-nonprofits": {
+      "title": "Free Jekyll Website Template for Nonprofits",
+      "url": "/tool/free-jekyll-website-template-for-nonprofits/",
+      "category": " Tools",
+      "content": "A Free Jekyll Website Template for Nonprofits, by SmarterGiving"
+    }
+    ,
+  
+    
+    "tool-hugo-themes": {
+      "title": "Hugo Themes",
+      "url": "/tool/hugo-themes/",
+      "category": " Tools",
+      "content": "Official Hugo theme directory"
+    }
+    ,
+  
+    
+    "tools-interaction": {
+      "title": "Interaction",
+      "url": "/tools/interaction/",
+      
+      "content": ""
+    }
+    ,
+  
+    
+    "tools-hosting-deployment": {
+      "title": "Hosting-Deployment",
+      "url": "/tools/hosting-deployment/",
+      
+      "content": "Hosting for your static site."
+    }
+    ,
+  
+    
+    "tools-helper": {
+      "title": "Helper",
+      "url": "/tools/helper/",
+      
+      "content": ""
+    }
+    ,
+  
+    
+    "tools-content-management": {
+      "title": "Content Management",
+      "url": "/tools/content-management/",
+      
+      "content": ""
+    }
+    ,
+  
+    
+    "tools-theme": {
+      "title": "Themes",
+      "url": "/tools/theme/",
+      
+      "content": ""
+    }
+    ,
+  
+    
+    "tools-static-site-generator": {
+      "title": "Static Site Generator",
+      "url": "/tools/static-site-generator/",
+      
+      "content": "These generators are a selection of active, popular or particularly interesting tools. Click through for more information on each."
+    }
+    ,
+  
+    
+    "showcase-the-panama-papers": {
+      "title": "The Panama Papers",
+      "url": "/showcase/the-panama-papers/",
+      "category": "Showcase",
+      "content": "We were really sure about using a static website, because 99% of the content wasn&amp;acute;t going to change. The site is changing constantly, because journalists are continually adding articles and posts, but those posts are mainly plain text. The only dynamic part (the reading list) was implemented using JSON, Javascript and the browser local storage.And about Jekyll, we really love Jekyll, because it's simple enough to start a project really fast, but the plugin system gives you a lot of flexibility, to do really custom and sophisticated things. Also, the community is great, you find really good examples and blog posts."
+    }
+    ,
+  
+    
+    "showcase-malala-org": {
+      "title": "Malala.org",
+      "url": "/showcase/malala-org/",
+      "category": "Showcase",
+      "content": ""
+    }
+    ,
+  
+    
+    "showcase-earlylightmedia-com": {
+      "title": "earlylightmedia.com",
+      "url": "/showcase/earlylightmedia-com/",
+      "category": "Showcase",
+      "content": ""
+    }
+    ,
+  
+    
+    "showcase-pattern-lab": {
+      "title": "Pattern Lab",
+      "url": "/showcase/pattern-lab/",
+      "category": "Showcase",
+      "content": ""
+    }
+    ,
+  
+    
+    "showcase-hillary-clinton": {
+      "title": "hillaryclinton.com",
+      "url": "/showcase/hillary-clinton/",
+      "category": "Showcase",
+      "content": "Interesting post from Cheston Lee at Hillary For America, outlining the engineering challenges on a high traffic, mission-critical site: [“Universal React: Potential, Performance, and a Presidential Campaign”&amp;nbsp;](http://bit.ly/hfa-engineering-showcase)"
+    }
+    ,
+  
+    
+    "showcase-ibm-cloud": {
+      "title": "IBM MobileFirst Foundation",
+      "url": "/showcase/ibm-cloud/",
+      "category": "Showcase",
+      "content": "When we first released our site many many years ago it was mostly made of a very large number of PPT files containing our tutorials. Some years later, we decided to use WordPress as a modern tool to easily write and publish our materials with minimal effort. This was a great change that helped us modernize the content presentation and publication effort. However, as the content continued to grow we realized that due to our product release cycle WordPress was no longer the right tool to maintain such as a vast library of tutorials as it was not scalable. That's when we started our quest. Things fell into place as technologies such as Jekyll, Git and Markdown were combined together, providing us with a way to work more efficiently across the board:Jekyll was the right choice for us because it is well established and with an active community. Its toolset also fit us very nicely and it's fun to work with. Going static made things faster by working with files locally instead of with a database and made the website lighter.Tools we're using:- GitHub Enterprise- TravisCI- IBM Bluemix DevOps Services- Jekyll"
+    }
+    ,
+  
+    
+    "showcase-blue-jay-wireless": {
+      "title": "Blue Jay Wireless",
+      "url": "/showcase/blue-jay-wireless/",
+      "category": "Showcase",
+      "content": ""
+    }
+    ,
+  
+    
+    "showcase-the-new-ebay": {
+      "title": "Ebay apps site",
+      "url": "/showcase/the-new-ebay/",
+      "category": "Showcase",
+      "content": "### Build ArchitectureThe site was developed in Ruby, using Middleman as our static site generator, and pulling content from Contentful. Contentful allowed us to create custom content types as well as specify fields that needed to be localized. Rake tasks were used to pull down all of the Contentful data and assets that were then organized into YAML files for each locale. With one localizable template and some logic, 24 independent static pages were created with the correct data based on the locales we had configured.Read the rest at [Instrument](http://www.instrument.com/latest/the-new-ebay-creating-excitement-through-code)"
+    }
+    ,
+  
+    
+    "showcase-getty-museum-ancient-terracottas": {
+      "title": "Getty Museum's Ancient Terracottas",
+      "url": "/showcase/getty-museum-ancient-terracottas/",
+      "category": "Showcase",
+      "content": "Static site generators are great for a lot of things but I'm especially excited about their potential in the world of book publishing. Most small publishers don't have the resources to maintain a new server-side application every time they want to publish a new book. And for us as a museum, the long-term availability of the content is an important concern. But the bar is set very high by the beautiful print books people are accustomed to, so delivering a poor experience in the name of long-term sustainability is not an option either.I think that's where tools like Middleman really shine. There is a master set of content files (Markdown and YAML docs) and then a series of different output formats are auto-generated as necessary. Write once, put it in version control, and publish anywhere – that's the dream, and I think it's becoming doable.Anyway, that's the underlying philosophy behind the project. It is 100% static – the &quot;database&quot; for catalogue entries is just a bunch of YAML files. Other static features include:* Client-side search (full-text) via [Lunr.js](http://lunrjs.com/).* [SmoothState](http://smoothstate.com/): These two actually work together; the full-text search index is too heavy to load each time the user navigates to a new page, so with SmoothState it is initialized once and then always ready. In some ways these performance gains were much more important than the transition effects, though the latter is why I first wanted to use it.* The catalogue page is actually a self-contained [Vue.js](http://vuejs.org/) component; Vue is a..."
+    }
+    ,
+  
+    
+    "showcase-sequoia-capital": {
+      "title": "Sequoia Capital",
+      "url": "/showcase/sequoia-capital/",
+      "category": "Showcase",
+      "content": "Sequoia requested a simple solution that retained the ability to easily manage content and provide features such as localization and search. Instead of building something complex using large databases, multiple servers, and other layers of infrastructure, we used hosted services that provide simpler solutions to these complications. Static site generation was used to provide a [straightforward, fast, and secure site](http://www.smashingmagazine.com/2015/11/modern-static-website-generators-next-big-thing/). Read the rest at [Instrument.com](http://www.instrument.com/latest/when-simple-is-the-only-option)"
+    }
+    ,
+  
+    
+    "showcase-netflix-devices": {
+      "title": "Netflix Devices",
+      "url": "/showcase/netflix-devices/",
+      "category": "Showcase",
+      "content": "Netflix partnered with CloudCannon to rebuild [Netflix Devices](https://devices.netflix.com/). Devices was originally a Drupal site and was rebuilt in a fraction of the time using [Jekyll](http://jekyllrb.com/). The site is static so it loads quickly and reliably scales to the millions of Netflix visitors. The Partner Marketing team have taken control of their site. They’re empowered to quickly try out new messaging and update content directly on the page. Netflix Devices is translated into 16 languages which all get served from the same Jekyll site.Read the rest of the case study at [cloudcannon.com/customers/netflix/](http://cloudcannon.com/customers/netflix/)"
+    }
+    ,
+  
+    
+    "showcase-norm-daniels": {
+      "title": "Norm Daniels",
+      "url": "/showcase/norm-daniels/",
+      "category": "Showcase",
+      "content": "Jekyll and Cloudcannon make my life as a designer so much less hectic. What would have taken me hours and hours to setup on a Wordpress install only took me about 30 mins using Jekyll and Front Matter for a full featured photo gallery and CMS. WOW! It came down to time savings, ease for me, and speed of a static site. No annoying databases to deal with and no management of WP. Glorious! Not to mention Jekyll and Cloudcannon together make it beautiful and easy for the client to manage the photo gallery and website as a whole. Also see the Case Study at [Cloudcannon.com](http://cloudcannon.com/customers/brandon-setter/)"
+    }
+    ,
+  
+    
+    "showcase-18f": {
+      "title": "18F",
+      "url": "/showcase/18f/",
+      "category": "Showcase",
+      "content": "The official website of 18F."
+    }
+    ,
+  
+    
+    "showcase-mapbox": {
+      "title": "MapBox",
+      "url": "/showcase/mapbox/",
+      "category": "Showcase",
+      "content": "[How We Build CMS-Free Websites](https://developmentseed.org/blog/2012/07/27/build-cms-free-websites/)[How We Build CMS-Free Websites](https://developmentseed.org/blog/2012/07/27/build-cms-free-websites/)"
+    }
+    ,
+  
+    
+    "showcase-development-seed": {
+      "title": "Development Seed",
+      "url": "/showcase/development-seed/",
+      "category": "Showcase",
+      "content": "[How We Build CMS-Free Websites](https://developmentseed.org/blog/2012/07/27/build-cms-free-websites/)[How We Build CMS-Free Websites](https://developmentseed.org/blog/2012/07/27/build-cms-free-websites/)"
+    }
+    ,
+  
+    
+    "showcase-nodejsorg": {
+      "title": "Nodejs.org",
+      "url": "/showcase/nodejsorg/",
+      "category": "Showcase",
+      "content": ""
+    }
+    ,
+  
+    
+    "showcase-white-house-social-and-behavioral-sciences-team": {
+      "title": "White House Social and Behavioral Sciences Team",
+      "url": "/showcase/white-house-social-and-behavioral-sciences-team/",
+      "category": "Showcase",
+      "content": "&quot;Rather than building a custom CMS from scratch, Federalist puts a layer on top of an open source platform which already has proven scalability,&quot; says Jeremia Kimelman, a developer on the program. &quot;That's one of the great things about this platform.&quot; Read the full blog-post at &quot;[New Federalist platform lets agencies quickly launch websites](https://18f.gsa.gov/2015/09/15/federalist-platform-launch/)&quot;"
+    }
+    ,
+  
+    
+    "showcase-vesterheim-norwegian-american-museum": {
+      "title": "Vesterheim Norwegian-American Museum",
+      "url": "/showcase/vesterheim-norwegian-american-museum/",
+      "category": "Showcase",
+      "content": ""
+    }
+    ,
+  
+    
+    "showcase-esolia": {
+      "title": "eSolia",
+      "url": "/showcase/esolia/",
+      "category": "Showcase",
+      "content": "eSolia had experimented with various other site generators, both proprietary and open source, and with server-side CMSs. We wanted the superior security and performance of a static site, without having to deal with development environment dependencies, meaning having to keep various libraries updated. [Hugo](http://gohugo.io/), written in the modern Go language, fits that requirement perfectly. It is not only available as a single, easy-to-install binary file for Mac, Linux and Windows, it was written to be insanely great in terms of speed and performance. Most sites build in milliseconds; in fact it takes longer to sync them to your web host than it does to generate the site! We like it so much that we built my personal site [Rick Cogley Central](http://rick.cogley.info/), eSolia's [English esolia.com](http://esolia.com/) and [Japanese esolia.co.jp](http://esolia.co.jp/) sites, and finally, eSolia's professional blog at [eSolia.pro](http://esolia.pro/) in it. As of July 2015, Hugo's community is vibrant, development is actively proceeding, and we'd love to welcome new users to the fold. Also see:[Why Hugo? A static site generator optimized for performance](http://esolia.pro/en/why-did-esolia-choose-hugo/)[](http://esolia.pro/en/why-did-esolia-choose-hugo/)"
+    }
+    ,
+  
+    
+    "showcase-un-world-statistics": {
+      "title": "UN World Statistics",
+      "url": "/showcase/un-world-statistics/",
+      "category": "Showcase",
+      "content": ""
+    }
+    ,
+  
+    
+    "showcase-segmentio": {
+      "title": "Sement.io",
+      "url": "/showcase/segmentio/",
+      "category": "Showcase",
+      "content": "By the creators of Metalsmith. If it's just the simplest blog with a running series of Markdown files, then really any of the static site generators will do. But once you get into trying to implement some more advanced features then you run up against the limitations of most (if not all) of them because they assume way too much up front. A couple real-world examples from us at Segment.io are: **Documentation** - for our [docs](https://segment.io/docs) we want to be able to use the same simple static site generator without having all of the blogging logic. Basically the nesting of the files should result in the nesting of the URLs. But we also want to be able to tie in metadata that we have in our database about all of our integrations. And we'd also like to be able to write custom handlebars helpers that turn a simple JSON object into a widget that renders API calls in any of our supported languages. **Academy** - for our [academy](https://segment.io/academy) I really want to get to the point where we can generate PDFs for each of our articles and being to re-distribute them that was as eBooks (or potentially for a collection of articles) because that kind of thing appeals to enterprises who are looking for guidance. And we could even end up doing the same thing with our docs pages. And then we also want to have custom handlebars helpers for. **Blog** - for our [blog](https://segment.io/blog) we want just the most..."
+    }
+    ,
+  
+    
+    "showcase-the-verge-50": {
+      "title": "The Verge 50",
+      "url": "/showcase/the-verge-50/",
+      "category": "Showcase",
+      "content": "Last December, The Verge published [The Verge 50](http://www.theverge.com/a/the-verge-50), one of our earliest examples of our [Editorial Apps](https://source.opennews.org/en-US/learning/evolution-news-apps-teams/) system built by VP of Technology [Pablo Mercado](https://twitter.com/odacrem &quot;Ham&quot;) during last October's [VAX](http://product.voxmedia.com/2013/10/4/5426870/product-team-all-hands-2013-return-of-vax) hackathon, inspired by the work done by the [NPR Visuals](http://blog.apps.npr.org/) team. In a nutshell, our Editorial Apps system consists of a static [Middleman](http://middlemanapp.com/) site, which is populated from one or more Google Spreadsheets at build time (using our [middleman-google-drive](https://github.com/voxmedia/middleman-google_drive) extension, which we'll talk about in a future article), and then deployed to [Chorus](http://product.voxmedia.com/2012/5/6/5426772/all-together-now-introducing-the-vox-product-blog-and-chorus) by doing a `git push` and using git post-receive hooks, in a way not unlike deploying an app to [Heroku](https://www.heroku.com/). Continue reading at [Vox Product](http://product.voxmedia.com/2014/7/29/5863004/take-a-peek-at-the-code-that-powered-the-verge-50)"
+    }
+    ,
+  
+    
+    "showcase-healthcaregov": {
+      "title": "Healthcare.gov",
+      "url": "/showcase/healthcaregov/",
+      "category": "Showcase",
+      "content": "#### [Healthcare.gov: Code Developed by the People and for the People, Released Back to the People](http://www.theatlantic.com/technology/archive/2013/06/healthcaregov-code-developed-by-the-people-and-for-the-people-released-back-to-the-people/277295/)"
+    }
+    ,
+  
+    
+    "article-2014-05-15-welcome-to-static-is-the-new-dynamic-html": {
+      "title": "Welcome to {static is} The New Dynamic",
+      "url": "/article/2014/05/15/welcome-to-static-is-the-new-dynamic.html",
+      "category": "Articles &amp; Event Recaps",
+      "content": "The purpose of this site is to promote the use of static site generators for people who build websites. I hope to fill the site out and as it grows add functionality to to make it easy to find resources and information related to the top static site generators."
+    }
+    ,
+  
+    
+    "article-2014-03-14-the-no-db-landscape-html": {
+      "title": "The No-DB Landscape",
+      "url": "/article/2014/03/14/the-no-db-landscape.html",
+      "category": "Articles &amp; Event Recaps",
+      "content": "It’s no coincidence that as I’ve become obsessed with website performance I’ve also become enamored with building sites with no database. They’re unequivocally faster, simpler to maintain and build, and more secure and stable than database-driven websites. There are tradeoffs of course, but in my view well worth it. I don’t understand the talk I see about static sites being for “hackers” or small or simple sites. I’ve seen some large, complex and highly trafficked sites built this way. See my earlier post in this series for more information.For the most part I’ve been using two applications. For purely static sites I use Jekyll and for “flat-file” CMS sites I’ve used Statamic. Each is excellent in its own right, yet serves a different purpose than the other.This article is aimed squarely at the designer/developer building websites for clients. Choosing the right technology is an important part of a developer’s job so I’ll go into my thinking here about when I why I might choose either.So what is the difference between a “Flat File CMS” and a “Static Site Generator”?Both flat-file CMSs (or file-based CMSs) and statically generated websites have no database at all. That alone is significant. All of your site’s content is merely a collection of text files.This is what a document might look like in a flat-file site (or see this post as a raw text file):---title: Titlecategory: Categorylayout: articledate: November 10, 2013author: authorname---content goes hereGenerally speaking templates and layout schemes tend to be similar in both types..."
+    }
+    ,
+  
+    
+    "article-2014-03-09-basics-of-markdown-html": {
+      "title": "Basics of Markdown",
+      "url": "/article/2014/03/09/basics-of-markdown.html",
+      "category": "Articles &amp; Event Recaps",
+      "content": "An abreviated form of this article is available as a Gist on GithubWhat is Markdown?Markdown is a formatting syntax that allows you to write in plain text in any editing program, but still format your document like you would with a word processor. It was created to convert plain text into HTML for publishing on the web and happens to be super easy to write and just as easy to read even without being converted.Markdown ensures that a writer’s intended formatting never gets lost. If you’ve ever labored on a Word document only to have its formatting scrambled when you sent it to be published to your website or when a colleague opened it in another program, you’ll appreciate the simplicity and stability of Markdown.While you can edit Markdown files in any text editor, there are are some, like iA Writer for Macs, that are specially built to make this easy way of writing even easier.How do I write in Markdown?Markdown is extremely simple. In fact, it’s mostly plain text, so writing a paragraph would be the same as with any text editor (there’s a line between each paragraph).If you want to put in a line breakyou merely put two spaces after a lineand it shows up like this.EmphasisIf you want to make a word bold, you merely put two asterisks around it:like **this** is like thisTo emphasize a word with italics you put one asterisk around it:like *this* is like thisoruse an _underscore_ to get the same results.You can..."
+    }
+    ,
+  
+    
+    "event-2016-03-15-new-middleman-v4-0-presented-by-its-creator-thomas-reynolds-html": {
+      "title": "New Middleman v4.0 presented by its creator Thomas Reynolds",
+      "url": "/event/2016/03/15/New-Middleman-v4-0-presented-by-its-creator-Thomas-Reynolds.html",
+      "category": "Articles &amp; Event Recaps",
+      "content": "About the newest, largely re-written version MiddlemanThomas Reynolds is the Technical Director at famed Portland digital agency Instrument.He’s also the creator of Middleman, one of the most used static site generators for large enterprise sites like MailChimp, Sequoia Capitol and Vox Media.That’s why we’re flying him to San Francisco to talk to you about the newest, largely re-written version of his creation, the static site generator Middleman!Come gather with like-minded SF Static Web Techies–and bring your friends–for free food, drinks and insightful conversation about how the New Stack is changing the face of the internet.Netlify &amp;amp; Wikia organize and sponsor this session of the SF Static Web Tech meetup.Go to Meetup Page"
+    }
+    ,
+  
+    
+    "essentials-2016-03-02-helpful-videos-for-getting-started-with-jekyll-html": {
+      "title": "Helpful Videos for Getting Started with Jekyll",
+      "url": "/essentials/2016/03/02/helpful-videos-for-getting-started-with-jekyll.html",
+      "category": "Articles &amp; Event Recaps",
+      "content": "Helpful Videos for Getting Started with JekyllWhen I started learning Jekyll I found Thomas Bradley’s series of videos helpful (and now I see there’s also a series of companion tutorials). I also deconstructed some of Michael Rose’s themes and generally tried to push the Liquid templating language as far as I could.The guys at Cloudcanon (the “CMS for Jekyll”) have created an entire site of jekyll tips, tutorials and code, now including a series of videos. The first videos cover the topics of “Collections” and “Front Matter.” View them here: http://jekyll.tips/jekyll-casts/."
+    }
+    ,
+  
+    
+    "event-2016-02-22-static-site-generators-are-the-new-wordpress-milwaukee-web-professionals-milwaukee-wi-meetup-html": {
+      "title": "Static site generators are the new Wordpress - Milwaukee Web Professionals Meetup",
+      "url": "/event/2016/02/22/Static-site-generators-are-the-new-Wordpress-Milwaukee-Web-Professionals-Milwaukee-WI-Meetup.html",
+      "category": "Articles &amp; Event Recaps",
+      "content": "Static site generators are a modern solution for simple websites. It takes a small amount of technical courage to set them up, but they have two significant benefits over a traditional CMS - security and speed. Let’s talk about them."
+    }
+    ,
+  
+    
+    "event-2016-02-19-static-showdown-worldwide-virtual-hackathon-for-progressive-web-apps-html": {
+      "title": "Static Showdown - Worldwide Virtual Hackathon for Progressive Web Apps",
+      "url": "/event/2016/02/19/Static-Showdown-Worldwide-Virtual-Hackathon-for-Progressive-Web-Apps.html",
+      "category": "Articles &amp; Event Recaps",
+      "content": "The Static Showdown is a 48-hour worldwide virtual hackathon where you build web applications using static HTML, JS, CSS and no custom server-side code! Teams of up to four compete for fabulous prizes and, more importantly, the glory of victory!https://2016.staticshowdown.com/"
+    }
+    ,
+  
+    
+    "event-2016-01-31-static-sites-go-all-hollywood-html": {
+      "title": "Static Sites go all Hollywood",
+      "url": "/event/2016/01/31/static-sites-go-all-hollywood.html",
+      "category": "Articles &amp; Event Recaps",
+      "content": "Break through the limits of static site generators with the use of a new breed of hosted tools and services.A talk by Phil Hawks­worth at the Front-Trends Conference.Front-Trends is one of Europe’s most established annual conferences for professional front-end developers to meet, learn and get inspired.from the talk description:  The popularity of building web sites with static site generators is on the rise. Their reduced complexity, easier compliance, cheaper hosting, and other benefits are getting people’s attention, but they do have limits.  This talk will explore how we can break through some of those limits with the use of a new breed of hosted tools and services. We’ll look at practical examples of how a static site generator can help deliver a modern web development workflow, support a living styleguide, and also pack the kind of dynamic punch that you’d only think possible from bigger application stacks.more at Front-TrendsAlso see a video of Phil’s talk at Generate London in this post: “Generate London: Break through the limits of static site generators”"
+    }
+    ,
+  
+    
+    "article-2016-01-25-the-next-iteration-of-the-new-dynamic-html": {
+      "title": "The Next Iteration of The New Dynamic",
+      "url": "/article/2016/01/25/the-next-iteration-of-the-new-dynamic.html",
+      "category": "Articles &amp; Event Recaps",
+      "content": "Jekyll, Netlify, CloudCannon, job board coming soonAlways a work in progress, I’ve switched the site back to Jekyll. Jekyll 3.1 is a fast (significantly faster than 2.4) and capable beast, but as always, has its nuances, so I feel I need to spend some quality tinkering time with it.I had intended to host the site on S3 as I had originally done, provisioning my own “Let’s Encrypt” TSL certificate, but when it came down to it, Netlify is so fast and easy, not to mention their instant provisioning of “Let’s Encrypt,” that I couldn’t resist. And, the Netflify gang is an important part of the nascent static community, such as it is, so hosting there seems quite natural.As I’ve building up my collections on the site, I’ve set up defaults for managing the site’s content in CloudCannon’s editor, which is beautiful and capable. I use it for my clients, so, even though I do most of my work locally, I like having the ability to do so. Defaults are pretty easy to set up and have the added benefit of forcing you to standardize your fields a bit.I’ve also started using Imgix for provisioning images. It’s super nice being able to manipulate images on the fly and their CDN is fast and it’s quite easy to get up and running. Stay tuned for a post soon about getting up and running.ChangesJob BoardYou may notice a menu item for “Job Board.” I don’t know exactly what this will look like in the end, but I know there..."
+    }
+    ,
+  
+    
+    "event-2016-01-25-static-is-back-geekfest-seattle-seattle-wa-meetup-html": {
+      "title": "Static is Back - Geekfest Seattle Meetup",
+      "url": "/event/2016/01/25/Static-is-Back-Geekfest-Seattle-Seattle-WA-Meetup.html",
+      "category": "Articles &amp; Event Recaps",
+      "content": "  The rise of static site generators like Jekyll, Hugo, and others, offer a faster and more secure alternative to traditional content management systems. In this talk, we’ll cover the static trend, discuss pros and cons of going static, and show how to set up a static site with Continuous Deployment."
+    }
+    ,
+  
+    
+    "event-2016-01-25-refresh-seattle-html": {
+      "title": "Workshop: Best Practices in Static Web hosting",
+      "url": "/event/2016/01/25/Refresh-Seattle.html",
+      "category": "Articles &amp; Event Recaps",
+      "content": "Continuous deployment with Aerobatic and Bitbucket  Ivan Storck will lead a workshop on best practices in Static Site Web Hosting. From index.html to Single-Page Apps, Ivan will cover continuous deployment with Aerobatic and Bitbucket. He’ll show how to quickly host sites, including branch, staging, and production versions. For more information check out http://aerobatic.com."
+    }
+    ,
+  
+    
+    "article-2016-01-14-jekyll-and-firebase-email-password-authentication-knights-of-the-old-code-html": {
+      "title": "Jekyll and Firebase - Email/Password Authentication",
+      "url": "/article/2016/01/14/Jekyll-and-Firebase-Email-Password-Authentication-Knights-of-the-Old-Code.html",
+      "category": "Articles &amp; Event Recaps",
+      "content": "This article assumes familiarity with the previous articles in the series, building upon principles learned therein. This article is an intermediate level tutorial and additionally assumes basic web development knowledge."
+    }
+    ,
+  
+    
+    "article-2016-01-14-jekyll-and-firebase-basics-knights-of-the-old-code-html": {
+      "title": "Jekyll and Firebase - Basics",
+      "url": "/article/2016/01/14/Jekyll-and-Firebase-Basics-Knights-of-the-Old-Code.html",
+      "category": "Articles &amp; Event Recaps",
+      "content": "This article series explores code driving dynamic data in an otherwise static website."
+    }
+    ,
+  
+    
+    "event-2016-01-13-zurb-foundtion-and-modern-web-tech-html": {
+      "title": "Zurb Foundation and Static Web Tech",
+      "url": "/event/2016/01/13/zurb-foundtion-and-modern-web-tech.html",
+      "category": "Articles &amp; Event Recaps",
+      "content": "How Foundation 6 uses their new static site generator Panini as a central build toolGeoff Kimball from ZURB, a main architect behind Foundation 6, a popular CSS framework, presents and explains how Foundation 6 uses their new static site generator Panini as a central build tool.Panini is a custom built, light-weight static site generator that works as a plugin to gulp. ZURB migrated from the grunt based assemble, to Panini, when launching Foundation 6.  "
+    }
+    ,
+  
+    
+    "event-2015-12-02-full-stack-static-html": {
+      "title": "Full Stack Static",
+      "url": "/event/2015/12/02/full-stack-static.html",
+      "category": "Articles &amp; Event Recaps",
+      "content": "Joint Meetup with the New York Web Performance group (VIDEO, SLIDES)Joint Meetup! “static is the New Dynamic” with the “NY Web Performance” Meetup.Updated with video and slidesWe’ll be hosted by Workmarket who will be providing free pizza and beer! This talk centers around making static sites work in the real world; from editing content (for non-technical users), to building and staging sites, to deployment and hosting, as well as user interaction. We’ll review the landscape of tools and real-world use-cases.For newcomers to the world of static we’ll start with a brief introduction and some points of reference. We’ll be joined by Jeremia Kimelman of the U.S. General Services Administration’s 18F group [https://18f.gsa.gov/] to talk about why and how they’re enabling government agencies to publish static websites using existing tools along with a demo of their new open source “Federalist” platform.  "
+    }
+    ,
+  
+    
+    "event-recap-2016-04-11-react-static-site-generator-presentation-static-web-tech-html": {
+      "title": "Gatsby - a React.js SSB - Presented by creator Kyle Mathews (video)",
+      "url": "/event-recap/2016/04/11/react-static-site-generator-presentation-static-web-tech.html",
+      "category": "Articles &amp; Event Recaps",
+      "content": "  React.js is surging in popularity as a modern build tool, and web developers are flocking to it to build sites and web apps.  Kyle Mathews is the creator of Gatsby, a React.js-based static site generator. He’s also the co-founder of RelateRocket.  We’re bringing Kyle in to talk to you about building with React, the process of creating a static site builder, and why pairing the modern stack with git is increasingly the workflow of choice for frontend web devs.    Presentation on Gatsby to SF Static Web Tech Meetup  from Kyle Mathews "
+    }
+    ,
+  
+    
+    "event-2015-10-26-presenting-jekyll-30-html": {
+      "title": "Presenting Jekyll 3.0",
+      "url": "/event/2015/10/26/presenting-jekyll-30.html",
+      "category": "Articles &amp; Event Recaps",
+      "content": "Review new features like incremental regeneration, Hook Plugin API, and the Liquid ProfilerThe long awaited Jekyll 3.0 was just released. With new features like incremental regeneration, Hook Plugin API, and the Liquid Profiler, Jekyll is poised to be used on larger, more complicated sites.Here’s a video from the Static Web-tech Meetup for the Jekyll launch on October, 26th."
+    }
+    ,
+  
+    
+    "article-2015-10-05-get-the-book-static-site-generators-modern-tools-for-static-website-development-html": {
+      "title": "Get the Book: Static Site Generators Modern Tools for Static Website Development",
+      "url": "/article/2015/10/05/get-the-book-static-site-generators-modern-tools-for-static-website-development.html",
+      "category": "Articles &amp; Event Recaps",
+      "content": " O’Reilly and Brian Rinaldi have had the foresight to publish the first book on static site generators, called Static Site Generators Modern Tools for Static Website Development.Get your free ebook at the O’Reilly website."
+    }
+    ,
+  
+    
+    "article-2014-03-06-static-site-generators-introduction-html": {
+      "title": "Want to Speed up Your Website? Skip the database",
+      "url": "/article/2014/03/06/static-site-generators-introduction.html",
+      "category": "Articles &amp; Event Recaps",
+      "content": "The Very Brief HistoryIn 2012 developers for the Obama re-election campaign moved from the ExpressionEngine-based website of the prior campaign to a practically retro HTML site with no content management system. Only this wasn’t 1999 and the website was actually quite modern, having been generated by the popular open source software called Jekyll1.A hugely succesful site 2, it had over 81 million page views and was a model of performance and stability. It was a milestone in the movement for web developers to utilize a less bloated technology stack than had become the norm over the past decade3.Static site generators, like Jekyll, convert text documents into HTML using one or more templates for laying out the pages. There is no content management system and no database. While once the realm of “hackers” only, there’s a growing list use-cases for sites created this way because they’re incredibly fast, simple and flexible.The ProblemThe heart of a “traditional” CMS driven website is a SQL database where all the site’s content and settings are rigidly organized into tables with rows and columns, something like a very complicated spreadsheet. Each CMS has its own scheme of organizing this information and on top of the database there is an application layer that converts the data into pages, route those pages into web addresses to serve to end users, and manages various user functions, whether or not we need them.Querying the database every time a page loads takes time, which, even measured in milliseconds has shown to..."
+    }
+    ,
+  
+    
+    "event-2015-09-29-lessons-learned-switching-from-wordpress-to-middleman-a-static-site-generator-html": {
+      "title": "Lessons Learned, Switching from WordPress to Middleman, a Static Site Generator",
+      "url": "/event/2015/09/29/lessons-learned-switching-from-wordpress-to-middleman-a-static-site-generator.html",
+      "category": "Articles &amp; Event Recaps",
+      "content": "Video and Slides Available  Description: Middleman is perhaps the most used static site generator when it comes to large enterprise sites. James Stone, is a blogger, evangelist for Foundation and ZURB, and before everything else a developer. He’s giving a talk on his experience coming from Wordpress to Middleman. He will try and shed some light on how it’s become the favourite site maker for some of the World’s top agencies and why it’s been chosen to build sites such as Mailchimp, Nest, Smartcoin, etc.    Also see an interview with the speaker, James Stone, at the Static Webtech website."
+    }
+    ,
+  
+    
+    "event-2015-09-17-generate-london-html": {
+      "title": "Generate London: Break through the limits of static site generators",
+      "url": "/event/2015/09/17/generate-london.html",
+      "category": "Articles &amp; Event Recaps",
+      "content": "By Phil HawksworthFrom the Generate London Description:  The popularity of building web sites with static site generators is on the rise. Their reduced complexity, easier compliance, cheaper hosting, and other benefits are getting people’s attention, but they do have limits. In his talk at Generate London in September, Phil Hawksworth will explore how we can break through some of those limits with the use of a new breed of hosted tools and services. He’ll look at practical examples of how a static site generator can help deliver a modern web development workflow, support a living styleguide, and also pack the kind of dynamic punch that you’d only think possible from bigger application stacks.  "
+    }
+    ,
+  
+    
+    "event-2015-09-02-webcast-static-site-generators-why-use-them-and-how-they-work-html": {
+      "title": "Webcast - Static site generators: Why use them and how they work",
+      "url": "/event/2015/09/02/webcast-static-site-generators-why-use-them-and-how-they-work.html",
+      "category": "Articles &amp; Event Recaps",
+      "content": "Presented by Raymond Camden for O'Reilly                    10AM PT, San Francisco        1pm - New York        6pm - London        10:30pm - Mumbai        Thu, Sep 3rd at 1am - Beijing        Thu, Sep 3rd at 2am - Tokyo        Thu, Sep 3rd at 3am - Sydney            "
+    }
+    ,
+  
+    
+    "article-2015-07-26-cloudflare-for-static-sites-html": {
+      "title": "Cloudflare for Static Sites",
+      "url": "/article/2015/07/26/cloudflare-for-static-sites.html",
+      "category": "Articles &amp; Event Recaps",
+      "content": "I’ve found Cloudflare to be quite useful for all the sites I manage, including static sites. Aside from their great service, I like keeping DNS information for the sites I manage in one place. When you change DNS settings at Cloudflare, the changes happen very quickly.I’m not entirely sure static sites’ performance benefit from Cloudflare’s network, particulalry if you’re already serving your assets from a CDN, but they offer an incredible number of features for performance, threat control, stats, caching and asset minification, and I think overall Cloudflare is particularly helpful for managing static sites.I’ve sometimes missed not having an htaccess file for setting up rules on sites I’m serving from Google Cloud, AWS, or Github Pages, but Cloudflare fills that gap. You can set rules (unfortunately only three for free accounts) for forwarding pages, and their “scrapesheild” service allows you to obfuscate email address, offers hotlink protection and server side excludes.One feature I’m looking forward to trying is their SSL service, which, at a very basic level, is offered for free. I’ve been using Cloudflare for quite a few years now and manage quite a few sites through them. The services they provide have grown significantly and their recent redesign has really helped make everything easy to use.p.s. If you use Cloudflare, be sure to enable Two-factor authentication in your account."
+    }
+    ,
+  
+    
+    "event-2015-06-12-video-and-slides-from-our-first-meetup-html": {
+      "title": "Static is the New Dynamic Meetup",
+      "url": "/event/2015/06/12/video-and-slides-from-our-first-meetup.html",
+      "category": "Articles &amp; Event Recaps",
+      "content": "Why use Static Site Generators and How they WorkWe had a great first Meetup on June 10th, 2015. I gave a presentation on my history with static sites, why I use them, and some use-cases and examples.The video is a bit screwed up. We lost it twenty minutes in to the talk and picked up for another 15-20 minutes sometime after. And my head is chopped off in parts.Slides without notesSlides with notesSpecial thanks to our hosts, Vector Media."
+    }
+    ,
+  
+    
+    "event-2015-04-22-all-things-jekyll-at-jekyllconf-may-2nd-html": {
+      "title": "All things Jekyll at JekyllConf",
+      "url": "/event/2015/04/22/all-things-jekyll-at-jekyllconf-may-2nd.html",
+      "category": "Articles &amp; Event Recaps",
+      "content": "Check out jekyllconf.com for information on the upcoming JekyllConf web-conference on  Saturday 2nd May 2015Check out jekyllconf.com for information on the upcoming JekyllConf web-conference on 10am - 5pm (PST), Saturday 2nd May 2015And, thanks to @DavidDarnes for these links to the #jekyllconf videosFor those of you who missed it, the whole recording can be found here. Also, here’s the direct links to each speaker within the video:Brian Rinaldi - Comparing Jekyll with the Competition1Kyle Rush - Meet the Obama Campaign’s $250 Million Fundraising PlatformBen Balter - GitHub Pages behind the scenesTom Preston-Werner - Some crazy ideas I have for the future of static sitesBrandon Mathis - [What the heck is Octopress and why should I care?(https://youtu.be/X5sJIL-nOhg?t=3h14m42s)Michael Jovel - Building Living Style Guides with JekyllMike Neumegen - A CMS for JekyllParker Moore - Jekyll 3 and Beyond"
+    }
+    ,
+  
+    
+    "article-2015-02-12-use-wordpress-as-the-backend-to-your-static-site-using-roots-html": {
+      "title": "Use Wordpress as the Backend to your Static Site, using Roots",
+      "url": "/article/2015/02/12/use-wordpress-as-the-backend-to-your-static-site-using-roots.html",
+      "category": "Articles &amp; Event Recaps",
+      "content": "I’ve seen caching systems that serve static pages from Wordpress before, but this is the first time I’ve seen Wordpress as the content editing interface for a statically generated site. The gist is that you use the Wordpress JSON API as your data store for the static site generator, so the only job for Wordpress is editing content and outputing a JSON file.There is some complexity here: running an instance of Wordpress as well as Roots, deoployed via Netlify and Github. But there are plenty of use-cases for something like this where you need the interface for editing (or, perhaps, just have a lot of content in Wordpress), but want to take advantage of the flexibility and performance or scalability of a static site. It looks like the Carrot Creative team are working on a lot of integrations for Roots. Here’s a tutorial on setting it up, which altogether takes about twenty minutes."
+    }
+    ,
+  
+    
+    "article-2014-12-17-static-site-generators-coming-into-the-mainstream-html": {
+      "title": "Static Site Generators Coming into the Mainstream",
+      "url": "/article/2014/12/17/static-site-generators-coming-into-the-mainstream.html",
+      "category": "Articles &amp; Event Recaps",
+      "content": "Thoughtworks, the San Francisco-based software development firm, has included static site generators on their “Technology Radar” for 2015, saying that:  Static site generators like Middleman or Jekyll have become popular for creating simple websites or blogs, but we are increasingly seeing their use as part of more complex application stacks. The default assumption that all content delivered over HTTP has to be dynamically created on request is shifting, with more teams looking to use static pre-generated content.”See the rest of the Technology Radar at the Thoughtworks website."
+    }
+    ,
+  
+    
+    "article-2014-08-29-the-post-cms-landscape-html": {
+      "title": "The Post-CMS Landscape",
+      "url": "/article/2014/08/29/the-post-cms-landscape.html",
+      "category": "Articles &amp; Event Recaps",
+      "content": "In The No-db Landscape I wrote about the differences between “flat-file” CMSs and static site generators. Today we’ll have a look at the idea of a “Post-CMS” and some new developments.I didn’t make up it up, but I love the idea of a “Post CMS” world and it should resonate with anyone who has devoted countless hours to installing, configuring, updating and coding big content management systems. To my mind, “post-CMS” means the disaggregation and, in many cases, elimination of the component parts of a CMS. What remains is simply the tools we need to for a particular project and nothing more.Is there such a thing as a Post-CMS CMS? Perhaps, but it doesn’t look much like what we’ve known in the past. A post-CMS CMS may or may not have a database of some sort, and it may have an editor and many other facets of a CMS, but it won’t have layers of pre-built software that comes with it. Each of those components is not only entirely optional, but may very well come from different sources. They’re ála carte rather than prix fixe; tapas rather than Beef Wellington!An exemplar of this approach is the static site generator Metalsmith.io. Just launched in March and already proving to be popular, Metalsmith, built on Node.js, is as sophisticated as it is simple, owing to its “everything is a plugin” philosophy.Statically generated sites are but a subset of the post-CMS paradigm and actually the most minimal manifestation; the opposite, in most cases,..."
+    }
+    ,
+  
+    
+    "article-2014-08-24-search-options-for-static-websites-html": {
+      "title": "Search Options for Static Websites",
+      "url": "/article/2014/08/24/search-options-for-static-websites.html",
+      "category": "Articles &amp; Event Recaps",
+      "content": "Here are some options for adding search and/or filters to your static website. These have various approaches, costs and ease of implementation.  Lunr.js (plugins: Jeyll, Metalsmith)  List.js  Swiftype  Tipue Search  Google Custom Search Engine  Tapir      Jekyll search with JSON    18F’s jekyll Pages API SearchThe less-technically inclined may want to look at something like Swiftype (paid, but has a limited free option), Tapir or Tipue. I use List.js extensively for filtering and recommend it highly."
+    }
+    ,
+  
+    
+    "article-2014-08-02-how-vox-media-uses-static-site-generators-html": {
+      "title": "How Vox Media uses Static Site Generators",
+      "url": "/article/2014/08/02/how-vox-media-uses-static-site-generators.html",
+      "category": "Articles &amp; Event Recaps",
+      "content": "I’m constantly on the lookout for sophisticated and interesting uses of static site generators. Here’s the forward thinking Vox Media on their use of Middleman as part of their publishing strategy: In a nutshell, our Editorial Apps system consists of a static Middleman site, which is populated from one or more Google Spreadsheets at build time (using our middleman-google-drive extension, which we’ll talk about in a future article), and then deployed to Chorus by doing a git push and using git post-receive hooks, in a way not unlike deploying an app to Heroku.Read the rest at Vox Media’s Product blog.This is interesting for a lot of reasons. Vox is, aside even from their publishing efforts, is on the forefront of content management with their Chorus CMS, so I’m happy to hear that static sites fit into their vision. I’m also interested to hear that their using Google Spreadsheets for data. As easy as I find Markdown documents and YAML lists, not everyone feels comfortable with them and a spreadsheet is comfortable and certainly good for some data, and, of course, using Google Spreadsheets has the benefit of being great for collaboration.I’ve seen others use this approach. Jim Pravetz used GS for an online shop and wrote about it on his blog (“Generating Jekyll Pages From Data”), though I believe he’s now using Shopify for that site now. Coderwall has a brief tutorial on “Use a Google Spreadsheet as your JSON backend” too.Vox has made the source code for the Verge-50..."
+    }
+    ,
+  
+    
+    "article-2014-07-26-getting-started-with-static-site-generators-html": {
+      "title": "Getting Started with Static Site Generators",
+      "url": "/article/2014/07/26/getting-started-with-static-site-generators.html",
+      "category": "Articles &amp; Event Recaps",
+      "content": "Here are some of the blog posts that first got me excited about the potential for static site generators:  “Meet the Obama campaign’s $250 million fundraising platform”, by Kyle Rush  “The Static Web Returns”, by Rob Muhlestein  “How We Build CMS-Free Websites”, by Dave Cole at Development Seed  Why? “The Great Web Slowdown [INFOGRAPHIC]”, by Tammy Everts  “Welcome to the Post-CMS World”, by Ben Balter  “Healthcare.gov: Code Developed by the People and for the People, Released Back to the People” by Alex Howard at The Atlantic"
+    }
+    ,
+  
+    
+    "article-2014-06-11-jekyll-content-decision-tree-html": {
+      "title": "Jekyll Content Decision Tree",
+      "url": "/article/2014/06/11/jekyll-content-decision-tree.html",
+      "category": "Articles &amp; Event Recaps",
+      "content": "With the addition of collections in Jekyll 2.0 there are a lot of choices one can make about how to structure their site. Besides collections, now you can also add JSON files to the _data directory. I put together this decision tree to help anyone who needs it. This, of course, reflects my own way of thinking about content in a static site generator context, specifically applied to Jekyll. One thing I love about not using a database is that your content is much closer to its original form: documents are documents, data is data. Note that this variety may very well change in the future as collections pages and posts converge toward one content type, likely to be collections with optional features of posts, I’m guessing."
+    }
+    ,
+  
+    
+    "event-2016-06-15-dynamic-static-strategies-html": {
+      "title": "Dynamic Static Site Strategies (and Other Tongue Twisters)",
+      "url": "/event/2016/06/15/dynamic-static-strategies.html",
+      "category": "Articles &amp; Event Recaps",
+      "content": "Explore some unexpected capabilities and characteristics of “static” sitesA(nother!) talk by Phil Hawks­worth:From the talk description:  Are we over-engineering? What is the real effort in developing, hosting and maintaining sites which have many moving parts? The cost of serving static sites has never been lower. And front-end development practices have never been richer. Couldn’t we harness this better and make life simpler without dumbing down?  In this talk we’ll explore some unexpected capabilities and characteristics of “static” sites. We’ll look at ways to use emerging tools and services to create robust, high performance websites which can be more dynamic than some of their heavier and more costly brothers and sisters.more at Smashing ConferenceAlso see a video of Phil’s talk at Generate London in this post: “Generate London: Break through the limits of static site generators”"
+    }
+    ,
+  
+    
+    "article-2016-05-09-real-world-content-strategy-with-jekyll-html": {
+      "title": "Real World Content Strategy With Jekyll",
+      "url": "/article/2016/05/09/real-world-content-strategy-with-jekyll.html",
+      "category": "Articles &amp; Event Recaps",
+      "content": "Video and slides from JekyllConf 2016I’m honored to have been part of the second annual Jekyll Conference, hosted by Cloudcannon on Saturday, May 7th. There was a great and diverse range of views and use-cases discussed from people all over the world. It’s so interesting to see how people approach this flexible tool, and also to hear how avid people are about it.Here are my slides and the video from the talk, and you can find everyone else’s at the Jekyllconf website.link to slides"
+    }
+    ,
+  
+    
+    "event-recap-2016-05-05-jekyllconf-the-free-online-global-conference-for-all-things-jekyll-html": {
+      "title": "JekyllConf",
+      "url": "/event-recap/2016/05/05/JekyllConf-The-free-online-global-conference-for-all-things-Jekyll.html",
+      "category": "Articles &amp; Event Recaps",
+      "content": "The free, online global conference for all things Jekyll (videos)DetailsVidoes for the conference are posted on the website, and Youtube. Here’s a link to the Youtube playlist.Who’s running JekyllConf and why?CloudCannon is organising JekyllConf. We want to do our part in growing the community and showcase all the awesome people and projects using Jekyll."
+    }
+    ,
+  
+    
+    "article-2016-04-29-the-jam-stack-html": {
+      "title": "The JAM Stack",
+      "url": "/article/2016/04/29/the-jam-stack.html",
+      "category": "Articles &amp; Event Recaps",
+      "content": "Netlify CEO Mathias Biilmann speaking at SmashingConf on the JAM Stack.Netlify CEO Mathias Biilmann (n.b. this site is hosted with Netlify) gave a talk at Smashing Conference in San Francisco last week. This is not only a great discussion of the need for and growth of the static web stack, but Mathias has really encapsulated the bigger picture that static sites and apps fit into with what he describes, compellingly, as the “JAM (Javascript, APIs, and Markup) Stack.”This is the JAM Philosophy:  Decouple Building and Hosting  Decouple Front-end and Back-end  APIs rather than databases  Pre-baked Markup, enhanced with JSSmashingConf San Francisco 2016 - Mathias Biilmann from Smashing Magazine on Vimeo.Watch the entire presentation on Vimeo:"
+    }
+    ,
+  
+    
+    "article-2015-11-10-how-do-static-site-generators-work-html": {
+      "title": "How do Static Site Generators Work?",
+      "url": "/article/2015/11/10/how-do-static-site-generators-work.html",
+      "category": "Articles &amp; Event Recaps",
+      "content": "CONTENT INMost, but not all, static site generators use markdown files to store content, with information about each file of content specified using YAML formatted front matter. It looks like this:title: ‘The Title of an Entry Here’date: 2015-04-15category: ‘News’excerpt: ‘A short excerpt here’layout: defaultfoo: ‘Bar’Some markdown content here, which is likely the longest part. This can be quite long, in fact.HTML OUTNow, imagine a folder of these markdown files on your hard drive. We’ll call this your project. The code of our static site generator could say “for each markdown file in folder x, move it to folder y.” But that’s not too exciting.Let’s say, instead of just moving that file, the generator reads all the files in a certain directory or directories and creates an “object” with them: “For each file in folder x, list its contents in our object.” That object is just a stored list of all the files, including their file names, any meta-data specified in the front matter, and their content.That object might look something like this (in Ruby, as output from Jeyll):{“layout”=&amp;gt;”default”, “title”=&amp;gt;”The Title of an Entry Here”, “category”=&amp;gt;”News”, “excerpt”=&amp;gt;”A short excerpt here”, “published”=&amp;gt;true, “url”=&amp;gt;”/news/2015/04/14/post-title-here/”, “dir”=&amp;gt;”/news/2015/04/14”, “date”=&amp;gt;2015-04-14 00:00:00 -0400, “id”=&amp;gt;”/news/2015/04/14/post-title-here”, “categories”=&amp;gt;[“news”], “next”=&amp;gt;, “previous”=&amp;gt;, “tags”=&amp;gt;[], “path”=&amp;gt;”_posts/2015-04-14-post-title-here.md”, “content”=&amp;gt;”Some markdown content here, which is likely the longest part. This can be quite long, in fact.”, “section”=&amp;gt;”post”}You can tell already that in creating the object the static site generator has extrapolated some information, like a “url” created from our specified date and category: “For each file in folder..."
+    }
+    ,
+  
+    
+    "event-2016-09-29-go-offline-first-api-first-for-blazing-fast-and-scalable-sites-html": {
+      "title": "Go Offline First + API First for Blazing Fast and Scalable Sites",
+      "url": "/event/2016/09/29/go-offline-first-api-first-for-blazing-fast-and-scalable-sites.html",
+      "category": "Articles &amp; Event Recaps",
+      "content": "First talk: Jeremia Kimelman, of the GSA’s 18F group, will show us how to make website content available offline and blazing fast, using service workers and his Jekyll plugin.Jeff Escalante, of Carrot Creative will speak about how his firm uses API-driven static technology (#JAMstack), and introduceSpike.cf, the new static site generator his team is creating to be even more scalable and maintainable than Roots, their previous effort.Thanks to our sponsor Civic Hall, the home for civic tech in New York City for providing us with meeting space.Thanks to Fastly, the real-time content delivery network for providing us with food and beer. "
+    }
+    ,
+  
+    
+    "event-2016-08-10-the-new-dynamic-nyc-meetup-demo-forestry-io-cms-for-jekyll-and-hugo-static-sites-html": {
+      "title": "The New Dynamic NYC Meetup: Demo Forestry.io CMS for Jekyll and Hugo Static Sites",
+      "url": "/event/2016/08/10/the-new-dynamic-nyc-meetup-demo-forestry-io-cms-for-jekyll-and-hugo-static-sites.html",
+      "category": "Articles &amp; Event Recaps",
+      "content": "Demo Forestry.io CMS and a short presentation on &quot;convince your boss/client&quot;Scott Gallant, co-founder of Forestry.io will talk about the CMS he’s creating for Jekyll and Hugo static site generators.The fact that Forestry.io works on Hugo as well as Jekyll sites is a huge step forward for all of us, and I urge you to attend to see what Scott’s up to and give feedback to help make the product the best it can be at this early stage.We will begin the Meetup with a short presentation called “Convince your Boss/Client” about why site owners should consider static web tech.Note that there’s a $3.00 refundable charge for this month’s event, and the start time is 7pm. Please do get in touch if these changes present a problem for you.Big shout out to this month’s venue sponsor Vector Media Group.Location:Vector Media Group18 West 21st St, 8th FloorNew York, NY 10010O’Reilly’s Velocity Conference is coming to NYC this September and should be of interest to many members.Use discount code PCND and get 20% off passes:http://conferences.oreilly.com/velocity/devops-web-performance-ny"
+    }
+    ,
+  
+    
+    "article-2016-08-09-static-cms-concept-at-forge-html": {
+      "title": "Static CMS Concept at Forge",
+      "url": "/article/2016/08/09/static-cms-concept-at-forge.html",
+      "category": "Articles &amp; Event Recaps",
+      "content": "Steve Schofield has been exploring various content management concepts, including Content Management as a Service (CMaaS), and API-driven strategies at the Beach blog, “The Guild.” Beach is the maker of the desktop static site generator app, Hammer for Mac, and the Forge static hosting service.Quoting Christian Owens, CEO at Paddle on using Contentful with the Hammer app, he writes: My favourite thing about this is that prior to using contentful our two options were: install wordpress and build something. manage the whole thing statically with markdown files and forego some functionality. the other option was to build some kind of docs CMS from scratch, but who has time for that!Steve also says that the biggest feedback about Contentful has been about pricing, which, despite having a generous free level, ramps up to $249 per month (when the post was written, Contentful had a slightly different pricing structure). As he points out, quite a few static websites would easily fit within the free level, which allows for 10,000 records (entries/assets), and 50,000 api calls. You also don’t jump immediately to the higher level, as there are paid upgrades that seem to be reasonable.Still, this brings home, in my view, the biggest problem with CMaaS products. It’s not so much the pricing, but vendor lock-in. At the point you go from 0, or some low-level, to 249, you’re captive and have to make a decision about staying with the product. Steve also looks at Cockpit, a PHP-based API-driven CMS, which I’ve evaluated before..."
+    }
+    ,
+  
+    
+    "event-2016-08-04-search-for-static-sites-by-aidan-feldman-html": {
+      "title": "Search for Static Sites",
+      "url": "/event/2016/08/04/search-for-static-sites-by-aidan-feldman.html",
+      "category": "Articles &amp; Event Recaps",
+      "content": "A presentation at the New Dynamic Meetup, by Aidan FeldmanAidan Feldman, a developer with the GSA’s 18F group (Building the 21st century digital government) discussed Search on Static Sites and some of the approaches his team at 18F have taken to create robust search options for static sites  Our sponsor this month is Mouse, empowering all students to use technology as a force for good. Mouse runs an apprenticeship program and is looking for mentors."
+    }
+    ,
+  
+    
+    "meetups-vienna-html-html": {
+      "title": "Vienna.html ",
+      "url": "/meetups/vienna-html.html",
+      
+      "content": ""
+    }
+    ,
+  
+    
+    "meetups-the-new-dynamic-html": {
+      "title": "The New Dynamic Meetup Group",
+      "url": "/meetups/the-new-dynamic.html",
+      
+      "content": ""
+    }
+    ,
+  
+    
+    "meetups-static-web-tech-meetup-html": {
+      "title": "Static Web Tech Meetup ",
+      "url": "/meetups/static-web-tech-meetup.html",
+      
+      "content": ""
+    }
+    ,
+  
+    
+    "meetups-static-berlin-html": {
+      "title": "Static Berlin",
+      "url": "/meetups/static-berlin.html",
+      
+      "content": ""
+    }
+    ,
+  
+    
+    "meetups-peanut-butter-and-jekyll-html": {
+      "title": "Peanut Butter and Jekyll",
+      "url": "/meetups/peanut-butter-and-jekyll.html",
+      
+      "content": ""
+    }
+    
+  
+  };
+</script>
+
+          </div>
+        </div>
+      </div>
+    <!-- <script type="text/javascript" src="/static/js/dist/scripts-concatenated.min.js" asyn="true"></script> -->
+
+
+<script type="text/javascript">
+  WebFontConfig = {
+    google: { families: [ 'Lato:400,400italic,700,700italic:latin' ] }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })(); </script>
+
+
+
+
+<script>
+  document.body.onkeyup = function(e){
+    
+      if (e.keyCode == '37') { window.location = '/links/'; }
+    
+    
+      if (e.keyCode == '39') { window.location = '/showcase/'; }
+    
+  };
+</script>
+
+    
+        <script src="/assets/js/lunr.min.js"></script>
+    
+  </body>
+</html>

@@ -1,0 +1,31 @@
+:root {
+  --sidebar-width: 18rem;
+  --translatex: -300px;
+  --sidebar-width-sm: 290px;
+}
+  /*to show and hide the side nav*/
+
+.expandable { transform: translateX(var(--translatex))}
+
+@media (--breakpoint-md) {
+  .expandable {transform: translateX(0)}
+  .m-sidebar-right {
+    margin-right: var(--sidebar-width);
+  }
+  .m-sidebar-left {
+    margin-left: var(--sidebar-width);
+  }
+}
+
+.expandable:target {transform: translateX(0)}
+
+.w-sidebar-lg {
+  width: var(--sidebar-width);
+  max-width: 100%;
+}
+
+@media (--breakpoint-md-lg) {
+  .w-sidebar-lg {
+  max-width:30%;
+  }
+}

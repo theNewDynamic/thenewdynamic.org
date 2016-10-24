@@ -1,0 +1,55 @@
+---
+title: Links from around the web
+layout: default
+section: links
+schema: https://schema.org/WebPage
+---
+{% assign latest = (site.links | where_exp: 'item', 'item.category != "essentials"' | sort: 'date', 'last' | reverse ) %}
+{% assign essentials = (site.links | where: 'category', 'essentials' | sort: 'date', 'last' | reverse ) %}
+{% assign box_classes = 'list-reset col-12 md-col-6 md-pr2 mr-auto'  %}
+{% assign list_classes = 'list-reset col-12'  %}
+{% assign list_heading_classes = 'bold h2 pl2'  %}
+{% assign link_classes = 'dont-display-child-until-hover my1 px2 py1 bg-near-white hover-bg-silver col-12 transition' %}
+
+<h1 class="">
+  {{ layout.title }}{% if title %}: {{ title }}{% endif %}
+</h1>
+  {{ content }}
+
+  <div class="flex flex-wrap">
+
+    <div class="{{ box_classes }}">
+      <ul class="{{ list_classes }}">
+        <li class="{{ list_heading_classes }}">
+          Latest
+        </li>
+        {% for object in latest limit:5 %}
+          {% include components/links.html link_classes=link_classes %}
+        {% endfor %}
+      </ul>
+
+      <ul class="{{ list_classes }}">
+        <li class="{{ list_heading_classes }}">
+          Essentials
+        </li>
+        {% for object in essentials %}
+          {% include components/links.html link_classes=link_classes %}
+        {% endfor %}
+      </ul>
+
+
+    </div>
+
+    <ul class="{{ box_classes }}">
+      <li class="{{ list_heading_classes }}">
+        More
+      </li>
+      {% for object in latest offset:5 %}
+        {% include components/links.html link_classes=link_classes %}
+      {% endfor %}
+    </ul>
+
+
+
+
+  </div>

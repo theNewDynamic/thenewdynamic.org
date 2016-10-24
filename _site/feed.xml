@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>the New Dynamic</title>
+    <description>build faster better websites</description>
+    <link>http://2016-10-23-v1-tnd.surge.sh/</link>
+    <atom:link href="http://2016-10-23-v1-tnd.surge.sh/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 24 Oct 2016 13:47:07 +0000</pubDate>
+    <lastBuildDate>Mon, 24 Oct 2016 13:47:07 +0000</lastBuildDate>
+    <generator>Jekyll v3.3.0</generator>
+    
+      <item>
+        <title>Go Offline First + API First for Blazing Fast and Scalable Sites</title>
+        <description>&lt;p&gt;First talk: Jeremia Kimelman, of the GSA’s 18F group, will show us how to make website content available offline and blazing fast, using service workers and his Jekyll plugin.&lt;/p&gt;
+
+&lt;p&gt;Jeff Escalante, of Carrot Creative will speak about how his firm uses API-driven static technology (#JAMstack), and introduceSpike.cf, the new static site generator his team is creating to be even more scalable and maintainable than Roots, their previous effort.&lt;/p&gt;
+
+&lt;p&gt;Thanks to our sponsor Civic Hall, the home for civic tech in New York City for providing us with meeting space.&lt;/p&gt;
+
+&lt;p&gt;Thanks to Fastly, the real-time content delivery network for providing us with food and beer. &lt;/p&gt;
+</description>
+        <pubDate>Thu, 29 Sep 2016 00:00:00 +0000</pubDate>
+        <link>http://2016-10-23-v1-tnd.surge.sh/event/2016/09/29/go-offline-first-api-first-for-blazing-fast-and-scalable-sites.html</link>
+        <guid isPermaLink="true">http://2016-10-23-v1-tnd.surge.sh/event/2016/09/29/go-offline-first-api-first-for-blazing-fast-and-scalable-sites.html</guid>
+        
+        
+        <category>event</category>
+        
+      </item>
+    
+      <item>
+        <title>The New Dynamic NYC Meetup: Demo Forestry.io CMS for Jekyll and Hugo Static Sites</title>
+        <description>&lt;p&gt;Scott Gallant, co-founder of &lt;a href=&quot;https://forestry.io/&quot;&gt;Forestry.io&lt;/a&gt; will talk about the CMS he’s creating for Jekyll and Hugo static site generators.&lt;/p&gt;
+
+&lt;p&gt;The fact that Forestry.io works on Hugo as well as Jekyll sites is a huge step forward for all of us, and I urge you to attend to see what Scott’s up to and give feedback to help make the product the best it can be at this early stage.&lt;/p&gt;
+
+&lt;p&gt;We will begin the Meetup with a short presentation called “Convince your Boss/Client” about why site owners should consider static web tech.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Note that there’s a $3.00 refundable charge for this month’s event, and the start time is 7pm. Please do get in touch if these changes present a problem for you.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Big shout out to this month’s venue sponsor Vector Media Group.&lt;/p&gt;
+
+&lt;p&gt;Location:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Vector Media Group&lt;/strong&gt;
+&lt;br /&gt;18 West 21st St, 8th Floor
+&lt;br /&gt;New York, NY 10010&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;O’Reilly’s Velocity Conference is coming to NYC this September and should be of interest to many members.&lt;/p&gt;
+
+&lt;p&gt;Use discount code PCND and get 20% off passes:&lt;/p&gt;
+
+&lt;p&gt;http://conferences.oreilly.com/velocity/devops-web-performance-ny&lt;/p&gt;
+</description>
+        <pubDate>Wed, 10 Aug 2016 12:00:00 +0000</pubDate>
+        <link>http://2016-10-23-v1-tnd.surge.sh/event/2016/08/10/the-new-dynamic-nyc-meetup-demo-forestry-io-cms-for-jekyll-and-hugo-static-sites.html</link>
+        <guid isPermaLink="true">http://2016-10-23-v1-tnd.surge.sh/event/2016/08/10/the-new-dynamic-nyc-meetup-demo-forestry-io-cms-for-jekyll-and-hugo-static-sites.html</guid>
+        
+        
+        <category>event</category>
+        
+      </item>
+    
+      <item>
+        <title>Static CMS Concept at Forge</title>
+        <description>&lt;p&gt;Steve Schofield has been exploring various content management concepts, including Content Management as a Service (CMaaS), and API-driven strategies at the Beach blog, “The Guild.” &lt;a href=&quot;http://beach.io/&quot;&gt;Beach&lt;/a&gt; is the maker of the desktop static site generator app, &lt;a href=&quot;http://hammerformac.com/&quot;&gt;Hammer for Mac&lt;/a&gt;, and the &lt;a href=&quot;https://getforge.com/&quot;&gt;Forge&lt;/a&gt; static hosting service.&lt;/p&gt;
+
+&lt;p&gt;Quoting Christian Owens, CEO at Paddle on using Contentful with the Hammer app, he writes:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;My favourite thing about this is that prior to using contentful our two options were:&lt;/p&gt;
+
+  &lt;ul&gt;
+    &lt;li&gt;install wordpress and build something.&lt;/li&gt;
+    &lt;li&gt;manage the whole thing statically with markdown files and forego some functionality.&lt;/li&gt;
+  &lt;/ul&gt;
+
+  &lt;p&gt;the other option was to build some kind of docs CMS from scratch, but who has time for that!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Steve also says that the biggest feedback about Contentful has been about pricing, which, despite having a generous free level, ramps up to $249 per month (when the post was written, Contentful had a slightly different pricing structure). As he points out, quite a few static websites would easily fit within the free level, which allows for 10,000 records (entries/assets), and 50,000 api calls. You also don’t jump immediately to the higher level, as there are paid upgrades that seem to be reasonable.&lt;/p&gt;
+
+&lt;p&gt;Still, this brings home, in my view, the biggest problem with CMaaS products. It’s not so much the pricing, but vendor lock-in. At the point you go from 0, or some low-level, to 249, you’re captive and have to make a decision about staying with the product. &lt;/p&gt;
+
+&lt;p&gt;Steve also looks at &lt;a href=&quot;http://getcockpit.com/&quot;&gt;Cockpit&lt;/a&gt;, a PHP-based API-driven CMS, which I’ve evaluated before and really liked. An API-driven CMS lets you, essentially, host your own CMaaS. Cockpit is pretty slick and easy to get started with, but its development is flagging, having been created by one person.&lt;/p&gt;
+
+&lt;p&gt;At any rate, it’s nice to see other people consumed with exploring some of the same issues I have, and writing about them (which I’ve not done much of). Check out the rest of the post at &lt;em&gt;The Guild&lt;/em&gt;: “&lt;a href=&quot;http://guild.beach.io/t/static-cms-concept/103&quot;&gt;Static CMS Concept.&lt;/a&gt;”&lt;/p&gt;
+</description>
+        <pubDate>Tue, 09 Aug 2016 20:22:00 +0000</pubDate>
+        <link>http://2016-10-23-v1-tnd.surge.sh/article/2016/08/09/static-cms-concept-at-forge.html</link>
+        <guid isPermaLink="true">http://2016-10-23-v1-tnd.surge.sh/article/2016/08/09/static-cms-concept-at-forge.html</guid>
+        
+        
+        <category>article</category>
+        
+      </item>
+    
+      <item>
+        <title>Search for Static Sites</title>
+        <description>&lt;p&gt;Aidan Feldman, a developer with the GSA’s 18F group (Building the 21st century digital government) discussed Search on Static Sites and some of the approaches his team at 18F have taken to create robust search options for static sites&lt;/p&gt;
+
+&lt;div class=&quot;embed-container&quot;&gt;
+&lt;iframe width=&quot;1280&quot; height=&quot;720&quot; src=&quot;https://www.youtube-nocookie.com/embed/zahaMg3X0Tc?rel=0&amp;amp;showinfo=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;embed-container&quot;&gt;
+  &lt;script async=&quot;&quot; class=&quot;speakerdeck-embed&quot; data-id=&quot;29a7d224aa054a0f900aeeafa13dc39a&quot; data-ratio=&quot;1.77777777777778&quot; src=&quot;//speakerdeck.com/assets/embed.js&quot;&gt;&lt;/script&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;em&gt;Our sponsor this month is Mouse, empowering all students to use technology as a force for good. Mouse runs an apprenticeship program and is looking for mentors.&lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 04 Aug 2016 00:00:00 +0000</pubDate>
+        <link>http://2016-10-23-v1-tnd.surge.sh/event/2016/08/04/search-for-static-sites-by-aidan-feldman.html</link>
+        <guid isPermaLink="true">http://2016-10-23-v1-tnd.surge.sh/event/2016/08/04/search-for-static-sites-by-aidan-feldman.html</guid>
+        
+        
+        <category>event</category>
+        
+      </item>
+    
+      <item>
+        <title>Dynamic Static Site Strategies (and Other Tongue Twisters)</title>
+        <description>&lt;p&gt;A(nother!) talk by Phil Hawks­worth:&lt;/p&gt;
+
+&lt;p&gt;From the talk description:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Are we over-engineering? What is the real effort in developing, hosting and maintaining sites which have many moving parts? The cost of serving static sites has never been lower. And front-end development practices have never been richer. Couldn’t we harness this better and make life simpler without dumbing down?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;In this talk we’ll explore some unexpected capabilities and characteristics of “static” sites. We’ll look at ways to use emerging tools and services to create robust, high performance websites which can be more dynamic than some of their heavier and more costly brothers and sisters.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://smashingconf.com/ny-2016/speakers/phil-hawksworth&quot;&gt;more at Smashing Conference&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Also see a video of Phil’s talk at Generate London in this post: &lt;a href=&quot;/event/2015/09/17/generate-london/&quot;&gt;“Generate London: Break through the limits of static site generators”&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;embed-container&quot;&gt;
+&lt;iframe src=&quot;https://player.vimeo.com/video/174172567?title=0&amp;amp;byline=0&amp;amp;portrait=0&quot; width=&quot;640&quot; height=&quot;360&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;script async=&quot;&quot; class=&quot;speakerdeck-embed&quot; data-id=&quot;a749dd2bfe024f71a262ddce74dcc228&quot; data-ratio=&quot;1.33333333333333&quot; src=&quot;//speakerdeck.com/assets/embed.js&quot;&gt;&lt;/script&gt;
+
+&lt;hr /&gt;
+</description>
+        <pubDate>Wed, 15 Jun 2016 11:20:00 +0000</pubDate>
+        <link>http://2016-10-23-v1-tnd.surge.sh/event/2016/06/15/dynamic-static-strategies.html</link>
+        <guid isPermaLink="true">http://2016-10-23-v1-tnd.surge.sh/event/2016/06/15/dynamic-static-strategies.html</guid>
+        
+        
+        <category>event</category>
+        
+      </item>
+    
+      <item>
+        <title>Real World Content Strategy With Jekyll</title>
+        <description>&lt;p&gt;I’m honored to have been part of the second annual &lt;a href=&quot;http://jekyllconf.com/&quot;&gt;Jekyll Conference&lt;/a&gt;, hosted by &lt;a href=&quot;http://cloudcannon.com/&quot;&gt;Cloudcannon&lt;/a&gt; on Saturday, May 7th. There was a great and diverse range of views and use-cases discussed from people all over the world. It’s so interesting to see how people approach this flexible tool, and also to hear how avid people are about it.&lt;/p&gt;
+
+&lt;p&gt;Here are my slides and the video from the talk, and you can find everyone else’s at the &lt;a href=&quot;http://jekyllconf.com/&quot;&gt;Jekyllconf&lt;/a&gt; website.&lt;/p&gt;
+
+&lt;div class=&quot;embed-container&quot;&gt;&lt;iframe width=&quot;853&quot; height=&quot;480&quot; src=&quot;https://www.youtube-nocookie.com/embed/A1nTuNjoNbg?rel=0&amp;amp;showinfo=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;embed-container&quot;&gt;&lt;div&gt;&lt;iframe class=&quot;speakerdeck-iframe&quot; frameborder=&quot;0&quot; src=&quot;//speakerdeck.com/player/8cd915b706124e9aab027160ec859027?&quot; allowfullscreen=&quot;true&quot; mozallowfullscreen=&quot;true&quot; webkitallowfullscreen=&quot;true&quot; style=&quot;border: 0px; margin: 0px; padding: 0px; border-radius: 5px; width: 710px; height: 594.5px; background: transparent;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://speakerdeck.com/budparr/real-world-content-strategy-with-jekyll&quot;&gt;link to slides&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 09 May 2016 00:00:00 +0000</pubDate>
+        <link>http://2016-10-23-v1-tnd.surge.sh/article/2016/05/09/real-world-content-strategy-with-jekyll.html</link>
+        <guid isPermaLink="true">http://2016-10-23-v1-tnd.surge.sh/article/2016/05/09/real-world-content-strategy-with-jekyll.html</guid>
+        
+        <category>conferences</category>
+        
+        <category>Jekyll</category>
+        
+        
+        <category>article</category>
+        
+      </item>
+    
+      <item>
+        <title>JekyllConf</title>
+        <description>&lt;h2 id=&quot;details&quot;&gt;Details&lt;/h2&gt;
+&lt;p&gt;Vidoes for the conference are posted on the website, and Youtube. Here’s a link to the &lt;a href=&quot;https://www.youtube.com/playlist?list=PLrxYIq_0LFJdi2HJ6lnY4nm7ewu221hyS&quot;&gt;Youtube playlist&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;whos-running-jekyllconf-and-why&quot;&gt;Who’s running JekyllConf and why?&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://cloudcannon.com/&quot;&gt;CloudCannon&lt;/a&gt; is organising JekyllConf. We want to do our part in growing the community and showcase all the awesome people and projects using Jekyll.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 05 May 2016 12:01:00 +0000</pubDate>
+        <link>http://2016-10-23-v1-tnd.surge.sh/event-recap/2016/05/05/JekyllConf-The-free-online-global-conference-for-all-things-Jekyll.html</link>
+        <guid isPermaLink="true">http://2016-10-23-v1-tnd.surge.sh/event-recap/2016/05/05/JekyllConf-The-free-online-global-conference-for-all-things-Jekyll.html</guid>
+        
+        
+        <category>event-recap</category>
+        
+      </item>
+    
+      <item>
+        <title>The JAM Stack</title>
+        <description>&lt;p&gt;&lt;a href=&quot;https://www.netlify.com/&quot;&gt;Netlify&lt;/a&gt; CEO Mathias Biilmann (&lt;em&gt;n.b. this site is hosted with Netlify&lt;/em&gt;) gave a talk at &lt;a href=&quot;http://smashingconf.com/sf-2016/speakers/mathias-biilman&quot;&gt;Smashing Conference&lt;/a&gt; in San Francisco last week. This is not only a great discussion of the need for and growth of the static web stack, but Mathias has really encapsulated the bigger picture that static sites and apps fit into with what he describes, compellingly, as the “JAM (Javascript, APIs, and Markup) Stack.”&lt;/p&gt;
+
+&lt;p&gt;This is the JAM Philosophy:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Decouple Building and Hosting&lt;/li&gt;
+  &lt;li&gt;Decouple Front-end and Back-end&lt;/li&gt;
+  &lt;li&gt;APIs rather than databases&lt;/li&gt;
+  &lt;li&gt;Pre-baked Markup, enhanced with JS&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;embed-container&quot;&gt;
+&lt;iframe src=&quot;https://player.vimeo.com/video/163522126?title=0&amp;amp;byline=0&amp;amp;portrait=0&quot; width=&quot;640&quot; height=&quot;360&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href=&quot;https://vimeo.com/163522126&quot;&gt;SmashingConf San Francisco 2016 - Mathias Biilmann&lt;/a&gt; from &lt;a href=&quot;https://vimeo.com/smashingmagazine&quot;&gt;Smashing Magazine&lt;/a&gt; on &lt;a href=&quot;https://vimeo.com&quot;&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Watch the entire presentation on &lt;a href=&quot;https://vimeo.com/163522126&quot;&gt;Vimeo&lt;/a&gt;:&lt;/p&gt;
+</description>
+        <pubDate>Fri, 29 Apr 2016 19:29:10 +0000</pubDate>
+        <link>http://2016-10-23-v1-tnd.surge.sh/article/2016/04/29/the-jam-stack.html</link>
+        <guid isPermaLink="true">http://2016-10-23-v1-tnd.surge.sh/article/2016/04/29/the-jam-stack.html</guid>
+        
+        
+        <category>article</category>
+        
+      </item>
+    
+      <item>
+        <title>Gatsby - a React.js SSB - Presented by creator Kyle Mathews (video)</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;React.js is surging in popularity as a modern build tool, and web developers are flocking to it to build sites and web apps.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Kyle Mathews is the creator of Gatsby, a React.js-based static site generator. He’s also the co-founder of RelateRocket.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;We’re bringing Kyle in to talk to you about building with React, the process of creating a static site builder, and why pairing the modern stack with git is increasingly the workflow of choice for frontend web devs.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;embed-container&quot;&gt;
+&lt;iframe width=&quot;853&quot; height=&quot;480&quot; src=&quot;https://www.youtube-nocookie.com/embed/G4LVKJOOj7o?rel=0&amp;amp;showinfo=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;embed-container&quot;&gt;
+&lt;iframe src=&quot;//www.slideshare.net/slideshow/embed_code/key/w3coSQdu31AyVS&quot; width=&quot;595&quot; height=&quot;485&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; style=&quot;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&quot; allowfullscreen=&quot;&quot;&gt; &lt;/iframe&gt; &lt;div style=&quot;margin-bottom:5px&quot;&gt; &lt;strong&gt; &lt;a href=&quot;//www.slideshare.net/kylemathews/presentation-on-gatsby-to-sf-static-web-tech-meetup&quot; title=&quot;Presentation on Gatsby to SF Static Web Tech Meetup&quot; target=&quot;_blank&quot;&gt;Presentation on Gatsby to SF Static Web Tech Meetup&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&quot;//www.slideshare.net/kylemathews&quot; target=&quot;_blank&quot;&gt;Kyle Mathews&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Mon, 11 Apr 2016 00:00:00 +0000</pubDate>
+        <link>http://2016-10-23-v1-tnd.surge.sh/event-recap/2016/04/11/react-static-site-generator-presentation-static-web-tech.html</link>
+        <guid isPermaLink="true">http://2016-10-23-v1-tnd.surge.sh/event-recap/2016/04/11/react-static-site-generator-presentation-static-web-tech.html</guid>
+        
+        
+        <category>event-recap</category>
+        
+      </item>
+    
+      <item>
+        <title>New Middleman v4.0 presented by its creator Thomas Reynolds</title>
+        <description>&lt;p&gt;Thomas Reynolds is the Technical Director at famed Portland digital agency Instrument.&lt;/p&gt;
+
+&lt;p&gt;He’s also the creator of Middleman, one of the most used static site generators for large enterprise sites like MailChimp, Sequoia Capitol and Vox Media.&lt;/p&gt;
+
+&lt;p&gt;That’s why we’re flying him to San Francisco to talk to you about the newest, largely re-written version of his creation, the static site generator Middleman!&lt;/p&gt;
+
+&lt;p&gt;Come gather with like-minded SF Static Web Techies–and bring your friends–for free food, drinks and insightful conversation about how the New Stack is changing the face of the internet.&lt;/p&gt;
+
+&lt;p&gt;Netlify &amp;amp; Wikia organize and sponsor this session of the SF Static Web Tech meetup.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.meetup.com/sf-static-web-tech/events/229493139/&quot;&gt;Go to Meetup Page&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 15 Mar 2016 17:47:00 +0000</pubDate>
+        <link>http://2016-10-23-v1-tnd.surge.sh/event/2016/03/15/New-Middleman-v4-0-presented-by-its-creator-Thomas-Reynolds.html</link>
+        <guid isPermaLink="true">http://2016-10-23-v1-tnd.surge.sh/event/2016/03/15/New-Middleman-v4-0-presented-by-its-creator-Thomas-Reynolds.html</guid>
+        
+        
+        <category>event</category>
+        
+      </item>
+    
+  </channel>
+</rss>

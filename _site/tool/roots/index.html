@@ -1,0 +1,845 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<style type="text/css">
+@font-face{
+font-family:"Avenir Next W00_n4";
+src:url("/assets/fonts/069faa0e-9913-48c4-9ef7-89a4bc080b65.eot?#iefix") format("eot")
+}
+@font-face{
+font-family:"Avenir Next W00";
+src:url("/assets/fonts/069faa0e-9913-48c4-9ef7-89a4bc080b65.eot?#iefix");
+src:url("/assets/fonts/069faa0e-9913-48c4-9ef7-89a4bc080b65.eot?#iefix") format("eot"),url("/assets/fonts/7db1f672-3a8f-4d19-9c49-7f61aed450b5.woff2") format("woff2"),url("/assets/fonts/4ab86b35-c0c2-42b5-98ad-4b6eba66b197.woff") format("woff"),url("/assets/fonts/276b3566-1c3b-4bc1-8915-15314f091f29.ttf") format("truetype"),url("/assets/fonts/5d02f5f4-46e7-453a-aef9-3e7106d7bb68.svg#5d02f5f4-46e7-453a-aef9-3e7106d7bb68") format("svg");
+font-weight: 400;
+font-style: normal;
+}
+@font-face{
+font-family:"Avenir Next W00_i4";
+src:url("/assets/fonts/78f55966-cc8e-4f4c-bf8b-8fe59be9fe96.eot?#iefix") format("eot")
+}
+@font-face{
+font-family:"Avenir Next W00";
+src:url("/assets/fonts/78f55966-cc8e-4f4c-bf8b-8fe59be9fe96.eot?#iefix");
+src:url("/assets/fonts/78f55966-cc8e-4f4c-bf8b-8fe59be9fe96.eot?#iefix") format("eot"),url("/assets/fonts/b17468ea-cf53-4635-984b-4d930a68ed4d.woff2") format("woff2"),url("/assets/fonts/4d1d0d0d-9ea6-4117-901f-8b32ca1ab936.woff") format("woff"),url("/assets/fonts/66b50093-e606-427c-a42a-a44b2f9ff219.ttf") format("truetype"),url("/assets/fonts/78695677-7ebb-4ef8-8996-eff09dc64f26.svg#78695677-7ebb-4ef8-8996-eff09dc64f26") format("svg");
+font-weight: 400;
+font-style: italic;
+}
+@font-face{
+font-family:"Avenir Next W00_n7";
+src:url("/assets/fonts/fb4117a5-14ee-4035-8692-935bfff7fc2e.eot?#iefix") format("eot")
+}
+@font-face{
+font-family:"Avenir Next W00";
+src:url("/assets/fonts/fb4117a5-14ee-4035-8692-935bfff7fc2e.eot?#iefix");
+src:url("/assets/fonts/fb4117a5-14ee-4035-8692-935bfff7fc2e.eot?#iefix") format("eot"),url("/assets/fonts/4c04fb14-abdb-4f93-82bb-734d1b84307b.woff2") format("woff2"),url("/assets/fonts/04d2f223-2786-40c9-8481-be9dd47d8e7f.woff") format("woff"),url("/assets/fonts/bce3274e-f498-48ae-b269-a6930df496e7.ttf") format("truetype"),url("/assets/fonts/68f0375d-f66f-4f88-822a-5a0b61d2efc0.svg#68f0375d-f66f-4f88-822a-5a0b61d2efc0") format("svg");
+font-weight: 700;
+font-style: normal;
+}
+@font-face{
+font-family:"Avenir Next W00_i7";
+src:url("/assets/fonts/8316f326-afe6-49dc-a5d8-cd1d521182c2.eot?#iefix") format("eot")
+}
+@font-face{
+font-family:"Avenir Next W00";
+src:url("/assets/fonts/8316f326-afe6-49dc-a5d8-cd1d521182c2.eot?#iefix");
+src:url("/assets/fonts/8316f326-afe6-49dc-a5d8-cd1d521182c2.eot?#iefix") format("eot"),url("/assets/fonts/395aeb70-3407-45d6-91b3-3d9a114af9bd.woff2") format("woff2"),url("/assets/fonts/5f0686cb-9605-4656-8b38-9b8ca092ca9b.woff") format("woff"),url("/assets/fonts/5fafc2a7-1ec9-4ba2-8d0b-836dfae0023b.ttf") format("truetype"),url("/assets/fonts/f2ab6bd3-14da-4c86-949e-eddf030a8147.svg#f2ab6bd3-14da-4c86-949e-eddf030a8147") format("svg");
+font-weight: 700;
+font-style: italic;
+}
+@font-face{
+font-family:"URW Franklin Gothic W01_n7";
+src:url("/assets/fonts/c40605b0-5302-4f69-9ad6-dd7f8f27f1a0.eot?#iefix") format("eot")
+}
+@font-face{
+font-family:"URW Franklin Gothic W01";
+src:url("/assets/fonts/c40605b0-5302-4f69-9ad6-dd7f8f27f1a0.eot?#iefix");
+src:url("/assets/fonts/c40605b0-5302-4f69-9ad6-dd7f8f27f1a0.eot?#iefix") format("eot"),url("/assets/fonts/011200c5-40ca-4ab0-98e6-d675a122d5e0.woff2") format("woff2"),url("/assets/fonts/447deeb7-22d1-417c-add1-e22d48b874df.woff") format("woff"),url("/assets/fonts/b222db6a-478d-4191-a8cb-5d4020b858a7.ttf") format("truetype"),url("/assets/fonts/0439968a-ef1e-4f09-a523-d77031577e51.svg#0439968a-ef1e-4f09-a523-d77031577e51") format("svg");
+font-weight: 700;
+font-style: normal;
+}
+</style>
+<script type="text/javascript">
+var MTIProjectId='0279604d-1ddd-4c0d-b491-eff8ca0e76df';
+ (function() {
+        var mtiTracking = document.createElement('script');
+        mtiTracking.type='text/javascript';
+        mtiTracking.async='true';
+        mtiTracking.src=('https:'==document.location.protocol?'https:':'http:')+'//fast.fonts.net/t/trackingCode.js';
+        (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild( mtiTracking );
+   })();
+</script>
+
+
+  <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <link rel="prefetch" href="/search-results/" as="html">
+      
+        <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+      
+
+      <meta name="HandheldFriendly" content="True">
+      <meta name="MobileOptimized" content="320">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+      <link href='/assets/css/main.css' rel='stylesheet' type="text/css" />
+
+      <link rel="manifest" href="http://2016-10-23-v1-tnd.surge.sh/manifest.json">
+      <meta name="generator" content="Jekyll">
+
+      <link rel="icon" href="http://2016-10-23-v1-tnd.surge.sh/favicon.ico" type="image/x-icon">
+
+      
+
+</head>
+  <body  id="container" class="development md-flex flex-column height-100 bg-off-white">
+    
+     <!-- include global/header.html %} -->
+      <main id="content" role="main" class="md-flex">
+        
+
+<header class="transition light-gray md-flex flex-column height-100 sidebar-width col-12 pl3 lg-pl2 overflow-y bg-primary-color" role="banner" data-search-index="false">
+
+
+  <a href="/" class="text-decoration-none transition sm-hideTK block white hover-silver bold font-family-brand h1 line-height-1 pt2 lg-pt3">
+    the New Dynamic
+  </a>
+
+  
+    <p class="h5 accent-color m0 bold pt1 pb2">
+      build faster better websites
+    </p>
+  
+
+
+
+  <div class="mt0 lg-mb3">
+    
+      <a class=" pr2 text-decoration-none h6 white inline-block" href="/about/" title="about">
+        about
+      </a>
+    
+      <a class=" pr2 text-decoration-none h6 white inline-block" href="/submit/" title="submit">
+        submit
+      </a>
+    
+      <a class=" pr2 text-decoration-none h6 white inline-block" href="/privacy/" title="privacy">
+        privacy
+      </a>
+    
+  </div>
+
+  <nav class="mb2">
+    
+      <a class=" text-decoration-none font-family-brand h3 pr3 py1 sm-py1 white inline-block lg-block right-align transition hover-accent-color hover-bg-brand-darken" href="/articles/" title="articles">
+        articles
+      </a>
+    
+      <a class=" text-decoration-none font-family-brand h3 pr3 py1 sm-py1 white inline-block lg-block right-align transition hover-accent-color hover-bg-brand-darken" href="/links/" title="links">
+        links
+      </a>
+    
+      <a class=" text-decoration-none font-family-brand h3 pr3 py1 sm-py1 white inline-block lg-block right-align transition hover-accent-color hover-bg-brand-darken" href="/tools/" title="tools">
+        tools
+      </a>
+    
+      <a class=" text-decoration-none font-family-brand h3 pr3 py1 sm-py1 white inline-block lg-block right-align transition hover-accent-color hover-bg-brand-darken" href="/showcase/" title="showcase">
+        showcase
+      </a>
+    
+      <a class=" text-decoration-none font-family-brand h3 pr3 py1 sm-py1 white inline-block lg-block right-align transition hover-accent-color hover-bg-brand-darken" href="/events/" title="Meetups">
+        Meetups
+      </a>
+    
+  </nav>
+
+
+  <div class="sm-hide">
+    <div class="mt3 hide">
+      
+        
+          <a href="/tools/content-management/" class="col-12 block right-align text-decoration-none white bold px2 py1 btnt fbtn-primary hover-white hover-bg-black background-color:#ABA194;">
+            Content Management
+          </a>
+        
+          <a href="/tools/helper/" class="col-12 block right-align text-decoration-none white bold px2 py1 btnt fbtn-primary hover-white hover-bg-black background-color:#aa7942;color:#FFF;">
+            Helper
+          </a>
+        
+          <a href="/tools/hosting-deployment/" class="col-12 block right-align text-decoration-none white bold px2 py1 btnt fbtn-primary hover-white hover-bg-black background-color:#826754;color:#ebebeb;">
+            Hosting-Deployment
+          </a>
+        
+          <a href="/tools/interaction/" class="col-12 block right-align text-decoration-none white bold px2 py1 btnt fbtn-primary hover-white hover-bg-black background-color:#6D545D;color:#d6d6d6;">
+            Interaction
+          </a>
+        
+          <a href="/tools/static-site-generator/" class="col-12 block right-align text-decoration-none white bold px2 py1 btnt fbtn-primary hover-white hover-bg-black background-color:#8c1613;color:#f5d69d;">
+            Static Site Generator
+          </a>
+        
+          <a href="/tools/theme/" class="col-12 block right-align text-decoration-none white bold px2 py1 btnt fbtn-primary hover-white hover-bg-black background-color:#6D676E;color:#ffffff;">
+            Themes
+          </a>
+        
+      
+        <a href="/tools/" class="col-12 right-align btn btn-primary">
+          All
+        </a>
+      
+    </div>
+    <div class="flex-auto"><!-- adds space between the menu and the search bar on the right --> </div>
+    <div class="mx2 my4 xs-hide">
+      <a href="/join-our-mailing-list/" class="btn btn-primary transition">
+        join the mailing list
+      </a>
+    </div>
+  </div>
+</header>
+
+        <div class="col-12">
+          <form role="search" action="/search-results/" method="get" data-search-index="false" class="bg-near-white col-12 m0 fit clearfix">
+  <button type="submit" class="font-family-primary line-height-1 bg-transparent white m0 py1 px2 h5 muted">
+    <img src="/uploads/site/ic_search_black_24px.svg" alt="Search Icon" class="inlne-block secondary-text-color">
+  </button>
+  <input type="search" aria-label="search" autocomplete="off" placeholder="search" name="query" id="search-box"
+  class="col-10 mt1 py1 pr2 pl0 lg-px2 xlg-wide not-rounded rounded-left h4 font-family-primary disabled-text-color hover-white border-muted"/>
+</form>
+
+
+<style media="screen">
+  input.col-10:focus {
+
+    opacity: .5;
+  }
+</style>
+
+          <div class="pt2 pr3 pb3 pl3">
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="clearfix col-12 mb3">
+  
+    
+    
+      <a href="/tools/static-site-generator/" class="mb4 btn btn-primary bg-primary-color-dark text-decoration-none hover-white hover-bg-black" style="background-color:#8c1613;">
+  Static Site Generator
+</a>
+
+<!-- color:#f5d69d -->
+
+    
+  
+</div>
+
+<h1 class="m0 md-h00">
+  Roots
+</h1>
+
+
+<div class="flex flex-wrap">
+
+  <div class="col-12 sm-col-6 md-col-6 lg-col-4 rounded pr2 mb2 black text-decoration-none pr2 ">
+    <div class="pb1 pt1 relative hover-bg-primary-color-dark hover-text-on-primary-color bg-primary-color-light px2 pb2">
+      <p>Roots is a static site compiler, that generates static html, css, and javascript files. It’s very good at helping to build static front-ends. It is sponsored heavily by Carrot Creative, and makes frequent, highly variable builds quicker and easier for freelancers and agencies. It’s a truly excellent framework for quickly and easily building small to medium sized front-ends of any kind.</p>
+
+
+      
+        <a href="http://roots.cx/" class="btn btn-outline text-decoration-none hover-primary-color-light hover-bg-accent-color pr2">
+          website
+        </a>
+      
+      
+      
+
+      
+
+    </div>
+  </div>
+
+  
+
+  
+
+</div>
+
+
+
+
+    <h2 id="showcase">
+      Showcase Sites
+    </h2>
+<div class="flex flex-wrap">
+      
+      
+      
+      
+      
+      
+      
+        <a href="/showcase/earlylightmedia-com/" class="col-12 sm-col-6 md-col-6 lg-col-6 sm-pr3 mb4 black text-decoration-none">
+    <div class="hide-child-until-hover relative transition">
+      <img src="https://thenewdynamic.imgix.net/showcase-earlylightmedia-roots.jpg" alt="" class="border border-divider-color z1" />
+    <div class="hidden-child center absolute top-0 right-0 bottom-0 bg-primary-color-dark white z2 col-12 " style="padding-top:20%;">
+      <div class="h2 px2">
+        earlylightmedia.com
+      </div>
+      
+        <div class="btn btn-outline h6">
+          roots
+        </div>
+      
+    </div>
+  </div>
+</a>
+
+      
+      
+      
+      
+      
+      
+      
+        <a href="/showcase/malala-org/" class="col-12 sm-col-6 md-col-6 lg-col-6 sm-pr3 mb4 black text-decoration-none">
+    <div class="hide-child-until-hover relative transition">
+      <img src="https://thenewdynamic.imgix.net/showcase-malala-org-roots-static-site-generator.jpg" alt="" class="border border-divider-color z1" />
+    <div class="hidden-child center absolute top-0 right-0 bottom-0 bg-primary-color-dark white z2 col-12 " style="padding-top:20%;">
+      <div class="h2 px2">
+        Malala.org
+      </div>
+      
+        <div class="btn btn-outline h6">
+          roots
+        </div>
+      
+        <div class="btn btn-outline h6">
+          contentful
+        </div>
+      
+    </div>
+  </div>
+</a>
+
+      
+
+  </div>
+
+
+
+
+
+  
+  <h2 id="links">
+    Related Links
+  </h2>
+  <div class="flex flex-wrap">
+    
+      <ul class="list-reset md-col-4 pr2 mb0">
+        <li class="dont-display-child-until-hover my1 px2 py1 bg-near-white hover-bg-silver col-12 transition">
+
+  <a href="http://davideglin.co.uk/on/code/roots-gitlab-and-forge-static-site-process.html?utm_source=thenewdynamic.org&utm_medium=website&utm_campaign=links" target="_blank" class="text-decoration-none">
+    <div class="name black hover-blue">
+      Static site nirvana: Roots, GitLab CI and Forge in unison
+    </div>
+    
+      <small class="gray source">
+        by David Eglin
+      </small>
+    
+    <span class="type hide">
+      Tutorial
+    </span>
+    <span class="recommended">
+      
+    </span>
+    
+  </a>
+
+  <div class="hidden-child h6 transition">
+    <em>
+      Jul 25, 16
+    </em>
+    
+      <br />
+      
+
+    
+    
+  </div>
+
+</li>
+
+      </ul>
+    
+      <ul class="list-reset md-col-4 pr2 mb0">
+        <li class="dont-display-child-until-hover my1 px2 py1 bg-near-white hover-bg-silver col-12 transition">
+
+  <a href="https://medium.com/@_phzn/roots-a-delightful-static-site-generator-get-started-in-20-minutes-f7aaab43056d#.2qav67rq2?utm_source=thenewdynamic.org&utm_medium=website&utm_campaign=links" target="_blank" class="text-decoration-none">
+    <div class="name black hover-blue">
+      Roots — a delightful Static Site Generator. Get started in 20 minutes.
+    </div>
+    
+      <small class="gray source">
+        by Kevin Lewis
+      </small>
+    
+    <span class="type hide">
+      Tutorial
+    </span>
+    <span class="recommended">
+      
+    </span>
+    
+  </a>
+
+  <div class="hidden-child h6 transition">
+    <em>
+      Apr 20, 16
+    </em>
+    
+      <br />
+      <p>In this tutorial, we’ll run through a delightful SSG called Roots, which I was introduced to by James. We’ll get through an installation, get a basic website built and then get it live by deploying it on GitHub Pages, which is free to use.</p>
+
+
+    
+    
+  </div>
+
+</li>
+
+      </ul>
+    
+      <ul class="list-reset md-col-4 pr2 mb0">
+        <li class="dont-display-child-until-hover my1 px2 py1 bg-near-white hover-bg-silver col-12 transition">
+
+  <a href="http://engineering.wework.com/engineering/2015/12/08/why-wework-com-uses-a-static-generator-and-why-you-should-too/?utm_source=thenewdynamic.org&utm_medium=website&utm_campaign=links" target="_blank" class="text-decoration-none">
+    <div class="name black hover-blue">
+      Why WeWork.com uses a static generator and why you should too
+    </div>
+    
+      <small class="gray source">
+        by Ramin Bozorgzadeh, WeWork
+      </small>
+    
+    <span class="type hide">
+      Resource/Website
+    </span>
+    <span class="recommended">
+      
+    </span>
+    
+  </a>
+
+  <div class="hidden-child h6 transition">
+    <em>
+      Dec 09, 15
+    </em>
+    
+      <br />
+      
+
+    
+    
+  </div>
+
+</li>
+
+      </ul>
+    
+      <ul class="list-reset md-col-4 pr2 mb0">
+        <li class="dont-display-child-until-hover my1 px2 py1 bg-near-white hover-bg-silver col-12 transition">
+
+  <a href="http://www.smashingmagazine.com/2015/11/static-website-generators-jekyll-middleman-roots-hugo-review/?utm_source=thenewdynamic.org&utm_medium=website&utm_campaign=links" target="_blank" class="text-decoration-none">
+    <div class="name black hover-blue">
+      Static Website Generators Reviewed: Jekyll, Middleman, Roots, Hugo
+    </div>
+    
+      <small class="gray source">
+        by Mathias Biilmann, Smashing Magazine
+      </small>
+    
+    <span class="type hide">
+      Review
+    </span>
+    <span class="recommended">
+      
+        <i class="icons-ion-ios-star-outline"></i>
+      
+    </span>
+    
+  </a>
+
+  <div class="hidden-child h6 transition">
+    <em>
+      Nov 16, 15
+    </em>
+    
+      <br />
+      <p>Static website generation is quickly becoming a big part of the professional website builder’s toolbox. A new static website generator seems to pop up every week. Figuring out which one to use can be like a walk in the jungle.</p>
+
+
+    
+    
+  </div>
+
+</li>
+
+      </ul>
+    
+      <ul class="list-reset md-col-4 pr2 mb0">
+        <li class="dont-display-child-until-hover my1 px2 py1 bg-near-white hover-bg-silver col-12 transition">
+
+  <a href="http://roots.cx/articles/hybrid-static/?utm_source=thenewdynamic.org&utm_medium=website&utm_campaign=links" target="_blank" class="text-decoration-none">
+    <div class="name black hover-blue">
+      Hybrid Static: A New App Architecture
+    </div>
+    
+      <small class="gray source">
+        by Roots.cx
+      </small>
+    
+    <span class="type hide">
+      Article
+    </span>
+    <span class="recommended">
+      
+    </span>
+    
+  </a>
+
+  <div class="hidden-child h6 transition">
+    <em>
+      Oct 02, 15
+    </em>
+    
+      <br />
+      
+
+    
+    
+  </div>
+
+</li>
+
+      </ul>
+    
+      <ul class="list-reset md-col-4 pr2 mb0">
+        <li class="dont-display-child-until-hover my1 px2 py1 bg-near-white hover-bg-silver col-12 transition">
+
+  <a href="https://speakerdeck.com/philhawksworth/static-sites-go-all-hollywood/?utm_source=thenewdynamic.org&utm_medium=website&utm_campaign=links" target="_blank" class="text-decoration-none">
+    <div class="name black hover-blue">
+      Static sites go all Hollywood
+    </div>
+    
+      <small class="gray source">
+        by Phil Hawksworth
+      </small>
+    
+    <span class="type hide">
+      Video/Presentation
+    </span>
+    <span class="recommended">
+      
+    </span>
+    
+  </a>
+
+  <div class="hidden-child h6 transition">
+    <em>
+      Sep 22, 15
+    </em>
+    
+      <br />
+      <p>The popularity of building web sites with static site generators is on the rise. Their reduced complexity, easier compliance, cheaper hosting, and other benefits are getting people’s attention, but they do have limits.</p>
+
+<p>This talk will explore how we can break through some of those limits with the use of a new breed of hosted tools and services. We’ll look at practical examples of how a static site generator can help deliver a modern web development workflow, support a living styleguide, and also pack the kind of dynamic punch that you’d only think possible from bigger application stacks.</p>
+
+    
+    
+  </div>
+
+</li>
+
+      </ul>
+    
+      <ul class="list-reset md-col-4 pr2 mb0">
+        <li class="dont-display-child-until-hover my1 px2 py1 bg-near-white hover-bg-silver col-12 transition">
+
+  <a href="https://www.contentful.com/r/knowledgebase/contentful-api-cms-static-site-generators/?utm_source=thenewdynamic.org&utm_medium=website&utm_campaign=links" target="_blank" class="text-decoration-none">
+    <div class="name black hover-blue">
+      CMS-functionality for static site generators
+    </div>
+    
+      <small class="gray source">
+        by Contentful
+      </small>
+    
+    <span class="type hide">
+      Article
+    </span>
+    <span class="recommended">
+      
+    </span>
+    
+  </a>
+
+  <div class="hidden-child h6 transition">
+    <em>
+      Mar 02, 15
+    </em>
+    
+      <br />
+      <p>Why on earth would I ever want my CMS back…</p>
+
+
+    
+    
+  </div>
+
+</li>
+
+      </ul>
+    
+      <ul class="list-reset md-col-4 pr2 mb0">
+        <li class="dont-display-child-until-hover my1 px2 py1 bg-near-white hover-bg-silver col-12 transition">
+
+  <a href="http://roots.cx/?utm_source=thenewdynamic.org&utm_medium=website&utm_campaign=links" target="_blank" class="text-decoration-none">
+    <div class="name black hover-blue">
+      The new Roots.cx is live as well as Roots 3.0
+    </div>
+    
+      <small class="gray source">
+        by Roots
+      </small>
+    
+    <span class="type hide">
+      News
+    </span>
+    <span class="recommended">
+      
+    </span>
+    
+  </a>
+
+  <div class="hidden-child h6 transition">
+    <em>
+      Jan 19, 15
+    </em>
+    
+      <br />
+      
+
+    
+    
+  </div>
+
+</li>
+
+      </ul>
+    
+      <ul class="list-reset md-col-4 pr2 mb0">
+        <li class="dont-display-child-until-hover my1 px2 py1 bg-near-white hover-bg-silver col-12 transition">
+
+  <a href="http://carrot.is/coding/static_cms/?utm_source=thenewdynamic.org&utm_medium=website&utm_campaign=links" target="_blank" class="text-decoration-none">
+    <div class="name black hover-blue">
+      Building a Static CMS
+    </div>
+    
+    <span class="type hide">
+      Article
+    </span>
+    <span class="recommended">
+      
+    </span>
+    
+  </a>
+
+  <div class="hidden-child h6 transition">
+    <em>
+      Dec 05, 14
+    </em>
+    
+      <br />
+      <p>We ended up finding two great services, Contentful and Netlify, that worked well with our current toolset to achieve the Holy Grail: a static CMS.</p>
+
+
+    
+    
+  </div>
+
+</li>
+
+      </ul>
+    
+      <ul class="list-reset md-col-4 pr2 mb0">
+        <li class="dont-display-child-until-hover my1 px2 py1 bg-near-white hover-bg-silver col-12 transition">
+
+  <a href="http://developer.telerik.com/featured/comparing-static-site-engines/?utm_source=thenewdynamic.org&utm_medium=website&utm_campaign=links" target="_blank" class="text-decoration-none">
+    <div class="name black hover-blue">
+      Static Site Engine Battle Royale
+    </div>
+    
+      <small class="gray source">
+        by Brian Rinaldi
+      </small>
+    
+    <span class="type hide">
+      Article
+    </span>
+    <span class="recommended">
+      
+    </span>
+    
+  </a>
+
+  <div class="hidden-child h6 transition">
+    <em>
+      Jul 07, 14
+    </em>
+    
+      <br />
+      
+
+    
+    
+  </div>
+
+</li>
+
+      </ul>
+    
+      <ul class="list-reset md-col-4 pr2 mb0">
+        <li class="dont-display-child-until-hover my1 px2 py1 bg-near-white hover-bg-silver col-12 transition">
+
+  <a href="http://carrot.is/coding/static/?utm_source=thenewdynamic.org&utm_medium=website&utm_campaign=links" target="_blank" class="text-decoration-none">
+    <div class="name black hover-blue">
+      Static, A Revival
+    </div>
+    
+      <small class="gray source">
+        by Kyle MacDonald, Carrot Creative
+      </small>
+    
+    <span class="type hide">
+      Article
+    </span>
+    <span class="recommended">
+      
+        <i class="icons-ion-ios-star-outline"></i>
+      
+    </span>
+    
+  </a>
+
+  <div class="hidden-child h6 transition">
+    <em>
+      Oct 16, 13
+    </em>
+    
+      <br />
+      <p>The next time you build for the web, I ask you to consider the merits of static. Now that the modern development environments are nearly equal, ask these questions: Do the advantages of static outweigh it’s disadvantages? How often will my project need to be updated and how close to real-time do I require those changes? Am I causing myself any unneeded overhead by adding the complexity of a server-side language and database? Which technique is going to be the most fun?</p>
+
+
+    
+    
+  </div>
+
+</li>
+
+      </ul>
+    
+      <ul class="list-reset md-col-4 pr2 mb0">
+        <li class="dont-display-child-until-hover my1 px2 py1 bg-near-white hover-bg-silver col-12 transition">
+
+  <a href="http://carrot.is/coding/roots_blog_tutorial/?utm_source=thenewdynamic.org&utm_medium=website&utm_campaign=links" target="_blank" class="text-decoration-none">
+    <div class="name black hover-blue">
+      Building a Simple Blog with Roots
+    </div>
+    
+      <small class="gray source">
+        by Jeff Escalante, Carrot Creative
+      </small>
+    
+    <span class="type hide">
+      Tutorial
+    </span>
+    <span class="recommended">
+      
+    </span>
+    
+  </a>
+
+  <div class="hidden-child h6 transition">
+    <em>
+      Jun 24, 13
+    </em>
+    
+      <br />
+      <p>Roots is an advanced static site build tool that we’ve developed in house and used on quite a number of high-visibility projects, including the entirety of carrot.is. Much like jekyll, you can use roots for publishing and dynamic content, which makes it a great fit for building simple blogs. In this post, we’ll walk through how to use roots to get a basic blog like this one built and deployed in a matter of minutes.</p>
+
+
+    
+    
+  </div>
+
+</li>
+
+      </ul>
+    
+  </div>
+
+
+          </div>
+        </div>
+      </div>
+    <!-- <script type="text/javascript" src="/static/js/dist/scripts-concatenated.min.js" asyn="true"></script> -->
+
+
+<script type="text/javascript">
+  WebFontConfig = {
+    google: { families: [ 'Lato:400,400italic,700,700italic:latin' ] }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })(); </script>
+
+
+
+
+<script>
+  document.body.onkeyup = function(e){
+    
+      if (e.keyCode == '37') { window.location = '/tool/docpad/'; }
+    
+    
+      if (e.keyCode == '39') { window.location = '/tool/drupan/'; }
+    
+  };
+</script>
+
+    
+  </body>
+</html>

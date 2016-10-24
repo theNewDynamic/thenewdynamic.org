@@ -1,0 +1,579 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<style type="text/css">
+@font-face{
+font-family:"Avenir Next W00_n4";
+src:url("/assets/fonts/069faa0e-9913-48c4-9ef7-89a4bc080b65.eot?#iefix") format("eot")
+}
+@font-face{
+font-family:"Avenir Next W00";
+src:url("/assets/fonts/069faa0e-9913-48c4-9ef7-89a4bc080b65.eot?#iefix");
+src:url("/assets/fonts/069faa0e-9913-48c4-9ef7-89a4bc080b65.eot?#iefix") format("eot"),url("/assets/fonts/7db1f672-3a8f-4d19-9c49-7f61aed450b5.woff2") format("woff2"),url("/assets/fonts/4ab86b35-c0c2-42b5-98ad-4b6eba66b197.woff") format("woff"),url("/assets/fonts/276b3566-1c3b-4bc1-8915-15314f091f29.ttf") format("truetype"),url("/assets/fonts/5d02f5f4-46e7-453a-aef9-3e7106d7bb68.svg#5d02f5f4-46e7-453a-aef9-3e7106d7bb68") format("svg");
+font-weight: 400;
+font-style: normal;
+}
+@font-face{
+font-family:"Avenir Next W00_i4";
+src:url("/assets/fonts/78f55966-cc8e-4f4c-bf8b-8fe59be9fe96.eot?#iefix") format("eot")
+}
+@font-face{
+font-family:"Avenir Next W00";
+src:url("/assets/fonts/78f55966-cc8e-4f4c-bf8b-8fe59be9fe96.eot?#iefix");
+src:url("/assets/fonts/78f55966-cc8e-4f4c-bf8b-8fe59be9fe96.eot?#iefix") format("eot"),url("/assets/fonts/b17468ea-cf53-4635-984b-4d930a68ed4d.woff2") format("woff2"),url("/assets/fonts/4d1d0d0d-9ea6-4117-901f-8b32ca1ab936.woff") format("woff"),url("/assets/fonts/66b50093-e606-427c-a42a-a44b2f9ff219.ttf") format("truetype"),url("/assets/fonts/78695677-7ebb-4ef8-8996-eff09dc64f26.svg#78695677-7ebb-4ef8-8996-eff09dc64f26") format("svg");
+font-weight: 400;
+font-style: italic;
+}
+@font-face{
+font-family:"Avenir Next W00_n7";
+src:url("/assets/fonts/fb4117a5-14ee-4035-8692-935bfff7fc2e.eot?#iefix") format("eot")
+}
+@font-face{
+font-family:"Avenir Next W00";
+src:url("/assets/fonts/fb4117a5-14ee-4035-8692-935bfff7fc2e.eot?#iefix");
+src:url("/assets/fonts/fb4117a5-14ee-4035-8692-935bfff7fc2e.eot?#iefix") format("eot"),url("/assets/fonts/4c04fb14-abdb-4f93-82bb-734d1b84307b.woff2") format("woff2"),url("/assets/fonts/04d2f223-2786-40c9-8481-be9dd47d8e7f.woff") format("woff"),url("/assets/fonts/bce3274e-f498-48ae-b269-a6930df496e7.ttf") format("truetype"),url("/assets/fonts/68f0375d-f66f-4f88-822a-5a0b61d2efc0.svg#68f0375d-f66f-4f88-822a-5a0b61d2efc0") format("svg");
+font-weight: 700;
+font-style: normal;
+}
+@font-face{
+font-family:"Avenir Next W00_i7";
+src:url("/assets/fonts/8316f326-afe6-49dc-a5d8-cd1d521182c2.eot?#iefix") format("eot")
+}
+@font-face{
+font-family:"Avenir Next W00";
+src:url("/assets/fonts/8316f326-afe6-49dc-a5d8-cd1d521182c2.eot?#iefix");
+src:url("/assets/fonts/8316f326-afe6-49dc-a5d8-cd1d521182c2.eot?#iefix") format("eot"),url("/assets/fonts/395aeb70-3407-45d6-91b3-3d9a114af9bd.woff2") format("woff2"),url("/assets/fonts/5f0686cb-9605-4656-8b38-9b8ca092ca9b.woff") format("woff"),url("/assets/fonts/5fafc2a7-1ec9-4ba2-8d0b-836dfae0023b.ttf") format("truetype"),url("/assets/fonts/f2ab6bd3-14da-4c86-949e-eddf030a8147.svg#f2ab6bd3-14da-4c86-949e-eddf030a8147") format("svg");
+font-weight: 700;
+font-style: italic;
+}
+@font-face{
+font-family:"URW Franklin Gothic W01_n7";
+src:url("/assets/fonts/c40605b0-5302-4f69-9ad6-dd7f8f27f1a0.eot?#iefix") format("eot")
+}
+@font-face{
+font-family:"URW Franklin Gothic W01";
+src:url("/assets/fonts/c40605b0-5302-4f69-9ad6-dd7f8f27f1a0.eot?#iefix");
+src:url("/assets/fonts/c40605b0-5302-4f69-9ad6-dd7f8f27f1a0.eot?#iefix") format("eot"),url("/assets/fonts/011200c5-40ca-4ab0-98e6-d675a122d5e0.woff2") format("woff2"),url("/assets/fonts/447deeb7-22d1-417c-add1-e22d48b874df.woff") format("woff"),url("/assets/fonts/b222db6a-478d-4191-a8cb-5d4020b858a7.ttf") format("truetype"),url("/assets/fonts/0439968a-ef1e-4f09-a523-d77031577e51.svg#0439968a-ef1e-4f09-a523-d77031577e51") format("svg");
+font-weight: 700;
+font-style: normal;
+}
+</style>
+<script type="text/javascript">
+var MTIProjectId='0279604d-1ddd-4c0d-b491-eff8ca0e76df';
+ (function() {
+        var mtiTracking = document.createElement('script');
+        mtiTracking.type='text/javascript';
+        mtiTracking.async='true';
+        mtiTracking.src=('https:'==document.location.protocol?'https:':'http:')+'//fast.fonts.net/t/trackingCode.js';
+        (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild( mtiTracking );
+   })();
+</script>
+
+
+  <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <link rel="prefetch" href="/search-results/" as="html">
+      
+        <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+      
+
+      <meta name="HandheldFriendly" content="True">
+      <meta name="MobileOptimized" content="320">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+      <link href='/assets/css/main.css' rel='stylesheet' type="text/css" />
+
+      <link rel="manifest" href="http://2016-10-23-v1-tnd.surge.sh/manifest.json">
+      <meta name="generator" content="Jekyll">
+
+      <link rel="icon" href="http://2016-10-23-v1-tnd.surge.sh/favicon.ico" type="image/x-icon">
+
+      
+
+</head>
+  <body  id="container" class="development md-flex flex-column height-100 bg-off-white">
+    
+     <!-- include global/header.html %} -->
+      <main id="content" role="main" class="md-flex">
+        
+
+<header class="transition light-gray md-flex flex-column height-100 sidebar-width col-12 pl3 lg-pl2 overflow-y bg-primary-color" role="banner" data-search-index="false">
+
+
+  <a href="/" class="text-decoration-none transition sm-hideTK block white hover-silver bold font-family-brand h1 line-height-1 pt2 lg-pt3">
+    the New Dynamic
+  </a>
+
+  
+    <p class="h5 accent-color m0 bold pt1 pb2">
+      build faster better websites
+    </p>
+  
+
+
+
+  <div class="mt0 lg-mb3">
+    
+      <a class=" pr2 text-decoration-none h6 white inline-block" href="/about/" title="about">
+        about
+      </a>
+    
+      <a class=" bg-brand-darken pr2 text-decoration-none h6 white inline-block" href="/submit/" title="submit">
+        submit
+      </a>
+    
+      <a class=" pr2 text-decoration-none h6 white inline-block" href="/privacy/" title="privacy">
+        privacy
+      </a>
+    
+  </div>
+
+  <nav class="mb2">
+    
+      <a class=" text-decoration-none font-family-brand h3 pr3 py1 sm-py1 white inline-block lg-block right-align transition hover-accent-color hover-bg-brand-darken" href="/articles/" title="articles">
+        articles
+      </a>
+    
+      <a class=" text-decoration-none font-family-brand h3 pr3 py1 sm-py1 white inline-block lg-block right-align transition hover-accent-color hover-bg-brand-darken" href="/links/" title="links">
+        links
+      </a>
+    
+      <a class=" text-decoration-none font-family-brand h3 pr3 py1 sm-py1 white inline-block lg-block right-align transition hover-accent-color hover-bg-brand-darken" href="/tools/" title="tools">
+        tools
+      </a>
+    
+      <a class=" text-decoration-none font-family-brand h3 pr3 py1 sm-py1 white inline-block lg-block right-align transition hover-accent-color hover-bg-brand-darken" href="/showcase/" title="showcase">
+        showcase
+      </a>
+    
+      <a class=" text-decoration-none font-family-brand h3 pr3 py1 sm-py1 white inline-block lg-block right-align transition hover-accent-color hover-bg-brand-darken" href="/events/" title="Meetups">
+        Meetups
+      </a>
+    
+  </nav>
+
+
+  <div class="sm-hide">
+    <div class="mt3 hide">
+      
+        
+          <a href="/tools/content-management/" class="col-12 block right-align text-decoration-none white bold px2 py1 btnt fbtn-primary hover-white hover-bg-black background-color:#ABA194;">
+            Content Management
+          </a>
+        
+          <a href="/tools/helper/" class="col-12 block right-align text-decoration-none white bold px2 py1 btnt fbtn-primary hover-white hover-bg-black background-color:#aa7942;color:#FFF;">
+            Helper
+          </a>
+        
+          <a href="/tools/hosting-deployment/" class="col-12 block right-align text-decoration-none white bold px2 py1 btnt fbtn-primary hover-white hover-bg-black background-color:#826754;color:#ebebeb;">
+            Hosting-Deployment
+          </a>
+        
+          <a href="/tools/interaction/" class="col-12 block right-align text-decoration-none white bold px2 py1 btnt fbtn-primary hover-white hover-bg-black background-color:#6D545D;color:#d6d6d6;">
+            Interaction
+          </a>
+        
+          <a href="/tools/static-site-generator/" class="col-12 block right-align text-decoration-none white bold px2 py1 btnt fbtn-primary hover-white hover-bg-black background-color:#8c1613;color:#f5d69d;">
+            Static Site Generator
+          </a>
+        
+          <a href="/tools/theme/" class="col-12 block right-align text-decoration-none white bold px2 py1 btnt fbtn-primary hover-white hover-bg-black background-color:#6D676E;color:#ffffff;">
+            Themes
+          </a>
+        
+      
+        <a href="/tools/" class="col-12 right-align btn btn-primary">
+          All
+        </a>
+      
+    </div>
+    <div class="flex-auto"><!-- adds space between the menu and the search bar on the right --> </div>
+    <div class="mx2 my4 xs-hide">
+      <a href="/join-our-mailing-list/" class="btn btn-primary transition">
+        join the mailing list
+      </a>
+    </div>
+  </div>
+</header>
+
+        <div class="col-12">
+          <form role="search" action="/search-results/" method="get" data-search-index="false" class="bg-near-white col-12 m0 fit clearfix">
+  <button type="submit" class="font-family-primary line-height-1 bg-transparent white m0 py1 px2 h5 muted">
+    <img src="/uploads/site/ic_search_black_24px.svg" alt="Search Icon" class="inlne-block secondary-text-color">
+  </button>
+  <input type="search" aria-label="search" autocomplete="off" placeholder="search" name="query" id="search-box"
+  class="col-10 mt1 py1 pr2 pl0 lg-px2 xlg-wide not-rounded rounded-left h4 font-family-primary disabled-text-color hover-white border-muted"/>
+</form>
+
+
+<style media="screen">
+  input.col-10:focus {
+
+    opacity: .5;
+  }
+</style>
+
+          <div class="pt2 pr3 pb3 pl3">
+            
+
+  <div class="col-12 md-col-8 mx-auto">
+    
+      
+        <a href="/submit-showcase-site/" class="btn btn-primary">Submit a Showcase Site</a>
+      
+    
+      
+        <a href="/submit-tool/" class="btn btn-primary">Submit a Tool</a>
+      
+    
+      
+    
+  </div>
+
+
+<div class="mx-auto bg-white moon-gray col-12 md-col-10 lg-col-7 bordertk rounded border-silver mb4 pb4">
+  
+    <h1>
+      Submit a Link, Showcase Site, or Tool
+    </h1>
+  
+  <p>If you want to submit a link or tool or a site for the showcase, give us a shout on Twitter: <a href="https://twitter.com/thenewdynamic">@thenewdynamic</a>, or, for a faster response, fill out the form below.</p>
+
+  
+    
+    
+<form method="POST" action="https://api.staticman.net/v1/entry/budparr/thenewdynamic/master">
+  <input name="options[redirect]" tabindex="1"  type="hidden" value="http://2016-10-23-v1-tnd.surge.sh/thank-you/">
+  <!-- e.g. "2016-01-02-this-is-a-post" -->
+  <input name="options[slug]" type="hidden" value="2016-47-10/24/16-link">
+
+
+  
+    <input aria-label="Type of LInk" class="inline-block h4 my3 mr1" type="radio" name="fields[tool_type]" tabindex="1" value="Article" checked/><span class="h5 mr2">Article</span>
+  
+    <input aria-label="Type of LInk" class="inline-block h4 my3 mr1" type="radio" name="fields[tool_type]" tabindex="1" value="Tutorial"/><span class="h5 mr2">Tutorial</span>
+  
+    <input aria-label="Type of LInk" class="inline-block h4 my3 mr1" type="radio" name="fields[tool_type]" tabindex="1" value="Presentation"/><span class="h5 mr2">Presentation</span>
+  
+
+  <input required id="title" aria-label="title" class="input transition" name="fields[title]" placeholder="Title of the Article" tabindex="2" type="text">
+
+  <input required id="name" aria-label="name" class="input transition" name="fields[source]" placeholder="Name of the person who wrote the article" tabindex="3" type="text">
+  <span class="feedback" aria-live="polite"></span>
+
+
+  <input required pattern="https?://.+" class="input link" aria-label="link" name="fields[link]" placeholder="Link to the article e.g. http://example.com" tabindex="4"  type="text">
+  <span class="feedback" aria-live="polite"></span>
+
+  <select class="select" multiple class="select-multiple" aria-label="select the tool" name="fields[tool]" tabindex="5" style="height:auto !important;">
+    <option class="muted" selected> -- Related Tool -- </option>
+    
+      <option class="block h4 mr2" value="aerobatic">Aerobatic</option>
+    
+      <option class="block h4 mr2" value="algolia">Algolia Hosted Search</option>
+    
+      <option class="block h4 mr2" value="appolo">Appolo</option>
+    
+      <option class="block h4 mr2" value="assemble">Assemble</option>
+    
+      <option class="block h4 mr2" value="bitballoon">BitBalloon</option>
+    
+      <option class="block h4 mr2" value="bowtie">BowTie.io</option>
+    
+      <option class="block h4 mr2" value="brunch">Brunch</option>
+    
+      <option class="block h4 mr2" value="buster">Buster</option>
+    
+      <option class="block h4 mr2" value="cloudcannon">CloudCannon</option>
+    
+      <option class="block h4 mr2" value="cloudflare">CloudFlare</option>
+    
+      <option class="block h4 mr2" value="codeship">Codeship</option>
+    
+      <option class="block h4 mr2" value="coil-cms">Coil CMS</option>
+    
+      <option class="block h4 mr2" value="contentful">Contentful</option>
+    
+      <option class="block h4 mr2" value="crossbow">Crossbow</option>
+    
+      <option class="block h4 mr2" value="docpad">Docpad</option>
+    
+      <option class="block h4 mr2" value="dr-jekylls-themes">Dr. Jekyll's Themes</option>
+    
+      <option class="block h4 mr2" value="drive-cms">Drive CMS</option>
+    
+      <option class="block h4 mr2" value="drupan">Drupan</option>
+    
+      <option class="block h4 mr2" value="federalist">Federalist</option>
+    
+      <option class="block h4 mr2" value="firebase-hosting">Firebase Hosting</option>
+    
+      <option class="block h4 mr2" value="flatmarket">Flatmarket</option>
+    
+      <option class="block h4 mr2" value="forestry">Forestry</option>
+    
+      <option class="block h4 mr2" value="forge">Forge</option>
+    
+      <option class="block h4 mr2" value="form-keep">Form Keep</option>
+    
+      <option class="block h4 mr2" value="formspree">Formspree</option>
+    
+      <option class="block h4 mr2" value="a-free-jekyll-website-template-for-nonprofits">Free Jekyll Website Template for Nonprofits</option>
+    
+      <option class="block h4 mr2" value="full-calendar">Full Calendar</option>
+    
+      <option class="block h4 mr2" value="fusejs-search">Fuse.js Search</option>
+    
+      <option class="block h4 mr2" value="gatsby">Gatsby</option>
+    
+      <option class="block h4 mr2" value="github-pages">Github Pages</option>
+    
+      <option class="block h4 mr2" value="gitlab-pages">Gitlab Pages</option>
+    
+      <option class="block h4 mr2" value="google-cloud-storage">Google Cloud Storage</option>
+    
+      <option class="block h4 mr2" value="google-custom-search-engine">Google Custom Search Engine</option>
+    
+      <option class="block h4 mr2" value="grav">Grav</option>
+    
+      <option class="block h4 mr2" value="grunt">Grunt</option>
+    
+      <option class="block h4 mr2" value="gulp">Gulp</option>
+    
+      <option class="block h4 mr2" value="hammer-for-mac">Hammer for Mac</option>
+    
+      <option class="block h4 mr2" value="harp">Harp</option>
+    
+      <option class="block h4 mr2" value="harp-platform">Harp Platform</option>
+    
+      <option class="block h4 mr2" value="harpoon">Harpoon</option>
+    
+      <option class="block h4 mr2" value="heroku">Heroku</option>
+    
+      <option class="block h4 mr2" value="hexo">Hexo</option>
+    
+      <option class="block h4 mr2" value="hexo-admin">Hexo Admin</option>
+    
+      <option class="block h4 mr2" value="Hook-Forms">Hook Forms</option>
+    
+      <option class="block h4 mr2" value="hugo">Hugo</option>
+    
+      <option class="block h4 mr2" value="hugo-themes">Hugo Themes</option>
+    
+      <option class="block h4 mr2" value="hyde">Hyde</option>
+    
+      <option class="block h4 mr2" value="jekyll">Jekyll</option>
+    
+      <option class="block h4 mr2" value="jekyll-admin">Jekyll Admin</option>
+    
+      <option class="block h4 mr2" value="jekyll-cheatsheat">Jekyll Cheatsheet</option>
+    
+      <option class="block h4 mr2" value="jekyll-gdrive-plugin">Jekyll Gdrive Plugin</option>
+    
+      <option class="block h4 mr2" value="jekyll-hook">Jekyll Hook</option>
+    
+      <option class="block h4 mr2" value="jekyll-search-with-json">Jekyll Search with JSON</option>
+    
+      <option class="block h4 mr2" value="jekyll-themes">Jekyll Themes</option>
+    
+      <option class="block h4 mr2" value="jekyll-lambda">Jekyll-lambda</option>
+    
+      <option class="block h4 mr2" value="kickster">Kickster</option>
+    
+      <option class="block h4 mr2" value="kirby">Kirby</option>
+    
+      <option class="block h4 mr2" value="knownly">Knownly</option>
+    
+      <option class="block h4 mr2" value="lanyon">Lanyon</option>
+    
+      <option class="block h4 mr2" value="listjs">List.js</option>
+    
+      <option class="block h4 mr2" value="lunrjs">Lunr.js</option>
+    
+      <option class="block h4 mr2" value="made-mistakes-jekyll-themes">Made Mistakes Jekyll Themes</option>
+    
+      <option class="block h4 mr2" value="marsupio">Marsupi</option>
+    
+      <option class="block h4 mr2" value="meet-hyde">Meet Hyde</option>
+    
+      <option class="block h4 mr2" value="metalsmith">Metalsmith</option>
+    
+      <option class="block h4 mr2" value="middleman">Middleman</option>
+    
+      <option class="block h4 mr2" value="middleman-blog-editor">Middleman Blog Editor</option>
+    
+      <option class="block h4 mr2" value="nanoc">Nanoc</option>
+    
+      <option class="block h4 mr2" value="netlify">Netlify</option>
+    
+      <option class="block h4 mr2" value="netlify-cms">Netlify CMS</option>
+    
+      <option class="block h4 mr2" value="nikola">Nikola</option>
+    
+      <option class="block h4 mr2" value="pubstorm">Nitrous PubStorm</option>
+    
+      <option class="block h4 mr2" value="octopress">Octopress</option>
+    
+      <option class="block h4 mr2" value="osmek">Osmek</option>
+    
+      <option class="block h4 mr2" value="pelican">Pelican</option>
+    
+      <option class="block h4 mr2" value="phenomic">Phenomic</option>
+    
+      <option class="block h4 mr2" value="pixyll-jekyll-theme">Pixyll Jekyll Theme</option>
+    
+      <option class="block h4 mr2" value="poole">Poole</option>
+    
+      <option class="block h4 mr2" value="prismic">Prismic</option>
+    
+      <option class="block h4 mr2" value="proseio">Prose.io</option>
+    
+      <option class="block h4 mr2" value="proteus-static-site-starter-kits">Proteus Starter Kits </option>
+    
+      <option class="block h4 mr2" value="react">React</option>
+    
+      <option class="block h4 mr2" value="rooftop-cms">Rooftop CMS</option>
+    
+      <option class="block h4 mr2" value="roots">Roots</option>
+    
+      <option class="block h4 mr2" value="sculpin">Sculpin</option>
+    
+      <option class="block h4 mr2" value="serum">Serum</option>
+    
+      <option class="block h4 mr2" value="shoal-hosting">Shoal Hosting</option>
+    
+      <option class="block h4 mr2" value="siteleaf">Siteleaf</option>
+    
+      <option class="block h4 mr2" value="snipcart">Snipcart</option>
+    
+      <option class="block h4 mr2" value="statamic">Statamic</option>
+    
+      <option class="block h4 mr2" value="static-man">Staticman</option>
+    
+      <option class="block h4 mr2" value="surge">Surge</option>
+    
+      <option class="block h4 mr2" value="swiftype">SwifType</option>
+    
+      <option class="block h4 mr2" value="tarbell">Tarbell</option>
+    
+      <option class="block h4 mr2" value="tipue">Tipue</option>
+    
+      <option class="block h4 mr2" value="typeform">Typeform</option>
+    
+      <option class="block h4 mr2" value="upstatic">Upstatic</option>
+    
+      <option class="block h4 mr2" value="userapp">UserApp</option>
+    
+      <option class="block h4 mr2" value="wintersmith">Wintersmith</option>
+    
+      <option class="block h4 mr2" value="s3_website">s3_website</option>
+    
+  </select>
+
+  <textarea class="textarea" aria-label="summary" placeholder="Summary of the article" tabindex="6" name="fields[content]"></textarea>
+
+
+  <input required id="email" aria-label="email" class="input transition mt4 mb2" name="fields[email]" placeholder="Your email address" tabindex="7"  type="email">
+  <span class="feedback" aria-live="polite"></span>
+
+  <button class="btn btn-primary" tabindex="8"  type="submit">Send it along</button>
+
+</form>
+<!-- formnovalidate -->
+
+
+<style>
+
+/*Visual indicator that a field is required*/
+textarea:required:invalid, input:required:invalid {
+  background-color: lightyellow;
+}
+/*Visual indicator that a field has been entered correctly */
+textarea:required:valid, input:required:valid {
+  background-color: lightgreen;
+  color:white;
+}
+/*Visual indicator that a field has content but not right */
+input:invalid:not(:focus):not(:placeholder-shown) {
+  background-color: red;
+}
+/* Specific indication that the content is not right */
+.submitted input[type="email"]:invalid + .feedback::after { content: 'That doesn\'t look like a valid email address'; }
+.submitted input.link:invalid + .feedback::after { content: 'That doesn\'t look like a valid link'; }
+.feedback { margin-top:-6px;color:red;clear: both;display: block;margin-bottom:7px;}
+
+/*input:invalid + label::after { content: ' ⨉'; }*/
+/*input:valid + label::after { content: ' ✓'; }*/
+
+.submitted input:invalid { background-color: rgba(255,0,0,0.25); }
+.submitted input:valid { background-color: rgba(0,255,0,0.25); }
+
+
+
+
+/*input:valid + label::after { content: '( ✓ thank you)'; }*/
+
+
+
+/*.submitted input:invalid { background-color: rgba(255,0,0,0.25); }
+.submitted input:valid { background-color: rgba(0,255,0,0.25); }*/
+/*.submitted input:invalid + label::after { content: ' ⨉'; }
+.submitted input:valid + label::after { content: ' ✓'; }*/
+
+</style>
+
+
+<script type="text/javascript">
+
+document.addEventListener("DOMContentLoaded", function() {
+    document.forms[0].addEventListener('submit',function(e){
+        e.preventDefault();
+        e.currentTarget.classList.add('submitted');
+    });
+});
+
+</script>
+
+
+  
+</div>
+
+          </div>
+        </div>
+      </div>
+    <!-- <script type="text/javascript" src="/static/js/dist/scripts-concatenated.min.js" asyn="true"></script> -->
+
+
+<script type="text/javascript">
+  WebFontConfig = {
+    google: { families: [ 'Lato:400,400italic,700,700italic:latin' ] }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })(); </script>
+
+
+
+
+<script>
+  document.body.onkeyup = function(e){
+    
+      if (e.keyCode == '37') { window.location = '/submit-tool/'; }
+    
+    
+      if (e.keyCode == '39') { window.location = '/thank-you/'; }
+    
+  };
+</script>
+
+    
+  </body>
+</html>
