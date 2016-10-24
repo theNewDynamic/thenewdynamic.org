@@ -12,7 +12,7 @@ paginate:
 {% assign website = page.website  %}
 {% assign repo = page.repo  %}
 {% assign creators = page.creator  %}
-{% assign image = page.image_path | prepend: site.image_url | remove: 'uploads/' %}
+{% assign image = page.image_path | prepend: site.image_url | remove: 'uploads/' | append: '?w=900' %}
 
 <div class="clearfix col-12 mb3">
   {% for tool in page_tools %}

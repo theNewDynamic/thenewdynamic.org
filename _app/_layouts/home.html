@@ -35,7 +35,7 @@ schema: https://schema.org/WebPage
   {% for object in showcase limit: 4 %}
     {% assign title = object.title %}
     {% assign url = object.url %}
-    {% assign image = object.image_path | prepend: site.image_url | remove: 'uploads/' %}
+    {% assign image = object.image_path | prepend: site.image_url | remove: 'uploads/' | append: '?w=250' %}
     {% assign tool = object.tool_type[0] %}
     {% assign tools = object.tools %}
     {% assign related_tool_type = site.tool_type | where: 'slug', tool %}

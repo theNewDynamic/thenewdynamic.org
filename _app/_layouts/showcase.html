@@ -38,7 +38,7 @@ paginate:
     {% for object in showcase %}
       {% assign title = object.title %}
       {% assign url = object.url %}
-      {% assign image = object.image_path | prepend: site.image_url | remove: 'uploads/' %}
+      {% assign image = object.image_path | prepend: site.image_url | remove: 'uploads/' | append: '?w=550' %}
       {% assign tool = object.tool_type[0] %}
       {% assign tools = object.tools %}
       {% assign related_tool_type = site.tool_type | where: 'slug', tool %}
