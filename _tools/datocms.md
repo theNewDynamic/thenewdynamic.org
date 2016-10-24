@@ -8,8 +8,8 @@ links:
   github:
   twitter:
 resources:
-  - name:
-    link:
+  - name: Blog
+    link: baking-bread.li
 description: DatoCMS is a fully customizable administrative area for your static websites.
 ---
 
