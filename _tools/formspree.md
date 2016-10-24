@@ -2,7 +2,7 @@
 title: "Formspree"
 date: 2015-05-15T12:20:00.000Z
 posted_date: 2015-05-15T12:20:00.000Z
-type: tool
+featured: false
 slug: formspree
 tool_type: 
   - interaction

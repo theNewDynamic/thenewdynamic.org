@@ -2,7 +2,7 @@
 title: "Jekyll Themes"
 date: 2015-11-13T02:53:00.000Z
 posted_date: 2015-11-13T02:53:00.000Z
-type: tool
+featured: false
 slug: jekyll-themes
 tool_type: 
   - theme

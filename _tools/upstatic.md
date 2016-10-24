@@ -2,7 +2,7 @@
 title: "Upstatic"
 date: 2015-08-11T13:59:00.000Z
 posted_date: 2015-08-11T13:59:00.000Z
-type: tool
+featured: false
 slug: upstatic
 tool_type: 
   - hosting-deployment

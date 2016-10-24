@@ -2,7 +2,7 @@
 title: "Lunr.js"
 date: 2015-05-02T20:37:00.000Z
 posted_date: 2015-05-02T20:37:00.000Z
-type: tool
+featured: false
 slug: lunrjs
 tool_type: 
   - interaction

@@ -2,7 +2,7 @@
 title: "Gatsby"
 date: 2015-10-02T21:18:00.000Z
 posted_date: 2015-10-02T21:18:00.000Z
-type: tool
+featured: false
 slug: gatsby
 tool_type: 
   - static-site-generator

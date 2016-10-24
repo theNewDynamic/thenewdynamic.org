@@ -2,7 +2,7 @@
 title: "Kirby"
 date: 2015-10-04T13:04:00.000Z
 posted_date: 2015-10-04T13:04:00.000Z
-type: tool
+featured: false
 slug: kirby
 tool_type:
   - CMS

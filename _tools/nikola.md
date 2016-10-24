@@ -2,7 +2,7 @@
 title: "Nikola"
 date: 2015-07-24T02:31:00.000Z
 posted_date: 2015-07-24T02:31:00.000Z
-type: tool
+featured: false
 slug: nikola
 tool_type: 
   - static-site-generator

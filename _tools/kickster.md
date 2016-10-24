@@ -2,7 +2,7 @@
 title: "Kickster"
 date: 2015-11-27T03:29:00.000Z
 posted_date: 2015-11-27T03:29:00.000Z
-type: tool
+featured: false
 slug: kickster
 tool_type: 
   - helper

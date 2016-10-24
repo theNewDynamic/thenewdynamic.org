@@ -2,7 +2,7 @@
 title: Forestry
 date: 2016-06-15T04:43:00.000Z
 posted_date: 2016-06-15T04:43:00.000Z
-type: tool
+featured: false
 slug: forestry
 tool_type: 
   - content-management

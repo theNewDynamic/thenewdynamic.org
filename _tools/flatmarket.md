@@ -2,7 +2,7 @@
 title: "Flatmarket"
 date: 2015-08-30T03:57:00.000Z
 posted_date: 2015-08-30T03:57:00.000Z
-type: tool
+featured: false
 slug: flatmarket
 tool_type: 
   - interaction

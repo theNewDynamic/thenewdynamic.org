@@ -2,7 +2,7 @@
 title: "Hugo Themes"
 date: 2015-11-13T02:58:00.000Z
 posted_date: 2015-11-13T02:58:00.000Z
-type: tool
+featured: false
 slug: hugo-themes
 tool_type: 
   - theme

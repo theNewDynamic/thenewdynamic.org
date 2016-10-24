@@ -2,7 +2,7 @@
 title: "Coil CMS"
 date: 2015-10-05T18:17:00.000Z
 posted_date: 2015-10-05T18:17:00.000Z
-type: tool
+featured: false
 slug: coil-cms
 tool_type: 
   - content-management

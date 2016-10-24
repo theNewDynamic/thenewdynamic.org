@@ -2,7 +2,7 @@
 title: "Grav"
 date: 2015-10-04T13:03:00.000Z
 posted_date: 2015-10-04T13:03:00.000Z
-type: tool
+featured: false
 slug: grav
 tool_type: 
   - content-management

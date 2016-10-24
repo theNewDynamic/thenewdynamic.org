@@ -2,7 +2,7 @@
 title: Prose.io
 date: 2015-05-14T17:18:00.000Z
 posted_date: 2015-05-14T17:18:00.000Z
-type: tool
+featured: false
 slug: proseio
 tool_type: 
   - content-management

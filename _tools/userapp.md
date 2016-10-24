@@ -2,7 +2,7 @@
 title: "UserApp"
 date: 2016-06-16T15:17:00.000Z
 posted_date: 2016-06-16T15:17:00.000Z
-type: tool
+featured: false
 tool_type: 
   - interaction
 links:

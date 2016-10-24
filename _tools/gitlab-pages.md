@@ -1,6 +1,7 @@
 ---
 title: "Gitlab Pages"
-tool_type: 
+featured: false
+tool_type:
   - hosting-deployment
 links:
   website: http://pages.gitlab.io/

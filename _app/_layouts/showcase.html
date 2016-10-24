@@ -8,6 +8,7 @@ paginate:
 ---
 {% assign tool_type = (site.tool_type)  | sort: 'title', 'last' %}
 {% assign showcase = site.showcase %}
+{% assign showcase_item_links = 'col-12 sm-col-6 md-col-6 lg-col-6 sm-pr3 mb4 black text-decoration-none'  %}
 {% if page.url == '/showcase/' %}
   {% assign tools = (site.tools  sort: 'title', 'last' ) %}
 
@@ -41,7 +42,7 @@ paginate:
       {% assign tool = object.tool_type[0] %}
       {% assign tools = object.tool %}
       {% assign related_tool_type = site.tool_type | where: 'slug', tool %}
-      {% include components/showcase-item.html %}
+      {% include components/showcase-item.html showcase_item_links=showcase_item_links %}
     {% endfor %}
   </div>
 {% endif %}

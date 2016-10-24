@@ -3,7 +3,7 @@ title: "Static Website Manager"
 date: 2015-12-07T22:10:00.000Z
 published: false
 posted_date: 2015-12-07T22:10:00.000Z
-type: tool
+featured: false
 slug: static-website-manager
 tool_type: 
   - content-management

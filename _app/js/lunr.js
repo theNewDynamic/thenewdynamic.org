@@ -47,6 +47,7 @@
       this.field('content');
     });
 
+  if (idx) {
     for (var key in window.store) { // Add the data to lunr
       idx.add({
         'id': key,
@@ -59,5 +60,6 @@
       var results = idx.search(searchTerm); // Get lunr to perform a search
       displaySearchResults(results, window.store);
     }
+  }
   }
 })();

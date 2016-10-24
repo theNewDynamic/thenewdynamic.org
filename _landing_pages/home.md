@@ -1,5 +1,5 @@
 ---
-layout: page-listing
+layout: home
 title: 'the New Dynamic'
 permalink: /
 regenerate: true

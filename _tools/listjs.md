@@ -2,7 +2,7 @@
 title: "List.js"
 date: 2015-05-16T22:53:00.000Z
 posted_date: 2015-05-16T22:53:00.000Z
-type: tool
+featured: false
 slug: listjs
 tool_type: 
   - interaction

@@ -2,7 +2,7 @@
 title: "Buster"
 date: 2014-05-26T02:52:00.000Z
 posted_date: 2015-05-26T02:52:00.000Z
-type: tool
+featured: false
 slug: buster
 tool_type: 
   - static-site-generator

@@ -1,7 +1,7 @@
 ---
 title: "Forge"
 date: 2016-08-03T15:17:00.000Z
-type: tool
+featured: false
 tool_type: 
   - hosting-deployment
 links:

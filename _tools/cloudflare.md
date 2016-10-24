@@ -2,7 +2,7 @@
 title: "CloudFlare"
 date: 2015-05-08T21:52:00.000Z
 posted_date: 2015-05-08T21:52:00.000Z
-type: tool
+featured: false
 slug: cloudflare
 tool_type: 
   - hosting-deployment

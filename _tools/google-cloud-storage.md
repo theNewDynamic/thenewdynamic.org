@@ -2,7 +2,7 @@
 title: "Google Cloud Storage"
 date: 2015-05-14T17:17:00.000Z
 posted_date: 2015-05-14T17:17:00.000Z
-type: tool
+featured: false
 slug: google-cloud-storage
 tool_type: 
   - hosting-deployment

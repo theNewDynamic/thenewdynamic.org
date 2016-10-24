@@ -2,7 +2,7 @@
 title: "Hexo Admin"
 date: 2015-10-19T23:12:00.000Z
 posted_date: 2015-10-19T23:12:00.000Z
-type: tool
+featured: false
 slug: hexo-admin
 tool_type: 
   - content-management

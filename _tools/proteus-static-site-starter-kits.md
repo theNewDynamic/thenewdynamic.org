@@ -2,7 +2,7 @@
 title: "Proteus Starter Kits "
 date: 2015-05-02T21:16:00.000Z
 posted_date: 2015-05-02T21:16:00.000Z
-type: tool
+featured: false
 slug: proteus-static-site-starter-kits
 tool_type: 
   - helper

@@ -2,7 +2,7 @@
 title: "Codeship"
 date: 2015-06-10T03:14:00.000Z
 posted_date: 2015-06-10T03:14:00.000Z
-type: tool
+featured: false
 slug: codeship
 tool_type: 
   - hosting-deployment

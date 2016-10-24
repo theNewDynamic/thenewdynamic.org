@@ -2,7 +2,7 @@
 title: "Jekyll Admin"
 date: 2016-08-24T00:41:00.000Z
 posted_date: 2016-08-24T00:41:00.000Z
-type: tool
+featured: false
 tag: jekyll
 tool_type: 
   - content-management

@@ -2,7 +2,7 @@
 title: "Fuse.js Search"
 date: 2015-12-15T02:46:00.000Z
 posted_date: 2015-12-15T02:46:00.000Z
-type: tool
+featured: false
 slug: fusejs-search
 tool_type: 
   - interaction

@@ -2,7 +2,7 @@
 title: "Grunt"
 date: 2015-05-08T22:00:00.000Z
 posted_date: 2015-05-08T22:00:00.000Z
-type: tool
+featured: false
 slug: grunt
 tool_type: 
   - build-tool
