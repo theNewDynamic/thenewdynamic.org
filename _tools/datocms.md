@@ -9,7 +9,7 @@ links:
   twitter:
 resources:
   - name: Blog
-    link: baking-bread.li
+    link: https://www.datocms.com/blog/
 description: DatoCMS is a fully customizable administrative area for your static websites.
 ---
 
