@@ -6,7 +6,7 @@ featured: false
 tool_type: 
   - hosting-deployment
 slug: aerobatic
-links:
+urls:
   website: https://www.aerobatic.com/
 description: Static Website Hosting for Bitbucket
 ---

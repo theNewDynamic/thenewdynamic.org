@@ -6,7 +6,7 @@ featured: false
 slug: gatsby
 tool_type: 
   - static-site-generator
-links:
+urls:
   github: https://github.com/gatsbyjs/gatsby
 ---
 Transform plain text into dynamic blogs and websites using the latest web technologies. A React.js static site generator. <small>[_n.b. in an early stage of development_]</small>

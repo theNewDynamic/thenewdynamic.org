@@ -7,5 +7,5 @@ featured: false
 slug: poolappcom
 tool_type:
   - helper
-links:
+urls:
 ---

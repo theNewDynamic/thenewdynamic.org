@@ -10,7 +10,7 @@ tags:
   - CMS
   - Editing
   - Static Site Generator
-links:
+urls:
   website: http://www.siteleaf.com/
 ---
 Siteleaf is a content management system for Jekyll-based websites that offers robust user-management, previews, text editor, and asset management.

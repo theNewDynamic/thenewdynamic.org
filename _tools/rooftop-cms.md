@@ -3,7 +3,7 @@ title: Rooftop CMS
 date: 2016-09-07T00:00:00.000Z
 tool_type:
   - content-management
-links:
+urls:
   website: 'https://www.rooftopcms.com/'
   github: 'https://github.com/rooftopcms'
   twitter: rooftopcms

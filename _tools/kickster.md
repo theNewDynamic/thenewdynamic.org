@@ -6,7 +6,7 @@ featured: false
 slug: kickster
 tool_type: 
   - helper
-links:
+urls:
   website: http://kickster.nielsenramon.com/
   github: https://github.com/nielsenramon/kickster
 ---

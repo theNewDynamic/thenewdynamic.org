@@ -6,7 +6,7 @@ featured: false
 slug: buster
 tool_type: 
   - static-site-generator
-links:
+urls:
   github: https://github.com/axitkhurana/buster
 description: Brute force static site generator for Ghost
 ---

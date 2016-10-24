@@ -10,7 +10,7 @@ tags:
   - Editing
   - CMS
   - Content API
-links:
+urls:
   website: https://prismic.io/
 ---
 Content as a Service

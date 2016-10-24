@@ -6,7 +6,7 @@ featured: false
 slug: codeship
 tool_type: 
   - hosting-deployment
-links:
+urls:
   website: https://codeship.com/
 ---
 Continuous Integration and Delivery to Automate your development and deployment workflow

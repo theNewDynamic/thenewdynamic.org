@@ -11,7 +11,7 @@ tags:
   - Static Site Generator
   - CMS
   - Editing
-links:
+urls:
   website: http://www.webhook.com/
   github: https://github.com/webhook/webhook-cms
 ---

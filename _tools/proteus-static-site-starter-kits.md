@@ -6,7 +6,7 @@ featured: false
 slug: proteus-static-site-starter-kits
 tool_type: 
   - helper
-links:
+urls:
   website: http://thoughtbot.github.io/proteus/
 ---
 Proteus is a collection of useful starter kits to help you launch your static site or prototype faster. They follow the thoughtbot styleguide and include thoughtbot front end tools

@@ -6,7 +6,7 @@ featured: false
 slug: harp-platform
 tool_type: 
   - hosting-deployment
-links:
+urls:
   website: https://www.harp.io/
 ---
 Hosting/Deployment Platform for Harpjs

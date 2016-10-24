@@ -6,7 +6,7 @@ featured: false
 slug: lanyon
 tool_type: 
   - theme
-links:
+urls:
   website: http://lanyon.getpoole.com/
   github: https://github.com/poole/lanyon  
 ---

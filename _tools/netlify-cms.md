@@ -9,7 +9,7 @@ tool_type:
 tags:
   - Editing
   - CMS
-links:
+urls:
   github: https://github.com/netlify/netlify-cms
 ---
 A CMS for static site generators. Give non-technical users a simple way to edit and add content to any site built with a static site generator.

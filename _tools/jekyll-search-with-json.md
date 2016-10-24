@@ -9,7 +9,7 @@ tool_type:
 tag: jekyll
 tags:
  - Search
-links:
+urls:
   website: http://mathayward.com/jekyll-search/
 ---
 “With the Liquid templating language, used by Jekyll, I built a JSON encoded feed for posts and pages on the site which I wanted to show up in search results.”

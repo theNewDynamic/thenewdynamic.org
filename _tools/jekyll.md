@@ -4,7 +4,7 @@ date: 2015-05-02T01:20:00.000Z
 featured: true
 tool_type:
   - static-site-generator
-links:
+urls:
   website: 'http://jekyllrb.com'
   github: 'https://github.com/jekyll/jekyll'
   twitter: 'https://twitter.com/jekyllrb'

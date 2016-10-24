@@ -6,7 +6,7 @@ featured: false
 slug: hyde
 tool_type: 
   - theme
-links:
+urls:
   website: http://hyde.getpoole.com/
   github: https://github.com/poole/hyde  
 ---

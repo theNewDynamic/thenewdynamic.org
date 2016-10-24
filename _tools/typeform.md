@@ -6,7 +6,7 @@ featured: false
 slug: typeform
 tool_type: 
   - interaction
-links:
+urls:
   website: http://www.typeform.com/
 ---
 

@@ -6,7 +6,7 @@ featured: false
 slug: pelican
 tool_type: 
   - static-site-generator
-links:
+urls:
   website: http://blog.getpelican.com/
 ---
 

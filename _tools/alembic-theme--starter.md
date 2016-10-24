@@ -3,7 +3,7 @@ title: 'Alembic Theme & Starter'
 date: 2016-10-24 00:00:00
 tool_type:
   - theme
-links:
+urls:
   website: 
   github:
   twitter:

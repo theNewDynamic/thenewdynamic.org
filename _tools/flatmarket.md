@@ -6,7 +6,7 @@ featured: false
 slug: flatmarket
 tool_type: 
   - interaction
-links:
+urls:
   website: https://json.expert/flatmarket/
   github: https://github.com/christophercliff/flatmarket
 ---

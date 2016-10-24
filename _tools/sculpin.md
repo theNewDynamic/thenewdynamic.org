@@ -6,7 +6,7 @@ featured: false
 slug: sculpin
 tool_type: 
   - static-site-generator
-links:
+urls:
   website: https://sculpin.io/
   github: https://github.com/sculpin/sculpin
 ---

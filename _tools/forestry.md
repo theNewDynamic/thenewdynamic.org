@@ -9,7 +9,7 @@ tool_type:
 tags:
   - CMS
   - Editing
-links:
+urls:
   website: https://forestry.io/
 ---
 A simple CMS for Jekyll and Hugo sites. (in beta)

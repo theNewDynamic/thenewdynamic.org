@@ -7,7 +7,7 @@ slug: grav
 tool_type: 
   - content-management
 description: "Flat-file CMS. (not static)"
-links:
+urls:
   website: http://getgrav.org/
 ---
 

@@ -6,7 +6,7 @@ featured: false
 slug: netlify
 tool_type: 
   - hosting-deployment
-links:
+urls:
   website: https://www.netlify.com/
   twitter: https://twitter.com/netlify
   github: https://github.com/netlify

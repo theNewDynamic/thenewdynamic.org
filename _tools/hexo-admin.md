@@ -6,7 +6,7 @@ featured: false
 slug: hexo-admin
 tool_type: 
   - content-management
-links:
+urls:
   github: https://github.com/jaredly/hexo-admin
 ---
 An admin UI for the Hexo blog engine. Based off of the Ghost interface, with inspiration from svbtle and prose.io.

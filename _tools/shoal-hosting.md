@@ -8,7 +8,7 @@ tag: sculpin
 tool_type: 
   - hosting-deployment
 description: "For Sculpin-based websites"
-links:
+urls:
   website: http://shoalhosting.com/
 ---
 Shoal Hosting provides automated deployment and hosting for Sculpin-based websites.

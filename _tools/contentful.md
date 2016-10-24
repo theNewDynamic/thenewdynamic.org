@@ -8,7 +8,7 @@ tags:
   - Editing
   - CMS
   - Content API
-links:
+urls:
   website: https://www.contentful.com/
 ---
 A single tool to reach any screen: API-first content management system for multi-device online publishing

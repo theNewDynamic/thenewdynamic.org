@@ -6,7 +6,7 @@ featured: false
 slug: octopress
 tool_type: 
   - helper
-links:
+urls:
   github: https://github.com/octopress/octopress
 ---
 Octopress is an obsessively designed toolkit for writing and deploying Jekyll blogs.

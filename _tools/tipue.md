@@ -6,7 +6,7 @@ featured: false
 slug: tipue
 tool_type: 
   - interaction
-links:
+urls:
   website: http://www.tipue.com/search/
 ---
 Tipue Search is a site search engine jQuery plugin. It's free, open source, responsive and fast.

@@ -3,7 +3,7 @@ title: Full Calendar
 date: 2016-06-16T00:00:00.000Z
 tool_type:
   - interaction
-links:
+urls:
   website: 'http://fullcalendar.io/'
   github: 'https://github.com/fullcalendar/fullcalendar'
   twitter:

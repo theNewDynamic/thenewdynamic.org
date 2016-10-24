@@ -2,7 +2,7 @@
 title:
 date:
 tool_type: 
-links:
+urls:
   website:
   github:
   twitter:

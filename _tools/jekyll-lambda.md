@@ -7,7 +7,7 @@ slug: jekyll-lambda
 tag: jekyll
 tool_type: 
   - theme
-links:
+urls:
   website: https://github.com/lauris/jekyll-lambda
 ---
 An ascetic theme for Jekyll.

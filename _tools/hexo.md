@@ -6,7 +6,7 @@ featured: false
 slug: hexo
 tool_type: 
   - static-site-generator
-links:
+urls:
 ---
 
 

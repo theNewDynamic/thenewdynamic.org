@@ -6,7 +6,7 @@ featured: false
 slug: harp
 tool_type: 
   - static-site-generator
-links:
+urls:
   website: http://harpjs.com/
   twitter: https://twitter.com/HarpWebServer
   github: https://github.com/sintaxi/harp

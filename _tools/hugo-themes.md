@@ -6,7 +6,7 @@ featured: false
 slug: hugo-themes
 tool_type: 
   - theme
-links:
+urls:
   website: http://themes.gohugo.io/
   github: https://github.com/spf13/hugo/
 ---

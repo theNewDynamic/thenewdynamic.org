@@ -9,7 +9,7 @@ tags:
   - Editing
   - Hosting-Deployment
   - CMS
-links:
+urls:
   website: http://cloudcannon.com/
 ---
 A source control backed CMS for developers working with non-developers

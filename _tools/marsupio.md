@@ -6,7 +6,7 @@ tool_type:
 description: "Deploy your website from GitHub. View it at any branch, tag, or commit."
 tags:
   - Deployment
-links:
+urls:
   website: http://marsupi.io/
 ---
 Marsupi deploys a version of your web app for every git hash.

@@ -8,7 +8,7 @@ tool_type:
   - content-management
 tags:
   - Content API
-links:
+urls:
   website: http://osmek.com/
 ---
 Content as a Service

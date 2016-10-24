@@ -6,7 +6,7 @@ featured: false
 slug: pixyll-jekyll-theme
 tool_type: 
   - theme
-links:  
+urls:  
   website: http://pixyll.com/
   github: https://github.com/johnotander/pixyll
 ---

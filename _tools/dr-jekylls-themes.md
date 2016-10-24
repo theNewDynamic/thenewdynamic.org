@@ -6,7 +6,7 @@ featured: false
 slug: dr-jekylls-themes
 tool_type:
   - theme
-links:
+urls:
   website: http://drjekyllthemes.github.io/
 ---
 A free static site generator theme directory

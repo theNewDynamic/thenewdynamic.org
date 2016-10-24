@@ -7,7 +7,7 @@ slug: upstatic
 tool_type: 
   - hosting-deployment
 description: A better way to deploy static websites to Amazon S3
-links:
+urls:
   website: http://beta.upstatic.io/
 ---
 

@@ -6,7 +6,7 @@ featured: false
 slug: nikola
 tool_type: 
   - static-site-generator
-links:
+urls:
   website: https://getnikola.com/
   github: https://github.com/getnikola/nikola
 ---

@@ -7,7 +7,7 @@ slug: jekyll-themes
 tool_type: 
   - theme
 tag: jekyll 
-links:
+urls:
   website: http://jekyllthemes.org/
   github: https://github.com/mattvh/jekyllthemes/
 ---

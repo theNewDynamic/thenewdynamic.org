@@ -6,7 +6,7 @@ featured: false
 slug: crossbow
 tool_type: 
   - static-site-generator
-links:
+urls:
   github: https://github.com/Crossbow-js/crossbow
 ---
 

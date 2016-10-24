@@ -7,6 +7,6 @@ slug: bitballoon
 tool_type:
   - hosting-deployment
 description: The ultimate hosting platform for your HTML5 sites & apps
-links:
+urls:
   website: https://www.bitballoon.com/
 ---

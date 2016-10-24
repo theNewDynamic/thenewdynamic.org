@@ -6,7 +6,7 @@ featured: false
 slug: gulp
 tool_type: 
   - build-tool
-links:
+urls:
   website: http://gulpjs.com/
 ---
 

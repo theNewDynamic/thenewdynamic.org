@@ -6,7 +6,7 @@ featured: false
 slug: heroku
 tool_type: 
   - hosting-deployment
-links:
+urls:
   website: https://www.heroku.com/
 ---
 A platform as a service (PaaS) that enables developers to build and run applications entirely in the cloud.

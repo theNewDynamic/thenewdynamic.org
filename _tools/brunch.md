@@ -6,7 +6,7 @@ featured: false
 slug: brunch
 tool_type: 
   - build-tool
-links:
+urls:
   website: 'http://brunch.io/'
 ---
 

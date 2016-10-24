@@ -2,7 +2,7 @@
 title: Hammer for Mac
 date: 2016-08-09T00:00:00.000Z
 tool_type:
-links:
+urls:
   website: 'http://hammerformac.com/'
   github:
   twitter: hammerformac

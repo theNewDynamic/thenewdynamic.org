@@ -6,7 +6,7 @@ tool_type:
 description: "Publish your website in under 2 minutes without a webserver"
 tags:
   - Hosting-Deployment
-links:
+urls:
   website: https://www.knownly.net/
 ---
 Code in HTML/CSS/Javascript, Save to Dropbox, Instantly Live

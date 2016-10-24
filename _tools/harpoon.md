@@ -6,7 +6,7 @@ featured: false
 slug: harpoon
 tool_type: 
   - hosting-deployment
-links:
+urls:
   website: http://www.getharpoon.com/
 ---
 deploys static sites to S3 and BitBalloon

@@ -3,7 +3,7 @@ title: Assemble
 date: 2014-07-23T00:00:00.000Z
 tool_type: 
   - static-site-generator
-links:
+urls:
   website: 'http://assemble.io/'
   github: 'https://github.com/assemble/assemble/'
   twitter: 'https://twitter.com/assemblejs'

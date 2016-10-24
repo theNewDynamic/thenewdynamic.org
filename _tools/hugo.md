@@ -4,7 +4,7 @@ date: 2015-05-02T01:41:00.000Z
 featured: true
 tool_type:
   - static-site-generator
-links:
+urls:
   website: http://gohugo.io/
   github: https://github.com/spf13/hugo
   twitter: https://twitter.com/spf13

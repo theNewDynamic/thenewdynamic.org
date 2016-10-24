@@ -10,7 +10,7 @@ schema: https://schema.org/WebPage
 {% assign link_classes = 'dont-display-child-until-hover my1 px2 py1 bg-near-white hover-bg-silver col-12 transition' %}
 
 {% assign resources = page.resources %}
-{% assign links = page.links  %}
+{% assign links = page.urls  %}
 {% assign slug = page.slug  %}
 {% assign related_links = site.links | where_exp: 'item', 'item.tool contains slug' %}
 {% assign related_tools = site.tools | where_exp: 'item', 'item.tag contains slug' %}

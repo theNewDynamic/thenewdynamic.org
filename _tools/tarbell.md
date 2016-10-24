@@ -6,7 +6,7 @@ featured: false
 slug: tarbell
 tool_type: 
   - static-site-generator
-links:
+urls:
 ---
 
 

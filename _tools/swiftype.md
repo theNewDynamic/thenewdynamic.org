@@ -6,7 +6,7 @@ featured: false
 slug: swiftype
 tool_type: 
   - interaction
-links:
+urls:
   website: https://swiftype.com/
 ---
 Add great search to any website

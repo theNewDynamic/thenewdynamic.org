@@ -6,7 +6,7 @@ featured: false
 slug: meet-hyde
 tool_type: 
   - content-management
-links:
+urls:
   website: http://meethyde.com/
   github: https://github.com/MeetHyde/MeetHyde
 ---

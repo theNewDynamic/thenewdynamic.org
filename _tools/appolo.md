@@ -6,7 +6,7 @@ featured: false
 slug: appolo
 tool_type: 
   - theme
-links:
+urls:
   website: http://www.delightfuldev.com/appolo
   github: https://github.com/nicnocquee/appolo
 ---

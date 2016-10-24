@@ -3,7 +3,7 @@ title: Phenomic
 date: 2016-05-05T12:00:00.000Z
 tool_type: 
   - static-site-generator
-links:
+urls:
   website: https://phenomic.io/
   github: https://github.com/MoOx/phenomic
   twitter: https://twitter.com/Phenomic_app

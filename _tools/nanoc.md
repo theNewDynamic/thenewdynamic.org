@@ -6,7 +6,7 @@ featured: false
 slug: nanoc
 tool_type: 
   - static-site-generator
-links:
+urls:
   website: http://nanoc.ws/
   github: https://github.com/nanoc/nanoc
 ---

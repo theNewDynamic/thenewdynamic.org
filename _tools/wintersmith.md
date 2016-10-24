@@ -6,7 +6,7 @@ featured: false
 slug: wintersmith
 tool_type: 
   - static-site-generator
-links:
+urls:
   website: http://www.staticgen.com/wintersmith
 ---
 

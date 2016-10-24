@@ -6,7 +6,7 @@ featured: false
 slug: poole
 tool_type: 
   - helper
-links:
+urls:
   github: https://github.com/poole
 ---
 Poole is a fully furnished Jekyll setup, designed to be a consistent and flexible starting point for Jekyll projects, including themes.

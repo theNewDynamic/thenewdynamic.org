@@ -6,7 +6,7 @@ featured: false
 slug: cloudflare
 tool_type: 
   - hosting-deployment
-links:
+urls:
   website: https://www.cloudflare.com
 ---
 Leverage CloudFlare's global network to serve lightning-fast DNS; Distribute your content around the world so it’s closer to your visitors.

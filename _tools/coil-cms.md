@@ -6,7 +6,7 @@ featured: false
 slug: coil-cms
 tool_type: 
   - content-management
-links:
+urls:
   github: https://github.com/getnikola/coil
 ---
 Making Nikola accessible for non-programmers, casual users, and all other people that don’t feel comfortable using the command line.

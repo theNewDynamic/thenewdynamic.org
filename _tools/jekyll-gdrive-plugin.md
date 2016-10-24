@@ -7,7 +7,7 @@ slug: jekyll-gdrive-plugin
 tool_type: 
   - content-management
 tag: jekyll
-links:
+urls:
   website: https://github.com/netlify/jekyll-gdrive
 ---
 Access data from a Google Drive Spreadsheet in your Jekyll sites

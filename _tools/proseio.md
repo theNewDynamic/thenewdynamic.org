@@ -6,7 +6,7 @@ featured: false
 slug: proseio
 tool_type: 
   - content-management
-links:
+urls:
   website: 'http://prose.io'
 ---
 

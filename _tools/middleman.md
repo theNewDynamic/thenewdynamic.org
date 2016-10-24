@@ -4,7 +4,7 @@ date: 2015-05-02T01:55:00.000Z
 featured: true
 tool_type:
   - static-site-generator
-links:
+urls:
   website: https://middlemanapp.com/
   github: https://github.com/middleman/middleman
 ---

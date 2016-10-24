@@ -6,7 +6,7 @@ featured: false
 slug: made-mistakes-jekyll-themes
 tool_type: 
   - theme
-links:
+urls:
   website: https://mademistakes.com/work/jekyll-themes/
 ---
 

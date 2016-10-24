@@ -5,7 +5,7 @@ posted_date: 2016-05-20T15:17:00.000Z
 featured: false
 tool_type: 
   - hosting-deployment
-links:
+urls:
   website: https://firebase.google.com/docs/hosting/#implementation_path
 description: Firebase Hosting provides fast and secure static hosting for your web app.
 ---

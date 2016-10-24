@@ -7,7 +7,7 @@ slug: statamic
 tool_type: 
   - content-management
 description: "Flat-file CMS. (not static)"
-links:
+urls:
   website: http://statamic.com/
 ---
 A Flat-file CMS that also generates static pages as output
