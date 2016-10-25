@@ -55,7 +55,7 @@ schema: https://schema.org/WebPage
     {% assign links = site.links | where_exp: 'item', 'item.tool contains object.slug' %}
     {% assign tool = object.tool_type[0] %}
     {% assign related_tool_type = site.tool_type | where: 'slug', tool %}
-    <a href="{{ object.url }}" class="btn btn-outline text-decoration-none">
+    <a href="{{ object.url }}" class="btn btn-outline border-divider-color text-decoration-none">
       {{ object.title }}
       {% if links.size > 0 %}
         <sup class="muted">
@@ -76,7 +76,7 @@ schema: https://schema.org/WebPage
   {% assign links = site.links | where_exp: 'item', 'item.tool contains object.slug' %}
   {% assign tool = object.tool_type[0] %}
   {% assign related_tool_type = site.tool_type | where: 'slug', tool %}
-  <a href="{{ object.url }}" class="btn btn-outline text-decoration-none">
+  <a href="{{ object.url }}" class="btn btn-outline border-divider-color text-decoration-none">
     {{ object.title }}
     {% if links.size > 0 %}
       <sup class="muted">
