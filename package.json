@@ -7,7 +7,7 @@
     "version:major": "npm version major -m 'Breaking Release'",
     "version:minor": "npm version minor -m 'Feature Release'",
     "version:patch": "npm version patch -m 'bump version for fixes minor changes'",
-    "push:origin": "git push --tags origin HEAD:lean",
+    "push:origin": "git push --tags origin",
     "clean:assets": "rm -rf assets",
     "copy:files": "rm -f 'assets/js/legacy/*' && copyfiles -f node_modules/flexibility/dist/flexibility.js node_modules/html5shiv/dist/html5shiv.min.js assets/js/legacy && rm -rf assets/fonts/ && copyfiles -u 2 '_app/fonts/**/*.*' ./assets/fonts/",
     "uglify:js": "mkdir -p assets/js && uglifyjs _app/js/lunr.js -m -o assets/js/lunr.js && uglifyjs node_modules/lunr/lunr.js _app/js/lunr.js -m -c -o assets/js/lunr.min.js && uglifyjs node_modules/fg-loadcss/src/loadCSS.js -o _app/_includes/global/loadCSS.min.js",
