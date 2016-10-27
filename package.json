@@ -8,7 +8,6 @@
     "version:minor": "npm version minor -m 'Feature Release'",
     "version:patch": "npm version patch -m 'bump version for fixes minor changes'",
     "push:origin": "git push --tags origin HEAD:lean",
-    "test": "echo \"Error: no test specified\" && exit 0",
     "clean:assets": "rm -rf assets",
     "copy:files": "rm -f 'assets/js/legacy/*' && copyfiles -f node_modules/flexibility/dist/flexibility.js node_modules/html5shiv/dist/html5shiv.min.js assets/js/legacy && rm -rf assets/fonts/ && copyfiles -u 2 '_app/fonts/**/*.*' ./assets/fonts/",
     "uglify:js-": "mkdir -p assets/js && uglifyjs _app/js/*.js -m -o assets/js/app.js && uglifyjs node_modules/jquery/dist/jquery.js _app/js/*.js -m -c -o assets/js/app.min.js",
@@ -24,8 +23,9 @@
     "build:css": "postcss -c _app/css/postcss.config.js",
     "hotbuild:css": "copyfiles -f assets/css/* _site/assets/css",
     "watch:css": "onchange '_app/css/**/*.css' -- run-s build:css hotbuild:css",
-    "build:scss": "node-sass --include-path node_modules/bourbon-neat/app/assets/stylesheets --include-path node_modules/bourbon/app/assets/stylesheets --output-style compressed -o assets/css _app/_scss",
-    "watch:scss": "onchange '_app/_scss/**/*.scss' -- run-s build:scss hotbuild:css",
+    "critical:css": "critical _site/index.html --base _site --minify --css _site/assets/css/main.css > _app/_includes/global/critical.css",
+
+
     "clean:jekyll": "bundle exec jekyll clean",
     "build:jekyll": "bundle exec jekyll build",
     "watch:jekyll": "onchange '_app/_includes/**/*' '_app/_layouts/**/*' '**/*.md' '_data/*.*' -- run-s build:jekyll reload",
