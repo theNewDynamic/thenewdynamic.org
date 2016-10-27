@@ -5,8 +5,8 @@ tool_type:
   - static-site-generator
 urls:
   website: 'https://www.getlektor.com/'
-  github: 'https://github.com/lektor/lektor
-  twitter: 'https://twitter.com/getlektor
+  github: 'https://github.com/lektor/lektor'
+  twitter: 'https://twitter.com/getlektor'
 resources:
   - name:
     url:
