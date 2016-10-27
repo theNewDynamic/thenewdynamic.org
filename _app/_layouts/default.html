@@ -24,7 +24,20 @@ layout: compress
       <meta name="MobileOptimized" content="320">
       <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-      <link href='/assets/css/main.css{% if site.bust_css_cache %}?generated={{ site.time | date: "%Y%m%d%H%S" }}{% endif %}' rel='stylesheet' type="text/css" />
+
+      <link rel="preload" href="/assets/css/main.css" as="style" onload="this.rel='stylesheet'">
+      <noscript><link rel="stylesheet" href="/assets/css/main.css"></noscript>
+
+      <script>
+        {% include global/loadcss.min.js %}        
+        loadCSS( "/assets/css/main.css", document.getElementById("loadcss") );
+      </script>
+      <noscript>
+        <link rel="stylesheet" href="/assets/css/main.css">
+      </noscript>
+
+
+
 
       {% include global/icons.html %}
       <meta name="generator" content="Jekyll">
