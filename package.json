@@ -1,6 +1,6 @@
 {
   "name": "jekyll-base",
-  "version": "1.4.6",
+  "version": "1.5.0",
   "description": "Base Jekyll Starter",
   "main": "index.html",
   "scripts": {
