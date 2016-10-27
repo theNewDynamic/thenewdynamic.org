@@ -56,6 +56,7 @@
     "bourbon-neat": "^1.7.4",
     "browser-sync": "^2.12.10",
     "copyfiles": "^0.2.1",
+    "critical": "^0.8.0",
     "cssnano": "^3.6.2",
     "eslint": "^2.11.1",
     "eslint-config-google": "^0.5.0",
