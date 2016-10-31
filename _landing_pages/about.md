@@ -8,3 +8,6 @@ The site will be editorially driven; that is, it will not attempt to be comprehe
 Get in touch via Twitter: [@thenewdynamic](https://twitter.com/thenewdynamic)
 
 While we may recommend commercial as well as open source projects on this site, we do not accept freebies that are not available to the general public and will disclose any interests when appropriate.
+
+
+<span class="muted h6">build {{ 'now' | date: '%s' }}</span>
