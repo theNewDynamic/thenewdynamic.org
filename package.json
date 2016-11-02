@@ -33,8 +33,8 @@
     "start": "npm-run-all build:jekyll --parallel watch:css watch:js watch:jekyll watch:img serve"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/budparr/jekyll-base.git"
+    "url": "git+https://github.com/budparr/thenewdynamic.git",
+    "type": "git"
   },
   "keywords": [
     "jekyll"
