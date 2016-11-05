@@ -7,8 +7,10 @@ category: essentials
 type: Article
 slug: links/rise-of-static-site-generators
 source: Justin Mayer
-link: http://justinmayer.com/talks/scale13x/rise-static-site-generators/#/
+# https://justinmayer.com/posts/static-site-generators-talk-pycon-2014/
+link: https://justinmayer.com/posts/static-site-generators-talk-pycon-2014/
 tool:
+  - pelican
 ---
 slides from a talk at SoCal Linux Expo (SCALE 13x).
 
