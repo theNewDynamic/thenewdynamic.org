@@ -22,14 +22,16 @@ If you want to follow along on your own, try to have Jekyll installed on your co
 
 Topics may include (send me feedback if you want to cover something else):
 
-- Getting up and running
+* Getting up and running
 
-- choosing content types (pages, collections, posts).
+* choosing content types (pages, collections, posts).
 
-- Helpful configuration options
+* Helpful configuration options
 
-- Essential plugins
+* Essential plugins
 
-- Creating relationships between content
+* Creating relationships between content
 
-- Creating events.
+* Creating events.
+
+RSVP at&nbsp;[www.meetup.com/The-New-Dynamic/events/235271051/](https://www.meetup.com/The-New-Dynamic/events/235271051/)
