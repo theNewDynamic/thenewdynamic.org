@@ -7,7 +7,7 @@ meetup: the-new-dynamic
 start_at: 2016-11-10 14:00:00
 venue: Civic Hall
 address: '156 5th Ave. New York, NY 10010'
-link:
+link: https://www.meetup.com/The-New-Dynamic/events/235271051/
 description: “Getting Going with Jekyll” is a beginner to intermediate workshop on building a website using the Jekyll static site generator.
 ---
 
