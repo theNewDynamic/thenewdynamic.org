@@ -3,7 +3,7 @@ title: Sketch App
 date: 2016-11-10 00:00:00
 tools:
   - jekyll
-website:
+website: 'https://sketchapp.com/'
 repo:
 creator:
   - name:
@@ -14,4 +14,7 @@ image_path: /uploads/showcase-sketch-app.jpg
 ---
 
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">I’m really happy with the result of migrating the Sketch site to <a href="https://twitter.com/jekyllrb">@jekyllrb</a>. Docs and community alone made the change worth already :)</p>&mdash; Alberto Calvo (@pumpkin) <a href="https://twitter.com/pumpkin/status/796708628090748928">November 10, 2016</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+> I’m really happy with the result of migrating the Sketch site to [@jekyllrb](https://twitter.com/jekyllrb). Docs and community alone made the change worth already :)
+> — Alberto Calvo (@pumpkin) [November 10, 2016](https://twitter.com/pumpkin/status/796708628090748928)
+
+<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
