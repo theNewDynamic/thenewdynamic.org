@@ -2,6 +2,7 @@
 title: Sketch App
 date: 2016-11-10 00:00:00
 tools:
+  - jekyll
 website:
 repo:
 creator:
@@ -9,7 +10,7 @@ creator:
     role: Design/Development
     url:
     twitter_username:
-image_path:
+image_path: /uploads/showcase-sketch-app.jpg
 ---
 
 
