@@ -5,8 +5,8 @@ tool_type:
   - content-management
 urls:
   website: 'https://appernetic.io/'
-  github:
-  twitter:
+  github: 'https://github.com/appernetic'
+  twitter: 'https://twitter.com/Appernetic'
 resources:
   - name: Blog
     url: 'https://blog.appernetic.io/'
