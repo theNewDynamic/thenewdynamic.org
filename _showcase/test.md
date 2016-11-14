@@ -1,6 +1,6 @@
 ---
 title: test
-date:
+date: 2016-11-23 00:00:00
 tools:
 website:
 repo:
@@ -11,3 +11,5 @@ creator:
     twitter_username:
 image_path:
 ---
+
+
