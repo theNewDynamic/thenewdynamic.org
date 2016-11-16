@@ -1,1 +1,1 @@
-WIP Jekyll starter with a focus on a lean workflow.
+Website for The New Dynamic
