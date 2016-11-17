@@ -8,5 +8,8 @@ urls:
   website: http://www.metalsmith.io/
   github: https://github.com/segmentio/metalsmith.io
   slack: https://metalsmith-slack.herokuapp.com
+resources:
+  - name: metalsmith-base (starter)
+    url: https://github.com/evocode/metalsmith-base
 ---
 An extremely simple, pluggable static site generator.
