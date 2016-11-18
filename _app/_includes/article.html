@@ -28,16 +28,23 @@
 
   <div itemprop="articleBody" class="transition">
     {{ content }}
-    {% if page.link %}
-      <a href="{{page.link }}">{{ page.link | remove: 'http://' | remove: 'https://' }}</a>
-    {% endif %}
 
     {% if page.venue  %}
-    <h6>{{ page.venue }}</h6>
-    {% if page.address %}
-      {{ page.address | markdownify }}
-    {% endif %}
+    <h2 class="mb0">Details</h2>
+      <p class="mt0">
+        {{ page.start_at | date: "%b %-d, %l:%M %p"}}<br />
+        {{ page.venue | markdownify | remove: '<p>' | remove: '</p>'}}
+      {% if page.address %}
+        {{ page.address | markdownify | remove: '<p>' | remove: '</p>'  }}
+      {% endif %}
+      </p>
     {% endif  %}
+    {% if page.link %}
+      <p>
+        Link: <a href="{{page.link }}">{{ page.link | remove: 'http://' | remove: 'https://' }}</a>
+      </p>
+    {% endif %}
+
   </div>
 
     {% if page.include %}
