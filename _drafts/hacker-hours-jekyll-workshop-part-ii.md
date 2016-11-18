@@ -7,7 +7,7 @@ meetup: the-new-dynamic
 start_at: 2016-12-08 14:00:00
 venue: Civic Hall
 address: '118 West 22nd St. New York, NY 10011'
-link:
+link: https://www.meetup.com/The-New-Dynamic/events/235673125/
 description:
 ---
 
