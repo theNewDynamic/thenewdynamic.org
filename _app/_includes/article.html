@@ -7,7 +7,11 @@
       </a>
     </h1>
     <p class="post-meta">
-      {% if page.date %}
+      {% if page.start_at %}
+        <time datetime="{{ page.start_at | date_to_xmlschema }}" itemprop="datePublished">
+          {{ page.start_at | date: "%b %-d, %Y" }}
+        </time>
+        {% elsif page.date  %}
         <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
           {{ page.date | date: "%b %-d, %Y" }}
         </time>
@@ -24,6 +28,9 @@
 
   <div itemprop="articleBody" class="transition">
     {{ content }}
+    {% if page.link %}
+      <a href="{{page.link }}">{{ page.link | remove: 'http://' | remove: 'https://' }}</a>
+    {% endif %}
   </div>
 
     {% if page.include %}
