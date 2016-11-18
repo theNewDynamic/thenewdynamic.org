@@ -31,6 +31,13 @@
     {% if page.link %}
       <a href="{{page.link }}">{{ page.link | remove: 'http://' | remove: 'https://' }}</a>
     {% endif %}
+
+    {% if page.venue  %}
+    <h6>{{ page.venue }}</h6>
+    {% if page.address %}
+      {{ page.address | markdownify }}
+    {% endif %}
+    {% endif  %}
   </div>
 
     {% if page.include %}
