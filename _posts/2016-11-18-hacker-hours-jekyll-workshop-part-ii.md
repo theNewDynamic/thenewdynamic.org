@@ -17,3 +17,5 @@ This month we'll start right off getting into the meat of site-building: Decidin
 If you want to follow along in code (you can also just listen in) you will already be able to run Jekyll on your machine, since we covered installation in our first session.
 
 We will have a live/streaming option if you're not in NYC and would like to participate. RSVP and leave a comment if you want to participate remotely.
+
+RSVP: https://www.meetup.com/The-New-Dynamic/events/235673125/
