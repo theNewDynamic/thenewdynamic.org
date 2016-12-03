@@ -1,6 +1,6 @@
 ---
 title: "The API-Based CMS Approach"
-source: source: Levi Gable, CSS-Tricks
+source: Levi Gable, CSS-Tricks
 date: 2016-11-23 13:22
 link: https://css-tricks.com/api-based-cms-approach/
 type: Tutorial
