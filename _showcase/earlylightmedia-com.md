@@ -1,13 +1,28 @@
 ---
 title: earlylightmedia.com
-date: 2016-09-07T00:00:00.000Z
+date: 2016-09-07 00:00:00
 tools:
   - roots
+  - contentful
 website: 'http://www.earlylightmedia.com'
-repo:
+repo: 'https://github.com/earlylightmedia/elm'
 creator:
-  - name:
-    role:
-    url:    
+  - name: Sarah Fox
+    role: 'logo & web design'
+    url: 'http://www.thecommonfox.com/#/earlylightmedia/'
+  - name: Kara Redman
+    role: branding
+    url: 'http://backroom.io/'
+  - name: Vassilis Terzopoulos
+    role: front-end / jekyll development
+    url: 'http://three99.com/'
+  - name: Tom Kraak
+    role: 'front-end / jekyll development:'
+    url: 'http://backroom.io/'
+  - name: Tom Kraak
+    role: 'site migration from jekyll to roots & contentful'
+    url: 'http://backroom.io/'
 image_path: /uploads/showcase-earlylightmedia-roots.jpg
 ---
+
+
