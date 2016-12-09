@@ -1,10 +1,10 @@
 ---
 title: The Panama Papers
-date: 2016-09-07T00:00:00.000Z
+date: 2016-09-06T00:00:00.000Z
 tools:
   - jekyll
 website: 'https://panamapapers.icij.org/'
-repo: 
+repo:
 creator:
   - name: Populate
     role: Design/Development

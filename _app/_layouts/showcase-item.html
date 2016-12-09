@@ -45,7 +45,7 @@ paginate:
     {% if creators %}
       {% for object in creators %}
         {% if object.role and object.name %}
-          <h3 class="px2">
+          <h3 class="px2 mb0">
             {% if object.role %}
               {{ object.role }} by
             {% endif %}
@@ -57,7 +57,7 @@ paginate:
 
         {% if object.url %}
           <a href="{{ object.url }}" class="{{ box_link_classes }}">
-            {{ object.url | remove: 'http://' | remove: '/' }}
+            {{ object.url | remove: 'http://' | truncate:25 }}
           </a>
         {% endif %}
         {% if object.twitter_username %}

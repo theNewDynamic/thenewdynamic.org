@@ -1,6 +1,6 @@
 ---
 title: Malala.org
-date: 2016-09-07T00:00:00.000Z
+date: 2016-09-05T00:00:00.000Z
 tools:
   - roots
   - contentful
