@@ -5,7 +5,7 @@ tool_type:
   - hosting-deployment
 urls:
   website: 'https://static.land/'
-  github: 'https://github.com/staticland
+  github: 'https://github.com/staticland'
   twitter:
 resources:
   - name:
