@@ -5,7 +5,7 @@ tools:
   - roots
   - contentful
 website: 'http://www.earlylightmedia.com'
-repo: 'https://github.com/earlylightmedia/elm'
+repo: 'https://github.com/earlylightmedia/www'
 creator:
   - name: Sarah Fox
     role: 'logo & web design'
