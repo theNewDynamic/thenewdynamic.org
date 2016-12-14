@@ -1,13 +1,16 @@
 ---
 title: Google Ventures
-date:
+date: 2016-12-13 00:00:00
 tools:
-website:
+  - metalsmith
+website: 'http://www.gv.com/'
 repo:
 creator:
-  - name:
+  - name: GV TEAM
     role: Design/Development
-    url:
-    twitter_username:
-image_path:
+    url: 'http://www.gv.com/humans.txt'
+    twitter_username: GVteam
+image_path: /uploads/showcase-gv.jpg
 ---
+
+
