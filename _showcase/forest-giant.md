@@ -11,7 +11,7 @@ creator:
     role: Design/Development
     url:
     twitter_username:
-image_path: /uploads/showcase-forest-giant-hugo-1600w.jpg
+image_path: /uploads/showcase-hugo-forestgiant.jpg
 ---
 
 
