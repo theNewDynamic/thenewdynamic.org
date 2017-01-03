@@ -10,7 +10,7 @@ creator:
     role: Design/Development
     url:
     twitter_username:
-image_path: /uploads/screenshot-cardiogram-gatsby.jpg
+image_path: /uploads/showcase-gatsby-cardiogram.jpg
 ---
 
 
