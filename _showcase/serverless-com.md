@@ -4,7 +4,7 @@ date: 2017-01-03 00:00:00
 tools:
   - phenomic
 website: 'https://serverless.com/'
-repo:
+repo: 'https://github.com/serverless/site'
 creator:
   - name:
     role: Design/Development
