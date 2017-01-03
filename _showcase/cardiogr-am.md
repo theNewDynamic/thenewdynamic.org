@@ -1,13 +1,16 @@
 ---
 title: cardiogr.am
-date: '2017-01-15 10:00'
+date: 2017-01-03 10:00:00
 tools:
-website:
+  - gatsby
+website: 'https://cardiogr.am/'
 repo:
 creator:
   - name:
     role: Design/Development
     url:
     twitter_username:
-image_path:
+image_path: /uploads/screenshot-cardiogram-gatsby.jpg
 ---
+
+
