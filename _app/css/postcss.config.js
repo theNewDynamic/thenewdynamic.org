@@ -10,7 +10,7 @@ module.exports = {
     'cssnano'
   ],
   input: '_app/css/main.css',
-  dir: './assets/css',
+  output: './assets/css',
   cssnano: {
      discardComments: {
         removeAll: true
