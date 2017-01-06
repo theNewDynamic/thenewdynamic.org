@@ -31,7 +31,7 @@ At the end, we'll dive into a new library that attempts to recreate the Jekyll s
 
 *Bio: Jeff is a member of Google's Web DevRel team, based in NYC. His mission is to build libraries that take the work out of using service workers.*
 
-Sign up Here:&nbsp;[https://www.meetup.com/The-New-Dynamic/events/236530076/](https://www.meetup.com/The-New-Dynamic/events/236530076/)
+Sign up Here: [https://www.meetup.com/The-New-Dynamic/events/236530076/](https://www.meetup.com/The-New-Dynamic/events/236530076/)
 
 ---
 
