@@ -1,8 +1,10 @@
 ---
-title: latticHQ
-date: '2017-01-15 10:00'
+title: Lattice
+date: 2017-01-05 15:00:00
 tools:
-website:
+  - jekyll
+  - datocms
+website: 'https://latticehq.com/'
 repo:
 creator:
   - name:
@@ -11,3 +13,5 @@ creator:
     twitter_username:
 image_path:
 ---
+
+
