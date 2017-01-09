@@ -8,6 +8,7 @@ group :jekyll_plugins do
   # gem "jekyll-lunr-js-search"
   # gem 'jekyll-assets'
   # gem 'autoprefixer-rails'
+  gem 'jekyll-livereload'
   gem 'octopress-paginate'
   gem 'jekyll-redirect-from'
   gem 'jekyll-admin'
