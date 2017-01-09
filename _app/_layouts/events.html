@@ -43,11 +43,9 @@ schema: https://schema.org/WebPage
     {% assign event_date = object.start_at | date: "%Y%m%d" %}
       <div class="col-12 md-col-6 pr2 mb2">
         {% if event_date >= current_date %}
-
              <a href="{{ object.link }}" class="block h4 py1 px3 text-decoration-none white bg-accent-color hover-bg-black">
             Upcoming: {{ object.start_at | date: "%A, %b %d" }}  {{ object.start_at | date: "%l:%M %P" }} <span class="pl4">JOIN</span>
             </a>
-
         {% endif %}
 
         {% include components/article-list-item.html %}

@@ -1,4 +1,12 @@
+{% assign current_date = site.time | date: "%Y%m%d" %}
+{% assign event_date = object.start_at | date: "%Y%m%d" %}
+{% if event_date >= current_date %}
+     <a href="{{ object.link }}" class="block h5 py1 px3 text-decoration-none white bg-accent-color hover-bg-black">
+    Upcoming: {{ object.start_at | date: "%A, %b %d" }}  {{ object.start_at | date: "%l:%M %P" }} <span class="pl4">JOIN</span>
+    </a>
+{% endif %}
 <a href="{{ object.url }}" class="p3 bg-near-white hover-bg-silver transition hover-box-shadow block text-decoration-none default-text-color relative">
+
   {% if object.video  %}
     <img src="/assets/images/ic_videocam_black_24px.svg" class="absolute top-0 right-0 muted m1">
   {% endif %}

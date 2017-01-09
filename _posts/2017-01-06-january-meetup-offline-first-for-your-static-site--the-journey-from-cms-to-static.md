@@ -6,7 +6,7 @@ meetup: the-new-dynamic
 start_at: 2017-01-26 18:30:00
 venue: Civic Hall
 address: '118 W 22nd St. New York, NY 10011'
-link:
+link: https://www.meetup.com/The-New-Dynamic/events/236530076/
 description:
 ---
 
