@@ -11,6 +11,9 @@ primary:
     - title: "showcase"
       url: /showcase/
 
+    - title: "videos"
+      url: /videos/
+
     - title: "Meetups"
       url: /events/
 
