@@ -167,13 +167,13 @@ defaults:
 github_user: budparr
 github_repo: thenewdynamic
 
-
-staticman:
- allowedFields: ['tool_type', 'title', 'link', 'link', 'tool', 'content', 'email']
- branch: master
- commitMessage: "Hey Bud, here is a new entry."
- filename: "entry{@timestamp}"
- format: yml
- moderation: false
- path: "_data/submissions"
- requiredFields: ['title', 'source', 'email']
+#
+# staticman:
+#  allowedFields: ['tool_type', 'title', 'link', 'link', 'tool', 'content', 'email']
+#  branch: master
+#  commitMessage: "Hey Bud, here is a new entry."
+#  filename: "entry{@timestamp}"
+#  format: yml
+#  moderation: false
+#  path: "_data/submissions"
+#  requiredFields: ['title', 'source', 'email']
