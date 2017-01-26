@@ -1,5 +1,5 @@
 ---
-title: Interview with Eric Gardner, of Getty Publications
+title: Interview with Eric Gardner, Getty Publications
 published: true
 date: 2017-01-26 11:30:00
 category: Article
