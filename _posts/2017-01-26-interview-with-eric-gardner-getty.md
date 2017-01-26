@@ -2,7 +2,7 @@
 title: Interview with Eric Gardner, of Getty Publications
 published: true
 date: 2017-01-26 11:30:00
-category: Interview
+category: Article
 meetup:
 start_at:
 venue:
