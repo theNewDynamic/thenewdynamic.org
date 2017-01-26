@@ -62,7 +62,7 @@ plugins_dir:  ./_app/_plugins
 layouts_dir:  ./_app/_layouts
 includes_dir: ./_app/_includes
 
-#permalink: pretty
+permalink: pretty
 future: false
 # CONTENT
 exclude:
