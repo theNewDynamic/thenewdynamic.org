@@ -12,6 +12,8 @@ description:
 ---
 Following the publication of [the digital publishing workflow based on Git and Middleman of a publisher](http://blogs.getty.edu/iris/an-editors-view-of-digital-publishing/), [Antoine Fauchié](https://www.quaternum.net) asked a few questions to [Eric Gardner](http://egardner.github.io/), developer and designer in the [Digital Publishing team](http://www.getty.edu/publications/digital/index.html) at Getty Publications.
 
+![Showcase Site Getty's Terracottas](https://thenewdynamic.imgix.net/getty-museum-ancient-terracottas-1600.jpg?w=900)
+
 ## How and why do you choose a static site generator as the backbone of the publishing workflow for Getty Publications? And not another native development?
 
 When I first started working at the Getty, the digital publishing program was very new. There had been some prior experiments using a more traditional CMS-based approach as well as a mobile app developed by a third-party vendor, but after a few years these projects were already becoming difficult to maintain.
@@ -25,6 +27,9 @@ Finally, as someone with a design background, I care a lot about the design and 
 ## How did your team apprehend this new workflow? Was the appropriation easy?
 
 It’s true that publishing this way means that some things are very different. Fortunately I have great colleagues who were willing to learn the new process. Our digital team has done a few “GitHub 101” trainings that have been well received, and writing in Markdown is not so different from writing in any other word processor. I’m still hoping we can make the process more painless though – setting up a development environment to be able to preview things locally can still be pretty daunting, for example. I'm interested in developing tools to help make this process easier for people.  
+
+
+![eric ruth greg](/uploads/eric_ruth_greg_1009_1200.jpg)
 
 ## Do you think that a web-based workflow could replace the demonic couple Word + InDesign? And especially with the same facility for the writing and the structuration (WYSIWYG), and the same efficiency for the formatting (InDesign)?
 
