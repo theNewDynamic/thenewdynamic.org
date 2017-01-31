@@ -4,26 +4,4 @@ layout: default
 section: page-listing
 schema: https://schema.org/WebPage
 ---
-{% assign videos = site.videos %}
-{% if page.url == '/videos/' %}
-  {% assign title = page.title  %}
-{% endif %}
-
-<h1>
-  {{ title }}
-</h1>
-
-<div class="flex flex-wrap justify-around">
-  {% for video in videos %}
-    <div class="video-item">
-      <h2>{{video.title}}</h2>
-      {{video.content}}
-      <h3>categories: </h3>
-      <ul class="ul">
-        {% for cat in video.categories %}
-          <li>{{cat}}</li>
-        {% endfor %}
-      </ul>
-    </div>
-  {% endfor %}
-</div>
+{{content}}

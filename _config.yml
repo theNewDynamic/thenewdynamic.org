@@ -93,9 +93,6 @@ collections:
   showcase:
     output: true
     permalink: '/:collection/:path/'
-  videos:
-    output: true
-    permalink: '/videos/:path'
   tools:
     output: true
     permalink: '/tool/:path/'
@@ -151,12 +148,6 @@ defaults:
     values:
       layout: showcase-item
       collection_name: Showcase
-  - scope:
-      path: ''
-      type: videos
-    values:
-      layout: videos
-      collection_name: Videos
   - scope:
       path: '_pages'
     values:
