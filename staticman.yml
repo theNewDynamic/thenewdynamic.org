@@ -1,0 +1,7 @@
+videos:
+  allowedFields: ["id", "type", "title", "categories"]
+  requiredFields: ["id", "type", "title"]
+  branch: "master"
+  commitMessage: "Video added"
+  filename: "{fields.id}"
+  path: "_data/videos/{fields.type}"
