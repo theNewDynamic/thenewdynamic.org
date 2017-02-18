@@ -2,6 +2,7 @@
 _site
 .ruby-version
 .jekyll-metadata
+.vscode
 
 # Numerous always-ignore extensions
 *.diff

@@ -11,7 +11,6 @@ paginate:
 {% assign showcase_item_links = 'col-12 sm-col-6 md-col-6 lg-col-6 sm-pr3 mb4 black text-decoration-none'  %}
 {% if page.url == '/showcase/' %}
   {% assign tools = (site.tools  sort: 'title', 'last' ) %}
-
 {% else %}
   {% assign tools = (site.tools | where: 'tool_type', page.slug | sort: 'title', 'last' ) %}
   {% assign title = page.title  %}

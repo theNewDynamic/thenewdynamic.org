@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+ruby"2.3.1"
+
  gem 'jekyll'
 #gem "jekyll", :git => "git@github.com:jekyll/jekyll.git", :ref => 'HEAD'
 group :jekyll_plugins do
