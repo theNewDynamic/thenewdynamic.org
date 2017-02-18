@@ -1,12 +1,19 @@
 {% for video in site.data.videos.[include.type] %}
   <div class="video-item video-container">
-    <h2>{{video.title}}</h2>
+    <h2>{{title}}</h2>
+    {% if video.id %}
     <iframe width="480" height="270" src="https://www.youtube.com/embed/{{video.id}}" frameborder="0" allowfullscreen></iframe>
+    {% endif %}
+    {% comment %}
+    <!-- removing until we can make the categories useful
     <h3>categories: </h3>
     <ul class="ul">
       {% for cat in video.categories %}
         <li>{{cat}}</li>
       {% endfor %}
-    </ul>
+    </ul> -->
+    {% endcomment %}
+
+
   </div>
 {% endfor %}

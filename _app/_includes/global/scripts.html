@@ -1,3 +1,75 @@
+
+<script src="https://www.gstatic.com/firebasejs/3.6.9/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/3.6.9/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/3.6.9/firebase-database.js"></script>
+
+
+
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyApFV6OxHDuTLpvAfPlzj4dUKetG7fiHl8",
+    authDomain: "thenewdynamic-org.firebaseapp.com",
+    databaseURL: "https://thenewdynamic-org.firebaseio.com",
+    storageBucket: "thenewdynamic-org.appspot.com",
+    messagingSenderId: "205223763386"
+  };
+  firebase.initializeApp(config);
+
+  // Get Elements
+  const preObject = document.getElementById('object');
+  const ulList = document.getElementById('list');
+
+  // Create References
+  const dbRefObject = firebase.database().ref().child('object');
+  const dbRefList = dbRefObject.child('hobbies');
+
+  // Sync Object changes
+
+  dbRefObject.on('value', snap => {
+    preObject.innerText = JSON.stringify(snap.val(), null, 3) ;
+  } );
+
+  // Sync List Changes
+
+  // add
+  dbRefList.on('child_added', snap => {
+    const li = document.createElement('li');
+    li.id = snap.key;
+    li.innerText = snap.val();
+    ulList.appendChild(li);
+  })
+
+  // change
+  dbRefList.on('child_changed', snap =>{
+    const liChanged = document.getElementById(snap.key);
+    liChanged.innerText = snap.val();
+  })
+
+
+  // remove
+  dbRefList.on('child_removed', snap =>{
+    const liToRemove = document.getElementById(snap.key);
+    liToRemove.remove();
+  })
+
+
+</script>
+{% comment %}
+<!--
+
+
+<pre id="object">
+</pre>
+
+<ul id="list">
+
+</ul> -->
+{% endcomment %}
+
+
+
+
 {% if page.previous or page.next%}
 <script>
   document.body.onkeyup = function(e){
