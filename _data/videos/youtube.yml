@@ -1,4 +1,25 @@
 - title: Getting Started with Jekyll, The Static Site Generator
   id: iWowJBRMtpc
   categories:
-    - Jekyll
+    - jekyll
+
+- title: "The Journey from MovableType to Jekyll to Roots"
+  id: y2I6lIcr5Ig
+  categories:
+    - roots
+
+- title: "Offline-first for Your Static Site"
+  id: _kJMjJ1tm6o
+  categories:
+    - jekyll
+
+- title: "Search for Static Sites"
+  id: zahaMg3X0Tc
+  categories:
+    - jekyll
+
+- title: "Break through the limits of static site generators"
+  id: 4xu7c5UVPvY
+
+- title: "Real World Content Strategy with Jekyll"
+  id: A1nTuNjoNbg
