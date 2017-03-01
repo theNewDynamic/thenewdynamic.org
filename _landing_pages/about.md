@@ -10,6 +10,3 @@ Get in touch via Twitter: [@thenewdynamic](https://twitter.com/thenewdynamic)
 While we may recommend commercial as well as open source projects on this site, we do not accept freebies that are not available to the general public and will disclose any interests when appropriate.
 
 Join our Meetup Group: [The New Dynamic Meetup](https://www.meetup.com/The-New-Dynamic/)
-
-
-<span class="muted h6">build {{ 'now' | date: '%s' }}</span>
