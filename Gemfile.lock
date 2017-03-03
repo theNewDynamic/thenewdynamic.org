@@ -8,7 +8,7 @@ GEM
     em-websocket (0.5.1)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
-    eventmachine (1.2.2)
+    eventmachine (1.2.3)
     faraday (0.11.0)
       multipart-post (>= 1.2, < 3)
     ffi (1.9.17)
@@ -25,12 +25,12 @@ GEM
       pathutil (~> 0.9)
       rouge (~> 1.7)
       safe_yaml (~> 1.0)
-    jekyll-admin (0.3.0)
+    jekyll-admin (0.4.0)
       addressable (~> 2.4)
       jekyll (~> 3.3)
       sinatra (~> 1.4)
       sinatra-contrib (~> 1.4)
-    jekyll-feed (0.8.0)
+    jekyll-feed (0.9.1)
       jekyll (~> 3.3)
     jekyll-gist (1.4.0)
       octokit (~> 4.2)
@@ -104,9 +104,6 @@ DEPENDENCIES
   jekyll-seo-tag
   jekyll-sitemap
   octopress-paginate
-
-RUBY VERSION
-   ruby 2.3.1p112
 
 BUNDLED WITH
    1.13.7
