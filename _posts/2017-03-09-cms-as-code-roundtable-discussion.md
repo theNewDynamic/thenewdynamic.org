@@ -15,14 +15,17 @@ We're heading to Brooklyn! This month we'll have two Sessions: "CMS as Code" by 
 We'll begin Dmytri's presentation and then, after a brief demo of the tools they've created, we'll have a discussion. Bring your questions!
 
 
-Details  Thursday April, 6th @ 6:30 p.m.   
+**Details**
+
+Thursday April, 6th @ 6:30 p.m.   
 (we will start promptly)
 
 
-**Carrot Creative**
+**Carrot Creative**  
 55 Washington St, 9th Fl  
-Brooklyn, NY 11201     
-https://goo.gl/maps/u1bd1ESMcCL2
+Brooklyn, NY 11201   
+
+<https://goo.gl/maps/u1bd1ESMcCL2>
 
 
 
@@ -35,10 +38,10 @@ But now, in the "Cloud Age", systems are deployed using cloud services. Many of 
 
 
 
-Bios
+### Bios
 
-Dmytri Kleiner is a veteran Developer/Analyst with extensive experience with diverse technologies and platforms, both as a hands-on coder and in a management/leadership role. IT generalist with significant operations experience, Dmytri is currently one of the Solution Architects working at Contentful.
+**Dmytri Kleiner** is a veteran Developer/Analyst with extensive experience with diverse technologies and platforms, both as a hands-on coder and in a management/leadership role. IT generalist with significant operations experience, Dmytri is currently one of the Solution Architects working at Contentful.
 
-Kyle is a tech entrepreneur based in San Francisco, CA. He's worked on several startups and is currently building a next generation JavaScript website framework called Gatsby that blends the speed of static sites with the rich tooling and client-side capabilities of React.js.
+**Kyle Mathews** is a tech entrepreneur based in San Francisco, CA. He's worked on several startups and is currently building a next generation JavaScript website framework called Gatsby that blends the speed of static sites with the rich tooling and client-side capabilities of React.js.
 
-Jeff Escalante is the Lead Environment Developer at Carrot Creative where he works on developer process and services, open source tools, and occasionally leads client projects.
+**Jeff Escalante** is the Lead Environment Developer at Carrot Creative where he works on developer process and services, open source tools, and occasionally leads client projects.
