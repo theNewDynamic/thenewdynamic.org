@@ -1,24 +1,63 @@
-DefaultContentLanguage = "en"
-MetaDataFormat = "yaml"
-author = "Bud Parr"
-baseurl = "/"
-canonifyurls = true
-copyright = "Copyright (c) 2008 - 2014, Bud Parr; all rights reserved."
 languageCode = "en-us"
-paginate = 3
-theme = "the-new-dynamic-hugo-base"
-title = "the New Dynamic"
-weight = 1
+title = "Membership Guide"
+baseURL = "https://membership-guide.civichall.org"
+theme = "civic-hall-base"
+MetaDataFormat = "yaml"
+DefaultContentLanguage = "en"
+#SectionPagesMenu = "main"
+
+[[menu.main]]
+  name = "Announcements"
+  weight = 1
+  identifier = "announcements"
+  url = "/announcements/"
+
+[[menu.main]]
+  name = "Events"
+  weight = 5
+  identifier = "events"
+  url = "/events/"
+
+[[menu.main]]
+  name = "Membership"
+  weight = 10
+  identifier = "membership"
+  url = "/membership/"
+
+[[menu.main]]
+  name = "Guidelines & Policies"
+  weight = 15
+  identifier = "guidelines"
+  url = "/guidelines/"
+
+[[menu.main]]
+  name = "FAQs"
+  weight = 20
+  identifier = "reference"
+  url = "/reference/"
+
+[[menu.main]]
+  name = "About Civic Hall"
+  weight = 25
+  identifier = "history"
+  url = "/history/"
+
+
+
+
+[params]
+  logo = "/uploads/logo-civic-hall-boxed.svg"
+  member_log_in = "http://civichall.spaces.nexudus.com/en/"
+  sidebar_direction = "sidebar_left"
+  description = "Welcome to a community of action-oriented, cross-sector professionals located in the heart of Manhattan, where we aim to better the world through civic tech."
+  map_link = "https://www.google.com/maps/place/Civic+Hall/@40.742284,-73.9962257,17z/data=!3m1!4b1!4m5!3m4!1s0x89c259a3a3340f3d:0xba4060a01c13cc2a!8m2!3d40.74228!4d-73.994037"
+
+  ghcontentdir = "https://github.com/theNewDynamic/civic-hall-member-guide/tree/master/content"
+  twitter = "https://twitter.com/CivicHall"
+  facebook = "https://www.facebook.com/CivicHallNYC"
+  instagram = "https://www.instagram.com/civichall/"
 
 [taxonomies]
   tag = "tags"
   category = "categories"
   series = "series"
-
-
-[params]
-classSiteWidth = "w-90 w-70-l center"
-black = "bg-near-black"
-hero_copy = "A mission-driven web team for your mission-driven organization"
-nav_side_button_close_color = "#FFF"
-nav_side_button_menu_color = "#FFF"

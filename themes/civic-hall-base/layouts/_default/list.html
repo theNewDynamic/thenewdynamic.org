@@ -1,0 +1,28 @@
+{{ define "hero" }}
+  {{ if .Params.featured_image }}
+  {{ partial "hero-interior" .}}
+  {{ end}}
+{{ end }}
+
+{{ define "main" }}
+{{ $globalVariables := .Site.Data.globals }}
+  <article class="cf pa3 pa4-m pa4-l nested-copy-line-height nested-img">
+    <h1 class="primary-color">
+      {{ .Title }}
+    </h1>
+    <div class="{{ .Site.Params.copyClass }}">
+      {{ .Content }}
+    </div>
+
+    {{ $section_classes := $globalVariables.section_two_column_classes }}
+    {{ $interior_classes := $globalVariables.section_two_column_classes_interior }}
+    <section class="{{ $section_classes }} w-100 mt5 v-top">
+        <!-- TODO: It doesn't look like the second sort parameter (interior) actually sorts -->
+      {{ range sort (sort (where .Data.Pages "Section" .Section) ".Title" "asc") ".Weight" "desc"  }}
+        {{ partial "section-boxes" (dict "context" . "classes" $interior_classes "fullcontent" false ) }}
+      {{ end }}
+    </section>
+
+  </article>
+  <!-- w-100 w-40-ns -->
+{{ end }}

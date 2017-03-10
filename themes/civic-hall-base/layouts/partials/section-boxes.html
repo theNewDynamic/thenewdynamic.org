@@ -1,0 +1,36 @@
+<div class="relative {{ .classes }} weight-{{ .context.Weight }}">
+
+  <div class="{{ .context.Site.Data.globals.box_style_classes }}">
+    {{ if eq .context.Section "announcements" }}
+      <date class="f6">
+        {{ .context.Date.Format "January 2, 2006" }}
+      </date>
+    {{ end }}
+
+    <h1 class="f3 near-black">
+      <a href="{{ .context.URL }}" class="link primary-color dim">
+        {{ .context.Title }}
+      </a>
+    </h1>
+
+    <div class="nested-links f5 nested-copy-line-height">
+      {{ if eq .fullcontent true }}
+        {{ .context.Content }}
+      {{ else }}
+        <p>
+          {{ .context.Summary  }}
+        </p>
+        {{ if or (.context.Truncated) (.context.Params.plans) }}
+          <a href="{{ .context.RelPermalink }}" class="link accent-color hover-black dim f6">
+            Read More &raquo;
+          </a>
+        {{ end }}
+        <div class="absolute bottom-0 right-0 mb2 mr3">
+          {{ partial "icon-link" (dict "url" .context.URL "color" "#bbb") }}
+        </div>
+      {{ end }}
+    </div>
+
+
+  </div>
+</div>

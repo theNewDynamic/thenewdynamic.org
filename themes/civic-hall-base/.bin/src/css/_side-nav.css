@@ -1,0 +1,35 @@
+body.sidebar_left .sidebar {
+  width: 100%;
+}
+
+body.sidebar_left .content-with-sidebar,
+body.sidebar_right .content-with-sidebar {
+  margin-right: auto;
+  margin-left: auto;
+}
+/*
+@media (--breakpoint-not-small) {
+
+}
+
+@media (--breakpoint-medium) {
+
+}*/
+
+@media (--breakpoint-large) {
+  body.sidebar_left .sidebar {
+    width: var(--sidebar-width);
+    left:  0;
+  }
+  body.sidebar_right .sidebar {
+    width: var(--sidebar-width);
+    right:  0;
+  }
+  body.sidebar_left .content-with-sidebar {
+    margin-left: var(--sidebar-width);
+  }
+  body.sidebar_right .content-with-sidebar {
+    margin-right: var(--sidebar-width);
+  }
+
+}

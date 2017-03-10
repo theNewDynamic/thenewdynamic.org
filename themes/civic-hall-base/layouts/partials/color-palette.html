@@ -1,0 +1,5 @@
+<style>
+{{ range  $cssname, $css := .Site.Data.globals.colors  }}.{{ $cssname }} {color: {{ $css }} }{{ end }}
+{{ range $cssname, $css := .Site.Data.globals.colors }}.bg-{{ $cssname }} {background-color: {{ $css }} }{{ end }}
+{{ range $cssname, $css := .Site.Data.globals.colors }}.hover-bg-{{ $cssname }}:hover {background-color: {{ $css }} }{{ end }}</style>
+<!-- TODO: These need to be sorted by the order they are given in the globals file. Now they are random -->

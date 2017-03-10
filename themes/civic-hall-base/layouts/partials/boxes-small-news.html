@@ -1,0 +1,17 @@
+<section class="relative w-100  bg-primary-color-light white">
+  <div class="flex flex-wrap">
+    {{ range first 4 ( sort (where .Data.Pages "Section" "announcements") "Date" "desc" ) }}
+      {{ $.Scratch.Add "i" 1 }}{{ $i := $.Scratch.Get "i" }}
+      <!-- only show 2 boxes on mobile -->
+      <a href="{{ .URL }}" class="link light-gray f6 w-100 w-50-m w-20-l bg-animate hover-bg-primary-color hover-white pv3 pv4-l ph3 ph4-l{{ if ge $i 3 }} dn dib-l{{ else }} dib{{ end }}">
+        <span class="f6 mid-gray pb1 db">
+          {{ .Date.Format "January 2, 2006" }}
+        </span>
+        {{ .Title}}
+      </a>
+    {{ end }}
+    <a href="/announcements" class="link light-gray f6 w-100 w-50-m w-20-l bg-animate hover-bg-primary-color hover-white pv3 pv4-l ph3 ph4-l dib">
+      more Announcements&nbsp;&raquo;
+    </a>
+  </div>
+</section>
