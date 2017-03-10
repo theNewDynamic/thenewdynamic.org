@@ -1,0 +1,24 @@
+DefaultContentLanguage = "en"
+MetaDataFormat = "yaml"
+author = "Bud Parr"
+baseurl = "/"
+canonifyurls = true
+copyright = "Copyright (c) 2008 - 2014, Bud Parr; all rights reserved."
+languageCode = "en-us"
+paginate = 3
+theme = "the-new-dynamic-hugo-base"
+title = "the New Dynamic"
+weight = 1
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  series = "series"
+
+
+[params]
+classSiteWidth = "w-90 w-70-l center"
+black = "bg-near-black"
+hero_copy = "A mission-driven web team for your mission-driven organization"
+nav_side_button_close_color = "#FFF"
+nav_side_button_menu_color = "#FFF"

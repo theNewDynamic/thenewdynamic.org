@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ .Site.Title }} | {{block "titleHead" .}}{{ .Title }}{{end}}</title>
+     {{- partial "head.html" . -}}
+
+  </head>
+  <body class="w-100 vh-100 sans-serif bg-near-white {{ .Type }}">
+    {{ block "nav" . }}{{- partial "nav" . -}}{{ end }}
+    {{ block "hero" . }}{{ end }}
+    {{ block "main" . }}{{ end }}
+    {{ block "footer" . }}{{- partial "footer" . -}}{{ end }}
+    {{ block "scripts" . }}{{- partial "scripts" . -}}{{ end }}
+<!-- {{- partial "nav-side" . -}} -->
+  </body>
+</html>

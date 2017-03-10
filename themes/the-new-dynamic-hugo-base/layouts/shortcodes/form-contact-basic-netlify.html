@@ -1,0 +1,89 @@
+{{ $.Scratch.Add "labelClasses" "absolute top-0 left-0 mt3 ml4 o-50 b" }}
+{{ $.Scratch.Add "inputClasses" "w-100 pv3 pl5 bg-light-gray bn" }}
+<!-- width: 100%;
+border: 0;
+padding: 20px 20px 20px 50px;
+background: #eee; -->
+<form name="contact" action="thank-you" netlify>
+
+  <div class="relative bg-white bb b--white">
+    <input type="text" id="first_name" name="first_name" class="{{ $.Scratch.Get "inputClasses" }}"  required placeholder=" " />
+    <label class="{{ $.Scratch.Get "labelClasses" }}"  for="first_name">Your Name</label>
+  </div>
+
+  <div class="relative bg-white bb b--white">
+    <input type="text" id="last_name" name="last_name" class="{{ $.Scratch.Get "inputClasses" }}"  required placeholder=" " />
+    <label class="{{ $.Scratch.Get "labelClasses" }}" for="last_name">Organization Name</label>
+  </div>
+
+  <div class="relative bg-white bb b--white">
+    <input type="email" id="email" name="email" class="{{ $.Scratch.Get "inputClasses" }}"  required placeholder=" " />
+    <label class="{{ $.Scratch.Get "labelClasses" }}" for="email">Email Address</label>
+    <div class="requirements f6 glow i ph3 overflow-hidden red">
+      Must be a valid email address.
+    </div>
+  </div>
+
+<!--
+
+  color: #999;
+  max-height: 0;
+
+
+
+-->
+
+  <div class="relative bg-whit">
+    <textarea id="message" name="message" class="{{ $.Scratch.Get "inputClasses" }} h4" aria-describedby="comment-desc"></textarea>
+
+    <label class="{{ $.Scratch.Get "labelClasses" }}" for="message">Message</label>
+
+  </div>
+
+  <input class="db w-100 mv2 white pa3 bn hover-shadow hover-bg-blck bg-animate bg-gold" type="submit" value="Send" />
+
+</form>
+
+<style media="screen">
+
+form > div > input[type="text"]:focus,
+form > div > input[type="email"]:focus,
+form > div > input[type="password"]:focus,
+form > div > textarea:focus {
+  outline: 0;
+  background: white;
+}
+form > div > input[type="text"]:focus + label,
+form > div > input[type="email"]:focus + label,
+form > div > textarea:focus + label  {
+  opacity: 0;
+}
+form > div > input[type="text"]:valid,
+form > div > input[type="email"]:valid{
+  background: url(/images/check.svg);
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: 20px 20px;
+}
+form > div > input[type="text"]:valid + label,
+form > div > input[type="email"]:valid + label{
+opacity: 0;
+}
+form > div > input[type="text"]:invalid:not(:focus):not(:placeholder-shown),
+form > div > input[type="email"]:invalid:not(:focus):not(:placeholder-shown){
+background: pink;
+}
+form > div > input[type="text"]:invalid:not(:focus):not(:placeholder-shown) + label,
+form > div > input[type="email"]:invalid:not(:focus):not(:placeholder-shown) + label {
+opacity: 0;
+}
+form > div > input[type="text"]:invalid:focus:not(:placeholder-shown) ~ .requirements,
+form > div > input[type="email"]:invalid:focus:not(:placeholder-shown) ~ .requirements
+{
+max-height: 200px;
+padding: 0 30px 20px 50px;
+}
+form > div .requirements {
+  max-height: 0;
+}
+</style>
