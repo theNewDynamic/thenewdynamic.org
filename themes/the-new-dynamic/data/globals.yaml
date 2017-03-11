@@ -1,9 +1,9 @@
 colors:
   primary-color:        "#8C1613"
-  primary-color-dark:   "#4E4D55"
+  primary-color-dark:   "#283D3B"
   primary-color-light:  "#ABA194"
   accent-color:         "#F3F6F8"
-  accent-color-light:   "#d90429"
+  accent-color-light:   "#F2F4F3"
   accent-color-dark:    "wheat"
   text-color-primary:   "black"
   text-on-primary-color:   "#fff"

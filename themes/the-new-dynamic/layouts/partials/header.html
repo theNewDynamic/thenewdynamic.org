@@ -1,0 +1,41 @@
+{{ if .Params.featured_image }}
+  {{ $.Scratch.Add "imageClasses" "cover bg-center" }}
+  {{ $.Scratch.Add "bgColorClass" " bg-black-60" }}
+{{ else }}
+ {{ $.Scratch.Add "bgColorClass" " bg-primary-color" }}
+{{ end }}
+
+<header class="{{ $.Scratch.Get "imageClasses" }}"{{ with .Params.featured_image }} style="background-image: url({{ . }});"{{ end }}>
+  <div class="pb3-m pb6-l{{ $.Scratch.Get "bgColorClass" }}">
+
+            <nav class="dt w-100 mw8 center">
+
+              <div class="dtc v-mid">
+                {{ range .Site.Menus.main }}
+                  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="{{ .URL }}" >{{ .Name }}</a>
+                {{ end }}
+              </div>
+              <div class="dtc v-mid tr pa3">
+                {{ range .Site.Menus.secondary }}
+                  <a class="f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="{{ .URL }}" >{{ .Name }}</a>
+                {{ end }}
+              </div>
+            </nav>
+
+            <div class="tc-l mt4 mt5-m mt6-l ph3">
+
+                <h1 class="f2 f1-l fw2 white-90 mb0 lh-title">{{ .Site.Title }}</h1>
+                {{ with .Site.Params.Subtitle }}
+                  <h2 class="fw1 f3 white-80 mt3 mb4">
+                    {{ .}}
+                  </h2>
+                {{ end }}
+                <a class="f6 no-underline grow dib v-mid bg-blue white ba b--blue ph3 pv2 mb3" href="/">Join Our Meetup</a>
+                <span class="dib v-mid ph3 white-70 mb3">or</span>
+                <a class="f6 no-underline grow dib v-mid white ba b--white ph3 pv2 mb3" href="">Submit a Job or Profile</a>
+
+
+      </div>
+    </div>
+
+</header>

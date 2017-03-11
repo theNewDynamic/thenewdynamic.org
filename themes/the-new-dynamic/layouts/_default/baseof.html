@@ -30,10 +30,10 @@
 
 <!-- TODO: add Search -->
   </head>
-  <body class="w-100 vh-100 sans-serif bg-accent-color {{ .Site.Params.sidebar_direction }}">
+  <body class="w-100 vh-100 sans-serif bg-accent-color-light {{ .Site.Params.sidebar_direction }}">
 
-    
-    {{ block "hero" . }}{{ end }}
+
+    {{ block "header" . }}{{ partial "header" .}}{{ end }}
     <main class="min-vh-100 pb7" role="main">
 
       {{ block "main" . }}{{ end }}

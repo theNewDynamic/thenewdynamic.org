@@ -7,48 +7,75 @@ DefaultContentLanguage = "en"
 #SectionPagesMenu = "main"
 
 [[menu.main]]
-  name = "Announcements"
+  name = "Articles"
   weight = 1
-  identifier = "announcements"
-  url = "/announcements/"
+  identifier = "articles"
+  url = "/articles/"
 
 [[menu.main]]
-  name = "Events"
+  name = "Links"
   weight = 5
+  identifier = "Links"
+  url = "/Links/"
+
+[[menu.main]]
+  name = "Tools"
+  weight = 10
+  identifier = "tools"
+  url = "/tools/"
+
+[[menu.main]]
+  name = "Showcase"
+  weight = 15
+  identifier = "showcase"
+  url = "/showcase/"
+
+[[menu.main]]
+  name = "Videos"
+  weight = 20
+  identifier = "videos"
+  url = "/videos/"
+
+[[menu.main]]
+  name = "Meetups/Events"
+  weight = 25
   identifier = "events"
   url = "/events/"
 
 [[menu.main]]
-  name = "Membership"
-  weight = 10
-  identifier = "membership"
-  url = "/membership/"
-
-[[menu.main]]
-  name = "Guidelines & Policies"
-  weight = 15
-  identifier = "guidelines"
-  url = "/guidelines/"
-
-[[menu.main]]
-  name = "FAQs"
-  weight = 20
-  identifier = "reference"
-  url = "/reference/"
-
-[[menu.main]]
-  name = "About Civic Hall"
+  name = "Jobs"
   weight = 25
-  identifier = "history"
-  url = "/history/"
+  identifier = "jobs"
+  url = "/jobs/"
+
+
+[[menu.secondary]]
+  name = "About"
+  weight = 25
+  identifier = "about"
+  url = "/about/"
+
+[[menu.secondary]]
+  name = "Submit"
+  weight = 25
+  identifier = "submit"
+  url = "/submit/"
+
+[[menu.secondary]]
+  name = "Privacy"
+  weight = 25
+  identifier = "privacy"
+  url = "/privacy/"
+
 
 
 
 
 [params]
   logo = "/uploads/logo-civic-hall-boxed.svg"
+  subtitle = "Build Faster Better Websites with modern tools, services and techniques"
   member_log_in = "http://civichall.spaces.nexudus.com/en/"
-  sidebar_direction = "sidebar_left"
+
   description = "Welcome to a community of action-oriented, cross-sector professionals located in the heart of Manhattan, where we aim to better the world through civic tech."
   map_link = "https://www.google.com/maps/place/Civic+Hall/@40.742284,-73.9962257,17z/data=!3m1!4b1!4m5!3m4!1s0x89c259a3a3340f3d:0xba4060a01c13cc2a!8m2!3d40.74228!4d-73.994037"
 

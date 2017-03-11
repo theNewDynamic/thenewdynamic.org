@@ -1,14 +1,9 @@
-{{ define "hero" }}
-  {{ if .Params.featured_image }}
-  {{ partial "hero-interior" .}}
-  {{ end}}
-{{ end }}
 
 
 {{ define "main" }}
 {{ $currentPageUrl := .URL }}
 {{ $globalVariables := .Site.Data.globals }}
-  <article class="cf pa3 pa4-m pa5-l">
+  <article class="center cf pv5 measure-wide-l">
 
     <h4 class="f6">
       {{ humanize .Section | upper  }}
