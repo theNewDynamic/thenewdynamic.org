@@ -1,14 +1,17 @@
 ---
 title: Jekyll in the Newsroom
 published: true
-category: event
+category:
+  - event-recap
+  - video
 meetup: the-new-dynamic
 date: 2017-02-15 18:30:00
+video: https://youtu.be/J42wQ1hMfaQ
 start_at: 2017-03-01 18:30:00
 venue: Civic Hall
 address: '118 W 22nd St. New York, NY 10011'
 link: https://www.meetup.com/The-New-Dynamic/events/237626879/
-description:
+description: "It’s all about Jekyll and journalism: Find out how ProPublica uses Jekyll and Grunt to report some of its biggest stories, including everything from helping a network of over 1,000 journalists cover Election Day in real time..."
 ---
 It’s all about Jekyll and journalism: Find out how ProPublica uses Jekyll and Grunt to report some of its biggest stories, including everything from helping a network of over 1,000 journalists cover Election Day in real time (on the site "Electionland"), to telling the sordid tale of how a U.S. company helped aid a notorious warlord—and everything in between.
 
@@ -19,3 +22,7 @@ David became ProPublica’s first design director in May of 2014, where he overs
 
 
 This Meetup is in conjunction with the New York Civic Tech Meetup.
+
+<div class="embed-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLHSBYD3ClyvMFhwkfNVO3dHXxKsewFQwN" frameborder="0" allowfullscreen></iframe>
+</div>
