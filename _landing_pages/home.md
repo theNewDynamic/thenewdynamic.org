@@ -8,4 +8,3 @@ Resources for designers and developers.
 
 '
 ---
-# A guide to the best way to build fast, efficient websites.
