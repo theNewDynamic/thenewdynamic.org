@@ -5,7 +5,7 @@ category:
   - event-recap
   - video
 meetup: the-new-dynamic
-video: https://www.youtube.com/watch?v=-Gy8mhRwlt8
+video: "https://www.youtube.com/watch?v=-Gy8mhRwlt8"
 date: 2017-02-15 18:30:00
 start_at: 2017-03-01 17:30:00
 venue: Civic Hall
