@@ -47,7 +47,7 @@
       </a>
     </div>
     <div class="flex-auto"><!-- adds space between the menu and the search bar on the right --> </div>
-    <div class="mt0 lg-mb3">
+    <div class="mt0 mb3">
       {% for object in site.data.navigation-links.secondary %}
         <a class="{% if page.url == object.url %} bg-brand-darken{% endif %} pr2 text-decoration-none h6 white inline-block" href="{{ object.url }}" title="{{ object.title }}">
           {{ object.title }}
