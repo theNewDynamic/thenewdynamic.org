@@ -14,7 +14,7 @@ primary:
     - title: "videos"
       url: /videos/
 
-    - title: "Meetups"
+    - title: "events"
       url: /events/
 
     # - title: "Job Board"
