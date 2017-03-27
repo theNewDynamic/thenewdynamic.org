@@ -72,17 +72,14 @@ DefaultContentLanguage = "en"
 
 
 [params]
-  logo = "/uploads/logo-civic-hall-boxed.svg"
+  logo = ""
   subtitle = "Build Faster Better Websites with modern tools, services and techniques"
-  member_log_in = "http://civichall.spaces.nexudus.com/en/"
+  
 
-  description = "Welcome to a community of action-oriented, cross-sector professionals located in the heart of Manhattan, where we aim to better the world through civic tech."
-  map_link = "https://www.google.com/maps/place/Civic+Hall/@40.742284,-73.9962257,17z/data=!3m1!4b1!4m5!3m4!1s0x89c259a3a3340f3d:0xba4060a01c13cc2a!8m2!3d40.74228!4d-73.994037"
+  description = "Build Faster Better Websites with modern tools, services and techniques"
 
-  ghcontentdir = "https://github.com/theNewDynamic/civic-hall-member-guide/tree/master/content"
-  twitter = "https://twitter.com/CivicHall"
-  facebook = "https://www.facebook.com/CivicHallNYC"
-  instagram = "https://www.instagram.com/civichall/"
+  twitter = "https://twitter.com/thenewdynamic"
+
 
 [taxonomies]
   tag = "tags"
