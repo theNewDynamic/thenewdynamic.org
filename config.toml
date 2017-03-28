@@ -7,37 +7,37 @@ DefaultContentLanguage = "en"
 #SectionPagesMenu = "main"
 
 [[menu.main]]
-  name = "Articles"
+  name = "Articles & Videos"
   weight = 1
   identifier = "articles"
   url = "/articles/"
 
 [[menu.main]]
   name = "Links"
-  weight = 5
+  weight = 10
   identifier = "Links"
   url = "/Links/"
 
 [[menu.main]]
-  name = "Tools"
-  weight = 10
+  name = "Tools Database"
+  weight = 5
   identifier = "tools"
-  url = "/tools/"
+  url = "/tool/"
 
 [[menu.main]]
   name = "Showcase"
-  weight = 15
+  weight = 10
   identifier = "showcase"
   url = "/showcase/"
 
-[[menu.main]]
-  name = "Videos"
-  weight = 20
-  identifier = "videos"
-  url = "/videos/"
+# [[menu.main]]
+#   name = "Videos"
+#   weight = 20
+#   identifier = "videos"
+#   url = "/videos/"
 
 [[menu.main]]
-  name = "Meetups/Events"
+  name = "Events"
   weight = 25
   identifier = "events"
   url = "/events/"
@@ -74,7 +74,7 @@ DefaultContentLanguage = "en"
 [params]
   logo = ""
   subtitle = "Build Faster Better Websites with modern tools, services and techniques"
-  
+
 
   description = "Build Faster Better Websites with modern tools, services and techniques"
 
@@ -83,5 +83,5 @@ DefaultContentLanguage = "en"
 
 [taxonomies]
   tag = "tags"
-  category = "categories"
+  tool_type = "tool_types"
   series = "series"

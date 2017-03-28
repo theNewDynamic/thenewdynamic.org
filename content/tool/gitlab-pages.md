@@ -4,7 +4,7 @@ description: Host your static websites on GitLab.com for free, or on your own Gi
   EE instance.
 featured: false
 title: Gitlab Pages
-tool_type:
+tool_types:
 - hosting-deployment
 urls:
   website: http://pages.gitlab.io/

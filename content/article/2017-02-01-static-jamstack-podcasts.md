@@ -1,6 +1,6 @@
 ---
 address: null
-categories:
+type:
 - article
 date: 2017-02-01T00:00:00Z
 description: Recent podcasts of note discussing static site generators and JAMstack

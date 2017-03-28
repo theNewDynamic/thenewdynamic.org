@@ -4,7 +4,7 @@ featured: false
 posted_date: 2015-05-08T21:52:00.000Z
 slug: cloudflare
 title: CloudFlare
-tool_type:
+tool_types:
 - hosting-deployment
 urls:
   website: https://www.cloudflare.com

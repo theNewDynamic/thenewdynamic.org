@@ -1,6 +1,6 @@
 ---
 address: null
-categories:
+type:
 - Article
 date: 2017-01-26T11:30:00Z
 description: null

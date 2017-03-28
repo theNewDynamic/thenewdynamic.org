@@ -5,7 +5,7 @@ resources:
 - name: ""
   url: ""
 title: Directus
-tool_type:
+tool_types:
 - content-management
 urls:
   github: https://github.com/directus/directus

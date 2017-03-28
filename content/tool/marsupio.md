@@ -4,7 +4,7 @@ description: Deploy your website from GitHub. View it at any branch, tag, or com
 tags:
 - Deployment
 title: Marsupi
-tool_type:
+tool_types:
 - hosting-deployment
 urls:
   website: http://marsupi.io/

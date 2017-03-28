@@ -4,7 +4,7 @@ featured: false
 posted_date: 2015-05-02T21:16:00.000Z
 slug: proteus-static-site-starter-kits
 title: 'Proteus Starter Kits '
-tool_type:
+tool_types:
 - helper
 urls:
   website: http://thoughtbot.github.io/proteus/

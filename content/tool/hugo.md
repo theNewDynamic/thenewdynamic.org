@@ -15,7 +15,7 @@ resources:
     metadata, and social.
   url: https://github.com/rdwatters/hugo-starter
 title: Hugo
-tool_type:
+tool_types:
 - static-site-generator
 urls:
   github: https://github.com/spf13/hugo

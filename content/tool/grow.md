@@ -5,7 +5,7 @@ resources:
 - name: null
   url: null
 title: Grow
-tool_type:
+tool_types:
 - build-tool
 urls:
   github: null

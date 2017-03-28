@@ -3,7 +3,7 @@ date: 2016-10-05 00:00:00
 description: Hosted Search API that delivers instant and relevant results from the
   first keystroke
 title: Algolia Hosted Search
-tool_type:
+tool_types:
 - interaction
 urls:
   github: null

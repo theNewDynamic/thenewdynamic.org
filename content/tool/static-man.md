@@ -2,7 +2,7 @@
 date: 2016-08-09T00:00:00.000Z
 description: null
 title: Staticman
-tool_type:
+tool_types:
 - helper
 urls:
   github: https://github.com/eduardoboucas/staticman

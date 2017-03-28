@@ -1,5 +1,5 @@
 ---
-categories:
+type:
 - article
 date: 2015-11-10T15:22:00Z
 excerpt: A brief overview of how a typical static site generator converts markdown

@@ -4,7 +4,7 @@ featured: false
 posted_date: 2015-05-08T22:00:00.000Z
 slug: grunt
 title: Grunt
-tool_type:
+tool_types:
 - build-tool
 urls:
   website: http://gruntjs.com/

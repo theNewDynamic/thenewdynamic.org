@@ -4,7 +4,7 @@ description: A simple extension to make link-blogging to a Github-hosted Jekyll 
   easy.
 tag: jekyll
 title: Serum
-tool_type:
+tool_types:
 - helper
 urls:
   github: https://github.com/dmison/Serum

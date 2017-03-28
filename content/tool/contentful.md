@@ -6,7 +6,7 @@ tags:
 - CMS
 - Content API
 title: Contentful
-tool_type:
+tool_types:
 - content-management
 urls:
   website: https://www.contentful.com/

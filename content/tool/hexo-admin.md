@@ -4,7 +4,7 @@ featured: false
 posted_date: 2015-10-19T23:12:00.000Z
 slug: hexo-admin
 title: Hexo Admin
-tool_type:
+tool_types:
 - content-management
 urls:
   github: https://github.com/jaredly/hexo-admin

@@ -1,5 +1,5 @@
 ---
-categories:
+type:
 - event
 date: 2016-02-19T00:00:00Z
 link: https://2016.staticshowdown.com/

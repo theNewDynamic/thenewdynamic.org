@@ -1,6 +1,6 @@
 ---
 address: null
-categories:
+type:
 - event
 date: 2015-09-02T00:00:00Z
 description: Presented by Raymond Camden for O'Reilly

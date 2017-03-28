@@ -4,7 +4,7 @@ featured: false
 posted_date: 2015-05-15T12:20:00.000Z
 slug: formspree
 title: Formspree
-tool_type:
+tool_types:
 - interaction
 urls:
   website: https://formspree.io/

@@ -12,7 +12,7 @@ tag:
 - hexo
 - middleman
 title: Serverless Post Scheduler
-tool_type:
+tool_types:
 - helper
 urls:
   github: https://github.com/serverless/post-scheduler/

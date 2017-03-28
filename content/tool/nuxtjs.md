@@ -6,7 +6,7 @@ resources:
 - name: ""
   url: ""
 title: NuxtJS
-tool_type: static-site-generator
+tool_types: static-site-generator
 urls:
   github: https://github.com/nuxt/nuxt.js
   twitter: https://twitter.com/nuxt_js

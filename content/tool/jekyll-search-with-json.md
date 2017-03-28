@@ -7,7 +7,7 @@ tag: jekyll
 tags:
 - Search
 title: Jekyll Search with JSON
-tool_type:
+tool_types:
 - interaction
 urls:
   website: http://mathayward.com/jekyll-search/

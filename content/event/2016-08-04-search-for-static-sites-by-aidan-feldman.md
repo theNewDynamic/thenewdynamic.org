@@ -1,7 +1,5 @@
 ---
 address: 55 Broad St. New York, NY
-categories:
-- event
 date: 2016-08-04T00:00:00Z
 description: A presentation at the New Dynamic Meetup, by Aidan Feldman
 meetup: the-new-dynamic

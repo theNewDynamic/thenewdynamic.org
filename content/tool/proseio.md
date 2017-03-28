@@ -4,7 +4,7 @@ featured: false
 posted_date: 2015-05-14T17:18:00.000Z
 slug: proseio
 title: Prose.io
-tool_type:
+tool_types:
 - content-management
 urls:
   website: http://prose.io

@@ -5,7 +5,7 @@ resources:
 - name: ""
   url: ""
 title: Shifter
-tool_type:
+tool_types:
 - content-management
 urls:
   github: null

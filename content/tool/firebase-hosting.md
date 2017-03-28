@@ -5,7 +5,7 @@ description: Firebase Hosting provides fast and secure static hosting for your w
 featured: false
 posted_date: 2016-05-20T15:17:00.000Z
 title: Firebase Hosting
-tool_type:
+tool_types:
 - hosting-deployment
 urls:
   website: https://firebase.google.com/docs/hosting/#implementation_path

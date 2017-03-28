@@ -3,7 +3,7 @@ date: 2016-05-05T12:00:00.000Z
 description: Modern static website generator for creating dynamic websites using React
   components.
 title: Phenomic
-tool_type:
+tool_types:
 - static-site-generator
 urls:
   github: https://github.com/MoOx/phenomic

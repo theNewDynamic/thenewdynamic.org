@@ -1,6 +1,6 @@
 ---
 address: '360 3rd Street #750, 7th floor, San Francisco, CA'
-categories:
+type:
 - event
 date: 2016-03-15T00:00:00Z
 description: About the newest, largely re-written version Middleman

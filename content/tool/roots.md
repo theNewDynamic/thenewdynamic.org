@@ -4,7 +4,7 @@ featured: false
 posted_date: 2015-05-02T02:39:00.000Z
 slug: roots
 title: Roots
-tool_type:
+tool_types:
 - static-site-generator
 urls:
   website: http://roots.cx/

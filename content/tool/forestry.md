@@ -7,7 +7,7 @@ tags:
 - CMS
 - Editing
 title: Forestry
-tool_type:
+tool_types:
 - content-management
 urls:
   website: https://forestry.io/

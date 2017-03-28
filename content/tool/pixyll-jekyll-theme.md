@@ -4,7 +4,7 @@ featured: false
 posted_date: 2015-11-12T19:21:00.000Z
 slug: pixyll-jekyll-theme
 title: Pixyll Jekyll Theme
-tool_type:
+tool_types:
 - theme
 urls:
   github: https://github.com/johnotander/pixyll

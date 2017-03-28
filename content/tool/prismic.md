@@ -8,7 +8,7 @@ tags:
 - CMS
 - Content API
 title: Prismic
-tool_type:
+tool_types:
 - content-management
 urls:
   website: https://prismic.io/

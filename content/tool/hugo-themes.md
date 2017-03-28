@@ -4,7 +4,7 @@ featured: false
 posted_date: 2015-11-13T02:58:00.000Z
 slug: hugo-themes
 title: Hugo Themes
-tool_type:
+tool_types:
 - theme
 urls:
   github: https://github.com/spf13/hugo/

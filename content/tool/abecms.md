@@ -6,7 +6,7 @@ resources:
 - name: ""
   url: ""
 title: ABE CMS
-tool_type:
+tool_types:
 - content-management
 - static-site-generator
 urls:

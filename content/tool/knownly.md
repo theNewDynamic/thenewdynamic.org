@@ -4,7 +4,7 @@ description: Publish your website in under 2 minutes without a webserver
 tags:
 - Hosting-Deployment
 title: Knownly
-tool_type:
+tool_types:
 - hosting-deployment
 urls:
   website: https://www.knownly.net/

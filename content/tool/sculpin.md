@@ -4,7 +4,7 @@ featured: false
 posted_date: 2015-05-08T22:00:00.000Z
 slug: sculpin
 title: Sculpin
-tool_type:
+tool_types:
 - static-site-generator
 urls:
   github: https://github.com/sculpin/sculpin

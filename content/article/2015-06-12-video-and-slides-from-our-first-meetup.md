@@ -1,5 +1,5 @@
 ---
-categories:
+type:
 - event
 date: 2015-06-12T03:29:00Z
 description: Why use Static Site Generators and How they Work

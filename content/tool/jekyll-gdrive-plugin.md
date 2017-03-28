@@ -5,7 +5,7 @@ posted_date: 2015-12-02T19:10:00.000Z
 slug: jekyll-gdrive-plugin
 tag: jekyll
 title: Jekyll Gdrive Plugin
-tool_type:
+tool_types:
 - content-management
 urls:
   website: https://github.com/netlify/jekyll-gdrive

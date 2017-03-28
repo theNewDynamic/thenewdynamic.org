@@ -4,7 +4,7 @@ featured: false
 posted_date: 2015-10-11T17:38:00.000Z
 slug: nanoc
 title: Nanoc
-tool_type:
+tool_types:
 - static-site-generator
 urls:
   github: https://github.com/nanoc/nanoc

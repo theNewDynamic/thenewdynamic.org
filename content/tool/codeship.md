@@ -4,7 +4,7 @@ featured: false
 posted_date: 2015-06-10T03:14:00.000Z
 slug: codeship
 title: Codeship
-tool_type:
+tool_types:
 - hosting-deployment
 urls:
   website: https://codeship.com/

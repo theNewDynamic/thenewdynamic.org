@@ -5,7 +5,7 @@ resources:
 - name: ""
   url: ""
 title: Disqus
-tool_type: interaction
+tool_types: interaction
 urls:
   github: null
   twitter: null

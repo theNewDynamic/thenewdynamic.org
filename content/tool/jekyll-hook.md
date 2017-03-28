@@ -4,7 +4,7 @@ description: A server that listens for webhook posts from GitHub, generates a we
   with Jekyll, and moves it somewhere to be published.
 tag: jekyll
 title: Jekyll Hook
-tool_type:
+tool_types:
 - hosting-deployment
 urls:
   github: https://github.com/developmentseed/jekyll-hook

@@ -5,7 +5,7 @@ description: The user management API - Fastest way to build user management with
 featured: false
 posted_date: 2016-06-16T15:17:00.000Z
 title: UserApp
-tool_type:
+tool_types:
 - interaction
 urls:
   website: https://www.userapp.io/

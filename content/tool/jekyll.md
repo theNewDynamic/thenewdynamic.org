@@ -20,7 +20,7 @@ resources:
 - name: YAML Quick Reference
   url: https://github.com/planetjekyll/quickrefs/blob/master/YAML.md
 title: Jekyll
-tool_type:
+tool_types:
 - static-site-generator
 urls:
   github: null

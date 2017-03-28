@@ -4,7 +4,7 @@ featured: false
 posted_date: 2015-07-24T02:31:00.000Z
 slug: nikola
 title: Nikola
-tool_type:
+tool_types:
 - static-site-generator
 urls:
   github: https://github.com/getnikola/nikola

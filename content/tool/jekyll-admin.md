@@ -6,7 +6,7 @@ featured: false
 posted_date: 2016-08-24T00:41:00.000Z
 tag: jekyll
 title: Jekyll Admin
-tool_type:
+tool_types:
 - content-management
 urls:
   github: https://github.com/jekyll/jekyll-admin

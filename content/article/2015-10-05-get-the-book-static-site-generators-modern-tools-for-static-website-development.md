@@ -1,5 +1,5 @@
 ---
-categories:
+type:
 - article
 date: 2015-10-05T21:07:00Z
 excerpt: O’Reilly and Brian Rinaldi have had the foresight to publish the first book

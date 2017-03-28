@@ -4,7 +4,7 @@ featured: false
 posted_date: 2015-05-14T17:17:00.000Z
 slug: google-cloud-storage
 title: Google Cloud Storage
-tool_type:
+tool_types:
 - hosting-deployment
 urls:
   website: https://cloud.google.com/storage/

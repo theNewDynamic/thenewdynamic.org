@@ -4,7 +4,7 @@ featured: false
 posted_date: 2015-12-02T03:30:00.000Z
 slug: s3_website
 title: s3_website
-tool_type:
+tool_types:
 - hosting-deployment
 urls:
   github: https://github.com/laurilehmijoki/s3_website

@@ -4,7 +4,7 @@ featured: false
 posted_date: 2015-05-08T22:01:00.000Z
 slug: octopress
 title: Octopress
-tool_type:
+tool_types:
 - helper
 urls:
   github: https://github.com/octopress/octopress

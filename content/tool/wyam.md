@@ -6,7 +6,7 @@ resources:
 - name: null
   url: null
 title: Wyam
-tool_type:
+tool_types:
 - static-site-generator
 urls:
   github: https://github.com/Wyamio/Wyam

@@ -1,5 +1,5 @@
 ---
-categories:
+type:
 - event
 date: 2016-02-22T00:00:00Z
 link: http://www.meetup.com/mke-web-pros/events/228178537/

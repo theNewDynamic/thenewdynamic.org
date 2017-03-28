@@ -9,7 +9,7 @@ tags:
 - CMS
 - Editing
 title: Webhook
-tool_type:
+tool_types:
 - static-site-generator
 urls:
   github: https://github.com/webhook/webhook-cms

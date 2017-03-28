@@ -2,7 +2,7 @@
 date: 2016-06-22T00:00:00.000Z
 description: A content management system (CMS) built on an interface everyone understands.
 title: Drive CMS
-tool_type:
+tool_types:
 - content-management
 urls:
   github: https://github.com/max-barry/google-drive-cms

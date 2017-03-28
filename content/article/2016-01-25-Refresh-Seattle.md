@@ -1,6 +1,6 @@
 ---
 address: 511 Boren Ave. N, Seattle, WA 98109
-categories:
+type:
 - event
 date: 2016-01-25T00:00:00Z
 description: Continuous deployment with Aerobatic and Bitbucket

@@ -4,7 +4,7 @@ featured: false
 posted_date: 2015-10-02T21:18:00.000Z
 slug: gatsby
 title: Gatsby
-tool_type:
+tool_types:
 - static-site-generator
 urls:
   github: https://github.com/gatsbyjs/gatsby

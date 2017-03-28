@@ -1,7 +1,5 @@
 ---
 address: 55 Washington St, 9th Fl Brooklyn, NY 11201
-categories:
-- event
 date: 2017-03-09T18:30:00Z
 description: 'We''re heading to Brooklyn! This month we''ll have two Sessions: CMS
   as Code by Dmytri Kleiner of Contentful, and a roundtable discussion with Kyle Mathews

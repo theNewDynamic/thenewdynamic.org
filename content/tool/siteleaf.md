@@ -8,7 +8,7 @@ tags:
 - Editing
 - Static Site Generator
 title: Siteleaf
-tool_type:
+tool_types:
 - content-management
 urls:
   website: http://www.siteleaf.com/

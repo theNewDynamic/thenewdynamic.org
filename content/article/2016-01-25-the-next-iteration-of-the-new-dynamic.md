@@ -1,5 +1,5 @@
 ---
-categories:
+type:
 - article
 date: 2016-01-25T19:09:00Z
 description: Jekyll, Netlify, CloudCannon, job board coming soon

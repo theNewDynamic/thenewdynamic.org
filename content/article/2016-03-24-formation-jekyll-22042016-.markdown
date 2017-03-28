@@ -1,5 +1,5 @@
 ---
-categories:
+type:
 - event
 date: 2016-03-24T00:00:00Z
 description: Apprenez à créer et organiser des sites statiques avec Jekyll

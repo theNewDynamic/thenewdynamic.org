@@ -4,7 +4,7 @@ featured: false
 posted_date: 2015-05-16T22:55:00.000Z
 slug: google-custom-search-engine
 title: Google Custom Search Engine
-tool_type:
+tool_types:
 - interaction
 urls:
   website: https://cse.google.com/cse/

@@ -7,7 +7,7 @@ tags:
 - Editing
 - CMS
 title: Netlify CMS
-tool_type:
+tool_types:
 - content-management
 urls:
   github: https://github.com/netlify/netlify-cms

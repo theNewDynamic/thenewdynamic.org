@@ -4,7 +4,7 @@ featured: false
 posted_date: 2016-01-01T15:17:00.000Z
 slug: appolo
 title: Appolo
-tool_type:
+tool_types:
 - theme
 urls:
   github: https://github.com/nicnocquee/appolo

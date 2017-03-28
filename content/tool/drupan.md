@@ -4,7 +4,7 @@ featured: false
 posted_date: 2015-05-02T02:56:00.000Z
 slug: drupan
 title: Drupan
-tool_type:
+tool_types:
 - content-management
 urls:
   github: https://github.com/fallenhitokiri/drupan

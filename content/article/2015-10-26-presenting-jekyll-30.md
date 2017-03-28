@@ -1,6 +1,6 @@
 ---
 address: null
-categories:
+type:
 - event
 date: 2015-10-26T00:00:00Z
 description: Review new features like incremental regeneration, Hook Plugin API, and

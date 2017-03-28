@@ -1,6 +1,6 @@
 ---
 address: 18 West 21st St, 8th Fl
-categories:
+type:
 - event
 date: 2016-08-10T12:00:00Z
 description: Demo Forestry.io CMS and a short presentation on "convince your boss/client"

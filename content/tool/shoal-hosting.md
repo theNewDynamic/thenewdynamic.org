@@ -6,7 +6,7 @@ posted_date: 2015-05-14T18:03:00.000Z
 slug: shoal-hosting
 tag: sculpin
 title: Shoal Hosting
-tool_type:
+tool_types:
 - hosting-deployment
 urls:
   website: http://shoalhosting.com/

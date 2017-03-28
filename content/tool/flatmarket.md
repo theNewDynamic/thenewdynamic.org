@@ -4,7 +4,7 @@ featured: false
 posted_date: 2015-08-30T03:57:00.000Z
 slug: flatmarket
 title: Flatmarket
-tool_type:
+tool_types:
 - interaction
 urls:
   github: https://github.com/christophercliff/flatmarket

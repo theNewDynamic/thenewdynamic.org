@@ -1,6 +1,6 @@
 ---
 title: Digital Democracy
-date: 2017-01-16 10:00
+date: 2017-01-16T21:11:00.000Z
 tools:
   - jekyll
   - netlify

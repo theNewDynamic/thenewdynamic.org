@@ -10,7 +10,7 @@ resources:
   url: ""
 slug: tarbell
 title: Tarbell
-tool_type:
+tool_types:
 - static-site-generator
 urls:
   github: https://github.com/tarbell-project/tarbell

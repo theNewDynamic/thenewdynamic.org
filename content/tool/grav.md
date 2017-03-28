@@ -5,7 +5,7 @@ featured: false
 posted_date: 2015-10-04T13:03:00.000Z
 slug: grav
 title: Grav
-tool_type:
+tool_types:
 - content-management
 urls:
   website: http://getgrav.org/

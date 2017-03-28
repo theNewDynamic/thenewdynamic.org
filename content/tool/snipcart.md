@@ -2,7 +2,7 @@
 date: 2015-05-15T01:54:00.000Z
 featured: false
 title: Snipcart
-tool_type:
+tool_types:
 - interaction
 urls:
   website: https://snipcart.com/

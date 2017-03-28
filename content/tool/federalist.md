@@ -3,7 +3,7 @@ date: 2015-10-03T16:53:00.000Z
 featured: false
 posted_date: 2015-10-03T16:53:00.000Z
 title: Federalist
-tool_type:
+tool_types:
 - content-management
 urls:
   github: https://github.com/18F/federalist

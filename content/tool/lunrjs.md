@@ -6,7 +6,7 @@ slug: lunrjs
 tags:
 - Search
 title: Lunr.js
-tool_type:
+tool_types:
 - interaction
 urls:
   website: http://lunrjs.com/

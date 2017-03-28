@@ -5,7 +5,7 @@ resources:
 - name: ""
   url: ""
 title: Isso
-tool_type: interaction
+tool_types: interaction
 urls:
   github: null
   twitter: null

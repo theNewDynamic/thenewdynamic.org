@@ -7,7 +7,7 @@ resources:
 - name: Trello
   url: https://trello.com/b/HYT4QejW/appernetic-io
 title: Appernetic
-tool_type:
+tool_types:
 - content-management
 urls:
   github: https://github.com/appernetic

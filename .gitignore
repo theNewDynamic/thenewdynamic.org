@@ -27,9 +27,6 @@ Thumbs.db
 .tmproj
 .asset-cache
 .sass-cache
-
+public
 # Folders to ignore
 node_modules
-
-
-

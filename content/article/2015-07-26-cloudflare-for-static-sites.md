@@ -1,5 +1,5 @@
 ---
-categories:
+type:
 - article
 date: 2015-07-26T02:44:00Z
 excerpt: I've found Cloudflare to be quite useful for static sites.

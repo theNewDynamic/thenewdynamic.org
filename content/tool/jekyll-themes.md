@@ -5,7 +5,7 @@ posted_date: 2015-11-13T02:53:00.000Z
 slug: jekyll-themes
 tag: jekyll
 title: Jekyll Themes
-tool_type:
+tool_types:
 - theme
 urls:
   github: https://github.com/mattvh/jekyllthemes/

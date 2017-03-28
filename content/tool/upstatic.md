@@ -5,7 +5,7 @@ featured: false
 posted_date: 2015-08-11T13:59:00.000Z
 slug: upstatic
 title: Upstatic
-tool_type:
+tool_types:
 - hosting-deployment
 urls:
   website: http://beta.upstatic.io/

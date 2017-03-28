@@ -4,7 +4,7 @@ featured: false
 posted_date: 2015-12-15T02:46:00.000Z
 slug: fusejs-search
 title: Fuse.js Search
-tool_type:
+tool_types:
 - interaction
 urls:
   website: http://fusejs.io/

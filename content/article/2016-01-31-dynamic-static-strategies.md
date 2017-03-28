@@ -1,5 +1,5 @@
 ---
-categories:
+type:
 - event
 date: 2016-01-31T11:20:00Z
 description: Explore some unexpected capabilities and characteristics of “static”

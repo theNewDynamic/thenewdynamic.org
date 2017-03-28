@@ -6,7 +6,7 @@ resources:
 - name: How to Create and Publish a Jekyll Theme Gem at Tuts+ by the theme's author
   url: https://webdesign.tutsplus.com/tutorials/how-to-create-and-publish-a-jekyll-theme-gem--cms-27475
 title: Alembic Theme & Starter
-tool_type:
+tool_types:
 - theme
 urls:
   github: https://github.com/daviddarnes/alembic

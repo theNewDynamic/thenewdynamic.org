@@ -1,6 +1,6 @@
 ---
 address: null
-categories:
+type:
 - event
 date: 2015-09-29T00:00:00Z
 description: Video and Slides Available

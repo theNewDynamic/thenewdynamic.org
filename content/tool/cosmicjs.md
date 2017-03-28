@@ -5,7 +5,7 @@ resources:
 - name: ""
   url: ""
 title: Cosmic JS
-tool_type: content-management
+tool_types: content-management
 urls:
   github: https://github.com/cosmicjs
   twitter: https://twitter.com/cosmic_js

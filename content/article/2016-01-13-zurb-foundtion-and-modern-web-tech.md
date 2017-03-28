@@ -1,5 +1,5 @@
 ---
-categories:
+type:
 - event
 date: 2016-01-13T00:00:00Z
 description: How Foundation 6 uses their new static site generator Panini as a central

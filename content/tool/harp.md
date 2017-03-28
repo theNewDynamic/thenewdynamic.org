@@ -4,7 +4,7 @@ featured: false
 posted_date: 2015-05-08T22:01:00.000Z
 slug: harp
 title: Harp
-tool_type:
+tool_types:
 - static-site-generator
 urls:
   github: https://github.com/sintaxi/harp

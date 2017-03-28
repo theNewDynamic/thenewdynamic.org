@@ -5,7 +5,7 @@ featured: false
 posted_date: 2015-05-16T22:38:00.000Z
 slug: bitballoon
 title: BitBalloon
-tool_type:
+tool_types:
 - hosting-deployment
 urls:
   website: https://www.bitballoon.com/

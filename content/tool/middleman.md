@@ -2,7 +2,7 @@
 date: 2015-05-02T01:55:00.000Z
 featured: true
 title: Middleman
-tool_type:
+tool_types:
 - static-site-generator
 urls:
   github: https://github.com/middleman/middleman

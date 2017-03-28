@@ -6,7 +6,7 @@ slug: osmek
 tags:
 - Content API
 title: Osmek
-tool_type:
+tool_types:
 - content-management
 urls:
   website: http://osmek.com/

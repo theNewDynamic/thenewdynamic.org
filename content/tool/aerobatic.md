@@ -5,7 +5,7 @@ featured: false
 posted_date: 2015-10-15T15:17:00.000Z
 slug: aerobatic
 title: Aerobatic
-tool_type:
+tool_types:
 - hosting-deployment
 urls:
   website: https://www.aerobatic.com/

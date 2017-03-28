@@ -1,7 +1,7 @@
 ---
 date: 2016-01-23T22:01:00.000Z
 title: Hook Forms
-tool_type:
+tool_types:
 - interaction
 urls:
   website: https://hookforms.com

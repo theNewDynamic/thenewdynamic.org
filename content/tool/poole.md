@@ -4,7 +4,7 @@ featured: false
 posted_date: 2015-05-16T19:00:00.000Z
 slug: poole
 title: Poole
-tool_type:
+tool_types:
 - helper
 urls:
   github: https://github.com/poole

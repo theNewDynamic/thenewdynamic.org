@@ -6,7 +6,7 @@ resources:
 - name: ""
   url: ""
 title: Butter CMS
-tool_type: content-management
+tool_types: content-management
 urls:
   github: null
   twitter: null

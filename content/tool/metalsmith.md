@@ -5,7 +5,7 @@ resources:
 - name: metalsmith-base (starter)
   url: https://github.com/evocode/metalsmith-base
 title: Metalsmith
-tool_type:
+tool_types:
 - static-site-generator
 urls:
   github: https://github.com/segmentio/metalsmith.io

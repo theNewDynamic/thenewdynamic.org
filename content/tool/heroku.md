@@ -4,7 +4,7 @@ featured: false
 posted_date: 2015-05-14T04:04:00.000Z
 slug: heroku
 title: Heroku
-tool_type:
+tool_types:
 - hosting-deployment
 urls:
   website: https://www.heroku.com/

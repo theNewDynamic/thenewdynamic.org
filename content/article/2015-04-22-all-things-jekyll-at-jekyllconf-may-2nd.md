@@ -1,5 +1,5 @@
 ---
-categories:
+type:
 - event
 date: 2015-04-22T22:37:00Z
 description: Check out jekyllconf.com for information on the upcoming JekyllConf web-conference

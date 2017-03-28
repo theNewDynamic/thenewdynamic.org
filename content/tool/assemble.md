@@ -3,7 +3,7 @@ date: 2014-07-23T00:00:00.000Z
 description: Static site generator and rapid prototyping framework for Node.js, Grunt.js,
   and Yeoman and Gulp.
 title: Assemble
-tool_type:
+tool_types:
 - static-site-generator
 urls:
   github: https://github.com/assemble/assemble/

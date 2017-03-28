@@ -5,7 +5,7 @@ featured: false
 posted_date: 2015-05-26T02:52:00.000Z
 slug: buster
 title: Buster
-tool_type:
+tool_types:
 - static-site-generator
 urls:
   github: https://github.com/axitkhurana/buster

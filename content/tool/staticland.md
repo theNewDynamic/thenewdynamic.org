@@ -5,7 +5,7 @@ resources:
 - name: null
   url: null
 title: Staticland
-tool_type:
+tool_types:
 - hosting-deployment
 urls:
   github: https://github.com/staticland

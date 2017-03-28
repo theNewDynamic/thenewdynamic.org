@@ -1,6 +1,6 @@
 ---
 address: null
-categories:
+type:
 - event
 date: 2015-12-02T00:00:00Z
 description: Joint Meetup with the New York Web Performance group (VIDEO, SLIDES)

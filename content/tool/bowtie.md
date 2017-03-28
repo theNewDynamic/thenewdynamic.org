@@ -3,7 +3,7 @@ date: 2016-01-14T18:47:00.000Z
 description: Static Hosting for Application Developers and Digital Agencies (currently
   in public beta)
 title: BowTie.io
-tool_type:
+tool_types:
 - hosting-deployment
 urls:
   website: https://bowtie.io

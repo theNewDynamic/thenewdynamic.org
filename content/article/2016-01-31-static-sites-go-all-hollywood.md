@@ -1,5 +1,5 @@
 ---
-categories:
+type:
 - event
 date: 2016-01-31T00:00:00Z
 description: Break through the limits of static site generators with the use of a

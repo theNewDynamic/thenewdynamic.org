@@ -8,7 +8,7 @@ tags:
 - Editing
 - CMS
 title: Static Website Manager
-tool_type:
+tool_types:
 - content-management
 urls:
   website: https://www.staticwebsitemanager.com/

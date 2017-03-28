@@ -1,6 +1,6 @@
 ---
 address: null
-categories:
+type:
 - event
 date: 2016-01-25T12:00:00Z
 link: http://www.meetup.com/Geekfest-Seattle/events/227171390/

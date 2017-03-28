@@ -4,7 +4,7 @@ featured: false
 posted_date: 2015-11-12T02:09:00.000Z
 slug: lanyon
 title: Lanyon
-tool_type:
+tool_types:
 - theme
 urls:
   github: https://github.com/poole/lanyon

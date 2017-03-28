@@ -1,5 +1,5 @@
 ---
-categories:
+type:
 - article
 date: 2014-08-02T22:09:00Z
 excerpt: Here's the forward thinking Vox Media on their use of Middleman as part of

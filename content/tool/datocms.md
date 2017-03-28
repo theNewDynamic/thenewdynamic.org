@@ -5,7 +5,7 @@ resources:
 - name: Blog
   url: https://www.datocms.com/blog/
 title: DatoCMS
-tool_type:
+tool_types:
 - content-management
 urls:
   github: null

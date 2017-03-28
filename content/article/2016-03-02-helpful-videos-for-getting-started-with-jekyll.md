@@ -1,5 +1,5 @@
 ---
-categories:
+type:
 - essentials
 date: 2016-03-02T00:00:00Z
 subtitle: Introduction to static site generators and a new paradigm for building websites

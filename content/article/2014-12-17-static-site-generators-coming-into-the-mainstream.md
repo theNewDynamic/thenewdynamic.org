@@ -1,5 +1,5 @@
 ---
-categories:
+type:
 - article
 date: 2014-12-17T23:14:00Z
 posted_date: 2015-05-02T22:14:00.000Z
