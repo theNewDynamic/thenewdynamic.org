@@ -19,8 +19,10 @@ resources:
     url: 'https://github.com/jbrodriguez/hugulp'
   - name: "Hugo Starter with Gulp Asset Pipeline, SVG Icons, partials for global components, metadata, and social."
     url: 'https://github.com/rdwatters/hugo-starter'
+  - name: "Fucking Go Date Format"
+    url: 'http://fuckinggodateformat.com/'
 
-description: Extremely fast (build times) written in golang.
+
+description: The world’s fastest framework for building websites
 ---
-
-Hugo is a general-purpose website framework. Technically speaking, Hugo is a static site generator.
+Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again.
