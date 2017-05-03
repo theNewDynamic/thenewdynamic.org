@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
- gem 'jekyll'
+ # gem 'jekyll'
+ gem 'jekyll', '~> 3.4', '<= 3.4.1'
 #gem "jekyll", :git => "git@github.com:jekyll/jekyll.git", :ref => 'HEAD'
 group :jekyll_plugins do
   #gem "html-proofer"
@@ -8,7 +9,7 @@ group :jekyll_plugins do
   # gem "jekyll-lunr-js-search"
   # gem 'jekyll-assets'
   # gem 'autoprefixer-rails'
-  gem 'jekyll-livereload'
+  # gem 'jekyll-livereload'
   gem 'octopress-paginate'
   gem 'jekyll-redirect-from'
   gem 'jekyll-admin'
