@@ -1,8 +1,8 @@
 ---
 title: City of Boston Budget
-date: 2017-01-15 10:00
-published: false
+date: 2017-05-02T12:10:00.000Z
 tools:
+ - jekyll
 website: https://budget.boston.gov/
 repo:
 creator:

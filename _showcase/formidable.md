@@ -1,14 +1,14 @@
 ---
 title: Formidable
-date: 2017-01-15 10:00
-published: false
+date: 2017-05-01T12:10:00.000Z
 tools:
-website:
+ - gatsby
+website: http://formidable.com/
 repo:
 creator:
   - name:
-    role: 'Design/Development'
+    role:
     url:
     twitter_username:
-image_path:
+image_path: /uploads/showcase-formidable.jpg
 ---
