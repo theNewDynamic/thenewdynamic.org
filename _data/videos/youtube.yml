@@ -1,3 +1,25 @@
+- title: "Introduction to Spike, by Jeff Escalante"
+  id: JtgTa4ACPT8
+  categories:
+    - spike
+
+- title: "Introduction to Gatsby, by Kyle Mathews"
+  id: hbjR5N6IhDU
+  categories:
+    - gatsby
+
+- title: "CMS as Code, by Dmytri Kleiner"
+  id: vQtu1uC8FaY
+  categories:
+    - contentful
+
+- title: "Roundtable discussion with Dmytri Kleiner, Kyle Mathews, and Jeff Escalante"
+  id: ZbprnWe-FvM
+  categories:
+    - spike
+    - contentful
+    - gatsby
+
 - title: "Jekyll in the Newsroom"
   id: J42wQ1hMfaQ
 

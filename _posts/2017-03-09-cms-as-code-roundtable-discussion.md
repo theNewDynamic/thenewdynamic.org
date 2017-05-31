@@ -45,3 +45,8 @@ But now, in the "Cloud Age", systems are deployed using cloud services. Many of 
 **Kyle Mathews** is a tech entrepreneur based in San Francisco, CA. He's worked on several startups and is currently building a next generation JavaScript website framework called Gatsby that blends the speed of static sites with the rich tooling and client-side capabilities of React.js.
 
 **Jeff Escalante** is the Lead Environment Developer at Carrot Creative where he works on developer process and services, open source tools, and occasionally leads client projects.
+
+
+<div class="embed-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YU39H2WWOec" frameborder="0" allowfullscreen></iframe>
+</div>
