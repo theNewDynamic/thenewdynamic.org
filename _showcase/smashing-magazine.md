@@ -12,7 +12,7 @@ creator:
     role:
     url:
     twitter_username:
-image_path: /uploads/showcase-smashing-mag.jpg
+image_path: /uploads/screenshot-smashing-mag-hugo.jpg
 ---
 From the blog post at [Netlify](https://www.netlify.com/blog/2017/03/16/smashing-magazine-just-got-10x-faster/) (we'll add more later):
 
