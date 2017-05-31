@@ -1,7 +1,10 @@
 ---
 title: "CMS as Code + Pushing the Limits with Static Site Tools"
 published: true
-category: event
+category:
+  - event-recap
+  - video
+video: https://youtu.be/YU39H2WWOec
 meetup: the-new-dynamic
 date: 2017-03-07 18:30:00
 start_at: 2017-04-06 18:30:00
