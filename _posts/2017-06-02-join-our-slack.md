@@ -3,7 +3,7 @@ title: Join our Slack
 published: true
 category: article
 link:
-description: "Keep the conversation going. Join our Slack"
+description: "We started a Slack a while back. We'll be posting interesting bits, jobs, resources, and open to discussing all things #JAMStack/static sites and front-end development."
 ---
 We started a Slack a while back. We'll be posting interesting bits, jobs, resources, and open to discussing all things #JAMStack/static sites and front-end development.
 
