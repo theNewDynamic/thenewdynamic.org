@@ -19,9 +19,12 @@ Before you begin, you need to have your content model in place so you understand
 The overall process is just three steps:
 
 1) Output your content into templates from your existing CMS that are formatted much like Markdown documents.
+
 2) Run that output through an HTML to Markdown converter.
+
 3) Convert the resulting content into individual files.
 
+---
 
 ## 1) Output content to templates
 
