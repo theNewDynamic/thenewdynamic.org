@@ -1,5 +1,5 @@
 ---
-title: "Static Site Generator"
+title: "Static Site Generator yo"
 published: true
 color: "#8c1613"
 text_color: "#f5d69d"

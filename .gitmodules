@@ -1,0 +1,3 @@
+[submodule "themes/thenewdynamic-hugo-core-theme"]
+	path = themes/thenewdynamic-hugo-core-theme
+	url = https://github.com/theNewDynamic/thenewdynamic-hugo-core-theme.git

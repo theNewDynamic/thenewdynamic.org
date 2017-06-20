@@ -1,0 +1,41 @@
+.dropdown__arrow {
+  width: 0;
+  height: 0;
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent transparent white;
+  top: -20px;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.dropdown-menu.active .dropdown-menu__content {
+  opacity: 1;
+  z-index: 999;
+  /*perspective: 3000px;*/
+}
+
+
+/*.dropdown-menu {
+  width:650px;
+}*/
+
+
+
+/*.dropdown__bg {
+  width: 450px;
+  height: 400px;
+}*/
+
+/*.dropdown-menu__content {
+  min-width: 200px;
+}*/
+
+/*
+#watch .dropdown-menu__content {
+  width: 640px;
+}
+
+#about .dropdown-menu__content {
+  width: 400px;
+}*/
