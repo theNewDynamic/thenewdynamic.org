@@ -1,5 +1,5 @@
 <nav class="bg-red overflow-hidden pb1 pt2" role="navigation">
-  <div class="animated fadeIn center flex-l flex-wrap justify-between items-start mw9 ph3">
+  <div class="animated fadeIn center flex-l flex-wrap justify-between items-start mw9 pl4 pr3">
 
     <h1 class="ma0">
       <a href="{{ .Site.BaseURL }}" class="dim dib f4 fw2 no-underline white-90">
@@ -9,21 +9,21 @@
     </h1>
 
 
-      {{ if .Site.Menus.main }}
-        <ul class="pa0">
-          {{ range .Site.Menus.main }}
-          <li class="list f5 fw4 dib h-100">
-            <a class="bg-animate f6 hover-bg-light-gray hover-red link light-gray pointer ph3 pv4" href="{{ .URL }}" title="{{ .Name }} page">
-              {{ .Name }}
-            </a>
-          </li>
-          {{ end }}
-        </ul>
-      {{ end }}
+    {{ if .Site.Menus.main }}
+      <ul class="pa0">
+        {{ range .Site.Menus.main }}
+        <li class="list f5 fw4 dib h-100">
+          <a class="bg-animate f6 hover-bg-near-white hover-red link moon-gray pointer ph3 pv4" href="{{ .URL }}" title="{{ .Name }} page">
+            {{ .Name }}
+          </a>
+        </li>
+        {{ end }}
+      </ul>
+    {{ end }}
 
-      <div class="flex flex-wrap items-center">
-        {{ partial "social-follow.html" . }}
-      </div>
+    <div class="flex flex-wrap items-center">
+      {{ partial "social-follow.html" . }}
+    </div>
 
   </div>
 </nav>

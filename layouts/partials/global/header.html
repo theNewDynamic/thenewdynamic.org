@@ -19,14 +19,14 @@
   </header>
 {{ else }}
   <header>
-    <div class="pb3-m pb6-l {{ .Site.Params.background_color_class | default "bg-black" }}">
+    <div class="pb3 ">
       {{ partial "global/navigation.html" . }}
-      <div class="tc-l pv3 ph3 ph4-ns">
-        <h1 class="f2 f-subheadline-l fw2 light-silver mb0 lh-title">
-          {{ .Title | default .Site.Title }}
+      <div class="pv3 ph3 ph4-ns {{ .Site.Params.background_color_class | default "bg-black" }}">
+        <h1 class="dib-ns f1 lh-title light-silver ma0">
+          {{ humanize .Section  | default .Title }}
         </h1>
         {{ with .Params.description }}
-          <h2 class="fw1 f5 f3-l white-80 measure-wide-l center lh-copy mt3 mb4">
+          <h2 class="dib-ns f4-l f5 lh-copy near-black measure-wide-l pl4">
             {{ . }}
           </h2>
         {{ end }}
