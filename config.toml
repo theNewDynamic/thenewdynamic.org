@@ -1,7 +1,7 @@
 languageCode = "en-us"
 title = "the New Dynamic"
 baseURL = "https://thenewdynamic-org.netlify.com"
-theme = "the-new-dynamic-hugo-base-theme"
+theme = "thenewdynamic-hugo-core-theme"
 MetaDataFormat = "yaml"
 DefaultContentLanguage = "en"
 #SectionPagesMenu = "main"
@@ -73,12 +73,13 @@ DefaultContentLanguage = "en"
 
 [params]
   logo = ""
-  subtitle = "Build Faster Better Websites with modern tools, services and techniques"
-
-
+  subtitle = "Build Faster Better Websites"
+  body_classes = "sans-serif"
+  background_color_class = "bg-silver"
   description = "Build Faster Better Websites with modern tools, services and techniques"
-
+  meetup = "https://www.meetup.com/JAMstack-nyc/"
   twitter = "https://twitter.com/thenewdynamic"
+  slack = "https://join.slack.com/thenewdynamic/shared_invite/MTk5NzMwNDExNzY3LTE0OTc2MTc5MzAtNWU0ODIzZDIwZg"
 
 
 [taxonomies]
