@@ -1,0 +1,5 @@
+---
+title: "Links"
+aliases:
+- /links/
+---

@@ -1,0 +1,5 @@
+---
+title: "Articles"
+aliases:
+- /articles/
+---

@@ -10,13 +10,13 @@ DefaultContentLanguage = "en"
   name = "Articles & Videos"
   weight = 1
   identifier = "articles"
-  url = "/articles/"
+  url = "/article/"
 
 [[menu.main]]
   name = "Links"
   weight = 10
   identifier = "Links"
-  url = "/Links/"
+  url = "/Link/"
 
 [[menu.main]]
   name = "Tools Database"
@@ -40,7 +40,7 @@ DefaultContentLanguage = "en"
   name = "Events"
   weight = 25
   identifier = "events"
-  url = "/events/"
+  url = "/event/"
 
 [[menu.main]]
   name = "Jobs"
@@ -75,8 +75,8 @@ DefaultContentLanguage = "en"
   logo = ""
   subtitle = "Build Faster Better Websites"
   body_classes = "sans-serif"
-  background_color_class = "bg-silver"
-  description = "Build Faster Better Websites with modern tools, services and techniques"
+  background_color_class = "bg-near-white"
+  description = "Build Faster Better Websites with modern tools, services and techniques."
   meetup = "https://www.meetup.com/JAMstack-nyc/"
   twitter = "https://twitter.com/thenewdynamic"
   slack = "https://join.slack.com/thenewdynamic/shared_invite/MTk5NzMwNDExNzY3LTE0OTc2MTc5MzAtNWU0ODIzZDIwZg"

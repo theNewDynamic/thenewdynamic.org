@@ -1,0 +1,5 @@
+---
+title: "Events"
+aliases:
+- /events/
+---
