@@ -1,16 +1,15 @@
 ---
+title: "Sculpin"
 date: 2015-05-08T22:00:00.000Z
-featured: false
 posted_date: 2015-05-08T22:00:00.000Z
+featured: false
 slug: sculpin
-title: Sculpin
-tool_types:
-- static-site-generator
+tools: 
+  - static-site-generator
 urls:
-  github: https://github.com/sculpin/sculpin
   website: https://sculpin.io/
+  github: https://github.com/sculpin/sculpin
 ---
-
 culpin is a static site generator written in PHP. It converts Markdown files, Twig templates and standard HTML into a static HTML site that can be easily deployed.
 
 

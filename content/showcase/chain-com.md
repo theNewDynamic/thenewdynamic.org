@@ -1,7 +1,7 @@
 ---
 title: chain.com
 date: 2016-10-24 00:00:00
-tools:
+related_tools:
   - jekyll
   - siteleaf
 website: 'https://chain.com/'

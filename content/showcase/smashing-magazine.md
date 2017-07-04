@@ -1,7 +1,7 @@
 ---
 title: Smashing Magazine
 date: 2017-03-16 12:00:00
-tools:
+related_tools:
   - hugo
   - netlify
   - netlify-cms

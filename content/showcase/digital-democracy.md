@@ -1,7 +1,7 @@
 ---
 title: Digital Democracy
 date: 2017-01-16T21:11:00.000Z
-tools:
+related_tools:
   - jekyll
   - netlify
 website: http://www.digital-democracy.org/

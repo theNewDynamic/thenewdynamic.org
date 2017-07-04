@@ -1,18 +1,18 @@
 ---
+title: 'Alembic Theme & Starter'
 date: 2016-10-24 00:00:00
-description: A Jekyll boilerplate theme designed to be a starting point for any Jekyll
-  website.
-resources:
-- name: How to Create and Publish a Jekyll Theme Gem at Tuts+ by the theme's author
-  url: https://webdesign.tutsplus.com/tutorials/how-to-create-and-publish-a-jekyll-theme-gem--cms-27475
-title: Alembic Theme & Starter
-tool_types:
-- theme
+tools:
+  - theme
 urls:
+  website:
   github: https://github.com/daviddarnes/alembic
-  twitter: null
-  website: null
+  twitter:
+resources:
+  - name: "How to Create and Publish a Jekyll Theme Gem at Tuts+ by the theme's author"
+    url: 'https://webdesign.tutsplus.com/tutorials/how-to-create-and-publish-a-jekyll-theme-gem--cms-27475'
+description: A Jekyll boilerplate theme designed to be a starting point for any Jekyll website.
 ---
+
 
 Alembic is a starting point for Jekyll projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately. Install it, configure it, tweak it, push it.
 

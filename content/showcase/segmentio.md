@@ -1,7 +1,7 @@
 ---
 title: "Sement.io"
 date: 2014-10-28T13:57:00.000Z
-tools:
+related_tools:
   - metalsmith
 website: https://segment.com/
 repo:

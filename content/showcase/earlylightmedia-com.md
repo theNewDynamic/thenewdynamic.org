@@ -1,7 +1,7 @@
 ---
 title: earlylightmedia.com
 date: 2016-09-07 00:00:00
-tools:
+related_tools:
   - roots
   - contentful
 website: 'http://www.earlylightmedia.com'

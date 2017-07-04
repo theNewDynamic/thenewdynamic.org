@@ -1,7 +1,7 @@
 ---
 title: Sketch App
 date: 2016-11-10 00:00:00
-tools:
+related_tools:
   - jekyll
 website: 'https://sketchapp.com/'
 repo:

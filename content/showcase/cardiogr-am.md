@@ -1,7 +1,7 @@
 ---
 title: cardiogr.am
 date: 2017-01-03 10:00:00
-tools:
+related_tools:
   - gatsby
 website: 'https://cardiogr.am/'
 repo:

@@ -1,12 +1,12 @@
 ---
+title: "Upstatic"
 date: 2015-08-11T13:59:00.000Z
-description: A better way to deploy static websites to Amazon S3
-featured: false
 posted_date: 2015-08-11T13:59:00.000Z
+featured: false
 slug: upstatic
-title: Upstatic
-tool_types:
-- hosting-deployment
+tools: 
+  - hosting-deployment
+description: A better way to deploy static websites to Amazon S3
 urls:
   website: http://beta.upstatic.io/
 ---

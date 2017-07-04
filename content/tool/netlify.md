@@ -1,17 +1,16 @@
 ---
+title: "Netlify"
 date: 2015-05-02T02:56:00.000Z
-featured: false
 posted_date: 2015-05-02T02:56:00.000Z
+featured: false
 slug: netlify
-title: Netlify
-tool_types:
-- hosting-deployment
+tools: 
+  - hosting-deployment
 urls:
-  github: https://github.com/netlify
-  twitter: https://twitter.com/netlify
   website: https://www.netlify.com/
+  twitter: https://twitter.com/netlify
+  github: https://github.com/netlify
 ---
-
 Builds, deploys & hosts your static site or app
 
 

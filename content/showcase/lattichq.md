@@ -1,7 +1,7 @@
 ---
 title: Lattice
 date: 2017-01-05 15:00:00
-tools:
+related_tools:
   - jekyll
   - datocms
 website: 'https://latticehq.com/'

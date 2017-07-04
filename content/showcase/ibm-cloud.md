@@ -1,7 +1,7 @@
 ---
 title: IBM MobileFirst Foundation
 date: 2016-07-12T00:00:00.000Z
-tools:
+related_tools:
   - jekyll
 website: 'https://mobilefirstplatform.ibmcloud.com/'
 repo:

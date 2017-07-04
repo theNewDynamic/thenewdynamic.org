@@ -1,12 +1,16 @@
 ---
+title: "Pelican"
 date: 2015-05-08T22:01:00.000Z
-featured: false
 posted_date: 2015-05-08T22:01:00.000Z
+featured: false
 slug: pelican
-title: Pelican
-tool_types:
-- static-site-generator
+tools: 
+  - static-site-generator
 urls:
   website: http://blog.getpelican.com/
 ---
+
+
+
+
 

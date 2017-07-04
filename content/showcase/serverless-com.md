@@ -1,7 +1,7 @@
 ---
 title: Serverless.com
 date: 2017-01-03 00:00:00
-tools:
+related_tools:
   - phenomic
 website: 'https://serverless.com/'
 repo: 'https://github.com/serverless/site'

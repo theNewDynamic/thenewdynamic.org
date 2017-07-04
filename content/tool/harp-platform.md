@@ -1,15 +1,14 @@
 ---
+title: "Harp Platform"
 date: 2015-05-14T02:05:00.000Z
-featured: false
 posted_date: 2015-05-14T02:05:00.000Z
+featured: false
 slug: harp-platform
-title: Harp Platform
-tool_types:
-- hosting-deployment
+tools: 
+  - hosting-deployment
 urls:
   website: https://www.harp.io/
 ---
-
 Hosting/Deployment Platform for Harpjs
 
 

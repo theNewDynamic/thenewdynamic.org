@@ -1,16 +1,15 @@
 ---
+title: "Jekyll-lambda"
 date: 2015-11-12T02:04:00.000Z
-featured: false
 posted_date: 2015-11-12T02:04:00.000Z
+featured: false
 slug: jekyll-lambda
 tag: jekyll
-title: Jekyll-lambda
-tool_types:
-- theme
+tools: 
+  - theme
 urls:
   website: https://github.com/lauris/jekyll-lambda
 ---
-
 An ascetic theme for Jekyll.
 
 

@@ -1,16 +1,15 @@
 ---
+title: "Pixyll Jekyll Theme"
 date: 2015-11-12T19:21:00.000Z
-featured: false
 posted_date: 2015-11-12T19:21:00.000Z
+featured: false
 slug: pixyll-jekyll-theme
-title: Pixyll Jekyll Theme
-tool_types:
-- theme
-urls:
-  github: https://github.com/johnotander/pixyll
+tools: 
+  - theme
+urls:  
   website: http://pixyll.com/
+  github: https://github.com/johnotander/pixyll
 ---
-
 A simple, beautiful Jekyll theme that's mobile first.
 
 

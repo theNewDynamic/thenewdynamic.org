@@ -1,17 +1,18 @@
 ---
-date: 2016-12-09 00:00:00
-description: Static sites with free, automatic SSL for custom domains.
-resources:
-- name: null
-  url: null
 title: Staticland
-tool_types:
-- hosting-deployment
+date: 2016-12-09 00:00:00
+tools:
+  - hosting-deployment
 urls:
-  github: https://github.com/staticland
-  twitter: null
-  website: https://static.land/
+  website: 'https://static.land/'
+  github: 'https://github.com/staticland'
+  twitter:
+resources:
+  - name:
+    url:
+description: 'Static sites with free, automatic SSL for custom domains.'
 ---
+
 
 One command to deploy a site.
 

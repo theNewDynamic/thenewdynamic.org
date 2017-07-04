@@ -1,7 +1,7 @@
 ---
 title: perspexilabs.com
 date: 2017-01-10 15:00:00
-tools:
+related_tools:
   - gatsby
 website: 'https://www.perspexilabs.com/'
 repo:

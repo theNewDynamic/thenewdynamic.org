@@ -3,7 +3,7 @@ title: "Norm Daniels"
 date: 2015-10-14T18:01:00.000Z
 website: http://normhere.com/
 repo:
-tools:
+related_tools:
   - jekyll
   - cloudcannon
 creator:

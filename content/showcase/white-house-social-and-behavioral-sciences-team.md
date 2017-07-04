@@ -3,7 +3,7 @@ title: "White House Social and Behavioral Sciences Team"
 date: 2015-09-15T16:41:00.000Z
 website: https://sbst.gov/
 repo:
-tools:
+related_tools:
   - jekyll
   - federalist
 creator:

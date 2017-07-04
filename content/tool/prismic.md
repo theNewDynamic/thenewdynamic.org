@@ -1,17 +1,16 @@
 ---
+title: "Prismic"
 date: 2015-05-08T21:51:00.000Z
-featured: false
 posted_date: 2015-05-08T21:51:00.000Z
+featured: false
 slug: prismic
+tools: 
+  - content-management
 tags:
-- Editing
-- CMS
-- Content API
-title: Prismic
-tool_types:
-- content-management
+  - Editing
+  - CMS
+  - Content API
 urls:
   website: https://prismic.io/
 ---
-
 Content as a Service

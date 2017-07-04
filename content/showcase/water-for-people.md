@@ -1,7 +1,7 @@
 ---
 title: Water for People
 date: 2017-01-15T21:11:00.000Z
-tools:
+related_tools:
   - middleman
   - contentful
   - netlify

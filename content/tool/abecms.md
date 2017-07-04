@@ -1,18 +1,16 @@
 ---
-date: 2017-02-19T12:12:00.000Z
-description: Abe is your static websites generator with revolutionnary self-descriptive
-  templates
-resources:
-- name: ""
-  url: ""
 title: ABE CMS
-tool_types:
-- content-management
-- static-site-generator
+date: 2017-02-19T12:12:00.000Z
+tools:
+ - content-management
+ - static-site-generator
 urls:
+  website:
   github: https://github.com/abecms/abecms
-  twitter: null
-  website: null
+  twitter:
+resources:
+  - name: ''
+    url: ''
+description: Abe is your static websites generator with revolutionnary self-descriptive templates
 ---
-
 Static site generator with a built-in content management system.

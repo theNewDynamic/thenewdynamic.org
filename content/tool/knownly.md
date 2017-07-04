@@ -1,15 +1,14 @@
 ---
+title: "Knownly"
 date: 2015-05-08T22:00:00.000Z
-description: Publish your website in under 2 minutes without a webserver
+tools: 
+  - hosting-deployment
+description: "Publish your website in under 2 minutes without a webserver"
 tags:
-- Hosting-Deployment
-title: Knownly
-tool_types:
-- hosting-deployment
+  - Hosting-Deployment
 urls:
   website: https://www.knownly.net/
 ---
-
 Code in HTML/CSS/Javascript, Save to Dropbox, Instantly Live
 
 - Host multiple websites from one Dropbox account

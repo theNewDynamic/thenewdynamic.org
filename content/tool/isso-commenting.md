@@ -1,17 +1,17 @@
 ---
-date: 2017-02-24
-description: Isso is a commenting server similar to Disqus
-resources:
-- name: ""
-  url: ""
 title: Isso
-tool_types: interaction
+date: 2017-02-24
+tools:
+ - interaction
 urls:
-  github: null
-  twitter: null
   website: https://posativ.org/isso/
+  github:
+  twitter:
+resources:
+  - name: ''
+    url: ''
+description: Isso is a commenting server similar to Disqus
 ---
-
 **Comments written in Markdown**
 
 Users can edit or delete own comments (within 15 minutes by default).

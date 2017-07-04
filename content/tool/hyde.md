@@ -1,16 +1,15 @@
 ---
+title: "Hyde"
 date: 2015-11-12T02:07:00.000Z
-featured: false
 posted_date: 2015-11-12T02:07:00.000Z
+featured: false
 slug: hyde
-title: Hyde
-tool_types:
-- theme
+tools: 
+  - theme
 urls:
-  github: https://github.com/poole/hyde
   website: http://hyde.getpoole.com/
+  github: https://github.com/poole/hyde  
 ---
-
 A brazen two-column Jekyll theme that pairs a prominent sidebar with uncomplicated content.
 
 

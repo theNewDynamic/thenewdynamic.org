@@ -1,12 +1,12 @@
 ---
+title: "Grav"
 date: 2015-10-04T13:03:00.000Z
-description: Flat-file CMS. (not static)
-featured: false
 posted_date: 2015-10-04T13:03:00.000Z
+featured: false
 slug: grav
-title: Grav
-tool_types:
-- content-management
+tools: 
+  - content-management
+description: "Flat-file CMS. (not static)"
 urls:
   website: http://getgrav.org/
 ---

@@ -1,7 +1,7 @@
 ---
 title: Pattern Lab
 date: 2016-07-20T00:00:00.000Z
-tools:
+related_tools:
   - jekyll
 website: 'http://patternlab.io/'
 creator:

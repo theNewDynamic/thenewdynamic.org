@@ -1,7 +1,7 @@
 ---
 title: Linking Art Gallery
 date: 2017-03-03 15:00:00
-tools:
+related_tools:
   - hugo
   - datocms
 website: 'http://www.linkingart.gallery/'

@@ -1,15 +1,15 @@
 ---
-date: 2016-10-05 00:00:00
-description: Hosted Search API that delivers instant and relevant results from the
-  first keystroke
 title: Algolia Hosted Search
-tool_types:
-- interaction
+date: 2016-10-05 00:00:00
+tools: 
+  - interaction
 urls:
-  github: null
-  twitter: null
-  website: https://www.algolia.com
+  website: 'https://www.algolia.com'
+  github:
+  twitter:
+description: Hosted Search API that delivers instant and relevant results from the first keystroke
 ---
+
 
 Founded in 2012, Algolia is a privately held company created by veterans in the fields of algorithms, search engines and text mining.
 

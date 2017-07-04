@@ -1,18 +1,17 @@
 ---
-date: 2017-02-10T12:00:00.000Z
-description: A framework for creating Universal Vue.js Applications, and a Static
-  Generated Vue.js Application
-resources:
-- name: ""
-  url: ""
 title: NuxtJS
-tool_types: static-site-generator
+date: 2017-02-10T12:00:00.000Z
+tools:
+ - static-site-generator
 urls:
+  website: https://nuxtjs.org/
   github: https://github.com/nuxt/nuxt.js
   twitter: https://twitter.com/nuxt_js
-  website: https://nuxtjs.org/
+resources:
+  - name: ''
+    url: ''
+description: A framework for creating Universal Vue.js Applications, and a Static Generated Vue.js Application
 ---
-
 Nuxt.js is a framework for creating Universal Vue.js Applications.
 
 Its main scope is UI rendering while abstracting away the client/server distribution.
