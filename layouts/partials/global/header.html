@@ -25,16 +25,13 @@
       <div class="pv3 ph3 ph4-ns {{ .Site.Params.background_color_class | default "bg-black" }}">
         <h1 class="dib-ns f1 lh-title light-silver ma0">
           {{/* {{ humanize .Section  | default .Title }} */}}
-
           {{ range .Site.Menus.main }}
             {{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}
               {{ .Name }}
             {{end}}
-
-
           {{ end }}
 
-          
+        </span>
         </h1>
 
 
