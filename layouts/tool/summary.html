@@ -1,0 +1,15 @@
+<div class="pa3">
+  {{ range .Params.Categories }}
+    <div class="f7 lh-title">
+      <a href="">{{ . | humanize | title }}</a>
+    </div>
+  {{ end }}
+  <h1 class="f4 near-black">
+    <a href="{{ .URL }}" class="link black dim">
+      {{ .Title }}
+    </a>
+  </h1>
+  <div class="nested-links f6 lh-copy nested-copy-line-height">
+    {{ .Params.description  }}
+  </div>
+</div>

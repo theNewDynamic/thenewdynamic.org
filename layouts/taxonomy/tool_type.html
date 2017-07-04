@@ -1,0 +1,44 @@
+{{ define "main" }}
+{{ $section := (.Paginate (.Data.Pages.ByTitle)).Pages }}
+
+  <article class="center nested-copy-line-height nested-img mw8 pa3 pa4-ns ">
+  <main class="cf ph3 ph5-l pv3 pv4-l f4 center measure-wide lh-copy mid-gray">
+  <h1 class="">{{ .Title }}</h1>
+
+    {{ .Content }}
+  </main>
+
+
+  <div class="">
+  <input class="ba b--black-20 db f4 input-reset mb2 pa2 search w-80" type="search" placeholder="Type to Filter by name or keyword" name="q" autocomplete="off">
+  </div>
+
+
+  <div class=" wrapper">
+
+
+
+    <section class="content dg g-gap-10 g-columns-100">
+      {{ range  $section }}
+        <div class="ba b--light-gray bg-white">
+          {{ .Render "summary" }}
+        </div>
+      {{ end }}
+    </section>
+    <aside class="sidebar">
+      <ul class="list pl0">
+        {{ range $name, $taxonomy := .Site.Taxonomies.tools }}
+          <li class="black hover-white">
+            <a href="{{ "/tools/" | relLangURL }}{{ $name | urlize }}" class="black db hover-bg-near-white link ph3 pv2">
+              {{ $name }}
+            </a>
+          </li>
+        {{ end }}
+      </ul>
+    </aside>
+  </div>
+
+
+    {{/* {{ template "_internal/pagination.html" . }} */}}
+  </article>
+{{ end }}
