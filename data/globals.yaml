@@ -11,6 +11,7 @@ colors:
   text-color-disabled:  "#F7f7f7"
   divider-color:        "#f6f6f6"
   warn-color: red
+  red: "#8c1613"
 
 fonts:
   sans-serif: "open sans"
