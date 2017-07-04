@@ -6,6 +6,17 @@ MetaDataFormat = "yaml"
 DefaultContentLanguage = "en"
 #SectionPagesMenu = "main"
 
+#SectionPagesMenu = "main"
+Paginate = 300 # this is set low for demonstrating with dummy content. Set to a higher number
+googleAnalytics = ""
+enableRobotsTXT = true
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+
 [[menu.main]]
   name = "Articles & Videos"
   weight = 1
@@ -84,5 +95,5 @@ DefaultContentLanguage = "en"
 
 [taxonomies]
   tag = "tags"
-  tool_type = "tool_types"
+  tool_type = "tools"
   series = "series"
