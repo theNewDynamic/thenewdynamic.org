@@ -1,6 +1,6 @@
 ---
-title: "Tools"
+title: "All Tools"
 aliases:
 - /tools/
-description: tools go here
+description: A curated collection of tools and services
 ---
