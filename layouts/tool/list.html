@@ -2,7 +2,9 @@
 {{ $section := (.Paginate (.Data.Pages.ByTitle)).Pages }}
 
   <article class="center nested-copy-line-height nested-img mw8 pa3 pa4-ns ">
-  <main class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray">
+  <main class="lh-copy mid-gray">
+  <h1 class="">{{ .Title }}</h1>
+
     {{ .Content }}
   </main>
 
@@ -25,10 +27,11 @@
     </section>
     <aside class="sidebar">
       <ul class="list pl0">
+      
         {{ range $name, $taxonomy := .Site.Taxonomies.tools }}
           <li class="black hover-white">
             <a href="{{ "/tools/" | relLangURL }}{{ $name | urlize }}" class="black db hover-bg-near-white link ph3 pv2">
-              {{ $name }}
+              {{ $name | humanize | title }}
             </a>
           </li>
         {{ end }}
