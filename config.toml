@@ -5,7 +5,7 @@ theme = "thenewdynamic-hugo-core-theme"
 MetaDataFormat = "yaml"
 DefaultContentLanguage = "en"
 #SectionPagesMenu = "main"
-
+preserveTaxonomyNames = true
 #SectionPagesMenu = "main"
 Paginate = 300 # this is set low for demonstrating with dummy content. Set to a higher number
 googleAnalytics = ""
