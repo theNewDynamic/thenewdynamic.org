@@ -26,7 +26,7 @@
 
   <article class="center nested-copy-line-height nested-img mw8 pa3 pa4-ns ">
   <main class="lh-copy mid-gray">
-  <h1 class="">{{ .Title }}</h1>
+  <h1 class="">{{ .Title | humanize | title }}</h1>
 
     {{ .Content }}
   </main>

@@ -95,5 +95,5 @@ enableRobotsTXT = true
 
 [taxonomies]
   tag = "tags"
-  tool_type = "tools"
+  tools = "tools"
   series = "series"
