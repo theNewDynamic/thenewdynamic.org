@@ -6,7 +6,7 @@ tags:
 - Hosting-Deployment
 - CMS
 title: CloudCannon
-tool_types:
+tools:
 - content-management
 - hosting-deployment
 urls:
