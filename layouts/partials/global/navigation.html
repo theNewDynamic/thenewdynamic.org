@@ -1,3 +1,4 @@
+{{ $currentPage := . }}
 <nav class="bg-red overflow-hidden pb1 pt2" role="navigation">
   <div class="center flex-l flex-wrap justify-between items-start mw9 pl4 pr3">
 
@@ -13,7 +14,7 @@
       <ul class="pa0">
         {{ range .Site.Menus.main }}
         <li class="list f5 fw4 dib h-100">
-          <a class="bg-animate f6 hover-bg-near-white hover-red link moon-gray nl3 nl0-ns pointer ph3 pv4" href="{{ .URL }}" title="{{ .Name }} page">
+          <a class="bg-animate f6 hover-white link moon-gray nl3 nl0-ns pointer ph3 pv4{{if $currentPage.IsMenuCurrent "main" . }} white{{ end}}" href="{{ .URL }}" title="{{ .Name }} page">
             {{ .Name }}
           </a>
         </li>
