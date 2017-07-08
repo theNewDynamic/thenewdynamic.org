@@ -1,0 +1,8 @@
+{{ $section := .section }}
+<section class="content dg g-gap-10 g-columns-100">
+  {{ range  $section }}
+    <div class="ba b--light-gray bg-white">
+      {{ .Render "summary" }}
+    </div>
+  {{ end }}
+</section>
