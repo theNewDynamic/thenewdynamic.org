@@ -1,5 +1,5 @@
 ---
-categories:
+tags:
 - performance
 date: 2017-02-16T00:00:00Z
 link: https://ratson.name/blog/minify-hugo-generated-html/

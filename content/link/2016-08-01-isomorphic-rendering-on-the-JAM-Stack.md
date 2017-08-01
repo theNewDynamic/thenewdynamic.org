@@ -1,5 +1,5 @@
 ---
-categories:
+tags:
 - essentials
 date: 2016-08-01T00:00:00Z
 link: http://hawksworx.com/blog/isomorphic-rendering-on-the-jam-stack/

@@ -1,6 +1,4 @@
 ---
-categories:
-- essentials
 date: 2017-03-13T00:00:00Z
 link: "https://builtvisible.com/go-static-try-jamstack/"
 source: "Tom Bennet, Builtvisible"

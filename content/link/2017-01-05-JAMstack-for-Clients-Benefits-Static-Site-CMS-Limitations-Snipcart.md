@@ -1,5 +1,5 @@
 ---
-categories:
+tags:
 - essentials
 date: 2017-01-05T00:00:00Z
 link: https://snipcart.com/blog/jamstack-clients-static-site-cms

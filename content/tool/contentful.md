@@ -6,8 +6,7 @@ tools:
   - content-management
 tags:
   - Editing
-  - CMS
-  - Content API
+  - Headless CMS
 urls:
   website: https://www.contentful.com/
 ---

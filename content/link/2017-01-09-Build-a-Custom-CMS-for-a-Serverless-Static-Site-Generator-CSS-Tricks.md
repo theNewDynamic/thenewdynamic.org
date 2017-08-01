@@ -1,5 +1,5 @@
 ---
-categories:
+tags:
 - essentials
 date: 2017-01-09T00:00:00Z
 link: https://css-tricks.com/build-custom-cms-serverless-static-site-generator/

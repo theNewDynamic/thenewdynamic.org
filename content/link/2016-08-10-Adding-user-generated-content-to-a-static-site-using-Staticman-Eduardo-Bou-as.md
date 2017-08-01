@@ -1,5 +1,5 @@
 ---
-categories:
+tags:
 - essentials
 date: 2016-08-10T00:00:00Z
 link: https://eduardoboucas.com/blog/2016/08/10/staticman.html

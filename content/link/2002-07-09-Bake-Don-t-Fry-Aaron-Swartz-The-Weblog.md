@@ -1,5 +1,5 @@
 ---
-categories:
+tags:
 - essentials
 date: 2002-07-09T00:00:00Z
 link: http://www.aaronsw.com/weblog/000404

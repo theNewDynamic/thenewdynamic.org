@@ -1,5 +1,5 @@
 ---
-categories:
+tags:
 - video
 date: 2016-09-16T00:00:00Z
 link: https://webdesign.tutsplus.com/tutorials/setting-up-jekyll-for-github-pages-in-60-seconds--cms-27256

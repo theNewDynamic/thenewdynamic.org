@@ -1,5 +1,5 @@
 ---
-categories:
+tags:
 - essentials
 date: 2016-11-23T00:00:00Z
 link: https://css-tricks.com/api-based-cms-approach/
