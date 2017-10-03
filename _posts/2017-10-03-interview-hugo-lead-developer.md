@@ -39,7 +39,7 @@ Performance bottlenecks show up in the most surprising places, so you have to be
 
 [![Federal Front Door](/uploads/showcase-labs-us-gov-hugo.jpg)](/showcase/labs-us-gov-hugo/)
 
-Some nice sites I know about are [labs.usa.gov](https://labs.usa.gov/), [netlify.com](https://www.netlify.com), [cdnplanet.com](https://www.cdnplanet.com/), [support.balsamiq.com](https://support.balsamiq.com/) [crossref.org](https://www.crossref.org/), [1password.com](https://1password.com/), [borisfx.com](http://borisfx.com/), [Urban Airship](https://urbanairship.com/).
+Some nice sites I know about are [labs.usa.gov](https://labs.usa.gov/), [netlify.com](https://www.netlify.com), [cdnplanet.com](https://www.cdnplanet.com/), [support.balsamiq.com](https://support.balsamiq.com/) [crossref.org](https://www.crossref.org/), [1password.com](https://1password.com/), [borisfx.com](http://borisfx.com/), [Urban Airship documentation](https://docs.urbanairship.com/).
 
 And there are more coming. For one, [Smashing Magazine](https://www.smashingmagazine.com) has announced that they are working on a [redesign built on Hugo](https://next.smashingmagazine.com).
 
