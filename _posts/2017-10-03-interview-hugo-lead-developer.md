@@ -9,11 +9,11 @@ permalink: /article/interview-hugo-lead-developer/
 
 [Hugo](/tool/hugo/) has become one of the most popular static site generator over the last couple of years. Partly because it's the fastest out there: it only takes 1ms to Hugo to build a page. Yes, that's 1000 pages per second and that's pretty impressive if you ask me. But speed isn't the only reason to adopt Hugo - who is fast reaching the [20K on GitHub](https://github.com/gohugoio/hugo).
 
-Hugo comes also with handy features like partials, shortcodes, i18n, custom outputs (JSON, AMP, epub, Atom, etc.), nested sections and so on… And features and releases keep up coming at a good pace. Since v0.14, Bjørn Erik Pedersen has taken the lead on development, we took the opportunity to ask him a few questions about this open source project.
+Hugo comes also with handy features like partials, shortcodes, i18n, custom outputs (JSON, AMP, epub, Atom, etc.), nested sections and so on… And features and releases keep up coming at a good pace. Since v0.14, [Bjørn Erik Pedersen](https://github.com/bep) has taken the lead on development, we took the opportunity to ask him a few questions about this open source project.
 
 ![Bjorn Erik Pedersen](/uploads/2017/hugo-bjorn-erik-pedersen.jpg)
 
-## Hi Bjørn, how did you become involved in Hugo?
+## Hi Bjørn Erik, how did you become involved in Hugo?
 
 I spent one Sunday moving my [blog](http://bepsays.com/en/) from WordPress to Jekyll, and when I was finally done I had this "now what?" feeling. I was hoping the move would push me to write some more blog content, but already that same afternoon I Googled "Jekyll alternative" and found Hugo. Soon I found stuff I wanted to improve on and found Go, the programming language.
 
@@ -61,4 +61,4 @@ Other than that, with open source maintenance with very few maintainers and many
 
 ## What's next for Hugo?
 
-Hugo 1.0 should be "around the corner". There are a couple of missing items from my mental roadmap, but it should not take too long. The most important and interesting one is probably coming in the next release, work titled "page bundles". I'm working on the most important one right now, work name ["page bundles"](https://github.com/gohugoio/hugo/issues/3651). And after that, I have a few ideas. I may want to explore if Hugo can be adapted to handle really big sites, like millions of pages, but I suspect that is a task bigger than I can do on my own free time.
+Hugo 1.0 should be "around the corner". There are a couple of missing items from my mental roadmap, but it should not take too long. The most important and interesting one is probably coming in the next release, work titled ["page bundles"](https://github.com/gohugoio/hugo/issues/3651). And after that, I have a few ideas. I may want to explore if Hugo can be adapted to handle really big sites, like millions of pages, but I suspect that is a task bigger than I can do on my own free time.
