@@ -7,6 +7,8 @@ description: "As Hugo is getting more and more popular and fast, we ask a few qu
 permalink: /article/interview-hugo-lead-developer/
 ---
 
+By [Frank Taillandier](https://twitter.com/dirtyf)
+
 [Hugo](/tool/hugo/) has become one of the most popular static site generator over the last couple of years. Partly because it's the fastest out there: it only takes 1ms for Hugo to build a page. Yes, that's 1000 pages per second and that's pretty impressive if you ask me. But speed isn't the only reason to adopt Hugo - who is fast reaching the [20K on GitHub](https://github.com/gohugoio/hugo).
 
 Hugo comes also with handy features like partials, shortcodes, i18n, custom outputs (JSON, AMP, epub, Atom, etc.), nested sections and so on… And features and releases keep up coming at a good pace. Since v0.14, [Bjørn Erik Pedersen](https://github.com/bep) has taken the lead on development, we took the opportunity to ask him a few questions about this open source project.
