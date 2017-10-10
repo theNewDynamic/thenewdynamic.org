@@ -3,7 +3,7 @@
   publish = "public"
 
 [context.development.environment]
-  HUGO_VERSION = "0.24.1"
+  HUGO_VERSION = "0.29.0"
   HUGO_ENV = "development"
 
 # https://www.netlify.com/docs/continuous-deployment/#deploy-contexts
