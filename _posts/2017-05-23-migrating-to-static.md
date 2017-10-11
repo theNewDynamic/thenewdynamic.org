@@ -1,8 +1,11 @@
 ---
 title: "Migrating to Static, with Brian Rinaldi, author of “Working with Static Sites”"
 published: true
-category: event
+category:
+  - event-recap
+  - video
 meetup: the-new-dynamic
+video: https://youtu.be/XjPZWh9oV7E
 date: 2017-05-15 18:30:00
 start_at: 2017-05-23 18:30:00
 venue: Vector Media
@@ -22,3 +25,7 @@ In this talk, we'll look at some of the tools available from some of the major s
 About the Speaker
 
 Brian Rinaldi is the Developer Programs Manager at Progress (formerly Telerik) where he runs the Telerik Developer Network. He serves as co-editor on the popular Mobile Web Weekly newsletter and has authors a report and a new book, both on static site generators, for O'Reilly. Brian lives in Orlando, FL.
+
+<div class="embed-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XjPZWh9oV7E" frameborder="0" allowfullscreen></iframe>
+</div>
