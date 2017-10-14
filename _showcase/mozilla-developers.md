@@ -2,7 +2,7 @@
 title: Mozilla Developers
 date: 2017-10-13 10:00
 tools:
-  - Gatsby
+  - gatsby
 website: https://mozilladevelopers.github.io/playground/
 repo: https://github.com/mozilladevelopers/playground/
 creator:
