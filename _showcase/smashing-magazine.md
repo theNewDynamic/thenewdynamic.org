@@ -3,6 +3,7 @@ title: Smashing Magazine
 date: 2017-03-16 12:00:00
 tools:
   - hugo
+  - algolia
   - netlify
   - netlify-cms
 website: 'https://next.smashingmagazine.com/'

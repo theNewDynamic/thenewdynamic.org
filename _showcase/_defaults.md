@@ -1,13 +1,14 @@
 ---
 title:
-date: 2017-01-15 10:00
+date: 2017-10-16 10:00
 tools:
+  -
 website:
-repo:
+repo: https://github.com/
 creator:
   - name:
     role: 'Design/Development'
     url:
     twitter_username:
-image_path:
+image_path: /uploads/showcase-
 ---
