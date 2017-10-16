@@ -1,0 +1,3 @@
+[submodule "themes/thenewdynamic"]
+	path = themes/thenewdynamic
+	url = https://github.com/thenewdynamic-org/thenewdynamic.git
