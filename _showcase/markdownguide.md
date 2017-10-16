@@ -4,7 +4,7 @@ date: 2017-10-15 17:00
 tools:
   - jekyll
   - algolia
-  - aws
+  - netlify
 website: https://www.markdownguide.org/
 repo: https://github.com/mattcone/markdown-guide
 creator:
