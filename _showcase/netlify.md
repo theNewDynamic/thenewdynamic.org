@@ -3,10 +3,11 @@ title: Netlify
 date: 2017-10-15 10:00
 tools:
   - hugo
+  - webpack
   - cloudinary
   - algolia
 website: https://www.netlify.com/
-repo: https://github.com/
+repo:
 creator:
   - name:
     role: 'Design/Development'
