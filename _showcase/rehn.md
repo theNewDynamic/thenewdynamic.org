@@ -3,7 +3,7 @@ title: Rehan Butt
 date: 2017-10-15 16:30
 tools:
   - jekyll
-  - github
+  - github-pages
 website: http://rehanbutt.com/
 repo: https://github.com/naher94/rehanbutt.com
 creator:
