@@ -10,7 +10,7 @@ creator:
     role: 'Design/Development'
     url:
     twitter_username:
-image_path: /uploads/showcase-sourcegraph.jpg
+image_path: /uploads/showcase-sourcegraph.png
 ---
 
 [Sourcegraph](https://sourcegraph.com/) gives you code search and intelligence across all your company’s private and public code. It integrates with multiple code hosts, editors, and code review tools to increase productivity throughout the developer workflow.
