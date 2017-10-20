@@ -1,17 +1,15 @@
 ---
 title: "Hugo and Madoko in a Custom Docker Image for GitLab CI/CD"
-source: Bryan Klein
-date: 2017-06-21 21:21
-tags: 
- - deployment
+source: Brian Klein
+date: 2017-10-20 19:31
 link: https://bryanklein.com/blog/hugo-and-madoko-in-a-gitlab-custom-docker-image/
-type: Tutorial
+type: Article
 tool:
   - hugo
+  - madoko
   - docker
-  - gitlab
 ---
-Tips for how to setup Hugo and Madoko inside of an Alpine Linux-based Docker image for Gitlab CI/CD
+TIPS FOR HOW TO SETUP HUGO AND MADOKO INSIDE OF AN ALPINE LINUX BASED DOCKER IMAGE FOR GITLAB CI/CD.
 
 
 
