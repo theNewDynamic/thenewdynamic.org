@@ -23,7 +23,7 @@
     "watch:css": "onchange '_app/css/**/*.css' -- run-s build:css hotbuild:css",
     "critical:css": "critical _site/index.html --base _site --minify --css _site/assets/css/main.css > _app/_includes/global/critical.css",
     "clean:jekyll": "bundle exec jekyll clean",
-    "build:jekyll": "bundle exec jekyll build",
+    "build:jekyll": "bundle exec jekyll build --config _config.yml,_config_local.yml",
     "watch:jekyll": "onchange '_app/_includes/**/*' '_app/_layouts/**/*' '**/*.md' '_data/*.*' -- run-s build:jekyll reload",
     "serve": "browser-sync start --server '_site' --files './_site/assets/js/app.min.js' './_site/assets/css/main.css'",
     "reload": "browser-sync reload",
