@@ -30,7 +30,11 @@ schema: https://schema.org/WebPage
   {% for object in showcase limit: 4 %}
     {% assign title = object.title %}
     {% assign url = object.url %}
-    {% assign image = object.image_path | prepend: site.image_url | remove: 'uploads/' | append: '?w=250&q=95' %}
+    {% if site.image_url == 'http://localhost:3000' %}
+      {% assign image = object.image_path | prepend: site.image_url %}
+    {% else %}
+      {% assign image = object.image_path | prepend: site.image_url | remove: 'uploads/' | append: '?w=250&q=95'  %}
+    {% endif %}
     {% assign tool = object.tool_type[0] %}
     {% assign tools = object.tools %}
     {% assign related_tool_type = site.tool_type | where: 'slug', tool %}
