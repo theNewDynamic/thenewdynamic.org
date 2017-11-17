@@ -1,5 +1,5 @@
 ---
-title: Algolia Hosted Search
+title: Algolia
 date: 2016-10-05 00:00:00
 tool_type:
   - interaction
@@ -10,6 +10,8 @@ urls:
 resources:
   - name: "Documentation"
     url: https://www.algolia.com/doc/
+  - name: "jekyll-algolia plugin"
+    url: "https://github.com/algolia/jekyll-algolia/"
   - name: "Awesome Algolia"
     url: https://github.com/algolia/awesome-algolia
   - name: "InstantSearch "
