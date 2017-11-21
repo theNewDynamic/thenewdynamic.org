@@ -2,6 +2,7 @@
 title: "Sanity"
 date: 2017-11-15T02:57:00.000Z
 featured: false
+description: An open source fully customizable, headless CMS.
 tool_type:
 - headless-cms
 - content-management
