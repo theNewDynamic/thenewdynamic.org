@@ -4,6 +4,7 @@ date: 2015-05-02T02:57:00.000Z
 featured: true
 tool_type:
   - content-management
+  - headless-cms
 tags:
   - Editing
   - CMS

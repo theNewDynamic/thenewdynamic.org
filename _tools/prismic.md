@@ -4,8 +4,9 @@ date: 2015-05-08T21:51:00.000Z
 posted_date: 2015-05-08T21:51:00.000Z
 featured: false
 slug: prismic
-tool_type: 
+tool_type:
   - content-management
+  - headless-cms
 tags:
   - Editing
   - CMS
