@@ -1,7 +1,7 @@
 ---
 title: "Sanity"
 date: 2017-11-15T02:57:00.000Z
-featured: true
+featured: false
 tool_type:
   - content-management
 tags:
