@@ -1,5 +1,5 @@
 ---
-title: Cloud CMS
+title: Strap API
 date: 2017-11-14T15:17:00.000Z
 tags: "open source"
 tool_type:
