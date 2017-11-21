@@ -2,8 +2,8 @@
 title: GraphCMS
 date: 2017-10-14T15:17:00.000Z
 tool_type:
-- content-management
 - headless-cms
+- content-management
 urls:
   website: "https://graphcms.com/"
   github:

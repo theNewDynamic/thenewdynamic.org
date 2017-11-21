@@ -2,8 +2,8 @@
 title: Directus
 date: 2017-02-21T15:17:00.000Z
 tool_type:
-  - content-management
-  - headless-cms
+- headless-cms
+- content-management
 urls:
   website: "https://getdirectus.com/"
   github: "https://github.com/directus/directus"

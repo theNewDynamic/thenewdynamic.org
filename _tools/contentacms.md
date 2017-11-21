@@ -2,8 +2,8 @@
 title: Contenta CMS
 date: 2017-11-14T15:17:00.000Z
 tool_type:
-- content-management
 - headless-cms
+- content-management
 urls:
   website: "http://www.contentacms.org"
   github:

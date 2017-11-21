@@ -2,8 +2,8 @@
 title: Butter CMS
 date: 2017-02-14T15:17:00.000Z
 tool_type:
-- content-management
 - headless-cms
+- content-management
 urls:
   website: "https://buttercms.com"
   github:

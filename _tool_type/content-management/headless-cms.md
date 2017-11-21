@@ -1,6 +1,6 @@
 ---
 title: "Headless CMS"
 published: true
-color: "#8C847A"
+color: "#2F2C29"
 ---
 API-driven, entirely decoupled content management systems.

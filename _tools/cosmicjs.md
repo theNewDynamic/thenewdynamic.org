@@ -2,8 +2,8 @@
 title: Cosmic JS
 date: 2017-01-23T15:17:00.000Z
 tool_type:
-- content-management
 - headless-cms
+- content-management
 urls:
   website: "https://cosmicjs.com/"
   github: "https://github.com/cosmicjs"

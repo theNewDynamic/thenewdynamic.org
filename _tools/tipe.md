@@ -2,8 +2,8 @@
 title: Tipe
 date: 2017-11-16T15:17:00.000Z
 tool_type:
-- content-management
 - headless-cms
+- content-management
 urls:
   website: "https://tipe.io/"
   github:

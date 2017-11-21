@@ -3,8 +3,8 @@ title: "Contentful"
 date: 2015-05-02T02:57:00.000Z
 featured: true
 tool_type:
-  - content-management
-  - headless-cms
+- headless-cms
+- content-management
 tags:
   - Editing
   - CMS

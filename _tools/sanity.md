@@ -3,8 +3,8 @@ title: "Sanity"
 date: 2017-11-15T02:57:00.000Z
 featured: false
 tool_type:
-  - content-management
-  - headless-cms
+- headless-cms
+- content-management
 tags:
   - Editing
   - CMS
