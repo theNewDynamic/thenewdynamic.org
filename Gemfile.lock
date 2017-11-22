@@ -5,8 +5,6 @@ GEM
       public_suffix (>= 2.0.2, < 4.0)
     backports (3.10.3)
     colorator (1.1.0)
-    faraday (0.13.1)
-      multipart-post (>= 1.2, < 3)
     ffi (1.9.18)
     forwardable-extended (2.6.0)
     jekyll (3.6.2)
@@ -27,8 +25,6 @@ GEM
       sinatra-contrib (~> 1.4)
     jekyll-feed (0.9.2)
       jekyll (~> 3.3)
-    jekyll-gist (1.4.1)
-      octokit (~> 4.2)
     jekyll-redirect-from (0.12.1)
       jekyll (~> 3.3)
     jekyll-sass-converter (1.5.0)
@@ -46,9 +42,6 @@ GEM
       rb-inotify (~> 0.9, >= 0.9.7)
     mercenary (0.3.6)
     multi_json (1.12.2)
-    multipart-post (2.0.0)
-    octokit (4.7.0)
-      sawyer (~> 0.8.0, >= 0.5.3)
     octopress-hooks (2.6.2)
       jekyll (>= 2.0)
     octopress-paginate (1.2.0)
@@ -71,9 +64,6 @@ GEM
     sass-listen (4.0.0)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
-    sawyer (0.8.1)
-      addressable (>= 2.3.5, < 2.6)
-      faraday (~> 0.8, < 1.0)
     sinatra (1.4.8)
       rack (~> 1.5)
       rack-protection (~> 1.4)
@@ -94,7 +84,6 @@ DEPENDENCIES
   jekyll
   jekyll-admin
   jekyll-feed
-  jekyll-gist
   jekyll-redirect-from
   jekyll-seo-tag
   jekyll-sitemap
