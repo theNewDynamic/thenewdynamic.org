@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
- # gem 'jekyll'
- gem 'jekyll', '~> 3.4', '<= 3.4.1'
+ gem 'jekyll'
+ #gem 'jekyll', '~> 3.4', '<= 3.4.1'
 #gem "jekyll", :git => "git@github.com:jekyll/jekyll.git", :ref => 'HEAD'
 group :jekyll_plugins do
   #gem "html-proofer"
