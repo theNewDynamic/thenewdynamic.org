@@ -3,9 +3,9 @@ layout: default
 section: page-listing
 schema: https://schema.org/WebPage
 ---
-{% assign tool_type = (site.tool_type)  | sort: 'title', 'last' %}
+{% assign tool_type = site.tool_type | sort: 'title', 'last' %}
 {% if page.url == '/tools/' %}
-  {% assign tools = (site.tools | sort: 'title', 'last' ) %}
+  {% assign tools = site.tools | sort: 'title', 'last' %}
 
 {% else %}
   {% assign tools = site.tools | where_exp: 'item','item.tool_type contains page.slug' | sort: 'title', 'last' %}

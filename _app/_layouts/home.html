@@ -8,7 +8,7 @@ schema: https://schema.org/WebPage
 {% assign showcase = site.showcase %}
 {% assign popular_tools = site.tools | where: 'featured', true | sort: 'title', 'last' %}
 {% assign latest_tools = site.tools | where_exp: 'item', 'item.featured != true' | sort: 'date', 'last' | reverse  %}
-{% assign latest_links = (site.links | sort: 'date', 'last' | reverse ) %}
+{% assign latest_links = site.links | sort: 'date', 'last' | reverse %}
 {% assign showcase_item_links = 'col-12 sm-col-6 md-col-6 lg-col-3 sm-pr3 mb4 black text-decoration-none'  %}
 {% assign box_classes = 'list-reset col-12 md-col-8 md-pr2 mr-auto'  %}
 {% assign list_classes = 'list-reset'  %}

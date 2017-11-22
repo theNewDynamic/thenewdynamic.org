@@ -4,8 +4,8 @@ layout: default
 section: links
 schema: https://schema.org/WebPage
 ---
-{% assign latest = (site.links | where_exp: 'item', 'item.category != "essentials"' | sort: 'date', 'last' | reverse ) %}
-{% assign essentials = (site.links | where: 'category', 'essentials' | sort: 'date', 'last' | reverse ) %}
+{% assign latest = site.links | where_exp: 'item', 'item.category != "essentials"' | sort: 'date', 'last' | reverse %}
+{% assign essentials = site.links | where: 'category', 'essentials' | sort: 'date', 'last' | reverse %}
 {% assign box_classes = 'list-reset col-12 md-col-6 md-pr2 mr-auto'  %}
 {% assign list_classes = 'list-reset col-12'  %}
 {% assign list_heading_classes = 'bold h2 pl2'  %}

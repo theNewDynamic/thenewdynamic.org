@@ -21,7 +21,7 @@ schema: https://schema.org/WebPage
 
 
 {% if page.url == '/tools/' %}
-  {% assign tools = (site.tools | sort: 'title', 'last' ) %}
+  {% assign tools = site.tools | sort: 'title', 'last'%}
 {% else %}
   {% assign tools = site.tools | where_exp: 'item','item.tool_type contains page.slug' | sort: 'title', 'last' %}
   {% assign title = page.title  %}

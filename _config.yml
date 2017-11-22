@@ -53,7 +53,7 @@ compress_html:
   ignore:
     envs: [development]
   profile: false
-gems:
+plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - octopress-paginate
