@@ -18,12 +18,14 @@
       {% endif %}
 
       {% if page.author %}
-        <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+        {% assign author = site.data.authors[page.author] %}
+        by <span itemprop="author" itemscope itemtype="http://schema.org/Person">
           <span itemprop="name">
-            {{ page.author }}
+            <a href="https://twitter.com/{{ author.twitter }}" rel="author">{{ page.author }}</a>
           </span>
         </span>
-      {% endif %}</p>
+      {% endif %}
+    </p>
   </header>
 
   <div itemprop="articleBody" class="transition">
