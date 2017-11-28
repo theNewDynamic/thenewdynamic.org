@@ -4,6 +4,7 @@ published: true
 date: "2017-11-27 08:45:36 +0100"
 author: Frank Taillandier
 description: "Bud Parr, founder of TheNewDynamic, shares his vision on the current state of the JAMstack ecosystem."
+image: https://github.com/budparr.png
 permalink: /article/interview-bud-parr/
 ---
 

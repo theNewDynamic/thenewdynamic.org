@@ -4,6 +4,7 @@ published: true
 date: "2017-10-03 08:45:36 +0200"
 author: Frank Taillandier
 description: "As Hugo is getting more and more popular and fast, we ask a few questions to Bjørn Erik Pedersen, the current lead developer, about the past, present and future of Hugo."
+image: /uploads/2017/hugo-bjorn-erik-pedersen.jpg 
 permalink: /article/interview-hugo-lead-developer/
 ---
 
