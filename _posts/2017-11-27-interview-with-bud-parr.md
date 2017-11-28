@@ -17,7 +17,7 @@ website](https://gohugo.io/). Bud kindly accepted to answer a few questions.
 
 ![Bud Parr](https://github.com/budparr.png)
 
-## Hi Bud, you've been an advocate and an observer for what what is sometimes still called Static Sites Generators, how did the landscape evolve since the early days?
+## Hi Bud, you've been an advocate and an observer for what what is sometimes still just referred as static sites. How did the landscape evolve since the early days?
 
 To be honest, I lost a lot of sleep in the early days. This paradigm made so
 much sense to me, but there were not many people involved or even aware of the
