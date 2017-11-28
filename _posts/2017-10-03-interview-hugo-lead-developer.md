@@ -2,12 +2,10 @@
 title: Interview with Bjørn Erik Pedersen, Hugo lead developer
 published: true
 date: "2017-10-03 08:45:36 +0200"
-category: article
+author: Frank Taillandier
 description: "As Hugo is getting more and more popular and fast, we ask a few questions to Bjørn Erik Pedersen, the current lead developer, about the past, present and future of Hugo."
 permalink: /article/interview-hugo-lead-developer/
 ---
-
-By [Frank Taillandier](https://twitter.com/dirtyf)
 
 [Hugo](/tool/hugo/) has become one of the most popular static site generator over the last couple of years. Partly because it's the fastest out there: it only takes 1ms for Hugo to build a page. Yes, that's 1000 pages per second and that's pretty impressive if you ask me. But speed isn't the only reason to adopt Hugo - who is fast reaching the [20K on GitHub](https://github.com/gohugoio/hugo).
 
