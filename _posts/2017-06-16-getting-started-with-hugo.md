@@ -9,9 +9,9 @@ start_at: 2017-06-29 18:00:00
 venue: Spark Labs
 address: '25 W 39th Street, 14th Floor New York, NY 10018'
 link: "https://www.meetup.com/JAMstack-nyc/events/240821007/"
-description: "In partnership with Reboot, this is a complete workshop for building sites with Hugo. We’ll cover why build static sites instead of traditional CMS-driven websites along with the concept of JAMStack, and what's so special about Hugo; We'll start with reviewing themes, content structure, basic templating, deployment and hosting."
+description: "In partnership with Reboot, this is a complete workshop for building sites with Hugo. We’ll cover why build static sites instead of traditional CMS-driven websites along with the concept of JAMstack, and what's so special about Hugo; We'll start with reviewing themes, content structure, basic templating, deployment and hosting."
 ---
-In partnership with Reboot, this is a complete workshop for building sites with Hugo. We’ll cover why build static sites instead of traditional CMS-driven websites along with the concept of JAMStack, and what's so special about Hugo; We'll start with reviewing themes, content structure, basic templating, deployment and hosting. At the end of this workshop you will have a working  website online. This is part one in a three part series of workshops.
+In partnership with Reboot, this is a complete workshop for building sites with Hugo. We’ll cover why build static sites instead of traditional CMS-driven websites along with the concept of JAMstack, and what's so special about Hugo; We'll start with reviewing themes, content structure, basic templating, deployment and hosting. At the end of this workshop you will have a working  website online. This is part one in a three part series of workshops.
 
 
 **Details:**
@@ -35,7 +35,7 @@ New York NY 10018
 
 **About Bud Parr**
 
-Bud Parr is a web designer and front-end developer who has run his own firm building websites for 15 years. He's a contributor to the open source Hugo project, and runs the JAMStack NYC Meetup group, and a website devoted to building "Faster Better Websites," thenewdynamic.org
+Bud Parr is a web designer and front-end developer who has run his own firm building websites for 15 years. He's a contributor to the open source Hugo project, and runs the JAMstack NYC Meetup group, and a website devoted to building "Faster Better Websites," thenewdynamic.org
 
 
 **About Reboot**

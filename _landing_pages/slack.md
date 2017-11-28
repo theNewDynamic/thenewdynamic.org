@@ -1,7 +1,7 @@
 ---
 title: Join our Slack
 ---
-We started a Slack a while back. We'll be posting interesting bits, jobs, resources, and open to discussing all things #JAMStack/static sites and front-end development.
+We started a Slack a while back. We'll be posting interesting bits, jobs, resources, and open to discussing all things #JAMstack/static sites and front-end development.
 
 
 

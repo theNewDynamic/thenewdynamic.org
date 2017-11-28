@@ -1,5 +1,5 @@
 ---
-title: "JAMStack at O'Reilly's Velocity Conference: Git-based or API-driven CMSs"
+title: "JAMstack at O'Reilly's Velocity Conference: Git-based or API-driven CMSs"
 published: true
 category:
   - event-recap

@@ -11,7 +11,7 @@ description: "A tested process for Migrating out of any CMS"
 permalink: /article/migrate-from-any-cms-to-markdown/
 ---
 
-We had a great talk last week by [Brian Rinaldi](https://www.youtube.com/watch?v=XjPZWh9oV7E&t=412s), who reviewed some of the ways to migrate from Wordpress and other CMS's into a Git-based JAMStack site. Most of the migrations I've done have come from other CMSs, so I thought I'd outline the process here.
+We had a great talk last week by [Brian Rinaldi](https://www.youtube.com/watch?v=XjPZWh9oV7E&t=412s), who reviewed some of the ways to migrate from Wordpress and other CMS's into a Git-based JAMstack site. Most of the migrations I've done have come from other CMSs, so I thought I'd outline the process here.
 
 My process is primarily manual and I'm sure there's room to make this easier, but the manual steps have helped me make sure I'm transferring clean content.
 
