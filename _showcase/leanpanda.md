@@ -1,6 +1,6 @@
 ---
 title: Leanpanda.com
-date: 2017-10-03 10:00
+date: 2017-11-27 10:00
 tools:
   - middleman
   - datocms
