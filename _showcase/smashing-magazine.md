@@ -6,7 +6,7 @@ tools:
   - algolia
   - netlify
   - netlify-cms
-website: 'https://next.smashingmagazine.com/'
+website: 'https://www.smashingmagazine.com/'
 repo:
 creator:
   - name:
