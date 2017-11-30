@@ -8,16 +8,16 @@ image: https://github.com/budparr.png
 permalink: /article/interview-bud-parr/
 ---
 
-Bud has been involved in the SSG landscape for a few years now. He runs ([his
-own agency](https://www.thenewdynamic.com/) and
-[thenewdynamic.org](https://thenewdynamic.org), which aggregates curated content
-about the JAMstack ecosystem. Bud also organizes [JAMstack NYC
-meetups](http://www.meetup.com/the-new-dynamic/). and recently redesigned [Hugo
-website](https://gohugo.io/). Bud kindly accepted to answer a few questions.
+Bud is involved in the SSG landscape since quiet a few years now. He runs [his
+own agency](https://www.thenewdynamic.com/) and [this website you're currently
+reading](https://thenewdynamic.org), which aggregates curated content about the
+JAMstack ecosystem. Bud also organizes [JAMstack NYC
+meetups](http://www.meetup.com/the-new-dynamic/). and redesigned [Hugo
+website](https://gohugo.io/). Bud kindly accepted to answer some questions.
 
 ![Bud Parr](https://github.com/budparr.png)
 
-## Hi Bud, you've been an advocate and an observer for what what is sometimes still just referred as static sites. How did the landscape evolve since the early days?
+## Hi Bud, you've been an advocate and an observer for what is sometimes still simply referred as static sites. How did the landscape evolve since the early days?
 
 To be honest, I lost a lot of sleep in the early days. This paradigm made so
 much sense to me, but there were not many people involved or even aware of the
@@ -28,7 +28,7 @@ users was a real problem. I even taught some clients how to use Markdown and
 Github at one point, but that was clearly not ideal. Now we've seen real
 progress; some of the [editors](/tools/content-management/) are as good or
 better than anything you'd find in a traditional CMS.
-Over the past year, we've seen several headless CMS vendors pop-up,
+Over the past year, we have seen several headless CMS vendors pop-up,
 so whether your approach is Git-based, or API-powered, there are viable options.
 
 Significantly, we've seen the emergence of Amazon's "Serverless," Google's
@@ -68,7 +68,7 @@ The team that built the [last Obama campaign
 website](http://kylerush.net/blog/meet-the-obama-campaigns-250-million-fundraising-platform/)
 (in Ruby-based Jekyll) also built [Hillary Clinton's campaign
 site](https://web.archive.org/web/20160701080059/https://www.hillaryclinton.com/)
-(in Node.js-based Assemble). Those were quite sophisticated websites. We have a
+(in Node.js-based Assemble). Those were sophisticated websites. We have a
 [showcase of sites](/showcase/) at The New Dynamic showing off some great work.
 I think the takeaway from the showcase, and a point that I've been trying to
 make for years, is that the use-case for static is not just "blogs for hackers"
