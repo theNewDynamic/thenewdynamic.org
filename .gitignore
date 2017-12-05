@@ -1,6 +1,5 @@
 # Ignore docs files
 _site
-.ruby-version
 .jekyll-metadata
 .vscode
 
@@ -30,6 +29,3 @@ Thumbs.db
 
 # Folders to ignore
 node_modules
-
-
-
