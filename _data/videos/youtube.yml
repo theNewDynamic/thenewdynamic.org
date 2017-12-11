@@ -1,10 +1,16 @@
+- title: "The Rise of the JAMStack"
+  id: uWTMEDEPw8c
+  categories:
+    - netlify
+    - netlify-cms
+
 - title: "Git-based or API-driven CMS, by Chris Macrae"
   id: KX4G49ZrvY0
   categories:
     - forestry
     - hugo
     - jekyll
-    
+
 - title: "Introduction to Spike, by Jeff Escalante"
   id: JtgTa4ACPT8
   categories:
