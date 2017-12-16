@@ -59,7 +59,7 @@ paginate:
         {% endif %}
 
         {% if object.url %}
-          <a href="{{ object.url }}" class="{{ box_link_classes }}">
+          <a href="{{ object.url }}{{ site.utm_parameters_showcase }}" class="{{ box_link_classes }}">
             {{ object.url | remove: 'http://' | truncate:25 }}
           </a>
         {% endif %}
