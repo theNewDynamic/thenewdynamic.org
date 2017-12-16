@@ -39,7 +39,7 @@ paginate:
 
   <div class="col-12 lg-col-3 py2 bg-primary-color-light">
     {% if website %}
-      <a href="{{ website }}" class="text-decoration-none px2">Visit &#8599;</a>
+      <a href="{{ website }}{{ site.utm_parameters_showcase }}" class="text-decoration-none px2">Visit &#8599;</a>
     {% endif %}
     {% if repo != '' %}
       <a href="{{ repo }}" class="text-decoration-none px2">Repo &#8599;</a>
