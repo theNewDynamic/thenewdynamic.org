@@ -9,17 +9,15 @@ urls:
   twitter: https://twitter.com/algolia
 resources:
   - name: "DocSearch"
-      url: https://community.algolia.com/docsearch/
+    url: https://community.algolia.com/docsearch/
   - name: "jekyll-algolia plugin"
-      url: "https://github.com/algolia/jekyll-algolia/"
+    url: "https://github.com/algolia/jekyll-algolia/"
   - name: "InstantSearch "
     url: https://community.algolia.com/instantsearch.js/
   - name: "Documentation"
     url: https://www.algolia.com/doc/
   - name: "Awesome Algolia"
     url: https://github.com/algolia/awesome-algolia
-
-
 description: Hosted Search API that delivers instant and relevant results from the first keystroke
 ---
 
