@@ -10,5 +10,5 @@ creator:
     role: 'Design, Development'
     url: https://nozzle.io/
     twitter_username:
-image_path: /uploads/showcase-nozzle-react-static.jpg
+image_path: /uploads/showcase/nozzle-react-static.jpg
 ---

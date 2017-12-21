@@ -11,5 +11,5 @@ creator:
     role: 'Design/Development'
     url:
     twitter_username:
-image_path: /uploads/showcase-rehn.jpg
+image_path: /uploads/showcase/rehn.jpg
 ---

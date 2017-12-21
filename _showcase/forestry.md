@@ -11,7 +11,7 @@ creator:
     role: 'Design/Development'
     url:
     twitter_username:
-image_path: /uploads/showcase-forestry.png
+image_path: /uploads/showcase/forestry.png
 ---
 
 Marketing website for [Forestry.io](https://forestry.io/) a git-based CMS for Jekyll and Hugo.

@@ -11,7 +11,7 @@ creator:
     role: "Design/Development"
     url: https://18f.gsa.gov/
     twitter_username: 18F
-image_path: /uploads/showcase-plainlanguage-gov.png
+image_path: /uploads/showcase/plainlanguage-gov.png
 ---
 
 [Plain language](https://plainlanguage.gov/) makes it easier for the public to read, understand, and use US government communications.

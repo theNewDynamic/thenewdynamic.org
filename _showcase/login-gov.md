@@ -11,7 +11,7 @@ creator:
     role: "Design/Development"
     url: https://18f.gsa.gov/
     twitter_username: 18F
-image_path: /uploads/showcase-login-gov.png
+image_path: /uploads/showcase/login-gov.png
 ---
 
 [login.gov](https://login.gov/) offers the public secure and private online access to participating government programs. With one login.gov account, users can sign in to multiple government agencies.

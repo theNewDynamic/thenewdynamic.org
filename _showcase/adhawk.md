@@ -10,7 +10,7 @@ creator:
     role: 'Design/Development'
     url:
     twitter_username: adhawk
-image_path: /uploads/showcase-adhawk-about.png
+image_path: /uploads/showcase/adhawk-about.png
 ---
 
 A marketing website for [AdHawk](https://www.tryadhawk.com/) who builds software to help businesses automate their Google AdWords and Facebook Advertising.

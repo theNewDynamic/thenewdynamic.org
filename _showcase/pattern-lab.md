@@ -9,5 +9,5 @@ creator:
     url:
     name:
     twitter_username:
-image_path: /uploads/showcase-pattern-lab.png
+image_path: /uploads/showcase/pattern-lab.png
 ---
