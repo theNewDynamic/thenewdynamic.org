@@ -8,4 +8,4 @@ description: "We started a Slack a while back. We'll be posting interesting bits
 ---
 We started a Slack a while back. We'll be posting interesting bits, jobs, resources, and open to discussing all things #JAMstack/static sites and front-end development.
 
-Direct page: [https://join.slack.com/t/thenewdynamic/](https://thenewdynamic.slack.com/join/shared_invite/enQtMjQ5NDYwMjc5NzgxLWEwMzk4ZjUzODEzNDRiMDVlNTBmOWVjOTVmYjNlNGVkYWZhMTY2ZDk3NmYyY2E5YjNmODA5ZTgxYzNmZDgyMmU)
+[Click here to join](https://join.slack.com/t/thenewdynamic/shared_invite/enQtMjkwNjYwNTY0NjkxLWI1NDhlNjZkZjA5ZGJmODE1OThiMjkwN2ZkMzE1YjEwN2YwNWUxYTNjZTUxMGQ2MzU3NWQ0YmVjNGU1NTkxMDk)
