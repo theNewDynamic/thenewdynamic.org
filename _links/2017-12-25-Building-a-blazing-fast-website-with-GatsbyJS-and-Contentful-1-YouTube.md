@@ -4,12 +4,8 @@ source: k garbaya
 date: 2017-12-25 08:21
 link: https://www.youtube.com/watch?v=Ek4o40w1tH4
 type: Video
+video: https://www.youtube.com/watch?v=Ek4o40w1tH4
 tool:
   - gatsby
 ---
 In this video, I am going to take a simple getting started GatsbyJS example and transform it into a Contentful powered website.
-
-
-
-
-
