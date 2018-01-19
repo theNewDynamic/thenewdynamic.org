@@ -1,6 +1,6 @@
 ---
 title: Brightline Initiative
-date: 2017-10-16 10:00
+date: 2018-01-19 10:00
 tools:
   - hugo
   - netlify
