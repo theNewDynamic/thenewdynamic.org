@@ -13,3 +13,4 @@ resources:
     url: ''
 description: "Cloud-first Headless CMS"
 ---
+A headless CMS allows you to provide content to any channel and device through an API.
