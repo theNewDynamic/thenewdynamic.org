@@ -12,4 +12,12 @@ creator:
     twitter_username:
 image_path: /uploads/showcase/showcase-gatsby-city-of-boston.jpg
 ---
-We’re proud to present our response to Amazon's HQ2 Request for Proposal. Boston is an open and welcoming city — a city everyone can call home. Whether you’re an innovator, entrepreneur, dreamer, or doer, Boston has a place for you. Take a look at the featured videos below to learn more about what we have to offer.
+When Amazon announced in September that it was looking to build a new headquarters, bringing 50,000 jobs and billions of investment to the chosen city, Boston’s city government jumped to throw their hat in the ring.
+
+As a technology hub, the city wanted to put their best digital foot forward, so they turned to the Boston.gov team to build a website as the city’s application — amazon.boston.gov .
+
+With a compressed application process, the Boston.gov team had a week and a half to build two websites — a public-facing site, as well as a password-protected site with additional information.
+
+They needed tools that let them get off the ground immediately, iterate quickly, and build something beautiful — so they turned to Gatsby.
+
+[Read more](https://www.gatsbyjs.org/blog/2018-01-18-how-boston-gov-used-gatsby-to-be-selected-as-an-amazon-hq2-candidate-city/)
