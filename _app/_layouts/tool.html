@@ -53,6 +53,7 @@ schema: https://schema.org/WebPage
 
 
       {% if related_articles.size > 0 %}
+
           {% for object in related_articles %}
               <h3>
                 <a href="{{ object.url }}" class="text-decoration-none hover-primary-color-dark">
@@ -61,6 +62,17 @@ schema: https://schema.org/WebPage
               </h3>
           {% endfor %}
       {% endif %}
+
+      {% if related_links.size > 0 %}
+      {% if showcase.size > 0 %}
+      <h3>
+        <a href="#links" class="text-decoration-none hover-primary-color-dark">
+          Related Links &#8675;
+        </a>
+      </h3>
+      {% endif %}
+      {% endif %}
+
 
     </div>
   </div>
