@@ -6,7 +6,7 @@ tools:
   - netlify-cms
   - netlify
 website: https://www.donarita.co.uk/
-repo:
+repo: https://github.com/peduarte/dona-rita-website
 creator:
   - name: Pedro Duarte
     role: 'Design/Development'
