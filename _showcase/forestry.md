@@ -4,14 +4,16 @@ date: 2017-10-13 10:00
 tools:
   - hugo
   - forestry
+  - algolia
+  - cloudinary
 website: https://forestry.io/
-repo: https://github.com/forestryio
+repo: https://github.com/forestryio/forestry.io
 creator:
-  - name:
+  - name: Forestry
     role: 'Design/Development'
     url:
-    twitter_username:
-image_path: /uploads/showcase/forestry.png
+    twitter_username: forestryio
+image_path: /uploads/showcase/forestry-hugo.png
 ---
 
 Marketing website for [Forestry.io](https://forestry.io/) a git-based CMS for Jekyll and Hugo.
