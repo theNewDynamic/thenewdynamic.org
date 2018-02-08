@@ -1,6 +1,6 @@
 languageCode = "en-us"
 title = "the New Dynamic"
-baseURL = "https://hugo--the-new-dynamic.netlify.com/"
+baseURL = "https://thenewdynamic-org"
 theme = "thenewdynamic"
 MetaDataFormat = "yaml"
 DefaultContentLanguage = "en"
