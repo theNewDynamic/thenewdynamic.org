@@ -6,7 +6,7 @@ category:
   - video
 meetup: the-new-dynamic
 video: "https://www.youtube.com/watch?v=-Gy8mhRwlt8"
-date: 2017-02-15 18:30:00
+date: 2017-02-15 18:30:00 +0000
 start_at: 2017-03-01 17:30:00
 venue: Civic Hall
 address: '118 W 22nd St. New York, NY 10011'
