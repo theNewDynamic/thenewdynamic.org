@@ -1,6 +1,6 @@
 ---
 title: 'Alembic Theme & Starter'
-date: 2016-10-24 00:00:00
+date: 2016-10-24 00:00:00 +0000
 tools:
   - theme
 urls:

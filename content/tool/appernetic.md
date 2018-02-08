@@ -1,6 +1,6 @@
 ---
 title: Appernetic
-date: 2016-11-13 00:00:00
+date: 2016-11-13 00:00:00 +0000
 tools:
   - content-management
 urls:

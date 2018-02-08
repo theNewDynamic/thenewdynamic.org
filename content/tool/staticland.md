@@ -1,6 +1,6 @@
 ---
 title: Staticland
-date: 2016-12-09 00:00:00
+date: 2016-12-09 00:00:00 +0000
 tools:
   - hosting-deployment
 urls:

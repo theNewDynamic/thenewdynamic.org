@@ -1,6 +1,6 @@
 ---
 title: chain.com
-date: 2016-10-24 00:00:00
+date: 2016-10-24 00:00:00 +0000
 related_tools:
   - jekyll
   - siteleaf
@@ -13,5 +13,3 @@ creator:
     twitter_username: julesforrest
 image_path: /uploads/showcase/jekyll-chain.png
 ---
-
-

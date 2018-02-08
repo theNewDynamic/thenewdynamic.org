@@ -1,6 +1,6 @@
 ---
 title: Wyam
-date: 2017-01-09 00:00:00
+date: 2017-01-09 00:00:00 +0000
 tools:
   - static-site-generator
 urls:

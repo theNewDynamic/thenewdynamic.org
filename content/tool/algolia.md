@@ -1,6 +1,6 @@
 ---
 title: Algolia
-date: 2016-10-05 00:00:00
+date: 2016-10-05 00:00:00 +0000
 tools:
   - interaction
 urls:

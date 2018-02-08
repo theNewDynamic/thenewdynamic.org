@@ -1,6 +1,6 @@
 ---
 title: 'Minimal Theme'
-date: 2017-10-07 00:00:00
+date: 2017-10-07 00:00:00 +0000
 tools:
   - theme
 urls:

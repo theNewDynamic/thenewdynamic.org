@@ -1,6 +1,6 @@
 ---
 title: Jekyll
-date: 2015-05-02 01:20:00
+date: 2015-05-02 01:20:00 +0000
 featured: true
 tools:
   - static-site-generator
