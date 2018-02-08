@@ -6,8 +6,8 @@ category:
   - video
 video: https://youtu.be/YU39H2WWOec
 meetup: the-new-dynamic
-date: 2017-03-07 18:30:00
-start_at: 2017-04-06 18:30:00
+date: 2017-03-07 18:30:00 +0000
+start_at: 2017-04-06 18:30:00 +0000
 venue: Carrot Creative
 address: '55 Washington St, 9th Fl Brooklyn, NY 11201'
 link: https://www.meetup.com/The-New-Dynamic/events/238110931/
@@ -20,13 +20,13 @@ We'll begin Dmytri's presentation and then, after a brief demo of the tools they
 
 **Details**
 
-Thursday April, 6th @ 6:30 p.m.   
+Thursday April, 6th @ 6:30 p.m.
 (we will start promptly)
 
 
-**Carrot Creative**  
-55 Washington St, 9th Fl  
-Brooklyn, NY 11201   
+**Carrot Creative**
+55 Washington St, 9th Fl
+Brooklyn, NY 11201
 
 <https://goo.gl/maps/u1bd1ESMcCL2>
 

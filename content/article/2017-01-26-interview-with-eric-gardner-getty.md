@@ -1,7 +1,7 @@
 ---
 title: Interview with Eric Gardner, Getty Publications
 published: true
-date: 2017-01-26 11:30:00
+date: 2017-01-26 11:30:00 +0000
 category: Article
 meetup:
 start_at:
@@ -26,7 +26,7 @@ Finally, as someone with a design background, I care a lot about the design and 
 
 ## How did your team apprehend this new workflow? Was the appropriation easy?
 
-It’s true that publishing this way means that some things are very different. Fortunately I have great colleagues who were willing to learn the new process. Our digital team has done a few “GitHub 101” trainings that have been well received, and writing in Markdown is not so different from writing in any other word processor. I’m still hoping we can make the process more painless though – setting up a development environment to be able to preview things locally can still be pretty daunting, for example. I'm interested in developing tools to help make this process easier for people.  
+It’s true that publishing this way means that some things are very different. Fortunately I have great colleagues who were willing to learn the new process. Our digital team has done a few “GitHub 101” trainings that have been well received, and writing in Markdown is not so different from writing in any other word processor. I’m still hoping we can make the process more painless though – setting up a development environment to be able to preview things locally can still be pretty daunting, for example. I'm interested in developing tools to help make this process easier for people.
 
 
 ![eric ruth greg](/uploads/eric_ruth_greg_1009_1200.jpg)

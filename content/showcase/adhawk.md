@@ -1,6 +1,6 @@
 ---
 title: AdHawk
-date: 2017-10-04
+date: 2017-10-04T21:34:00.000Z
 related_tools:
   - jekyll
 website: https://www.tryadhawk.com/

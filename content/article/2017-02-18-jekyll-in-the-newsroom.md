@@ -5,7 +5,7 @@ category:
   - event-recap
   - video
 meetup: the-new-dynamic
-date: 2017-02-15 18:30:00
+date: 2017-02-15 18:30:00 +0000
 video: https://youtu.be/J42wQ1hMfaQ
 start_at: 2017-03-01 18:30:00
 venue: Civic Hall
@@ -17,7 +17,7 @@ It’s all about Jekyll and journalism: Find out how ProPublica uses Jekyll and 
 
 About David Sleight:
 
-David became ProPublica’s first design director in May of 2014, where he oversees editorial design and production. Before that he was an independent consultant specializing in responsive web design and UX. He has also led the interactive design team at BusinessWeek.com, and helped build some of the first web-based textbooks at Pearson Education. In 2016 he was named a Pulitzer finalist and recipient of the National Academies Communication Award for his work on ProPublica’s Killing the Colorado series.  
+David became ProPublica’s first design director in May of 2014, where he oversees editorial design and production. Before that he was an independent consultant specializing in responsive web design and UX. He has also led the interactive design team at BusinessWeek.com, and helped build some of the first web-based textbooks at Pearson Education. In 2016 he was named a Pulitzer finalist and recipient of the National Academies Communication Award for his work on ProPublica’s Killing the Colorado series.
 
 
 

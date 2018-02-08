@@ -1,6 +1,6 @@
 ---
 title: Serverless.com
-date: 2017-01-03 00:00:00
+date: 2017-01-03 00:00:00 +0000
 related_tools:
   - phenomic
 website: 'https://serverless.com/'
@@ -12,5 +12,3 @@ creator:
     twitter_username:
 image_path: /uploads/showcase/phenomic-serverless.jpg
 ---
-
-

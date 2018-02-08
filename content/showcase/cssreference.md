@@ -1,6 +1,6 @@
 ---
 title: CSSReference
-date: 2016-11-27 00:00:00
+date: 2016-11-27 00:00:00 +0000
 related_tools:
   - jekyll
 website: 'http://cssreference.io/'
@@ -12,5 +12,3 @@ creator:
     twitter_username:
 image_path: /uploads/showcase/cssreference-io.png
 ---
-
-

@@ -1,6 +1,6 @@
 ---
 title: earlylightmedia.com
-date: 2016-09-07 00:00:00
+date: 2016-09-07 00:00:00 +0000
 related_tools:
   - roots
   - contentful
@@ -24,5 +24,3 @@ creator:
     url: 'http://backroom.io/'
 image_path: /uploads/showcase/earlylightmedia-roots.jpg
 ---
-
-

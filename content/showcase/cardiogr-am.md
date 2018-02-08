@@ -1,6 +1,6 @@
 ---
 title: cardiogr.am
-date: 2017-01-03 10:00:00
+date: 2017-01-03 10:00:00 +0000
 related_tools:
   - gatsby
 website: 'https://cardiogr.am/'
@@ -12,5 +12,3 @@ creator:
     twitter_username:
 image_path: /uploads/showcase/gatsby-cardiogram.jpg
 ---
-
-

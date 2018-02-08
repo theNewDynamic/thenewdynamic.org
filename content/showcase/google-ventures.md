@@ -1,6 +1,6 @@
 ---
 title: Google Ventures
-date: 2016-12-13 00:00:00
+date: 2016-12-13 00:00:00 +0000
 related_tools:
   - metalsmith
 website: 'http://www.gv.com/'
@@ -12,5 +12,3 @@ creator:
     twitter_username: GVteam
 image_path: /uploads/showcase/gv.jpg
 ---
-
-

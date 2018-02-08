@@ -1,6 +1,6 @@
 ---
 title: Linking Art Gallery
-date: 2017-03-03 15:00:00
+date: 2017-03-03 15:00:00 +0000
 related_tools:
   - hugo
   - datocms

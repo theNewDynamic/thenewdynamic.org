@@ -1,6 +1,6 @@
 ---
 title: Smashing Magazine
-date: 2017-03-16 12:00:00
+date: 2017-03-16 12:00:00 +0000
 related_tools:
   - hugo
   - algolia

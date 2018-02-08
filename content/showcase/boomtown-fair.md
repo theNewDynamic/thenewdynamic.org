@@ -1,6 +1,6 @@
 ---
 title: Boomtown Fair
-date: 2017-01-09 15:00:00
+date: 2017-01-09 15:00:00 +0000
 related_tools:
   - hugo
   - datocms
@@ -13,5 +13,3 @@ creator:
     twitter_username:
 image_path: /uploads/screenshot-hugo-datocms-boomtown.jpg
 ---
-
-

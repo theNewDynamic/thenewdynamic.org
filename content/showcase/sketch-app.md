@@ -1,6 +1,6 @@
 ---
 title: Sketch App
-date: 2016-11-10 00:00:00
+date: 2016-11-10 00:00:00 +0000
 related_tools:
   - jekyll
 website: 'https://sketchapp.com/'

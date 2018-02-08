@@ -6,8 +6,8 @@ category:
   - video
 meetup: the-new-dynamic
 video: https://youtu.be/XjPZWh9oV7E
-date: 2017-05-15 18:30:00
-start_at: 2017-05-23 18:30:00
+date: 2017-05-15 18:30:00 +0000
+start_at: 2017-05-23 18:30:00 +0000
 venue: Vector Media
 address: '18 W 21st St Fl 8, New York, NY'
 link: https://www.meetup.com/The-New-Dynamic/events/239893056/
