@@ -2,7 +2,8 @@
 title: Rooftop CMS
 date: 2016-09-07T00:00:00.000Z
 tools:
-  - content-management
+- headless-cms
+- content-management
 urls:
   website: 'https://www.rooftopcms.com/'
   github: 'https://github.com/rooftopcms'

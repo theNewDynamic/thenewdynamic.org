@@ -1,17 +1,16 @@
 ---
-type:
-- article
-date: 2014-08-29T22:21:00Z
+title: "The Post-CMS Landscape"
+date: 2014-08-29T22:21:00.000Z
 posted_date: 2015-05-02T22:21:00.000Z
+category: article
 slug: the-post-cms-landscape
-source: null
-title: The Post-CMS Landscape
+source:
+
 tool:
-- Metalsmith
-- Osmek
-- Contentful
-- Prismic
-url: /2014/08/29/the-post-cms-landscape/
+  - Metalsmith
+  - Osmek
+  - Contentful
+  - Prismic
 ---
 
 In [_The No-db Landscape_](/tools/the-no-db-landscape/) I wrote about the differences between "flat-file" CMSs and static site generators. Today we'll have a look at the idea of a "Post-CMS" and some new developments.

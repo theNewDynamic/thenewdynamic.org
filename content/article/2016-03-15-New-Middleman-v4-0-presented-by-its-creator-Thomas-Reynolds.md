@@ -1,20 +1,17 @@
 ---
-address: '360 3rd Street #750, 7th floor, San Francisco, CA'
-type:
-- event
-date: 2016-03-15T00:00:00Z
-description: About the newest, largely re-written version Middleman
-link: http://www.meetup.com/sf-static-web-tech/events/229493139/
+title: "New Middleman v4.0 presented by its creator Thomas Reynolds"
 meetup: static-web-tech-meetup
+date: 2016-03-15 17:47:00 +0000
 start_at: 2016-03-22T19:00:00.000Z
-title: New Middleman v4.0 presented by its creator Thomas Reynolds
-tool:
-- middleman
-type: event
-url: /2016/03/15/New-Middleman-v4-0-presented-by-its-creator-Thomas-Reynolds/
 venue: Wikia (conference room)
+address: "360 3rd Street #750, 7th floor, San Francisco, CA"
+link: http://www.meetup.com/sf-static-web-tech/events/229493139/
+type: event
+category: event
+description: 'About the newest, largely re-written version Middleman'
+tool:
+  - middleman
 ---
-
 Thomas Reynolds is the Technical Director at famed Portland digital agency Instrument.
 
 He’s also the creator of Middleman, one of the most used static site generators for large enterprise sites like MailChimp, Sequoia Capitol and Vox Media.

@@ -1,6 +1,6 @@
 ---
 title: Digital Democracy
-date: 2017-01-16T21:11:00.000Z
+date: 2017-01-16 10:00:00 +0000
 related_tools:
   - jekyll
   - netlify
@@ -11,5 +11,5 @@ creator:
     role: 'Design/Development'
     url:
     twitter_username:
-image_path: /uploads/showcase-digital-democracy.jpg
+image_path: /uploads/showcase/digital-democracy.jpg
 ---

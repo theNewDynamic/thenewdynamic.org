@@ -1,13 +1,12 @@
 ---
-type:
-- article
-date: 2014-03-09T22:01:00Z
+title: "Basics of Markdown"
+date: 2014-03-09T22:01:00.000Z
 posted_date: 2015-05-02T22:01:00.000Z
+category: article
 slug: basics-of-markdown
-source: null
-title: Basics of Markdown
-tool: null
-url: /2014/03/09/basics-of-markdown/
+source:
+
+tool:
 ---
 
 [_An abreviated form of this article is available as a Gist on Github_](https://gist.github.com/budparr/9257428)

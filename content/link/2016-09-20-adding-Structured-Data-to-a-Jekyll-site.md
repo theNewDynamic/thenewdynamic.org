@@ -1,14 +1,12 @@
 ---
-date: 2016-09-20T00:00:00Z
-link: http://pauldambra.github.io/structured-data-with-jekyll.html
+title: "Adding Structured Data to a Jekyll site"
 source: Paul D'ambra
-title: Adding Structured Data to a Jekyll site
-tool:
-- jekyll
+date: 2016-09-20 08:29:00 +0000
+link: http://pauldambra.github.io/structured-data-with-jekyll.html
 type: Tutorial
-url: /2016/09/20/adding-Structured-Data-to-a-Jekyll-site/
+tool:
+  - jekyll
 ---
-
 Structured Data is a way of adding context to files served on the web so that computers (primarily but not only search engines) can respond to what your content means.
 
 

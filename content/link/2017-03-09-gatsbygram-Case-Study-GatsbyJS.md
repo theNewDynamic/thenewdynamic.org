@@ -1,17 +1,20 @@
 ---
-date: 2017-03-09T00:00:00Z
-link: https://www.gatsbyjs.org/blog/gatsbygram-case-study/
+title: "Gatsbygram Case Study"
 source: Kyle Mathews
-tags:
-- gatsby
-- essentials
-title: Gatsbygram Case Study
-tool:
-- gatsby
+date: 2017-03-09 15:47:00 +0000
+link: https://www.gatsbyjs.org/blog/gatsbygram-case-study/
 type: Case Study
-url: /2017/03/09/gatsbygram-Case-Study-GatsbyJS/
+category: essentials
+tags: 
+ - gatsby
+tool:
+  - gatsby
 ---
-
 Gatsby is a JavaScript web framework that let’s you build fast, very dynamic, mobile-ready websites without an advanced degree in JavaScript wizardry.
 
 It combines the fast performance of static websites with the powerful abstractions, tools, and client capabilities of the React.js world.
+
+
+
+
+

@@ -1,15 +1,13 @@
 ---
-type:
-- article
-date: 2014-07-26T22:08:00Z
+title: "Getting Started with Static Site Generators"
+date: 2014-07-26T22:08:00.000Z
 posted_date: 2015-05-02T22:08:00.000Z
+category: article
 slug: getting-started-with-static-site-generators
-source: null
-title: Getting Started with Static Site Generators
-tool: null
-url: /2014/07/26/getting-started-with-static-site-generators/
----
+source:
 
+tool:
+---
 Here are some of the blog posts that first got me excited about the potential for static site generators:
 
 - ["Meet the Obama campaign's $250 million fundraising platform", by Kyle Rush](http://kylerush.net/blog/meet-the-obama-campaigns-250-million-fundraising-platform/)

@@ -1,6 +1,5 @@
 ---
 title: "Dr. Jekyll's Themes"
-draft: true
 date: 2015-11-12T02:03:00.000Z
 posted_date: 2015-11-12T02:03:00.000Z
 featured: false

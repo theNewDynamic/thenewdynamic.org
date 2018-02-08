@@ -1,12 +1,15 @@
 ---
-date: 2016-08-09T00:00:00Z
-link: http://random.parts/til/github/using-submodules-in-github-pages/
+title: "Using submodules in GitHub Pages"
 source: Random.parts
-title: Using submodules in GitHub Pages
-tool:
-- jekyll
-- github-pages
+date: 2016-08-09 23:23:00 +0000
+link: http://random.parts/til/github/using-submodules-in-github-pages/
 type: Tutorial
-url: /2016/08/09/random-parts-github/
+tool:
+  - jekyll
+  - github-pages
 ---
+
+
+
+
 

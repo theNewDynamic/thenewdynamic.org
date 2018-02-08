@@ -1,16 +1,11 @@
 ---
-type:
-- event
-date: 2016-01-31T00:00:00Z
-description: Break through the limits of static site generators with the use of a
-  new breed of hosted tools and services.
-link: https://2016.front-trends.com/speakers/#phil-hawksworth
+title: "Static Sites go all Hollywood"
 start_at: 2016-05-18T12:00:00.000Z
-title: Static Sites go all Hollywood
-url: /2016/01/31/static-sites-go-all-hollywood/
-venue: Front Trends, Warsaw, Poland
+category: event
+link: https://2016.front-trends.com/speakers/#phil-hawksworth
+venue: "Front Trends, Warsaw, Poland"
+description: "Break through the limits of static site generators with the use of a new breed of hosted tools and services."
 ---
-
 A talk by Phil Hawks­worth at the Front-Trends Conference.
 
 Front-Trends is one of Europe’s most established annual conferences for professional front-end developers to meet, learn and get inspired.

@@ -1,11 +1,10 @@
 ---
 title: "Appolo"
-draft: true
 date: 2016-01-01T15:17:00.000Z
 posted_date: 2016-01-01T15:17:00.000Z
 featured: false
 slug: appolo
-tools:
+tools: 
   - theme
 urls:
   website: http://www.delightfuldev.com/appolo

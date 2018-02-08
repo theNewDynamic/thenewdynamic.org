@@ -1,19 +1,16 @@
 ---
-type:
-- event
-date: 2015-06-12T03:29:00Z
-description: Why use Static Site Generators and How they Work
+title: "Static is the New Dynamic Meetup"
+date: 2015-06-12T03:29:00.000Z
 posted_date: 2015-06-12T03:29:00.000Z
+category: event
 slug: video-and-slides-from-our-first-meetup
-source: null
-title: Static is the New Dynamic Meetup
-tool:
-- Jekyll
-- Webhook
-url: /2015/06/12/video-and-slides-from-our-first-meetup/
+source:
+description: Why use Static Site Generators and How they Work
 video: true
+tool:
+  - Jekyll
+  - Webhook
 ---
-
 We had a great first [Meetup](http://www.meetup.com/The-New-Dynamic/events/222477212/) on June 10th, 2015. I gave a presentation on my history with static sites, why I use them, and some use-cases and examples.
 
 The video is a bit screwed up. We lost it twenty minutes in to the talk and picked up for another 15-20 minutes sometime after. And my head is chopped off in parts.

@@ -1,17 +1,15 @@
 ---
-date: 2016-05-06T00:00:00Z
-link: http://technology.razorfish.com/2016/05/06/a-reactive-serverless-cms-for-the-technology-blog/index.html
+title: "A reactive serverless cms for the technology blog · Razorfish Technology Blog"
 source: Razorfish
-title: A reactive serverless cms for the technology blog · Razorfish Technology Blog
-tool:
-- hugo
-- aws-lambda
-- s3
-- cloudfront
+date: 2016-05-06 18:22:00 +0000
+link: http://technology.razorfish.com/2016/05/06/a-reactive-serverless-cms-for-the-technology-blog/index.html
 type: Tutorial
-url: /2016/05/06/a-reactive-serverless-cms-for-the-technology-blog-Razorfish-Technology-Blog/
+tool:
+  - hugo
+  - aws-lambda
+  - s3
+  - cloudfront
 ---
-
 A reactive serverless cms for the technology blog
 
 

@@ -1,16 +1,13 @@
 ---
-tags:
-- video
-date: 2016-09-16T00:00:00Z
-link: https://webdesign.tutsplus.com/tutorials/setting-up-jekyll-for-github-pages-in-60-seconds--cms-27256
+title: "Setting Up Jekyll for GitHub Pages in 60 Seconds"
 source: CJ Melegrito, Tutsplus
-title: Setting Up Jekyll for GitHub Pages in 60 Seconds
-tool:
-- jekyll
+date: 2017-01-11 19:46:00 +0000
+link: https://webdesign.tutsplus.com/tutorials/setting-up-jekyll-for-github-pages-in-60-seconds--cms-27256
 type: Tutorial
-url: /2016/09/16/setting-Up-Jekyll-for-GitHub-Pages-in-60-Seconds/
+category: video
+tool:
+  - jekyll
 ---
-
 Jekyll can be used with GitHub Pages to create simple, blog-aware, static websites. This video will show you how to setup the bare-bones Jekyll flat file structure in 60 seconds!
 
 

@@ -1,12 +1,10 @@
 ---
-date: 2016-01-14T00:00:00Z
-link: http://knightsoftheoldcode.com/article/2015/12/24/jekyll-firebase-basics/
+title: "Jekyll and Firebase - Basics"
+date: 2016-01-14 20:16:00 +0000
 published: false
-title: Jekyll and Firebase - Basics
+link: http://knightsoftheoldcode.com/article/2015/12/24/jekyll-firebase-basics/
 tool:
-- jekyll
-- firebase
-url: /2016/01/14/Jekyll-and-Firebase-Basics-Knights-of-the-Old-Code/
+  - jekyll
+  - firebase
 ---
-
 This article series explores code driving dynamic data in an otherwise static website.

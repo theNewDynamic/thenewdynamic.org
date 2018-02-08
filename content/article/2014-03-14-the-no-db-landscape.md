@@ -1,15 +1,13 @@
 ---
-type:
-- article
-date: 2014-03-14T22:02:00Z
+title: "The No-DB Landscape"
+date: 2014-03-14T22:02:00.000Z
 posted_date: 2015-05-02T22:02:00.000Z
+category: article
 slug: the-no-db-landscape
-source: null
-title: The No-DB Landscape
-tool: null
-url: /2014/03/14/the-no-db-landscape/
----
+source:
 
+tool:
+---
 It's no coincidence that as I've become obsessed with website performance I've also become enamored with building sites with no database. They're unequivocally faster, simpler to maintain and build, and more secure and stable than database-driven websites. There are tradeoffs of course, but in my view well worth it. I don't understand the talk I see about static sites being for "hackers" or small or simple sites. I've seen some [large](http://kylerush.net/blog/meet-the-obama-campaigns-250-million-fundraising-platform/), [complex](http://developmentseed.org/blog/2013/09/19/relaunching-undp-portal/) and [highly trafficked](http://developmentseed.org/blog/2013/10/24/its-called-jekyll/) sites built this way. See my earlier [post](/article/2014/03/06/static-site-generators-introduction/) in this series for more information.
 
 For the most part I've been using two applications. For purely static sites I use [**Jekyll**](http://jekyllrb.com) and for "flat-file" CMS sites I've used [**Statamic**](http://statamic.com). Each is excellent in its own right, yet serves a different purpose than the other.

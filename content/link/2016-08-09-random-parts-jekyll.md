@@ -1,12 +1,15 @@
 ---
-date: 2016-08-09T00:00:00Z
-link: http://random.parts/til/jekyll/generate-category-pages-with-submodules/
+title: "rAuto generate category index pages w/ submodules"
 source: Random.parts
-title: rAuto generate category index pages w/ submodules
-tool:
-- jekyll
-- github-pages
+date: 2016-07-17 23:24:00 +0000
+link: http://random.parts/til/jekyll/generate-category-pages-with-submodules/
 type: Tutorial
-url: /2016/08/09/random-parts-jekyll/
+tool:
+  - jekyll
+  - github-pages
 ---
+
+
+
+
 

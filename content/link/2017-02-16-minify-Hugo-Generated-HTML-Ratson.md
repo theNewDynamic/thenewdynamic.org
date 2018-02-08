@@ -1,16 +1,13 @@
 ---
-tags:
-- performance
-date: 2017-02-16T00:00:00Z
+title: "Minify Hugo Generated HTML · Ratson"
+source:
+date: 2016-02-16 19:39:00 +0000
 link: https://ratson.name/blog/minify-hugo-generated-html/
-source: null
-title: Minify Hugo Generated HTML · Ratson
-tool:
-- hugo
 type: Tutorial
-url: /2017/02/16/minify-Hugo-Generated-HTML-Ratson/
+category: performance
+tool:
+  - hugo
 ---
-
 Minification can be easily archived by using Gulp and some scripts. You can see the result from the source of this blog.
 
 

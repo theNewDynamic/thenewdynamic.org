@@ -1,17 +1,13 @@
 ---
-type:
-- article
-date: 2015-11-10T15:22:00Z
-excerpt: A brief overview of how a typical static site generator converts markdown
-  files into fully formed HTML files.
+title: "How do Static Site Generators Work?"
+date: 2015-11-10T15:22:00.000Z
 posted_date: 2015-11-10T15:22:00.000Z
+category: article
 slug: how-do-static-site-generators-work
-source: null
-title: How do Static Site Generators Work?
-tool: null
-url: /2015/11/10/how-do-static-site-generators-work/
+source:
+excerpt: A brief overview of how a typical static site generator converts markdown files into fully formed HTML files.
+tool:
 ---
-
 ### CONTENT IN
 
 Most, but not all, static site generators use markdown files to store content, with information about each file of content specified using YAML formatted front matter. It looks like this:

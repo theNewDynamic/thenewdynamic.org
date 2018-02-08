@@ -1,15 +1,13 @@
 ---
-type:
-- article
-date: 2014-08-24T22:10:00Z
+title: "Search Options for Static Websites"
+date: 2014-08-24T22:10:00.000Z
 posted_date: 2015-05-02T22:10:00.000Z
+category: article
 slug: search-options-for-static-websites
-source: null
-title: Search Options for Static Websites
-tool: null
-url: /2014/08/24/search-options-for-static-websites/
----
+source:
 
+tool:
+---
 Here are some options for adding search and/or filters to your static website. These have various approaches, costs and ease of implementation.
 
 - [Lunr.js](http://lunrjs.com/) (plugins: [Jeyll](https://github.com/slashdotdash/jekyll-lunr-js-search), [Metalsmith](https://github.com/CMClay/metalsmith-lunr))

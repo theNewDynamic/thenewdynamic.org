@@ -1,14 +1,12 @@
 ---
-date: 2017-03-19T00:00:00Z
-link: https://www.adamwills.io/blog/hugo-version-issues-netlify/
+title: "Dealing with version conflicts between Hugo and Netlify"
 source: Adam Wills
-title: Dealing with version conflicts between Hugo and Netlify
-tool:
-- hugo
+date: 2017-03-19 22:12:00 +0000
+link: https://www.adamwills.io/blog/hugo-version-issues-netlify/
 type: Tutorial
-url: /2017/03/19/dealing-with-version-conflicts-between-Hugo-and-Netlify-Adam-Wills/
+tool:
+  - hugo
 ---
-
 One of the trickier issues that I dealt with when getting started with Hugo and deploying to Netlify involved what I later found out to be a conflict of versions. 
 
 

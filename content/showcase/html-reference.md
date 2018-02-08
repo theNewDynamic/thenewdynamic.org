@@ -1,6 +1,6 @@
 ---
 title: HTML Reference
-date: 2017-02-16T21:11:00.000Z
+date: 2017-02-16 10:00:00 +0000
 related_tools:
   - jekyll
 website: http://htmlreference.io/
@@ -10,5 +10,5 @@ creator:
     role: 'Design/Development'
     url: http://jgthms.com/
     twitter_username: jgthms
-image_path: /uploads/showcase-html-reference.jpg
+image_path: /uploads/showcase/html-reference.jpg
 ---

@@ -1,7 +1,7 @@
 ---
 title: Assemble
 date: 2014-07-23T00:00:00.000Z
-tools:
+tools: 
   - static-site-generator
 urls:
   website: 'http://assemble.io/'

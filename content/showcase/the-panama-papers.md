@@ -10,7 +10,7 @@ creator:
     role: Design/Development
     url: http://www.populate.tools
     twitter_username: populatetools
-image_path: /uploads/showcase-the-panama-papers-jekyll.jpg
+image_path: /uploads/showcase/the-panama-papers-jekyll.jpg
 ---
 
 

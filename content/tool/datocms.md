@@ -2,7 +2,8 @@
 title: DatoCMS
 date: 2016-10-24 00:00:00
 tools:
-  - content-management
+- headless-cms
+- content-management
 urls:
   website: 'https://www.datocms.com/'
   github:

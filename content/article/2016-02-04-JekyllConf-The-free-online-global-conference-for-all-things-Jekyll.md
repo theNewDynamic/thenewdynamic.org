@@ -1,16 +1,17 @@
 ---
-date: 2016-02-04T12:01:00Z
-description: The free, online global conference for all things Jekyll (videos)
-link: http://jekyllconf.com/
+title: "JekyllConf"
+date: 2016-05-05T12:01:00.000Z
 start_at: 2016-05-07T10:00:00.000Z
-title: JekyllConf
-tool:
-- Jekyll
-url: /2016/02/04/JekyllConf-The-free-online-global-conference-for-all-things-Jekyll/
+category:
+  - event-recap
+link: http://jekyllconf.com/
 venue: JekyllCOnf Online
 video: https://www.youtube.com/playlist?list=PLrxYIq_0LFJdi2HJ6lnY4nm7ewu221hyS
+link: http://jekyllconf.com/
+description: "The free, online global conference for all things Jekyll (videos)"
+tool:
+  - Jekyll
 ---
-
 ## Details
 Vidoes for the conference are posted on the website, and Youtube. Here's a link to the [Youtube playlist](https://www.youtube.com/playlist?list=PLrxYIq_0LFJdi2HJ6lnY4nm7ewu221hyS).
 

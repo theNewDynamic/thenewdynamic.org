@@ -3,10 +3,12 @@ title: "Contentful"
 date: 2015-05-02T02:57:00.000Z
 featured: true
 tools:
-  - content-management
+- headless-cms
+- content-management
 tags:
   - Editing
-  - Headless CMS
+  - CMS
+  - Content API
 urls:
   website: https://www.contentful.com/
 ---

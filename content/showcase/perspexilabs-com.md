@@ -10,7 +10,7 @@ creator:
     role: Design/Development
     url:
     twitter_username:
-image_path: /uploads/showcase-gatsby-perspexilabs-com.jpg
+image_path: /uploads/showcase/gatsby-perspexilabs-com.jpg
 ---
 
 

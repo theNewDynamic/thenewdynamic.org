@@ -1,6 +1,5 @@
 ---
-location: San Francisco, CA
-title: 'JAMstack San Francisco '
-website: http://www.staticwebtech.com/
+title: "JAMstack San Francisco "
+location: "San Francisco, CA"
+website: "http://www.staticwebtech.com/"
 ---
-

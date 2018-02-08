@@ -1,18 +1,16 @@
 ---
-address: 18 West 21st St, 8th Fl
-type:
-- event
-date: 2016-08-10T12:00:00Z
-description: Demo Forestry.io CMS and a short presentation on "convince your boss/client"
-link: null
-meetup: the-new-dynamic
+title: 'The New Dynamic NYC Meetup: Demo Forestry.io CMS for Jekyll and Hugo Static Sites'
 published: true
+date: 2016-08-10T12:00:00.000Z
+category: event
+meetup: the-new-dynamic
 start_at: 2016-09-08T19:00:00.000Z
-title: 'The New Dynamic NYC Meetup: Demo Forestry.io CMS for Jekyll and Hugo Static
-  Sites'
-url: /2016/08/10/the-new-dynamic-nyc-meetup-demo-forestry-io-cms-for-jekyll-and-hugo-static-sites/
 venue: Vector Media Group
+address: '18 West 21st St, 8th Fl'
+link:
+description: 'Demo Forestry.io CMS and a short presentation on "convince your boss/client"'
 ---
+
 
 Scott Gallant, co-founder of [Forestry.io](https://forestry.io/) will talk about the CMS he's creating for Jekyll and Hugo static site generators.
 

@@ -1,14 +1,12 @@
 ---
-date: 2016-09-01T00:00:00Z
-link: https://ayastreb.me/writing-a-jekyll-plugin/
+title: "Writing a Jekyll plugin – Developer's Notes"
 source: Anatoliy Yastreb
-title: Writing a Jekyll plugin – Developer's Notes
-tool:
-- jekyll
+date: 2016-09-01 11:09:00 +0000
+link: https://ayastreb.me/writing-a-jekyll-plugin/
 type: Tutorial
-url: /2016/09/01/Writing-a-Jekyll-plugin-Developer-s-Notes/
+tool:
+  - jekyll
 ---
-
 In this blog post I share my experience of building a Jekyll plugin.
 
 

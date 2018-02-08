@@ -1,12 +1,9 @@
 ---
-type:
-- article
-date: 2016-01-25T19:09:00Z
-description: Jekyll, Netlify, CloudCannon, job board coming soon
 title: The Next Iteration of The New Dynamic
-url: /2016/01/25/the-next-iteration-of-the-new-dynamic/
+date: 2016-01-25T19:09:00.000Z
+category: article
+description: "Jekyll, Netlify, CloudCannon, job board coming soon"
 ---
-
 Always a work in progress, I've switched the site back to Jekyll. [Jekyll 3.1](http://jekyllrb.com/news/2016/01/24/jekyll-3-1-0-released/) is a fast (**significantly** faster than 2.4) and capable beast, but as always, has its nuances, so I feel I need to spend some quality tinkering time with it.
 
 I had intended to host the site on S3 as I had originally done, provisioning my own ["Let's Encrypt"](https://letsencrypt.org/) TSL certificate, but when it came down to it, [Netlify](https://www.netlify.com/) is so fast and easy, not to mention their instant provisioning of "Let's Encrypt," that I couldn't resist. And, the Netflify gang is an important part of the nascent static community, such as it is, so hosting there seems quite natural.

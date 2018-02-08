@@ -1,13 +1,12 @@
 ---
-date: 2016-08-09T00:00:00Z
-link: http://guild.beach.io/t/static-cms-concept/103
-source: null
 title: Static CMS Concept at Forge
-tool:
-- null
+source:
+link: 'http://guild.beach.io/t/static-cms-concept/103'
 type: Article
-url: /2016/08/09/static-cms-concept-at-forge/
+tool:
+  -
 ---
+
 
 Steve Schofield has been exploring various content management concepts, including Content Management as a Service (CMaaS), and API-driven strategies at the Beach blog, "The Guild." [Beach](http://beach.io/) is the maker of the desktop static site generator app, [Hammer for Mac](http://hammerformac.com/), and the [Forge](https://getforge.com/) static hosting service.
 

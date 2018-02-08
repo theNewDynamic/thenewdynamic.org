@@ -1,18 +1,14 @@
 ---
-type:
-- article
-date: 2014-08-02T22:09:00Z
-excerpt: Here's the forward thinking Vox Media on their use of Middleman as part of
-  their publishing strategy
+title: "How Vox Media uses Static Site Generators"
+date: 2014-08-02T22:09:00.000Z
 posted_date: 2015-05-02T22:09:00.000Z
+category: article
 slug: how-vox-media-uses-static-site-generators
-source: null
-title: How Vox Media uses Static Site Generators
+source:
+excerpt: Here's the forward thinking Vox Media on their use of Middleman as part of their publishing strategy
 tool:
-- Middleman
-url: /2014/08/02/how-vox-media-uses-static-site-generators/
+  - Middleman
 ---
-
 I'm constantly on the lookout for sophisticated and interesting uses of static site generators. Here's the forward thinking Vox Media on their use of Middleman as part of their publishing strategy:
 
 > In a nutshell, our Editorial Apps system consists of a static [Middleman](http://middlemanapp.com/) site, which is populated from one or more Google Spreadsheets at build time (using our [middleman-google-drive](https://github.com/voxmedia/middleman-google_drive) extension, which we'll talk about in a future article), and then deployed to [Chorus](http://product.voxmedia.com/2012/5/6/5426772/all-together-now-introducing-the-vox-product-blog-and-chorus) by doing a git push and using git post-receive hooks, in a way not unlike deploying an app to [Heroku](https://www.heroku.com/).

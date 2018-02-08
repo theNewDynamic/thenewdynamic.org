@@ -3,16 +3,17 @@ title: Smashing Magazine
 date: 2017-03-16 12:00:00
 related_tools:
   - hugo
+  - algolia
   - netlify
   - netlify-cms
-website: 'https://next.smashingmagazine.com/'
+website: 'https://www.smashingmagazine.com/'
 repo:
 creator:
   - name:
     role:
     url:
     twitter_username:
-image_path: /uploads/showcase-smashing-mag.jpg
+image_path: /uploads/screenshot-smashing-mag-hugo.jpg
 ---
 From the blog post at [Netlify](https://www.netlify.com/blog/2017/03/16/smashing-magazine-just-got-10x-faster/) (we'll add more later):
 

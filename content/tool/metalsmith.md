@@ -1,7 +1,7 @@
 ---
 title: "Metalsmith"
 date: 2015-05-02T01:54:00.000Z
-featured: true
+featured: false
 tools:
   - static-site-generator
 urls:

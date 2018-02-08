@@ -1,18 +1,15 @@
 ---
-address: null
-type:
-- Article
-date: 2017-01-26T11:30:00Z
-description: null
-link: null
-meetup: null
-published: true
-start_at: null
 title: Interview with Eric Gardner, Getty Publications
-url: /2017/01/26/interview-with-eric-gardner-getty/
-venue: null
+published: true
+date: 2017-01-26 11:30:00
+category: Article
+meetup:
+start_at:
+venue:
+address:
+link:
+description:
 ---
-
 Following the publication of [the digital publishing workflow based on Git and Middleman of a publisher](http://blogs.getty.edu/iris/an-editors-view-of-digital-publishing/), [Antoine Fauchié](https://www.quaternum.net) asked a few questions to [Eric Gardner](http://egardner.github.io/), developer and designer in the [Digital Publishing team](http://www.getty.edu/publications/digital/index.html) at Getty Publications.
 
 ![Showcase Site Getty's Terracottas](https://thenewdynamic.imgix.net/getty-museum-ancient-terracottas-1600.jpg?w=900)

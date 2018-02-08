@@ -1,11 +1,15 @@
 ---
-date: 2016-08-10T00:00:00Z
-link: https://fadeit.dk/blog/2016/08/09/from-JSON-to-markdown/
+title: "We’ve gone static (again)"
 source: fadeit
-title: We’ve gone static (again)
-tool:
-- jekyll
+date: 2016-08-09 10:16:00 +0000
+link: https://fadeit.dk/blog/2016/08/09/from-JSON-to-markdown/
 type: Article
-url: /2016/08/10/We-ve-gone-static-again-fadeit-blog-development-and-design-articles-for-all-you-console-cowboys/
+tool:
+  - jekyll
 ---
+
+
+
+
+
 

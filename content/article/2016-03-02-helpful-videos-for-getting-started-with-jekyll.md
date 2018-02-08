@@ -1,13 +1,11 @@
 ---
-type:
-- essentials
-date: 2016-03-02T00:00:00Z
-subtitle: Introduction to static site generators and a new paradigm for building websites
-tags:
-- Static Site Generators
 title: Helpful Videos for Getting Started with Jekyll
-url: /2016/03/02/helpful-videos-for-getting-started-with-jekyll/
+subtitle: Introduction to static site generators and a new paradigm for building websites
+category: essentials
+tags:
+  - Static Site Generators
 ---
+
 
 Helpful Videos for Getting Started with Jekyll
 

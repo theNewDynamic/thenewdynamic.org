@@ -1,15 +1,13 @@
 ---
-date: 2016-08-21T00:00:00Z
-link: https://mademistakes.com/articles/jekyll-static-comments/
+title: "Going Static: Episode II — Attack of the Comments"
 source: Michael Rose
-title: 'Going Static: Episode II — Attack of the Comments'
-tool:
-- jekyll
-- staticman
+date: 2016-08-21 17:49:00 +0000
+link: https://mademistakes.com/articles/jekyll-static-comments/
 type: Tutorial
-url: /2016/08/21/going-Static-Episode-II-Attack-of-the-Comments-Made-Mistakes/
+tool:
+  - jekyll
+  - staticman
 ---
-
 Offloading comments to an external service like Disqus1 has always felt like a necessary evil to me when building Jekyll sites.
 
 

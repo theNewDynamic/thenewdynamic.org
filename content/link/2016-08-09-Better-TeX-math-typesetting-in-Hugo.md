@@ -1,11 +1,14 @@
 ---
-date: 2016-08-09T00:00:00Z
-link: http://latkin.org/blog/2016/08/07/better-tex-math-typesetting-in-hugo/
+title: "Better TeX math typesetting in Hugo"
 source: Lincoln
-title: Better TeX math typesetting in Hugo
-tool:
-- hugo
+date: 2016-08-07 20:10:00 +0000
+link: http://latkin.org/blog/2016/08/07/better-tex-math-typesetting-in-hugo/
 type: Tutorial
-url: /2016/08/09/Better-TeX-math-typesetting-in-Hugo/
+tool:
+  - hugo
 ---
+
+
+
+
 

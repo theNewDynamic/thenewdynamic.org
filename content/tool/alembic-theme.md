@@ -1,6 +1,5 @@
 ---
 title: 'Alembic Theme & Starter'
-draft: true
 date: 2016-10-24 00:00:00
 tools:
   - theme

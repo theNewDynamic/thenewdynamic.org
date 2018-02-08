@@ -1,7 +1,6 @@
 ---
+title: "Static Berlin"
+location: "Berlin, Germany"
+website: "http://www.meetup.com/StaticBerlin/"
 class: none
-location: Berlin, Germany
-title: Static Berlin
-website: http://www.meetup.com/StaticBerlin/
 ---
-

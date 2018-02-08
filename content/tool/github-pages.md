@@ -1,7 +1,7 @@
 ---
 title: "Github Pages"
 date: 2015-05-08T21:52:00.000Z
-featured: true
+featured: false
 tools:
   - hosting-deployment
 urls:

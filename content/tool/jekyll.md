@@ -10,7 +10,7 @@ urls:
   twitter:
 resources:
   - name: Jekyll Cheat Sheet
-    url: 'http://cheat.jekyll.tips/'
+    url: 'https://learn.cloudcannon.com/jekyll-cheat-sheet/'
   - name: Awesome Jekyll
     url: 'https://github.com/planetjekyll/awesome-jekyll'
   - name: Jekyll Now (great starter repo)

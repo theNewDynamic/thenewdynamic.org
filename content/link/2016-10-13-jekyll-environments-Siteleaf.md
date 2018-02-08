@@ -1,14 +1,12 @@
 ---
-date: 2016-10-13T00:00:00Z
-link: https://www.siteleaf.com/blog/jekyll-environments/
+title: "Jekyll environments"
 source: Siteleaf
-title: Jekyll environments
-tool:
-- jekyll
+date: 2016-10-13 20:35:00 +0000
+link: https://www.siteleaf.com/blog/jekyll-environments/
 type: Tutorial
-url: /2016/10/13/jekyll-environments-Siteleaf/
+tool:
+  - jekyll
 ---
-
 When working with Jekyll and Siteleaf, you typically have 3 distinct environments to help you code, preview, and publish your site:
 
 
