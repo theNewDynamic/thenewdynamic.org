@@ -3,7 +3,7 @@ const CleanWebpackPlugin = require("clean-webpack-plugin");
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
 const PurgecssPlugin = require("purgecss-webpack-plugin");
 
-const glob = require("glob");
+const glob = require("glob-all");
 const webpack = require("webpack");
 
 // const PATHS = {
@@ -79,9 +79,7 @@ module.exports = function(environment) {
       modules: [path.resolve(__dirname, "src"), "node_modules"]
     },
 
-    plugins: [
-      new CleanWebpackPlugin(pathsToClean, cleanOptions)
-    ]
+    plugins: [new CleanWebpackPlugin(pathsToClean, cleanOptions)]
   };
 
   switch (environment) {
@@ -106,22 +104,19 @@ module.exports = function(environment) {
           },
           allChunks: true
         }),
-
         new PurgecssPlugin({
-          paths: glob.sync(
-
-          path.join(__dirname, "src/layouts/*.html"),
-         // path.join(__dirname, "src/layouts/**/*.html")
-      ),
-      extractors: [
-        {
-          extractor: TailwindExtractor,
-          extensions: ["html", "js", "php", "vue"]
-        }
-      ]
-    })
-
-
+          paths: glob.sync([
+            path.join(__dirname, "src/layouts/*.html"),
+            path.join(__dirname, "src/layouts/**/*.html"),
+            path.join(__dirname, "src/layouts/partials/**/*.html")
+          ]),
+          extractors: [
+            {
+              extractor: TailwindExtractor,
+              extensions: ["html"]
+            }
+          ]
+        })
       );
       break;
     default:
