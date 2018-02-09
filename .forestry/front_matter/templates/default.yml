@@ -1,0 +1,18 @@
+---
+hide_body: false
+fields:
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: 
+- name: tags
+  label: Tags
+  type: text
+  hidden: false
+  default: 
+- name: images
+  label: Images
+  type: text
+  hidden: false
+  default: ''

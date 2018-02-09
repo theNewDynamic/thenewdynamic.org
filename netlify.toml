@@ -5,7 +5,7 @@ command = "hugo"
 [context.production.environment]
 HUGO_VERSION = "0.36"
 HUGO_ENV = "production"
-HUGO_ENABLEGITINFO = "true"
+#HUGO_ENABLEGITINFO = "true"
 
 [context.deploy-preview]
 command = "hugo -b $DEPLOY_PRIME_URL"
@@ -20,9 +20,6 @@ command = "hugo -b $DEPLOY_PRIME_URL"
 HUGO_VERSION = "0.36"
 
 
-# [context.production.environment]
-#   HUGO_VERSION = "0.36"
-#   HUGO_ENV = "production"
 
 # https://www.netlify.com/docs/continuous-deployment/#deploy-contexts
 # https://www.netlify.com/blog/2017/04/11/netlify-plus-hugo-0.20-and-beyond/

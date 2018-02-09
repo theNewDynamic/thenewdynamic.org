@@ -1,0 +1,67 @@
+languageCode: en-us
+title: the New Dynamic
+baseURL: 'https://www.thenewdynamic.org'
+MetaDataFormat: yaml
+layoutDir: src/layouts
+DefaultContentLanguage: en
+preserveTaxonomyNames: true
+Paginate: 300
+googleAnalytics: ''
+enableRobotsTXT: true
+sitemap:
+  changefreq: monthly
+  priority: 0.5
+  filename: sitemap.xml
+menu:
+  main:
+    - name: Articles & Videos
+      weight: 1
+      identifier: articles
+      url: /article/
+    - name: Links
+      weight: 10
+      identifier: Links
+      url: /Link/
+    - name: Tools Database
+      weight: 5
+      identifier: tools
+      url: /tool/
+    - name: Showcase
+      weight: 10
+      identifier: showcase
+      url: /showcase/
+    - name: Events
+      weight: 25
+      identifier: events
+      url: /event/
+    - name: Jobs
+      weight: 25
+      identifier: jobs
+      url: /jobs/
+  secondary:
+    - name: About
+      weight: 25
+      identifier: about
+      url: /about/
+    - name: Submit
+      weight: 25
+      identifier: submit
+      url: /submit/
+    - name: Privacy
+      weight: 25
+      identifier: privacy
+      url: /privacy/
+params:
+  logo: ''
+  subtitle: Build Faster Better Websites
+  body_classes: sans-serif
+  background_color_class: bg-near-white
+  description: 'Build Faster Better Websites with modern tools, services and techniques.'
+  meetup: 'https://www.meetup.com/JAMstack-nyc/'
+  twitter: 'https://twitter.com/thenewdynamic'
+  slack: >-
+    https://join.slack.com/thenewdynamic/shared_invite/MTk5NzMwNDExNzY3LTE0OTc2MTc5MzAtNWU0ODIzZDIwZg
+taxonomies:
+  tag: tags
+  tools: tools
+  series: series

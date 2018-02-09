@@ -1,0 +1,28 @@
+/*
+  X-Frame-Options: DENY
+  X-XSS-Protection: 1; mode=block
+  {{with $.Param "content-security-policy"}}  Content-Security-Policy: {{.}}{{end}}
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: no-referrer-when-downgrade
+
+/*
+  {{$stylesheet := readDir ( $.Param "dev.css_path" | default "/layouts-base/tnd-base-layouts/static/dist/css")}}{{$scripts := readDir  (.Site.Params.js_path | default "/layouts-base/tnd-base-layouts/static/dist/js")}}
+  {{range $stylesheet}}
+  Link: <{{- .Name  | add "/dist/css/" -}}>; rel=preload; as=style
+  {{end}}
+  {{range $scripts}}
+  Link: <{{- .Name  | add "/dist/js/" -}}>; rel=preload; as=script
+  {{end}}
+  #Link: <{{ "files/muli-latin-200.woff2" | relURL }}>; rel=preload; as=font
+  #Link: <{{ "files/muli-latin-400.woff2" | relURL }}>; rel=preload; as=font
+  #Link: <{{ "files/muli-latin-800.woff2" | relURL }}>; rel=preload; as=font
+
+  # Set a long cache expiry on asset urls
+  {{range $stylesheet}}
+  {{.Name  | add "/dist/css/"}}
+  Cache-Control: public, max-age=31556926
+  {{end }}
+  {{range $scripts}}
+  {{.Name  | add "/dist/js/"}}
+  Cache-Control: public, max-age=31556926
+  {{end}}

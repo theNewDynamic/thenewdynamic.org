@@ -1,0 +1,11 @@
+{{ $currentPage := . }}
+{{ $menu := .Site.Menus.main }}
+<ul class="dib hidden list ma0 ph0 scrolling-touch tc z-999">
+  {{ range $menu }}
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="{{.URL}}" class="brand-font db f6 hover-white hover-bg-primary-color-dark link ma0 overflow ph4 primary-color-light pv3 ttu w-100{{if $currentPage.IsMenuCurrent "main" . }} bg-primary-color{{end}}">
+          {{ .Name }}
+        </a>
+    </li>
+  {{end}}
+</ul>

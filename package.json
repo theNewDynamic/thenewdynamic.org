@@ -1,0 +1,34 @@
+{
+  "name": "gohugo-default-styles",
+  "version": "1.0.0",
+  "description": "Default Theme for Hugo Sites",
+  "main": "index.js",
+  "repository": "",
+  "author": "budparr",
+  "license": "MIT",
+  "scripts": {
+    "build:prod": "webpack --env=production -p",
+    "build:dev": "webpack --env=development --progress --colors --watch",
+    "hugo": "hugo server",
+    "start": "npm-run-parallel hugo build:dev"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "clean-webpack-plugin": "^0.1.18",
+    "css-loader": "^0.28.9",
+    "cssnano": "^3.10.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.6",
+    "npm-run-parallel": "^0.6.0",
+    "postcss": "^6.0.17",
+    "postcss-loader": "^2.1.0",
+    "style-loader": "^0.20.1",
+    "tachyons": "^4.9.1",
+    "tailwindcss": "^0.4.1",
+    "webpack": "^3.10.0",
+    "webpack-merge": "^4.1.1"
+  },
+  "dependencies": {}
+}

@@ -1,0 +1,27 @@
+<section class="bg-primary-color-dark fixed-l flex flex-column sidebar relative   shadow-2 b--light-gray overflow-hidden  top-0 h-100-l vh-100-l z-5 white">
+
+  <section role="banner">
+    {{ with .Site.Params.logo }}
+      <a class="db pt2 pt4-l tc center" href="/">
+        <img src="{{ . }}" alt="" class="w-25 w-50-l">
+      </a>
+    {{ end }}
+
+    <a class="f4 f3-l fw8 brand-font link primary-color-darkTK white dim db tc ph3 pb4 pb3-l pt4" href="{{ .Site.BaseURL }}">
+       {{ .Site.Title | markdownify  }}
+    </a>
+  </section>
+
+  <nav class="f6 mv3-l tracked w-100 overflow-auto dn db-l" role="navigation">
+    {{ partial "global/nav-links" . }}
+  </nav>
+
+  <div class="flex-auto"><!-- spacer --></div>
+
+
+
+  <div class="cf w-100 pl4 mb3 center dn db-l">
+    {{ partial "social-follow.html" . }}
+  </div>
+
+</section>

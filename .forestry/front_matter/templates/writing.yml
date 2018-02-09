@@ -1,0 +1,23 @@
+---
+hide_body: false
+fields:
+- name: date
+  label: Date
+  type: field_group
+  hidden: false
+  default: {}
+- name: category
+  label: Category
+  type: text
+  hidden: false
+  default: 
+- name: where_published
+  label: Where published
+  type: text
+  hidden: false
+  default: 
+- name: link_to_original
+  label: Link to original
+  type: text
+  hidden: false
+  default: 

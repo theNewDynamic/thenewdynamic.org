@@ -1,0 +1,15 @@
+<div class="globalmenu mobilemenu menu pb3 dn">
+    {{ partial "global/nav-links-mobile.html" . }}
+</div>
+<div class="sharemenu mobilemenu menu pb3 dn">
+    {{ partial "social-share-mobile.html" . }}
+</div>
+
+<div class="flex dn-l">
+{{ $button_classes := "flex-auto ba b--white-40 bg-primary-color-dark dib dn-l f7 hover-bg-primary-color link ml2 mt4-ns ph3 pv2 tc w-auto w-50 white"}}
+  <button class="js-toggle {{ $button_classes }}" data-target=".globalmenu">Menu</button>
+
+  <button class="js-toggle {{ $button_classes }}" data-target=".sharemenu">Share</button>
+
+
+</div>

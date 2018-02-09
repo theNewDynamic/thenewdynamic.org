@@ -1,0 +1,14 @@
+{{ partial "components/time.html" (dict "show_time" false "context" . ) }}
+<h1 class="lh-title">
+  <a href="{{ .URL }}" class="dim link primary-color-dark">
+    {{ .Title | markdownify }}
+  </a>
+</h1>
+
+{{ with .Params.images }}
+  <img src="{{ . }}" class="img center tc"/>
+{{ end }}
+
+<div class="nested-copy-line-height nested-links">
+  {{ .Content }}
+</div>

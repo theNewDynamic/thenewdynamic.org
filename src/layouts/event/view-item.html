@@ -1,0 +1,35 @@
+{{ partial "components/time.html" (dict "context" . ) }}
+<h1 class="lh-title">
+  <a href="{{ .URL }}" class="dim link primary-color-dark">
+    {{ .Title | markdownify }}
+  </a>
+</h1>
+
+{{ with .Params.images }}
+  <img src="{{ . }}" class="img center tc"/>
+{{ end }}
+
+<div class="f4 nested-copy-line-height nested-links">
+  {{ .Content }}
+</div>
+
+<div class="b--light-gray bt f6 mid-gray pt3 sans-serif">
+  {{- partial "events/venue.html" . -}}
+</div>
+
+
+  {{/*
+  ---
+  date: 2017-02-03 19:00:00
+  link: http://www.Harvard.com
+  show_time: true
+  title: Harvard Book Store
+  venue:
+    address: 1256 Massachusetts Ave
+    city: Cambridge
+    name: Harvard Bookstore
+    state: MA
+    zip: 2138
+  ---
+
+  Reading */}}

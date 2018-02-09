@@ -1,0 +1,31 @@
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width,minimum-scale=1">
+{{.Hugo.Generator}}
+{{if eq (getenv "HUGO_ENV") "production"}}
+  <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+{{ else }}
+  <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+{{ end }}
+
+{{$stylesheet := readDir ( $.Param "dev.css_path" | default "/static/dist/css")}}
+{{range $stylesheet}}
+  <link href='{{.Name  | add "/dist/css/" | relURL }}' rel='stylesheet' type="text/css" />
+{{end}}
+
+{{if .RSSLink}}
+  <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+  <link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />
+{{ end }}
+
+{{if eq (getenv "HUGO_ENV") "production"}}
+  {{ partial "head/google-analytics.html" . }}
+  {{/* NOTE: These Hugo Internal Templates can be found starting at https://github.com/spf13/hugo/blob/master/tpl/tplimpl/template_embedded.go#L158 */}}
+  {{- template "_internal/opengraph.html" . -}}
+  {{- template "_internal/google_news.html" . -}}
+  {{- template "_internal/schema.html" . -}}
+  {{- template "_internal/twitter_cards.html" . -}}
+
+{{ end }}

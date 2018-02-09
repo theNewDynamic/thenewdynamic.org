@@ -1,0 +1,119 @@
+---
+hide_body: false
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: subtitle
+  label: Subtitle
+  type: textarea
+  hidden: false
+  default: 
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: 
+- name: publication_date
+  label: Publication date
+  type: datetime
+  hidden: false
+  default: {}
+- name: publisher
+  label: Publisher
+  type: text
+  hidden: false
+  default: ''
+- name: editions_isbn
+  label: Editions isbn
+  type: field_group
+  fields:
+  - name: hardcover
+    label: Hardcover
+    type: text
+    hidden: false
+    default: ''
+  - name: paperback
+    label: Paperback
+    type: text
+    hidden: false
+    default: ''
+  - name: ebook
+    label: Ebook
+    type: text
+    hidden: false
+    default: ''
+  hidden: false
+  default: 
+- name: buy_links
+  label: Buy links
+  type: field_group
+  fields:
+  - name: Amazon
+    label: Amazon
+    type: text
+    hidden: false
+    default: ''
+  - name: Apple
+    label: Apple
+    type: text
+    hidden: false
+    default: ''
+  - name: Barnes-&-Noble
+    label: Barnes &amp;amp; noble
+    type: text
+    hidden: false
+    default: ''
+  - name: Books-a-Million
+    label: Books a million
+    type: text
+    hidden: false
+    default: ''
+  - name: Google-Play
+    label: Google play
+    type: text
+    hidden: false
+    default: ''
+  - name: Harper-Collins
+    label: Harper collins
+    type: text
+    hidden: false
+    default: ''
+  - name: Indiebound
+    label: Indiebound
+    type: text
+    hidden: false
+    default: ''
+  hidden: false
+  default: ''
+- name: images
+  label: Images
+  type: image_gallery
+  hidden: false
+  default: 
+- name: description
+  label: Description
+  type: text
+  hidden: false
+  default: 
+- type: field_group_list
+  name: external_links
+  label: External Links
+  fields:
+  - type: text
+    name: title
+    label: Title
+  - type: text
+    name: link
+    label: Link
+    description: e.g. https://www.example.com
+  - type: file
+    label: Image
+    name: image
+  - type: textarea
+    name: copy
+    label: Copy
+    config:
+      wysiwyg: ''

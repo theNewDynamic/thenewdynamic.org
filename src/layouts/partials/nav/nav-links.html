@@ -1,0 +1,41 @@
+{{$currentPage := .}}
+{{$listlinkClasses := "f6 link color-inherit hover-white dib db-l ma0 w-100-l pv3 ph4-l"}}
+<!-- TODO: Not getting ismenucurrent -->
+
+<ul class="list dib ph0 ma0 flex flex-wrap scrolling-touch justify-center tc">
+  {{ range .Site.Menus.main }}
+    <li  class="tl-l dib ma0 hover-bg-black w-50 w-100-l{{ if .HasChildren }} dont-display-child-until-click{{end}}">
+
+      {{ if .HasChildren }}
+        <a href="#{{ .Name | urlize }}" class="ttu {{ $listlinkClasses }}{{if $currentPage.IsMenuCurrent   "main" . }} o-50{{end}}">
+          {{ .Name }}
+          <img src="/images/ic_keyboard_arrow_down_white_24px.svg" alt="" class="static v-mid f6 ma0 pa0">
+        </a>
+        <ul id="{{ .Name | urlize}}" class="list pa0 ma0">
+          <li class="ma0 pl3 brand-font">
+            <a href="{{.URL}}" class="{{ $listlinkClasses }}{{if $currentPage.IsMenuCurrent "main" . }} o-50{{end}}">
+              {{ .Name }} Overview
+            </a>
+          </li>
+          {{ range .Children }}
+            <li class="ma0 pl3 brand-font{{if $currentPage.IsMenuCurrent "main" . }} o-50{{end}}">
+              <a href="{{.URL}}" class="{{ $listlinkClasses }}">
+                {{ .Name }}
+              </a>
+            </li>
+          {{ end }}
+        </ul>
+      {{ else }}
+        <a href="{{.URL}}" class="ttu {{ $listlinkClasses }}{{if $currentPage.IsMenuCurrent "main" . }} green{{end}}">
+          {{ .Name }}
+        </a>
+      {{end}}
+
+    </li>
+  {{end}}
+</ul>
+<style>
+.fb49 {
+  flex-basis: 49%;
+}
+</style>

@@ -1,0 +1,24 @@
+
+<div class="w-100 cover bg-top relative">
+
+    <div class="min-vh-80 pb4">
+      {{ partial "global/header.html" . }}
+      <div class=" ph3 ph5-ns"> {{/* absolute bottom-0 right-0 mb4 mr4 */}}
+
+        <h1 class="f1 f-headline-l primary-color-dark mb1 measure lh-title fw6 font-family-brand">
+          {{ .Title }}
+        </h1>
+
+        <div class="serif">
+          <p class="lh-copy f3 f3-m f2-l measure pb2 black-70">
+            {{ .Params.description  }}
+          </p>
+        </div>
+
+        {{ partial "components/menu-contextual.html" . }}
+
+
+      </div>
+
+  </div>
+</div>
