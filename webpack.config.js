@@ -1,7 +1,14 @@
 const path = require("path");
 const CleanWebpackPlugin = require("clean-webpack-plugin");
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
+const PurgecssPlugin = require("purgecss-webpack-plugin");
+
+const glob = require("glob");
 const webpack = require("webpack");
+
+// const PATHS = {
+//   src: path.join(__dirname, "public")
+// };
 
 // the path(s) that should be cleaned
 let pathsToClean = ["./static/dist"];
@@ -12,7 +19,16 @@ let cleanOptions = {
   dry: false,
   allowExternal: true
 };
-
+/**
+ * Custom PurgeCSS Extractor
+ * https://github.com/FullHuman/purgecss
+ * https://github.com/FullHuman/purgecss-webpack-plugin
+ */
+class TailwindExtractor {
+  static extract(content) {
+    return content.match(/[A-z0-9-:\/]+/g);
+  }
+}
 module.exports = function(environment) {
   var CONFIG = {
     entry: {
@@ -36,7 +52,19 @@ module.exports = function(environment) {
           use: ExtractTextPlugin.extract({
             fallback: "style-loader",
             use: [
-              { loader: "css-loader", options: { importLoaders: 1 } },
+              {
+                loader: "css-loader",
+                options: {
+                  importLoaders: 1,
+                  minimize: true || {
+                    discardComments: {
+                      removeAll: true
+                    },
+                    minifyFontValues: false,
+                    autoprefixer: false
+                  }
+                }
+              },
               "postcss-loader"
             ]
           })
@@ -45,7 +73,6 @@ module.exports = function(environment) {
     },
     output: {
       path: path.join(__dirname, "./static/dist/")
-      // filename: 'js/[name].bundle.[hash].js',
     },
 
     resolve: {
@@ -54,7 +81,6 @@ module.exports = function(environment) {
 
     plugins: [
       new CleanWebpackPlugin(pathsToClean, cleanOptions)
-      // new ExtractTextPlugin({filename:  (getPath) => {return getPath('css/[name].[contenthash].css');},allChunks: true})
     ]
   };
 
@@ -79,7 +105,23 @@ module.exports = function(environment) {
             return getPath("css/[name].[contenthash].css");
           },
           allChunks: true
-        })
+        }),
+
+        new PurgecssPlugin({
+          paths: glob.sync(
+
+          path.join(__dirname, "src/layouts/*.html"),
+         // path.join(__dirname, "src/layouts/**/*.html")
+      ),
+      extractors: [
+        {
+          extractor: TailwindExtractor,
+          extensions: ["html", "js", "php", "vue"]
+        }
+      ]
+    })
+
+
       );
       break;
     default:

@@ -24,6 +24,7 @@
     "npm-run-parallel": "^0.6.0",
     "postcss": "^6.0.17",
     "postcss-loader": "^2.1.0",
+    "purgecss-webpack-plugin": "^0.20.0",
     "style-loader": "^0.20.1",
     "tachyons": "^4.9.1",
     "tailwindcss": "^0.4.1",
