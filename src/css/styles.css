@@ -1,6 +1,4 @@
+@import "_fonts";
 @tailwind preflight;
 
 @tailwind utilities;
-.bud {
-  color: black;
-}

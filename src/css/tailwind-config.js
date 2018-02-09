@@ -46,6 +46,20 @@ View the full documentation at https://tailwindcss.com.
 let colors = {
   'transparent': 'transparent',
 
+
+  'primary-color':        '#8c1613',
+  //'primary-color-dark':   ,
+  //'primary-color-light':  ,
+  //'accent-color':         ,
+  //'accent-color-light':   ,
+  //'accent-color-dark':    ,
+  'text-color-primary':   '#373737',
+  //'text-on-primary-color': ,
+  //'text-color-secondary': ,
+  //'text-color-disabled':  ,
+  //'divider-color':        ,
+  //'warn-color': var(--dark-red);
+
   'black': '#22292f',
   'grey-darkest': '#3d4852',
   'grey-darker': '#606f7b',
@@ -194,6 +208,9 @@ module.exports = {
 
   fonts: {
     'sans': [
+      'Avenir Next W00',
+      'Avenir Next',
+      'Avenir',      
       'system-ui',
       'BlinkMacSystemFont',
       '-apple-system',
@@ -207,18 +224,19 @@ module.exports = {
       'Helvetica Neue',
       'sans-serif',
     ],
-    'serif': [
-      'Constantia',
-      'Lucida Bright',
-      'Lucidabright',
-      'Lucida Serif',
-      'Lucida',
-      'DejaVu Serif',
-      'Bitstream Vera Serif',
-      'Liberation Serif',
-      'Georgia',
-      'serif',
-    ]
+    // ,
+    // 'serif': [
+    //   'Constantia',
+    //   'Lucida Bright',
+    //   'Lucidabright',
+    //   'Lucida Serif',
+    //   'Lucida',
+    //   'DejaVu Serif',
+    //   'Bitstream Vera Serif',
+    //   'Liberation Serif',
+    //   'Georgia',
+    //   'serif',
+    // ],
     // ,
     // 'mono': [
     //   'Menlo',
@@ -228,6 +246,22 @@ module.exports = {
     //   'Courier New',
     //   'monospace',
     // ]
+    'brand':[
+      'URW Franklin Gothic W01',
+      'Franklin Gothic',
+      'system-ui',
+      'BlinkMacSystemFont',
+      '-apple-system',
+      'Segoe UI',
+      'Roboto',
+      'Oxygen',
+      'Ubuntu',
+      'Cantarell',
+      'Fira Sans',
+      'Droid Sans',
+      'Helvetica Neue',
+      'sans-serif',
+    ]
   },
 
 

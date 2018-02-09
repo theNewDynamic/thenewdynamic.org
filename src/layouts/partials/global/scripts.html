@@ -1,14 +1,7 @@
-<script src="{{ "dist/app.bundle.js" | absURL }}" async defer></script>
+{{$scripts := readDir ( $.Param "dev.js_path" | default "/static/dist/js")}}
 
-  <script>
-    document.body.onkeyup = function(e){
-
-      {{ if .PrevInSection }}
-        if (e.keyCode == '37') { window.location = '{{ .PrevInSection.Permalink }}'; }
-      {{ end }}
-      {{ if .NextInSection }}
-        if (e.keyCode == '39') { window.location = '{{.NextInSection.Permalink }}'; }
-      {{ end }}
-    };
-
-  </script>
+{{with $scripts}}
+  {{range .}}
+    <script src='{{.Name  | add "/dist/js/" | absURL }}'async defer></script>
+  {{end}}
+{{end}}

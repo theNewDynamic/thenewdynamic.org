@@ -64,6 +64,10 @@ module.exports = function(environment) {
               "postcss-loader"
             ]
           })
+        },
+        {
+          test: /\.(woff|woff2|eot|ttf|otf|svg)$/,
+          use: ["file-loader"]
         }
       ]
     },
@@ -101,7 +105,7 @@ module.exports = function(environment) {
           allChunks: true
         }),
         new PurgecssPlugin({
-          whitelist: ['body', '.whitelisted-class'],
+          whitelist: ["body", ".whitelisted-class"],
           paths: glob.sync([
             path.join(__dirname, "src/layouts/*.html"),
             path.join(__dirname, "src/layouts/**/*.html"),
