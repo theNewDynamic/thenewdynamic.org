@@ -6,10 +6,6 @@ const PurgecssPlugin = require("purgecss-webpack-plugin");
 const glob = require("glob-all");
 const webpack = require("webpack");
 
-// const PATHS = {
-//   src: path.join(__dirname, "public")
-// };
-
 // the path(s) that should be cleaned
 let pathsToClean = ["./static/dist"];
 // the clean options to use
