@@ -10,7 +10,7 @@
   <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
 {{ end }}
 
-{{$stylesheet := readDir ( $.Param "dev.css_path" | default "./static/dist/css")}}
+{{$stylesheet := readDir ( $.Param "dev.css_path" | default "/static/dist/css")}}
 {{range $stylesheet}}
   <link href='{{.Name  | add "/dist/css/" | relURL }}' rel='stylesheet' type="text/css" />
 {{end}}
