@@ -101,6 +101,7 @@ module.exports = function(environment) {
           allChunks: true
         }),
         new PurgecssPlugin({
+          whitelist: ['body', '.whitelisted-class'],
           paths: glob.sync([
             path.join(__dirname, "src/layouts/*.html"),
             path.join(__dirname, "src/layouts/**/*.html"),
