@@ -54,7 +54,7 @@ menu:
 params:
   logo: ''
   subtitle: Build Faster Better Websites
-  body_classes: font-sans
+  body_classes: "font-sans bg-near-white border-solid border-t-4 border-primary-color"
   background_color_class: bg-near-white
   description: 'Build Faster Better Websites with modern tools, services and techniques.'
   meetup: 'https://www.meetup.com/JAMstack-nyc/'
@@ -65,3 +65,10 @@ taxonomies:
   tag: tags
   tools: tools
   series: series
+
+related:
+  includeNewer: true
+  indices:
+    - name: tool
+      toLower: true
+      weight: 100

@@ -1,15 +1,25 @@
-<div class="pa3">
-  {{ range .Params.tags }}
-    <div class="f7 lh-title">
-      <a href="">{{ . | humanize | title }}</a>
+<div>
+  <div class="bg-grey-light px-3 py-2 text-xs">
+    {{- with .Params.tools -}}
+      {{- range first 1 . -}}
+        {{- . -}}
+      {{- end -}}
+    {{- end -}}
+    {{$links := where .Site.RegularPages ".Section" "links"}}
+
+
+    {{$related_links := $links.RelatedTo (keyVals "tool" .File.TranslationBaseName)}}
+    {{$related_links | len}}
+
+  </div>
+  <div class="p-3">
+    <h1 class="text-lg near-black">
+      <a href="{{ .URL }}" class="no-underline text-black dim">
+        {{- .Title -}}
+      </a>
+    </h1>
+    <div class="nested-links text-base no-underline leading-normal nested-copy-line-height">
+      {{- .Params.description -}}
     </div>
-  {{ end }}
-  <h1 class="f4 near-black">
-    <a href="{{ .URL }}" class="link black dim">
-      {{ .Title }}
-    </a>
-  </h1>
-  <div class="nested-links f6 lh-copy nested-copy-line-height">
-    {{ .Params.description  }}
   </div>
 </div>

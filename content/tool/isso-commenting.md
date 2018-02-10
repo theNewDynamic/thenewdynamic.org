@@ -1,7 +1,8 @@
 ---
 title: Isso
 date: 2017-02-24
-tools: interaction
+tools:
+ - interaction
 urls:
   website: https://posativ.org/isso/
   github:

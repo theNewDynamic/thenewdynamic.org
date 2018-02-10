@@ -1,7 +1,8 @@
 ---
 title: Remarkbox
 date: 2017-10-22
-tools: interaction
+tools:
+  - interaction
 tags: ["commercial"]
 urls:
   website: https://www.remarkbox.com/
