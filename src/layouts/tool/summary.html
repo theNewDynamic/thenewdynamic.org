@@ -5,11 +5,12 @@
         {{- . -}}
       {{- end -}}
     {{- end -}}
-    {{$links := where .Site.RegularPages ".Section" "links"}}
 
-
+    {{$links := where .Site.RegularPages ".Section" "link"}}
     {{$related_links := $links.RelatedTo (keyVals "tool" .File.TranslationBaseName)}}
-    {{$related_links | len}}
+    {{if ge ($related_links | len) 1}}
+      {{$related_links | len}}
+    {{end}}
 
   </div>
   <div class="p-3">

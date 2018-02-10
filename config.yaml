@@ -8,6 +8,7 @@ preserveTaxonomyNames: true
 Paginate: 300
 googleAnalytics: ''
 enableRobotsTXT: true
+disableLiveReload: true
 sitemap:
   changefreq: monthly
   priority: 0.5

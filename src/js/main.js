@@ -1,4 +1,7 @@
 import styles from './../css/styles.css';
 
 
-// import './mtiFontTrackingCode.js'
+import './lazysizes.js'
+import './listjs.js';
+import './turbolinks.js';
+import './nojs.js'

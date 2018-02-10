@@ -2,6 +2,6 @@
 
 {{with $scripts}}
   {{range .}}
-    <script src='{{.Name  | add "/dist/js/" | absURL }}'async defer></script>
+    <script src='{{.Name  | add "/dist/js/" | absURL }}' defer></script>
   {{end}}
 {{end}}
