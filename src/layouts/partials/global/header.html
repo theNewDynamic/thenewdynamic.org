@@ -4,7 +4,7 @@
   <div class="pb3 ">
     {{ partial "global/navigation.html" . }}
     <div class="py-3 px-3 lg:px-4 bg-grey-light">
-      <h1 class="dib-ns f1 lh-title light-silver ma0">
+      <h1 class="dib-ns text-4xl lh-title text-grey-dark ma0">
         {{/* {{ humanize .Section  | default .Title }} */}}
         {{ range .Site.Menus.main }}
           {{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}
@@ -14,7 +14,7 @@
       </span>
       </h1>
       {{ with .Params.description }}
-        <h2 class="dib-ns f4-l f5 lh-copy near-black measure-wide-l pl4">
+        <h2 class="dib-ns text-lg lh-copy text-grey-darker measure-wide-l pl4">
           {{ . }}
         </h2>
       {{ end }}

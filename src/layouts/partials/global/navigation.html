@@ -4,11 +4,11 @@
 
     <div>
       <h1 class="font-brand inline-block p-0 mb-2 lg:mb-3 lg:mr-3">
-        <a href="{{ .Site.BaseURL }}" class="dim  text-3xl no-underline text-primary-color">
+        <a href="{{ .Site.BaseURL }}" class="hover:text-black text-3xl no-underline text-primary-color">
           {{ .Site.Title }}
         </a>
       </h1>
-      <div class="lg:inline-block text-sm font-thin text-primary-color">
+      <div class="lg:inline-block text-sm font-thinTK text-primary-color">
         {{- .Site.Params.subtitle }}
       </div>
     </div>
@@ -18,7 +18,7 @@
       <ul class="p-0 mt-4 md:mt-0">
         {{ range .Site.Menus.main }}
         <li class="inline-block text-lg h-full mb-3 sm:mb-0">
-          <a class="text-sm hover:text-white no-underline text-grey-dark pointer pr-4 py-4{{if $currentPage.IsMenuCurrent "main" . }} white{{ end}}" href="{{ .URL }}" title="{{ .Name }} page">
+          <a class="text-sm hover:text-black no-underline pointer pr-4 py-4{{if $currentPage.IsMenuCurrent "main" . }} text-primary-color{{else}} text-grey-dark{{ end}}" href="{{ .URL }}" title="{{ .Name }} page">
             {{ .Name }}
           </a>
         </li>
@@ -26,7 +26,7 @@
       </ul>
     {{ end }}
 
-    <div class="flex flex-wrap items-center">
+    <div class="hidden lg:flex flex-wrap items-center">
       {{ partial "social-follow.html" . }}
     </div>
 
