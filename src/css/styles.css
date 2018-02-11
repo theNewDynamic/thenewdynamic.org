@@ -21,3 +21,54 @@
 .youtube:hover, .meetup:hover {
   color: #bb0000;
 }
+
+.turbolinks-progress-bar {
+  height: 5px;
+  background-color: green;
+}
+
+@supports (display: grid) {
+  .dg {
+    display: grid
+  }
+
+  .g-gap-10 {
+    grid-gap: 1rem;
+  }
+
+  .g-columns-100 {
+    /*grid-template-columns: 100px;*/
+    /*grid-template-columns: repeat(6, 200px);*/
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr) ) ;
+  }
+
+
+
+  .wrapper {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+               "....... header  header"
+                             "content content sidebar";
+
+    }
+
+
+    .sidebar {
+      grid-area: sidebar;
+    }
+
+    .content {
+      grid-area: content;
+    }
+    .header {
+      grid-area: header;
+    }
+
+
+
+
+
+}

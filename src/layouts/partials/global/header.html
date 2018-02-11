@@ -5,12 +5,20 @@
     {{- partial "global/navigation.html" . -}}
     <div class="py-4 px-3 lg:px-4 bg-grey-light">
       <h1 class="dib-ns text-4xl lh-title text-grey-dark ma0">
-        {{/* {{ humanize .Section  | default .Title }} */}}
-        {{- range .Site.Menus.main -}}
-          {{- if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) -}}
-            {{- .Name -}}
-          {{- end -}}
+      
+      {{/* {{- range .Site.Menus.main -}}
+        {{- if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) -}}
+          {{- .Name -}}
+          dd{{$.Scratch.Set "inMenu" true}}
+          [{{$.Scratch.Get "inMenu"}}]
+        {{else}}
+          {{$.Scratch.Set "inMenu" false}}
+        ({{$.Scratch.Get "inMenu"}})
         {{- end -}}
+      {{- end -}}
+
+      {{if eq ($.Scratch.Get "inMenu") false }}(({{ $.Title }})){{end}} */}}
+      {{ $.Title }}
       </span>
       </h1>
       {{- with .Params.description -}}

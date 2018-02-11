@@ -17,7 +17,7 @@
       <ul class="p-0 mt-4 md:mt-0">
         {{- range .Site.Menus.main -}}
         <li class="inline-block text-lg h-full mb-3 sm:mb-0">
-          <a class="font-brand text-sm hover:text-black no-underline pointer pr-4 py-4{{if $currentPage.IsMenuCurrent "main" . }} text-primary-color{{else}} text-grey-dark{{ end}}" href="{{ .URL }}" title="{{ .Name }} page">
+          <a class="font-sans text-sm hover:text-black no-underline pointer pr-4 py-4{{if $currentPage.IsMenuCurrent "main" . }} text-primary-color{{else}} text-grey-dark{{ end}}" href="{{ .URL }}" title="{{ .Name }} page">
             {{- .Name -}}
           </a>
         </li>
