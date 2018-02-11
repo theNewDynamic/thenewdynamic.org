@@ -1,7 +1,0 @@
-{{$scripts := readDir ( $.Param "dev.js_path" | default "/static/dist/js")}}
-
-{{with $scripts}}
-  {{range .}}
-    <script src='{{.Name  | add "/dist/js/" | absURL }}' defer></script>
-  {{end}}
-{{end}}

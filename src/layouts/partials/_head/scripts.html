@@ -1,3 +1,12 @@
+{{$scripts := readDir ( $.Param "dev.js_path" | default "/static/dist/js")}}
+
+{{with $scripts}}
+  {{range .}}
+    <script src='{{.Name  | add "/dist/js/" | absURL }}' defer></script>
+  {{end}}
+{{end}}
+
+
 <script type="text/javascript">
 var MTIProjectId='0279604d-1ddd-4c0d-b491-eff8ca0e76df';
  (function() {
