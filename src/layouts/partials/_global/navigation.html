@@ -4,11 +4,11 @@
 
     <div>
       <h1 class="font-brand inline-block p-0 mb-2 lg:mb-3 lg:mr-3">
-        <a href="/" class="hover:text-black text-3xl no-underline text-white">
+        <a href="/" class="hover:text-grey text-3xl no-underline text-white">
           {{- .Site.Title -}}
         </a>
       </h1>
-      <div class="lg:inline-block text-sm font-thinTK text-grey-lighter">
+      <div class="font-brand tracking-wide lg:inline-block text-sm font-bold text-grey-lighter">
         {{- .Site.Params.subtitle -}}
       </div>
     </div>
@@ -17,7 +17,7 @@
       <ul class="p-0 mt-4 md:mt-0">
         {{- range .Site.Menus.main -}}
         <li class="inline-block text-lg h-full mb-3 sm:mb-0">
-          <a class="font-sans text-sm hover:text-black no-underline pointer pr-4 py-4{{if $currentPage.IsMenuCurrent "main" . }} text-grey{{else}} text-grey-lighter{{ end}}" href="{{ .URL }}" title="{{ .Name }} page">
+          <a class="font-sans text-sm hover:text-grey no-underline pointer pr-4 py-4{{if $currentPage.IsMenuCurrent "main" . }} text-grey{{else}} text-grey-lighter{{ end}}" href="{{ .URL }}" title="{{ .Name }} page">
             {{- .Name -}}
           </a>
         </li>

@@ -58,7 +58,7 @@ menu:
 params:
   background_color_class: bg-near-white
   body_classes: "font-sans bg-near-white border-solid border-t-4 border-primary-color"
-  description: "Build Faster Better Websites with modern tools, services and techniques."
+  description: "Build Faster Better Websites with modern tools and techniques"
   logo: ""
   social:
     meetup: "https://www.meetup.com/JAMstack-nyc/"

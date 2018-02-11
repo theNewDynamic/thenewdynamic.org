@@ -1,29 +1,40 @@
-<footer class="bg-light-gray bottom-0 w-100 pa4" role="contentinfo">
-  <div class="flex items-center">
-  <a class="f6 fw4 hover-white  link gray pv2 ph3" href="{{ .Site.BaseURL }}" >
-    &copy; {{ now.Format "2006" }} {{ .Site.Title }}
-  </a>
+<footer class="bg-grey-lighter w-100 mt-8 py-8 px-2" role="contentinfo">
+  <div class="flex justify-around items-center py-8 px-8">
+    {{template "description" .}}
+    {{template "menu" .}}
+    {{template "follow" .}}
+  </div>
+    <a class="block text-xs fw4 hover-white  no-underline text-grey-dark py-2 mt-8" href="{{ .Site.BaseURL }}" >
+      &copy; {{ now.Format "2006" }} {{ .Site.Title }}
+    </a>
+</footer>
 
-  {{ if .Site.Menus.secondary }}
-    <ul class="pa0 ml6">
-      {{ range .Site.Menus.secondary }}
-      <li class="f2 list mb3">
-        <a class="dim link gray pointer" href="{{ .URL }}" title="{{ .Name }} page">
-          {{ .Name }}
+
+{{define "description"}}
+  <p class="font-brand text-4xl lh-copy grey-dark mb-4 max-w-sm">
+    {{- .Site.Params.description -}}
+  </p>
+{{end}}
+
+{{define "menu"}}
+  {{with .Site.Menus.secondary}}
+    <ul class="list-reset text-left">
+      {{range .}}
+      <li class="text-4xl list mb-3">
+        <a class="no-underline text-grey hover:text-black" href="{{ .URL }}" title="{{ .Name }} page">
+          {{.Name}}
         </a>
       </li>
-      {{ end }}
+      {{end}}
     </ul>
-  {{ end }}
+  {{end}}
+{{end}}
 
-  <div class="ml7-l">
-    <p class="lh-copy gray mb4 measure">{{ .Site.Params.description  }}</p>
-
-      <a href="http://newsletter.thenewdynamic.org/" class="b--light-gray ba br2 db f4 fw8 bg-red link ph3 pv2 tc white">Get our Weekly Newsletter</a>
-
+{{define "follow"}}
+  <div>
+    <div class="inline-block hidden lg:flex flex-wrap items-center">
+      {{- partial "social-follow.html" . -}}
+    </div>
+    <a href="http://newsletter.thenewdynamic.org/" class="border-grey-lighter center hover:opacity-75 border rounded inline-block text-base bold bg-primary-color no-underline px-3 py-2 text-center text-white text-lg text-bold">Get our Weekly Newsletter</a>
   </div>
-
-
-
-  </div>
-</footer>
+{{end}}
