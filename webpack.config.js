@@ -71,7 +71,13 @@ module.exports = function(environment) {
             {
               loader: "file-loader",
               options: {
-                outputPath: "Fonts/"
+                //name: ".Fonts/[name].[ext]",
+                 //name: 'fonts/[name].[ext]',
+                 //prefix: 'Fonts',
+                 //context: '/dist/',
+                 //publicPath: 'dist/',
+                 useRelativePath: false,
+                 outputPath: "/Fonts/"
               }
             }
           ]

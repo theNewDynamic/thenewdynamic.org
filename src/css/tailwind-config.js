@@ -210,7 +210,7 @@ module.exports = {
     'sans': [
       'Avenir Next W00',
       'Avenir Next',
-      'Avenir',      
+      'Avenir',
       'system-ui',
       'BlinkMacSystemFont',
       '-apple-system',
@@ -248,7 +248,7 @@ module.exports = {
     // ]
     'brand':[
       'URW Franklin Gothic W01',
-      'Franklin Gothic',
+      'URW Franklin Gothic',
       'system-ui',
       'BlinkMacSystemFont',
       '-apple-system',

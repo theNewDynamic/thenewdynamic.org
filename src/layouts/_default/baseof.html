@@ -6,13 +6,13 @@
     {{ block "scripts" . }}{{ partial "global/scripts.html" . }}{{ end }}
     {{- partial "head/additions.html" . -}}
   </head>
-  <body class="ma0{{ with .Site.Params.body_classes }} {{ . }}{{ end }}{{ with getenv "HUGO_ENV" }} {{ . }}{{ end }}">
+  <body class="ma0 font-sans bg-near-white border-solid border-t-4 border-primary-color{{ with getenv "HUGO_ENV" }} {{ . }}{{ end }}">
     {{ block "header" . }}{{ partial "global/header.html" .}}{{ end }}
     <div class="content">
       <main role="main">
         {{ block "main" . }}{{ end }}
       </main>
       {{ block "footer" . }}{{ partial "global/footer.html" . }}{{ end }}
-    </div>    
+    </div>
   </body>
 </html>
