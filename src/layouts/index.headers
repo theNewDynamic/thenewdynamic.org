@@ -6,16 +6,20 @@
   Referrer-Policy: no-referrer-when-downgrade
 
 /*
-  {{$stylesheet := readDir ( $.Param "dev.css_path" | default "/layouts-base/tnd-base-layouts/static/dist/css")}}{{$scripts := readDir  (.Site.Params.js_path | default "/layouts-base/tnd-base-layouts/static/dist/js")}}
+  {{$stylesheet := readDir ( $.Param "dev.css_path" | default "/static/dist/css")}}
+  {{$scripts := readDir  ($.Param "dev.js_path"| default "/static/dist/js")}}
+  {{$fonts := readDir  ($.Param "dev.fonts_path"| default "/static/dist/Fonts")}}
+
   {{range $stylesheet}}
   Link: <{{- .Name  | add "/dist/css/" -}}>; rel=preload; as=style
   {{end}}
   {{range $scripts}}
   Link: <{{- .Name  | add "/dist/js/" -}}>; rel=preload; as=script
   {{end}}
-  #Link: <{{ "files/muli-latin-200.woff2" | relURL }}>; rel=preload; as=font
-  #Link: <{{ "files/muli-latin-400.woff2" | relURL }}>; rel=preload; as=font
-  #Link: <{{ "files/muli-latin-800.woff2" | relURL }}>; rel=preload; as=font
+
+  {{range $fonts}}
+  Link: <{{ .Name  | add "/dist/Fonts/" | relURL }}>; rel=preload; as=font
+  {{end}}
 
   # Set a long cache expiry on asset urls
   {{range $stylesheet}}
