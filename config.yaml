@@ -25,6 +25,11 @@ menu:
       url: /tool/
       weight: 5
     -
+      identifier: community
+      name: Community
+      url: /community/
+      weight: 20
+    -
       identifier: showcase
       name: Showcase
       url: /showcase/
@@ -83,3 +88,25 @@ taxonomies:
   tag: tags
   tools: tools
 title: "the New Dynamic"
+#special Output formats
+outputs:
+  home:
+    - HTML
+    - HEADERS
+    - REDIR
+    - JSON
+mediaTypes:
+  text/netlify:
+    suffix: ''
+    delimiter: ''
+outputFormats:
+  REDIR:
+    baseName: _redirects
+    isPlainText: true
+    mediatype: text/netlify
+    notAlternative: true
+  HEADERS:
+    mediatype: text/netlify
+    baseName: _headers
+    isPlainText: true
+    notAlternative: true
