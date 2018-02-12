@@ -1,11 +1,11 @@
 {{ define "main" }}
 
 
-  <article class="center nested-copy-line-height nested-img mw8 p-3 md:p-4">
+  <article class="center nested-copy-line-height nested-img mw8 p-4 md:p-4">
     {{ partial "_components/content.html" .}}
     <div class="wrapper">
       {{template "toolsSection" .}}
-      {{/* {{ partial "tools/sidebar.html" . }} */}}
+      {{ partial "tools/sidebar.html" . }}
     </div>
     {{/* {{ template "_internal/pagination.html" . }} */}}
   </article>
