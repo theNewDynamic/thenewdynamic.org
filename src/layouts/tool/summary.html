@@ -1,15 +1,20 @@
+{{$taxonomy := index (.Params.tools) 0}}
+{{$category := .Site.GetPage "taxonomy" "tools" $taxonomy }}
+
 <div>
-  <div class="bg-grey-light px-3 py-2 text-xs">
-    {{- with .Params.tools -}}
-      {{- range first 1 . -}}
-        {{- . -}}
-      {{- end -}}
-    {{- end -}}
+  <div class="bg-grey-light flex justify-between px-3 py-2 text-xs text-white" style="background-color:{{$category.Params.color}};">
+
+    <h2 class="text-sm">
+      {{- $category.Title -}}
+    </h2>
 
     {{$links := where .Site.RegularPages ".Section" "link"}}
     {{$related_links := $links.RelatedTo (keyVals "tool" .File.TranslationBaseName)}}
-    {{if ge ($related_links | len) 1}}
-      {{$related_links | len}}
+    {{$related_links_count := $related_links | len}}
+    {{if ge $related_links_count 1}}
+      <div class="inline-block text-grey-light">
+        {{ $related_links | len }} article{{if gt $related_links_count 1}}s{{end}}
+      </div>
     {{end}}
 
   </div>
@@ -19,7 +24,7 @@
         {{- .Title -}}
       </a>
     </h1>
-    <div class="nested-links text-base no-underline leading-normal nested-copy-line-height">
+    <div class="nested-links text-sm no-underline leading-normal nested-copy-line-height">
       {{- .Params.description -}}
     </div>
   </div>
