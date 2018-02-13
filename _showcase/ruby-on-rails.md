@@ -12,7 +12,7 @@ creator:
     url: https://basecamp.com/
     twitter_username: basecamp
 image_path: /uploads/showcase/ruby-on-rails.png
-images:
+image:
   - /uploads/showcase/ruby-on-rails.png
 ---
 
