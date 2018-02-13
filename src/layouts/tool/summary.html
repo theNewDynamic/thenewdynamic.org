@@ -1,12 +1,13 @@
 {{$taxonomy := index (.Params.tools) 0}}
 {{$category := .Site.GetPage "taxonomy" "tools" $taxonomy }}
 
-<div>
+<div class="">
   <div class="bg-grey-light flex justify-between px-3 py-2 text-xs text-white" style="background-color:{{$category.Params.color}};">
-
+  {{with $category}}
     <h2 class="text-sm">
-      {{- $category.Title -}}
+      {{- .Title -}}
     </h2>
+  {{end}}
 
     {{$links := where .Site.RegularPages ".Section" "link"}}
     {{$related_links := $links.RelatedTo (keyVals "tool" .File.TranslationBaseName)}}

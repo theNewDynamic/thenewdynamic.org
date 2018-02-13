@@ -5,20 +5,11 @@
     {{- partial "_global/navigation.html" . -}}
     <div class="pb-6 pt-4  px-3 lg:px-4 bg-grey-lighter">
       <h1 class="font-brand dib-ns text-4xl lh-title text-grey-dark ma0">
-
-      {{/* {{- range .Site.Menus.main -}}
-        {{- if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) -}}
-          {{- .Name -}}
-          dd{{$.Scratch.Set "inMenu" true}}
-          [{{$.Scratch.Get "inMenu"}}]
-        {{else}}
-          {{$.Scratch.Set "inMenu" false}}
-        ({{$.Scratch.Get "inMenu"}})
-        {{- end -}}
-      {{- end -}}
-
-      {{if eq ($.Scratch.Get "inMenu") false }}(({{ $.Title }})){{end}} */}}
-      {{ $.Title }}
+        {{if eq .Kind "taxonomy"}}
+          {{$section_heading := .Site.GetPage "taxonomy" .Section }}
+          {{with $section_heading}}{{- .Title -}}: {{end}}
+        {{end}}
+        {{- $.Title -}}
       </span>
       </h1>
       {{- with .Params.description -}}

@@ -1,28 +1,16 @@
-{{ define "header" }}
-  {{ partial "tools/header.html" .}}
-{{ end }}
-
 {{ define "main" }}
   {{ $section := (.Paginate (.Data.Pages.ByTitle)).Pages }}
 
-  <article class="center nested-copy-line-height nested-img mw8 pa3 pa4-ns ">
-    {{ partial "_components/content.html" .}}
+  <article class="center mw8 p-3 lg:p-4 ">
 
-
-    {{/* {{ range $section }}
-
-      {{ $tags := .Site.Taxonomies.tags }}
-
-        {{ $this := where ($tags) "." .Params.tags  }}
-
-        {{ }}
-
-    {{ end }} */}}
+    <div class="text-2xl pb-4">
+      {{- partial "_components/content.html" . -}}
+    </div>
 
     <div class=" wrapper">
-      {{ partial "tools/section.html" (dict "section" $section) }}
-      {{ partial "tools/sidebar.html" . }}
+      {{- partial "tools/section.html" (dict "section" $section) -}}
+      {{- partial "tools/sidebar.html" . -}}
     </div>
-    {{/* {{ template "_internal/pagination.html" . }} */}}
+
   </article>
 {{ end }}

@@ -1,13 +1,13 @@
-<aside class="sidebar">
-  <ul class="list pl0">
-  <li class="black hover-white">
-    <a href="{{ "/tool/" | relLangURL }}" class="black db hover-bg-near-white link ph3 pv2">
-      All Tools
-    </a>
-  </li>
+<aside class="sidebar hidden md:block bg-grey-darkest mx-4">
+  <ul class="list-reset p-4">
+    <li class="black hover-white">
+      <a href="{{ "/tool/" | relLangURL }}" class="text-white block hover-bg-grey-lightest no-underline py-2">
+        All Tools
+      </a>
+    </li>
     {{ range $name, $taxonomy := .Site.Taxonomies.tools }}
       <li class="black hover-white">
-        <a href="{{ "/tools/" | relLangURL }}{{ $name | urlize }}" class="black db hover-bg-near-white link ph3 pv2">
+        <a href="{{ "/tools/" | relLangURL }}{{ $name | urlize }}" class="text-white no-underline db hover-bg-near-white ph3 pv2">
           {{ $name | humanize | title }}
         </a>
       </li>

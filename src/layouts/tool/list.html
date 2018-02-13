@@ -1,44 +1,25 @@
 {{ define "main" }}
-
-
+{{$section := (.Paginate (.Data.Pages.ByTitle)).Pages}}
   <article class="center nested-copy-line-height nested-img mw8 p-4 md:p-4">
-    {{ partial "_components/content.html" .}}
-    <div class="wrapper">
-      {{template "toolsSection" .}}
-      {{ partial "tools/sidebar.html" . }}
+    {{partial "_components/content.html" .}}
+    {{/* <div class="dn bg-light-gray">
+    {{ range  $section }}
+    {{ if .Params.tags }}
+     <strong>{{.Title}}{{ if gt (len .Params.tags) 1 }}s{{ end }}:</strong>
+     {{ range $index, $director := (uniq .Params.tags ) }}{{ if gt $index 0 }}, {{ end }}<a href="{{ "tags/" | relURL }}{{ . | urlize }}">{{ . }}</a>{{ end }}<br />
+    {{ end }}
+    {{ end }}
+    </div> */}}
+
+    {{/* {{ range  $section }}
+    {{range .Params.tags}}
+    ({{.}})
+    {{end}}
+    {{end}} */}}
+
+    <div class="wrapper">    
+      {{- partial "tools/section.html" (dict "section" $section) -}}
+      {{- partial "tools/sidebar.html" . -}}
     </div>
-    {{/* {{ template "_internal/pagination.html" . }} */}}
   </article>
 {{ end }}
-
-
-
-
-{{define "toolsSection"}}
-  {{ $section := (.Paginate (.Data.Pages.ByTitle)).Pages }}
-
-{{/* <div class="dn bg-light-gray">
-{{ range  $section }}
-{{ if .Params.tags }}
- <strong>{{.Title}}{{ if gt (len .Params.tags) 1 }}s{{ end }}:</strong>
- {{ range $index, $director := (uniq .Params.tags ) }}{{ if gt $index 0 }}, {{ end }}<a href="{{ "tags/" | relURL }}{{ . | urlize }}">{{ . }}</a>{{ end }}<br />
-{{ end }}
-{{ end }}
-</div> */}}
-
-{{/* {{ range  $section }}
-{{range .Params.tags}}
-({{.}})
-{{end}}
-{{end}} */}}
-
-
-<section class="content dg g-gap-10 g-columns-100">
-  {{ range  $section }}
-    <div class="border-2 border-grey-lighter bg-white">
-      {{ .Render "summary" }}
-    </div>
-  {{ end }}
-</section>
-
-{{end}}

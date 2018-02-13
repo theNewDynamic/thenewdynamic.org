@@ -43,7 +43,16 @@
   }
 
 
+  .wrapper {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+               "....... header  header"
+                             "sidebar content";
 
+    }
   .wrapper {
     display: grid;
     grid-gap: 10px;
