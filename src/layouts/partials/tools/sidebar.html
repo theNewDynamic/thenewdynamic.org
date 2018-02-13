@@ -1,16 +1,27 @@
+
+
+
+
 <aside class="sidebar hidden md:block bg-grey-darkest mx-4">
   <ul class="list-reset p-4">
+
+  {{if eq .Kind "taxonomy"}}
     <li class="black hover-white">
-      <a href="{{ "/tool/" | relLangURL }}" class="text-white block hover-bg-grey-lightest no-underline py-2">
-        All Tools
+      <a href="{{ "/tool/" | relLangURL }}" class="text-grey-light text-xl block hover-bg-grey-lightest no-underline py-2">
+        &laquo; All Tools
       </a>
     </li>
+    {{end}}
+
     {{ range $name, $taxonomy := .Site.Taxonomies.tools }}
-      <li class="black hover-white">
-        <a href="{{ "/tools/" | relLangURL }}{{ $name | urlize }}" class="text-white no-underline db hover-bg-near-white ph3 pv2">
-          {{ $name | humanize | title }}
-        </a>
-      </li>
+      {{$detail := $.Site.GetPage "taxonomy" "tools" $name }}
+      {{with $detail}}
+        <li class="black hover:bg-black">
+          <a href="{{ "/tools/" | relLangURL }}{{ $name | urlize }}" class="hover:bg-gray-darkest text-3xl text-white no-underline block px-3 py-2">
+            {{- .Title -}}
+          </a>
+        </li>
+      {{end}}
     {{ end }}
   </ul>
 </aside>
