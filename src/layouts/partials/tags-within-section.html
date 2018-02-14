@@ -1,0 +1,12 @@
+{{ $section := .Data.Pages}}
+{{range $section}}
+  {{with .Params.tags}}
+    {{range sort . "value" "asc"}}
+      {{$.Scratch.SetInMap "tags" . .}}
+    {{end}}
+  {{end}}
+{{end}}
+
+{{range $.Scratch.GetSortedMapValues "tags"}}
+  <button class='bg-black text-white inline block mr-3 px-3 py-2'>{{.}}</button>
+{{end}}

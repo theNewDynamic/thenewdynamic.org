@@ -1,25 +1,15 @@
 {{ define "main" }}
-{{$section := (.Paginate (.Data.Pages.ByTitle)).Pages}}
-  <article class="center nested-copy-line-height nested-img mw8 p-4 md:p-4">
-    {{partial "_components/content.html" .}}
-    {{/* <div class="dn bg-light-gray">
-    {{ range  $section }}
-    {{ if .Params.tags }}
-     <strong>{{.Title}}{{ if gt (len .Params.tags) 1 }}s{{ end }}:</strong>
-     {{ range $index, $director := (uniq .Params.tags ) }}{{ if gt $index 0 }}, {{ end }}<a href="{{ "tags/" | relURL }}{{ . | urlize }}">{{ . }}</a>{{ end }}<br />
-    {{ end }}
-    {{ end }}
-    </div> */}}
 
-    {{/* {{ range  $section }}
-    {{range .Params.tags}}
-    ({{.}})
-    {{end}}
-    {{end}} */}}
+  <article class="center mw8 p-3 lg:p-4 ">
 
-    <div class="wrapper">    
-      {{- partial "tools/section.html" (dict "section" $section) -}}
+    <div class="my-4">
+      {{- partial "tags-within-section.html" . -}}
+    </div>
+
+    <div class="wrapper">
+      {{- partial "tools/section.html" . -}}
       {{- partial "tools/sidebar.html" . -}}
     </div>
+
   </article>
 {{ end }}
