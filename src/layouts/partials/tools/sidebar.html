@@ -1,13 +1,13 @@
 
-
+{{ $currentPage := . }}
 
 
 <aside class="sidebar hidden md:block bg-grey-darkest mx-4">
-  <ul class="list-reset p-4">
+  <ul class="list-reset pt-6">
 
   {{if eq .Kind "taxonomy"}}
     <li class="black hover-white">
-      <a href="{{ "/tool/" | relLangURL }}" class="text-grey-light text-xl block hover-bg-grey-lightest no-underline py-2">
+      <a href="{{ "/tool/" | relLangURL }}" class="text-grey-light text-xl block hover-bg-grey-lightest no-underline px-2 py-2">
         &laquo; All Tools
       </a>
     </li>
@@ -16,8 +16,9 @@
     {{ range $name, $taxonomy := .Site.Taxonomies.tools }}
       {{$detail := $.Site.GetPage "taxonomy" "tools" $name }}
       {{with $detail}}
-        <li class="black hover:bg-black">
-          <a href="{{ "/tools/" | relLangURL }}{{ $name | urlize }}" class="hover:bg-gray-darkest text-3xl text-white no-underline block px-3 py-2">
+        {{$link := printf "%s%s%s" "/tools/" $name "/"}}
+        <li class="">
+          <a href="{{ $link }}" class="hover:bg-grey text-2xl text-white no-underline block px-6 py-2 {{if eq $currentPage.URL $link}} bg-black{{end}}">
             {{- .Title -}}
           </a>
         </li>
