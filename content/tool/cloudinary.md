@@ -7,7 +7,7 @@ urls:
   website: http://cloudinary.com/
   github:
   twitter:
-tag:
+related_tool:
 resources:
   - name: ''
     url: ''

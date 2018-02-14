@@ -3,7 +3,7 @@ title: Serum
 date: 2016-08-11T00:00:00.000Z
 tools: 
   - helper
-tag: jekyll
+related_tool: jekyll
 urls:
   website: 'https://chrome.google.com/webstore/detail/serum/ffboflhdigfmnnokjjcmfipgehggjhlj'
   github: 'https://github.com/dmison/Serum'

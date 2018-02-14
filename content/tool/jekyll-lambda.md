@@ -4,7 +4,7 @@ date: 2015-11-12T02:04:00.000Z
 posted_date: 2015-11-12T02:04:00.000Z
 featured: false
 slug: jekyll-lambda
-tag: jekyll
+related_tool: jekyll
 tools: 
   - theme
 urls:

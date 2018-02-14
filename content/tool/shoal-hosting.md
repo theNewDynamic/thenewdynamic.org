@@ -4,7 +4,7 @@ date: 2015-05-14T18:03:00.000Z
 posted_date: 2015-05-14T18:03:00.000Z
 featured: false
 slug: shoal-hosting
-tag: sculpin
+related_tool: sculpin
 tools: 
   - hosting-deployment
 description: "For Sculpin-based websites"

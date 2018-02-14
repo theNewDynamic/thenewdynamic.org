@@ -6,7 +6,7 @@ featured: false
 slug: jekyll-search-with-json
 tools: 
   - interaction
-tag: jekyll
+related_tool: jekyll
 tags:
  - Search
 urls:

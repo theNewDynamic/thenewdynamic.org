@@ -6,7 +6,7 @@ featured: false
 slug: jekyll-themes
 tools: 
   - theme
-tag: jekyll 
+related_tool: jekyll 
 urls:
   website: http://jekyllthemes.org/
   github: https://github.com/mattvh/jekyllthemes/

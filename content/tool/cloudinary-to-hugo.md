@@ -7,7 +7,7 @@ urls:
   website:
   github: https://github.com/matfin/cloudinary_to_hugo
   twitter:
-tag:
+related_tool:
  - hugo
  - cloudinary
 resources:

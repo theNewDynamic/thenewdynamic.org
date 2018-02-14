@@ -6,7 +6,7 @@ featured: false
 slug: jekyll-gdrive-plugin
 tools: 
   - content-management
-tag: jekyll
+related_tool: jekyll
 urls:
   website: https://github.com/netlify/jekyll-gdrive
 ---

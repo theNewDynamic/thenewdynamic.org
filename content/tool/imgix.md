@@ -7,7 +7,7 @@ urls:
   website: https://www.imgix.com
   github:
   twitter:
-tag:
+related_tool:
 resources:
   - name: ''
     url: ''

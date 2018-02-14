@@ -7,7 +7,7 @@ urls:
   website:
   github: https://github.com/serverless/post-scheduler/
   twitter:
-tag:
+related_tool:
  - jekyll
  - hugo
  - gatsbyjs
