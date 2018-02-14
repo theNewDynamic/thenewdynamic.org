@@ -1,6 +1,5 @@
-{{ $section := .section }}
 <section class="content dg g-gap-10 g-columns-100">
-  {{ range  $section }}
+  {{ range  .Data.Pages }}
     <div class="border-2 border-grey-lighter bg-white">
       {{ .Render "summary" }}
     </div>
