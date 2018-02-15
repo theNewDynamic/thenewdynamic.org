@@ -19,8 +19,17 @@ fields:
   config:
     use_select: true
     source:
-      type: pages
+      type: simple
       section: tools
+    options:
+    - content-management
+    - build-tool
+    - headless-cms
+    - helper
+    - hosting-deployment
+    - interaction
+    - static-site-generator
+    - theme
 - type: field_group_list
   name: urls
   label: URLs
