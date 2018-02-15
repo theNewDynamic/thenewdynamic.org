@@ -13,4 +13,4 @@ sections:
     default_front_matter_template: tools
   event:
     default_front_matter_template: event
-version: '0.26'
+version: 0.31.1
