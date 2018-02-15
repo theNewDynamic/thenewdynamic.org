@@ -1,5 +1,6 @@
 ---
 pages:
+- tool/test2.md
 - tool/test.md
 hide_body: false
 fields:
