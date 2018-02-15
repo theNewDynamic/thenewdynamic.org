@@ -7,14 +7,10 @@ auto_deploy: false
 admin_path: admin
 webhook_url: 
 sections:
-  article:
-    default_front_matter_template: article
   tools:
     default_front_matter_template: tools
   tool:
     default_front_matter_template: tools
-  showcase:
-    default_front_matter_template: showcase
   event:
     default_front_matter_template: event
 version: '0.26'
