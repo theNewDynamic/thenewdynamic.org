@@ -1,6 +1,7 @@
 ---
 title: "Elemeno"
 date: 2017-11-14T15:17:00.000Z
+published: false
 tool_type:
 - headless-cms
 - content-management
@@ -13,3 +14,4 @@ resources:
     url: ''
 description: "Elemeno is an API-Based, Headless CMS designed to manage content for digital projects on any platform or device."
 ---
+shut down 2018
