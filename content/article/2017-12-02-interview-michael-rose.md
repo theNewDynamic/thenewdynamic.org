@@ -1,13 +1,17 @@
 ---
 title: Interview with Michael Rose, designer and front-end developer
-published: true
 date: 2017-12-02 09:45:36 +0100
 author: Frank Taillandier
-description: "Michael Rose, one of the most active webdesigner in the Jekyll community, shares his vision on static site generators."
-image: /uploads/2017/michael-rose.jpg
-permalink: /article/interview-michael-rose/
----
+description: Michael Rose, one of the most active webdesigner in the Jekyll community,
+  shares his vision on static site generators.
+image: "/uploads/2017/michael-rose.jpg"
+permalink: "/article/interview-michael-rose/"
+tool:
+- tool/jekyll.md
+- tool/jekyll-themes.md
+link: ''
 
+---
 Michael Rose one of the most active webdesigner in the Jekyll community. He is
 the author of several themes: [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/), [Basically Basic](https://mmistakes.github.io/jekyll-theme-basically-basic/) or
 [Hpster](https://mmistakes.github.io/hpstr-jekyll-theme/).
