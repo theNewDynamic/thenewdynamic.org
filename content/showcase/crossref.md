@@ -2,7 +2,7 @@
 title: Crossref
 date: 2017-10-05
 related_tools:
-    - hugo
+    - tool/hugo.md
 website: https://www.crossref.org/
 repo:
 creator:

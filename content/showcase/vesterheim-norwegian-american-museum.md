@@ -4,7 +4,7 @@ date: 2015-07-10T13:38:00.000Z
 website: http://vesterheim.org/
 repo:
 related_tools:
-  - jekyll
+  - tool/jekyll.md
 creator:
   - role: "Developer"
     url: https://github.com/faustgertz

@@ -2,7 +2,7 @@
 title: Sourcegraph
 date: 2017-10-16 10:00:00 +0000
 related_tools:
-  - gatsby
+  - tool/gatsby.md
 website: https://sourcegraph.com/
 repo:
 creator:

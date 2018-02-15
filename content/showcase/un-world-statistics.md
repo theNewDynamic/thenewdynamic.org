@@ -4,7 +4,7 @@ date: 2015-06-27T13:22:00.000Z
 website: https://worldstatisticsday.org/
 repo:
 related_tools:
-  - jekyll
+  - tool/jekyll.md
 creator:
   - name: United Nations
     role: 'Design/Development'

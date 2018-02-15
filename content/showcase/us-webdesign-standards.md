@@ -2,8 +2,8 @@
 title: U.S. Web Design Standards
 date: 2017-11-02 10:00:00 +0000
 related_tools:
-  - jekyll
-  - federalist
+  - tool/jekyll.md
+  - tool/federalist.md
 website: https://standards.usa.gov/
 repo: https://github.com/18F/web-design-standards
 creator:

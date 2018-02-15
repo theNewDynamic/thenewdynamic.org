@@ -2,7 +2,7 @@
 title: The Panama Papers
 date: 2016-09-06T00:00:00.000Z
 related_tools:
-  - jekyll
+  - tool/jekyll.md
 website: 'https://panamapapers.icij.org/'
 repo:
 creator:

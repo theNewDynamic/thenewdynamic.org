@@ -2,8 +2,8 @@
 title: Cinematt
 date: 2017-01-15 10:00:00 +0000
 related_tools:
-  - hugo
-  - cloudinary
+  - tool/hugo.md
+  - tool/cloudinary.md
 website: https://cinematt.photography
 repo: https://github.com/matfin/cinematt
 creator:

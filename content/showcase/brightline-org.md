@@ -2,9 +2,9 @@
 title: Brightline Initiative
 date: 2018-01-19 10:00:00 +0000
 related_tools:
-  - hugo
-  - netlify
-  - cloudinary
+  - tool/hugo.md
+  - tool/netlify.md
+  - tool/cloudinary.md
 website: https://www.brightline.org/
 repo:
 creator:

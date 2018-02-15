@@ -2,8 +2,8 @@
 title: Collins
 date: 2018-01-05
 related_tools:
-  - jekyll
-  - siteleaf
+  - tool/jekyll.md
+  - tool/siteleaf.md
 website: https://www.wearecollins.com/
 repo:
 creator:

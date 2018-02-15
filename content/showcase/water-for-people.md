@@ -2,9 +2,9 @@
 title: Water for People
 date: 2017-01-15 10:00:00 +0000
 related_tools:
-  - middleman
-  - contentful
-  - netlify
+  - tool/middleman.md
+  - tool/contentful.md
+  - tool/netlify.md
 website: https://www.waterforpeople.org/
 repo:
 creator:

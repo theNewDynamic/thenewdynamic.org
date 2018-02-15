@@ -2,9 +2,9 @@
 title: Skcript
 date: 2017-10-10
 related_tools:
-  - middleman
-  - gulp
-  - netlify
+  - tool/middleman.md
+  - tool/gulp.md
+  - tool/netlify.md
 website: https://www.skcript.com/
 repo:
 creator:

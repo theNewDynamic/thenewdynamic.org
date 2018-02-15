@@ -2,7 +2,7 @@
 title: Pattern Lab
 date: 2016-07-20T00:00:00.000Z
 related_tools:
-  - jekyll
+  - tool/jekyll.md
 website: 'http://patternlab.io/'
 creator:
   - role:

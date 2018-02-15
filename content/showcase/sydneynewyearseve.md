@@ -2,9 +2,9 @@
 title: Sydney New Year's Eve
 date: 2017-12-07 10:00:00 +0000
 related_tools:
-  - jekyll
-  - datocms
-  - algolia
+  - tool/jekyll.md
+  - tool/datocms.md
+  - tool/algolia.md
 website: https://www.sydneynewyearseve.com/
 repo:
 creator:

@@ -4,8 +4,8 @@ date: 2014-07-11T03:30:00.000Z
 website: https://www.healthcare.gov/
 repo:
 related_tools:
-  - jekyll
-  - proseio
+  - tool/jekyll.md
+  - tool/proseio.md
 creator:
   - name: Development Seed
     role: "Design/Development"

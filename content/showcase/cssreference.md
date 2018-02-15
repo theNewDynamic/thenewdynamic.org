@@ -2,7 +2,7 @@
 title: CSSReference
 date: 2016-11-27 00:00:00 +0000
 related_tools:
-  - jekyll
+  - tool/jekyll.md
 website: 'http://cssreference.io/'
 repo: 'https://github.com/jgthms/css-reference'
 creator:

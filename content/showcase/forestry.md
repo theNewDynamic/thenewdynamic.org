@@ -2,10 +2,10 @@
 title: Forestry.io
 date: 2017-10-13 10:00:00 +0000
 related_tools:
-  - hugo
+  - tool/hugo.md
   - forestry
-  - algolia
-  - cloudinary
+  - tool/algolia.md
+  - tool/cloudinary.md
 website: https://forestry.io/
 repo: https://github.com/forestryio/forestry.io
 creator:

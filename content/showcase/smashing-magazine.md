@@ -2,10 +2,10 @@
 title: Smashing Magazine
 date: 2017-03-16 12:00:00 +0000
 related_tools:
-  - hugo
-  - algolia
-  - netlify
-  - netlify-cms
+  - tool/hugo.md
+  - tool/algolia.md
+  - tool/netlify.md
+  - tool/netlify-cms.md
 website: 'https://www.smashingmagazine.com/'
 repo:
 creator:

@@ -2,12 +2,12 @@
 title: hillaryclinton.com
 date: 2016-07-19T00:00:00.000Z
 related_tools:
-  - assemble
+  - tool/assemble.md
 website: 'https://www.hillaryclinton.com/'
 creator:
   - name: 'Hillary for America tech team'
     role: 'Design/Development'
-    url: https://www.hillaryclinton.com/page/tech/    
+    url: https://www.hillaryclinton.com/page/tech/
     twitter_username:
 image: /uploads/showcase/hillaryclinton.png
 ---

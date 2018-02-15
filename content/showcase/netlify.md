@@ -2,10 +2,10 @@
 title: Netlify
 date: 2017-10-15 10:00:00 +0000
 related_tools:
-  - hugo
-  - webpack
-  - cloudinary
-  - algolia
+  - tool/hugo.md
+  - tool/webpack.md
+  - tool/cloudinary.md
+  - tool/algolia.md
 website: https://www.netlify.com/
 repo:
 creator:

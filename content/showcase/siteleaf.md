@@ -2,8 +2,8 @@
 title: Siteleaf
 date: 2017-10-05
 related_tools:
-  - jekyll
-  - grunt
+  - tool/jekyll.md
+  - tool/grunt.md
 website: https://siteleaf.com
 repo: https://github.com/siteleaf/siteleaf.com
 creator:

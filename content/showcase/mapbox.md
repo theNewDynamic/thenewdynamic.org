@@ -4,8 +4,8 @@ date: 2015-10-05T21:12:00.000Z
 website: https://www.mapbox.com/
 repo:
 related_tools:
-  - jekyll
-  - proseio
+  - tool/jekyll.md
+  - tool/proseio.md
 creator:
   - role: "Design/Development"
     url: https://developmentseed.org

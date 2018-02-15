@@ -2,9 +2,9 @@
 title: DatoCMS
 date: 2018-02-07 10:00:00 +0000
 related_tools:
-  - gatsby
-  - datocms
-  - netlify
+  - tool/gatsby.md
+  - tool/datocms.md
+  - tool/netlify.md
 website: https://www.datocms.com
 repo: https://github.com/datocms/website
 creator:

@@ -2,8 +2,8 @@
 title: Developers Italia
 date: 2017-12-16 10:00:00 +0000
 related_tools:
-  - jekyll
-  - github
+  - tool/jekyll.md
+  - tool/github-pages.md
 website: https://developers.italia.it/en
 repo: https://github.com/italia/developers.italia.it
 creator:

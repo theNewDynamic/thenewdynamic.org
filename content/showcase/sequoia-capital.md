@@ -4,9 +4,9 @@ date: 2015-12-15T02:43:00.000Z
 website: https://www.sequoiacap.com
 repo:
 related_tools:
-  - middleman
-  - netlify
-  - contentful
+  - tool/middleman.md
+  - tool/netlify.md
+  - tool/contentful.md
 creator:
   - role: "Design, Dev"
     url: http://www.instrument.com

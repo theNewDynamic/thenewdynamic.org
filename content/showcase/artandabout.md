@@ -2,9 +2,9 @@
 title: Art & About Sydney
 date: 2018-02-07 10:00:00 +0000
 related_tools:
-  - jekyll
-  - datocms
-  - algolia
+  - tool/jekyll.md
+  - tool/datocms.md
+  - tool/algolia.md
 website: https://www.artandabout.com.au/
 repo:
 creator:

@@ -2,9 +2,9 @@
 title: Dona Rita
 date: 2018-02-01 10:00:00 +0000
 related_tools:
-  - gatsby
-  - netlify-cms
-  - netlify
+  - tool/gatsby.md
+  - tool/netlify.md-cms
+  - tool/netlify.md
 website: https://www.donarita.co.uk/
 repo: https://github.com/peduarte/dona-rita-website
 creator:

@@ -2,7 +2,7 @@
 title: Formidable
 date: 2017-10-15
 related_tools:
- - gatsby
+ - tool/gatsby.md
 website: http://formidable.com/
 repo:
 creator:

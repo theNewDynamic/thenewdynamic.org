@@ -2,7 +2,7 @@
 title: Architracker
 date: 2018-01-12T21:34:00.000Z
 related_tools:
- - gatsby
+ - tool/gatsby.md
 website: https://www.architracker.co/
 repo:
 creator:

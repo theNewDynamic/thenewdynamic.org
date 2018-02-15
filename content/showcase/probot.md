@@ -2,8 +2,8 @@
 title: PROBOT 🤖
 date: 2017-10-16 11:00:00 +0000
 related_tools:
-  - jekyll
-  - github-pages
+  - tool/jekyll.md
+  - tool/github-pages.md
 website: https://probot.github.io/
 repo: https://github.com/probot/probot.github.io
 creator:

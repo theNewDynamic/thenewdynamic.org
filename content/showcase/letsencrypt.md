@@ -2,7 +2,7 @@
 title: Let's Encrypt
 date: 2018-01-20 10:00:00 +0000
 related_tools:
-  - hugo
+  - tool/hugo.md
 website: https://letsencrypt.org/
 repo: https://github.com/letsencrypt/website
 creator:

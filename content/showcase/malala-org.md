@@ -2,8 +2,8 @@
 title: Malala.org
 date: 2016-09-05T00:00:00.000Z
 related_tools:
-  - roots
-  - contentful
+  - tool/roots.md
+  - tool/contentful.md
 website: 'https://www.malala.org/'
 repo:
 creator:

@@ -2,8 +2,8 @@
 title: "Ebay apps site"
 date: 2016-04-12T00:00:00.000Z
 related_tools:
- - middleman
- - contentful
+ - tool/middleman.md
+ - tool/contentful.md
 website: http://anywhere.ebay.com/mobile/
 repo:
 creator:

@@ -4,8 +4,8 @@ date: 2015-09-15T16:41:00.000Z
 website: https://sbst.gov/
 repo:
 related_tools:
-  - jekyll
-  - federalist
+  - tool/jekyll.md
+  - tool/federalist.md
 creator:
   - role: "Design/Development"
     url: https://18f.gsa.gov/

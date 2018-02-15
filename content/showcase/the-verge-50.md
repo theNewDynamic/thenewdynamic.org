@@ -4,7 +4,7 @@ date: 2014-07-30T03:47:00.000Z
 website: http://www.theverge.com/a/the-verge-50
 repo:
 related_tools:
-  - middleman
+  - tool/middleman.md
 creator:
   - name: Vox Product
     role: "Design, development"

@@ -2,7 +2,7 @@
 title: Smartive
 date: 2017-10-06
 related_tools:
-  - gatsby
+  - tool/gatsby.md
 website: https://smartive.ch/
 # repo: https://github.com/adHawk/adhawk-website (private)
 creator:

@@ -2,8 +2,8 @@
 title: GraphCMS
 date: 2017-10-25 16:00:00 +0000
 related_tools:
-  - gatsby
-  - algolia
+  - tool/gatsby.md
+  - tool/algolia.md
 website: https://graphcms.com/
 repo:
 creator:

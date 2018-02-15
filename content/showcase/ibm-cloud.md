@@ -2,7 +2,7 @@
 title: IBM MobileFirst Foundation
 date: 2016-07-12T00:00:00.000Z
 related_tools:
-  - jekyll
+  - tool/jekyll.md
 website: 'https://mobilefirstplatform.ibmcloud.com/'
 repo:
 creator:
@@ -23,4 +23,4 @@ Tools we're using:
 - GitHub Enterprise
 - TravisCI
 - IBM Bluemix DevOps Services
-- Jekyll
+- tool/jekyll.md

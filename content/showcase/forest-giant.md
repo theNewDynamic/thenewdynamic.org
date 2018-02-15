@@ -2,8 +2,8 @@
 title: Forest Giant
 date: 2016-12-17 12:00:00 +0000
 related_tools:
-  - hugo
-  - netlify
+  - tool/hugo.md
+  - tool/netlify.md
 website: 'https://www.forestgiant.com/'
 repo:
 creator:

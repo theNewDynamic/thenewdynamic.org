@@ -2,7 +2,7 @@
 title: Sketch App
 date: 2016-11-10 00:00:00 +0000
 related_tools:
-  - jekyll
+  - tool/jekyll.md
 website: 'https://sketchapp.com/'
 repo:
 creator:

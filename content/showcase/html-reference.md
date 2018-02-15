@@ -2,7 +2,7 @@
 title: HTML Reference
 date: 2017-02-16 10:00:00 +0000
 related_tools:
-  - jekyll
+  - tool/jekyll.md
 website: http://htmlreference.io/
 repo: https://github.com/jgthms/html-reference
 creator:

@@ -7,7 +7,7 @@ slug: esolia
 website: http://esolia.com/
 image: /uploads/1436586928778_thenewdynamic-showcase-esolia-com-150710.jpg
 related_tools:
-  - hugo
+  - tool/hugo.md
 creator:
   - name: eSolia Inc.
     role: "Design/Developement"

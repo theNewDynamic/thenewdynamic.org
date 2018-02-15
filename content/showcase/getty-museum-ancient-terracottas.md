@@ -4,12 +4,12 @@ date: 2016-02-04T03:47:00.000Z
 website: 'http://www.getty.edu/publications/terracottas/'
 repo:
 related_tools:
-  - middleman
+  - tool/middleman.md
   - lunrjs
 creator:
   - name: 'Eric Gardner, Getty Museum'
     role: 'Design/Development'
-    url: 'http://egardner.github.io/'    
+    url: 'http://egardner.github.io/'
     twitter_username:
 image: /uploads/getty-museum-ancient-terracottas-1600.jpg
 ---

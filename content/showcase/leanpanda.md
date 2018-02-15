@@ -2,8 +2,8 @@
 title: Leanpanda.com
 date: 2017-11-27 10:00:00 +0000
 related_tools:
-  - middleman
-  - datocms
+  - tool/middleman.md
+  - tool/datocms.md
 website: https://www.leanpanda.com/
 creator:
   - name:

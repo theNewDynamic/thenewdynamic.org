@@ -2,7 +2,7 @@
 title: "Segment"
 date: 2014-10-28T13:57:00.000Z
 related_tools:
-  - metalsmith
+  - tool/metalsmith.md
 website: https://segment.com/
 repo:
 creator:

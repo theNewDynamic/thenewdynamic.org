@@ -4,8 +4,8 @@ date: 2015-10-25T20:42:00.000Z
 website: https://devices.netflix.com/en/
 repo:
 related_tools:
-  - jekyll
-  - cloudcannon
+  - tool/jekyll.md
+  - tool/cloudcannon.md
 creator:
   - name: Netflix
     role: "Design/Development"

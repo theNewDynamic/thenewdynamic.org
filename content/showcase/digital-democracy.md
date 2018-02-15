@@ -2,8 +2,8 @@
 title: Digital Democracy
 date: 2017-01-16 10:00:00 +0000
 related_tools:
-  - jekyll
-  - netlify
+  - tool/jekyll.md
+  - tool/netlify.md
 website: http://www.digital-democracy.org/
 repo:
 creator:

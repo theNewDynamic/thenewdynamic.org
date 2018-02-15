@@ -2,8 +2,8 @@
 title: Linking Art Gallery
 date: 2017-03-03 15:00:00 +0000
 related_tools:
-  - hugo
-  - datocms
+  - tool/hugo.md
+  - tool/datocms.md
 website: 'http://www.linkingart.gallery/'
 repo:
 creator:

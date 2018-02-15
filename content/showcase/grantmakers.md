@@ -2,8 +2,8 @@
 title: Grantmaker Search
 date: 2017-10-17 00:00:00 +0000
 related_tools:
-  - jekyll
-  - algolia
+  - tool/jekyll.md
+  - tool/algolia.md
 website: https://www.grantmakers.io/
 repo: https://github.com/grantmakers/grantmakers.github.io
 creator:

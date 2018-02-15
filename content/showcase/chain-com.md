@@ -2,8 +2,8 @@
 title: chain.com
 date: 2016-10-24 00:00:00 +0000
 related_tools:
-  - jekyll
-  - siteleaf
+  - tool/jekyll.md
+  - tool/siteleaf.md
 website: 'https://chain.com/'
 repo:
 creator:

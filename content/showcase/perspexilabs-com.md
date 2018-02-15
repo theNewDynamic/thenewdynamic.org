@@ -2,7 +2,7 @@
 title: perspexilabs.com
 date: 2017-01-10 15:00:00 +0000
 related_tools:
-  - gatsby
+  - tool/gatsby.md
 website: 'https://www.perspexilabs.com/'
 repo:
 creator:

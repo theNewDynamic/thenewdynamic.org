@@ -2,7 +2,7 @@
 title: Passbolt Help
 date: 2018-02-07 08:00:00 +0000
 related_tools:
-  - jekyll
+  - tool/jekyll.md
 website: https://help.passbolt.com/
 repo: https://github.com/passbolt/passbolt_help
 creator:

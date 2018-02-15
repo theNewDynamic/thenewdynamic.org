@@ -2,8 +2,8 @@
 title: frame.ai
 date: 2017-10-15 16:00:00 +0000
 related_tools:
-  - jekyll
-  - aws
+  - tool/jekyll.md
+  - tool/aws.md
 website: https://frame.ai/
 repo:
 creator:

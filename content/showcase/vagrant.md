@@ -2,8 +2,8 @@
 title: Vagrant
 date: 2018-02-05 10:00:00 +0000
 related_tools:
-  - middleman
-  - datocms
+  - tool/middleman.md
+  - tool/datocms.md
 website: https://www.vagrantup.com/
 repo: https://github.com/hashicorp/vagrant/tree/master/website
 creator:

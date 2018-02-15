@@ -2,7 +2,7 @@
 title: Blue Jay Wireless
 date: 2016-06-08T00:00:00.000Z
 related_tools:
-  - phenomic
+  - tool/phenomic.md
 website: 'https://bluejaywireless.com/'
 repo:
 creator:

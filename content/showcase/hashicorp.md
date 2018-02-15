@@ -2,8 +2,8 @@
 title: HashiCorp
 date: 2018-02-06 10:00:00 +0000
 related_tools:
-  - spike
-  - datocms
+  - tool/spike.md
+  - tool/datocms.md
 website: https://www.hashicorp.com/
 repo:
 creator:

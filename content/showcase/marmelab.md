@@ -2,7 +2,7 @@
 title: Marmelab
 date: 2017-09-22
 related_tools:
-  - gatsby
+  - tool/gatsby.md
 website: https://marmelab.com/en
 repo:
 creator:

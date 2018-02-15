@@ -2,7 +2,7 @@
 title: Google Ventures
 date: 2016-12-13 00:00:00 +0000
 related_tools:
-  - metalsmith
+  - tool/metalsmith.md
 website: 'http://www.gv.com/'
 repo:
 creator:

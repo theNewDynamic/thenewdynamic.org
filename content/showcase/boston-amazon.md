@@ -2,7 +2,7 @@
 title: City of Boston Amazon Proposal
 date: 2018-01-22T12:10:00.000Z
 related_tools:
- - gatsby
+ - tool/gatsby.md
 website: https://amazon.boston.gov/
 repo:
 creator:

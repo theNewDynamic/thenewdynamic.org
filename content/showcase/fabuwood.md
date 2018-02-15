@@ -2,9 +2,9 @@
 title: Fabuwood Cabinetry
 date: 2018-01-26 10:00:00 +0000
 related_tools:
-  - metalsmith
-  - netlify
-  - prismic
+  - tool/metalsmith.md
+  - tool/netlify.md
+  - tool/prismic.md
 website: https://www.fabuwood.com/
 repo:
 creator:

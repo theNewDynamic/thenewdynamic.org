@@ -2,8 +2,8 @@
 title: "Ruby on Rails"
 date: 2016-02-13T13:35:25+01:00
 related_tools:
-  - jekyll
-  - github-pages
+  - tool/jekyll.md
+  - tool/github-pages.md
 website: http://rubyonrails.org/
 repo: https://github.com/rails/homepage
 creator:

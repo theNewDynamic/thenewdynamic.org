@@ -2,7 +2,7 @@
 title: 1Password
 date: 2017-10-03 10:00:00 +0000
 related_tools:
-  - hugo
+  - tool/hugo.md
 website: https://1password.com
 creator:
   - name: AgileBits

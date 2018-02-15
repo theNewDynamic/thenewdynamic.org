@@ -4,7 +4,7 @@ date: 2015-09-28T16:47:00.000Z
 website: https://nodejs.org/en/
 repo:
 related_tools:
-  - metalsmith
+  - tool/metalsmith.md
 creator:
   - name: Node.js Foundation
     role: "Design/Development"

@@ -2,7 +2,7 @@
 title: Nozzle.io
 date: 2017-10-12T00:00:00.000Z
 related_tools:
-  - react-static
+  - tool/react-static.md
 website: 'https://nozzle.io/'
 repo:
 creator:

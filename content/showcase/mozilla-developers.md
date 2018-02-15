@@ -2,7 +2,7 @@
 title: Mozilla Developers
 date: 2017-10-13 10:00:00 +0000
 related_tools:
-  - gatsby
+  - tool/gatsby.md
 website: https://mozilladevelopers.github.io/playground/
 repo: https://github.com/mozilladevelopers/playground/
 creator:

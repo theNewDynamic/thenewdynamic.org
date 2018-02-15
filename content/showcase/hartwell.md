@@ -2,8 +2,8 @@
 title: Hartwell Insurance
 date: 2018-02-01 14:00:00 +0000
 related_tools:
-  - hugo
-  - netlify
+  - tool/hugo.md
+  - tool/netlify.md
 website: https://www.hartwell-insurance.com/
 repo:
 creator:

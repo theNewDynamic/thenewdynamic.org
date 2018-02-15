@@ -2,8 +2,8 @@
 title: plainlanguage.gov
 date: 2017-11-16 10:00:00 +0000
 related_tools:
-  - jekyll
-  - federalist
+  - tool/jekyll.md
+  - tool/federalist.md
 website: https://plainlanguage.gov/
 repo: https://github.com/GSA/plainlanguage.gov
 creator:
