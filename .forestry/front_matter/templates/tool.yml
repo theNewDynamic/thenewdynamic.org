@@ -1,0 +1,34 @@
+---
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: Title
+- type: textarea
+  name: description
+  label: Description
+- type: datetime
+  name: date
+  label: Date
+  description: Date added to the database
+- type: list
+  label: Tools
+  name: tools
+  config:
+    use_select: true
+    source:
+      type: pages
+      section: tools
+- type: field_group_list
+  name: urls
+  label: URLs
+  fields:
+  - type: text
+    name: website
+    label: Website
+  - type: text
+    name: github
+    label: Github
+  - type: text
+    name: twitter
+    label: Twitter
