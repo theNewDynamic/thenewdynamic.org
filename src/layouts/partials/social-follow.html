@@ -2,32 +2,32 @@
 {{ $icon_size := "28px" }}
 {{ with .Site.Social.facebook }}
   <a href="{{ . }}" class="dib facebook no-underline opacity-50 hover:opacity-100 link-transition mr-2 lg:pt-0 pt-3 z-999" title="Facebook link">
-    {{ partial "svg/facebook.svg" (dict "size" $icon_size) }}
+    {{ partialCached "svg/facebook.svg" (dict "size" $icon_size) }}
   </a>
 {{ end }}
 {{ with .Site.Social.twitter }}
   <a href="{{ . }}" class="dib twitter hover-white link-transition no-underline opacity-50 hover:opacity-100 pt-3 lg:pt-0 mr-2 white-30 z-999" title="Twitter link">
-    {{ partial "svg/twitter.svg" (dict "size" $icon_size) }}
+    {{ partialCached "svg/twitter.svg" (dict "size" $icon_size) }}
   </a>
 {{ end }}
 {{ with .Site.Social.instagram }}
   <a href="{{ . }}" class="dib link-transition instagram no-underline opacity-50 hover:opacity-100 mr-3 pt-3 lg:pt-0 z-999" title="Instagram link">
-    {{ partial "svg/instagram.svg" (dict "size" $icon_size) }}
+    {{ partialCached "svg/instagram.svg" (dict "size" $icon_size) }}
   </a>
 {{ end }}
 {{ with .Site.Params.youtube }}
   <a href="{{ . }}" class="dib link-transition youtube no-underline opacity-50 hover:opacity-100 mr-3 lg:pt-0 pt-3 z-999" title="Youtube link">
-    {{ partial "svg/youtube.svg" (dict "size" $icon_size) }}
+    {{ partialCached "svg/youtube.svg" (dict "size" $icon_size) }}
   </a>
 {{ end }}
 
 {{ with .Site.Params.social.slack }}
   <a href="{{ . }}" class="hover-white link-transition slack no-underline opacity-50 hover:opacity-100 dib z-999 pt-3 lg:pt-0 mr0 white-30" title="Slack link">
-    {{ partial "svg/Slack_Mark_Monochrome_White_compressed.svg" (dict "size" "50px") }}
+    {{ partialCached "svg/Slack_Mark_Monochrome_White_compressed.svg" (dict "size" "50px") }}
   </a>
 {{ end }}
 {{ with .Site.Params.social.meetup }}
   <a href="{{ . }}" class="fill-current hover-white link-transition meetup no-underline opacity-50 hover:opacity-100 dib z-999 pt-3 lg:pt-0 mr-2 white-30" title="Slack link">
-    {{ partial "svg/meetup.svg" (dict "size" "50px") }}
+    {{ partialCached "svg/meetup.svg" (dict "size" "50px") }}
   </a>
 {{ end }}

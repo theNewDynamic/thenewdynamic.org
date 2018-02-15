@@ -6,7 +6,7 @@
       {{- partial "_head/meta-and-links.html" . -}}
     {{end}}
     {{block "scripts" .}}
-      {{partial "_head/scripts.html" .}}
+      {{partialCached "_head/scripts.html" .}}
     {{ end }}
   </head>
   <body class="ma0 font-sans bg-near-white{{ with getenv "HUGO_ENV" }} {{ . }}{{ end }}">
