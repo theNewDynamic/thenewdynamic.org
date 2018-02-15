@@ -43,3 +43,13 @@ fields:
   - type: text
     name: twitter
     label: Twitter
+- type: field_group_list
+  name: resources
+  label: Resources
+  fields:
+  - type: text
+    name: name
+    label: Name
+  - type: text
+    name: url
+    label: URL
