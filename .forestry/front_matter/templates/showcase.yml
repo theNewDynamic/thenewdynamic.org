@@ -1,0 +1,85 @@
+---
+hide_body: false
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: 
+- name: website
+  label: Website
+  type: text
+  hidden: false
+  default: 
+- name: repo
+  label: Repo
+  type: text
+  hidden: false
+  default: 
+- name: related_tools
+  label: Related tools
+  type: list
+  hidden: false
+  default:
+  - 
+- name: creator
+  label: Creator
+  type: field_group_list
+  fields:
+  - name: name
+    label: Name
+    type: text
+    hidden: false
+    default: ''
+  - name: role
+    label: Role
+    type: text
+    hidden: false
+    default: ''
+  - name: url
+    label: Url
+    type: text
+    hidden: false
+    default: ''
+  - name: twitter_username
+    label: Twitter username
+    type: text
+    hidden: false
+    default: ''
+  hidden: false
+  default:
+  - name: 
+    role: Design/Development
+    url: 
+    twitter_username: 
+- name: image_path
+  label: Image path
+  type: file
+  hidden: false
+  default: "/uploads/showcase/"
+- name: type
+  label: Type
+  type: text
+  hidden: false
+  default: ''
+- name: images
+  label: Images
+  type: image_gallery
+  hidden: false
+  default:
+  - "/uploads/showcase/"
+- name: posted_date
+  label: Posted date
+  type: datetime
+  hidden: false
+  default: ''
+- name: slug
+  label: Slug
+  type: text
+  hidden: false
+  default: ''

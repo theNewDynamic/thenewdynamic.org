@@ -9,10 +9,12 @@ webhook_url:
 sections:
   article:
     default_front_matter_template: article
-  book:
-    default_front_matter_template: book
+  tools:
+    default_front_matter_template: tools
+  tool:
+    default_front_matter_template: tools
+  showcase:
+    default_front_matter_template: showcase
   event:
     default_front_matter_template: event
-  review:
-    default_front_matter_template: review
 version: '0.26'
