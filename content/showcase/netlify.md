@@ -13,5 +13,5 @@ creator:
     role: 'Design/Development'
     url:
     twitter_username:
-image_path: /uploads/showcase/netlify.png
+image: /uploads/showcase/netlify.png
 ---

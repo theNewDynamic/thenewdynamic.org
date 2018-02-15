@@ -10,5 +10,5 @@ creator:
     role: "Design/Development"
     url: https://github.com/nodejs/new.nodejs.org    
     twitter_username:
-image_path: /uploads/1446050712434_screenshot-nodejs.jpg
+image: /uploads/1446050712434_screenshot-nodejs.jpg
 ---

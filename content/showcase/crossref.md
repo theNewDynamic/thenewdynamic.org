@@ -10,5 +10,5 @@ creator:
     role: 'Design/Development'
     url:
     twitter_username:
-image_path: /uploads/showcase/crossref.png
+image: /uploads/showcase/crossref.png
 ---

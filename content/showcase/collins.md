@@ -11,6 +11,6 @@ creator:
     role:
     url:
     twitter_username:
-image_path: /uploads/showcase/showcase-collins-jekyll-siteleaf.jpg
+image: /uploads/showcase/showcase-collins-jekyll-siteleaf.jpg
 ---
 An independent, brand experience design company.

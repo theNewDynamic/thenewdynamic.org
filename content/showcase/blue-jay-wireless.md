@@ -10,5 +10,5 @@ creator:
     role: 'Design, Development'
     url: http://www.bigdcreative.com/
     twitter_username:
-image_path: /uploads/showcase/blue-jay-wireless.png
+image: /uploads/showcase/blue-jay-wireless.png
 ---

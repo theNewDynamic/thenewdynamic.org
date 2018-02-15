@@ -11,7 +11,7 @@ creator:
     role: Design, Development
     url: http://www.instrument.com/latest/the-new-ebay-creating-excitement-through-code    
     twitter_username:
-image_path: /uploads/showcase/ebay.jpg
+image: /uploads/showcase/ebay.jpg
 ---
 
 ### Build Architecture

@@ -11,7 +11,7 @@ creator:
     role: "Design/Development"
     url: https://basecamp.com/
     twitter_username: basecamp
-image_path: /uploads/showcase/ruby-on-rails.png
+image: /uploads/showcase/ruby-on-rails.png
 images:
   - /uploads/showcase/ruby-on-rails.png
 ---

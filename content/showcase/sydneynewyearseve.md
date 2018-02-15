@@ -12,5 +12,5 @@ creator:
     role: 'Design/Development'
     url: http://www.cityofsydney.nsw.gov.au/
     twitter_username: cityofsydney
-image_path: /uploads/showcase/sydneynewyearseve-jekyll.png
+image: /uploads/showcase/sydneynewyearseve-jekyll.png
 ---

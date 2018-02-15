@@ -10,5 +10,5 @@ creator:
     url: https://github.com/faustgertz
     name: Faust Gertz
     twitter_username:    
-image_path: /uploads/1436535424517_thenewdynamic-showcase-vesterheim-org-150710.jpg
+image: /uploads/1436535424517_thenewdynamic-showcase-vesterheim-org-150710.jpg
 ---

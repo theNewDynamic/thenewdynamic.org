@@ -11,7 +11,7 @@ creator:
     role: 'Design/Development'
     url: https://oak.is/
     twitter_username: oakstudios
-image_path: /uploads/showcase/siteleaf.png
+image: /uploads/showcase/siteleaf.png
 ---
 
 Siteleaf (content management system for Jekyll) marketing and blog website.

@@ -11,5 +11,5 @@ creator:
     role: Design/Development
     url: https://www.cantierecreativo.net/
     twitter_username:
-image_path: /uploads/showcase/linking-art-middleman-datocms.jpg
+image: /uploads/showcase/linking-art-middleman-datocms.jpg
 ---

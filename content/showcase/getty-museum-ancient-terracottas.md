@@ -11,7 +11,7 @@ creator:
     role: 'Design/Development'
     url: 'http://egardner.github.io/'    
     twitter_username:
-image_path: /uploads/getty-museum-ancient-terracottas-1600.jpg
+image: /uploads/getty-museum-ancient-terracottas-1600.jpg
 ---
 
 

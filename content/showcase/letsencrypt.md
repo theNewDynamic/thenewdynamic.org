@@ -10,5 +10,5 @@ creator:
     role: 'Development'
     url: https://github.com/bep
     twitter_username: bepsays
-image_path: /uploads/showcase/letsencrypt.jpg
+image: /uploads/showcase/letsencrypt.jpg
 ---

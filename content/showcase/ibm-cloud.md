@@ -10,7 +10,7 @@ creator:
     role: 'Design/Development'
     url:    
     twitter_username:
-image_path: /uploads/showcase/ibm-cloud-800px.png
+image: /uploads/showcase/ibm-cloud-800px.png
 ---
 
 

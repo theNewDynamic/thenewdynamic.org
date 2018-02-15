@@ -9,7 +9,7 @@ creator:
     role: 'Design/Development'
     url: https://www.hillaryclinton.com/page/tech/    
     twitter_username:
-image_path: /uploads/showcase/hillaryclinton.png
+image: /uploads/showcase/hillaryclinton.png
 ---
 
 

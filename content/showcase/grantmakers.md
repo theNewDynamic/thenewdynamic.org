@@ -11,7 +11,7 @@ creator:
     role: 'Design/Development'
     url: https://smartergiving.org/
     twitter_username: smartergiving
-image_path: /uploads/showcase/grantmakers.jpg
+image: /uploads/showcase/grantmakers.jpg
 ---
 
 > My intention with [Grantmakers.io](https://www.grantmakers.io/) is to simply

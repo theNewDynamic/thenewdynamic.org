@@ -12,5 +12,5 @@ creator:
     role: 'Design/Development'
     url: http://www.cityofsydney.nsw.gov.au/
     twitter_username: cityofsydney
-image_path: /uploads/showcase/artandabout-jekyll.jpg
+image: /uploads/showcase/artandabout-jekyll.jpg
 ---
