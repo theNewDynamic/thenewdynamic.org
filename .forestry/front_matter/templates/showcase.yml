@@ -62,9 +62,6 @@ fields:
   type: text
   hidden: false
   default: "/uploads/showcase/"
-- name: images
-  label: Images
-  type: list
-  hidden: false
-  default:
-  - "/uploads/showcase/"
+- type: file
+  name: image
+  label: Image
