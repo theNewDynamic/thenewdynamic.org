@@ -57,11 +57,6 @@ fields:
     role: Design/Development
     url: 
     twitter_username: 
-- name: image_path
-  label: Image path
-  type: text
-  hidden: false
-  default: "/uploads/showcase/"
 - type: file
   name: image
   label: Image
