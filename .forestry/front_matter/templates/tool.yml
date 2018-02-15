@@ -28,6 +28,9 @@ fields:
     - interaction
     - static-site-generator
     - theme
+- type: tag_list
+  name: tags
+  label: Tags
 - type: field_group
   name: urls
   label: URLS
