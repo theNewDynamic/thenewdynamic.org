@@ -5,7 +5,7 @@ body_file_url_template: "/images/"
 new_page_extension: md
 auto_deploy: false
 admin_path: admin
-webhook_url: 
+webhook_url:
 sections:
   article:
     default_front_matter_template: article
@@ -15,4 +15,6 @@ sections:
     default_front_matter_template: event
   review:
     default_front_matter_template: review
+  review:
+    default_front_matter_template: tool
 version: '0.26'
