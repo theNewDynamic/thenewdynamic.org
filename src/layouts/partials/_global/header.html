@@ -1,22 +1,22 @@
 {{ $currentPage := . }}
-
 <header class="mb-8">
   <div class="pb3 ">
     {{- partial "_global/navigation.html" . -}}
     <div class="pb-6 pt-4  px-3 lg:px-4 bg-grey-lighter">
-      <h1 class="font-brand dib-ns text-4xl lh-title text-grey-dark ma0">
-        {{if eq .Kind "taxonomy"}}
-          {{$section_heading := .Site.GetPage "taxonomy" .Section }}
-          {{with $section_heading}}{{- .Title -}}: {{end}}
-        {{end}}
-        {{- $.Title -}}
-      </span>
-      </h1>
-      {{- with .Params.description -}}
-        <h2 class="dib-ns text-lg lh-copy text-grey-darker measure-wide-l pl4">
-          {{- . -}}
-        </h2>
-      {{- end -}}
+      <div class="max-w-5xl mx-auto">
+        <h1 class="font-brand dib-ns text-4xl lh-title text-grey-dark ma0">
+          {{if eq .Kind "taxonomy"}}
+            {{$section_heading := .Site.GetPage "taxonomy" .Section }}
+            {{with $section_heading}}{{- .Title -}}: {{end}}
+          {{end}}
+          {{- $.Title -}}
+        </h1>
+        {{- with .Params.description -}}
+          <h2 class="dib-ns text-lg lh-copy text-grey-darker measure-wide-l pl4">
+            {{- . -}}
+          </h2>
+        {{- end -}}
+      </div>
     </div>
   </div>
 </header>
