@@ -1,7 +1,4 @@
 ---
-pages:
-- tool/test2.md
-- tool/test.md
 hide_body: false
 fields:
 - type: text
@@ -15,7 +12,7 @@ fields:
   label: Date
   description: Date added to the database
 - type: list
-  label: Tools
+  label: Tool Type
   name: tools
   config:
     use_select: true
@@ -31,9 +28,9 @@ fields:
     - interaction
     - static-site-generator
     - theme
-- type: field_group_list
+- type: field_group
   name: urls
-  label: URLs
+  label: URLS
   fields:
   - type: text
     name: website
@@ -44,6 +41,9 @@ fields:
   - type: text
     name: twitter
     label: Twitter
+  - type: text
+    name: other
+    label: Other
 - type: field_group_list
   name: resources
   label: Resources
