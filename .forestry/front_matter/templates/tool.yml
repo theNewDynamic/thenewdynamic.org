@@ -1,0 +1,56 @@
+---
+pages:
+- tool/test2.md
+- tool/test.md
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: Title
+- type: textarea
+  name: description
+  label: Description
+- type: datetime
+  name: date
+  label: Date
+  description: Date added to the database
+- type: list
+  label: Tools
+  name: tools
+  config:
+    use_select: true
+    source:
+      type: simple
+      section: tools
+    options:
+    - content-management
+    - build-tool
+    - headless-cms
+    - helper
+    - hosting-deployment
+    - interaction
+    - static-site-generator
+    - theme
+- type: field_group_list
+  name: urls
+  label: URLs
+  fields:
+  - type: text
+    name: website
+    label: Website
+  - type: text
+    name: github
+    label: Github
+  - type: text
+    name: twitter
+    label: Twitter
+- type: field_group_list
+  name: resources
+  label: Resources
+  fields:
+  - type: text
+    name: name
+    label: Name
+  - type: text
+    name: url
+    label: URL
