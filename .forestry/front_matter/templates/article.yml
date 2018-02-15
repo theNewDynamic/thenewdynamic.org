@@ -1,0 +1,23 @@
+---
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: Title
+- type: datetime
+  name: date
+  label: Date
+- type: textarea
+  name: description
+  label: Description
+- type: text
+  name: link
+  label: Link
+- type: list
+  name: tool
+  label: Related Tool
+  config:
+    use_select: true
+    source:
+      type: pages
+      section: tool
