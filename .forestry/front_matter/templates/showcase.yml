@@ -6,6 +6,7 @@ fields:
   type: text
   hidden: false
   default: ''
+  description: Use the resource name, e.g. example.com
 - type: datetime
   name: date
   label: Date
