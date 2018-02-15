@@ -8,7 +8,6 @@ tool:
 - tool/jekyll.md
 video: false
 category: ''
-draft: true
 
 ---
 # 
