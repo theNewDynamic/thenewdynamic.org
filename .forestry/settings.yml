@@ -10,7 +10,7 @@ sections:
   tools:
     default_front_matter_template: tools
   tool:
-    default_front_matter_template: tools
+    default_front_matter_template: tool
   event:
     default_front_matter_template: event
 version: 0.31.1
