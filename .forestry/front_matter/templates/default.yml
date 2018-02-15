@@ -6,11 +6,9 @@ fields:
   type: datetime
   hidden: false
   default: 
-- name: tags
-  label: Tags
-  type: text
-  hidden: false
-  default: 
+- type: textarea
+  name: description
+  label: Description
 - name: images
   label: Images
   type: text
