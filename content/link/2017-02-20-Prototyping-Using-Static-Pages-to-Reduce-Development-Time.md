@@ -5,8 +5,8 @@ date: 2017-03-02 14:12:00 +0000
 link: https://marsbased.com/blog/2017/02/20/agile-prototyping-using-static-pages-to-reduce-development-times/
 type: Tutorial
 tool:
-  - middleman
-  - jekyll
+  - tool/middleman.md
+  - tool/jekyll.md
 ---
 In this blog entry, we will give you more technical insight on how we prototype using static pages at MarsBased.
 

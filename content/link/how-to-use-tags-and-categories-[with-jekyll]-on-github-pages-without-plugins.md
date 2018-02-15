@@ -8,7 +8,7 @@ slug: links/how-to-use-tags-and-categories-with-jekyll-on-github-pages-without-p
 source: "@minddust"
 link: http://www.minddust.com/post/tags-and-categories-on-github-pages/
 tool:
-  - jekyll
+  - tool/jekyll.md
 ---
 
 

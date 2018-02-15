@@ -8,9 +8,9 @@ slug: links/cms-functionality-for-static-site-generators
 source: Contentful
 link: https://www.contentful.com/r/knowledgebase/contentful-api-cms-static-site-generators/
 tool:
-  - middleman
-  - metalsmith
-  - roots
+  - tool/middleman.md
+  - tool/metalsmith.md
+  - tool/roots.md
 ---
 Why on earth would I ever want my CMS back...
 

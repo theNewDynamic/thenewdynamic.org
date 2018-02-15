@@ -8,10 +8,6 @@ slug: links/build-a-better-blog-with-a-static-site-generator
 source: Jeff Ammons, Pluralsight
 link: https://www.pluralsight.com/courses/static-site-generator-build-better-blog/
 tool:
-  - hexo
-  - docpad
+  - tool/hexo.md
+  - tool/docpad.md
 ---
-
-
-
-

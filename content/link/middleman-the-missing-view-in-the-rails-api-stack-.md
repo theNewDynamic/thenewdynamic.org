@@ -9,5 +9,5 @@ source: Brad Gessler at RailsConf 2014
 link: https://youtu.be/-q_oUyEHiEw
 video: https://youtu.be/-q_oUyEHiEw
 tool:
-  - middleman
+  - tool/middleman.md
 ---

@@ -8,7 +8,7 @@ slug: links/getting-to-know-metalsmith
 source: Robin Thrift
 link: http://www.robinthrift.com/posts/getting-to-know-metalsmith/
 tool:
-  - metalsmith
+  - tool/metalsmith.md
 ---
 First in a series of tutorials on Metalsmith.io
 

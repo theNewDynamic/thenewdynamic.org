@@ -5,7 +5,7 @@ date: 2016-08-17 14:11:00 +0000
 link: https://www.sitepoint.com/setting-up-a-living-styleguide-in-jekyll/
 type: Tutorial
 tool:
-  - jekyll
+  - tool/jekyll.md
 ---
 I was recently working on a small Jekyll project and wanted to see whether it would be possible to have a very component-ized approach driven by a styleguide, despite the fact that Liquid (the template engine behind Jekyll) is not meant to do that.
 

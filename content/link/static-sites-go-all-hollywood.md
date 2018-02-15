@@ -8,11 +8,11 @@ slug: links/static-sites-go-all-hollywood
 source: Phil Hawksworth
 link: https://speakerdeck.com/philhawksworth/static-sites-go-all-hollywood/
 tool:
-  - jekyll
-  - contentful
-  - roots
-  - netlify
-  - hugo
+  - tool/jekyll.md
+  - tool/contentful.md
+  - tool/roots.md
+  - tool/netlify.md
+  - tool/hugo.md
 ---
 The popularity of building web sites with static site generators is on the rise. Their reduced complexity, easier compliance, cheaper hosting, and other benefits are getting people’s attention, but they do have limits.
 

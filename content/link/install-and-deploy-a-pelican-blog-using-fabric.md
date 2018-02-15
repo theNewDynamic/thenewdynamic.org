@@ -8,6 +8,6 @@ slug: links/install-and-deploy-a-pelican-blog-using-fabric
 source: osteel&#39;s blog
 link: http://blog.osteel.me/posts/2015/02/24/install-and-deploy-a-pelican-blog-using-fabric-part-1-local-environment.html
 tool:
-  - pelican
+  - tool/pelican.md
 ---
 First in a series

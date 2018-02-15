@@ -8,6 +8,6 @@ slug: links/jekyll-town-hall-feb-2015
 source: Jekyll
 link: https://www.youtube.com/watch?v=sRCXRkUVAag
 tool:
-  - jekyll
+  - tool/jekyll.md
 ---
 The first Townhall

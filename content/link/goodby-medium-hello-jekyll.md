@@ -8,5 +8,5 @@ slug: links/5-reasons-you-should-use-jekyll
 source: CloudCannon
 link: 'http://cloudcannon.com/jekyll/2015/03/04/5-reasons-you-should-use-jekyll.html'
 tool:
-  - jekyll
+  - tool/jekyll.md
 ---

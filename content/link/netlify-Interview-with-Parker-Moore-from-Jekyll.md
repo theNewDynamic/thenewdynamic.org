@@ -5,7 +5,7 @@ date: 2016-03-14 12:46:00 +0000
 link: https://www.netlify.com/blog/2016/03/11/interview-with-parker-moore-from-jekyll/
 type: Article
 tool:
-  - jekyll
+  - tool/jekyll.md
 ---
 I’m a software engineer at GitHub, where I help build GitHub Pages. My work also includes maintaining Jekyll and helping grow the community surrounding the project.
 

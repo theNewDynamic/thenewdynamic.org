@@ -5,7 +5,7 @@ date: 2017-08-07 08:19:00 +0000
 link: https://www.youtube.com/watch?v=b2H7fWhQcdE
 type: Tutorial
 tool:
-  - gatsby
+  - tool/gatsby.md
 ---
 
 Enjoy all the power of the latest web technologies. React.js, webpack, modern JavaScript and CSS and more are all setup and waiting for you to install and start building.

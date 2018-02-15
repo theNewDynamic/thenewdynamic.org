@@ -8,7 +8,7 @@ slug: links/wordpress-to-jekyll-exporter
 source: Ben Balter
 link: https://wordpress.org/plugins/jekyll-exporter/
 tool:
-  - jekyll
+  - tool/jekyll.md
 ---
 Produces markdown files, so can be used with any static site generator
 

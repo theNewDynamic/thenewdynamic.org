@@ -8,7 +8,7 @@ slug: links/how-to-use-the-harpjs-static-site-generator
 source: Matt Lambert
 link: http://mattlambert.ca/blog/how-to-use-the-harp-js-static-site-generator/
 tool:
-  - harp
+  - tool/harp.md
 ---
 
 

@@ -8,8 +8,8 @@ slug: links/the-changelog-162-octopress-30-with-brandon-mathis
 source: The Changelog
 link: https://changelog.com/162/
 tool:
-  - octopress
-  - jekyll
+  - tool/octopress.md
+  - tool/jekyll.md
 ---
 This week Brandon Mathis joins the show to tell us all about the much anticipated 3.0 release of Octopress, his Jekyll-based blogging framework for hackers.
 

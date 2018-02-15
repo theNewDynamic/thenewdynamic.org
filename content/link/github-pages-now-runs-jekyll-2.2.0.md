@@ -8,7 +8,7 @@ slug: links/github-pages-now-runs-jekyll-220
 source: Github
 link: https://github.com/blog/1867-github-pages-now-runs-jekyll-2-2-0/
 tool:
-  - jekyll
+  - tool/jekyll.md
 ---
 Long awaited upgrade to GH-Pages to run the post 2.x Jeyll
 

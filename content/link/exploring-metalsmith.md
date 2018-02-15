@@ -8,7 +8,7 @@ slug: links/exploring-metalsmith
 source: Ollie Edwards
 link: http://www.abm.io/implementing-a-metalsmith-plugin/
 tool:
-  - metalsmith
+  - tool/metalsmith.md
 ---
 Making a Metalsmith.io plugin
 

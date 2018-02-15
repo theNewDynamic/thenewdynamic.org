@@ -8,7 +8,7 @@ slug: links/some-advanced-jekyllliquid-template-techniques
 source: Brian Rinaldi, Remote Synthesis
 link: http://remotesynthesis.com/general/2015/10/02/advanced-jekyll-templates
 tool:
-  - jekyll
+  - tool/jekyll.md
 ---
 
 

@@ -8,7 +8,7 @@ slug: links/creating-static-sites-with-metalsmith
 source: Peter Morlion
 link: http://www.petermorlion.com/creating-static-sites-with-metalsmith/
 tool:
-  - metalsmith
+  - tool/metalsmith.md
 ---
 
 

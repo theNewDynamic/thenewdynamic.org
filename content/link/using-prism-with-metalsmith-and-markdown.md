@@ -8,7 +8,7 @@ slug: links/using-prism-with-metalsmith-and-markdown
 source: Glen Cheney
 link: https://glen.codes/using-prism-with-metalsmith-and-markdown/
 tool:
-  - metalsmith
+  - tool/metalsmith.md
 ---
 
 

@@ -8,6 +8,6 @@ slug: links/getting-started-with-jekyll-the-static-site-generator
 source: Travis Neilson
 link: https://www.youtube.com/watch?v=iWowJBRMtpc
 tool:
-  - jekyll
+  - tool/jekyll.md
 ---
 Travis Neilson goes through the process of setting up a local Jekyll Installation and gives us a tour of the working parts and how to use Jekyll.

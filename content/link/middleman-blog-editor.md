@@ -8,10 +8,7 @@ slug: links/middleman-blog-editor
 source: Thomas Reynolds
 link: http://middleman-blog-editor.awardwinningfjords.com/
 tool:
-  - middleman
-  - middleman-blog-editor
+  - tool/middleman.md
+  - tool/middleman-blog-editor.md
 ---
 Current cost: $12.00. Note that it does not appear to have image uploading capabilities
-
-
-

@@ -5,7 +5,7 @@ link: http://justindunham.net/blog-bells-and-whistles-in-hugo/
 type: Tutorial
 source: Justin Dunham
 tool:
- - hugo
+ - tool/hugo.md
 ---
 First in a series
 

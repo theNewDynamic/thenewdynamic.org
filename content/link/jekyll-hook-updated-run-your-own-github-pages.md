@@ -8,7 +8,7 @@ slug: links/jekyll-hook-updated-run-your-own-github-pages
 source: Development Seed
 link: https://developmentseed.org/blog/2014/07/23/jekyll-hook/
 tool:
-  - jekyll
+  - tool/jekyll.md
 ---
 Jekyll-hook is a Node-js server that can build a Jekyll site whenever a commit is pushed to a GitHub repository. Use it instead of GitHub Pages when you need to host a site on your own infrastructure
 

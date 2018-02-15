@@ -8,11 +8,7 @@ slug: links/blogging-straight-from-proseio
 source: Rowan, NetEngine.com
 link: http://netengine.com.au/blog/blogging-straight-from-prose-io/
 tool:
-  - middleman
-  - proseio
-  - github-pages
+  - tool/middleman.md
+  - tool/proseio.md
+  - tool/github-pages.md
 ---
-
-
-
-

@@ -6,7 +6,7 @@ type: Tutorial
 source: Ricky Smith
 link: "https://www.ricky-dev.com/code/2017/01/automating-jekyll-deployment-to-s3-using-circleci/"
 tool:
-  - jekyll
-  - circleci
+  - tool/jekyll.md
+  - tool/circleci.md
 ---
 I’ll guide you through the configuration steps I’ve taken to get my site automatically deploying to S3 (hosted by CloudFront) using CircleCI whenever you push to your master branch.

@@ -8,7 +8,7 @@ slug: links/automated-deployment-of-jekyll-projects-to-github-pages-using-kickst
 source: Nielsen Ramon
 link: https://medium.com/@nielsenramon/automated-deployment-of-jekyll-projects-to-github-pages-using-kickster-and-circle-ci-6ccc0b6cb872/
 tool:
-  - jekyll
+  - tool/jekyll.md
 ---
 I am a huge Jekyll fan, I used it for over 30 projects (or I like to think so) and it’s still my favorite static site generator. Over the past years I collected best practices and set up a project template that helps me [kickstart](http://kickster.nielsenramon.com/) my new projects faster.
 

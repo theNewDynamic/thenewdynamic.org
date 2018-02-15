@@ -9,5 +9,5 @@ source: StaticWebTech
 video: https://youtu.be/sPZK8w55cBQ
 link: http://www.staticwebtech.com/presentations/launching-jekyll-3.0/
 tool:
-  - jekyll
+  - tool/jekyll.md
 ---

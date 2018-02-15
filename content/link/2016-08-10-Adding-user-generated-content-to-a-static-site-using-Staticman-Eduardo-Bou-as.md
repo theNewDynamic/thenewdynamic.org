@@ -6,12 +6,7 @@ link: https://eduardoboucas.com/blog/2016/08/10/staticman.html
 type: Article
 category: essentials
 tool:
-  - jekyll
-  - static-man
+  - tool/jekyll.md
+  - tool/static-man.md
 ---
 I’ve been really interested in finding the ideal solution to add user-generated content, such as comments on a blog post, to a static site.
-
-
-
-
-

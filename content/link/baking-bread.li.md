@@ -8,6 +8,6 @@ slug: links/baking-breadli
 source: David Darnes
 link: https://www.youtube.com/playlist?list=PLqG97mWmzNL7OFKjx0eXQpwpOaXFRM251
 tool:
-  - jekyll
+  - tool/jekyll.md
 ---
 Video series of the creation of a Jekyll-based website

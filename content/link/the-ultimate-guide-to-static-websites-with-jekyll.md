@@ -8,7 +8,7 @@ slug: links/the-ultimate-guide-to-static-websites-with-jekyll
 source: Ines Montani
 link: http://ines.io/blog/the-ultimate-guide-static-websites-jekyll/
 tool:
-  - jekyll
+  - tool/jekyll.md
 ---
 
 

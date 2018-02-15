@@ -8,7 +8,7 @@ slug: links/static-site-e-commerce-integrating-snipcart-with-middleman
 source: Snipcart
 link: https://snipcart.com/blog/static-site-e-commerce-integrating-snipcart-with-middleman/
 tool:
-  - middleman
-  - snipcart
+  - tool/middleman.md
+  - tool/snipcart.md
 ---
 Likely good for other systems too.

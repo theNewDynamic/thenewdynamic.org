@@ -5,14 +5,11 @@ date: 2016-05-17 08:07:00 +0000
 link: https://david.darn.es/2016/05/17/jekyll-conf-lightning-talk/
 type: Tutorial
 tool:
-  - jekyll
-  - disqus
-  - gumroad
+  - tool/jekyll.md
+  - tool/disqus.md
+  - tool/gumroad.md
   - simple-jekyll-search
   - formspress
 ---
 
 Jekyll Conf Lightning Talk
-
-
-

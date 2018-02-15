@@ -8,7 +8,7 @@ slug: links/static-website-with-jekyll
 source: Sylvain Durand
 link: http://sylvaindurand.org/static-website-with-jekyll/
 tool:
-  - jekyll
+  - tool/jekyll.md
 ---
 
 

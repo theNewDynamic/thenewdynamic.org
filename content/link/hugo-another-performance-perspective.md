@@ -8,7 +8,7 @@ slug: links/hugo-another-performance-perspective
 source: Fredrik Loch
 link: http://fredrikloch.me/post/another-performance-perspective/
 tool:
-  - hugo
+  - tool/hugo.md
 ---
 
 

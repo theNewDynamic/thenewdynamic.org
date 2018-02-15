@@ -8,7 +8,7 @@ slug: links/wordpress-vs-jekyll-why-you-might-want-to-switch
 source: David Turnbull, Sitepoint
 link: http://www.sitepoint.com/wordpress-vs-jekyll-might-want-make-switch/
 tool:
-  - jekyll
+  - tool/jekyll.md
 ---
 
 

@@ -6,6 +6,6 @@ link: https://www.youtube.com/watch?v=Ek4o40w1tH4
 type: Video
 video: https://www.youtube.com/watch?v=Ek4o40w1tH4
 tool:
-  - gatsby
+  - tool/gatsby.md
 ---
 In this video, I am going to take a simple getting started GatsbyJS example and transform it into a Contentful powered website.

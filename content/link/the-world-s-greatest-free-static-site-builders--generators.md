@@ -8,14 +8,14 @@ slug: links/the-worlds-greatest-free-static-site-builders-generators
 source: Vienna.html
 link: http://slideshow-s9.github.io/demos/staticgen.html#1
 tool:
-  - middleman
-  - jekyll
-  - hexo
-  - wintersmith
-  - metalsmith
-  - pelican
-  - nikola
-  - hugo
+  - tool/middleman.md
+  - tool/jekyll.md
+  - tool/hexo.md
+  - tool/wintersmith.md
+  - tool/metalsmith.md
+  - tool/pelican.md
+  - tool/nikola.md
+  - tool/hugo.md
 ---
 Presentation from the first Vienna.html Meetup
 

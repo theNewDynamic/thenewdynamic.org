@@ -7,8 +7,8 @@ tags:
 link: https://bryanklein.com/blog/hugo-site-on-gitlab/
 type: Tutorial
 tool:
-  - hugo
-  - gitlab
+  - tool/hugo.md
+  - tool/gitlab.md
 ---
 A short overview of what I did to host this Hugo-based website on Gitlab.
 

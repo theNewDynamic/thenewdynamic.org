@@ -6,8 +6,8 @@ link: https://www.raymondcamden.com/2017/02/24/an-example-of-a-static-site-with-
 type: Tutorial
 category: Essentials
 tool:
-  - jekyll
-  - hugo
+  - tool/jekyll.md
+  - tool/hugo.md
 ---
 create a simple dynamic calendar system with a static web site. 
 

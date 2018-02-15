@@ -6,7 +6,7 @@ link: https://ratson.name/blog/minify-hugo-generated-html/
 type: Tutorial
 category: performance
 tool:
-  - hugo
+  - tool/hugo.md
 ---
 Minification can be easily archived by using Gulp and some scripts. You can see the result from the source of this blog.
 

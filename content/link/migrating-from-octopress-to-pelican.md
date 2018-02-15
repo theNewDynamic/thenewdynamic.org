@@ -8,8 +8,8 @@ slug: links/migrating-from-octopress-to-pelican
 source: Jinghao Shi
 link: http://jhshi.me/2015/10/11/migrating-from-octopress-to-pelican/
 tool:
-  - pelican
-  - octopress
+  - tool/pelican.md
+  - tool/octopress.md
 ---
 
 

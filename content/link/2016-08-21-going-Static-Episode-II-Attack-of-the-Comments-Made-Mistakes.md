@@ -5,12 +5,7 @@ date: 2016-08-21 17:49:00 +0000
 link: https://mademistakes.com/articles/jekyll-static-comments/
 type: Tutorial
 tool:
-  - jekyll
-  - staticman
+  - tool/jekyll.md
+  - tool/staticman.md
 ---
 Offloading comments to an external service like Disqus1 has always felt like a necessary evil to me when building Jekyll sites.
-
-
-
-
-

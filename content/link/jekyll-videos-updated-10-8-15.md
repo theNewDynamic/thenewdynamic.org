@@ -8,6 +8,6 @@ slug: links/jekyll-videos-updated-10815
 source: Thomas Bradley
 link: https://www.youtube.com/playlist?list=PLWjCJDeWfDdfVEcLGAfdJn_HXyM4Y7_k-
 tool:
-  - jekyll
+  - tool/jekyll.md
 ---
 Playlist of Jekyll tutorials

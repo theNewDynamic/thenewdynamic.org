@@ -8,7 +8,7 @@ slug: links/healthcaregov-code-developed-by-the-people-and-for-the-people-releas
 source: The Atlantic
 link: http://www.theatlantic.com/technology/archive/2013/06/healthcaregov-code-developed-by-the-people-and-for-the-people-released-back-to-the-people/277295/
 tool:
-  - jekyll
+  - tool/jekyll.md
 ---
 
 

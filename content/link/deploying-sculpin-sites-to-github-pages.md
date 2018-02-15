@@ -8,8 +8,8 @@ slug: links/deploying-sculpin-sites-to-github-pages
 source: "@mrkrstphr"
 link: https://gist.github.com/mrkrstphr/2e79e55229b2ef7a343a
 tool:
-  - sculpin
-  - github-pages
+  - tool/sculpin.md
+  - tool/github-pages.md
 ---
 
 

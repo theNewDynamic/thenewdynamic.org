@@ -6,6 +6,6 @@ link: https://www.youtube.com/watch?v=gtqoNMmDni4
 video: https://www.youtube.com/watch?v=gtqoNMmDni4
 type: Tutorial
 tool:
-  - jekyll
+  - tool/jekyll.md
 ---
 Jekyll Walk Thru

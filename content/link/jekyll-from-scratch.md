@@ -8,7 +8,7 @@ slug: links/jekyll-from-scratch
 source: Mike Greiling
 link: http://pixelcog.com/blog/2013/jekyll-from-scratch-extending-jekyll/
 tool:
-  - jekyll
+  - tool/jekyll.md
 ---
 Helpful (pre-2.0) ideas for new Jekyll users
 

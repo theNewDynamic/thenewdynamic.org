@@ -8,7 +8,7 @@ slug: links/awesome-jekyll
 source: Gerald Bauer
 link: https://github.com/planetjekyll/awesome-jekyll/
 tool:
-  - jekyll
+  - tool/jekyll.md
 ---
 A collection of awesome Jekyll goodies (tools, templates, plugins, guides, etc.)
 

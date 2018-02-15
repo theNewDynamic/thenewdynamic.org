@@ -8,9 +8,9 @@ slug: links/when-simple-is-the-only-option
 source: Instrument
 link: http://www.instrument.com/latest/when-simple-is-the-only-option/
 tool:
-  - contentful
-  - middleman
-  - netlify-cms
+  - tool/contentful.md
+  - tool/middleman.md
+  - tool/netlify-cms.md
 ---
 
 

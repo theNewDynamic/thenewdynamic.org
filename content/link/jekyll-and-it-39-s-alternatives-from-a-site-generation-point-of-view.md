@@ -8,9 +8,9 @@ slug: links/jekyll-and-its-alternatives-from-a-site-generation-point-of-view
 source: Fredrik Loch
 link: http://fredrikloch.me/post/2014-08-12-Jekyll-and-its-alternatives-from-a-site-generation-point-of-view/
 tool:
-  - jekyll
-  - wintersmith
-  - hugo
+  - tool/jekyll.md
+  - tool/wintersmith.md
+  - tool/hugo.md
 ---
 
 

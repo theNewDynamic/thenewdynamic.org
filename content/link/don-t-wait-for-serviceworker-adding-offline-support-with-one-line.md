@@ -8,9 +8,5 @@ slug: links/dont-wait-for-serviceworker-adding-offline-support-with-one-line
 source: Dave Walsh
 link: http://davidwalsh.name/dont-wait-serviceworker-adding-offline-support-oneline/
 tool:
-  - surge
+  - tool/surge.md
 ---
-
-
-
-

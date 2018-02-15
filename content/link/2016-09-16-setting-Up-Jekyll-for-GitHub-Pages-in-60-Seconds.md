@@ -6,7 +6,7 @@ link: https://webdesign.tutsplus.com/tutorials/setting-up-jekyll-for-github-page
 type: Tutorial
 category: video
 tool:
-  - jekyll
+  - tool/jekyll.md
 ---
 Jekyll can be used with GitHub Pages to create simple, blog-aware, static websites. This video will show you how to setup the bare-bones Jekyll flat file structure in 60 seconds!
 

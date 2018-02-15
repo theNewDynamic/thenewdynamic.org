@@ -5,6 +5,6 @@ date: 2016-05-03 08:46:00 +0000
 link: https://www.digitalocean.com/community/tutorials/how-to-create-a-blog-with-hexo-on-ubuntu-14-04/
 type: Tutorial
 tool:
-  - hexo
+  - tool/hexo.md
 ---
 This tutorial will set up Hexo with deployment supported by GitHub and Nginx.

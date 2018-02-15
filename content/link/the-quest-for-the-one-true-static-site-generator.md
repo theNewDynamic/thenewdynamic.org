@@ -8,10 +8,6 @@ slug: links/the-quest-for-the-one-true-static-site-generator
 source: Jan Van Ryswyck, Elegant Code
 link: http://elegantcode.com/2015/10/10/the-quest-for-the-one-true-static-site-generator/
 tool:
-  - nanoc
-  - docpad
+  - tool/nanoc.md
+  - tool/docpad.md
 ---
-
-
-
-

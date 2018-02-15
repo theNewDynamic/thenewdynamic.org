@@ -7,8 +7,8 @@ category: essentials
 tag: performance
 type: Tutorial
 tool:
-  - hugo
-  - jekyll
+  - tool/hugo.md
+  - tool/jekyll.md
 ---
 The problem with Disqus is that this one JavaScript file you embed to your website makes about 50 requests when a page loads. And that is a lot!
 

@@ -8,9 +8,9 @@ slug: links/static-site-engine-battle-royale
 source: Brian Rinaldi
 link: http://developer.telerik.com/featured/comparing-static-site-engines/
 tool:
-  - jekyll
-  - harp
-  - roots
+  - tool/jekyll.md
+  - tool/harp.md
+  - tool/roots.md
 ---
 
 

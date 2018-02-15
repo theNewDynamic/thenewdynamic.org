@@ -8,7 +8,7 @@ slug: links/building-middleman-extensions
 source: Will Schenk
 link: http://willschenk.com/building-middleman-extensions/
 tool:
-  - middleman
+  - tool/middleman.md
 ---
 For more, see [Middleman Tricks and Hacks](http://willschenk.com/middleman-tricks-and-hacks/) on Will’s site
 

@@ -8,9 +8,9 @@ slug: links/proteus-static-site-starter-kits
 source: Thoughtbot
 link: http://thoughtbot.github.io/proteus/
 tool:
-  - jekyll
-  - middleman
-  - gulp
+  - tool/jekyll.md
+  - tool/middleman.md
+  - tool/gulp.md
 ---
 Proteus is a collection of useful starter kits to help you launch your static site or prototype faster. They follow the thoughtbot styleguide and include thoughtbot front end tools
 

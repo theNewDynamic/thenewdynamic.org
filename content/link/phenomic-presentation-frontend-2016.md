@@ -7,5 +7,5 @@ category: video
 source: "Maxime Thirouin, AtTheFrontend 2016"
 link: https://www.youtube.com/watch?v=WWPkj72Nn6s
 tool:
-  - phenomic
+  - tool/phenomic.md
 ---

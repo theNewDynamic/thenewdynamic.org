@@ -6,7 +6,7 @@ link: https://www.youtube.com/watch?v=-io8EeB3GHI
 type: Tutorial
 category: video
 tool:
-  - middleman 
+  - tool/middleman.md 
 ---
 Use the Middleman v4 external pipeline with Gulp Starter
 

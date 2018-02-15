@@ -8,7 +8,7 @@ slug: links/jekyll-quick-reference-cheat-sheet
 source: planetjekyll
 link: https://github.com/planetjekyll/quickrefs/blob/master/jekyll.md
 tool:
-  - jekyll
+  - tool/jekyll.md
 ---
 
 

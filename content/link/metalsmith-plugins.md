@@ -8,7 +8,7 @@ slug: links/metalsmith-plugins
 source: Andrew Goodricke
 link: http://www.andrewgoodricke.com/posts/2015-07-23_metalsmith_plugins.html
 tool:
-  - metalsmith
+  - tool/metalsmith.md
 ---
 Getting the most out of Metalsmith
 

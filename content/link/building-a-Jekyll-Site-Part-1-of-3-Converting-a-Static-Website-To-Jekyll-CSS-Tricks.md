@@ -5,8 +5,8 @@ date: 2016-02-09 23:40:00 +0000
 link: https://css-tricks.com/building-a-jekyll-site-part-1-of-3/
 type: Tutorial
 tool:
-  - jekyll
-  - cloudcannon
+  - tool/jekyll.md
+  - tool/cloudcannon.md
 ---
 Static site generators are no longer just a tool for developers' personal blogs. Many companies are turning to static technology for public facing websites, including Netflix, GitHub and Atlassian.
 

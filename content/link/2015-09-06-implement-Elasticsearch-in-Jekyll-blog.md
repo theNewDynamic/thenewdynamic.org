@@ -6,7 +6,7 @@ link: https://botleg.com/stories/implement-elasticsearch-in-jekyll-blog/
 type: Tutorial
 tags: search
 tool:
-  - jekyll
+  - tool/jekyll.md
 ---
 We can use Elasticsearch to index the blog posts and it can then be searched efficently. In this article, we will see how to implement Elasticsearch based searching to a Jekyll blog.
 

@@ -8,7 +8,7 @@ slug: links/writing-your-first-metalsmith-plugin
 source: Peter Morlion
 link: http://www.petermorlion.com/writing-your-first-metalsmith-plugin/
 tool:
-  - metalsmith
+  - tool/metalsmith.md
 ---
 At a certain point in time, you're likely to need something that nobody has written a Metalsmith plugin for yet. This is probably more true now, when it's still quite early days for Metalsmith.
 

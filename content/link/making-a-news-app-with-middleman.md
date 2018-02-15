@@ -9,6 +9,6 @@ source: Cindy Royal
 link: https://www.youtube.com/watch?v=KEWtdYm6hhY
 video: https://www.youtube.com/watch?v=KEWtdYm6hhY
 tool:
-  - middleman
+  - tool/middleman.md
 ---
 This will walk you through the process of building an editorial app using middleman. [repo](https://github.com/cindyroyal/top_albums)

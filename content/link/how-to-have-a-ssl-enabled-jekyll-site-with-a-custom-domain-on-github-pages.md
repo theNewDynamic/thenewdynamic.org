@@ -8,11 +8,7 @@ slug: links/how-to-have-a-ssl-enabled-jekyll-site-with-a-custom-domain-on-github
 source: Jan Betzing
 link: https://rck.ms/jekyll-github-pages-custom-domain-gandi-https-ssl-cloudflare/
 tool:
-  - github-pages
-  - cloudflare
-  - jekyll
+  - tool/github-pages.md
+  - tool/cloudflare.md
+  - tool/jekyll.md
 ---
-
-
-
-

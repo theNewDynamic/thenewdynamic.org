@@ -5,8 +5,8 @@ date: 2016-07-25 09:45:00 +0000
 link: http://davideglin.co.uk/on/code/roots-gitlab-and-forge-static-site-process.html
 type: Tutorial
 tool:
-  - roots
-  - forge
+  - tool/roots.md
+  - tool/forge.md
 ---
 
 

@@ -9,8 +9,8 @@ slug: links/why-weworkcom-uses-a-static-generator-and-why-you-should-too
 source: Ramin Bozorgzadeh, WeWork
 link: http://engineering.wework.com/engineering/2015/12/08/why-wework-com-uses-a-static-generator-and-why-you-should-too/
 tool:
-  - roots
-  - netlify
+  - tool/roots.md
+  - tool/netlify.md
 ---
 
 

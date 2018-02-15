@@ -8,7 +8,7 @@ slug: links/proseio-the-markdown-editor-for-githubjekyll-looking-for-a-new-maint
 source: Development Seed
 link: https://github.com/prose/prose/issues/743
 tool:
-  - jekyll
+  - tool/jekyll.md
 ---
 
 

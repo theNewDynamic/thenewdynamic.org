@@ -5,7 +5,7 @@ date: 2016-09-29 21:33:00 +0000
 link: https://neustadt.fr/essays/crafting-a-simple-blog-with-metalsmith/
 type: Tutorial
 tool:
-  - metalsmith 
+  - tool/metalsmith.md 
 ---
 Neustadt.fr is built with Metalsmith, a node.js-based static site generator. In this tutorial, I explain how you can build your own Metalsmith blog from scratch.
 

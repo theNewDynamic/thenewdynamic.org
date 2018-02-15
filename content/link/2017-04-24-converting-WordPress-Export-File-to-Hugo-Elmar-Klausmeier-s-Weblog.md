@@ -6,7 +6,7 @@ tags: resource
 link: https://eklausmeier.wordpress.com/2017/04/24/converting-wordpress-export-file-to-hugo/
 type: Tutorial
 tool:
-  - hugo
+  - tool/hugo.md
 ---
 > I have written on the Hugo static site generator here. Now I have written a migration program in the Go programming language to convert from WordPress export format to Hugo format.
 

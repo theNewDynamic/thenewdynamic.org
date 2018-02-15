@@ -7,6 +7,6 @@ type: Tutorial
 source: Snipcart
 link: https://snipcart.com/blog/static-site-e-commerce-integrating-snipcart-with-middleman?utm_content=buffer44ba6&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
 tool:
-  - middleman
-  - snipcart
+  - tool/middleman.md
+  - tool/snipcart.md
 ---

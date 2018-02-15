@@ -8,7 +8,7 @@ slug: links/video-forging-static-sites-with-metalsmith
 source: David Boyer at CodeNode, London
 link: https://skillsmatter.com/skillscasts/6757-forging-static-sites-with-metalsmith#showModal?modal-signup-complete/
 tool:
-  - metalsmith
+  - tool/metalsmith.md
 ---
 Requires log-in Also see [slides](https://slidr.io/misterdai/static-site-generation-using-metalsmith#1) [code](https://github.com/misterdai/metalsmith-examples)
 

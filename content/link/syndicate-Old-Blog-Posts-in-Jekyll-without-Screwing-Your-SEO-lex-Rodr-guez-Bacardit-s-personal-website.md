@@ -6,7 +6,7 @@ link: http://www.alexrodba.com/2016/04/19/Syndicate-Old-Blog-Posts-in-Jekyll-Wit
 type: Tutorial
 tags: seo
 tool:
-  - jekyll 
+  - tool/jekyll.md 
 ---
 What’s the best way to avoid being penalised for duplicating content? Obviously, it is not duplicating content if you want to play it 100% safe. However, if you really need to do it and are a little adventurous yourself, then follow me.
 

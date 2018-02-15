@@ -5,7 +5,7 @@ date: 2016-02-25 09:01:00 +0000
 link: http://arcath.net/2016/02/25/using-jekyll-atom-from-start-to-finish.html
 type: Tutorial
 tool:
-  - jekyll
+  - tool/jekyll.md
 ---
 Jekyll-Atom is my Atom package for working with Jekyll.
 

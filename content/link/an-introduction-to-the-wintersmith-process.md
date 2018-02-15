@@ -8,9 +8,6 @@ slug: links/an-introduction-to-the-wintersmith-process
 source: David Tucker
 link: http://davidtucker.net/articles/introduction-to-wintersmith/
 tool:
-  - wintersmith
+  - tool/wintersmith.md
 ---
 Part II in a series
-
-
-

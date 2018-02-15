@@ -5,8 +5,8 @@ date: 2016-02-11 21:10:00 +0000
 link: https://css-tricks.com/building-a-jekyll-site-part-3-of-3/
 type: Tutorial
 tool:
-  - jekyll
-  - firebase
+  - tool/jekyll.md
+  - tool/firebase.md
 ---
 In this series, we're building a site with a blog and content management system for Coffee Cafe, a fictional cafe. This final post is about building a custom commenting system with Firebase.
 

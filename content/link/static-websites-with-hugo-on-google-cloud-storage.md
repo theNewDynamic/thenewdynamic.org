@@ -8,10 +8,6 @@ slug: links/static-websites-with-hugo-on-google-cloud-storage
 source: Moxie Input/Output
 link: http://www.moxie.io/post/static-websites-with-hugo-on-google-cloud-storage/
 tool:
-  - hugo
-  - google-cloud-storage
+  - tool/hugo.md
+  - tool/google-cloud-storage.md
 ---
-
-
-
-

@@ -8,5 +8,5 @@ slug: links/getting-started-with-jekyll
 source: Brian Rinaldi, Telerik Developer Network
 link: http://developer.telerik.com/featured/getting-started-with-jekyll/
 tool:
-  - jekyll
+  - tool/jekyll.md
 ---

@@ -7,7 +7,7 @@ type: Resource/Website
 source: Andy Jiang (lambtron), Segment
 link: https://github.com/lambtron/awesome-metalsmith/
 tool:
-  - metalsmith
+  - tool/metalsmith.md
 ---
 
 

@@ -8,7 +8,7 @@ slug: links/jekyll-3-the-road-ahead
 source: Parker Moore
 link: https://byparker.com/blog/2014/jekyll-3-the-road-ahead/
 tool:
-  - jekyll
+  - tool/jekyll.md
 ---
 “With Jekyll 3.0, I want to take Jekyll back to its roots: simplicity, extensibility, and speed.”
 

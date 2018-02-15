@@ -8,14 +8,10 @@ slug: links/6-static-blog-generators-that-arent-jekyll
 source: David Turnbull, Sitepoint
 link: http://www.sitepoint.com/6-static-blog-generators-arent-jekyll/
 tool:
-  - middleman
-  - hugo
-  - hexo
-  - pelican
-  - metalsmith
-  - octopress
+  - tool/middleman.md
+  - tool/hugo.md
+  - tool/hexo.md
+  - tool/pelican.md
+  - tool/metalsmith.md
+  - tool/octopress.md
 ---
-
-
-
-

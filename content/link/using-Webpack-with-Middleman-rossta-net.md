@@ -5,7 +5,7 @@ date: 2016-04-18 23:39:00 +0000
 link: https://rossta.net/blog/using-webpack-with-middleman.html
 type: Tutorial
 tool:
-  - middleman
+  - tool/middleman.md
 ---
 Ditch Sprockets and embrace the external pipeline
 

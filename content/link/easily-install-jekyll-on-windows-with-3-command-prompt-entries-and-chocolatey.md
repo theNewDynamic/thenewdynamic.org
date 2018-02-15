@@ -5,7 +5,7 @@ type: Tutorial
 source: David Burela
 link: https://davidburela.wordpress.com/2015/11/28/easily-install-jekyll-on-windows-with-3-command-prompt-entries-and-chocolatey/
 tool:
-  - jekyll
+  - tool/jekyll.md
 ---
 
 

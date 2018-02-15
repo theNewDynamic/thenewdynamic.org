@@ -8,7 +8,7 @@ slug: links/creating-sustainable-documentation-with-jekyll
 source: SendGrid
 link: https://sendgrid.com/blog/creating-sustainable-documentation-with-jekyll/
 tool:
-  - jekyll
+  - tool/jekyll.md
 ---
 
 

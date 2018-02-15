@@ -9,5 +9,5 @@ source: James Stone @ Static Web Tech Meetup
 link: http://www.staticwebtech.com/presentations/wordpress-to-middleman/
 video: https://youtu.be/yGJh6K099xE
 tool:
-  - middleman
+  - tool/middleman.md
 ---

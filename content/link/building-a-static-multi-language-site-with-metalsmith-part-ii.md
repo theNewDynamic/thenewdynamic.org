@@ -8,7 +8,7 @@ slug: links/building-a-static-multi-language-site-with-metalsmith-part-ii
 source: "Belén Albeza"
 link: http://belenalbeza.com/building-a-static-multi-language-site-with-metalsmith-part-ii/
 tool:
-  - metalsmith
+  - tool/metalsmith.md
 ---
 
 

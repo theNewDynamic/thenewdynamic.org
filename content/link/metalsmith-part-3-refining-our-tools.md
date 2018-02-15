@@ -8,7 +8,7 @@ slug: links/metalsmith-part-3-refining-our-tools
 source: Robin Thrift
 link: http://www.robinthrift.com/posts/metalsmith-part-3-refining-our-tools/
 tool:
-  - metalsmith
+  - tool/metalsmith.md
 ---
 Refine our script and even develop our own little plugin.
 

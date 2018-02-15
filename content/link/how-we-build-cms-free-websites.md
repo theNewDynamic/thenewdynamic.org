@@ -9,7 +9,7 @@ slug: links/how-we-build-cms-free-websites
 source: Dave Cole, Development Seed
 link: https://developmentseed.org/blog/2012/07/27/build-cms-free-websites/
 tool:
-  - jekyll
+  - tool/jekyll.md
 ---
 
 

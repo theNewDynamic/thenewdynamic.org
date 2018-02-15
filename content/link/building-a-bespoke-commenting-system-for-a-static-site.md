@@ -8,7 +8,7 @@ slug: links/building-a-bespoke-commenting-system-for-a-static-site
 source: Eduardo Boucas
 link: https://eduardoboucas.com/blog/2014/12/14/building-a-bespoke-commenting-system-for-a-static-site.html
 tool:
-  - jekyll
+  - tool/jekyll.md
 ---
 Using Poole and a PHP middleman to create a Markdown-compatible commenting system for Jekyll
 

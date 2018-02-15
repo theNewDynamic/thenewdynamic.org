@@ -8,7 +8,7 @@ slug: links/simple-websites-with-jekyll-and-docker
 source: Josh Habdas
 link: http://habd.as/simple-websites-jekyll-docker/
 tool:
-  - jekyll
+  - tool/jekyll.md
 ---
 
 

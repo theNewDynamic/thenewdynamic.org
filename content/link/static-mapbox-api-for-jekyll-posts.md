@@ -5,7 +5,7 @@ date: 2014-07-26 22:26:00 +0000
 link: http://katydecorah.com/code/static-mapbox-for-jekyll/
 type: Tutorial
 tool:
-  - jekyll
+  - tool/jekyll.md
 ---
 
 

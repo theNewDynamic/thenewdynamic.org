@@ -8,9 +8,9 @@ slug: links/static-site-samples
 source: Brian Rinaldi
 link: https://github.com/remotesynth/Static-Site-Samples
 tool:
-  - jekyll
-  - harp
-  - middleman
-  - wintersmith
+  - tool/jekyll.md
+  - tool/harp.md
+  - tool/middleman.md
+  - tool/wintersmith.md
 ---
 A collection of simple sites built with various static site engines

@@ -8,7 +8,7 @@ slug: links/operation-disassemble-diversify
 source: DocPad
 link: https://github.com/docpad/docpad/issues/821
 tool:
-  - docpad
+  - tool/docpad.md
 ---
 The future of DocPad
 

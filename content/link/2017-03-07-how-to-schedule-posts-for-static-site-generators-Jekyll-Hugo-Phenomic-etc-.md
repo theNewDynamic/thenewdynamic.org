@@ -5,12 +5,12 @@ date: 2017-03-07 08:28:00 +0000
 link: https://serverless.com/blog/static-site-post-scheduler/?utm_content=bufferf4214&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
 type: Tutorial
 tool:
-  - jekyll
-  - hugo
-  - hexo
-  - middleman
-  - phenomic
-  - gatsby
+  - tool/jekyll.md
+  - tool/hugo.md
+  - tool/hexo.md
+  - tool/middleman.md
+  - tool/phenomic.md
+  - tool/gatsby.md
   - post-scheduler
 ---
 The post scheduler is a serverless project that gives static site owners the ability to schedule posts (or other site content).

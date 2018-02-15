@@ -8,7 +8,7 @@ slug: links/difference-between-gulpjs-and-metalsmithio
 source: "@pjeby"
 link: http://stackoverflow.com/questions/23227248/is-there-some-gulp-plugin-that-lets-it-perform-the-function-of-a-static-site-gen/23858857?sgp=2#23858857
 tool:
-  - metalsmith
+  - tool/metalsmith.md
 ---
 On SO. In a nutshell “Basically, Metalsmith is really the Gulp of static site generators, while Gulp is the Gulp of streaming build systems.”
 
