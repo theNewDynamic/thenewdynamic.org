@@ -15,7 +15,7 @@ urls:
   github: ''
   twitter: ''
   other: ''
-description: ''
+description: Siteleaf is a content management system designed for a better web.
 resources: []
 
 ---
