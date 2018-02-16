@@ -2,7 +2,6 @@ const path = require("path");
 const CleanWebpackPlugin = require("clean-webpack-plugin");
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
 const PurgecssPlugin = require("purgecss-webpack-plugin");
-//const ProvidePlugin = require("ProvidePlugin");
 
 const glob = require("glob-all");
 const webpack = require("webpack");
@@ -102,6 +101,9 @@ module.exports = function(environment) {
     case "development":
       CONFIG.output.filename = "js/[name].js";
       CONFIG.plugins.push(
+        new webpack.DefinePlugin({
+          PRODUCTION: JSON.stringify(false)
+        }),
         new ExtractTextPlugin({
           filename: getPath => {
             return getPath("css/[name].css");
@@ -115,11 +117,11 @@ module.exports = function(environment) {
       // In production, hash our JS
       CONFIG.output.filename = "js/[name].[hash].js";
       CONFIG.plugins.push(
-        // Use the ProvidePlugin to declare Turbolinks only in dev because it bonks Hugo's livereload function.
 
-        new webpack.ProvidePlugin({
-          Turbolinks: "turbolinks"
+        new webpack.DefinePlugin({
+          PRODUCTION: JSON.stringify(true)
         }),
+
         // In production, hash our CSS
         new ExtractTextPlugin({
           filename: getPath => {
