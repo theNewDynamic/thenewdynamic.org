@@ -2,9 +2,12 @@ const path = require("path");
 const CleanWebpackPlugin = require("clean-webpack-plugin");
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
 const PurgecssPlugin = require("purgecss-webpack-plugin");
+//const ProvidePlugin = require("ProvidePlugin");
 
 const glob = require("glob-all");
 const webpack = require("webpack");
+
+//let toProvide = {}
 
 // the path(s) that should be cleaned
 let pathsToClean = ["./static/dist"];
@@ -72,12 +75,12 @@ module.exports = function(environment) {
               loader: "file-loader",
               options: {
                 //name: ".Fonts/[name].[ext]",
-                 //name: '/Fonts/[name].[ext]',
-                 //prefix: '/dist',
-                 //context: '/dist/',
-                 publicPath: '/dist',
-                 //useRelativePath: true,
-                 outputPath: "/Fonts/"
+                //name: '/Fonts/[name].[ext]',
+                //prefix: '/dist',
+                //context: '/dist/',
+                publicPath: "/dist",
+                //useRelativePath: true,
+                outputPath: "/Fonts/"
               }
             }
           ]
@@ -109,14 +112,22 @@ module.exports = function(environment) {
       watch: true;
       break;
     case "production":
+      // In production, hash our JS
       CONFIG.output.filename = "js/[name].[hash].js";
       CONFIG.plugins.push(
+        // Use the ProvidePlugin to declare Turbolinks only in dev because it bonks Hugo's livereload function.
+
+        new webpack.ProvidePlugin({
+          Turbolinks: "turbolinks"
+        }),
+        // In production, hash our CSS
         new ExtractTextPlugin({
           filename: getPath => {
             return getPath("css/[name].[contenthash].css");
           },
           allChunks: true
         }),
+        // In production, Run our CSS through PurgeCSS
         new PurgecssPlugin({
           whitelist: ["body", ".whitelisted-class"],
           paths: glob.sync([
@@ -124,6 +135,7 @@ module.exports = function(environment) {
             path.join(__dirname, "src/layouts/**/*.html"),
             path.join(__dirname, "src/layouts/partials/**/*.html")
           ]),
+          // TailwindExtractor runs through our layouts to get the CSS for PurgeCSS
           extractors: [
             {
               extractor: TailwindExtractor,
