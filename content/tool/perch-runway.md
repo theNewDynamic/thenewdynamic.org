@@ -3,11 +3,11 @@ title: Perch Runway
 date: 2018-02-16 15:24:18 +0000
 description: A powerful CMS for developing content-centric websites
 tools:
-- headless-cms
 - content-management
 tags:
 - PHP
 - Commercial
+- API-based
 urls:
   website: https://perchrunway.com/
   github: ''
