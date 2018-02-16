@@ -1,15 +1,18 @@
 ---
-title: "Fridge CMS"
-date: 2017-11-14T15:17:00.000Z
+title: Fridge CMS
+date: 2017-11-14 15:17:00 +0000
 tools:
-- headless-cms
 - content-management
 urls:
-  website: "https://fridgecms.com/"
-  github:
-  twitter:
+  website: https://fridgecms.com/
+  github: ''
+  twitter: ''
+  other: ''
 resources:
-  - name: ''
-    url: ''
-description: "A robust API and intuitive dashboard for any kind of content."
+- name: ''
+  url: ''
+description: A robust API and intuitive dashboard for any kind of content.
+tags:
+- API-based
+
 ---
