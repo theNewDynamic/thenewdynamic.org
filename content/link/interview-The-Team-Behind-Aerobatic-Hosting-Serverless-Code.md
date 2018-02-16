@@ -3,7 +3,7 @@ title: "Interview: The Team Behind Aerobatic Hosting"
 source: Ryan Brown, Serverless Code
 date: 2016-04-01 13:26:00 +0000
 link: https://serverlesscode.com/post/aerobatic-static-hosting-team-interview/
-type: Article
+content_type: Article
 tool:
   - tool/aerobatic.md
 ---

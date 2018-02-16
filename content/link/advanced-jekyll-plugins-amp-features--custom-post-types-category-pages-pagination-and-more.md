@@ -3,7 +3,7 @@ title: "Advanced Jekyll Plugins &amp; Features - Custom Post Types, Category Pag
 date: 2013-06-29T20:00:00.000Z
 posted_date: 2015-05-02T20:00:00.000Z
 editor_recommends:
-type: Article
+content_type: Article
 slug: links/advanced-jekyll-plugins-features-custom-post-types-category-pages-pagination-and-more
 source: Divshot
 link: https://divshot.com/blog/web-development/advanced-jekyll-features/

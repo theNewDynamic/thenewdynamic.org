@@ -3,7 +3,7 @@ title: "10 Netlify features to surprise and delight"
 source: Phil Hawksworth
 date: 2018-01-04 11:59:00 +0000
 link: https://medium.com/netlify/10-netlify-features-to-surprise-and-delight-225e846b7b21
-type: Article
+content_type: Article
 tool:
   - tool/netlify.md
 ---

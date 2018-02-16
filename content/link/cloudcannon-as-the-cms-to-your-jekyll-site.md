@@ -4,7 +4,7 @@ date: 2015-03-04T23:39:00.000Z
 posted_date: 2015-05-02T22:39:00.000Z
 editor_recommends:
 category: essentials
-type: Video/Presentation
+content_type: Video/Presentation
 slug: links/cloudcannon-as-the-cms-to-your-jekyll-site
 source: CloudCannon
 link: https://www.youtube.com/watch?v=Fjd0V_pET5E

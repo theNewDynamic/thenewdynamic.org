@@ -3,7 +3,7 @@ title: "How to add Table of Contents to Jekyll"
 source: Webjeda
 date: 2016-04-20 09:20:00 +0000
 link: http://blog.webjeda.com/jekyll-toc/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/jekyll.md
 ---

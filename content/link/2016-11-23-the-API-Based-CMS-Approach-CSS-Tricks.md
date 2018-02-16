@@ -3,7 +3,7 @@ title: "The API-Based CMS Approach"
 source: Levi Gable, CSS-Tricks
 date: 2016-11-23 13:22:00 +0000
 link: https://css-tricks.com/api-based-cms-approach/
-type: Tutorial
+content_type: Tutorial
 category: essentials
 tool:
   - tool/prismic.md 

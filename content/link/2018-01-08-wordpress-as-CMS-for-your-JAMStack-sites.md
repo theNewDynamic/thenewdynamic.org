@@ -3,7 +3,7 @@ title: "Wordpress as CMS for your JAMStack sites"
 source: Stefan Baumgartner
 date: 2018-01-08 15:12:00 +0000
 link: https://fettblog.eu/wordpress-and-jamstack-sites/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/metalsmith.md
   - tool/jekyll.md

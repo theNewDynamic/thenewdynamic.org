@@ -3,7 +3,7 @@ title: "How to create customizable Liquid tags in Jekyll"
 source: Sverrir Sigmundarson
 date: 2016-04-17 08:35:00 +0000
 link: https://blog.sverrirs.com/2016/04/custom-jekyll-tags.html
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/jekyll.md
 ---

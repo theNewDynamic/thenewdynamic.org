@@ -3,7 +3,7 @@ title: "Them's Good Broth! | Adding Isso Comments To Hugo"
 source: Stíobhart Matulevicz
 date: 2017-02-24 14:10:00 +0000
 link: https://stiobhart.net/2017-02-24-isso-comments/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/hugo.md
   - tool/isso.md

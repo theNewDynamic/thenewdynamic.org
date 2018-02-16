@@ -3,7 +3,7 @@ title: "How to add Twitter buttons to a Gatsby site"
 source: Steven Mercatante
 date: 2018-02-06 10:54:00 +0000
 link: https://www.stevenmercatante.com/how-to-add-twitter-buttons-to-a-gatsby-site/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/gatsby.md
 ---

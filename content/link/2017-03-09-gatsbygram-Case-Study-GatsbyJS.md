@@ -3,7 +3,7 @@ title: "Gatsbygram Case Study"
 source: Kyle Mathews
 date: 2017-03-09 15:47:00 +0000
 link: https://www.gatsbyjs.org/blog/gatsbygram-case-study/
-type: Case Study
+content_type: Case Study
 category: essentials
 tool:
   - tool/gatsby.md

@@ -3,7 +3,7 @@ title: "Static Sites that Work for You"
 date: 2015-06-19T21:03:00.000Z
 posted_date: 2015-06-19T21:03:00.000Z
 editor_recommends:
-type: Article
+content_type: Article
 slug: links/static-sites-that-work-for-you
 source: Andrew Goodricke
 link: http://www.andrewgoodricke.com/posts/2015-06-19_static_generator_architecture.html

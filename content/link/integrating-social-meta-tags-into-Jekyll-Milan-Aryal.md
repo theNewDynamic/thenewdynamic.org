@@ -3,7 +3,7 @@ title: "Integrating social meta tags into Jekyll — Milan Aryal"
 source: Milan Aryal
 date: 2015-02-11 19:57:00 +0000
 link: https://milanaryal.com/2015/integrating-social-meta-tags-into-jekyll/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/jekyll.md
 ---

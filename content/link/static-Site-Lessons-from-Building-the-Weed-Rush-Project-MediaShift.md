@@ -3,7 +3,7 @@ title: "Static Site Lessons from Building the ‘Weed Rush’ Project"
 source: Niclas Lindh, MediaShift
 date: 2016-02-11 21:14:00 +0000
 link: http://mediashift.org/2016/02/static-site-lessons-from-building-the-weed-rush-project/
-type: Article
+content_type: Article
 tool:
   - tool/jekyll.md
 ---

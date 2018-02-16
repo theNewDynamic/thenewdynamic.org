@@ -3,7 +3,7 @@ title: "Static Site Generator (from a Python book)"
 date: 2015-11-06T04:01:00.000Z
 posted_date: 2015-11-06T04:01:00.000Z
 editor_recommends:
-type: Article
+content_type: Article
 slug: links/static-site-generator-from-a-python-book
 source: Full Stack Python
 link: http://www.fullstackpython.com/static-site-generator.html

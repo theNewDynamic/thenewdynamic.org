@@ -3,7 +3,7 @@ title: "Static Web Architecture: Not Just for Hipsters"
 date: 2014-05-02T02:12:00.000Z
 posted_date: 2015-05-02T02:12:00.000Z
 editor_recommends:
-type: Article
+content_type: Article
 slug: links/static-web-architecture-not-just-for-hipsters
 source: JS.LA
 link: https://vimeo.com/93049881

@@ -3,7 +3,7 @@ title: "Jekyll Tip: Adding Styling To Html Output"
 source: Justin James
 date: 2016-05-24 08:02:00 +0000
 link: http://digitaldrummerj.me/styling-jekyll-markdown/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/jekyll.md
 ---

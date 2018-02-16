@@ -2,7 +2,7 @@
 title: "Introducing Jekyll-hook: Run your own GitHub Pages"
 date: 2013-05-01T20:33:00.000Z
 editor_recommends: true
-type: Article
+content_type: Article
 source: Dave Cole, Development Seed
 link: https://developmentseed.org/blog/2013/05/01/introducing-jekyll-hook/
 tool:

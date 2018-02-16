@@ -3,7 +3,7 @@ title: "Generating Comments on Static Sites with Staticman"
 source: tosbourn
 date: 2017-07-26 15:02:00 +0000
 link: http://tosbourn.com/generating-comments-on-static-sites-with-staticman/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/jekyll.md
   - tool/hugo.md

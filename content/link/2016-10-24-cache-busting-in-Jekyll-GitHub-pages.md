@@ -3,7 +3,7 @@ title: "Cache-busting in Jekyll, GitHub pages"
 source: Todd Motto
 date: 2016-10-24 18:18:00 +0000
 link: https://toddmotto.com/cache-busting-jekyll-github-pages
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/jekyll.md
   - tool/github-pages.md

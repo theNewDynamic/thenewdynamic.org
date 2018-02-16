@@ -3,7 +3,7 @@ title: "Switching from WordPress to Nikola"
 source: Alan Pope
 date: 2017-04-18 11:52:00 +0000
 link: https://popey.com/blog/posts/switching-from-wordpress-to-nikola.html
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/nikola.md 
 ---

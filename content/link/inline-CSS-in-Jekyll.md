@@ -3,7 +3,7 @@ title: "Inline CSS in Jekyll"
 source: Hugo Giraudel
 date: 2016-06-02 21:16:00 +0000
 link: https://www.sitepoint.com/inline-css-in-jekyll/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/jekyll.md 
 ---

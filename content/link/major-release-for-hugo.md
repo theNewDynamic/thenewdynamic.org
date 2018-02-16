@@ -3,7 +3,7 @@ title: "Major Release for Hugo"
 date: 2015-02-22T04:26:00.000Z
 posted_date: 2015-05-02T03:26:00.000Z
 editor_recommends:
-type: News
+content_type: News
 slug: links/major-release-for-hugo
 source: Steve Francia
 link: https://github.com/spf13/hugo/releases/

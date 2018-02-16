@@ -5,7 +5,7 @@ date: 2016-12-21 21:24:00 +0000
 tags:
  - hosting
 link: https://bryanklein.com/blog/hugo-site-on-gitlab/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/hugo.md
   - tool/gitlab.md

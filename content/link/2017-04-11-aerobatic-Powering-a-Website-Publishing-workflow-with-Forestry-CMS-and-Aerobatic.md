@@ -3,7 +3,7 @@ title: "Powering a Website Publishing workflow with Forestry CMS and Aerobatic"
 source: Aerobatic
 date: 2017-04-11 20:01:00 +0000
 link: https://www.aerobatic.com/blog/forestry-aerobatic-publishing-workflow/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/forestry.md
   - tool/aerobatic.md

@@ -3,7 +3,7 @@ title: "Develop sites over HTTPS from static site generators (like Jekyll)"
 source: Paul Bakaus
 date: 2016-08-05 11:46:00 +0000
 link: https://paulbakaus.com/tutorials/html5/serve-pwaamp-over-https-from-static-site-generators-like-jekyll/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/jekyll.md
   - tool/grow.md

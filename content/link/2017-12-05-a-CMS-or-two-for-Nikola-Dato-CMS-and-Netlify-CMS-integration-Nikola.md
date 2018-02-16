@@ -3,7 +3,7 @@ title: "A CMS (or two) for Nikola: Dato CMS and Netlify CMS integration"
 source: Nikola
 date: 2017-12-05 17:20:00 +0000
 link: https://getnikola.com/blog/a-cms-or-two-for-nikola-dato-cms-and-netlify-cms-integration.html
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/nikola.md
   - tool/datocms.md

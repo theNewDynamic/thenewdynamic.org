@@ -3,7 +3,7 @@ title: "Getting started with GatsbyJS and WordPress"
 source: Amberley
 date: 2018-01-18 09:27:00 +0000
 link: https://amberley.blog/getting-started-with-gatsbyjs-and-wordpress/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/gatsby.md
 ---

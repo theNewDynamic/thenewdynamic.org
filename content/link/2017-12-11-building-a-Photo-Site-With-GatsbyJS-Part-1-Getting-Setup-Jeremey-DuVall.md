@@ -3,7 +3,7 @@ title: "Building a Photo Site With GatsbyJS Part 1 – Getting Setup"
 source: Jeremey DuVall
 date: 2017-12-11 09:16:00 +0000
 link: https://jeremey.blog/gatsby-photo/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/gatsby.md
 ---

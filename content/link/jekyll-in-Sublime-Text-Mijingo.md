@@ -3,7 +3,7 @@ title: "Jekyll in Sublime Text - Mijingo"
 source: Ryan Irelan, Mijingo
 date: 2016-02-23 23:40:00 +0000
 link: https://mijingo.com/lessons/jekyll-in-sublime-text/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/jekyll.md 
 ---

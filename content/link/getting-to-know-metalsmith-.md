@@ -3,7 +3,7 @@ title: "Getting to Know Metalsmith "
 date: 2014-04-13T20:04:00.000Z
 posted_date: 2015-05-02T20:04:00.000Z
 editor_recommends:
-type: Tutorial
+content_type: Tutorial
 slug: links/getting-to-know-metalsmith
 source: Robin Thrift
 link: http://www.robinthrift.com/posts/getting-to-know-metalsmith/

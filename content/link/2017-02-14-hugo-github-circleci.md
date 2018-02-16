@@ -2,7 +2,7 @@
 title: "Deploy a Hugo site to Aerobatic with CircleCI"
 date: 2017-02-14T12:00:00.000Z
 editor_recommends:
-type:
+content_type:
 source: Aerobatic
 link: "https://www.aerobatic.com/blog/hugo-github-circleci/"
 tool:

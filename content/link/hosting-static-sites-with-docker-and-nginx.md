@@ -3,7 +3,7 @@ title: "Hosting static sites with Docker and Nginx"
 date: 2014-04-14T21:32:00.000Z
 posted_date: 2015-10-02T21:32:00.000Z
 editor_recommends: 2
-type: Article
+content_type: Article
 slug: links/hosting-static-sites-with-docker-and-nginx
 source: Kyle Mathews
 link: http://bricolage.io/hosting-static-sites-with-docker-and-nginx/

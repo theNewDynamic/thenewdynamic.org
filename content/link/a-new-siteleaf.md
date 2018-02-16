@@ -3,7 +3,7 @@ title: "A new Siteleaf"
 date: 2015-12-18T12:46:00.000Z
 posted_date: 2015-12-18T12:46:00.000Z
 editor_recommends:
-type: Article
+content_type: Article
 slug: links/a-new-siteleaf
 source: Siteleaf
 link: http://v2.siteleaf.com/

@@ -3,7 +3,7 @@ title: "Running Jekyll with Docker and OpenShift"
 source: Lars Olafsen
 date: 2017-12-10 09:13:00 +0000
 link: https://www.redpill-linpro.com/sysadvent/2017/12/10/jekyll-openshift.html?ref=stackshare
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/jekyll.md
 ---

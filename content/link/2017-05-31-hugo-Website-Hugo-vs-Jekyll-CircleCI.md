@@ -3,7 +3,7 @@ title: "HBuild, Test, And Deploy Statically Generated Websites With Hugo"
 source: Ricardo Feliciano, CircleCI
 date: 2017-05-31 19:31:00 +0000
 link: https://circleci.com/blog/build-test-deploy-hugo-sites/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/hugo.md
   - tool/circleci.md

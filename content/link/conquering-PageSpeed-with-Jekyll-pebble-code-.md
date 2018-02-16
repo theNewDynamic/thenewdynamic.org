@@ -3,7 +3,7 @@ title: "Conquering PageSpeed with Jekyll"
 source: Peter Tait, Pebblecode
 date: 2016-05-23 22:09:00 +0000
 link: http://pebblecode.com/blog/conquering-pagespeed-with-jekyll/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/jekyll.md
 ---

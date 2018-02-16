@@ -3,7 +3,7 @@ title: "How to Setup a Jekyll Theme"
 source: Kezz Bracey, Tutsplus
 date: 2017-01-11 19:42:00 +0000
 link: https://webdesign.tutsplus.com/tutorials/how-to-set-up-a-jekyll-theme--cms-26332
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/jekyll.md
 ---

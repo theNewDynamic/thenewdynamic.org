@@ -3,7 +3,7 @@ title: "How I’m Using Jekyll in 2016"
 source: Michael Rose, Made Mistakes
 date: 2016-02-20 22:37:00 +0000
 link: https://mademistakes.com/articles/using-jekyll-2016/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/jekyll.md
 ---

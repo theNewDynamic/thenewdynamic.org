@@ -3,7 +3,7 @@ title: "Running Jekyll on Kestrel and ASP.NET Core"
 source: Khalid Abuhakmeh
 date: 2016-08-12 12:45:00 +0000
 link: http://rimdev.io/running-jekyll-on-kestrel-and-asp-net-core/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/jekyll.md 
 ---

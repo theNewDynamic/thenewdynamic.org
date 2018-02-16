@@ -3,7 +3,7 @@ title: "Writing a Jekyll plugin – Developer's Notes"
 source: Anatoliy Yastreb
 date: 2016-09-01 11:09:00 +0000
 link: https://ayastreb.me/writing-a-jekyll-plugin/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/jekyll.md
 ---

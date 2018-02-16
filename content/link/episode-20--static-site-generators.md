@@ -3,7 +3,7 @@ title: "Episode 20 - Static Site Generators"
 date: 2015-08-03T12:31:00.000Z
 posted_date: 2015-08-27T12:31:00.000Z
 editor_recommends:
-type: Resource/Website
+content_type: Resource/Website
 slug: links/episode-20-static-site-generators
 source: Podcast.__init__, a Podcast about Python
 link: http://pythonpodcast.com/static-site-generators.html

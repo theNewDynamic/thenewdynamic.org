@@ -3,7 +3,7 @@ title: "Prototype with Proteus"
 date: 2014-12-08T21:31:00.000Z
 posted_date: 2015-05-13T20:31:00.000Z
 editor_recommends:
-type: Resource/Website
+content_type: Resource/Website
 slug: links/prototype-with-proteus
 source: Joshua Ogle, Thoughbot
 link: https://robots.thoughtbot.com/prototype-with-proteus

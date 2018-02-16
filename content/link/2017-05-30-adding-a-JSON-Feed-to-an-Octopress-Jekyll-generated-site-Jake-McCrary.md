@@ -3,7 +3,7 @@ title: "Adding a JSON Feed to an Octopress/Jekyll generated site"
 source: Jake McCrary
 date: 2017-05-30 09:19:00 +0000
 link: http://jakemccrary.com/blog/2017/05/30/adding-a-json-feed-to-octopress-slash-jekyll/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/jekyll.md
   - tool/octopress.md

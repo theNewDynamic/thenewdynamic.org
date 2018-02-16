@@ -3,7 +3,7 @@ title: "Getting Started with Wintersmith: A Node.js-based Static Site Generator"
 date: 2015-04-01T18:37:00.000Z
 posted_date: 2015-06-04T18:37:00.000Z
 editor_recommends:
-type: Tutorial
+content_type: Tutorial
 slug: links/getting-started-with-wintersmith-a-nodejs-based-static-site-generator
 source: Brian Rinaldi, Sitepoint
 link: http://www.sitepoint.com/getting-started-wintersmith-nodejs-static-site-generator

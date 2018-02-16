@@ -3,7 +3,7 @@ title: "Contentful and Netlify: The Dynamic Duo of Static Site Management"
 source: Malik Browne
 date: 2017-11-15 09:29:00 +0000
 link: https://www.malikbrowne.com/blog/contentful-and-netlify-the-dynamic-duo
-type: Article
+content_type: Article
 tool:
   - tool/contentful.md
   - tool/netlify.md

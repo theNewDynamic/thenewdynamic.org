@@ -3,7 +3,7 @@ title: "D3.js Visualizations Using YAML and Jekyll"
 source: Kin Lane
 date: 2016-09-20 21:19:00 +0000
 link: http://apievangelist.com/2016/09/20/d3js-visualizations-using-yaml-and-jekyll/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/jekyll.md
 ---

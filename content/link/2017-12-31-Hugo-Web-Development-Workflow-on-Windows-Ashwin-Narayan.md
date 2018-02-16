@@ -3,7 +3,7 @@ title: "Hugo Web Development Workflow on Windows"
 source: Ashwin Narayan
 date: 2017-12-31 08:47:00 +0000
 link: https://www.ashwinnarayan.com/post/hugo-windows-workflow/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/hugo.md 
 ---

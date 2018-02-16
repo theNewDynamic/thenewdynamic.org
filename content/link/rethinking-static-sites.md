@@ -3,7 +3,7 @@ title: "Rethinking Static Sites"
 date: 2015-05-20T01:00:00.000Z
 posted_date: 2015-10-22T01:00:00.000Z
 editor_recommends:
-type: Article
+content_type: Article
 slug: links/rethinking-static-sites
 source: Kelly Sutton
 link: http://kellysutton.com/2015/05/19/rethinking-static-sites.html

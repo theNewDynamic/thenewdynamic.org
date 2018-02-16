@@ -3,7 +3,7 @@ title: "Travis for Jekyll on GitHub Pages | Jaime Caballero"
 source: Jaime Caballero
 date: 2016-04-05 09:03:00 +0000
 link: https://jaicab.com/2016/04/05/travis-for-jekyll-on-github-pages/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/jekyll.md
   - tool/github-pages.md

@@ -3,7 +3,7 @@ title: "Setting Up a Continuous Deployment Pipeline with Gatsby.js, Contentful a
 source:
 date: 2017-11-23 09:14:00 +0000
 link: https://www.halfelectronic.com/post/setting-up-gatsby-js-contentful-and-netlify/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/gatsby.md
   - tool/contentful.md

@@ -3,7 +3,7 @@ title: "Host a Static Site on AWS, using S3 and CloudFront"
 source: David Baumgold
 date: 2016-08-08 19:34:00 +0000
 link: https://www.davidbaumgold.com/tutorials/host-static-site-aws-s3-cloudfront/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/lektor.md
 ---

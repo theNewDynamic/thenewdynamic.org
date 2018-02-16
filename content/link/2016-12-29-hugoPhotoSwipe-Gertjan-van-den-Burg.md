@@ -3,7 +3,7 @@ title: "HugoPhotoSwipe"
 source: Gertjan van den Burg
 date: 2016-12-29 19:03:00 +0000
 link: https://gertjanvandenburg.com/blog/hugophotoswipe/
-type: Resources
+content_type: Resources
 tool:
   - tool/hugo.md
 ---

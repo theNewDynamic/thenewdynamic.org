@@ -3,7 +3,7 @@ title: "Serve static websites with Caddy web server"
 source: Peter Y. Chuang
 date: 2016-12-30 20:06:00 +0000
 link: https://novelist.xyz/tech/caddy-webserver/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/hugo.md
   - tool/caddy-web-server.md

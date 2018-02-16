@@ -3,7 +3,7 @@ title: "Speed up your Jekyll builds"
 source: Mike Neumegen
 date: 2017-12-08 20:26:00 +0000
 link: https://cloudcannon.com/tips/2017/12/08/speed-up-your-jekyll-builds/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/jekyll.md 
 ---

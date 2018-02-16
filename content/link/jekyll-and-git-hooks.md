@@ -3,7 +3,7 @@ title: "Jekyll and Git Hooks"
 date: 2015-07-19T12:41:00.000Z
 posted_date: 2015-07-20T12:41:00.000Z
 editor_recommends:
-type: Tutorial
+content_type: Tutorial
 slug: links/jekyll-and-git-hooks
 source: Jonathon Klem
 link: https://www.jonathonklem.com/blog/jekyll-and-git-hooks/

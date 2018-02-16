@@ -3,7 +3,7 @@ title: "Self-host comments in Jekyll, powered by Firebase real-time database"
 source: Frank Lin
 date: 2017-03-25 17:55:00 +0000
 link: https://flinhong.com/2017/03/25/self-host-comments-in-jekyll-using-firebase-database/
-type: Tutorial
+content_type: Tutorial
 category: solutions
 tool:
   - tool/jekyll.md

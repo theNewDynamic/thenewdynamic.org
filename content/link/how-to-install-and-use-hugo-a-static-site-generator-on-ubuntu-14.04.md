@@ -3,7 +3,7 @@ title: "How To Install and Use Hugo, a Static Site Generator, on Ubuntu 14.04"
 date: 2015-11-09T22:33:00.000Z
 posted_date: 2015-12-21T22:33:00.000Z
 editor_recommends:
-type: Tutorial
+content_type: Tutorial
 slug: links/how-to-install-and-use-hugo-a-static-site-generator-on-ubuntu-1404
 source: Justin Ellingwood
 link: https://www.digitalocean.com/community/tutorials/how-to-install-and-use-hugo-a-static-site-generator-on-ubuntu-14-04/

@@ -3,7 +3,7 @@ title: "YAML tutorial in the context of Jekyll"
 source: Jekyll theme for designers
 date: 2016-02-11 22:24:00 +0000
 link: http://idratherbewriting.com/documentation-theme-jekyll/mydoc/mydoc_yaml_tutorial.html
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/jekyll.md
 ---

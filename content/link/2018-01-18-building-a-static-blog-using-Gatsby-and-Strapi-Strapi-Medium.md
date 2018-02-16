@@ -3,7 +3,7 @@ title: "Building a static blog using Gatsby and Strapi"
 source: Strapi
 date: 2018-01-18 08:10:00 +0000
 link: https://medium.com/@strapi/building-a-static-blog-using-gatsby-and-strapi-8b5acfc82ad8
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/gatsby.md
   - tool/strapi.md

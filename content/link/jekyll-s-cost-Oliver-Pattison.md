@@ -3,7 +3,7 @@ title: "Jekyll’s Cost"
 source: Oliver Pattison
 date: 2016-03-18 11:36:00 +0000
 link: https://olivermak.es/2016/03/jekyll-cost/
-type: Article
+content_type: Article
 tool:
   - tool/jekyll.md
 ---

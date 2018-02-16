@@ -4,7 +4,7 @@ source: Phil Hawksworth
 date: 2016-08-01 08:54:00 +0000
 category: essentials
 link: http://hawksworx.com/blog/isomorphic-rendering-on-the-jam-stack/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/netlify.md
   - tool/gulp.md

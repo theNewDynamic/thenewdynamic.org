@@ -3,7 +3,7 @@ title: "lunr.js and Jekyll"
 source: Katy DeCorah
 date: 2015-08-15 21:56:00 +0000
 link: http://katydecorah.com/code/lunr-and-jekyll/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/jekyll.md
   - tool/lunr.md

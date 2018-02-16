@@ -3,7 +3,7 @@ title: "Rearchitecting GitHub Pages"
 date: 2015-05-29T23:12:00.000Z
 posted_date: 2015-05-29T23:12:00.000Z
 editor_recommends:
-type: Article
+content_type: Article
 slug: links/rearchitecting-github-pages
 source: Charlie Somerville, Github Engineering
 link: http://githubengineering.com/rearchitecting-github-pages/

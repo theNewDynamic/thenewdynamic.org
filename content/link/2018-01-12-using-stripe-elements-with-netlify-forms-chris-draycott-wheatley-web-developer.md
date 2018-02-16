@@ -3,7 +3,7 @@ title: "using stripe elements with netlify forms"
 source: chris draycott-wheatley
 date: 2018-01-12 17:13:00 +0000
 link: https://chrisdwheatley.com/article/using-stripe-elements-with-netlify-forms
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/netlify.md
 ---

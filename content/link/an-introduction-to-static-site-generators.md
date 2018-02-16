@@ -4,7 +4,7 @@ date: 2015-05-20T23:38:00.000Z
 posted_date: 2015-05-20T23:38:00.000Z
 editor_recommends: 3
 category: essentials
-type: Article
+content_type: Article
 slug: links/an-introduction-to-static-site-generators
 source: Eduardo Bouças
 link: http://davidwalsh.name/introduction-static-site-generators/

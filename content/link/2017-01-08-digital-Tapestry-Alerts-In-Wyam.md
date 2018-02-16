@@ -3,7 +3,7 @@ title: "Alerts In Wyam"
 source: Digital Tapestry
 date: 2017-01-08 15:30:00 +0000
 link: http://www.digitaltapestry.net/posts/alerts-in-wyam
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/wyam.md
 ---

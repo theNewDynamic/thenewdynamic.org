@@ -3,7 +3,7 @@ title: "Automated deployment of Jekyll projects to GitHub pages using Kickster a
 date: 2015-11-27T03:31:00.000Z
 posted_date: 2015-11-27T03:31:00.000Z
 editor_recommends:
-type: Article
+content_type: Article
 slug: links/automated-deployment-of-jekyll-projects-to-github-pages-using-kickster-and-circle-ci
 source: Nielsen Ramon
 link: https://medium.com/@nielsenramon/automated-deployment-of-jekyll-projects-to-github-pages-using-kickster-and-circle-ci-6ccc0b6cb872/

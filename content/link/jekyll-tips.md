@@ -3,7 +3,7 @@ title: "Jekyll Tips"
 date: 2015-06-10T02:12:00.000Z
 posted_date: 2015-06-10T02:12:00.000Z
 editor_recommends: 2
-type: Resource/Website
+content_type: Resource/Website
 slug: links/jekyll-tips
 source: Jekyll
 link: http://jekyll.tips/

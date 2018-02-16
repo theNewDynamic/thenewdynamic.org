@@ -3,7 +3,7 @@ title: "Hugo Easy Gallery"
 source: Li-Wen Yip
 date: 2017-04-05 19:31:00 +0000
 link: https://www.liwen.id.au/heg/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/hugo.md
 ---

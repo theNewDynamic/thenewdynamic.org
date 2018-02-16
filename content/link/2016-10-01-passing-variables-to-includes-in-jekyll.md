@@ -3,7 +3,7 @@ title: "Passing post variables to includes in Jekyll"
 source: Sverrir Sigmundarson
 date: 2016-10-01 18:18:00 +0000
 link: https://blog.sverrirs.com/2016/10/jekyll-passing-post-variables-to-includes.html
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/jekyll.md
 ---

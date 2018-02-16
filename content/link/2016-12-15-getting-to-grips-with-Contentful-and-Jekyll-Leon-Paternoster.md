@@ -3,7 +3,7 @@ title: "Getting to grips with Contentful and Jekyll – Leon Paternoster"
 source: Leon Paternoster
 date: 2017-03-08 08:13:00 +0000
 link: https://www.leonpaternoster.com/2016/12/getting-started-with-contentful-and-jekyll/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/jekyll.md
   - tool/contentful.md

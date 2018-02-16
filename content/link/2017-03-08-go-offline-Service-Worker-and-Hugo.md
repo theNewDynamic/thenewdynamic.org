@@ -3,7 +3,7 @@ title: "Go offline! Service Worker and Hugo"
 source: gohugohq
 date: 2017-03-08 13:40:00 +0000
 link: https://gohugohq.com/howto/go-offline-with-service-worker/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/hugo.md
 ---

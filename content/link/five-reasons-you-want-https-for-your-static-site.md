@@ -3,7 +3,7 @@ title: "Five Reasons you want HTTPS for your Static site"
 date: 2014-10-03T12:32:00.000Z
 posted_date: 2015-05-14T12:32:00.000Z
 editor_recommends:
-type: Article
+content_type: Article
 slug: links/five-reasons-you-want-https-for-your-static-site
 source: Mathias Biilmann, Netlify
 link: https://www.netlify.com/blog/2014/10/03/five-reasons-you-want-https-for-your-static-site

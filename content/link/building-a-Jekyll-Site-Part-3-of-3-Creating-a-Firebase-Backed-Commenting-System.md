@@ -3,7 +3,7 @@ title: "Building a Jekyll Site – Part 3 of 3: Creating a Firebase-Backed Comme
 source: "Mike Neumegen (Cloudcannon), CSS-Tricks"
 date: 2016-02-11 21:10:00 +0000
 link: https://css-tricks.com/building-a-jekyll-site-part-3-of-3/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/jekyll.md
   - tool/firebase.md

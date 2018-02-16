@@ -3,7 +3,7 @@ title: "Image Optimization Made Easy with Gatsby.js"
 source: Kyle Gill
 date: 2018-01-10 12:48:00 +0000
 link: https://medium.com/@kyle.robert.gill/ridiculously-easy-image-optimization-with-gatsby-js-59d48e15db6e
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/gatsby.md
 ---

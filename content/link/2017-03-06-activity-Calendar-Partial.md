@@ -3,7 +3,7 @@ title: "Activity Calendar Partial"
 source: GoHugoHQ
 date: 2017-03-06 08:37:00 +0000
 link: https://gohugohq.com/partials/activity-calendar-posts/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/hugo.md
 ---

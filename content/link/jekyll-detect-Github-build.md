@@ -3,7 +3,7 @@ title: "Jekyll: detect Github build"
 source: Tomas Dvorak
 date: 2016-03-23 13:15:00 +0000
 link: http://www.tomas-dvorak.cz/posts/jekyll-detecting-github/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/jekyll.md
   - tool/github-pages.md

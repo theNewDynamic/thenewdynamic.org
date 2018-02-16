@@ -3,7 +3,7 @@ title: "Switching to Google AMP and back"
 source: Evert Pot
 date: 2016-10-25 20:13:00 +0000
 link: https://evertpot.com/switching-to-amp-and-back-again/
-type: Tutorial
+content_type: Tutorial
 tags:
   - performance
   - tool/amp.md

@@ -3,7 +3,7 @@ title: "Building Middleman Extensions"
 source: Will Schenk
 date: 2016-03-01 12:25:00 +0000
 link: http://willschenk.com/building-middleman-extensions/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/middleman.md
 ---

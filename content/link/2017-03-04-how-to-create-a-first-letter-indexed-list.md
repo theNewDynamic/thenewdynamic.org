@@ -3,7 +3,7 @@ title: "How to create a first-letter indexed list"
 source: GoHugoHQ
 date: 2017-03-04 08:34:00 +0000
 link: https://gohugohq.com/howto/hugo-create-first-letter-indexed-list/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/hugo.md
 ---

@@ -3,7 +3,7 @@ title: "Static Site Generation with React and Webpack"
 date: 2015-06-07T02:13:00.000Z
 posted_date: 2015-06-13T02:13:00.000Z
 editor_recommends:
-type: Tutorial
+content_type: Tutorial
 slug: links/static-site-generation-with-react-and-webpack
 source: Jxnblk
 link: http://jxnblk.com/writing/posts/static-site-generation-with-react-and-webpack/

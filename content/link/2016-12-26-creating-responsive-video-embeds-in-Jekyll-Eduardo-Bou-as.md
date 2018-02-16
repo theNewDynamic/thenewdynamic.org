@@ -3,7 +3,7 @@ title: "Creating responsive video embeds in Jekyll"
 source: Eduardo Bouças
 date: 2016-12-26 10:37:00 +0000
 link: https://eduardoboucas.com/blog/2016/12/21/responsive-video-embeds-jekyll.html
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/jekyll.md
 ---

@@ -3,7 +3,7 @@ title: "Enabling offline usage of a Hugo site (PWA)"
 source: Michel Racic
 date: 2017-03-12 07:55:00 +0000
 link: http://rac.su/post/hugo/pwa/
-type: Tutorial
+content_type: Tutorial
 tags: 
   - 'progressive web apps'
   - offline

@@ -3,7 +3,7 @@ title: "Making your first Jekyll theme: Part 1"
 source: David Darnes
 date: 2018-01-25 19:57:00 +0000
 link: https://www.siteleaf.com/blog/making-your-first-jekyll-theme-part-1/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/jekyll.md
 ---

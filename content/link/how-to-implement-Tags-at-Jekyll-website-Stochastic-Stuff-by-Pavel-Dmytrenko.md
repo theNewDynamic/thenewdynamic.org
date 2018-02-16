@@ -3,7 +3,7 @@ title: "How to implement Tags at Jekyll website"
 source: Pavel Dmytrenko
 date: 2016-02-25 22:21:00 +0000
 link: http://pavdmyt.com/how-to-implement-tags-at-jekyll-website/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/jekyll.md
 ---

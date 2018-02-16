@@ -3,7 +3,7 @@ title: "Dr. Jekyll and Mr. Docker"
 source: Diego Lavalle
 date: 2016-05-31 22:16:00 +0000
 link: http://diegolavalle.com/code/2016/05/31/dr-jekyll-and-mr-docker.html
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/jekyll.md
   - tool/docker.md

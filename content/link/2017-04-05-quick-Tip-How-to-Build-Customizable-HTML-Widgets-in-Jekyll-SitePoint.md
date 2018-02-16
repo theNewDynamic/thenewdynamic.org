@@ -3,7 +3,7 @@ title: "Quick Tip: How to Build Customizable HTML Widgets in Jekyll"
 source: Jon Persson, Sitepoint
 date: 2017-04-05 10:52:00 +0000
 link: https://www.sitepoint.com/quick-tip-how-to-build-customizable-html-widgets-in-jekyll/?utm_source=jekyllweekly.com&utm_medium=email&utm_campaign=jekyllweeklynewsletter
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/jekyll.md
 ---

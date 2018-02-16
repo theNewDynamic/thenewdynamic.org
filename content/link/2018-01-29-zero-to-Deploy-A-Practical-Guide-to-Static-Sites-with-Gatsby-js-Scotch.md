@@ -3,7 +3,7 @@ title: "Zero to Deploy: A Practical Guide to Static Sites with Gatsby.js"
 source: William Imoh, Scotch.io
 date: 2018-01-29 20:19:00 +0000
 link: https://scotch.io/tutorials/zero-to-deploy-a-practical-guide-to-static-sites-with-gatsbyjs?utm_content=bufferf8d01&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/gatsby.md
   - tool/netlify.md

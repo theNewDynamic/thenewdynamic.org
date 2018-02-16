@@ -3,7 +3,7 @@ title: "Speeding up metalsmith with incremental builds | Mograblog"
 source: Guy Mograbi
 date: 2016-11-15 00:17:00 +0000
 link: http://www.mograblog.com/2016/11/speed-up-metalsmith.html
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/metalsmith.md
 ---

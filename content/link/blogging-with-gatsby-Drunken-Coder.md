@@ -3,7 +3,7 @@ title: "blogging with gatsby"
 source: Drunken Coder
 date: 2016-07-22 22:18:00 +0000
 link: http://blog.jetboystudio.com/articles/gatsby/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/gatsby.md 
 ---

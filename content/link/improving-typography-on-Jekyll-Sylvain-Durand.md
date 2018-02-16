@@ -3,7 +3,7 @@ title: "Improving typography on Jekyll"
 source: Sylvain Durand
 date: 2016-02-29 18:46:00 +0000
 link: https://www.sylvaindurand.org/improving-typography-on-jekyll/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/jekyll.md
 ---

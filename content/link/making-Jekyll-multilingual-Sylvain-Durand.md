@@ -3,7 +3,7 @@ title: "Making Jekyll multilingual"
 source: Sylvain Durand
 date: 2016-03-01 21:49:00 +0000
 link: https://www.sylvaindurand.org/making-jekyll-multilingual/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/jekyll.md
 ---

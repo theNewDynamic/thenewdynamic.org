@@ -3,7 +3,7 @@ title: "SSG-independent Themes"
 date: 2015-08-06T20:21:00.000Z
 posted_date: 2015-08-06T20:21:00.000Z
 editor_recommends:
-type: Article
+content_type: Article
 slug: links/ssg-independent-themes
 source: Mark Birbeck
 link: http://markbirbeck.com/2015/08/06/ssg-independent-themes/

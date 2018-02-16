@@ -3,7 +3,7 @@ title: "Bleve Search for Hugo Sites"
 source: Bleve
 date: 2015-07-24 08:08:00 +0000
 link: http://www.blevesearch.com/news/Site-Search/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/hugo.md
 ---

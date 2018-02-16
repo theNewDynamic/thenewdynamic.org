@@ -3,7 +3,7 @@ title: "Choose Hugo Over Jekyll - habd.as"
 source: Josh Habdas
 date: 2017-02-01 22:26:00 +0000
 link: https://habd.as/choose-hugo-over-jekyll/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/hugo.md
   - tool/jekyll.md

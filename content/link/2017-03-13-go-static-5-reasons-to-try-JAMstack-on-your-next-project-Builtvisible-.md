@@ -3,7 +3,7 @@ title: "Go static: 5 reasons to try JAMstack on your next project."
 source: Tom Bennet, Builtvisible
 date: 2017-03-13 10:43:00 +0000
 link: https://builtvisible.com/go-static-try-jamstack/
-type: Article
+content_type: Article
 tags: essentials
 category: essentials
 tool:

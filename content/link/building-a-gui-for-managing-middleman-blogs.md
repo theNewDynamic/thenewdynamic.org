@@ -3,7 +3,7 @@ title: "Building a GUI for managing middleman blogs"
 date: 2015-08-07T22:34:00.000Z
 posted_date: 2015-08-07T22:34:00.000Z
 editor_recommends:
-type: Article
+content_type: Article
 slug: links/building-a-gui-for-managing-middleman-blogs
 source: Technology for the Blank Page
 link: http://willschenk.com/building-a-gui-for-managing-middleman-blogs/

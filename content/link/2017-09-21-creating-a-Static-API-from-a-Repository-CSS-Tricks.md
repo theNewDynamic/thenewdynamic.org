@@ -3,7 +3,7 @@ title: "Creating a Static API from a Repository "
 source: Eduardo Bouças, CSS-Tricks
 date: 2017-09-21 21:42:00 +0000
 link: https://css-tricks.com/creating-static-api-repository/
-type: Article
+content_type: Article
 category: essentials
 tool:
 ---

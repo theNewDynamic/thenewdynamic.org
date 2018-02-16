@@ -3,7 +3,7 @@ title: "Middleman Blog Editor"
 date: 2014-05-02T20:44:00.000Z
 posted_date: 2015-05-02T20:44:00.000Z
 editor_recommends:
-type: Resource/Website
+content_type: Resource/Website
 slug: links/middleman-blog-editor
 source: Thomas Reynolds
 link: http://middleman-blog-editor.awardwinningfjords.com/

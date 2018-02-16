@@ -4,7 +4,7 @@ source: 18F
 date: 2016-07-11 22:56:00 +0000
 category: essentials
 link: https://18f.gsa.gov/2016/07/11/conversation-about-static-dynamic-websites/
-type: Article
+content_type: Article
 tool:
   - tool/jekyll.md
 ---

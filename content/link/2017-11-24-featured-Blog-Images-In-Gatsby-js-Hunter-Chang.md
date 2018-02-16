@@ -3,7 +3,7 @@ title: "Featured Blog Images In Gatsby.js"
 source: Hunter Chang
 date: 2017-11-24 11:47:00 +0000
 link: https://hunterchang.com/gatsby-featured-images/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/gatsby.md
 ---

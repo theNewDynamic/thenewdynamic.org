@@ -3,7 +3,7 @@ title: "Archiving Jekyll Websites with Sitemaps"
 source: Ryan Baumann
 date: 2016-09-09 11:16:00 +0000
 link: http://ryanfb.github.io/etc/2016/09/09/archiving_jekyll_websites_with_sitemaps.html
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/jekyll.md 
 ---

@@ -3,7 +3,7 @@ title: "Minify Hugo Generated HTML · Ratson"
 source:
 date: 2016-02-16 19:39:00 +0000
 link: https://ratson.name/blog/minify-hugo-generated-html/
-type: Tutorial
+content_type: Tutorial
 category: performance
 tool:
   - tool/hugo.md

@@ -3,7 +3,7 @@ title: "Implementing a Series in Hugo"
 source: "Joe Sacher"
 date: 2017-08-03 15:26:00 +0000
 link: http://www.joesacher.com/blog/2017/08/03/implementing-series-in-hugo/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/hugo.md
 ---

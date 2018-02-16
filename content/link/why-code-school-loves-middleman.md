@@ -3,7 +3,7 @@ title: "Why Code School Loves Middleman"
 date: 2015-07-18T02:05:00.000Z
 posted_date: 2015-07-20T02:05:00.000Z
 editor_recommends:
-type: Article
+content_type: Article
 slug: links/why-code-school-loves-middleman
 source: John D. Jameson, Code School
 link: https://www.codeschool.com/blog/2015/07/17/why-code-school-loves-middleman/

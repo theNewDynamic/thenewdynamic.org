@@ -3,7 +3,7 @@ title: "How Jekyll actually works"
 source: Niels de Hoog
 date: 2016-07-15 11:16:00 +0000
 link: http://nielsify.com/2016/07/15/how-jekyll-actually-works.html
-type: Article
+content_type: Article
 tool:
   - tool/jekyll.md
 ---

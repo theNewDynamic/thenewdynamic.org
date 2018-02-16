@@ -3,7 +3,7 @@ title: "How to use Data Files in Hugo: an example"
 source: Peter Y. Chuang
 date: 2016-05-19 20:02:00 +0000
 link: https://novelist.xyz/tech/hugo-data-files/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/hugo.md
 ---

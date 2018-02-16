@@ -3,7 +3,7 @@ title: "Awesome Hugo Boilerplates"
 source: Josh Habdas
 date: 2017-10-08 08:47:00 +0000
 link: https://habd.as/awesome-hugo-boilerplates/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/hugo.md
 ---

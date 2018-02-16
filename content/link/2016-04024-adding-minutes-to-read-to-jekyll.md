@@ -2,7 +2,7 @@
 title: "Adding 'Minutes to read' to your Jekyll blog"
 date: 2017-02-01T12:00:00.000Z
 editor_recommends:
-type: Tutorial
+content_type: Tutorial
 source: "Àlex Rodríguez Bacardit"
 link: http://www.alexrodba.com/2016/04/24/Adding-minutes-to-read-to-your-jekyll-blog.html
 tool:

@@ -3,7 +3,7 @@ title: "Writing your first Metalsmith plugin"
 date: 2015-10-20T17:37:00.000Z
 posted_date: 2015-10-21T17:38:00.000Z
 editor_recommends:
-type: Tutorial
+content_type: Tutorial
 slug: links/writing-your-first-metalsmith-plugin
 source: Peter Morlion
 link: http://www.petermorlion.com/writing-your-first-metalsmith-plugin/

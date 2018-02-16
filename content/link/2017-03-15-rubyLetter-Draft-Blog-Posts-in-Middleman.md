@@ -3,7 +3,7 @@ title: "Draft Blog Posts in Middleman"
 source: Rubyletter
 date: 2017-03-15 08:06:00 +0000
 link: http://www.rubyletter.com/blog/2017/03/15/middleman-blog-drafts.html
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/middleman.md
 ---

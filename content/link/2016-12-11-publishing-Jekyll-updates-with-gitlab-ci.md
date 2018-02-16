@@ -3,7 +3,7 @@ title: "Publishing Jekyll updates with gitlab-ci"
 source: Lars Olafsen
 date: 2016-12-11 21:58:00 +0000
 link: https://redpill-linpro.com/sysadvent/2016/12/03/jekyll-gitlab-ci.html
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/jekyll.md
   - tool/gitlab.md

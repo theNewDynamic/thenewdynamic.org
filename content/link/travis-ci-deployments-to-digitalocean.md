@@ -3,7 +3,7 @@ title: "Travis CI deployments to DigitalOcean"
 source: Mxime Kjaer
 date: 2016-01-28 09:37:00 +0000
 link: http://kjaermaxi.me/travis/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/jekyll.md
 ---

@@ -3,7 +3,7 @@ title: "Using Hexo and AWS to build a fast, massively scalable website for penni
 source: Ted Yavuzkurt
 date: 2017-02-14 22:14:00 +0000
 link: https://medium.com/@TedYav/using-hexo-and-aws-to-build-a-fast-massively-scalable-website-for-pennies-ea3c0f1115a#.qpa0w0onb
-type: Article
+content_type: Article
 tool:
   - tool/hexo.md
   - tool/aws.md

@@ -3,7 +3,7 @@ title: "Using Jekyll for Rapid CSS Testing"
 source: Ire Aderinokun
 date: 2016-05-17 23:20:00 +0000
 link: https://bitsofco.de/using-jekyll-for-rapid-css-testing/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/jekyll.md 
 ---

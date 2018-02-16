@@ -4,7 +4,7 @@ source: Leon Barnard, Treehouse Blog
 tags: wordpress
 date: 2017-09-30 09:03:00 +0000
 link: http://blog.teamtreehouse.com/hugo-templates-wordpress-designers
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/hugo.md
 ---

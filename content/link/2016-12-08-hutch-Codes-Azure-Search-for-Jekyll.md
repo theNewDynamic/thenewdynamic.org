@@ -3,7 +3,7 @@ title: "Hutch Codes — Azure Search for Jekyll"
 source: Jeremy Hutchinson
 date: 2016-12-08 22:45:00 +0000
 link: https://hutchcodes.net/2016/12/azure-search-for-jekyll/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/jekyll.md 
 ---

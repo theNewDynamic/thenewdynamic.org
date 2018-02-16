@@ -3,7 +3,7 @@ title: "Static Site Generation using Metalsmith"
 date: 2015-10-28T13:43:00.000Z
 posted_date: 2015-10-28T13:43:00.000Z
 editor_recommends:
-type: Video/Presentation
+content_type: Video/Presentation
 slug: links/static-site-generation-using-metalsmith
 source: David Boyer
 link: https://slidr.io/misterdai/static-site-generation-using-metalsmith#1/

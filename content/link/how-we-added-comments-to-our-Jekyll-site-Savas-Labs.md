@@ -3,7 +3,7 @@ title: "How we added comments to our Jekyll site"
 source: Kosta Harlan, Savas Labs
 date: 2016-04-20 22:30:00 +0000
 link: http://savaslabs.com/2016/04/20/squabble-comments.html
-type: Article
+content_type: Article
 tool:
   - tool/jekyll.md
 ---

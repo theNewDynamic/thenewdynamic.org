@@ -3,7 +3,7 @@ title: "The Changelog #162: Octopress 3.0 with Brandon Mathis"
 date: 2015-06-26T14:30:00.000Z
 posted_date: 2015-06-26T14:30:00.000Z
 editor_recommends:
-type: Resource/Website
+content_type: Resource/Website
 slug: links/the-changelog-162-octopress-30-with-brandon-mathis
 source: The Changelog
 link: https://changelog.com/162/

@@ -3,7 +3,7 @@ title: "Proteus Static Site Starter Kits"
 date: 2015-01-02T22:17:00.000Z
 posted_date: 2015-05-02T21:17:00.000Z
 editor_recommends:
-type: News
+content_type: News
 slug: links/proteus-static-site-starter-kits
 source: Thoughtbot
 link: http://thoughtbot.github.io/proteus/

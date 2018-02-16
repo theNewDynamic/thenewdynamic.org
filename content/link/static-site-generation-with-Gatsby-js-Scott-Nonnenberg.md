@@ -3,7 +3,7 @@ title: "Static site generation with Gatsby.js"
 source: Scott Nonnenberg
 date: 2016-04-19 18:04:00 +0000
 link: https://blog.scottnonnenberg.com/static-site-generation-with-gatsby-js/
-type: Presentation
+content_type: Presentation
 video: https://www.youtube.com/watch?v=Wpkc8o1V_SU
 tool:
   - tool/gatsby.md

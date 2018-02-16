@@ -3,7 +3,7 @@ title: "Hugo Continuous Integration with Wercker and Bitbucket"
 date: 2015-10-15T15:16:00.000Z
 posted_date: 2015-10-15T15:16:00.000Z
 editor_recommends:
-type: Resource/Website
+content_type: Resource/Website
 slug: links/hugo-continuous-integration-with-wercker-and-bitbucket
 source: Aerobatic
 link: http://www.aerobatic.com/blog/hugo-continuous-integration-with-wercker-aerobatic-and-bitbucket.html

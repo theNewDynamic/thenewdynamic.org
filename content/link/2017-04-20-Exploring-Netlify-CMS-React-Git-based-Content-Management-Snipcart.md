@@ -3,7 +3,7 @@ title: "Exploring Netlify CMS: React & Git-based Content Management"
 source: Snipcart
 date: 2017-04-20 15:08:00 +0000
 link: https://snipcart.com/blog/netlify-cms-react-git-workflow
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/netlify-cms.md 
 ---

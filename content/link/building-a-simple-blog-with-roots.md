@@ -3,7 +3,7 @@ title: "Building a Simple Blog with Roots"
 date: 2013-06-24T15:33:00.000Z
 posted_date: 2015-10-24T15:33:00.000Z
 editor_recommends:
-type: Tutorial
+content_type: Tutorial
 slug: links/building-a-simple-blog-with-roots
 source: Jeff Escalante, Carrot Creative
 link: http://carrot.is/coding/roots_blog_tutorial/

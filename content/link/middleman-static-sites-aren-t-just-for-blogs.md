@@ -3,7 +3,7 @@ title: "Middleman: Static Sites Aren’t Just for Blogs"
 date: 2015-06-15T19:42:00.000Z
 posted_date: 2015-06-15T19:42:00.000Z
 editor_recommends:
-type: Tutorial
+content_type: Tutorial
 slug: links/middleman-static-sites-arent-just-for-blogs
 source: PJ Hagerty, Engine Yard
 link: https://blog.engineyard.com/2015/middleman-static-sites-arent-just-for-blogs/

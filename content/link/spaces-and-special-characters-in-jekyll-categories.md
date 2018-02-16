@@ -3,7 +3,7 @@ title: "Spaces and special characters in Jekyll categories"
 date: 2015-05-20T23:35:00.000Z
 posted_date: 2015-05-20T23:35:00.000Z
 editor_recommends:
-type: Tutorial
+content_type: Tutorial
 slug: links/spaces-and-special-characters-in-jekyll-categories
 source: Piotr Świderek
 link: http://fusil.li/blog/spaces-and-special-characters-in-jekyll-categories/

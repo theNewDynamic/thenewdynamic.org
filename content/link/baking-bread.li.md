@@ -3,7 +3,7 @@ title: " Baking Bread.li"
 date: 2015-01-12T22:27:00.000Z
 posted_date: 2015-05-02T21:27:00.000Z
 editor_recommends:
-type: Video/Presentation
+content_type: Video/Presentation
 slug: links/baking-breadli
 source: David Darnes
 link: https://www.youtube.com/playlist?list=PLqG97mWmzNL7OFKjx0eXQpwpOaXFRM251

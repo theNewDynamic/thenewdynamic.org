@@ -3,7 +3,7 @@ title: "Build a Custom CMS for a Serverless Static Site Generator"
 source:  John Polacek, CSS-Tricks
 date: 2017-01-09 15:31:00 +0000
 link: https://css-tricks.com/build-custom-cms-serverless-static-site-generator/
-type: Tutorial
+content_type: Tutorial
 category: essentials
 tool: []
 ---

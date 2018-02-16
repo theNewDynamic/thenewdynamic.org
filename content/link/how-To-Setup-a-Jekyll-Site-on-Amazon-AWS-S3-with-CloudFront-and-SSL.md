@@ -3,7 +3,7 @@ title: "How-To Setup a Jekyll Site on Amazon AWS S3 with CloudFront and SSL"
 source: Root Engineer
 date: 2016-03-17 16:31:00 +0000
 link: https://rootengineer.net/cloud/2016/jekyll-amazon-aws-s3-cloudfront-with-ssl/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/jekyll.md
 ---

@@ -3,7 +3,7 @@ title: "Using GitlabCI to build and deploy your Jekyll Site to Amazon S3"
 source: Christ Tarwater
 date: 2016-11-03 17:35:00 +0000
 link: https://www.chrisanthropic.com/using-gitlab-ci-to-build-deploy-jekyll-site-amazon-s3/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/jekyll.md
   - tool/gitlab-pages.md

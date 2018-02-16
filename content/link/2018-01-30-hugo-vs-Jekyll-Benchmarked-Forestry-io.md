@@ -3,7 +3,7 @@ title: "Hugo vs Jekyll: Benchmarked"
 source: Chris Macrae, Forestry.io
 date: 2018-01-30 09:51:00 +0000
 link: https://forestry.io/blog/hugo-vs-jekyll-benchmark/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/jekyll.md
   - tool/hugo.md

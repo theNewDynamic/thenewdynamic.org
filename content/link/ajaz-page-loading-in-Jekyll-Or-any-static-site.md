@@ -3,7 +3,7 @@ title: "AJAX Page loading in Jekyll (Or any static site)"
 source: Adam Laycock
 date: 2016-02-04 09:02:00 +0000
 link: http://arcath.net/2016/02/04/ajax-page-loading-in-jekyll-or-any-static-site.html
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/jekyll.md
 ---

@@ -3,7 +3,7 @@ title: "Making a basic URL shortener with Middleman"
 source: Adam Hollett
 date: 2016-07-21 17:28:00 +0000
 link: http://adamhollett.com/posts/2016/07/middleman-url-shortener/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/middleman.md
 ---

@@ -3,7 +3,7 @@ title: "How to Create a Static Site with Metalsmith"
 source: Craig Buckler
 date: 2016-04-21 16:54:00 +0000
 link: http://www.sitepoint.com/create-static-site-metalsmith/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/metalsmith.md
 ---

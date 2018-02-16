@@ -3,7 +3,7 @@ title: "Static Site or CMS?"
 date: 2015-09-29T20:49:00.000Z
 posted_date: 2015-10-05T20:49:00.000Z
 editor_recommends:
-type: Article
+content_type: Article
 slug: links/static-site-or-cms
 source: Brian Rinaldi, Telerik
 link: http://developer.telerik.com/featured/static-site-or-cms/

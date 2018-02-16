@@ -3,7 +3,7 @@ title: "React Blog Jekyll"
 source: Adam Laycock
 date: 2016-03-29 08:29:00 +0000
 link: http://arcath.net/2016/03/29/react.html
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/jekyll.md
 ---

@@ -3,7 +3,7 @@ title: "Displaying Medium Posts on Your Jekyll Website"
 source: James Hamann
 date: 2017-05-09 11:31:00 +0000
 link: https://medium.com/@jameshamann/displaying-medium-posts-on-your-jekyll-website-7eef230309e4
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/jekyll.md
 ---

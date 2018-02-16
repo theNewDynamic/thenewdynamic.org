@@ -3,7 +3,7 @@ title: "How we built the new evocode"
 source: 'Patrick Heeney, Evocode'
 date: 2016-08-03 12:00:00 +0000
 link: http://evocode.com/blog/how-we-built-the-new-evocode/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/metalsmith.md
 ---

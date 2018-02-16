@@ -3,7 +3,7 @@ title: "AWS Lambda Static Site Generator Plugins - Alestic.com"
 source: Eric Hammond
 date: 2016-10-31 22:25:00 +0000
 link: https://alestic.com/2016/10/aws-static-site-generator-plugins/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/hugo.md
   - tool/aws-lambda.md

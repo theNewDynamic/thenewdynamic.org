@@ -3,7 +3,7 @@ title: "Add live reloading to Jekyll with Gulp and Browsersync"
 source: Vladimir Iakovlev
 date: 2016-11-11 08:06:00 +0000
 link: https://nvbn.github.io/2015/06/19/jekyll-browsersync/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/jekyll.md
   - tool/gulp.md

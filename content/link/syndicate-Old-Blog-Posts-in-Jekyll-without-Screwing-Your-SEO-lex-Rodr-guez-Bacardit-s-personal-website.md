@@ -3,7 +3,7 @@ title: "Syndicate Old Blog Posts in Jekyll without Screwing Your SEO | Àlex Rod
 source: Àlex Rodríguez Bacardit
 date: 2016-04-19 15:05:00 +0000
 link: http://www.alexrodba.com/2016/04/19/Syndicate-Old-Blog-Posts-in-Jekyll-Without-Screwing-Your-SEO.html
-type: Tutorial
+content_type: Tutorial
 tags: seo
 tool:
   - tool/jekyll.md 

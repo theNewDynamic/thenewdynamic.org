@@ -4,7 +4,7 @@ date: 2015-06-11T21:04:00.000Z
 posted_date: 2015-06-19T21:04:00.000Z
 editor_recommends:
 category: essentials
-type: Article
+content_type: Article
 slug: links/the-static-html-reprise
 source: Andrew Goodricke
 link: http://www.andrewgoodricke.com/posts/2015-06-11_static_html_reprise.html

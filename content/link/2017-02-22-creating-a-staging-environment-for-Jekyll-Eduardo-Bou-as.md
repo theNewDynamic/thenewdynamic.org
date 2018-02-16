@@ -3,7 +3,7 @@ title: "Creating a staging environment for Jekyll"
 source: Eduardo Bouças
 date: 2017-02-22 22:01:00 +0000
 link: https://eduardoboucas.com/blog/2017/02/22/jekyll-staging-environment.html
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/jekyll.md
   - tool/netlify.md

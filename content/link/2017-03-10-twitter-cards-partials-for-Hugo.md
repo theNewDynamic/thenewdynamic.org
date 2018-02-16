@@ -3,7 +3,7 @@ title: "Twitter cards partials for Hugo"
 source: GoHugoHQ
 date: 2017-03-10 08:36:00 +0000
 link: https://gohugohq.com/partials/twitter-cards-partials-for-hugo/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/hugo.md
 ---

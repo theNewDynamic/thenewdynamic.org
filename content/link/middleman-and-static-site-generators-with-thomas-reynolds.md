@@ -3,7 +3,7 @@ title: "Middleman and Static Site Generators with Thomas Reynolds"
 date: 2015-08-15T13:32:00.000Z
 posted_date: 2015-08-15T13:32:00.000Z
 editor_recommends:
-type: Video/Presentation
+content_type: Video/Presentation
 slug: links/middleman-and-static-site-generators-with-thomas-reynolds
 source: The Changelog
 link: https://changelog.com/169/

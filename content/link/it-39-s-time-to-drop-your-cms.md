@@ -3,7 +3,7 @@ title: "It&#39;s time to drop your CMS"
 date: 2015-09-10T18:05:00.000Z
 posted_date: 2015-12-07T19:05:00.000Z
 editor_recommends:
-type: Article
+content_type: Article
 slug: links/its-time-to-drop-your-cms
 source: Owen Williams, The Apartment
 link: http://theapartment.co/dev/2015/09/10/drop-that-old-cms/

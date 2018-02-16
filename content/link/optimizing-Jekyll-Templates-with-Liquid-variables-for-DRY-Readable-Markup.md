@@ -3,7 +3,7 @@ title: "Optimizing Jekyll Templates with Liquid variables for DRY, Readable Mark
 source: Eric Carlisle
 date: 2015-12-17 11:07:00 +0000
 link: http://www.ericcarlisle.com/jekyll/liquid/ruby/2015/12/17/Optimizing_Jekyll_Templates_with_Liquid_Variables.html
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/jekyll.md 
 ---

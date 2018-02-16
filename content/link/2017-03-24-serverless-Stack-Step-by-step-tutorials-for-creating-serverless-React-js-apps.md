@@ -3,7 +3,7 @@ title: "Serverless Stack - Step-by-step tutorials for creating serverless React.
 source: Anomaly Innovations
 date: 2017-03-24 23:49:00 +0000
 link: http://serverless-stack.com/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/aws-lambda.md
 ---

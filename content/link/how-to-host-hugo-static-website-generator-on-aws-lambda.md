@@ -3,7 +3,7 @@ title: "How to host Hugo static website generator on AWS Lambda"
 date: 2015-12-15T13:45:00.000Z
 posted_date: 2015-12-17T13:45:00.000Z
 editor_recommends:
-type: Tutorial
+content_type: Tutorial
 slug: links/how-to-host-hugo-static-website-generator-on-aws-lambda
 source: Ilya Bezdelev
 link: http://bezdelev.com/post/hugo-aws-lambda-static-website/

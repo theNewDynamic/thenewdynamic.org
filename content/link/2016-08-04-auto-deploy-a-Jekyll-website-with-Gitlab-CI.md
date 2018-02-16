@@ -3,7 +3,7 @@ title: "Auto deploy a Jekyll website with Gitlab CI"
 source: Riccardo Padovani
 date: 2016-08-04 12:08:00 +0000
 link: https://rpadovani.com/jekyll-autodeploy-gitlab-ci/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/jekyll.md
   - tool/gitlab.md

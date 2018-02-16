@@ -3,7 +3,7 @@ title: "Jekyll-hook Updated; Run your own Github Pages"
 date: 2014-07-24T02:18:00.000Z
 posted_date: 2015-05-02T02:18:00.000Z
 editor_recommends:
-type: News
+content_type: News
 slug: links/jekyll-hook-updated-run-your-own-github-pages
 source: Development Seed
 link: https://developmentseed.org/blog/2014/07/23/jekyll-hook/

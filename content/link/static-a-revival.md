@@ -3,7 +3,7 @@ title: "Static, A Revival"
 date: 2013-10-16T15:26:00.000Z
 posted_date: 2015-10-24T15:26:00.000Z
 editor_recommends: 2
-type: Article
+content_type: Article
 slug: links/static-a-revival
 source: Kyle MacDonald, Carrot Creative
 link: http://carrot.is/coding/static/

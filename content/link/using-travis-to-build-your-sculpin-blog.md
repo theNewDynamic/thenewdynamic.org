@@ -3,7 +3,7 @@ title: "Using Travis to build your Sculpin blog"
 date: 2015-02-03T04:23:00.000Z
 posted_date: 2015-05-02T03:24:00.000Z
 editor_recommends:
-type: Tutorial
+content_type: Tutorial
 slug: links/using-travis-to-build-your-sculpin-blog
 source: Wouter J
 link: http://wouterj.nl/2015/02/using-travis-to-build-your-sculpin-blog/

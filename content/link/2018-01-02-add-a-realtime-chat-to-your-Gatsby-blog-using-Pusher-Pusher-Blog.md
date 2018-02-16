@@ -3,7 +3,7 @@ title: "Add a realtime chat to your Gatsby blog using Pusher"
 source: Pusher Blog
 date: 2018-01-02 08:11:00 +0000
 link: https://blog.pusher.com/add-realtime-chat-gatsby-blog-pusher/?ref=stackshare
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/gatsby.md
 ---

@@ -3,7 +3,7 @@ title: "Gatsby.js: How to set up and use the React Static Site Generator"
 source: Aman Mittal
 date: 2018-01-04 19:41:00 +0000
 link: https://medium.freecodecamp.org/setting-up-and-getting-used-to-gatsby-1fc27985ae8a
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/gatsby.md
 ---

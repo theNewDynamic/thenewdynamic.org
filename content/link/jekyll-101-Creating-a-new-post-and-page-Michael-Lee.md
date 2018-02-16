@@ -3,7 +3,7 @@ title: "Jekyll 101: Creating a new post and page / Michael Lee"
 source: Michael Lee
 date: 2016-06-15 21:37:00 +0000
 link: https://michaelsoolee.com/jekyll-post-page/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/jekyll.md
 ---

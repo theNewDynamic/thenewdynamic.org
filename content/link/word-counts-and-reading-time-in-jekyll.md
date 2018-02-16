@@ -3,7 +3,7 @@ title: "Word Counts and Reading Time in Jekyll"
 source: Sacha Schmid
 date: 2013-10-20 22:04:00 +0000
 link: https://sacha.me/articles/jekyll-word-counts/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/jekyll.md
 ---

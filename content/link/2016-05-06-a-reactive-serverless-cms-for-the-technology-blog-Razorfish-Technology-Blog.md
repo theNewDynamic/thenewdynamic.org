@@ -3,7 +3,7 @@ title: "A reactive serverless cms for the technology blog · Razorfish Technolog
 source: Razorfish
 date: 2016-05-06 18:22:00 +0000
 link: http://technology.razorfish.com/2016/05/06/a-reactive-serverless-cms-for-the-technology-blog/index.html
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/hugo.md
   - tool/aws-lambda.md

@@ -3,7 +3,7 @@ title: "Building Books with Middleman Extensions"
 date: 2015-11-21T00:01:00.000Z
 posted_date: 2015-11-21T00:01:00.000Z
 editor_recommends:
-type: Article
+content_type: Article
 slug: links/building-books-with-middleman-extensions
 source: Eric Gardner (@ecgardner)
 link: http://egardner.github.io/posts/2015/building-books-with-middleman/

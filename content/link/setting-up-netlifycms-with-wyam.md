@@ -2,7 +2,7 @@
 title: Setting up NetlifyCMS with Wyam
 date: 2018-02-16 13:58:28 +0000
 source: Mark Burton
-type: Tutorial
+content_type: Tutorial
 tool:
 - tool/wyam.md
 video: false

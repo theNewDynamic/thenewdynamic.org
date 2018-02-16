@@ -3,7 +3,7 @@ title: "Static Website Generators Reviewed: Jekyll, Middleman, Roots, Hugo"
 date: 2015-11-16T12:50:00.000Z
 posted_date: 2015-11-16T12:50:00.000Z
 editor_recommends: 2
-type: Review
+content_type: Review
 slug: links/static-website-generators-reviewed-jekyll-middleman-roots-hugo
 source: Mathias Biilmann, Smashing Magazine
 link: http://www.smashingmagazine.com/2015/11/static-website-generators-jekyll-middleman-roots-hugo-review/

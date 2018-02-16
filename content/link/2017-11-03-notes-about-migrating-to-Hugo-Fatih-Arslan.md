@@ -3,7 +3,7 @@ title: "Notes about migrating to Hugo"
 source: Fatih Arslan
 date: 2017-11-30 22:23:00 +0000
 link: http://arslan.io/2017/11/30/notes-about-migrating-to-hugo/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/hugo.md
   - tool/netlify.md

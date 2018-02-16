@@ -5,7 +5,7 @@ posted_date: 2015-05-02T22:30:00.000Z
 editor_recommends:
 video: true
 category: essentials
-type: Video/Presentation
+content_type: Video/Presentation
 slug: links/comparing-static-site-engines
 source: Brian Rinaldi at SFHTML5
 link: https://www.youtube.com/watch?v=R-fJWOO1bjE

@@ -3,7 +3,7 @@ title: "Hugo + Staticman: Nested Replies and E-mail Notifications"
 source: Dan C Williams
 date: 2017-12-30 13:51:00 +0000
 link: https://networkhobo.com/2017/12/30/hugo---staticman-nested-replies-and-e-mail-notifications/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/static-man.md
   - tool/hugo.md

@@ -3,7 +3,7 @@ title: "Lektor Static CMS, put the fun back into Content Management"
 source: Donato Rotunno
 date: 2016-10-27 10:16:00 +0000
 link: https://blog.liip.ch/archive/2016/09/21/lektor-static-cms-put-fun-back-content-management.html
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/lektor.md
 ---

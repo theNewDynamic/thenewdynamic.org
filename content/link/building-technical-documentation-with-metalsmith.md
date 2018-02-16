@@ -3,7 +3,7 @@ title: "Building Technical Documentation with Metalsmith"
 date: 2015-10-20T17:24:00.000Z
 posted_date: 2015-10-21T17:24:00.000Z
 editor_recommends:
-type: Tutorial
+content_type: Tutorial
 slug: links/building-technical-documentation-with-metalsmith
 source: Andy Jiang, Segment
 link: https://segment.com/blog/building-technical-documentation-with-metalsmith/

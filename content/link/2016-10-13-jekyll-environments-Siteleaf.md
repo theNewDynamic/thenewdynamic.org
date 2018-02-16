@@ -3,7 +3,7 @@ title: "Jekyll environments"
 source: Siteleaf
 date: 2016-10-13 20:35:00 +0000
 link: https://www.siteleaf.com/blog/jekyll-environments/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/jekyll.md
 ---

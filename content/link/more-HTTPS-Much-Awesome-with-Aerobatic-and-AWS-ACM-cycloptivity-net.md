@@ -3,7 +3,7 @@ title: "More HTTPS, Much Awesome with Aerobatic and AWS ACM"
 source: Sam Wilson, cycloptivity.net
 date: 2016-03-20 19:36:00 +0000
 link: https://www.cycloptivity.net/more-https-much-awesome/
-type: Article
+content_type: Article
 tool:
   - tool/aerobatic.md
 ---

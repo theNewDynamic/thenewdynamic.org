@@ -3,7 +3,7 @@ title: "Octopress 3.0 Is Coming"
 date: 2015-01-16T04:14:00.000Z
 posted_date: 2015-05-02T03:14:00.000Z
 editor_recommends:
-type: News
+content_type: News
 slug: links/octopress-30-is-coming
 source: Octopress
 link: http://octopress.org/2015/01/15/octopress-3.0-is-coming/

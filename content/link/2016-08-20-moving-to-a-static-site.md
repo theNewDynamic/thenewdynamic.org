@@ -3,7 +3,7 @@ title: "Moving to a static site"
 source: David Yates
 date: 2016-08-19 12:21:00 +0000
 link: https://davidyat.es/2016/08/19/moving-to-a-static-site/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/hugo.md
 ---

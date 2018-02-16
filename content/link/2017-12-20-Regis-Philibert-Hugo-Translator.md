@@ -3,7 +3,7 @@ title: "Regis Philibert | Hugo Translator"
 source:
 date: 2017-12-20 08:03:00 +0000
 link: https://regisphilibert.com/blog/2017/04/hugo-go-template-translator-explained-understanding/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/hugo.md 
 ---

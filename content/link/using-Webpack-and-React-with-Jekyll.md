@@ -3,7 +3,7 @@ title: "Using Webpack and React with Jekyll"
 source: Allison Zardrozny
 date: 2016-05-02 18:06:00 +0000
 link: http://allizad.com/code/2016/05/02/using-webpack-with-jekyll/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/jekyll.md
 ---

@@ -3,7 +3,7 @@ title: "Creating a Category Based Pagination in Liquid for Jekyll without Gems"
 source: Jay Aevyz L.
 date: 2017-04-02 10:50:00 +0000
 link: https://aevyz.github.io/adv-jekyll/Creating-A-Category-Based-Pager-In-Liquid.html
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/jekyll.md
 ---

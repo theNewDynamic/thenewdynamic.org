@@ -3,7 +3,7 @@ title: "Static sites go all Hollywood"
 date: 2015-09-22T15:13:00.000Z
 posted_date: 2015-09-22T15:13:00.000Z
 editor_recommends:
-type: Video/Presentation
+content_type: Video/Presentation
 slug: links/static-sites-go-all-hollywood
 source: Phil Hawksworth
 link: https://speakerdeck.com/philhawksworth/static-sites-go-all-hollywood/

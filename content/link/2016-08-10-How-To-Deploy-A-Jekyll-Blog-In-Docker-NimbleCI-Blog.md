@@ -3,7 +3,7 @@ title: "How To Deploy A Jekyll Blog In Docker"
 source: Emmet O'Grady
 date: 2016-08-10 15:29:00 +0000
 link: http://blog.nimbleci.com/2016/08/10/how-to-deploy-a-jekyll-blog-in-docker/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/jekyll.md
   - tool/docker.md

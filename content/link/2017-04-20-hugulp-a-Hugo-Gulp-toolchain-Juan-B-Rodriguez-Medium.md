@@ -3,7 +3,7 @@ title: "Hugulp, a Hugo + Gulp toolchain"
 source: Juan B. Rodriguez
 date: 2017-04-20 07:54:00 +0000
 link: https://medium.com/@juanbrodriguez/hugulp-a-hugo-gulp-toolchain-94f72ccc3577
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/hugo.md
   - tool/gulp.md

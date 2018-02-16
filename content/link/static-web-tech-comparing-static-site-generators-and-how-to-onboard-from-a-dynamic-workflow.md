@@ -3,7 +3,7 @@ title: "Static Web Tech: Comparing static site generators and how to onboard fro
 date: 2015-05-30T23:01:00.000Z
 posted_date: 2015-05-30T23:01:00.000Z
 editor_recommends: 3
-type: Video/Presentation
+content_type: Video/Presentation
 slug: links/static-web-tech-comparing-static-site-generators-and-how-to-onboard-from-a-dynamic-workflow
 source: Mathias Biilmann, Netlify
 link: http://www.staticwebtech.com/

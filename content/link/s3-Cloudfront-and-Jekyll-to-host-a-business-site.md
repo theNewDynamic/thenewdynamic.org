@@ -3,7 +3,7 @@ title: "Using S3, Cloudfront, and Jekyll to host a business site"
 source: Freddie, Codogo
 date: 2016-05-26 23:27:00 +0000
 link: https://www.codogo.io/tutorial/2016/05/19/using-s3-cloudfront-and-jekyll-to-host-a-buissness-site/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/jekyll.md
   - tool/s3.md

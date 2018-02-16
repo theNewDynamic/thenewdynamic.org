@@ -3,7 +3,7 @@ title: "Github Pages Best Practices"
 source: Matt Allan
 date: 2016-04-12T00:00:00.000Z
 link: http://mattallan.org/2016/github-pages-best-practices/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/github-pages.md
   - tool/jekyll.md

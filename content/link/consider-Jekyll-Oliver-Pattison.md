@@ -3,7 +3,7 @@ title: "Consider Jekyll"
 source: Oliver Pattison
 date: 2016-03-18 11:13:00 +0000
 link: https://olivermak.es/2016/03/consider-jekyll/
-type: Article
+content_type: Article
 category: essentials
 tool:
   - tool/jekyll.md

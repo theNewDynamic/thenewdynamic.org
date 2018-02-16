@@ -3,7 +3,7 @@ title: "How to deal with Jekyll Page Build Errors?"
 source: Webjeda Blog
 date: 2016-07-22 10:29:00 +0000
 link: https://blog.webjeda.com/page-build-error/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/jekyll.md
 ---

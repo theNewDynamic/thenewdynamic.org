@@ -3,7 +3,7 @@ title: "How we test 18f.gsa.gov"
 source: "Greg Boone, 18F: Digital service delivery "
 date: 2015-12-11 22:11:00 +0000
 link: https://18f.gsa.gov/2015/12/11/how-we-test-18f-gsa-gov/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/jekyll.md
   - tool/jenkins-ci.md

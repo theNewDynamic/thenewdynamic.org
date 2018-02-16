@@ -3,7 +3,7 @@ title: "Optimizing Jekyll Performance with Gulp | Savas Labs"
 source: Anne Tomasevich
 date: 2016-10-24 18:01:00 +0000
 link: http://savaslabs.com/2016/10/19/optimizing-jekyll-with-gulp.html
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/jekyll.md
   - tool/gulp.md

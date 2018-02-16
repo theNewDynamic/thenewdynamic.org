@@ -3,7 +3,7 @@ title: "Is Jekyll Better Than Joomla! and WordPress?"
 source: ohn Foderaro, Digital Shore
 date: 2015-06-14 20:16:00 +0000
 link: http://digitalshore.io/jekyll-better-choice-than-joomla-wordpress/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/jekyll.md
 ---

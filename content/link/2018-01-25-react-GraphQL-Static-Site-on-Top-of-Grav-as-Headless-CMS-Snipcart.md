@@ -3,7 +3,7 @@ title: "React & GraphQL Static Site on Top of Grav as Headless CMS"
 source: Charles Ouellet, Snipcart
 date: 2018-01-25 17:32:00 +0000
 link: https://snipcart.com/blog/react-graphql-grav-cms-headless-tutorial
-type: Article
+content_type: Article
 tool:
   - tool/gatsby.md
   - tool/grav.md

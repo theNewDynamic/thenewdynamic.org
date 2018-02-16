@@ -3,7 +3,7 @@ title: "Creating a JSON Feed for Hugo"
 source: Raymond Camden
 date: 2017-05-18 19:16:00 +0000
 link: https://www.raymondcamden.com/2017/05/18/creating-a-json-feed-for-hugo/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/hugo.md
 ---

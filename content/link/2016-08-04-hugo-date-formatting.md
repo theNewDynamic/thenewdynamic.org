@@ -3,7 +3,7 @@ title: "Limitations of Hugo's Date Format Templating"
 source: Paul Heinlein
 date: 2016-08-04 10:37:00 +0000
 link: https://www.madboa.com/blog/2016/08/24/hugo-dateformat/
-type: Article
+content_type: Article
 tool:
   - tool/hugo.md
 ---

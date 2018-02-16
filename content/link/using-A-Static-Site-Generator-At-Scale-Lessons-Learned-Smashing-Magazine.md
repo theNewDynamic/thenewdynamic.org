@@ -4,7 +4,7 @@ source: Stefan Baumgartner
 date: 2016-08-02 09:57:00 +0000
 link: https://www.smashingmagazine.com/2016/08/using-a-static-site-generator-at-scale-lessons-learned/
 category: essentials
-type: Article
+content_type: Article
 tool:
   - tool/jekyll.md
   - tool/metalsmith.md

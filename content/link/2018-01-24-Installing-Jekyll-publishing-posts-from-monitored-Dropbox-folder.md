@@ -3,7 +3,7 @@ title: "Installing Jekyll publishing posts from monitored Dropbox folder"
 source: David Relich
 date: 2018-01-24 22:08:00 +0000
 link: https://www.davidrelich.net/2018/01/24/installing-jekyll-with-dropbox
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/jekyll.md
 ---

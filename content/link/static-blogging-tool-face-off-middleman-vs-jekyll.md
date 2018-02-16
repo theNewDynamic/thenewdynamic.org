@@ -3,7 +3,7 @@ title: "Static Blogging Tool Face-Off: Middleman vs Jekyll"
 date: 2015-02-24T13:06:00.000Z
 posted_date: 2015-05-15T12:07:00.000Z
 editor_recommends:
-type: Article
+content_type: Article
 slug: links/static-blogging-tool-face-off-middleman-vs-jekyll
 source: David Turnbull, Sitepoint
 link: http://www.sitepoint.com/static-blogging-g-face-middleman-vs-jekyll/

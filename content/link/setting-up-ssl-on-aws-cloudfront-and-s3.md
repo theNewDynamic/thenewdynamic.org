@@ -3,7 +3,7 @@ title: "Setting Up SSL on AWS CloudFront and S3"
 date: 2014-04-24T16:17:00.000Z
 posted_date: 2015-10-18T16:17:00.000Z
 editor_recommends:
-type: Tutorial
+content_type: Tutorial
 slug: links/setting-up-ssl-on-aws-cloudfront-and-s3
 source: Bryce Fisher-Fleig
 link: https://bryce.fisher-fleig.org/blog/setting-up-ssl-on-aws-cloudfront-and-s3/

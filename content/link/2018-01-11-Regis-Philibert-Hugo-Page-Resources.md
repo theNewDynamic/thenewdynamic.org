@@ -3,7 +3,7 @@ title: "Hugo Page Resources"
 source: Regis Philibert
 date: 2018-01-11 11:13:00 +0000
 link: https://regisphilibert.com/blog/2018/01/hugo-page-resources-and-how-to-use-them/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/hugo.md
 ---

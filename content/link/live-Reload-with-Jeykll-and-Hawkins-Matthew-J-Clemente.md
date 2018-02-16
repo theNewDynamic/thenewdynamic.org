@@ -3,7 +3,7 @@ title: "Live Reload with Jeykll and Hawkins"
 source: Matthew J. Clemente
 date: 2016-07-30 14:27:00 +0000
 link: http://blog.mattclemente.com/2016/07/29/live-reload-with-jekyll-and-hawkins.html
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/jekyll.md
 ---

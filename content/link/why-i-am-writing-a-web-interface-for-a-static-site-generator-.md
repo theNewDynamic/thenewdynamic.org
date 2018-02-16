@@ -3,7 +3,7 @@ title: "Why I am writing a web interface for a static site generator "
 date: 2014-10-07T02:55:00.000Z
 posted_date: 2015-05-02T02:55:00.000Z
 editor_recommends:
-type: Article
+content_type: Article
 slug: links/why-i-am-writing-a-web-interface-for-a-static-site-generator
 source: Timo Zimmermann
 link: http://screamingatmyscreen.com/2014/10/why-i-am-writing-a-web-interface-for-a-static-site-generator/

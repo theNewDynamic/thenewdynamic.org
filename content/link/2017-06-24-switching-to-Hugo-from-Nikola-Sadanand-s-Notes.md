@@ -3,7 +3,7 @@ title: "Switching to Hugo from Nikola"
 source: Sadanand Singh
 date: 2017-06-24 18:12:00 +0000
 link: https://sadanand-singh.github.io/posts/nikola2hugo/
-type: Article
+content_type: Article
 tool:
   - tool/hugo.md
 ---

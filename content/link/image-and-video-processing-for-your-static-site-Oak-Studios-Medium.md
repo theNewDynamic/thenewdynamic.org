@@ -3,7 +3,7 @@ title: "Image and video processing for your static site"
 source: Sawyer Hollenshead, Oak Studios
 date: 2016-07-04 08:49:00 +0000
 link: http://www.siteleaf.com/blog/image-and-video-processing-for-your-static-site/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/imgix.md
   - tool/embedly.md

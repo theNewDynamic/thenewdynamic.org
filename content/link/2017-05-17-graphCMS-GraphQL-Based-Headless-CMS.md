@@ -3,7 +3,7 @@ title: "GraphCMS - GraphQL Based Headless CMS"
 source: Jeff Escalante
 date: 2017-05-17 23:16:00 +0000
 link: https://graphcms.com/blog/static-site-generation-using-graphcms-spike-and-netlify
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/spike.md
   - tool/roots.md

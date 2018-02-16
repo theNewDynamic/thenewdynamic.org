@@ -3,7 +3,7 @@ title: "Using Travis CI to build a Jekyll site"
 source: Paul D'ambra
 date: 2016-09-18 08:27:00 +0000
 link: http://pauldambra.github.io/using-travis-to-build-jekyll.html
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/jekyll.md
 ---

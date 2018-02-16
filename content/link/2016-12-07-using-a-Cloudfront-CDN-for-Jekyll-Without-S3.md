@@ -3,7 +3,7 @@ title: "Using a Cloudfront CDN for Jekyll Without S3"
 source: Joe Buhlig
 date: 2016-12-07 19:35:00 +0000
 link: http://joebuhlig.com/using-a-cloudfront-cdn-for-jekyll-without-s3/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/jekyll.md
   - tool/cloudfront.md

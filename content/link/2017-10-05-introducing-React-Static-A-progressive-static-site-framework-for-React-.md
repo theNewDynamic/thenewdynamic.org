@@ -3,7 +3,7 @@ title: " Introducing React-Static — A progressive static-site framework for Re
 source: Tanner Linsley
 date: 2017-10-05 23:00:00 +0000
 link: https://medium.com/@tannerlinsley/%EF%B8%8F-introducing-react-static-a-progressive-static-site-framework-for-react-3470d2a51ebc
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/react-static.md
 ---

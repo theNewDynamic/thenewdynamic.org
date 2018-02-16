@@ -3,7 +3,7 @@ title: "Automatic Archives for Jekyll on GitHub Pages"
 source: Tobias Lohse
 date: 2015-06-14 09:11:00 +0000
 link: http://mrloh.se/2015/06/automatic-archives-for-jekyll-on-github-pages/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/jekyll.md
 ---

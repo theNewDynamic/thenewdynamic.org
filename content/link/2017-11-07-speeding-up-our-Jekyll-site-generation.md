@@ -3,7 +3,7 @@ title: "Speeding up our Jekyll site generation"
 source: Max Kleucker
 date: 2017-11-07 17:35:00 +0000
 link: https://www.scandio.de/blog/en/2017/11/jekyll-performance
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/jekyll.md
 ---

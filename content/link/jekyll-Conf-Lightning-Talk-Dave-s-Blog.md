@@ -3,7 +3,7 @@ title: "Doing a Lot with a Little"
 source: David Darnes
 date: 2016-05-17 08:07:00 +0000
 link: https://david.darn.es/2016/05/17/jekyll-conf-lightning-talk/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/jekyll.md
   - tool/disqus.md

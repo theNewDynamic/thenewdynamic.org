@@ -3,7 +3,7 @@ title: "Responsive images with Jekyll (JekyllConf)"
 source: Oliver Pattison
 date: 2016-05-07 21:50:00 +0000
 link: https://olivermak.es/2016/05/jekyllconf-responsive-images/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/jekyll.md
   - tool/imgix.md

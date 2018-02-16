@@ -3,7 +3,7 @@ title: "Building a Jekyll Site – Part 2 of 3: Adding a Jekyll CMS with CloudCa
 source: Mike Neumegen (CloudCannon), CSS-Tricks
 date: 2016-02-10 21:18:00 +0000
 link: https://css-tricks.com/building-a-jekyll-site-part-2-of-3/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/jekyll.md
   - tool/cloudcannon.md

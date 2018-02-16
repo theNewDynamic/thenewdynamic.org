@@ -3,7 +3,7 @@ title: "Cracking FaceBook Instant Articles With Jekyll"
 source: Amit
 date: 2016-05-19 09:10:00 +0000
 link: http://lordamit.github.io/blog/2016/05/10/cracking-facebook-instant-articles-with-jekyll-rss-feed/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/jekyll.md
 ---

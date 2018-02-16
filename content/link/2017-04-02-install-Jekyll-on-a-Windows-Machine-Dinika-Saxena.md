@@ -3,7 +3,7 @@ title: "Install Jekyll on a Windows Machine"
 source: Dinika Saxena
 date: 2017-04-02 10:47:00 +0000
 link: https://dinikasaxena.wordpress.com/2017/04/02/install-jekyll-on-a-windows-machine/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/jekyll.md
 ---

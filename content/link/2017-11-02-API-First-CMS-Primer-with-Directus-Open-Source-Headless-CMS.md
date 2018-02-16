@@ -3,7 +3,7 @@ title: "API-First CMS Primer with Directus’ Open Source Headless CMS"
 source: Maxime LaBoissonniere
 date: 2017-11-20 20:06:00 +0000
 link: https://blog.usejournal.com/api-first-cms-primer-with-directus-open-source-headless-cms-1f6749aa2399
-type: Article
+content_type: Article
 tool:
   - tool/directus.md
 ---

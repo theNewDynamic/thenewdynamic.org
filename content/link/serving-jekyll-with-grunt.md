@@ -3,7 +3,7 @@ title: "Serving Jekyll with Grunt | MrLoh"
 source: Tobias Lohse
 date: 2016-06-03 09:13:00 +0000
 link: http://mrloh.se/2015/06/serving-jekyll-with-grunt/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/jekyll.md
   - tool/grunt.md

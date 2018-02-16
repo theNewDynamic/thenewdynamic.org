@@ -3,7 +3,7 @@ title: "Building a Jekyll Site - Part 1 of 3: Converting a Static Website To Jek
 source: "Mike Neumegen (Cloudcannon), CSS-Tricks"
 date: 2016-02-09 23:40:00 +0000
 link: https://css-tricks.com/building-a-jekyll-site-part-1-of-3/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/jekyll.md
   - tool/cloudcannon.md

@@ -3,7 +3,7 @@ title: "Deploying Hugo on Bluemix"
 source: Ryan Tiffany, dev.to
 date: 2017-06-08 16:08:00 +0000
 link: https://dev.to/greyhoundforty/deploying-hugo-on-bluemix
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/hugo.md
   - tool/bluemix.md

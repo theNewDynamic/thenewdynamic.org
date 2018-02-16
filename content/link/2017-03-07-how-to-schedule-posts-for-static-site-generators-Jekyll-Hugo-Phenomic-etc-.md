@@ -3,7 +3,7 @@ title: "How to schedule posts for static site generators (Jekyll, Hugo, Phenomic
 source: David Wells
 date: 2017-03-07 08:28:00 +0000
 link: https://serverless.com/blog/static-site-post-scheduler/?utm_content=bufferf4214&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/jekyll.md
   - tool/hugo.md

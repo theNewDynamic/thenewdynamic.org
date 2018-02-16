@@ -3,7 +3,7 @@ title: "Jekyll Issues aren't as Bad as You Think"
 source: Webjeda Blog
 date: 2016-08-10 12:11:00 +0000
 link: https://blog.webjeda.com/jekyll-issues/
-type: Tutorial
+content_type: Tutorial
 tool:
   - tool/jekyll.md
 ---

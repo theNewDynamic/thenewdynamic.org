@@ -3,7 +3,7 @@ title: "Automating Static Website Deployment, Part 1"
 source: AlphaGeek
 date: 2017-06-28 14:15:00 +0000
 link: http://computersfearme.com/post/automate-website-updates-part1/
-type: Tutorial
+content_type: Tutorial
 tags: deployment
 tool:
   - tool/hugo.md
