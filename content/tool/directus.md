@@ -1,16 +1,19 @@
 ---
 title: Directus
-date: 2017-02-21T15:17:00.000Z
+date: 2017-02-21 15:17:00 +0000
 tools:
-- headless-cms
 - content-management
 urls:
-  website: "https://getdirectus.com/"
-  github: "https://github.com/directus/directus"
-  twitter: "https://twitter.com/directus  "
+  website: https://getdirectus.com/
+  github: https://github.com/directus/directus
+  twitter: 'https://twitter.com/directus  '
+  other: ''
 resources:
-  - name: ''
-    url: ''
-description: "A Free and Open-Source Headless CMS"
+- name: ''
+  url: ''
+description: A Free and Open-Source Headless CMS
+tags:
+- API-based
+
 ---
 Directus is an API-driven content management framework for custom databases. It decouples content for use in apps, websites, or any other data-driven projects.
