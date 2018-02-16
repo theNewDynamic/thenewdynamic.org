@@ -14,7 +14,7 @@ fields:
   name: video
   label: Video
 - type: select
-  name: type
+  name: content_type
   config:
     source:
       type: simple
