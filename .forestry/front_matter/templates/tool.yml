@@ -31,6 +31,14 @@ fields:
 - type: tag_list
   name: tags
   label: Tags
+- type: list
+  name: related_tools
+  label: Related Tools
+  config:
+    use_select: true
+    source:
+      type: pages
+      section: tool
 - type: field_group
   name: urls
   label: URLS
