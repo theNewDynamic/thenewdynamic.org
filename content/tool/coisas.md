@@ -15,6 +15,8 @@ description: 'A client-side CMS for editing GitHub Markdown (and other) files. '
 tags:
 - git-based
 related_tools:
+- tool/hexo.md
+- tool/hugo.md
 - tool/jekyll.md
 
 ---
