@@ -2,7 +2,6 @@ DefaultContentLanguage: en
 MetaDataFormat: yaml
 Paginate: 300
 baseURL: "https://www.thenewdynamic.org"
-disableLiveReload: true
 enableRobotsTXT: true
 googleAnalytics: ""
 languageCode: en-us
