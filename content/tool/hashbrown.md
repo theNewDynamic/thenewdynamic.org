@@ -1,16 +1,19 @@
 ---
-title: "HashBrown CMS"
-date: 2017-11-14T15:17:00.000Z
+title: HashBrown CMS
+date: 2017-11-14 15:17:00 +0000
 tools:
-- headless-cms
 - content-management
-tags: ["open source"]
+tags:
+- open source
+- API-based
 urls:
-  website: "http://hashbrown.rocks/"
-  github:
-  twitter:
+  website: http://hashbrown.rocks/
+  github: ''
+  twitter: ''
+  other: ''
 resources:
-  - name: ''
-    url: ''
-description: "A free and open-source headless CMS"
+- name: ''
+  url: ''
+description: A free and open-source headless CMS
+
 ---
