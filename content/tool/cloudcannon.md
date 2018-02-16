@@ -7,8 +7,8 @@ tools:
 - hosting-deployment
 tags:
 - Editing
-- CMS
 - Hosting & Deploment
+- git-based
 urls:
   website: http://cloudcannon.com/
   github: ''
@@ -16,6 +16,8 @@ urls:
   other: ''
 description: ''
 resources: []
+related_tools:
+- tool/jekyll.md
 
 ---
 A source control backed CMS for developers working with non-developers
