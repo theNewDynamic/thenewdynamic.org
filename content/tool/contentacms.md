@@ -1,17 +1,20 @@
 ---
 title: Contenta CMS
-date: 2017-11-14T15:17:00.000Z
+date: 2017-11-14 15:17:00 +0000
 tools:
-- headless-cms
 - content-management
 urls:
-  website: "http://www.contentacms.org"
-  github:
-  twitter:
+  website: http://www.contentacms.org
+  github: ''
+  twitter: ''
+  other: ''
 resources:
-  - name: ''
-    url: ''
-description: "Contenta is an API-First Drupal distribution."
+- name: ''
+  url: ''
+description: Contenta is an API-First Drupal distribution.
+tags:
+- API-Based
+
 ---
 Contenta is the community driven API distribution for Drupal 8.
 
