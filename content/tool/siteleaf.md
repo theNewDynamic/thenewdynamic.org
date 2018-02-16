@@ -8,6 +8,7 @@ tools:
 - content-management
 tags:
 - Git-based
+- saas
 related_tools:
 - tool/jekyll.md
 urls:
@@ -15,7 +16,7 @@ urls:
   github: ''
   twitter: ''
   other: ''
-description: Siteleaf is a content management system designed for a better web.
+description: Siteleaf is a content management system for Jekyll
 resources: []
 
 ---
