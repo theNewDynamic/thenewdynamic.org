@@ -1,7 +1,7 @@
-<section class="content dg g-gap-10 g-columns-100">
-  {{ range  .Data.Pages }}
-    <div class="border-2 border-grey-lighter bg-white">
+<section class="js-filteredlist content dg g-gap-10 g-columns-100">
+  {{ range  .Data.Pages.ByTitle }}
+    <dl class=" border-2 border-grey-lighter bg-white">
       {{ .Render "summary" }}
-    </div>
+    </dl>
   {{ end }}
 </section>

@@ -2,7 +2,7 @@
 
 {{with $scripts}}
   {{range .}}
-    <script src='{{.Name  | add "/dist/js/" | absURL }}' defer></script>
+    <script src='{{.Name  | add "/dist/js/" | relURL }}' defer></script>
   {{end}}
 {{end}}
 

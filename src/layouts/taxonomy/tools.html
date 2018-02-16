@@ -1,8 +1,7 @@
-{{ define "main" }}
+{{ define "main" }}{{/* tool/list layout is shared with taxonomy/tools */}}
+  <article id="filter" class="center max-w-5xl mx-auto p-3 lg:p-4">
 
-  <article class="center max-w-5xl mx-auto p-3 lg:p-4 ">
-
-    <div class="my-4">
+    <div class="my-4 max-w-2xl">
       {{- partial "tags-within-section.html" . -}}
     </div>
 

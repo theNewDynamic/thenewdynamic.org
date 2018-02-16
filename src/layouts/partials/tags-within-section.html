@@ -8,5 +8,38 @@
 {{end}}
 
 {{range $.Scratch.GetSortedMapValues "tags"}}
-  <button class='border text-grey-darkest hover:bg-grey-darkest hover:text-white text-sm inline block mb-3 mr-3 px-3 py-2 rounded-sm'>{{.}}</button>
+  <button id="{{urlize .}}" class='js-only js-filter-buttons border text-grey-darkest hover:bg-grey-darkest hover:text-white text-sm inline block mb-3 mr-3 px-3 py-2 rounded-sm'>{{.}}</button>
 {{end}}
+
+
+
+{{/* <script>
+{{range $.Scratch.GetSortedMapValues "tags"}}
+if (document.getElementById("filter-{{urlize .}}")) {
+  document.getElementById("filter-{{urlize .}}").onclick = function() {
+    tools.filter(function(item) {
+      if (item.values().category == "{{.}}") {
+        return true;
+        console.log("CMS");
+      } else {
+        return false;
+        console.log("not CMS");
+      }
+    });
+  };
+}
+{{end}}
+</script> */}}
+
+
+
+
+
+  <button class="js-only sort" data-sort="js-main-category">
+    Sort by Type
+  </button>
+  <button id="clear-filters" class="js-only">
+    clear
+  </button>
+
+  <input class="search" placeholder="Search" />

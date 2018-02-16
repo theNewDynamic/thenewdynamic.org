@@ -1,32 +1,48 @@
 {{$taxonomy := index (.Params.tools) 0}}
 {{$category := .Site.GetPage "taxonomy" "tools" $taxonomy }}
+{{$links := where .Site.RegularPages ".Section" "link"}}
+{{$related_links := $links.RelatedTo (keyVals "tool" .File.TranslationBaseName)}}
+{{$related_links_count := $related_links | len}}
 
-<div class="">
-  <div class="bg-grey-light flex justify-between px-3 py-2 text-xs text-white" style="background-color:{{$category.Params.color}};">
-  {{with $category}}
-    <h2 class="text-sm">
-      {{- .Title -}}
-    </h2>
-  {{end}}
 
-    {{$links := where .Site.RegularPages ".Section" "link"}}
-    {{$related_links := $links.RelatedTo (keyVals "tool" .File.TranslationBaseName)}}
-    {{$related_links_count := $related_links | len}}
+<a href="{{.URL}}" class="block no-underline text-black hover:opacity-90">
+
+  <div class="bg-grey-light flex justify-between px-3 py-2 text-xs text-white" style="TKbackground-color:{{$category.Params.color}};">
+
+    {{with $category}}
+      <dt class="text-sm js-main-category">
+        {{- .Title -}}
+      </dt>
+    {{end}}
+
     {{if ge $related_links_count 1}}
-      <div class="inline-block text-grey-light">
+      <span class="inline-block text-grey-light">
         {{ $related_links | len }} article{{if gt $related_links_count 1}}s{{end}}
-      </div>
+      </span>
     {{end}}
 
   </div>
+
   <div class="p-3">
-    <h1 class="text-lg near-black">
-      <a href="{{ .URL }}" class="no-underline text-black dim">
-        {{- .Title -}}
-      </a>
-    </h1>
-    <div class="nested-links text-sm no-underline leading-normal nested-copy-line-height">
+
+    <dt class="js-title bold text-lg near-black">
+      {{- .Title -}}
+    </dt>
+
+    <dd class="js-description nested-links text-sm no-underline leading-normal nested-copy-line-height">
       {{- .Params.description -}}
+    </dd>
+
+    {{with .Params.tags}}
+
+    <div class="hidden">
+    {{range .}}
+    <div class="category">{{urlize .}}</div>
+    {{end}}
+
     </div>
+      {{end}}
+
   </div>
-</div>
+
+</a>
