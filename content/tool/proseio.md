@@ -8,7 +8,7 @@ tools:
 - content-management
 urls:
   website: http://prose.io
-  github: ''
+  github: https://github.com/prose/prose
   twitter: ''
   other: ''
 tags:
