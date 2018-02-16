@@ -7,8 +7,10 @@ slug: forestry
 tools:
   - content-management
 tags:
-  - CMS
-  - Editing
+  - Git-based
+related_tools:
+ - tool/jekyll.md
+ - tool/hugo.md
 urls:
   website: https://forestry.io/
 ---

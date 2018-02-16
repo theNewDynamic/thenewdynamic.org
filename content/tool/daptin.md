@@ -4,7 +4,7 @@ date: 2018-02-16 16:05:59 +0000
 tools:
 - content-management
 tags:
-- api-driven
+- API-based
 urls:
   website: https://dapt.in/
   github: https://github.com/daptin/daptin
@@ -28,4 +28,4 @@ The framework provides powerful abstractions and building blocks to develop flex
 * **Realtime API** using Websocket subscriptions
 * **Works with all frontend frameworks** like React, Vue.js, Angular (Quickstart Examples)
 
-## 
+##

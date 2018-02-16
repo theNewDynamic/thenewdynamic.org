@@ -4,12 +4,13 @@ date: 2015-11-10T04:43:00.000Z
 posted_date: 2015-11-10T04:43:00.000Z
 featured: false
 slug: siteleaf
-tools: 
+tools:
   - content-management
 tags:
-  - CMS
-  - Editing
-  - Static Site Generator
+  - Git-based
+related_tools:
+ - tool/jekyll.md
+ - tool/hugo.md  
 urls:
   website: http://www.siteleaf.com/
 ---
