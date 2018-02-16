@@ -1,8 +1,9 @@
 ---
-title: The New Dynamic Meetup Group
+title: JAMStack NYC
 location: New York, NY
-website: http://www.meetup.com/The-New-Dynamic/
+website: https://www.meetup.com/JAMstack-nyc/
 type: the-new-dynamic-meetup-group
 image: ''
+description: formerly the New Dynamic Meetup
 
 ---
