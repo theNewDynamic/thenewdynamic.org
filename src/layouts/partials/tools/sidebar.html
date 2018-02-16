@@ -14,7 +14,7 @@
       {{with $detail}}
         {{$link := printf "%s%s%s" "/tools/" $name "/"}}
         <li class="">
-          <a href="{{ $link }}" class="hover:bg-grey hover:text-grey-darkest text-2xl text-white no-underline block px-6 py-2 {{if eq $currentPage.URL $link}} bg-black{{end}}">
+          <a href="{{ $link }}" class="hover:bg-grey hover:text-grey-darkest lg:text-2xl text-white no-underline block px-6 py-2 {{if eq $currentPage.URL $link}} bg-black{{end}}">
             {{- .Title -}}
           </a>
         </li>
