@@ -1,17 +1,21 @@
 ---
-title: "Prismic"
-date: 2015-05-08T21:51:00.000Z
-posted_date: 2015-05-08T21:51:00.000Z
+title: Prismic
+date: 2015-05-08 21:51:00 +0000
+posted_date: 2015-05-08 21:51:00 +0000
 featured: false
 slug: prismic
 tools:
-- headless-cms
 - content-management
 tags:
-  - Editing
-  - CMS
-  - Content API
+- API-based
+- SaaS
 urls:
   website: https://prismic.io/
+  github: ''
+  twitter: ''
+  other: ''
+description: ''
+resources: []
+
 ---
 Content as a Service
