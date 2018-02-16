@@ -1,15 +1,18 @@
 ---
-title: "Contentful"
-date: 2015-05-02T02:57:00.000Z
+title: Contentful
+date: 2015-05-02 02:57:00 +0000
 featured: true
 tools:
-- headless-cms
 - content-management
 tags:
-  - Editing
-  - CMS
-  - Content API
+- API-based
 urls:
   website: https://www.contentful.com/
+  github: ''
+  twitter: ''
+  other: ''
+description: ''
+resources: []
+
 ---
 A single tool to reach any screen: API-first content management system for multi-device online publishing
