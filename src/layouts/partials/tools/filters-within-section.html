@@ -17,13 +17,15 @@
   {{end}}
 {{end}}
 
-<div class="flex flex-wrap">
+{{$button_classes := "js-only border text-grey-darkest hover:bg-grey-darkest hover:text-white text-sm inline block mb-3 mr-3 px-3 py-2 rounded-sm"}}
+
+<div class="flex flex-wrap itens-start justify-between">
 {{$data_model := $.Scratch.GetSortedMapValues "data_model"}}
 {{with $data_model}}
   <div class="">
     <h6 class="mb-2">Data Model</h6>
     {{range .}}
-      <button id="{{urlize .}}" class='js-only filter-buttons-data_model border text-grey-darkest hover:bg-grey-darkest hover:text-white text-sm inline block mb-3 mr-3 px-3 py-2 rounded-sm'>{{.}}</button>
+      <button id="{{urlize .}}" class='filter-buttons-data_model {{$button_classes}}'>{{.}}</button>
     {{end}}
   </div>
 {{end}}
@@ -33,7 +35,7 @@
   <div class="">
   <h6 class="mb-2">License</h6>
   {{range .}}
-    <button id="{{urlize .}}" class='js-only filter-buttons-license border text-grey-darkest hover:bg-grey-darkest hover:text-white text-sm inline block mb-3 mr-3 px-3 py-2 rounded-sm'>{{.}}</button>
+    <button id="{{urlize .}}" class='filter-buttons-license {{$button_classes}}'>{{.}}</button>
   {{end}}
   </div>
 {{end}}
@@ -44,7 +46,7 @@
     <h6 class="mb-2">Related Tools</h6>
     {{range .}}
     {{$related_tool := index (where (where $.Site.RegularPages ".Section" "tool") ".File.Path" "in" .) 0}}
-      <button id="{{urlize .}}" class='js-only filter-buttons-tools border text-grey-darkest hover:bg-grey-darkest hover:text-white text-sm inline block mb-3 mr-3 px-3 py-2 rounded-sm'>{{with $related_tool }}{{.Title}}{{end}}</button>
+      <button id="{{urlize .}}" class='filter-buttons-tools {{$button_classes}}'>{{with $related_tool }}{{.Title}}{{end}}</button>
     {{end}}
   </div>
 {{end}}
@@ -55,13 +57,12 @@
   <div class="">
     <h6 class="mb-2">Tags</h6>
     {{range .}}
-      <button id="{{urlize .}}" class='js-only filter-buttons-tags border text-grey-darkest hover:bg-grey-darkest hover:text-white text-sm inline block mb-3 mr-3 px-3 py-2 rounded-sm'>{{.}}</button>
+      <button id="{{urlize .}}" class='filter-buttons-tags {{$button_classes}}'>{{.}}</button>
     {{end}}
   </div>
 {{end}}
-</div>
 
-<hr />
-<button id="clear-filters" class="js-only">
+</div>
+{{/* <button id="clear-filters" class="{{$button_classes}}">
   clear
-</button>
+</button> */}}
