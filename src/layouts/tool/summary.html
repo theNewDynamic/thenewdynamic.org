@@ -10,7 +10,7 @@
   <div class="bg-grey-light flex justify-between px-3 py-2 text-xs text-white" style="TKbackground-color:{{$category.Params.color}};">
 
     {{with $category}}
-      <dt class="text-sm js-main-category">
+      <dt class="text-sm main-category">
         {{- .Title -}}
       </dt>
     {{end}}
@@ -25,23 +25,28 @@
 
   <div class="p-3">
 
-    <dt class="js-title bold text-lg near-black">
+    <dt class="title bold text-lg near-black">
       {{- .Title -}}
     </dt>
 
-    <dd class="js-description nested-links text-sm no-underline leading-normal nested-copy-line-height">
+    <dd class="description nested-links text-sm no-underline leading-normal nested-copy-line-height">
       {{- .Params.description -}}
     </dd>
 
     {{with .Params.tags}}
-
-    <div class="hidden">
-    {{range .}}
-    <div class="category">{{urlize .}}</div>
+      <div class="hidden">
+        {{range .}}
+          <div class="category">{{urlize .}}</div>
+        {{end}}
+      </div>
     {{end}}
-
-    </div>
-      {{end}}
+    {{with .Params.related_tools}}
+      <div class="hiddenf">
+        {{range .}}
+          <div class="related_tools">{{urlize .}}</div>
+        {{end}}
+      </div>
+    {{end}}
 
   </div>
 
