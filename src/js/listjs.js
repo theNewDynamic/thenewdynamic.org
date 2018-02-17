@@ -1,43 +1,61 @@
 var List = require("list.js");
 var options = {
-  valueNames: ["title", "category", "description", "main-category", "related_tools"],
+  valueNames: ["title", "tags", "description", "main-category", "related_tools", "data_model", "license"],
   listClass: "filteredlist"
 };
 var tools = new List("filter", options);
 //console.log(tools)
 
-var filterBtns = document.getElementsByClassName("filter-buttons");
 
-var filters = Array.prototype.filter.call(filterBtns, function(filterBtn) {
-  var category = filterBtn.id;
-  console.log(filterBtn.id)
+
+var filterButtonsDataModel = document.getElementsByClassName("filter-buttons-data_model");
+var filterByDataModel = Array.prototype.filter.call(filterButtonsDataModel, function(filterBtn) {
+  var filter = filterBtn.id;
   filterBtn.onclick = function() {
     tools.filter(function(item) {
-      if (item.values().category == category) {
-        return true;
-      } else {
-        return false;
-      }
+      return (item.values().data_model == filter) ? true : false
     });
   };
 });
 
-var filterBtns_tools = document.getElementsByClassName("filter-buttons-tools");
 
+var filterBtnsLicense = document.getElementsByClassName("filter-buttons-license");
 
-var filters_tools = Array.prototype.filter.call(filterBtns_tools, function(filterBtn) {
-  var related_tools = filterBtn.id;
-  console.log(filterBtn.id)
+var filterByLicnse = Array.prototype.filter.call(filterBtnsLicense, function(filterBtn) {
+  var filter = filterBtn.id;
   filterBtn.onclick = function() {
     tools.filter(function(item) {
-      if (item.values().related_tools == related_tools) {
-        return true;
-      } else {
-        return false;
-      }
+      return (item.values().license == filter) ? true : false
     });
   };
 });
+
+
+var filterBtnsTools = document.getElementsByClassName("filter-buttons-tools");
+var filtersByTools = Array.prototype.filter.call(filterBtnsTools, function(filterBtn) {
+  var filter = filterBtn.id;
+  //console.log(filterBtn.id)
+  filterBtn.onclick = function() {
+    tools.filter(function(item) {
+      return (item.values().related_tools == filter) ? true : false
+    });
+  };
+});
+
+
+var filterBtnsTags = document.getElementsByClassName("filter-buttons-tags");
+
+var filterByTags = Array.prototype.filter.call(filterBtnsTags, function(filterBtn) {
+  var filter = filterBtn.id;
+  filterBtn.onclick = function() {
+    tools.filter(function(item) {      
+      return (item.values().tags == filter) ? true : false
+    });
+  };
+});
+
+
+
 
 //and clear the filters
 if (document.getElementById("clear-filters")) {

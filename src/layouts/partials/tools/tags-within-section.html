@@ -2,7 +2,6 @@
   {{with .Params.tags}}
     {{range sort . "value" "asc"}}
       {{$.Scratch.SetInMap "tags" . .}}
-
     {{end}}
   {{end}}
   {{with .Params.related_tools}}
@@ -18,8 +17,15 @@
   {{end}}
 {{end}}
 
-{{range $.Scratch.GetSortedMapValues "tags"}}
-  <button id="{{urlize .}}" class='js-only filter-buttons border text-grey-darkest hover:bg-grey-darkest hover:text-white text-sm inline block mb-3 mr-3 px-3 py-2 rounded-sm'>{{.}}</button>
+
+data_model
+{{range $.Scratch.GetSortedMapValues "data_model"}}
+  <button id="{{urlize .}}" class='js-only filter-buttons-data_model border text-grey-darkest hover:bg-grey-darkest hover:text-white text-sm inline block mb-3 mr-3 px-3 py-2 rounded-sm'>{{.}}</button>
+{{end}}
+<hr />
+License
+{{range $.Scratch.GetSortedMapValues "license"}}
+  <button id="{{urlize .}}" class='js-only filter-buttons-license border text-grey-darkest hover:bg-grey-darkest hover:text-white text-sm inline block mb-3 mr-3 px-3 py-2 rounded-sm'>{{.}}</button>
 {{end}}
 <hr />
 Related Tools
@@ -28,15 +34,12 @@ Related Tools
   <button id="{{urlize .}}" class='js-only filter-buttons-tools border text-grey-darkest hover:bg-grey-darkest hover:text-white text-sm inline block mb-3 mr-3 px-3 py-2 rounded-sm'>{{with $related_tool }}{{.Title}}{{end}}</button>
 {{end}}
 <hr />
-License
-{{range $.Scratch.GetSortedMapValues "license"}}
-  <button id="{{urlize .}}" class='js-only filter-buttons border text-grey-darkest hover:bg-grey-darkest hover:text-white text-sm inline block mb-3 mr-3 px-3 py-2 rounded-sm'>{{.}}</button>
+tags
+{{range $.Scratch.GetSortedMapValues "tags"}}
+  <button id="{{urlize .}}" class='js-only filter-buttons-tags border text-grey-darkest hover:bg-grey-darkest hover:text-white text-sm inline block mb-3 mr-3 px-3 py-2 rounded-sm'>{{.}}</button>
 {{end}}
 
-data_model
-{{range $.Scratch.GetSortedMapValues "data_model"}}
-  <button id="{{urlize .}}" class='js-only filter-buttons border text-grey-darkest hover:bg-grey-darkest hover:text-white text-sm inline block mb-3 mr-3 px-3 py-2 rounded-sm'>{{.}}</button>
-{{end}}
+<hr />
 
   <button class="js-only sort" data-sort="js-main-category">
     Sort by Type

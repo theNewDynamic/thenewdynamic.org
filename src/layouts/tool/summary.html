@@ -33,20 +33,33 @@
       {{- .Params.description -}}
     </dd>
 
-    {{with .Params.tags}}
-      <div class="hidden">
-        {{range .}}
-          <div class="category">{{urlize .}}</div>
-        {{end}}
-      </div>
+  <div class="hidden">
+    {{with .Params.data_model}}
+      <div class="hidden data_model">{{- urlize . -}}</div>
     {{end}}
+
+    {{with .Params.language}}
+      <div class="hidden language">{{- urlize . -}}</div>
+    {{end}}
+
+    {{with .Params.license}}
+      <div class="hidden license">{{- urlize . -}}</div>
+    {{end}}
+
     {{with .Params.related_tools}}
-      <div class="hiddenf">
-        {{range .}}
-          <div class="related_tools">{{urlize .}}</div>
-        {{end}}
-      </div>
+      {{range .}}
+        <div class="related_tools">{{- urlize . -}}</div>
+      {{end}}
     {{end}}
+
+    {{with .Params.tags}}
+      {{range .}}
+        <div class="tags">{{- urlize . -}}</div>
+      {{end}}
+    {{end}}
+  </div>
+
+
 
   </div>
 

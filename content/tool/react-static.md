@@ -2,7 +2,7 @@
 title: "React Static"
 date: 2017-09-08T21:18:00.000Z
 featured: false
-tags: ["React"]
+tags: []
 tools:
   - static-site-generator
 urls:
