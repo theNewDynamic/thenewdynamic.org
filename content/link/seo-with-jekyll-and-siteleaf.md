@@ -8,6 +8,7 @@ tool:
 - tool/jekyll.md
 video: false
 category: ''
+link: https://pawelurbanek.com/2018/02/16/seo-tips-for-technical-bloggers-and-programming-blogs-in-2018/
 
 ---
 # 
