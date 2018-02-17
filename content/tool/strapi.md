@@ -15,6 +15,10 @@ resources:
 - name: ''
   url: ''
 description: Open source. API creation made simple, secure and fast.
+license: Open Source
+data_model: API-based
+related_tools:
+- tool/gatsby.md
 
 ---
 The most advanced open-source Content Management Framework to build powerful API with no effort.
