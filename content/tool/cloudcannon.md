@@ -8,7 +8,7 @@ tools:
 tags:
 - Editing
 - Hosting & Deploment
-- git-based
+- Git-based
 urls:
   website: http://cloudcannon.com/
   github: ''

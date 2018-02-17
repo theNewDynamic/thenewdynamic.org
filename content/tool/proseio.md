@@ -12,7 +12,7 @@ urls:
   twitter: ''
   other: ''
 tags:
-- git-based
+- Git-based
 related_tools:
 - tool/jekyll.md
 description: ''

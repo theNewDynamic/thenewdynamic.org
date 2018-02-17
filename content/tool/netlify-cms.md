@@ -9,7 +9,7 @@ tools:
 tags:
 - Editing
 - CMS
-- git-based
+- Git-based
 urls:
   website: https://www.netlifycms.org/
   github: https://github.com/netlify/netlify-cms

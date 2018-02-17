@@ -14,14 +14,10 @@ urls:
 related_tools:
 - tool/hexo.md
 tags:
-- git-based
+- Git-based
 description: An admin UI for the Hexo blog engine. Based off of the Ghost interface,
   with inspiration from svbtle and prose.io.
 resources: []
 
 ---
 An admin UI for the Hexo blog engine. Based off of the Ghost interface, with inspiration from svbtle and prose.io.
-
-
-
-
