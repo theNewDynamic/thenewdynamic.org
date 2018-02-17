@@ -6,8 +6,8 @@ featured: false
 slug: netlify-cms
 tools:
 - content-management
-tags:
-- Git-based
+tags: []
+data_model: Git-based
 urls:
   website: https://www.netlifycms.org/
   github: https://github.com/netlify/netlify-cms

@@ -5,8 +5,8 @@ featured: false
 tools:
 - content-management
 - hosting-deployment
-tags:
-- Git-based
+tags: []
+data_model: Git-based
 urls:
   website: http://cloudcannon.com/
   github: ''

@@ -1,9 +1,7 @@
 ---
 title: Strapi
 date: 2017-11-14 15:17:00 +0000
-tags:
-- Open Source
-- API-based
+tags: []
 tools:
 - content-management
 urls:

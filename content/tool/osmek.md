@@ -6,8 +6,8 @@ featured: false
 slug: osmek
 tools:
 - content-management
-tags:
-- API-based
+tags: []
+data_model: API-based
 urls:
   website: http://osmek.com/
   github: ''

@@ -9,8 +9,8 @@ urls:
   twitter: rooftopcms
   other: ''
 description: 'Rooftop CMS: WordPress without borders'
-tags:
-- API-based
+tags: []
+data_model: API-based
 resources: []
 
 ---

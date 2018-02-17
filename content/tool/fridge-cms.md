@@ -12,7 +12,6 @@ resources:
 - name: ''
   url: ''
 description: A robust API and intuitive dashboard for any kind of content.
-tags:
-- API-based
-
+tags: []
+data_model: API-based
 ---

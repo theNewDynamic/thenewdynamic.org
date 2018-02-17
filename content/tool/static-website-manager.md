@@ -7,8 +7,8 @@ featured: false
 slug: static-website-manager
 tools:
   - content-management
-tags:
-  - Git-based
+tags: []
+data_model: Git-based
 urls:
   website: https://www.staticwebsitemanager.com/
 ---

@@ -13,7 +13,7 @@ resources:
   url: ''
 description: Watson Content Hub is a cloud-based CMS to power your omnichannel experiences.
   Easy for marketers; powerful for developers.
-tags:
-- API-based
+tags: []
+data_model: API-based
 
 ---

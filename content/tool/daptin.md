@@ -3,8 +3,8 @@ title: Daptin
 date: 2018-02-16 16:05:59 +0000
 tools:
 - content-management
-tags:
-- API-based
+tags: []
+data_model: API-based
 urls:
   website: https://dapt.in/
   github: https://github.com/daptin/daptin

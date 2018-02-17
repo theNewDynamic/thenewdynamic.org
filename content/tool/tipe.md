@@ -12,8 +12,7 @@ resources:
 - name: ''
   url: ''
 description: Next Generation Headless CMS
-tags:
-- API-based
-
+tags: []
+data_model: API-based
 ---
 Create your content with powerful editing tools and access it from anywhere with a GraphQL or REST API. Stop letting your CMS decide how you build your apps.

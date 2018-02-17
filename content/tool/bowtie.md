@@ -11,8 +11,8 @@ urls:
   github: ''
   twitter: ''
   other: ''
-tags:
-- Git-based
+tags: []
+data_model: Git-based
 related_tools:
 - tool/jekyll.md
 resources: []

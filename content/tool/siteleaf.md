@@ -6,9 +6,9 @@ featured: false
 slug: siteleaf
 tools:
 - content-management
-tags:
-- Git-based
-- Commercial
+tags: []
+data_model: Git-based
+license: Commercial
 related_tools:
 - tool/jekyll.md
 urls:

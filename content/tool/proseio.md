@@ -11,8 +11,8 @@ urls:
   github: https://github.com/prose/prose
   twitter: ''
   other: ''
-tags:
-- Git-based
+tags: []
+data_model: Git-based
 related_tools:
 - tool/jekyll.md
 description: ''

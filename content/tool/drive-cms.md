@@ -9,8 +9,8 @@ urls:
   twitter: ''
   other: ''
 description: A content management system (CMS) built on an interface everyone understands.
-tags:
-- API-based
+tags: []
+data_model: API-based
 resources: []
 
 ---

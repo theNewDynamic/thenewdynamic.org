@@ -10,8 +10,7 @@ urls:
   other: ''
 resources: []
 description: API-driven Serverless CMS. Powered by Google Firestore.
-tags:
-- API-based
-
+tags: []
+data_model: API-based
 ---
 Flexible data structure, direct data table inputs and serverless support makes PushTable the perfect data management tool for front-end developers and development agencies.

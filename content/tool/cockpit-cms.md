@@ -3,9 +3,7 @@ title: Cockpit CMS
 date: 2017-02-14 15:17:00 +0000
 tools:
 - content-management
-tags:
-- Open Source
-- API-based
+tags: []
 urls:
   website: https://getcockpit.com/
   github: https://github.com/agentejo/cockpit

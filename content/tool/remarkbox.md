@@ -3,7 +3,7 @@ title: Remarkbox
 date: 2017-10-22
 tools:
   - interaction
-tags: ["Commercial"]
+license: Commercial
 urls:
   website: https://www.remarkbox.com/
   github:

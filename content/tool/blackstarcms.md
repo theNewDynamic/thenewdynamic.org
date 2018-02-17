@@ -12,8 +12,7 @@ resources:
 - name: ''
   url: ''
 description: Blackstar CMS is an API-first, headless CMS, built for application developers.
-tags:
-- API-based
-
+tags: []
+data_model: API-based
 ---
 Put managed content in your custom web application, and provide a delightful content management experience for application administrators.

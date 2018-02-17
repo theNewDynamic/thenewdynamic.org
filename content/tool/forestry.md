@@ -6,8 +6,8 @@ featured: false
 slug: forestry
 tools:
 - content-management
-tags:
-- Git-based
+tags: []
+data_model: Git-based
 related_tools:
 - tool/jekyll.md
 - tool/hugo.md

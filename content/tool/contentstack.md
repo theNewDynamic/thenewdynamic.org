@@ -12,7 +12,6 @@ resources:
 - name: ''
   url: ''
 description: Deliver Content Everywhere
-tags:
-- API-based
-
+tags: []
+data_model: API-based
 ---

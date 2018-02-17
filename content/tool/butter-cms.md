@@ -13,7 +13,6 @@ resources:
   url: ''
 description: An API-first CMS for rapidly building CMS-powered websites in any programming
   language. Great for blogs, dynamic pages, and more.
-tags:
-- API-based
-
+tags: []
+data_model: API-based
 ---

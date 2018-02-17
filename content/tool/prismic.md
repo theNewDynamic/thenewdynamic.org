@@ -6,9 +6,9 @@ featured: false
 slug: prismic
 tools:
 - content-management
-tags:
-- API-based
-- Commercial
+tags: []
+data_model: API-based
+license: Commercial
 urls:
   website: https://prismic.io/
   github: ''

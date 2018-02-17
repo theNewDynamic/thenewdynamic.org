@@ -15,8 +15,8 @@ resources:
   url: https://trello.com/b/HYT4QejW/appernetic-io
 description: A bridge between the simplicity of static websites and user-friendliness
   of CMS (content management system) authoring interfaces.
-tags:
-- Git-based
+tags: []
+data_model: Git-based
 related_tools:
 - tool/hugo.md
 

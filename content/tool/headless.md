@@ -12,7 +12,7 @@ resources:
 - name: ''
   url: ''
 description: Content management for static websites
-tags:
-- API-based
+tags: []
+data_model: API-based
 
 ---
