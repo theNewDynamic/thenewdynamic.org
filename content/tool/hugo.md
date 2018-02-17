@@ -28,6 +28,7 @@ license: Open Source
 data_model: ''
 related_tools: []
 tags: []
+language: Go
 
 ---
 Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again.
