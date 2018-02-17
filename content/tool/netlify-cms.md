@@ -14,8 +14,14 @@ urls:
   twitter: ''
   other: ''
 description: ''
-related_tools: []
+related_tools:
+- tool/gatsby.md
+- tool/phenomic.md
+- tool/hugo.md
+- tool/jekyll.md
 resources: []
+license: Open Source
+data_model: Git-based
 
 ---
 A CMS for static site generators. Give non-technical users a simple way to edit and add content to any site built with a static site generator.
