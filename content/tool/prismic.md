@@ -8,7 +8,7 @@ tools:
 - content-management
 tags:
 - API-based
-- SaaS
+- Commercial
 urls:
   website: https://prismic.io/
   github: ''

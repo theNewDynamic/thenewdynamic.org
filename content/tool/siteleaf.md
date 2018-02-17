@@ -8,7 +8,7 @@ tools:
 - content-management
 tags:
 - Git-based
-- SaaS
+- Commercial
 related_tools:
 - tool/jekyll.md
 urls:

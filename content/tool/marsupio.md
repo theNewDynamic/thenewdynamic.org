@@ -1,11 +1,10 @@
 ---
 title: "Marsupi"
 date: 2016-02-11T02:57:00.000Z
-tools: 
+tools:
   - hosting-deployment
 description: "Deploy your website from GitHub. View it at any branch, tag, or commit."
-tags:
-  - Deployment
+tags: []
 urls:
   website: http://marsupi.io/
 ---
