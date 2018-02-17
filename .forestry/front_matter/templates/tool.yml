@@ -28,9 +28,29 @@ fields:
     - interaction
     - static-site-generator
     - theme
-- type: tag_list
-  name: tags
-  label: Tags
+- type: select
+  name: license
+  config:
+    source:
+      type: simple
+    options:
+    - Commercial
+    - Open Source
+    - Hybrid
+    - Other
+  label: License
+- type: select
+  name: data_model
+  config:
+    source:
+      type: simple
+    options:
+    - API-based
+    - Git-based
+    - Database
+    - Other
+  label: Data Model
+  description: For CMS/Editing Tools only
 - type: list
   name: related_tools
   label: Related Tools
@@ -39,6 +59,9 @@ fields:
     source:
       type: pages
       section: tool
+- type: tag_list
+  name: tags
+  label: Tags
 - type: field_group
   name: urls
   label: URLS
