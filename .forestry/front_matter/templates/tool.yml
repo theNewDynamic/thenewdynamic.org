@@ -28,6 +28,7 @@ fields:
     - interaction
     - static-site-generator
     - theme
+  description: Category
 - type: select
   name: license
   config:
@@ -51,6 +52,14 @@ fields:
     - Other
   label: Data Model
   description: For CMS/Editing Tools only
+- type: select
+  name: language
+  config:
+    source:
+      type: datafiles
+      file: languages-yaml
+      path: languages
+  label: Language
 - type: list
   name: related_tools
   label: Related Tools
@@ -59,6 +68,7 @@ fields:
     source:
       type: pages
       section: tool
+  description: For non-static site generators to relate to a specific SSG
 - type: tag_list
   name: tags
   label: Tags
