@@ -4,7 +4,7 @@ date: 2017-02-14 15:17:00 +0000
 tools:
 - content-management
 tags:
-- open source
+- Open Source
 - API-based
 urls:
   website: https://getcockpit.com/
