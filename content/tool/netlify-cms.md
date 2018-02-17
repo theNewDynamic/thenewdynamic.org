@@ -7,8 +7,6 @@ slug: netlify-cms
 tools:
 - content-management
 tags:
-- Editing
-- CMS
 - Git-based
 urls:
   website: https://www.netlifycms.org/

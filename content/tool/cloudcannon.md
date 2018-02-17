@@ -6,8 +6,6 @@ tools:
 - content-management
 - hosting-deployment
 tags:
-- Editing
-- Hosting & Deploment
 - Git-based
 urls:
   website: http://cloudcannon.com/
