@@ -1,6 +1,6 @@
 var List = require("list.js");
 var options = {
-  valueNames: ["title", "tags", "description", "main-category", "related_tools", "data_model", "license"],
+  valueNames: ["title", "tags", "description", "main-category", "related_tools", "data_model", "license", "article-count"],
   listClass: "filteredlist"
 };
 var tools = new List("filter", options);
@@ -48,7 +48,7 @@ var filterBtnsTags = document.getElementsByClassName("filter-buttons-tags");
 var filterByTags = Array.prototype.filter.call(filterBtnsTags, function(filterBtn) {
   var filter = filterBtn.id;
   filterBtn.onclick = function() {
-    tools.filter(function(item) {      
+    tools.filter(function(item) {
       return (item.values().tags == filter) ? true : false
     });
   };

@@ -1681,7 +1681,7 @@ For background images, use data-bg attribute:
 
 var List = __webpack_require__(3);
 var options = {
-  valueNames: ["title", "tags", "description", "main-category", "related_tools", "data_model", "license"],
+  valueNames: ["title", "tags", "description", "main-category", "related_tools", "data_model", "license", "article-count"],
   listClass: "filteredlist"
 };
 var tools = new List("filter", options);
