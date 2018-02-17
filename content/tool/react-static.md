@@ -1,12 +1,22 @@
 ---
-title: "React Static"
-date: 2017-09-08T21:18:00.000Z
+title: React Static
+date: 2017-09-08 21:18:00 +0000
 featured: false
 tags: []
 tools:
-  - static-site-generator
+- static-site-generator
 urls:
+  website: ''
   github: https://github.com/nozzle/react-static
+  twitter: ''
+  other: ''
+language: React
+description: ''
+license: ''
+data_model: ''
+related_tools: []
+resources: []
+
 ---
 Features
 
