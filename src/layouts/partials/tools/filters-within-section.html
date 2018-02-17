@@ -9,6 +9,9 @@
       {{$.Scratch.SetInMap "related_tools" . .}}
     {{end}}
   {{end}}
+  {{with .Params.language}}
+    {{$.Scratch.SetInMap "language" . .}}
+  {{end}}
   {{with .Params.license}}
     {{$.Scratch.SetInMap "license" . .}}
   {{end}}
@@ -27,6 +30,16 @@
     {{range .}}
       <button id="{{urlize .}}" class='filter-buttons-data_model {{$button_classes}}'>{{.}}</button>
     {{end}}
+  </div>
+{{end}}
+
+{{$language := $.Scratch.GetSortedMapValues "language"}}
+{{with $language}}
+  <div class="lg:mr-6">
+  <h6 class="mb-2">Language</h6>
+  {{range .}}
+    <button id="{{urlize .}}" class='filter-buttons-language {{$button_classes}}'>{{.}}</button>
+  {{end}}
   </div>
 {{end}}
 

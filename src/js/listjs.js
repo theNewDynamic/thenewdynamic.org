@@ -1,6 +1,6 @@
 var List = require("list.js");
 var options = {
-  valueNames: ["title", "tags", "description", "main-category", "related_tools", "data_model", "license", "article-count"],
+  valueNames: ["title", "tags", "description", "main-category", "related_tools", "data_model", "license", "article-count", "language"],
   listClass: "filteredlist"
 };
 var tools = new List("filter", options);
@@ -14,6 +14,17 @@ var filterByDataModel = Array.prototype.filter.call(filterButtonsDataModel, func
   filterBtn.onclick = function() {
     tools.filter(function(item) {
       return (item.values().data_model == filter) ? true : false
+    });
+  };
+});
+
+var filterBtnsLanguage = document.getElementsByClassName("filter-buttons-language");
+
+var filterByLanguage = Array.prototype.filter.call(filterBtnsLanguage, function(filterBtn) {
+  var filter = filterBtn.id;
+  filterBtn.onclick = function() {
+    tools.filter(function(item) {
+      return (item.values().language == filter) ? true : false
     });
   };
 });
