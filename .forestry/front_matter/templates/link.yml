@@ -10,6 +10,9 @@ fields:
 - type: text
   name: source
   label: Source
+- type: text
+  name: link
+  label: Link
 - type: boolean
   name: video
   label: Video
