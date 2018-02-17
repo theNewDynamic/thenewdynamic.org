@@ -14,7 +14,6 @@ urls:
 description: A Jekyll plugin that provides users with a traditional CMS-style graphical
   interface to author content and administer Jekyll sites.
 tags:
-- cms
 - Git-based
 related_tools: []
 resources: []
