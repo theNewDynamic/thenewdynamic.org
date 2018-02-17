@@ -19,7 +19,7 @@
 Related Tools
 {{range $.Scratch.GetSortedMapValues "related_tools"}}
 {{$related_tool := index (where $.Data.Pages ".File.Path" "in" .) 0}}
-  <button id="{{urlize .}}" class='js-only filter-buttons border text-grey-darkest hover:bg-grey-darkest hover:text-white text-sm inline block mb-3 mr-3 px-3 py-2 rounded-sm'>{{with $related_tool }}{{.Title}}{{end}}</button>
+  <button id="{{urlize .}}" class='js-only filter-buttons-tools border text-grey-darkest hover:bg-grey-darkest hover:text-white text-sm inline block mb-3 mr-3 px-3 py-2 rounded-sm'>{{with $related_tool }}{{.Title}}{{end}}</button>
 {{end}}
 
 <hr />
