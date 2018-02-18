@@ -1494,6 +1494,8 @@ __webpack_require__(15);
 
 __webpack_require__(27);
 
+__webpack_require__(30);
+
 __webpack_require__(28);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
@@ -2749,6 +2751,22 @@ if (false) {
 
 
 document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/, 'js');
+
+/***/ }),
+/* 29 */,
+/* 30 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    document.querySelector('select[name="selectUrl"]').onchange = changeEventHandler;
+}, false);
+function changeEventHandler(event) {
+    // You can use “this” to refer to the selected element.
+    if (!event.target.value) alert('Please Select One');else window.location.href = event.target.value;
+}
 
 /***/ })
 /******/ ]);
