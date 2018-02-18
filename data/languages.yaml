@@ -1,5 +1,6 @@
 ---
 languages:
+- Python
 - Ruby
 - Node
 - PHP
