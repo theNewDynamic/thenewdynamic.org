@@ -12,7 +12,7 @@ urls:
   other: ''
 language: React
 description: ''
-license: ''
+license: Open Source
 data_model: ''
 related_tools: []
 resources: []

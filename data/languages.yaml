@@ -1,7 +1,8 @@
 ---
 languages:
-- Ruby
 - Node
-- PHP
-- Go
 - React
+- Ruby
+- Go
+- Python
+- PHP

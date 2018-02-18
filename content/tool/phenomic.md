@@ -1,13 +1,22 @@
 ---
 title: Phenomic
-date: 2016-05-05T12:00:00.000Z
+date: 2016-05-05 12:00:00 +0000
 tools:
-  - static-site-generator
+- static-site-generator
 urls:
   website: https://phenomic.io/
   github: https://github.com/MoOx/phenomic
   twitter: https://twitter.com/Phenomic_app
-description: "Modern static website generator for creating dynamic websites using React components."
+  other: ''
+description: Modern static website generator for creating dynamic websites using React
+  components.
+license: Open Source
+language: React
+data_model: ''
+related_tools: []
+tags: []
+resources: []
+
 ---
 React is used to generate pages for both client and server; it's called Isomorphic Universal rendering.
 
