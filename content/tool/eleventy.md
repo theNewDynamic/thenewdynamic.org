@@ -6,13 +6,13 @@ tags: []
 tools:
 - static-site-generator
 urls:
-  website: 'https://www.11ty.io/'
+  website: https://www.11ty.io/
   github: https://github.com/11ty/eleventy
-  twitter: 'https://twitter.com/eleven_ty'
+  twitter: https://twitter.com/eleven_ty
   other: ''
-language: JavaScript
-description: 'A simpler static site generator. An alternative to Jekyll.'
-license: 'Open Source'
+language: Node
+description: A simpler static site generator. An alternative to Jekyll.
+license: Open Source
 data_model: ''
 related_tools: []
 resources:
@@ -20,7 +20,6 @@ resources:
   url: https://github.com/11ty/eleventy-base-blog
 
 ---
-
 Eleventy is a simple static site generator betting on JavaScript. Eleventy is designed with flexibility in mind and supports meny templating engines including the popular Liquid used by Jekyll.
 
 [Read ELeventy introduction by Zach Leat](https://www.zachleat.com/web/introducing-eleventy/)
