@@ -11,7 +11,7 @@ urls:
 description: Modern static website generator for creating dynamic websites using React
   components.
 license: Open Source
-language: Node
+language: React
 data_model: ''
 related_tools: []
 tags: []
