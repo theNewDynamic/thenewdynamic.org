@@ -1,16 +1,22 @@
 ---
-title: "Wintersmith"
-date: 2015-05-02T02:57:00.000Z
-posted_date: 2015-05-02T02:57:00.000Z
+title: Wintersmith
+date: 2015-05-02 02:57:00 +0000
+posted_date: 2015-05-02 02:57:00 +0000
 featured: false
 slug: wintersmith
-tools: 
-  - static-site-generator
+tools:
+- static-site-generator
 urls:
   website: http://www.staticgen.com/wintersmith
+  github: ''
+  twitter: ''
+  other: ''
+license: Open Source
+language: Node
+description: ''
+data_model: ''
+related_tools: []
+tags: []
+resources: []
+
 ---
-
-
-
-
-
