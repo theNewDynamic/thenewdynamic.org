@@ -1,16 +1,24 @@
 ---
 title: NuxtJS
-date: 2017-02-10T12:00:00.000Z
+date: 2017-02-10 12:00:00 +0000
 tools:
- - static-site-generator
+- static-site-generator
 urls:
   website: https://nuxtjs.org/
   github: https://github.com/nuxt/nuxt.js
   twitter: https://twitter.com/nuxt_js
+  other: ''
 resources:
-  - name: ''
-    url: ''
-description: A framework for creating Universal Vue.js Applications, and a Static Generated Vue.js Application
+- name: ''
+  url: ''
+description: A framework for creating Universal Vue.js Applications, and a Static
+  Generated Vue.js Application
+license: Open Source
+language: Node
+data_model: ''
+related_tools: []
+tags: []
+
 ---
 Nuxt.js is a framework for creating Universal Vue.js Applications.
 
