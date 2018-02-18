@@ -7,8 +7,8 @@ slug: roots
 tools:
 - static-site-generator
 urls:
-  website: http://roots.cx/
-  github: ''
+  website: ''
+  github: https://github.com/carrot/roots
   twitter: ''
   other: ''
 license: Open Source
