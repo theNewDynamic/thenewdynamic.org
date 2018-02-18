@@ -1,15 +1,23 @@
 ---
-title: "Metalsmith"
-date: 2015-05-02T01:54:00.000Z
+title: Metalsmith
+date: 2015-05-02 01:54:00 +0000
 featured: false
 tools:
-  - static-site-generator
+- static-site-generator
 urls:
   website: http://www.metalsmith.io/
   github: https://github.com/segmentio/metalsmith.io
-  slack: https://metalsmith-slack.herokuapp.com
+  twitter: ''
+  other: ''
 resources:
-  - name: metalsmith-base (starter)
-    url: https://github.com/evocode/metalsmith-base
+- name: metalsmith-base (starter)
+  url: https://github.com/evocode/metalsmith-base
+license: Open Source
+language: Node
+description: ''
+data_model: ''
+related_tools: []
+tags: []
+
 ---
 An extremely simple, pluggable static site generator.
