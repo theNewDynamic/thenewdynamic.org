@@ -3,7 +3,6 @@ title: "Cloudflare for Static Sites"
 date: 2015-07-26T02:44:00.000Z
 category: article
 posted_date: 2015-07-26T02:44:00.000Z
-category: article
 slug: cloudflare-for-static-sites
 source:
 excerpt: I've found Cloudflare to be quite useful for static sites.
@@ -19,4 +18,3 @@ I've sometimes missed not having an htaccess file for setting up rules on sites 
 One feature I'm looking forward to trying is their SSL service, which, at a very basic level, is offered for free. I've been using Cloudflare for quite a few years now and manage quite a few sites through them. The services they provide have grown significantly and their recent redesign has really helped make everything easy to use.
 
 p.s. If you use Cloudflare, be sure to enable Two-factor authentication in your account.
-
