@@ -5,7 +5,6 @@ date: 2016-06-15T12:00:00.000Z
 category:
   - event-recap
 start_at: 2016-06-15T11:30:00.000Z
-description: Slides of the conference talk
 venue: Smashing Conference, NYC
 address:
 link: http://smashingconf.com/schedule/day:wednesday#phil-hawksworth
