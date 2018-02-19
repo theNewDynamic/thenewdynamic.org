@@ -21,3 +21,22 @@ fields:
     source:
       type: pages
       section: tool
+- type: field_group_list
+  name: custom
+  label: Custom
+  fields:
+  - type: select
+    name: type
+    config:
+      source:
+        type: simple
+      options:
+      - Video
+      - Link
+      - Copy
+    label: Type
+  - type: textarea
+    name: content
+    label: Content
+    config:
+      wysiwyg: true
