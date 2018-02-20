@@ -60,225 +60,11 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 10);
+/******/ 	return __webpack_require__(__webpack_require__.s = 1);
 /******/ })
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var bind = window.addEventListener ? 'addEventListener' : 'attachEvent',
-    unbind = window.removeEventListener ? 'removeEventListener' : 'detachEvent',
-    prefix = bind !== 'addEventListener' ? 'on' : '',
-    toArray = __webpack_require__(7);
-
-/**
- * Bind `el` event `type` to `fn`.
- *
- * @param {Element} el, NodeList, HTMLCollection or Array
- * @param {String} type
- * @param {Function} fn
- * @param {Boolean} capture
- * @api public
- */
-
-exports.bind = function(el, type, fn, capture){
-  el = toArray(el);
-  for ( var i = 0; i < el.length; i++ ) {
-    el[i][bind](prefix + type, fn, capture || false);
-  }
-};
-
-/**
- * Unbind `el` event `type`'s callback `fn`.
- *
- * @param {Element} el, NodeList, HTMLCollection or Array
- * @param {String} type
- * @param {Function} fn
- * @param {Boolean} capture
- * @api public
- */
-
-exports.unbind = function(el, type, fn, capture){
-  el = toArray(el);
-  for ( var i = 0; i < el.length; i++ ) {
-    el[i][unbind](prefix + type, fn, capture || false);
-  }
-};
-
-
-/***/ }),
-/* 1 */
-/***/ (function(module, exports, __webpack_require__) {
-
-/**
- * Module dependencies.
- */
-
-var index = __webpack_require__(6);
-
-/**
- * Whitespace regexp.
- */
-
-var re = /\s+/;
-
-/**
- * toString reference.
- */
-
-var toString = Object.prototype.toString;
-
-/**
- * Wrap `el` in a `ClassList`.
- *
- * @param {Element} el
- * @return {ClassList}
- * @api public
- */
-
-module.exports = function(el){
-  return new ClassList(el);
-};
-
-/**
- * Initialize a new ClassList for `el`.
- *
- * @param {Element} el
- * @api private
- */
-
-function ClassList(el) {
-  if (!el || !el.nodeType) {
-    throw new Error('A DOM element reference is required');
-  }
-  this.el = el;
-  this.list = el.classList;
-}
-
-/**
- * Add class `name` if not already present.
- *
- * @param {String} name
- * @return {ClassList}
- * @api public
- */
-
-ClassList.prototype.add = function(name){
-  // classList
-  if (this.list) {
-    this.list.add(name);
-    return this;
-  }
-
-  // fallback
-  var arr = this.array();
-  var i = index(arr, name);
-  if (!~i) arr.push(name);
-  this.el.className = arr.join(' ');
-  return this;
-};
-
-/**
- * Remove class `name` when present, or
- * pass a regular expression to remove
- * any which match.
- *
- * @param {String|RegExp} name
- * @return {ClassList}
- * @api public
- */
-
-ClassList.prototype.remove = function(name){
-  // classList
-  if (this.list) {
-    this.list.remove(name);
-    return this;
-  }
-
-  // fallback
-  var arr = this.array();
-  var i = index(arr, name);
-  if (~i) arr.splice(i, 1);
-  this.el.className = arr.join(' ');
-  return this;
-};
-
-
-/**
- * Toggle class `name`, can force state via `force`.
- *
- * For browsers that support classList, but do not support `force` yet,
- * the mistake will be detected and corrected.
- *
- * @param {String} name
- * @param {Boolean} force
- * @return {ClassList}
- * @api public
- */
-
-ClassList.prototype.toggle = function(name, force){
-  // classList
-  if (this.list) {
-    if ("undefined" !== typeof force) {
-      if (force !== this.list.toggle(name, force)) {
-        this.list.toggle(name); // toggle again to correct
-      }
-    } else {
-      this.list.toggle(name);
-    }
-    return this;
-  }
-
-  // fallback
-  if ("undefined" !== typeof force) {
-    if (!force) {
-      this.remove(name);
-    } else {
-      this.add(name);
-    }
-  } else {
-    if (this.has(name)) {
-      this.remove(name);
-    } else {
-      this.add(name);
-    }
-  }
-
-  return this;
-};
-
-/**
- * Return an array of classes.
- *
- * @return {Array}
- * @api public
- */
-
-ClassList.prototype.array = function(){
-  var className = this.el.getAttribute('class') || '';
-  var str = className.replace(/^\s+|\s+$/g, '');
-  var arr = str.split(re);
-  if ('' === arr[0]) arr.shift();
-  return arr;
-};
-
-/**
- * Check if class `name` is present.
- *
- * @param {String} name
- * @return {ClassList}
- * @api public
- */
-
-ClassList.prototype.has =
-ClassList.prototype.contains = function(name){
-  return this.list ? this.list.contains(name) : !! ~index(this.array(), name);
-};
-
-
-/***/ }),
-/* 2 */
 /***/ (function(module, exports) {
 
 (function(window, factory) {
@@ -981,26 +767,555 @@ ClassList.prototype.contains = function(name){
 
 
 /***/ }),
-/* 3 */
+/* 1 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var naturalSort = __webpack_require__(16),
-  getByClass = __webpack_require__(4),
-  extend = __webpack_require__(5),
-  indexOf = __webpack_require__(6),
-  events = __webpack_require__(0),
-  toString = __webpack_require__(8),
-  classes = __webpack_require__(1),
-  getAttribute = __webpack_require__(17),
-  toArray = __webpack_require__(7);
+"use strict";
+
+
+var _styles = __webpack_require__(2);
+
+var _styles2 = _interopRequireDefault(_styles);
+
+var _fonts = __webpack_require__(3);
+
+var _fonts2 = _interopRequireDefault(_fonts);
+
+__webpack_require__(4);
+
+__webpack_require__(6);
+
+__webpack_require__(7);
+
+__webpack_require__(8);
+
+__webpack_require__(9);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+/***/ }),
+/* 2 */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+/* 3 */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+/* 4 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var lazysizes = __webpack_require__(0);
+// var lsnoscript = require('lazysizes/plugins/noscript/ls.noscript.js');
+var unveilhooks = __webpack_require__(5);
+
+/***/ }),
+/* 5 */
+/***/ (function(module, exports, __webpack_require__) {
+
+/*
+This plugin extends lazySizes to lazyLoad:
+background images, videos/posters and scripts
+
+Background-Image:
+For background images, use data-bg attribute:
+<div class="lazyload" data-bg="bg-img.jpg"></div>
+
+ Video:
+ For video/audio use data-poster and preload="none":
+ <video class="lazyload" data-poster="poster.jpg" preload="none">
+ <!-- sources -->
+ </video>
+
+ Scripts:
+ For scripts use data-script:
+ <div class="lazyload" data-script="module-name.js"></div>
+
+
+ Script modules using require:
+ For modules using require use data-require:
+ <div class="lazyload" data-require="module-name"></div>
+*/
+
+(function(window, factory) {
+	var globalInstall = function(){
+		factory(window.lazySizes);
+		window.removeEventListener('lazyunveilread', globalInstall, true);
+	};
+
+	factory = factory.bind(null, window, window.document);
+
+	if(typeof module == 'object' && module.exports){
+		factory(__webpack_require__(0));
+	} else if(window.lazySizes) {
+		globalInstall();
+	} else {
+		window.addEventListener('lazyunveilread', globalInstall, true);
+	}
+}(window, function(window, document, lazySizes) {
+	/*jshint eqnull:true */
+	'use strict';
+	var bgLoad, regBgUrlEscape;
+	var uniqueUrls = {};
+
+	if(document.addEventListener){
+		regBgUrlEscape = /\(|\)|\s|'/;
+
+		bgLoad = function (url, cb){
+			var img = document.createElement('img');
+			img.onload = function(){
+				img.onload = null;
+				img.onerror = null;
+				img = null;
+				cb();
+			};
+			img.onerror = img.onload;
+
+			img.src = url;
+
+			if(img && img.complete && img.onload){
+				img.onload();
+			}
+		};
+
+		addEventListener('lazybeforeunveil', function(e){
+			if(e.detail.instance != lazySizes){return;}
+
+			var tmp, load, bg, poster;
+			if(!e.defaultPrevented) {
+
+				if(e.target.preload == 'none'){
+					e.target.preload = 'auto';
+				}
+
+				tmp = e.target.getAttribute('data-link');
+				if(tmp){
+					addStyleScript(tmp, true);
+				}
+
+				// handle data-script
+				tmp = e.target.getAttribute('data-script');
+				if(tmp){
+					addStyleScript(tmp);
+				}
+
+				// handle data-require
+				tmp = e.target.getAttribute('data-require');
+				if(tmp){
+					if(lazySizes.cfg.requireJs){
+						lazySizes.cfg.requireJs([tmp]);
+					} else {
+						addStyleScript(tmp);
+					}
+				}
+
+				// handle data-bg
+				bg = e.target.getAttribute('data-bg');
+				if (bg) {
+					e.detail.firesLoad = true;
+					load = function(){
+						e.target.style.backgroundImage = 'url(' + (regBgUrlEscape.test(bg) ? JSON.stringify(bg) : bg ) + ')';
+						e.detail.firesLoad = false;
+						lazySizes.fire(e.target, '_lazyloaded', {}, true, true);
+					};
+
+					bgLoad(bg, load);
+				}
+
+				// handle data-poster
+				poster = e.target.getAttribute('data-poster');
+				if(poster){
+					e.detail.firesLoad = true;
+					load = function(){
+						e.target.poster = poster;
+						e.detail.firesLoad = false;
+						lazySizes.fire(e.target, '_lazyloaded', {}, true, true);
+					};
+
+					bgLoad(poster, load);
+
+				}
+			}
+		}, false);
+
+	}
+
+	function addStyleScript(src, style){
+		if(uniqueUrls[src]){
+			return;
+		}
+		var elem = document.createElement(style ? 'link' : 'script');
+		var insertElem = document.getElementsByTagName('script')[0];
+
+		if(style){
+			elem.rel = 'stylesheet';
+			elem.href = src;
+		} else {
+			elem.src = src;
+		}
+		uniqueUrls[src] = true;
+		uniqueUrls[elem.src || elem.href] = true;
+		insertElem.parentNode.insertBefore(elem, insertElem);
+	}
+}));
+
+
+/***/ }),
+/* 6 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var List = __webpack_require__(12);
+var options = {
+  valueNames: ["title", "tags", "description", "main-category", "related_tools", "data_model", "license", "article-count", "language"],
+  listClass: "filteredlist"
+};
+var tools = new List("filter", options);
+//console.log(tools)
+
+
+var filterButtonsDataModel = document.getElementsByClassName("filter-buttons-data_model");
+var filterByDataModel = Array.prototype.filter.call(filterButtonsDataModel, function (filterBtn) {
+  var filter = filterBtn.id;
+  filterBtn.onclick = function () {
+    tools.filter(function (item) {
+      return item.values().data_model == filter ? true : false;
+    });
+  };
+});
+
+var filterBtnsLanguage = document.getElementsByClassName("filter-buttons-language");
+
+var filterByLanguage = Array.prototype.filter.call(filterBtnsLanguage, function (filterBtn) {
+  var filter = filterBtn.id;
+  filterBtn.onclick = function () {
+    tools.filter(function (item) {
+      return item.values().language == filter ? true : false;
+    });
+  };
+});
+
+var filterBtnsLicense = document.getElementsByClassName("filter-buttons-license");
+
+var filterByLicnse = Array.prototype.filter.call(filterBtnsLicense, function (filterBtn) {
+  var filter = filterBtn.id;
+  filterBtn.onclick = function () {
+    tools.filter(function (item) {
+      return item.values().license == filter ? true : false;
+    });
+  };
+});
+
+var filterBtnsTools = document.getElementsByClassName("filter-buttons-tools");
+var filtersByTools = Array.prototype.filter.call(filterBtnsTools, function (filterBtn) {
+  var filter = filterBtn.id;
+  //console.log(filterBtn.id)
+  filterBtn.onclick = function () {
+    tools.filter(function (item) {
+      return item.values().related_tools == filter ? true : false;
+    });
+  };
+});
+
+var filterBtnsTags = document.getElementsByClassName("filter-buttons-tags");
+
+var filterByTags = Array.prototype.filter.call(filterBtnsTags, function (filterBtn) {
+  var filter = filterBtn.id;
+  filterBtn.onclick = function () {
+    tools.filter(function (item) {
+      return item.values().tags == filter ? true : false;
+    });
+  };
+});
+
+//and clear the filters
+if (document.getElementById("clear-filters")) {
+  document.getElementById("clear-filters").onclick = function () {
+    tools.filter();
+  };
+}
+
+/***/ }),
+/* 7 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+if (false) {
+  var Turbolinks = require("turbolinks");
+  Turbolinks.start();
+  console.log('Turbolinks FTW');
+}
+
+/***/ }),
+/* 8 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    document.querySelector('select[name="selectUrl"]').onchange = changeEventHandler;
+}, false);
+function changeEventHandler(event) {
+    // You can use “this” to refer to the selected element.
+    if (!event.target.value) alert('Please Select One');else window.location.href = event.target.value;
+}
+
+/***/ }),
+/* 9 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/, 'js');
+
+/***/ }),
+/* 10 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var bind = window.addEventListener ? 'addEventListener' : 'attachEvent',
+    unbind = window.removeEventListener ? 'removeEventListener' : 'detachEvent',
+    prefix = bind !== 'addEventListener' ? 'on' : '',
+    toArray = __webpack_require__(16);
+
+/**
+ * Bind `el` event `type` to `fn`.
+ *
+ * @param {Element} el, NodeList, HTMLCollection or Array
+ * @param {String} type
+ * @param {Function} fn
+ * @param {Boolean} capture
+ * @api public
+ */
+
+exports.bind = function(el, type, fn, capture){
+  el = toArray(el);
+  for ( var i = 0; i < el.length; i++ ) {
+    el[i][bind](prefix + type, fn, capture || false);
+  }
+};
+
+/**
+ * Unbind `el` event `type`'s callback `fn`.
+ *
+ * @param {Element} el, NodeList, HTMLCollection or Array
+ * @param {String} type
+ * @param {Function} fn
+ * @param {Boolean} capture
+ * @api public
+ */
+
+exports.unbind = function(el, type, fn, capture){
+  el = toArray(el);
+  for ( var i = 0; i < el.length; i++ ) {
+    el[i][unbind](prefix + type, fn, capture || false);
+  }
+};
+
+
+/***/ }),
+/* 11 */
+/***/ (function(module, exports, __webpack_require__) {
+
+/**
+ * Module dependencies.
+ */
+
+var index = __webpack_require__(15);
+
+/**
+ * Whitespace regexp.
+ */
+
+var re = /\s+/;
+
+/**
+ * toString reference.
+ */
+
+var toString = Object.prototype.toString;
+
+/**
+ * Wrap `el` in a `ClassList`.
+ *
+ * @param {Element} el
+ * @return {ClassList}
+ * @api public
+ */
+
+module.exports = function(el){
+  return new ClassList(el);
+};
+
+/**
+ * Initialize a new ClassList for `el`.
+ *
+ * @param {Element} el
+ * @api private
+ */
+
+function ClassList(el) {
+  if (!el || !el.nodeType) {
+    throw new Error('A DOM element reference is required');
+  }
+  this.el = el;
+  this.list = el.classList;
+}
+
+/**
+ * Add class `name` if not already present.
+ *
+ * @param {String} name
+ * @return {ClassList}
+ * @api public
+ */
+
+ClassList.prototype.add = function(name){
+  // classList
+  if (this.list) {
+    this.list.add(name);
+    return this;
+  }
+
+  // fallback
+  var arr = this.array();
+  var i = index(arr, name);
+  if (!~i) arr.push(name);
+  this.el.className = arr.join(' ');
+  return this;
+};
+
+/**
+ * Remove class `name` when present, or
+ * pass a regular expression to remove
+ * any which match.
+ *
+ * @param {String|RegExp} name
+ * @return {ClassList}
+ * @api public
+ */
+
+ClassList.prototype.remove = function(name){
+  // classList
+  if (this.list) {
+    this.list.remove(name);
+    return this;
+  }
+
+  // fallback
+  var arr = this.array();
+  var i = index(arr, name);
+  if (~i) arr.splice(i, 1);
+  this.el.className = arr.join(' ');
+  return this;
+};
+
+
+/**
+ * Toggle class `name`, can force state via `force`.
+ *
+ * For browsers that support classList, but do not support `force` yet,
+ * the mistake will be detected and corrected.
+ *
+ * @param {String} name
+ * @param {Boolean} force
+ * @return {ClassList}
+ * @api public
+ */
+
+ClassList.prototype.toggle = function(name, force){
+  // classList
+  if (this.list) {
+    if ("undefined" !== typeof force) {
+      if (force !== this.list.toggle(name, force)) {
+        this.list.toggle(name); // toggle again to correct
+      }
+    } else {
+      this.list.toggle(name);
+    }
+    return this;
+  }
+
+  // fallback
+  if ("undefined" !== typeof force) {
+    if (!force) {
+      this.remove(name);
+    } else {
+      this.add(name);
+    }
+  } else {
+    if (this.has(name)) {
+      this.remove(name);
+    } else {
+      this.add(name);
+    }
+  }
+
+  return this;
+};
+
+/**
+ * Return an array of classes.
+ *
+ * @return {Array}
+ * @api public
+ */
+
+ClassList.prototype.array = function(){
+  var className = this.el.getAttribute('class') || '';
+  var str = className.replace(/^\s+|\s+$/g, '');
+  var arr = str.split(re);
+  if ('' === arr[0]) arr.shift();
+  return arr;
+};
+
+/**
+ * Check if class `name` is present.
+ *
+ * @param {String} name
+ * @return {ClassList}
+ * @api public
+ */
+
+ClassList.prototype.has =
+ClassList.prototype.contains = function(name){
+  return this.list ? this.list.contains(name) : !! ~index(this.array(), name);
+};
+
+
+/***/ }),
+/* 12 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var naturalSort = __webpack_require__(19),
+  getByClass = __webpack_require__(13),
+  extend = __webpack_require__(14),
+  indexOf = __webpack_require__(15),
+  events = __webpack_require__(10),
+  toString = __webpack_require__(17),
+  classes = __webpack_require__(11),
+  getAttribute = __webpack_require__(20),
+  toArray = __webpack_require__(16);
 
 module.exports = function(id, options, values) {
 
   var self = this,
     init,
-    Item = __webpack_require__(9)(self),
-    addAsync = __webpack_require__(18)(self),
-    initPagination = __webpack_require__(19)(self);
+    Item = __webpack_require__(18)(self),
+    addAsync = __webpack_require__(21)(self),
+    initPagination = __webpack_require__(22)(self);
 
   init = {
     start: function() {
@@ -1035,12 +1350,12 @@ module.exports = function(id, options, values) {
       if (!self.listContainer) { return; }
       self.list       = getByClass(self.listContainer, self.listClass, true);
 
-      self.parse        = __webpack_require__(20)(self);
-      self.templater    = __webpack_require__(21)(self);
-      self.search       = __webpack_require__(22)(self);
-      self.filter       = __webpack_require__(23)(self);
-      self.sort         = __webpack_require__(24)(self);
-      self.fuzzySearch  = __webpack_require__(25)(self, options.fuzzySearch);
+      self.parse        = __webpack_require__(23)(self);
+      self.templater    = __webpack_require__(24)(self);
+      self.search       = __webpack_require__(25)(self);
+      self.filter       = __webpack_require__(26)(self);
+      self.sort         = __webpack_require__(27)(self);
+      self.fuzzySearch  = __webpack_require__(28)(self, options.fuzzySearch);
 
       this.handlers();
       this.items();
@@ -1249,7 +1564,7 @@ module.exports = function(id, options, values) {
 
 
 /***/ }),
-/* 4 */
+/* 13 */
 /***/ (function(module, exports) {
 
 /**
@@ -1318,7 +1633,7 @@ module.exports = (function() {
 
 
 /***/ }),
-/* 5 */
+/* 14 */
 /***/ (function(module, exports) {
 
 /*
@@ -1342,7 +1657,7 @@ module.exports = function extend (object) {
 
 
 /***/ }),
-/* 6 */
+/* 15 */
 /***/ (function(module, exports) {
 
 var indexOf = [].indexOf;
@@ -1357,7 +1672,7 @@ module.exports = function(arr, obj){
 
 
 /***/ }),
-/* 7 */
+/* 16 */
 /***/ (function(module, exports) {
 
 /**
@@ -1396,7 +1711,7 @@ function isArray(arr) {
 
 
 /***/ }),
-/* 8 */
+/* 17 */
 /***/ (function(module, exports) {
 
 module.exports = function(s) {
@@ -1408,7 +1723,7 @@ module.exports = function(s) {
 
 
 /***/ }),
-/* 9 */
+/* 18 */
 /***/ (function(module, exports) {
 
 module.exports = function(list) {
@@ -1474,285 +1789,7 @@ module.exports = function(list) {
 
 
 /***/ }),
-/* 10 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var _styles = __webpack_require__(11);
-
-var _styles2 = _interopRequireDefault(_styles);
-
-var _fonts = __webpack_require__(12);
-
-var _fonts2 = _interopRequireDefault(_fonts);
-
-__webpack_require__(13);
-
-__webpack_require__(15);
-
-__webpack_require__(27);
-
-__webpack_require__(30);
-
-__webpack_require__(28);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-/***/ }),
-/* 11 */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-/* 12 */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-/* 13 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var lazysizes = __webpack_require__(2);
-// var lsnoscript = require('lazysizes/plugins/noscript/ls.noscript.js');
-var unveilhooks = __webpack_require__(14);
-
-/***/ }),
-/* 14 */
-/***/ (function(module, exports, __webpack_require__) {
-
-/*
-This plugin extends lazySizes to lazyLoad:
-background images, videos/posters and scripts
-
-Background-Image:
-For background images, use data-bg attribute:
-<div class="lazyload" data-bg="bg-img.jpg"></div>
-
- Video:
- For video/audio use data-poster and preload="none":
- <video class="lazyload" data-poster="poster.jpg" preload="none">
- <!-- sources -->
- </video>
-
- Scripts:
- For scripts use data-script:
- <div class="lazyload" data-script="module-name.js"></div>
-
-
- Script modules using require:
- For modules using require use data-require:
- <div class="lazyload" data-require="module-name"></div>
-*/
-
-(function(window, factory) {
-	var globalInstall = function(){
-		factory(window.lazySizes);
-		window.removeEventListener('lazyunveilread', globalInstall, true);
-	};
-
-	factory = factory.bind(null, window, window.document);
-
-	if(typeof module == 'object' && module.exports){
-		factory(__webpack_require__(2));
-	} else if(window.lazySizes) {
-		globalInstall();
-	} else {
-		window.addEventListener('lazyunveilread', globalInstall, true);
-	}
-}(window, function(window, document, lazySizes) {
-	/*jshint eqnull:true */
-	'use strict';
-	var bgLoad, regBgUrlEscape;
-	var uniqueUrls = {};
-
-	if(document.addEventListener){
-		regBgUrlEscape = /\(|\)|\s|'/;
-
-		bgLoad = function (url, cb){
-			var img = document.createElement('img');
-			img.onload = function(){
-				img.onload = null;
-				img.onerror = null;
-				img = null;
-				cb();
-			};
-			img.onerror = img.onload;
-
-			img.src = url;
-
-			if(img && img.complete && img.onload){
-				img.onload();
-			}
-		};
-
-		addEventListener('lazybeforeunveil', function(e){
-			if(e.detail.instance != lazySizes){return;}
-
-			var tmp, load, bg, poster;
-			if(!e.defaultPrevented) {
-
-				if(e.target.preload == 'none'){
-					e.target.preload = 'auto';
-				}
-
-				tmp = e.target.getAttribute('data-link');
-				if(tmp){
-					addStyleScript(tmp, true);
-				}
-
-				// handle data-script
-				tmp = e.target.getAttribute('data-script');
-				if(tmp){
-					addStyleScript(tmp);
-				}
-
-				// handle data-require
-				tmp = e.target.getAttribute('data-require');
-				if(tmp){
-					if(lazySizes.cfg.requireJs){
-						lazySizes.cfg.requireJs([tmp]);
-					} else {
-						addStyleScript(tmp);
-					}
-				}
-
-				// handle data-bg
-				bg = e.target.getAttribute('data-bg');
-				if (bg) {
-					e.detail.firesLoad = true;
-					load = function(){
-						e.target.style.backgroundImage = 'url(' + (regBgUrlEscape.test(bg) ? JSON.stringify(bg) : bg ) + ')';
-						e.detail.firesLoad = false;
-						lazySizes.fire(e.target, '_lazyloaded', {}, true, true);
-					};
-
-					bgLoad(bg, load);
-				}
-
-				// handle data-poster
-				poster = e.target.getAttribute('data-poster');
-				if(poster){
-					e.detail.firesLoad = true;
-					load = function(){
-						e.target.poster = poster;
-						e.detail.firesLoad = false;
-						lazySizes.fire(e.target, '_lazyloaded', {}, true, true);
-					};
-
-					bgLoad(poster, load);
-
-				}
-			}
-		}, false);
-
-	}
-
-	function addStyleScript(src, style){
-		if(uniqueUrls[src]){
-			return;
-		}
-		var elem = document.createElement(style ? 'link' : 'script');
-		var insertElem = document.getElementsByTagName('script')[0];
-
-		if(style){
-			elem.rel = 'stylesheet';
-			elem.href = src;
-		} else {
-			elem.src = src;
-		}
-		uniqueUrls[src] = true;
-		uniqueUrls[elem.src || elem.href] = true;
-		insertElem.parentNode.insertBefore(elem, insertElem);
-	}
-}));
-
-
-/***/ }),
-/* 15 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var List = __webpack_require__(3);
-var options = {
-  valueNames: ["title", "tags", "description", "main-category", "related_tools", "data_model", "license", "article-count", "language"],
-  listClass: "filteredlist"
-};
-var tools = new List("filter", options);
-//console.log(tools)
-
-
-var filterButtonsDataModel = document.getElementsByClassName("filter-buttons-data_model");
-var filterByDataModel = Array.prototype.filter.call(filterButtonsDataModel, function (filterBtn) {
-  var filter = filterBtn.id;
-  filterBtn.onclick = function () {
-    tools.filter(function (item) {
-      return item.values().data_model == filter ? true : false;
-    });
-  };
-});
-
-var filterBtnsLanguage = document.getElementsByClassName("filter-buttons-language");
-
-var filterByLanguage = Array.prototype.filter.call(filterBtnsLanguage, function (filterBtn) {
-  var filter = filterBtn.id;
-  filterBtn.onclick = function () {
-    tools.filter(function (item) {
-      return item.values().language == filter ? true : false;
-    });
-  };
-});
-
-var filterBtnsLicense = document.getElementsByClassName("filter-buttons-license");
-
-var filterByLicnse = Array.prototype.filter.call(filterBtnsLicense, function (filterBtn) {
-  var filter = filterBtn.id;
-  filterBtn.onclick = function () {
-    tools.filter(function (item) {
-      return item.values().license == filter ? true : false;
-    });
-  };
-});
-
-var filterBtnsTools = document.getElementsByClassName("filter-buttons-tools");
-var filtersByTools = Array.prototype.filter.call(filterBtnsTools, function (filterBtn) {
-  var filter = filterBtn.id;
-  //console.log(filterBtn.id)
-  filterBtn.onclick = function () {
-    tools.filter(function (item) {
-      return item.values().related_tools == filter ? true : false;
-    });
-  };
-});
-
-var filterBtnsTags = document.getElementsByClassName("filter-buttons-tags");
-
-var filterByTags = Array.prototype.filter.call(filterBtnsTags, function (filterBtn) {
-  var filter = filterBtn.id;
-  filterBtn.onclick = function () {
-    tools.filter(function (item) {
-      return item.values().tags == filter ? true : false;
-    });
-  };
-});
-
-//and clear the filters
-if (document.getElementById("clear-filters")) {
-  document.getElementById("clear-filters").onclick = function () {
-    tools.filter();
-  };
-}
-
-/***/ }),
-/* 16 */
+/* 19 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1870,7 +1907,7 @@ module.exports = naturalCompare;
 
 
 /***/ }),
-/* 17 */
+/* 20 */
 /***/ (function(module, exports) {
 
 /**
@@ -1902,7 +1939,7 @@ module.exports = function(el, attr) {
 
 
 /***/ }),
-/* 18 */
+/* 21 */
 /***/ (function(module, exports) {
 
 module.exports = function(list) {
@@ -1924,12 +1961,12 @@ module.exports = function(list) {
 
 
 /***/ }),
-/* 19 */
+/* 22 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var classes = __webpack_require__(1),
-  events = __webpack_require__(0),
-  List = __webpack_require__(3);
+var classes = __webpack_require__(11),
+  events = __webpack_require__(10),
+  List = __webpack_require__(12);
 
 module.exports = function(list) {
 
@@ -2023,12 +2060,12 @@ module.exports = function(list) {
 
 
 /***/ }),
-/* 20 */
+/* 23 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = function(list) {
 
-  var Item = __webpack_require__(9)(list);
+  var Item = __webpack_require__(18)(list);
 
   var getChildren = function(parent) {
     var nodes = parent.childNodes,
@@ -2076,7 +2113,7 @@ module.exports = function(list) {
 
 
 /***/ }),
-/* 21 */
+/* 24 */
 /***/ (function(module, exports) {
 
 var Templater = function(list) {
@@ -2256,7 +2293,7 @@ module.exports = function(list) {
 
 
 /***/ }),
-/* 22 */
+/* 25 */
 /***/ (function(module, exports) {
 
 module.exports = function(list) {
@@ -2382,7 +2419,7 @@ module.exports = function(list) {
 
 
 /***/ }),
-/* 23 */
+/* 26 */
 /***/ (function(module, exports) {
 
 module.exports = function(list) {
@@ -2417,7 +2454,7 @@ module.exports = function(list) {
 
 
 /***/ }),
-/* 24 */
+/* 27 */
 /***/ (function(module, exports) {
 
 module.exports = function(list) {
@@ -2529,16 +2566,16 @@ module.exports = function(list) {
 
 
 /***/ }),
-/* 25 */
+/* 28 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var classes = __webpack_require__(1),
-  events = __webpack_require__(0),
-  extend = __webpack_require__(5),
-  toString = __webpack_require__(8),
-  getByClass = __webpack_require__(4),
-  fuzzy = __webpack_require__(26);
+var classes = __webpack_require__(11),
+  events = __webpack_require__(10),
+  extend = __webpack_require__(14),
+  toString = __webpack_require__(17),
+  getByClass = __webpack_require__(13),
+  fuzzy = __webpack_require__(29);
 
 module.exports = function(list, options) {
   options = options || {};
@@ -2602,7 +2639,7 @@ module.exports = function(list, options) {
 
 
 /***/ }),
-/* 26 */
+/* 29 */
 /***/ (function(module, exports) {
 
 module.exports = function(text, pattern, options) {
@@ -2729,44 +2766,6 @@ module.exports = function(text, pattern, options) {
     return (best_loc < 0) ? false : true;
 };
 
-
-/***/ }),
-/* 27 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-if (false) {
-  var Turbolinks = require("turbolinks");
-  Turbolinks.start();
-  console.log('Turbolinks FTW');
-}
-
-/***/ }),
-/* 28 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/, 'js');
-
-/***/ }),
-/* 29 */,
-/* 30 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-document.addEventListener('DOMContentLoaded', function () {
-    document.querySelector('select[name="selectUrl"]').onchange = changeEventHandler;
-}, false);
-function changeEventHandler(event) {
-    // You can use “this” to refer to the selected element.
-    if (!event.target.value) alert('Please Select One');else window.location.href = event.target.value;
-}
 
 /***/ })
 /******/ ]);
