@@ -20,8 +20,15 @@
   {{end}}
 {{end}}
 
-{{$button_classes := "js-only border text-grey-darkest hover:bg-grey-darkest hover:text-white text-sm inline block mb-3 mr-3 px-3 py-2 rounded-sm"}}
+{{$button_classes := "js-only border border-grey-light  hover:bg-grey-darkest hover:text-white text-sm inline block mb-3 mr-3 px-3 py-2 rounded-sm "}}
 
+<style >
+.active {
+  background-color: black;
+  color: white;
+}
+</style>
+{{/* bg-grey-lightest text-grey-darkest */}}
 <div class="flex flex-wrap items-start mb-3">
 {{$data_model := $.Scratch.GetSortedMapValues "data_model"}}
 {{with $data_model}}
