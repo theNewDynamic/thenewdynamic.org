@@ -6,7 +6,6 @@ link: https://graphcms.com/blog/static-site-generation-using-graphcms-spike-and-
 content_type: Tutorial
 tool:
   - tool/spike.md
-  - tool/roots.md
   - tool/netlify.md
   - tool/graphcms.md
 ---

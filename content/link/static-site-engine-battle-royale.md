@@ -10,9 +10,4 @@ link: http://developer.telerik.com/featured/comparing-static-site-engines/
 tool:
   - tool/jekyll.md
   - tool/harp.md
-  - tool/roots.md
 ---
-
-
-
-
