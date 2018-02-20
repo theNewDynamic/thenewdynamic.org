@@ -1,0 +1,23 @@
+{{- $.Scratch.Add "index" slice -}}
+{{$content := where (where .Site.RegularPages ".Section" "not in"  (slice "tools")) ".Params.private" "ne" true}}
+
+{{- range $content -}}
+  {{- $.Scratch.Add "index" (dict "Section" (.Section | pluralize) "title" .Title "objectID" (md5 .File.Path) "uri" .RelPermalink "authors" .Params.authors "content" .Plain) -}}
+{{- end -}}
+{{- $.Scratch.Get "index" | jsonify -}}
+
+
+{{/* {{- $.Scratch.Add "books" slice -}}
+{{$books := where .Site.RegularPages "Section" "book"}}
+{{- range $books -}}
+  {{- $.Scratch.Add "books" (dict "Section" (.Section | pluralize) "title" .Title "objectID" .File.Path "uri" .RelPermalink "author" .Params.authors "translator" .Params.translators "editor" .Params.editors "contributor" .Params.contributors  "content" .Plain) -}}
+{{- end -}}
+"books":{{- $.Scratch.Get "books" | jsonify -}}
+
+{{- $.Scratch.Add "people" slice -}}
+{{$people := where (.Site.RegularPages) "Section" "author"}}
+{{- range $people -}}
+  {{- $.Scratch.Add "people" (dict "Section" (.Section | pluralize) "title" .Title "objectID" .File.Path "uri" .RelPermalink "content" .Plain) -}}
+{{- end -}}
+"authors":{{- $.Scratch.Get "people" | jsonify -}}
+} */}}

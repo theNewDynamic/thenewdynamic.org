@@ -1,3 +1,4 @@
+---
 DefaultContentLanguage: en
 MetaDataFormat: yaml
 Paginate: 300
@@ -6,6 +7,10 @@ enableRobotsTXT: true
 googleAnalytics: ""
 languageCode: en-us
 layoutDir: src/layouts
+mediaTypes:
+  text/netlify:
+    delimiter: ""
+    suffix: ""
 menu:
   main:
     -
@@ -59,6 +64,23 @@ menu:
       name: Privacy
       url: /privacy/
       weight: 25
+outputFormats:
+  HEADERS:
+    baseName: _headers
+    isPlainText: true
+    mediatype: text/netlify
+    notAlternative: true
+  REDIR:
+    baseName: _redirects
+    isPlainText: true
+    mediatype: text/netlify
+    notAlternative: true
+outputs:
+  home:
+    - HTML
+    - HEADERS
+    - REDIR
+    - JSON
 params:
   background_color_class: bg-near-white
   body_classes: "font-sans bg-near-white border-solid border-t-4 border-primary-color"
@@ -87,25 +109,3 @@ taxonomies:
   tag: tags
   tools: tools
 title: "the New Dynamic"
-#special Output formats
-outputs:
-  home:
-    - HTML
-    - HEADERS
-    - REDIR
-    - JSON
-mediaTypes:
-  text/netlify:
-    suffix: ''
-    delimiter: ''
-outputFormats:
-  REDIR:
-    baseName: _redirects
-    isPlainText: true
-    mediatype: text/netlify
-    notAlternative: true
-  HEADERS:
-    mediatype: text/netlify
-    baseName: _headers
-    isPlainText: true
-    notAlternative: true
