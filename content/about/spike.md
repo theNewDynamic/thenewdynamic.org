@@ -14,7 +14,9 @@ urls:
 data_model: ''
 related_tools: []
 tags: []
-resources: []
+resources:
+- name: Documentation
+  url: https://spike.readme.io/docs
 draft: true
 
 ---
