@@ -2,7 +2,7 @@
 title: earlylightmedia.com
 date: 2016-09-07 00:00:00 +0000
 related_tools:
-  - tool/roots.md
+  - tool/spike.md
   - tool/contentful.md
 website: 'http://www.earlylightmedia.com'
 repo: 'https://github.com/earlylightmedia/www'

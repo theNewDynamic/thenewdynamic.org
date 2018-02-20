@@ -10,10 +10,6 @@ link: http://www.smashingmagazine.com/2015/11/static-website-generators-jekyll-m
 tool:
   - tool/jekyll.md
   - tool/middleman.md
-  - tool/roots.md
   - tool/hugo.md
 ---
 Static website generation is quickly becoming a big part of the professional website builder’s toolbox. A new static website generator seems to pop up every week. Figuring out which one to use can be like a walk in the jungle.
-
-
-

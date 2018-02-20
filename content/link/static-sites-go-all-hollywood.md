@@ -10,7 +10,6 @@ link: https://speakerdeck.com/philhawksworth/static-sites-go-all-hollywood/
 tool:
   - tool/jekyll.md
   - tool/contentful.md
-  - tool/roots.md
   - tool/netlify.md
   - tool/hugo.md
 ---
