@@ -8,7 +8,6 @@ tool:
 - tool/eleventy.md
 video: false
 category: ''
-draft: true
 
 ---
 Another static site generator? Yes. But why? Fair question.
