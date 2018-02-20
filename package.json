@@ -7,6 +7,9 @@
   "author": "budparr",
   "license": "MIT",
   "scripts": {
+    "index": "hugo-algolia -s",
+    "algolia": "ALGOLIA_APP_ID=6QNT2A50JQ ALGOLIA_ADMIN_KEY=390dcf6e65406a0ca0dd9c6d7d8cfefe node lib/algolia.js",
+    "atomic-algolia": "atomic-algolia",
     "version:major": "npm version major -m 'Breaking Release'",
     "version:minor": "npm version minor -m 'Feature Release'",
     "version:patch": "npm version patch -m 'bump version for fixes minor changes'",
@@ -42,5 +45,7 @@
     "webpack": "^3.10.0",
     "webpack-merge": "^4.1.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "atomic-algolia": "^0.3.10"
+  }
 }
