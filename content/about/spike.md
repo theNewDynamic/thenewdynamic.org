@@ -15,6 +15,8 @@ data_model: ''
 related_tools: []
 tags: []
 resources:
+- name: Articles
+  url: https://medium.com/static-dev
 - name: Documentation
   url: https://spike.readme.io/docs
 draft: true
