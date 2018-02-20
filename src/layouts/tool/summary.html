@@ -33,17 +33,17 @@
       {{- .Params.description -}}
     </dd>
 
-  <div class="hidden">
+  <div class="hidden text-red">
     {{with .Params.data_model}}
-      <div class="hidden data_model">{{- urlize . -}}</div>
+      <div class="data_model">{{- urlize . -}}</div>
     {{end}}
 
     {{with .Params.language}}
-      <div class="hidden language">{{- urlize . -}}</div>
+      <div class="language">{{- urlize . -}}</div>
     {{end}}
 
     {{with .Params.license}}
-      <div class="hidden license">{{- urlize . -}}</div>
+      <div class="license">{{- urlize . -}}</div>
     {{end}}
 
     {{with .Params.related_tools}}
