@@ -8,7 +8,7 @@
   "license": "MIT",
   "scripts": {
     "index": "hugo-algolia -s",
-    "algolia": "ALGOLIA_APP_ID=6QNT2A50JQ ALGOLIA_ADMIN_KEY=390dcf6e65406a0ca0dd9c6d7d8cfefe node lib/algolia.js",
+    "algolia": "",
     "atomic-algolia": "atomic-algolia",
     "version:major": "npm version major -m 'Breaking Release'",
     "version:minor": "npm version minor -m 'Feature Release'",
@@ -33,6 +33,7 @@
     "glob-all": "^3.1.0",
     "lazysizes": "^4.0.1",
     "list.js": "^1.5.0",
+    "netlify-lambda": "^0.2.0",
     "npm-run-all": "^4.1.2",
     "postcss": "^6.0.17",
     "postcss-import": "^11.0.0",
