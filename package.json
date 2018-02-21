@@ -7,6 +7,7 @@
   "author": "budparr",
   "license": "MIT",
   "scripts": {
+    "algolia": "atomic-algolia",
     "version:major": "npm version major -m 'Breaking Release'",
     "version:minor": "npm version minor -m 'Feature Release'",
     "version:patch": "npm version patch -m 'bump version for fixes minor changes'",
@@ -18,6 +19,7 @@
     "start": "concurrently \"npm run hugoBuild\" \"npm run browsersync\" "
   },
   "devDependencies": {
+    "atomic-algolia": "^0.3.11",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
     "babel-preset-env": "^1.6.1",
@@ -36,7 +38,6 @@
     "postcss-loader": "^2.1.0",
     "purgecss-webpack-plugin": "^0.20.0",
     "style-loader": "^0.20.1",
-    "tachyons": "^4.9.1",
     "tailwindcss": "^0.4.1",
     "turbolinks": "^5.1.1",
     "webpack": "^3.10.0",
