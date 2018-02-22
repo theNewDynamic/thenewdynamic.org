@@ -1,0 +1,30 @@
+{{ define "main" }}{{/* tool/list layout is shared with taxonomy/tools */}}
+  <article class="max-w-lg mx-auto px-3 lg:px-4">
+    <div class="my-4 max-w-2xl">
+      <h1 class="f1">
+        {{ .Title }}
+      </h1>
+    </div>
+    <div class="">
+      <input type="search" id="searchbox" class="needs-js text-3xl border px-3 block py-2  w-100 " aria-labelledby="search_label" autocomplete="off" placeholder="Search for it" type="text" name="query" value="">
+
+      <div id="sort" class="mb-6"><!-- SearchBox widget will appear here --></div>
+
+      <div id="current-refined-values" class="my-6"><!-- Shows what the search is --></div>
+
+      <div id="clear-all"><!-- ClearAll widget --></div>
+
+      <div class="mb-6 bg-grey-light p-4">
+      <h5>Sections</h5>
+        <div id="sections"></div><!-- RefinementList widget will appear here -->
+      </div>
+
+
+      <div id="hits" class="bg-primary-colorTK"><img src="/uploads/site/balls.svg"></div>
+
+      <div id="pagination"><!-- Pagination widget --></div>
+
+    </div>
+
+  </article>
+{{ end }}
