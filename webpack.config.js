@@ -83,6 +83,14 @@ module.exports = function(environment) {
               }
             }
           ]
+        },
+        {
+          //Mustache loader for Algolia templates
+          test: /\.html$/,
+          loader: "mustache-loader"
+          // loader: 'mustache-loader?minify'
+          // loader: 'mustache-loader?{ minify: { removeComments: false } }'
+          // loader: 'mustache-loader?noShortcut'
         }
       ]
     },
@@ -117,7 +125,6 @@ module.exports = function(environment) {
       // In production, hash our JS
       CONFIG.output.filename = "js/[name].[hash].js";
       CONFIG.plugins.push(
-
         new webpack.DefinePlugin({
           PRODUCTION: JSON.stringify(true)
         }),
