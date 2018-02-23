@@ -142,7 +142,8 @@ module.exports = function(environment) {
           paths: glob.sync([
             path.join(__dirname, "src/layouts/*.html"),
             path.join(__dirname, "src/layouts/**/*.html"),
-            path.join(__dirname, "src/layouts/partials/**/*.html")
+            path.join(__dirname, "src/layouts/partials/**/*.html"),
+            path.join(__dirname, "src/js/algolia/templates/*.html")
           ]),
           // TailwindExtractor runs through our layouts to get the CSS for PurgeCSS
           extractors: [
