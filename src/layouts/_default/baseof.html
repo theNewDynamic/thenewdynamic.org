@@ -11,7 +11,7 @@
   </head>
   <body class="ma0 font-sans bg-near-white{{ with getenv "HUGO_ENV" }} {{ . }}{{ end }}">
     {{ block "header" . }}{{ partial "_global/header.html" .}}{{ end }}
-    <div class="content">
+    <div id="content" class="content">
       <main role="main">
         {{ block "main" . }}{{ end }}
       </main>
