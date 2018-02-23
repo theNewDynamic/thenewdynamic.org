@@ -3,7 +3,7 @@ import instantsearch, {
   widgets
 } from "instantsearch.js/dist/instantsearch";
 
-import hitTemplate from "./templates/hits.html";
+import hitTemplate from "./templates/hits-listed-content.html";
 import noResultsTemplate from "./templates/no-results.html";
 import queryResultsTemplate from "./templates/query-results.html";
 
@@ -12,6 +12,10 @@ var search = instantsearch({
   apiKey: "fcbd6ff119bc3ddf14fa6115baa892ef",
   indexName: "all_content",
   urlSync: true
+  // ,
+  // searchParameters: {
+  //   filters: 'section:"tools"'
+  // }
 });
 
 // initialize SearchBox
@@ -19,79 +23,36 @@ search.addWidget(
   instantsearch.widgets.searchBox({
     //container: "#search-box",
     container: "#searchbox",
+    poweredBy: false,
     placeholder: "Search for Tools, Articles, and Showcase",
     magnifier: false,
     reset: false
   })
 );
 
-// initialize currentRefinedValues
 search.addWidget(
-  instantsearch.widgets.currentRefinedValues({
-    container: "#current-refined-values",
-    clearAll: "after",
-    clearsQuery: true,
+  instantsearch.widgets.stats({
+    container: "#stats",
     templates: {
-      item: queryResultsTemplate
-    },
-    attributes: [
-      { name: "section", label: "Sections" },
-      { name: "license", label: "licensel" }
-      // {name: 'brand', label: 'Brand'},
-      // {name: 'category', label: 'Category'},
-    ],
-    onlyListedAttributes: false
+      body: queryResultsTemplate
+    }
   })
 );
 
-// initialize clearAll
 search.addWidget(
   instantsearch.widgets.clearAll({
     container: "#clear-all",
     templates: {
-      link: "Reset everything"
+      link: "Reset"
     },
-    autoHideContainer: true
+    autoHideContainer: true,
+    clearsQuery: true,
+    cssClasses: {
+      link:
+        "inline-block px-3 py-1 no-underline rounded-t text-white text-sm bg-grey-darkest"
+    }
   })
 );
-
-// initialize RefinementList
-
-// search.addWidget(
-//   instantsearch.widgets.refinementList({
-//     container: "#refinement-list",
-//     attributeName: "Section",
-//     templates: {
-//       header: "Section"
-//     }
-//   })
-// );
-//
-// search.addWidget(
-//   instantsearch.widgets.refinementList({
-//     container: "#refinement-list",
-//     attributeName: "Section",
-//     templates: {
-//       header: "Section"
-//     },
-//     searchForFacetValues: {
-//       placeholder: "Search for Sections",
-//       templates: {
-//         noResults: '<div class="sffv_no-results">No matching brands.</div>'
-//       }
-//     }
-//   })
-// );
-
-// search.addWidget(
-//   instantsearch.widgets.refinementList({
-//     container: "#refinement-list",
-//     attributeName: "Section",
-//     templates: {
-//       header: "Sections"
-//     }
-//   })
-// );
 
 search.addWidget(
   instantsearch.widgets.refinementList({
@@ -99,7 +60,9 @@ search.addWidget(
     attributeName: "section",
     operator: "and",
     limit: 10,
+    collapsible: { collapsed: true },
     cssClasses: {
+      item: "inline-block mr-3 my-2",
       list: "nav nav-list",
       count: "badge pull-right",
       active: "active"
@@ -109,9 +72,9 @@ search.addWidget(
 
 search.addWidget(
   instantsearch.widgets.hits({
-    filters: "section:tool",
     hitsPerPage: 100,
     container: "#hits",
+    collapsible: true,
     templates: {
       empty: noResultsTemplate,
       item: hitTemplate
@@ -125,7 +88,7 @@ search.addWidget(
     container: "#pagination",
     maxPages: 20,
     // default is to scroll to 'body', here we disable this behavior
-    scrollTo: false
+    scrollTo: true
   })
 );
 
