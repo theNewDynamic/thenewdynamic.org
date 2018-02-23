@@ -93,7 +93,7 @@ html.js .js-only{
   /* transform: translate(0, 0px); */
   transform: translate3d(0,  0,  10);
   opacity: 1;
-  //transition: transform .25s ease-out, opacity 2.95s ease-in-out;
+    transition: transform .25s ease-out, opacity .45s ease-in-out;
 }
 .drawer-hidden {
   /* transform: translate(-250000, 0); */

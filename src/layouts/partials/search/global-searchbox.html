@@ -1,4 +1,4 @@
-<div id="search-panel" class="opacity-100 z-50 absolute pin-r pin-l drawer-hidden drawer-visible center">
+<div id="search-panel" class="z-50 absolute pin-r pin-l drawer-hidden drawer-visible center">
 
 <div class="py-3 px-3 lg:px-4 bg-grey-dark">
 <div class="w-full md:w-3/5 relative center mx-auto">
@@ -11,36 +11,8 @@
 </div>
 </div>
 
-{{/* <button type="reset" title="Clear the search query." class="ais-search-box--reset">
-  {{- partial "svg/reset.svg" (dict "size" "15px") -}}
-</button> */}}
-
-
 </div>
 <div id="results" class="hidden">
   {{partial "search/results-global.html" .}}
   </div>
 </div>
-
-<div class="opacity-0 inline-block px-3 py-1 no-underline rounded-t text-white text-sm bg-grey-darkest mr-3 my-2"></div>
-{{/* <style>
-
-.ais-search-box--reset {
-  height: 16px;
-  color: grey;
-}
-
-
-  .body-hidden {
-
-    opacity: 0.05;
-  }
-
-  .ais-search-box--powered-by, .ais-search-box--powered-by a {
-    font-size: .875rem;
-    float:right;
-    text-decoration: none;
-    color: #ccc;
-    margin-bottom: 1rem;
-  }
-</style> */}}
