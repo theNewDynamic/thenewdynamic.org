@@ -1,13 +1,26 @@
-import instantsearch, {
-  connectors,
-  widgets
-} from "instantsearch.js/dist/instantsearch";
+// import instantsearch, {
+//   connectors,
+//   widgets
+// } from "instantsearch.js/dist/instantsearch";
+// instantsearch() function without reference to the widgets or connectors
+import instantsearch from "instantsearch.js/es";
+
+// // import connectors individually
+// import {connectSearchBox} from 'instantsearch.js/es/connectors';
+
+// import widgets individually
+import { searchBox } from "instantsearch.js/es/widgets";
+import { stats } from "instantsearch.js/es/widgets";
+import { clearAll } from "instantsearch.js/es/widgets";
+import { refinementList } from "instantsearch.js/es/widgets";
+import { hits } from "instantsearch.js/es/widgets";
+import { pagination } from "instantsearch.js/es/widgets";
 
 import hitTemplate from "./templates/hits-listed-content.html";
 import noResultsTemplate from "./templates/no-results.html";
 import queryResultsTemplate from "./templates/query-results.html";
 
-var search = instantsearch({
+const search = instantsearch({
   appId: "EGKL8BPJHJ",
   apiKey: "fcbd6ff119bc3ddf14fa6115baa892ef",
   indexName: "all_content",
@@ -19,8 +32,9 @@ var search = instantsearch({
 });
 
 // initialize SearchBox
+
 search.addWidget(
-  instantsearch.widgets.searchBox({
+  searchBox({
     //container: "#search-box",
     container: "#searchbox",
     poweredBy: false,
@@ -31,7 +45,7 @@ search.addWidget(
 );
 
 search.addWidget(
-  instantsearch.widgets.stats({
+  stats({
     container: "#stats",
     templates: {
       body: queryResultsTemplate
@@ -40,7 +54,7 @@ search.addWidget(
 );
 
 search.addWidget(
-  instantsearch.widgets.clearAll({
+  clearAll({
     container: "#clear-all",
     templates: {
       link: "Reset"
@@ -55,7 +69,7 @@ search.addWidget(
 );
 
 search.addWidget(
-  instantsearch.widgets.refinementList({
+  refinementList({
     container: "#sections",
     attributeName: "section",
     operator: "and",
@@ -71,7 +85,7 @@ search.addWidget(
 );
 
 search.addWidget(
-  instantsearch.widgets.hits({
+  hits({
     hitsPerPage: 100,
     container: "#hits",
     collapsible: true,
@@ -84,7 +98,7 @@ search.addWidget(
 
 // initialize pagination
 search.addWidget(
-  instantsearch.widgets.pagination({
+  pagination({
     container: "#pagination",
     maxPages: 20,
     // default is to scroll to 'body', here we disable this behavior
