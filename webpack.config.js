@@ -103,10 +103,7 @@ module.exports = function(environment) {
       modules: [path.resolve(__dirname, "src"), "node_modules"]
     },
 
-    plugins: [
-      new CleanWebpackPlugin(pathsToClean, cleanOptions),
-      new UglifyJSPlugin()
-    ]
+    plugins: [new CleanWebpackPlugin(pathsToClean, cleanOptions)]
   };
 
   switch (environment) {
@@ -156,7 +153,9 @@ module.exports = function(environment) {
               extensions: ["html"]
             }
           ]
-        })
+        }),
+        new UglifyJSPlugin(),
+        new webpack.optimize.ModuleConcatenationPlugin()
       );
       break;
     default:
