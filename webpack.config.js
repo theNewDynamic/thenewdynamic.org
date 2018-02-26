@@ -1,4 +1,5 @@
 const path = require("path");
+const UglifyJSPlugin = require("uglifyjs-webpack-plugin");
 const CleanWebpackPlugin = require("clean-webpack-plugin");
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
 const PurgecssPlugin = require("purgecss-webpack-plugin");
@@ -102,7 +103,10 @@ module.exports = function(environment) {
       modules: [path.resolve(__dirname, "src"), "node_modules"]
     },
 
-    plugins: [new CleanWebpackPlugin(pathsToClean, cleanOptions)]
+    plugins: [
+      new CleanWebpackPlugin(pathsToClean, cleanOptions),
+      new UglifyJSPlugin()
+    ]
   };
 
   switch (environment) {
