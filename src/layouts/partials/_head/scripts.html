@@ -1,10 +1,12 @@
-{{$scripts := readDir ( $.Param "dev.js_path" | default "/static/dist/js")}}
-
-{{with $scripts}}
-  {{range .}}
-    <script src='{{.Name  | add "/dist/js/" | relURL }}' defer></script>
+{{$js_path := $.Param "dev.js_path"}}
+{{with $js_path}}
+  {{range readDir .}}
+    <script src="{{replace $js_path "static/" "/"}}/{{.Name}}" defer></script>
   {{end}}
 {{end}}
+
+
+
 
 
 {{/* CSS for Algolia */}}

@@ -6,27 +6,33 @@
   Referrer-Policy: no-referrer-when-downgrade
 
 /*
-  {{$stylesheet := readDir ( $.Param "dev.css_path" | default "/static/dist/css")}}
-  {{$scripts := readDir  ($.Param "dev.js_path"| default "/static/dist/js")}}
-  {{$fonts := readDir  ($.Param "dev.fonts_path"| default "/static/dist/Fonts")}}
+  {{$css_path := $.Param "dev.css_path"}}
+  {{$js_path := $.Param "dev.js_path"}}
+  {{$fonts_path := $.Param "dev.fonts_path"}}
 
-  {{range $stylesheet}}
-  Link: <{{- .Name  | add "/dist/css/" -}}>; rel=preload; as=style
-  {{end}}
-  {{range $scripts}}
-  Link: <{{- .Name  | add "/dist/js/" -}}>; rel=preload; as=script
-  {{end}}
+  {{with $css_path}}{{range readDir .}}
+  Link: <{{replace $css_path "static/" "/"}}/{{.Name}}>;rel=preload;as=style
+  {{end}}{{end}}
 
-  {{range $fonts}}
-  Link: <{{ .Name  | add "/dist/Fonts/" | relURL }}>; rel=preload; as=font
-  {{end}}
+  {{with $js_path}}{{range readDir .}}
+  Link: <{{replace $js_path "static/" "/"}}/{{.Name}}>;rel=preload;as=script
+  {{end}}{{end}}
+
+  {{with $fonts_path}}{{range readDir .}}
+  Link: <{{replace $fonts_path "static/" "/"}}/{{.Name}}>;rel="preload";as="font";crossorigin
+  {{end}}{{end}}
+
 
   # Set a long cache expiry on asset urls
-  {{range $stylesheet}}
-  {{.Name  | add "/dist/css/"}}
+  {{with $css_path}}{{range readDir .}}
+  {{replace $css_path "static/" "/"}}/{{.Name}}
   Cache-Control: public, max-age=31556926
-  {{end }}
-  {{range $scripts}}
-  {{.Name  | add "/dist/js/"}}
+  {{end}}{{end}}
+  {{with $js_path}}{{range readDir .}}
+  {{replace $js_path "static/" "/"}}/{{.Name}}
   Cache-Control: public, max-age=31556926
-  {{end}}
+  {{end}}{{end}}
+  {{with $fonts_path}}{{range readDir .}}
+  {{replace $fonts_path "static/" "/"}}/{{.Name}}
+  Cache-Control: public, max-age=31556926
+  {{end}}{{end}}
