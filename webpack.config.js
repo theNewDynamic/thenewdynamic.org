@@ -124,7 +124,7 @@ module.exports = function(environment) {
       break;
     case "production":
       // In production, hash our JS
-      CONFIG.output.filename = "js/[name].[hash].js";
+      CONFIG.output.filename = "js/[name].[chunkhash].js";
       CONFIG.plugins.push(
         new webpack.DefinePlugin({
           PRODUCTION: JSON.stringify(true)
@@ -159,7 +159,7 @@ module.exports = function(environment) {
       );
       break;
     default:
-      CONFIG.output.filename = "js/[name].[hash].js";
+      CONFIG.output.filename = "js/[name].[chunkhash].js";
   }
   return CONFIG;
 };
