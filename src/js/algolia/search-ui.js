@@ -5,10 +5,11 @@ var searchBox = document.getElementById("searchbox");
 var results = document.getElementById("results");
 
 if (searchButton) {
-  searchButton.onclick = function() {
-    searchPanel.classList.toggle("drawer-hidden");
-    results.classList.toggle("hidden");
-    contentDiv.classList.toggle("opacity-0");
+  searchButton.onclick = function(event) {
+    event.preventDefault();
+    // searchPanel.classList.toggle("drawer-hidden");
+    // results.classList.toggle("hidden");
+    // contentDiv.classList.toggle("opacity-0");
     // body.href = "/search-results/";
     searchBox.focus();
     searchBox.select();

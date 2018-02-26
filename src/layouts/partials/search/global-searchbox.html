@@ -1,18 +1,11 @@
-<div id="search-panel" class="z-50 absolute pin-r pin-l drawer-hidden drawer-visible center">
-
-<div class="py-3 px-3 lg:px-4 bg-grey-dark">
-<div class="w-full md:w-3/5 relative center mx-auto">
-<div class="absolute mr-8 mt-3 text-grey">
-  {{- partial "svg/magnifier.svg" (dict "size" "35px") -}}
-</div>
-
-<div class="flex flex-wrap items-center justify-between">
-  <input type="search" id="searchbox" class="center ml-8 needs-js text-3xl border px-3 block py-2 w-full bg-grey-dark nice-outline text-white border-transparent" aria-labelledby="search_label" autocomplete="off" placeholder="Start typing" type="text" name="query" value="">
-</div>
-</div>
-
-</div>
-<div id="results" class="hidden">
-  {{partial "search/results-global.html" .}}
+<div class="mx-auto w-1/2">
+  <div class="flex flex-wrap items-center justify-around">
+    <div class="text-grey">
+      {{- partial "svg/magnifier.svg" (dict "size" "32px") -}}
+    </div>
+    <input type="search" id="searchbox" class="center needs-js text-3xl md:text-3xl border px-3 block py-2TK w-full bg-grey-lighter nice-outline text-black border-transparent" aria-labelledby="search_label" autocomplete="off" placeholder="Start typing" type="text" name="query" value="">
   </div>
 </div>
+{{/* <div id="results" class="hidden">
+{{partial "search/results-global.html" .}} */}}
+{{/* </div> */}}

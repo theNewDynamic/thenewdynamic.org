@@ -1,22 +1,36 @@
 {{ $currentPage := . }}
 <header class="mb-4">
+
   <div class="pb3 ">
     {{- partial "_global/navigation.html" . -}}
+
     <div class="pb-6 pt-4 px-3 lg:px-4 bg-grey-lighter">
-      <div class="max-w-5xl mx-auto">
-        <h1 class="font-brand dib-ns text-4xl lh-title text-grey-dark ma0">
-          {{if eq .Kind "taxonomy"}}
-            {{$section_heading := .Site.GetPage "taxonomy" .Section }}
-            {{with $section_heading}}{{- .Title -}}: {{end}}
-          {{end}}
-          {{- $.Title -}}
-        </h1>
-        {{- with .Params.description -}}
-          <h2 class="dib-ns text-lg lh-copy text-grey-darker measure-wide-l pl4">
-            {{- . -}}
-          </h2>
-        {{- end -}}
+
+      <div class="max-w-5xl mx-auto flex flex-wrap items-center">
+        <div>
+          <h1 class="font-brand dib-ns text-2xl md:text-4xl lh-title text-grey-dark ma0">
+            {{if eq .Kind "taxonomy"}}
+              {{$section_heading := .Site.GetPage "taxonomy" .Section }}
+              {{with $section_heading}}{{- .Title -}}:
+              {{end}}
+            {{end}}
+            {{- $.Title -}}
+          </h1>
+          {{- with .Params.description -}}
+            <h2 class="dib-ns text-lg lh-copy text-grey-darker measure-wide-l pl4">
+              {{- . -}}
+            </h2>
+          {{- end -}}
+        </div>
+
+        {{if eq .URL "/search/"}}
+          {{partial "search/global-searchbox.html" .}}
+        {{end}}
+
       </div>
+
     </div>
+
   </div>
+
 </header>
