@@ -3,14 +3,17 @@ const UglifyJSPlugin = require("uglifyjs-webpack-plugin");
 const CleanWebpackPlugin = require("clean-webpack-plugin");
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
 const PurgecssPlugin = require("purgecss-webpack-plugin");
-
 const glob = require("glob-all");
 const webpack = require("webpack");
 
 //let toProvide = {}
 
 // the path(s) that should be cleaned
-let pathsToClean = ["./static/dist"];
+let pathsToClean = [
+  "./static/dist/js/*.js",
+  "./static/dist/css/*.css",
+  "./static/dist/Fonts/*.*"
+];
 // the clean options to use
 let cleanOptions = {
   root: __dirname,
