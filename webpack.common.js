@@ -4,6 +4,7 @@ const CleanWebpackPlugin = require("clean-webpack-plugin");
 module.exports = {
   entry: {
     app: "./src/index.js"
+    // algolia: "./src/algolia.js"
   },
   module: {
     rules: [
@@ -24,7 +25,9 @@ module.exports = {
           {
             loader: "file-loader",
             options: {
+              // “publicPath” is used by several Webpack’s plugins to update the URLs inside CSS, HTML files when generating production builds.
               publicPath: "/dist/Fonts",
+              // “path” tells  Webpack where it should store the result
               outputPath: "/Fonts/"
             }
           }

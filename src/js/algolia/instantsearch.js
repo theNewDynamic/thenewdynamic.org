@@ -19,6 +19,7 @@ import { pagination } from "instantsearch.js/es/widgets";
 import hitTemplate from "./templates/hits-listed-content.html";
 import noResultsTemplate from "./templates/no-results.html";
 import queryResultsTemplate from "./templates/query-results.html";
+import "./search-ui.js";
 
 const search = instantsearch({
   appId: "EGKL8BPJHJ",
@@ -113,3 +114,4 @@ search.addWidget(
 // }
 
 search.start();
+console.log("instantsearch Has been loaded");

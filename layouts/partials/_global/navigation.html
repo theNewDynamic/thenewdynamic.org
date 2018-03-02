@@ -27,12 +27,14 @@
         data-turbolinks="false"
          */}}
 
-        <a href="/search/" class="no-underline hover:text-black text-white">{{partialCached "svg/magnifier.svg" (dict "size" "12px")}}</a>
+        {{/* <a href="/search/" class="no-underline hover:text-black text-white">{{partialCached "svg/magnifier.svg" (dict "size" "12px")}}</a> */}}
 
 
       </li>
     </ul>
     {{- end -}}
+
+    {{partial "search/searchbox-nav.html" .}}
 
     <div class="hidden lg:flex flex-wrap items-center">
       {{ partial "_components/social-follow.html" (dict "cx" . "icon_size" "32px") }}
@@ -42,3 +44,6 @@
   </div>
 </nav>
 {{/* {{partial "search/global-searchbox.html" .}} */}}
+<div id="results" class="js-only max-w-2xl mx-auto p-4 results-hidden">
+  {{partial "search/results-global.html" .}}
+</div>
