@@ -1,0 +1,16 @@
+{{ $title := .Title }}
+{{ $url := printf "%s" .URL | absLangURL }}
+{{ $body := print $title ", by " .Site.Title "\n" .Params.description "\n\n" $url "\n" }}
+<div id="sharing">
+  <a href="http://www.facebook.com/sharer.php?u={{ $url }}" class="link-transition facebook link dib z-999 pt3 pt0-l mr2">
+    {{ partial "svg/facebook.svg" (dict "size" "32px") }}
+  </a>
+
+  <a href="http://twitter.com/share?url={{ $url }}&text={{ $title }}&via={{with .Site.Social.twitter }}{{ . }}{{ end }}" class="link-transition twitter link dib z-999 pt3 pt0-l mr2">
+    {{ partial "svg/twitter.svg" (dict "size" "32px") }}
+  </a>
+
+  <a href="mailto:?subject=Check%20out%20{{ $title }}.&body={{ $body }}" class="link-transition twitter link dib z-999 pt3 pt0-l mr2">
+    {{ partial "svg/email.svg" (dict "size" "32px") }}
+  </a>
+</div>

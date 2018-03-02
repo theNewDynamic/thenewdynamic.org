@@ -1,0 +1,20 @@
+
+
+html.no-js .js-only{
+  visibility: hidden;
+}
+html.js .js-only{
+  visibility: visible;
+}
+
+.bg-inherit { background-color: inherit}
+.color-inherit { color: inherit}
+
+
+p a:link, p a:active, p a:visited {
+  /* This blue has a 4.77 contrast ratio on white 4.56 on near-white */
+    color: #1A76C1;
+}
+p a:hover {
+  color: #12283a;
+}

@@ -6,7 +6,7 @@ baseURL: "https://www.thenewdynamic.org"
 enableRobotsTXT: true
 googleAnalytics: ""
 languageCode: en-us
-layoutDir: src/layouts
+#layoutDir: src/layouts
 mediaTypes:
   text/netlify:
     delimiter: ""

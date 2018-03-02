@@ -1,0 +1,7 @@
+{{/* {{ $background_image := .image | replace "(/uploads)" .Site.Params.image_url  }} */}}
+{{ $background_image := replace .image  "(/uploads)" .Site.Params.image_url  }}
+<div class="w-100 w-50-l cover black bg-top pv5 relative"{{ with $background_image }} style="background-image: url({{ . }}?{{ (querify "w" "1200") | safeURL }})"{{end}}>
+  <div class="f2 absolute right-0 bottom-0 mr3 mb3 pt2 white-90 font-family-brand">
+    {{ .video }}
+  </div>
+</div>

@@ -1,0 +1,29 @@
+
+.drawer-visible {
+  /* transform: translate(0, 0px); */
+  transform: translate3d(0,  0,  10);
+  opacity: 1;
+    transition: transform .25s ease-out, opacity .45s ease-in-out;
+}
+.drawer-hidden {
+  /* transform: translate(-250000, 0); */
+  opacity: 0;
+  transform: translate3d(0,  -25000px, 0)
+
+}
+
+
+.nice-outline {
+outline:none;
+text-decoration: underline;
+
+}
+
+
+.button_c {
+  @apply border border-grey-light text-sm inline-block mb-3 mr-3 px-3 py-2 rounded-sm;
+}
+
+.button_c:hover {
+  @apply bg-grey-darkest text-white
+}

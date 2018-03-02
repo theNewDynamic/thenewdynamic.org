@@ -1,6 +1,3 @@
-import styles from "./../css/styles.css";
-import fonts from "./../fonts.css";
-
 import "./algolia/instantsearch.js";
 import "./algolia/search-ui.js";
 import "./lazysizes.js";

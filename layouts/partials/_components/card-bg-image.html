@@ -1,0 +1,8 @@
+<a href="{{ .URL }}" class="link db ba bg-center cover w-100 w-30-l white "{{ with .Params.images_path }} style="background-image:url('{{ .}}');"{{ end }}>
+  <div class="pv5 pv6-l ph4 ph6-ns fw8 bg-black-40 h-100 f2">
+    {{ .Title }}
+    <span class="f6 pv2 db white-70">
+      {{ .Date.Format "January 2, 2006" }}
+    </span>
+  </div>
+</a>

@@ -1,0 +1,84 @@
+{{range .Data.Pages}}
+  {{with .Params.tags}}
+    {{range sort . "value" "asc"}}
+      {{$.Scratch.SetInMap "tags" . .}}
+    {{end}}
+  {{end}}
+  {{with .Params.related_tools}}
+    {{range sort . "value" "asc"}}
+      {{$.Scratch.SetInMap "related_tools" . .}}
+    {{end}}
+  {{end}}
+  {{with .Params.language}}
+    {{$.Scratch.SetInMap "language" . .}}
+  {{end}}
+  {{with .Params.license}}
+    {{$.Scratch.SetInMap "license" . .}}
+  {{end}}
+  {{with .Params.data_model}}
+    {{$.Scratch.SetInMap "data_model" . .}}
+  {{end}}
+{{end}}
+
+
+{{/* <style >
+.active {
+  background-color: black;
+  color: white;
+}
+</style> */}}
+{{/* bg-grey-lightest text-grey-darkest */}}
+<div class="flex flex-wrap items-start mb-3">
+{{$data_model := $.Scratch.GetSortedMapValues "data_model"}}
+{{with $data_model}}
+  <div class="lg:mr-6">
+    <h6 class="mb-2">Data Model</h6>
+    {{range .}}
+      <button id="{{urlize .}}" class='filter-buttons-data_model button_c'>{{.}}</button>
+    {{end}}
+  </div>
+{{end}}
+
+{{$language := $.Scratch.GetSortedMapValues "language"}}
+{{with $language}}
+  <div class="lg:mr-6">
+  <h6 class="mb-2">Language</h6>
+  {{range .}}
+    <button id="{{urlize .}}" class='filter-buttons-language button_c'>{{.}}</button>
+  {{end}}
+  </div>
+{{end}}
+
+{{$license := $.Scratch.GetSortedMapValues "license"}}
+{{with $license}}
+  <div class="lg:mr-6">
+  <h6 class="mb-2">License</h6>
+  {{range .}}
+    <button id="{{urlize .}}" class='filter-buttons-license button_c'>{{.}}</button>
+  {{end}}
+  </div>
+{{end}}
+
+{{$related_tools := $.Scratch.GetSortedMapValues "related_tools"}}
+{{with $related_tools}}
+  <div class="lg:mr-6">
+    <h6 class="mb-2">Related Tools</h6>
+    {{range .}}
+    {{$related_tool := index (where (where $.Site.RegularPages ".Section" "tool") ".File.Path" "in" .) 0}}
+      <button id="{{urlize .}}" class='filter-buttons-tools button_c'>{{with $related_tool }}{{.Title}}{{end}}</button>
+    {{end}}
+  </div>
+{{end}}
+
+
+{{$tags := $.Scratch.GetSortedMapValues "tags"}}
+{{with $tags}}
+  <div class="lg:mr-6">
+    <h6 class="mb-2">Tags</h6>
+    {{range .}}
+      <button id="{{urlize .}}" class='filter-buttons-tags button_c'>{{.}}</button>
+    {{end}}
+  </div>
+{{end}}
+
+</div>

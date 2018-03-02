@@ -1,0 +1,11 @@
+{{/*  Minimum partial call includes (dict "context" . )
+    If an entry has .show_time: false or if the partial call includes (dict "show_time" false), don't show time.
+*/}}
+
+<time class="{{ .classes | default "f7 db accent-color sans-serif tracked" }}" datetime="{{ .context.Date.Format "2006-01-02T15:04:05Z07:00" }}">
+  {{ if (or (eq .context.Params.show_time false) (eq .show_time false)) }}
+    {{ .context.Date.Format "January 2, 2006" }}
+  {{ else }}
+    {{ .context.Date.Format "January _2, 2006 3:04 pm" }}
+  {{ end }}
+</time>
