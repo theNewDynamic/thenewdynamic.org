@@ -20,14 +20,13 @@
   {{end}}
 {{end}}
 
-{{$button_classes := "js-only border border-grey-light  hover:bg-grey-darkest hover:text-white text-sm inline block mb-3 mr-3 px-3 py-2 rounded-sm "}}
 
-<style >
+{{/* <style >
 .active {
   background-color: black;
   color: white;
 }
-</style>
+</style> */}}
 {{/* bg-grey-lightest text-grey-darkest */}}
 <div class="flex flex-wrap items-start mb-3">
 {{$data_model := $.Scratch.GetSortedMapValues "data_model"}}
@@ -35,7 +34,7 @@
   <div class="lg:mr-6">
     <h6 class="mb-2">Data Model</h6>
     {{range .}}
-      <button id="{{urlize .}}" class='filter-buttons-data_model {{$button_classes}}'>{{.}}</button>
+      <button id="{{urlize .}}" class='filter-buttons-data_model button_c'>{{.}}</button>
     {{end}}
   </div>
 {{end}}
@@ -45,7 +44,7 @@
   <div class="lg:mr-6">
   <h6 class="mb-2">Language</h6>
   {{range .}}
-    <button id="{{urlize .}}" class='filter-buttons-language {{$button_classes}}'>{{.}}</button>
+    <button id="{{urlize .}}" class='filter-buttons-language button_c'>{{.}}</button>
   {{end}}
   </div>
 {{end}}
@@ -55,7 +54,7 @@
   <div class="lg:mr-6">
   <h6 class="mb-2">License</h6>
   {{range .}}
-    <button id="{{urlize .}}" class='filter-buttons-license {{$button_classes}}'>{{.}}</button>
+    <button id="{{urlize .}}" class='filter-buttons-license button_c'>{{.}}</button>
   {{end}}
   </div>
 {{end}}
@@ -66,7 +65,7 @@
     <h6 class="mb-2">Related Tools</h6>
     {{range .}}
     {{$related_tool := index (where (where $.Site.RegularPages ".Section" "tool") ".File.Path" "in" .) 0}}
-      <button id="{{urlize .}}" class='filter-buttons-tools {{$button_classes}}'>{{with $related_tool }}{{.Title}}{{end}}</button>
+      <button id="{{urlize .}}" class='filter-buttons-tools button_c'>{{with $related_tool }}{{.Title}}{{end}}</button>
     {{end}}
   </div>
 {{end}}
@@ -77,7 +76,7 @@
   <div class="lg:mr-6">
     <h6 class="mb-2">Tags</h6>
     {{range .}}
-      <button id="{{urlize .}}" class='filter-buttons-tags {{$button_classes}}'>{{.}}</button>
+      <button id="{{urlize .}}" class='filter-buttons-tags button_c'>{{.}}</button>
     {{end}}
   </div>
 {{end}}
