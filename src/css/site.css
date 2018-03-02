@@ -1,16 +1,42 @@
+/* Search */
 
-.drawer-visible {
-  /* transform: translate(0, 0px); */
-  transform: translate3d(0,  0,  10);
-  opacity: 1;
-    transition: transform .25s ease-out, opacity .45s ease-in-out;
+.results-hidden {
+  z-index: -9999;
+  visibility: hidden;
+  display: none;
 }
-.drawer-hidden {
-  /* transform: translate(-250000, 0); */
-  opacity: 0;
-  transform: translate3d(0,  -25000px, 0)
+
+
+.ais-pagination {
+  @apply .list-reset .border .rounded .inline-block .px-2 .py-2 .mt-4;
 
 }
+
+.ais-pagination li {
+  display: inline;
+}
+
+li.ais-pagination--item__active a, .ais-pagination li a:hover {
+  @apply .bg-grey-dark text-white .rounded;
+}
+
+
+.ais-pagination li a, .ais-pagination li a:link, .ais-pagination li a:active {
+  @apply .text-grey-dark .no-underline .px-2 .py-1;
+}
+
+li.ais-pagination--item__active a{
+  @apply .text-white;
+}
+
+li.ais-pagination--item__first {
+  @apply .ml-4;
+}
+li.ais-pagination--item__last {
+  @apply .mr-4;
+}
+
+
 
 
 .nice-outline {
