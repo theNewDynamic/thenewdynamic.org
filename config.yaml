@@ -6,6 +6,7 @@ baseURL: "https://www.thenewdynamic.org"
 enableRobotsTXT: true
 googleAnalytics: ""
 languageCode: en-us
+theme: "hugo-base-layouts"
 #layoutDir: src/layouts
 mediaTypes:
   text/netlify:

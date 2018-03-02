@@ -35,7 +35,8 @@
     {{- end -}}
 
     <div class="hidden lg:flex flex-wrap items-center">
-      {{- partialCached "social-follow.html" . -}}
+      {{ partial "_components/social-follow.html" (dict "cx" . "icon_size" "32px") }}
+
     </div>
 
   </div>

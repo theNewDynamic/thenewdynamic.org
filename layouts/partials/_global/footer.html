@@ -33,7 +33,7 @@
 {{define "follow"}}
   <div>
     <div class="inline-block hidden lg:flex flex-wrap items-center">
-      {{- partialCached "social-follow.html" . -}}
+      {{ partial "_components/social-follow.html" (dict "cx" . "icon_size" "32px") }}
     </div>
     <a href="http://newsletter.thenewdynamic.org/" class="border-grey-lighter center hover:opacity-75 border rounded inline-block text-base bold bg-primary-color no-underline px-3 py-2 text-center text-white text-lg text-bold">Get our Weekly Newsletter</a>
   </div>
