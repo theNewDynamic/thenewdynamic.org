@@ -1,0 +1,28 @@
+---
+hide_body: false
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: attribution
+  label: Attribution
+  type: text
+  hidden: false
+  default: ''
+- name: date
+  label: Date
+  type: text
+  hidden: false
+  default: 
+- name: book
+  label: Book
+  type: text
+  hidden: false
+  default: book/slug.md
+- name: description
+  label: Description
+  type: text
+  hidden: false
+  default: ''
