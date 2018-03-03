@@ -2,6 +2,7 @@
 @import "tailwind";
 
 /* Modules */
+@import "modules/_algolia-mods";
 @import "modules/_social-icons-inverse";
 @import "modules/_grid";
 @import "modules/_hovers";
