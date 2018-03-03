@@ -16,7 +16,6 @@ urls:
 data_model: ''
 related_tools: []
 resources: []
-draft: true
 
 ---
 Simple static sites with Laravel's [Blade](https://laravel.com/docs/5.4/blade), brought to you by the fine folks at [Tighten Co](http://tighten.co/).
