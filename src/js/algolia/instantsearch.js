@@ -3,34 +3,37 @@
 //   widgets
 // } from "instantsearch.js/dist/instantsearch";
 // instantsearch() function without reference to the widgets or connectors
-import instantsearch from "instantsearch.js/es";
+import instantsearch from "instantsearch.js/es"
 
 // // import connectors individually
 // import {connectSearchBox} from 'instantsearch.js/es/connectors';
 
 // import widgets individually
-import { searchBox } from "instantsearch.js/es/widgets";
-import { stats } from "instantsearch.js/es/widgets";
-import { clearAll } from "instantsearch.js/es/widgets";
-import { refinementList } from "instantsearch.js/es/widgets";
-import { hits } from "instantsearch.js/es/widgets";
-import { pagination } from "instantsearch.js/es/widgets";
+import { searchBox } from "instantsearch.js/es/widgets"
+import { stats } from "instantsearch.js/es/widgets"
+import { clearAll } from "instantsearch.js/es/widgets"
+import { refinementList } from "instantsearch.js/es/widgets"
+import { hits } from "instantsearch.js/es/widgets"
+import { pagination } from "instantsearch.js/es/widgets"
 
-import hitTemplate from "./templates/hits-listed-content.html";
-import noResultsTemplate from "./templates/no-results.html";
-import queryResultsTemplate from "./templates/query-results.html";
-import "./search-ui.js";
+import hitTemplate from "./templates/hits-listed-content.html"
+import noResultsTemplate from "./templates/no-results.html"
+import queryResultsTemplate from "./templates/query-results.html"
+
+import hitsToolsTemplate from "./templates/hits-tools.html"
+
+import "./search-ui.js"
 
 const search = instantsearch({
   appId: "EGKL8BPJHJ",
   apiKey: "fcbd6ff119bc3ddf14fa6115baa892ef",
   indexName: "all_content",
-  urlSync: true
+  urlSync: false,
   // ,
   // searchParameters: {
   //   filters: 'section:"tools"'
   // }
-});
+})
 
 // initialize SearchBox
 
@@ -41,33 +44,33 @@ search.addWidget(
     poweredBy: false,
     placeholder: "Search for Tools, Articles, and Showcase",
     magnifier: false,
-    reset: false
+    reset: false,
   })
-);
+)
 
 search.addWidget(
   stats({
     container: "#stats",
     templates: {
-      body: queryResultsTemplate
-    }
+      body: queryResultsTemplate,
+    },
   })
-);
+)
 
 search.addWidget(
   clearAll({
     container: "#clear-all",
     templates: {
-      link: "Reset"
+      link: "Reset",
     },
     autoHideContainer: true,
     clearsQuery: true,
     cssClasses: {
       link:
-        "inline-block px-3 py-1 no-underline rounded-t text-white text-sm bg-grey-darkest"
-    }
+        "inline-block px-3 py-1 no-underline rounded-t text-white text-sm bg-grey-darkest",
+    },
   })
-);
+)
 
 search.addWidget(
   refinementList({
@@ -80,10 +83,10 @@ search.addWidget(
       item: "inline-block mr-3 my-2",
       list: "nav nav-list",
       count: "badge pull-right",
-      active: "active"
-    }
+      active: "active",
+    },
   })
-);
+)
 
 search.addWidget(
   hits({
@@ -92,10 +95,10 @@ search.addWidget(
     collapsible: true,
     templates: {
       empty: noResultsTemplate,
-      item: hitTemplate
-    }
+      item: hitTemplate,
+    },
   })
-);
+)
 
 // initialize pagination
 search.addWidget(
@@ -103,9 +106,9 @@ search.addWidget(
     container: "#pagination",
     maxPages: 20,
     // default is to scroll to 'body', here we disable this behavior
-    scrollTo: true
+    scrollTo: true,
   })
-);
+)
 
 // templates: {
 //   item: function(data) {
@@ -113,5 +116,48 @@ search.addWidget(
 //     }
 // }
 
-search.start();
-console.log("instantsearch Has been loaded");
+search.start()
+console.log("instantsearch Has been loaded")
+
+// const searchTools = instantsearch({
+//   appId: "EGKL8BPJHJ",
+//   apiKey: "fcbd6ff119bc3ddf14fa6115baa892ef",
+//   indexName: "all_content",
+//   urlSync: true,
+//   searchParameters: {
+//     filters: 'section:"tools"',
+//   },
+// })
+//
+// searchTools.addWidget(
+//   searchBox({
+//     //container: "#search-box",
+//     container: "#search-tools",
+//     poweredBy: false,
+//     placeholder: "Search for Tools, Articles, and Showcase",
+//     magnifier: false,
+//     reset: false,
+//   })
+// )
+// searchTools.addWidget(
+//   hits({
+//     hitsPerPage: 500,
+//     container: "#tools",
+//     collapsible: true,
+//     templates: {
+//       empty: noResultsTemplate,
+//       item: hitsToolsTemplate,
+//     },
+//   })
+// )
+// // // initialize pagination
+// // searchTools.addWidget(
+// //   pagination({
+// //     container: "#pagination-tools",
+// //     maxPages: 1,
+// //     // default is to scroll to 'body', here we disable this behavior
+// //     scrollTo: true,
+// //   })
+// // )
+//
+// searchTools.start()
