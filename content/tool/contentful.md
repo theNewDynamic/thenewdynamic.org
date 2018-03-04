@@ -8,11 +8,15 @@ tags: []
 headless_cms: API-based
 urls:
   website: https://www.contentful.com/
-  github: ''
-  twitter: ''
+  github: https://github.com/contentful
+  twitter: https://twitter.com/contentful
   other: ''
-description: ''
+description: Content infrastructure to please developers and content creators
 resources: []
+data_model: API-based
+license: ''
+language: ''
+related_tools: []
 
 ---
 A single tool to reach any screen: API-first content management system for multi-device online publishing
