@@ -13,7 +13,7 @@ urls:
   other: https://medium.com/webpack
 license: Open Source
 language: Node
-description: ''
+description: Webpack is a static module bundler for modern JavaScript applications
 data_model: ''
 related_tools: []
 tags: []
