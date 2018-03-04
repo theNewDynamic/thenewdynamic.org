@@ -1,6 +1,5 @@
+<a href="{{ object.link }}{{ site.utm_parameters_links }}" class="text-decoration-none">
 <li class="{{ include.link_classes }}">
-
-  <a href="{{ object.link }}{{ site.utm_parameters_links }}" class="text-decoration-none">
     <div class="name black hover-blue">
       {{ object.title }}
     </div>
@@ -20,16 +19,12 @@
     {% if object.video %}
       <img src="/assets/images/ic_videocam_black_24px.svg" class="align-bottom">
     {% endif %}
-  </a>
 
   <div class="hidden-child h6 transition">
-    <em>
+    <em class="gray">
       {{ object.date |date: '%b %d, %y' }}
     </em>
-    {% if object.content %}
-      <br />
-      {{object.content | markdownify }}
-    {% endif %}
+
     {% if object.video %}
       <small class="video">
         VIDEO
@@ -39,3 +34,4 @@
   </div>
 
 </li>
+</a>
