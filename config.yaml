@@ -8,21 +8,22 @@ googleAnalytics: ""
 languageCode: en-us
 theme: "hugo-base-layouts"
 #layoutDir: src/layouts
+disableAliases: false
 mediaTypes:
   text/netlify:
     delimiter: ""
     suffix: ""
 menu:
   main:
-    -
-      identifier: articles
-      name: "Articles & Videos"
-      url: /article/
-      weight: 1
+    # -
+    #   identifier: articles
+    #   name: "Articles & Videos"
+    #   url: /article/
+    #   weight: 1
     # -
     #   identifier: Links
     #   name: Links
-    #   url: /Link/
+    #   url: /links/
     #   weight: 10
     -
       identifier: tools
@@ -39,11 +40,11 @@ menu:
       name: Showcase
       url: /showcase/
       weight: 10
-    -
-      identifier: events
-      name: Events
-      url: /event/
-      weight: 25
+    # -
+    #   identifier: events
+    #   name: Events
+    #   url: /event/
+    #   weight: 25
     -
       identifier: jobs
       name: Jobs
@@ -113,4 +114,8 @@ taxonomies:
   series: series
   tag: tags
   tools: tools
+  related_tool: related_tools
+  headless_cms: headless_cms
+  license: license
+  language: language
 title: "the New Dynamic"
