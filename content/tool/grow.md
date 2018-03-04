@@ -14,7 +14,7 @@ resources:
   url: 
 description: A Python-based declarative, file-based microsite generator
 language: Python
-license: ''
+license: Open Source
 data_model: ''
 related_tools: []
 tags: []
