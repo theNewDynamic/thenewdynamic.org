@@ -17,7 +17,7 @@
     "buildd": "webpack --config webpack.dev.js --env=development --progress --colors --watch",
     "hugo": "hugo server --disableFastRender",
     "hugoBuild": "hugo -w",
-    "start": "concurrently \"npm run hugo\" \"npm run build-dev\" "
+    "start": "concurrently \"npm run hugo\" \"npm run buildd\" "
   },
   "devDependencies": {
     "atomic-algolia": "^0.3.11",
