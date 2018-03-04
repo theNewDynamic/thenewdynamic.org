@@ -1,6 +1,9 @@
 body {
   @apply .bg-grey-lightest
 }
+h1, h2, h3, h4, h5 {
+  @apply .font-brand;
+}
 
 .nice-outline {
   outline:none;
