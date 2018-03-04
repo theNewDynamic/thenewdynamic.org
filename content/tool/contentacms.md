@@ -5,8 +5,8 @@ tools:
 - content-management
 urls:
   website: http://www.contentacms.org
-  github: ''
-  twitter: ''
+  github: https://github.com/contentacms
+  twitter: https://twitter.com/contentacms
   other: ''
 resources:
 - name: ''
@@ -14,6 +14,11 @@ resources:
 description: Contenta is an API-First Drupal distribution.
 tags: []
 headless_cms: API-based
+license: ''
+data_model: ''
+language: ''
+related_tools: []
+
 ---
 Contenta is the community driven API distribution for Drupal 8.
 
