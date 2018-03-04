@@ -9,13 +9,16 @@ tags: []
 headless_cms: Git-based
 urls:
   website: http://cloudcannon.com/
-  github: ''
-  twitter: ''
+  github: https://github.com/cloudcannon
+  twitter: https://twitter.com/CloudCannon
   other: ''
-description: ''
+description: The Cloud CMS for Jekyll
 resources: []
 related_tools:
 - tool/jekyll.md
+license: Commercial
+data_model: ''
+language: ''
 
 ---
 A source control backed CMS for developers working with non-developers
