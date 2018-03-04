@@ -17,8 +17,8 @@ schema: https://schema.org/WebPage
 {{ content }}
 
 <div class="col-12 clearfix">
-  <h2 id="links" class="inline-block">
-    Popular Tools
+  <h2 id="popular-tools" class="inline-block">
+    <a href="/tools/" class="black text-decoration-none transition hover-primary-color">Popular Tools</a>
   </h2>
   <span class="h6">Article Count on upper-right corner</span>
 </div>
@@ -36,7 +36,7 @@ schema: https://schema.org/WebPage
     </a>
   {% endfor %}
 
-<h2 id="articles">Latest articles</h2>
+<h2 id="articles"><a href="/articles/" class="black text-decoration-none transition hover-primary-color">Latest articles</a></h2>
 <div class="flex flex-wrap">
   {% for object in articles limit:2 %}
     <div class="col-12 md-col-6 pr2 mb2">
@@ -45,7 +45,7 @@ schema: https://schema.org/WebPage
   {% endfor %}
 </div>
 
-<h2 id="showcase">Latest Showcase Sites</h2>
+<h2 id="showcase"><a href="/showcase/" class="black text-decoration-none transition hover-primary-color">Latest Showcase Sites</a></h2>
   {% assign showcase = showcase | sort: 'date', 'last' | reverse %}
 <div class="flex flex-wrap justify-around">
   {% for object in showcase limit: 4 %}
@@ -64,8 +64,8 @@ schema: https://schema.org/WebPage
 </div>
 
 <div class="col-12 clearfix">
-  <h2 id="links" class="inline-block">
-    New Tools
+  <h2 id="tools" class="inline-block">
+    <a href="/tools" class="transition hover-primary-color black text-decoration-none">New Tools</a>
   </h2>
 </div>
 
@@ -84,7 +84,7 @@ schema: https://schema.org/WebPage
 {% endfor %}
 
 <h2 id="links" class="mt3">
-  Latest Links
+  <a href="/links/" class="black text-decoration-none transition hover-primary-color">Latest Links</a>
 </h2>
 <div class="flex flex-wrap">
   {% for object in latest_links limit:18 %}
