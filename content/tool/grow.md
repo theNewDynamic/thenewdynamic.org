@@ -7,6 +7,7 @@ urls:
   website: 'http://grow.io/'
   github:
   twitter:
+headless_cms: Git-based
 resources:
   - name:
     url:
