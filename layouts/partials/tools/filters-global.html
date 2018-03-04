@@ -1,10 +1,10 @@
 {{$section_heading := $.Site.GetPage "taxonomy" .Section }}
 <input class="search appearance-none bg-white rounded border border-grey-light text-sm w-5/6 block mb-4 md:mb-0 md:w-1/3 px-3 py-2" placeholder="Filter {{len .Data.Pages}} items in {{.Title }}" />
-{{if eq .URL "/tool/"}}
+{{/* {{if eq .URL "/tool/"}}
 <button id="the-box" class="js-only lg:ml-6 sort border text-grey-darkest hover:bg-grey-darkest hover:text-white text-sm inline block mb-3 mr-3 px-3 py-2 rounded-sm" data-sort="main-category">
   Sort by Type
 </button>
-{{end}}
+{{end}} */}}
 {{/* {{with $section_heading}}{{.Title}}{{end}} */}}
 {{/* <button class="js-only sort border text-grey-darkest hover:bg-grey-darkest hover:text-white text-sm inline block mb-3 mr-3 px-3 py-2 rounded-sm" data-sort="article-count">
   Sort by # of Articles

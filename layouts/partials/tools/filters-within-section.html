@@ -1,9 +1,11 @@
+{{$current_url := .}}
+
 {{range .Data.Pages}}
-  {{with .Params.tags}}
+  {{/* {{with .Params.tags}}
     {{range sort . "value" "asc"}}
       {{$.Scratch.SetInMap "tags" . .}}
     {{end}}
-  {{end}}
+  {{end}} */}}
   {{with .Params.related_tools}}
     {{range sort . "value" "asc"}}
       {{$.Scratch.SetInMap "related_tools" . .}}
@@ -15,8 +17,8 @@
   {{with .Params.license}}
     {{$.Scratch.SetInMap "license" . .}}
   {{end}}
-  {{with .Params.data_model}}
-    {{$.Scratch.SetInMap "data_model" . .}}
+  {{with .Params.headless_cms}}
+    {{$.Scratch.SetInMap "headless_cms" . .}}
   {{end}}
 {{end}}
 
@@ -29,15 +31,30 @@
 </style> */}}
 {{/* bg-grey-lightest text-grey-darkest */}}
 <div class="flex flex-wrap items-start mb-3">
-{{$data_model := $.Scratch.GetSortedMapValues "data_model"}}
-{{with $data_model}}
+{{$headless_cms := $.Scratch.GetSortedMapValues "headless_cms"}}
+{{with $headless_cms}}
+{{$taxonomy := $.Site.Taxonomies.headless_cms }}
   <div class="lg:mr-6">
-    <h6 class="mb-2">Data Model</h6>
-    {{range .}}
-      <button id="{{urlize .}}" class='filter-buttons-data_model button_c'>{{.}}</button>
+    <h6 class="mb-2">Headless CMS</h6>
+    {{range $name, $taxonomy := $taxonomy}}
+      {{with $name}}
+      {{$link := printf "%s%s%s" ("/headless_cms/" | relLangURL) (. | urlize) "/"}}
+
+        <button id="{{urlize .}}" class="filter-buttons-headless_cmsTK ">
+          <a href="{{ $link }}" class="no-underline text-black button_c hover:text-grey-lighter {{if eq $.URL $link}} bg-grey{{end}}">
+            {{- . -}}
+          </a>
+        </button>
+      {{end}}
     {{end}}
   </div>
 {{end}}
+
+
+{{/* {{ range $name, $taxonomy := .Site.Taxonomies.headless_cms }}
+  <li><a href="{{ "/headless_cms/" | relLangURL }}{{ $name | urlize }}">{{ $name }}</a></li>
+{{ end }} */}}
+
 
 {{$language := $.Scratch.GetSortedMapValues "language"}}
 {{with $language}}

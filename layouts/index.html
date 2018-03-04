@@ -1,0 +1,25 @@
+{{ define "main" }}
+{{/*
+{{$pages := where .Site.Pages "Section" "ne" "link"}}
+{{ range $pages}}
+  <a href="{{.URL}}" class="block my-3 px-8">{{.File.Path}}</a>
+{{end}} */}}
+<ul id="all-tags">
+  {{ range $name, $taxonomy := .Site.Taxonomies.headless_cms }}
+    <li><a href="{{ "/headless_cms/" | relLangURL }}{{ $name | urlize }}">{{ $name }}</a></li>
+  {{ end }}
+</ul>
+{{/* <section id="menu">
+    <ul>
+        {{ range $key, $taxonomy := .Site.Taxonomies.headless_cms }}
+        <li> {{ $key }} </li>
+        <ul>
+            {{ range $taxonomy.Pages }}
+            <li hugo-nav="{{ .RelPermalink}}"><a href="{{ .Permalink}}"> {{ .LinkTitle }} </a> </li>
+            {{ end }}
+        </ul>
+        {{ end }}
+    </ul>
+</section> */}}
+
+{{ end }}

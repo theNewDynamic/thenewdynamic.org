@@ -1,3 +1,5 @@
 ---
 title: Tools
+alias:
+ - /tool/
 ---
