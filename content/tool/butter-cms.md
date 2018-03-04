@@ -14,5 +14,5 @@ resources:
 description: An API-first CMS for rapidly building CMS-powered websites in any programming
   language. Great for blogs, dynamic pages, and more.
 tags: []
-data_model: API-based
+headless_cms: API-based
 ---

@@ -17,10 +17,10 @@ urls:
 resources:
 - url: https://publii.ticksy.com
   name: Community
-data_model: ''
+headless_cms: ''
 language: ''
 related_tools: []
-draft: true
+draft: false
 
 ---
 Publii is an app that brings a new concept to the web-development table; the first desktop static-website CMS. Designed with the simplicity for beginners to use, but boasting extensive options and functionalities that allow experienced web developers to make more complex modifications, Publii creates a safe, fast static website without all the hassle. In this guide you'll be able to learn how it works, from installation to creation.

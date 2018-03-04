@@ -15,7 +15,7 @@ urls:
   twitter: ''
   other: ''
 description: Create static websites with no build configuration.
-data_model: ''
+headless_cms: ''
 language: ''
 resources: []
 

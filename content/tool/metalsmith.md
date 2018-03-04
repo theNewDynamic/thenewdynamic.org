@@ -15,7 +15,7 @@ resources:
 license: Open Source
 language: Node
 description: ''
-data_model: ''
+headless_cms: ''
 related_tools: []
 tags: []
 

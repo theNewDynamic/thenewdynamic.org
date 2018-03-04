@@ -29,7 +29,7 @@ resources:
 description: Ruby-based static site generator with blogging and collections
 language: Ruby
 license: Open Source
-data_model: ''
+headless_cms: ''
 related_tools: []
 tags: []
 

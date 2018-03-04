@@ -13,7 +13,7 @@ resources:
   url: ''
 description: Bring content to any platform
 tags: []
-data_model: API-based
+headless_cms: API-based
 
 ---
 You build essential GraphQL infrastructure for your digital products. We build a headless CMS for your content creators.

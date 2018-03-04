@@ -6,7 +6,7 @@ tools:
 - content-management
 tags: []
 license: Commercial
-data_model: API-based
+headless_cms: API-based
 urls:
   website: https://perchrunway.com/
   github: ''

@@ -4,7 +4,7 @@ date: 2018-02-16 16:05:59 +0000
 tools:
 - content-management
 tags: []
-data_model: API-based
+headless_cms: API-based
 urls:
   website: https://dapt.in/
   github: https://github.com/daptin/daptin

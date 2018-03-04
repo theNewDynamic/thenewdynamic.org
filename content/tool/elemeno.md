@@ -2,7 +2,7 @@
 title: Elemeno
 date: 2017-11-14 15:17:00 +0000
 tools:
-- headless-cms
+- headless_cms
 - content-management
 urls:
   website: https://elemeno.io/

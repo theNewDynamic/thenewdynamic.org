@@ -14,7 +14,7 @@ urls:
 related_tools:
 - tool/hexo.md
 tags: []
-data_model: Git-based
+headless_cms: Git-based
 description: An admin UI for the Hexo blog engine. Based off of the Ghost interface,
   with inspiration from svbtle and prose.io.
 resources: []

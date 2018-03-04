@@ -13,7 +13,7 @@ resources:
   url: ''
 description: A Free and Open-Source Headless CMS
 tags: []
-data_model: API-based
+headless_cms: API-based
 
 ---
 Directus is an API-driven content management framework for custom databases. It decouples content for use in apps, websites, or any other data-driven projects.

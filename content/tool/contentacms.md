@@ -13,7 +13,7 @@ resources:
   url: ''
 description: Contenta is an API-First Drupal distribution.
 tags: []
-data_model: API-based
+headless_cms: API-based
 ---
 Contenta is the community driven API distribution for Drupal 8.
 

@@ -8,7 +8,7 @@ slug: static-website-manager
 tools:
   - content-management
 tags: []
-data_model: Git-based
+headless_cms: Git-based
 urls:
   website: https://www.staticwebsitemanager.com/
 ---

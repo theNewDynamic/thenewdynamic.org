@@ -14,7 +14,7 @@ urls:
 license: Open Source
 language: Python
 description: ''
-data_model: ''
+headless_cms: ''
 related_tools: []
 tags: []
 resources: []

@@ -16,7 +16,7 @@ resources:
 description: A bridge between the simplicity of static websites and user-friendliness
   of CMS (content management system) authoring interfaces.
 tags: []
-data_model: Git-based
+headless_cms: Git-based
 related_tools:
 - tool/hugo.md
 

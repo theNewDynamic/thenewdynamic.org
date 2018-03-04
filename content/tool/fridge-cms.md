@@ -13,5 +13,5 @@ resources:
   url: ''
 description: A robust API and intuitive dashboard for any kind of content.
 tags: []
-data_model: API-based
+headless_cms: API-based
 ---

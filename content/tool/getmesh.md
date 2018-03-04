@@ -14,7 +14,7 @@ resources:
 description: Get the comfort of a headless CMS with all the features of a full blown
   CMS
 tags: []
-data_model: API-based
+headless_cms: API-based
 
 ---
 Gentics Mesh is an open source API-first CMS, complete with multi‑language support, versioning and roles & permissions

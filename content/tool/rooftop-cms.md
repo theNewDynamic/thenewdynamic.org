@@ -10,7 +10,7 @@ urls:
   other: ''
 description: 'Rooftop CMS: WordPress without borders'
 tags: []
-data_model: API-based
+headless_cms: API-based
 resources: []
 
 ---

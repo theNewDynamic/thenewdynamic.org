@@ -13,7 +13,7 @@ urls:
   other: ''
 license: Open Source
 description: ''
-data_model: ''
+headless_cms: ''
 language: Python
 related_tools: []
 tags: []

@@ -15,7 +15,7 @@ description: A framework for creating Universal Vue.js Applications, and a Stati
   Generated Vue.js Application
 license: Open Source
 language: Node
-data_model: ''
+headless_cms: ''
 related_tools: []
 tags: []
 

@@ -13,7 +13,7 @@ resources:
   url: ''
 description: 'A client-side CMS for editing GitHub Markdown (and other) files. '
 tags: []
-data_model: Git-based
+headless_cms: Git-based
 related_tools:
 - tool/hexo.md
 - tool/hugo.md

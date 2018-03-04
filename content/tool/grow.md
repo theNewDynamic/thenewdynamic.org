@@ -2,7 +2,7 @@
 title: Grow
 date: 2017-01-01 00:00:00 +0000
 tools:
-  - build-tool
+  - static-site-generator
 urls:
   website: 'http://grow.io/'
   github:
@@ -11,6 +11,7 @@ resources:
   - name:
     url:
 description: 'A Python-based declarative, file-based microsite generator'
+draft: true
 ---
 
 

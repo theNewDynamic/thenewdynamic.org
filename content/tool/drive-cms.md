@@ -10,7 +10,7 @@ urls:
   other: ''
 description: A content management system (CMS) built on an interface everyone understands.
 tags: []
-data_model: API-based
+headless_cms: API-based
 resources: []
 
 ---

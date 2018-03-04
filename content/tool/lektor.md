@@ -14,7 +14,7 @@ resources:
 description: Python-based static site generator with an admin interface.
 license: Open Source
 language: Python
-data_model: ''
+headless_cms: ''
 related_tools: []
 tags: []
 

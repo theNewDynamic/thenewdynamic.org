@@ -13,7 +13,7 @@ urls:
   github: https://github.com/tightenco/jigsaw
   twitter: ''
   other: ''
-data_model: ''
+headless_cms: ''
 related_tools: []
 resources: []
 

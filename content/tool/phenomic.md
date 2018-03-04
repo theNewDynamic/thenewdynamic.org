@@ -12,7 +12,7 @@ description: Modern static website generator for creating dynamic websites using
   components.
 license: Open Source
 language: React
-data_model: ''
+headless_cms: ''
 related_tools: []
 tags: []
 resources: []
