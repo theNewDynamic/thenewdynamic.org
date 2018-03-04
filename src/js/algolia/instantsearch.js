@@ -28,7 +28,7 @@ const search = instantsearch({
   appId: "EGKL8BPJHJ",
   apiKey: "fcbd6ff119bc3ddf14fa6115baa892ef",
   indexName: "all_content",
-  urlSync: false,
+  urlSync: true,
   // ,
   // searchParameters: {
   //   filters: 'section:"tools"'
