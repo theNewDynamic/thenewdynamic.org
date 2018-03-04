@@ -18,7 +18,6 @@ data_model: ''
 related_tools: []
 tags: []
 resources: []
-draft: true
 
 ---
 A bundler for javascript and friends. Packs many modules into a few bundled assets.
