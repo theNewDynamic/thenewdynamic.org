@@ -14,6 +14,10 @@
 .ais-hits--item {
   flex-basis: 33%;
 }
+.ais-hits--item:hover {
+  @apply .text-primary-color;
+}
+
 
 .results-hidden {
   z-index: -9999;

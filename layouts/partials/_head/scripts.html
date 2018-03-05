@@ -1,7 +1,7 @@
 {{$js_path := $.Param "dev.js_path"}}
 {{with $js_path}}
   {{range readDir .}}
-    <script src="{{replace $js_path "static/" "/"}}/{{.Name}}" async defer></script>
+    <script src="{{replace $js_path "static/" "/"}}/{{.Name}}" defer data-turbolinks-track="reload"></script>
   {{end}}
 {{end}}
 

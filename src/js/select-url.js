@@ -1,10 +1,12 @@
 // For tools' mobile nav
 document.addEventListener(
-  "DOMContentLoaded",
+  "turbolinks:load",
   function() {
-    document.querySelector(
-      'select[name="selectUrl"]'
-    ).onchange = changeEventHandler
+    var selectButton = document.querySelector('select[name="selectUrl"]')
+
+    if (selectButton) {
+      this.onchange = changeEventHandler
+    }
   },
   false
 )
