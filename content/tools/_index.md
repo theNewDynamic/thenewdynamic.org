@@ -1,5 +1,0 @@
----
-title: Tools
-alias:
- - /tool/
----
