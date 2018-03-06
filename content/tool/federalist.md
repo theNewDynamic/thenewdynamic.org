@@ -1,15 +1,26 @@
 ---
-title: "Federalist"
-date: 2015-10-03T16:53:00.000Z
-posted_date: 2015-10-03T16:53:00.000Z
+title: Federalist
+date: 2015-10-03 16:53:00 +0000
+posted_date: 2015-10-03 16:53:00 +0000
 featured: false
-tools: 
-  - content-management
+tools:
+- content-management
 urls:
+  website: https://federalist.18f.gov/
   github: https://github.com/18F/federalist
+  twitter: ''
+  other: ''
+description: Interface for publishing static US government websites
+license: Open Source
+data_model: Git-based
+language: Node
+related_tools:
+- tool/hugo.md
+- tool/jekyll.md
+tags: []
+resources: []
+
 ---
-Federalist is a unified interface for publishing static government websites. It automates common tasks for integrating GitHub, Prose, and Amazon Web Services to provide a simple way for developers to launch new websites or more easily manage existing ones. [under active development]
+Federalist is a unified interface for publishing static government websites. It automates common tasks for integrating GitHub, Prose, and Amazon Web Services to provide a simple way for developers to launch new websites or more easily manage existing ones.
 
-
-
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qeFNf2EPzpE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
