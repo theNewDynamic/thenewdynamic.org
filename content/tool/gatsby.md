@@ -13,11 +13,12 @@ urls:
   other: ''
 license: Open Source
 language: React
-description: ''
+description: Blazing-fast static site generator for React
 headless_cms: ''
 related_tools: []
 tags: []
 resources: []
+data_model: ''
 
 ---
 Transform plain text into dynamic blogs and websites using the latest web technologies. A React.js static site generator.
