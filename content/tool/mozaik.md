@@ -10,9 +10,9 @@ related_tools:
 - tool/gatsby.md
 urls:
   website: https://www.mozaik.io/
-  github: ''
+  github: https://github.com/mozaikio
   twitter: ''
-  other: ''
+  other: https://www.mozaik.io/join-slack
 language: ''
 tags: []
 resources: []
