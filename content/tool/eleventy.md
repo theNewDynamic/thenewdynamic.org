@@ -13,7 +13,7 @@ urls:
 language: Node
 description: A simpler static site generator. An alternative to Jekyll.
 license: Open Source
-headless_cms: ''
+headless-cms: ''
 related_tools: []
 resources:
 - name: Starter repository for a blog web site

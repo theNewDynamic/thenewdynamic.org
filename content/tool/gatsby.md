@@ -14,7 +14,7 @@ urls:
 license: Open Source
 language: React
 description: Blazing-fast static site generator for React
-headless_cms: ''
+headless-cms: ''
 related_tools: []
 tags: []
 resources: []

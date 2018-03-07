@@ -13,6 +13,6 @@ resources:
   url: https://www.datocms.com/blog/
 description: DatoCMS is a fully customizable administrative area for your static websites.
 tags: []
-headless_cms: API-based
+headless-cms: API-based
 ---
 DatoCMS is a fully customizable administrative area for your static websites. Use your favorite website generator, let your clients publish new content independently, host the site anywhere you like.

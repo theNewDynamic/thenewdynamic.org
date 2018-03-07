@@ -7,7 +7,7 @@ urls:
   website:
   github: https://github.com/abecms/abecms
   twitter:
-headless_cms: API-based
+headless-cms: API-based
 resources:
   - name: ''
     url: ''

@@ -25,7 +25,7 @@ resources:
   url: http://fuckinggodateformat.com/
 description: The world’s fastest framework for building websites
 license: Open Source
-headless_cms: ''
+headless-cms: ''
 related_tools: []
 tags: []
 language: Go

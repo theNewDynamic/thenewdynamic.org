@@ -13,7 +13,7 @@ resources:
 - name: ''
   url: ''
 description: A self-hosted headless and api-driven CMS
-headless_cms: API-based
+headless-cms: API-based
 license: Open Source
 related_tools: []
 

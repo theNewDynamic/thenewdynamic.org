@@ -6,7 +6,7 @@ description: Publish simultaneously to all your digital channels, with content a
 tools:
 - content-management
 license: Commercial
-headless_cms: API-based
+headless-cms: API-based
 related_tools:
 - tool/metalsmith.md
 tags:

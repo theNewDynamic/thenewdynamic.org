@@ -13,6 +13,6 @@ resources:
   url: ''
 description: Content management for static websites
 tags: []
-headless_cms: API-based
+headless-cms: API-based
 
 ---

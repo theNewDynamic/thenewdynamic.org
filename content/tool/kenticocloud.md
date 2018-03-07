@@ -13,7 +13,7 @@ resources:
   url: ''
 description: Cloud-first Headless CMS
 tags: []
-headless_cms: API-based
+headless-cms: API-based
 
 ---
 A headless CMS allows you to provide content to any channel and device through an API.

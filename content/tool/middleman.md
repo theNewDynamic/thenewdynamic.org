@@ -12,7 +12,7 @@ urls:
 license: Open Source
 language: Ruby
 description: ''
-headless_cms: ''
+headless-cms: ''
 related_tools: []
 tags: []
 resources: []

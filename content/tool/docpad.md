@@ -7,7 +7,7 @@ tools:
 license: Open Source
 language: Node
 description: Dynamic static site generator
-headless_cms: ''
+headless-cms: ''
 related_tools: []
 tags: []
 urls:

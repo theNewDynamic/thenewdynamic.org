@@ -5,7 +5,7 @@ featured: true
 tools:
 - content-management
 tags: []
-headless_cms: API-based
+headless-cms: API-based
 urls:
   website: https://www.contentful.com/
   github: https://github.com/contentful

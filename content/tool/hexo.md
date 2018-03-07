@@ -14,7 +14,7 @@ urls:
 license: Open Source
 language: Node
 description: ''
-headless_cms: ''
+headless-cms: ''
 related_tools: []
 tags: []
 resources: []

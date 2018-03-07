@@ -7,7 +7,7 @@ slug: osmek
 tools:
 - content-management
 tags: []
-headless_cms: API-based
+headless-cms: API-based
 urls:
   website: http://osmek.com/
   github: ''

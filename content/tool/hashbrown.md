@@ -13,6 +13,6 @@ resources:
 - name: ''
   url: ''
 description: A free and open-source headless CMS
-headless_cms: API-based
+headless-cms: API-based
 license: Open Source
 ---

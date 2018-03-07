@@ -11,7 +11,7 @@ urls:
   github: https://github.com/static-dev/spike
   twitter: ''
   other: ''
-headless_cms: ''
+headless-cms: ''
 related_tools: []
 tags: []
 resources:

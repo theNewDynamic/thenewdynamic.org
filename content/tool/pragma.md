@@ -13,7 +13,7 @@ resources:
   url: ''
 description: "[beta] A CMS for effective web teams"
 tags: []
-headless_cms: API-based
+headless-cms: API-based
 
 ---
 Pragma helps developers, designers, and content-managers to be productive with better collaborations. Built on modern best practices. Fully customizable for your needs.

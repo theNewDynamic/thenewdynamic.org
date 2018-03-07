@@ -17,7 +17,7 @@ urls:
 resources:
 - url: https://publii.ticksy.com
   name: Community
-headless_cms: ''
+headless-cms: ''
 language: ''
 related_tools: []
 draft: false

@@ -8,7 +8,7 @@ urls:
   github: https://github.com/grow/grow
   twitter: ''
   other: ''
-headless_cms: Git-based
+headless-cms: Git-based
 resources:
 - name: 
   url: 

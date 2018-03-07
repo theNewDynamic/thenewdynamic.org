@@ -13,7 +13,7 @@ resources:
   url: ''
 description: CMS done right Headless & API based
 tags: []
-headless_cms: API-based
+headless-cms: API-based
 
 ---
 Clean and structured JSON for you as developer and a CMS your editors will fall in love with. Unlimited extensibility through custom plugins.

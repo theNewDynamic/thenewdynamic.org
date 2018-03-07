@@ -7,7 +7,7 @@ slug: siteleaf
 tools:
 - content-management
 tags: []
-headless_cms: Git-based
+headless-cms: Git-based
 license: Commercial
 related_tools:
 - tool/jekyll.md

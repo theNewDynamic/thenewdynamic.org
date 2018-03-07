@@ -13,7 +13,7 @@ urls:
 language: React
 description: ''
 license: Open Source
-headless_cms: ''
+headless-cms: ''
 related_tools: []
 resources: []
 

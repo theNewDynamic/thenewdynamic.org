@@ -14,7 +14,7 @@ resources:
   url: ''
 description: Open source. API creation made simple, secure and fast.
 license: Open Source
-headless_cms: API-based
+headless-cms: API-based
 related_tools:
 - tool/gatsby.md
 

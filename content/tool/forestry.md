@@ -7,7 +7,7 @@ slug: forestry
 tools:
 - content-management
 tags: []
-headless_cms: Git-based
+headless-cms: Git-based
 related_tools:
 - tool/jekyll.md
 - tool/hugo.md

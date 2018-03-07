@@ -7,7 +7,7 @@ slug: netlify-cms
 tools:
 - content-management
 tags: []
-headless_cms: Git-based
+headless-cms: Git-based
 urls:
   website: https://www.netlifycms.org/
   github: https://github.com/netlify/netlify-cms

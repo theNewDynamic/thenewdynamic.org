@@ -13,7 +13,7 @@ description: Easy to maintain open source documentation websites with multilingu
   capabilities and search built-in, by Facebook.
 license: Open Source
 language: React
-headless_cms: ''
+headless-cms: ''
 related_tools: []
 tags: []
 resources: []

@@ -66,6 +66,42 @@ menu:
       name: Privacy
       url: /privacy/
       weight: 25
+  tools:
+    -
+      identifier: content-management
+      name: "Content Management"
+      url: /tools/content-management/
+    -
+      identifier: git-based
+      name: Headless/Git-based
+      parent: content-management
+      url: /headless-cms/git-based/
+    -
+      identifier: api-based
+      name: Headless/API-based
+      parent: content-management
+      url: /headless-cms/api-based/
+    -
+      identifier: helper
+      name: Helper
+      url: /tools/helper/
+    -
+      identifier: hosting-deployment
+      name: Hosting & Deployment
+      url: /tools/hosting-deployment/
+    -
+      identifier: interaction
+      name: Interaction
+      url: /tools/interaction/
+    -
+      identifier: static-site-generator
+      name: Static Site Generator
+      url: /tools/static-site-generator/
+    -
+      identifier: theme
+      name: Themes
+      url: /tools/theme/
+
 outputFormats:
   HEADERS:
     baseName: _headers
@@ -115,7 +151,7 @@ taxonomies:
   tag: tags
   tools: tools
   related_tool: related_tools
-  headless_cms: headless_cms
+  headless-cms: "headless-CMS"
   license: license
   language: language
 title: "the New Dynamic"

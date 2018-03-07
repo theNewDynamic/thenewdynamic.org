@@ -6,7 +6,7 @@ tools:
 - content-management
 - hosting-deployment
 tags: []
-headless_cms: Git-based
+headless-cms: Git-based
 urls:
   website: http://cloudcannon.com/
   github: https://github.com/cloudcannon

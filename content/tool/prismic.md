@@ -7,7 +7,7 @@ slug: prismic
 tools:
 - content-management
 tags: []
-headless_cms: API-based
+headless-cms: API-based
 license: Commercial
 urls:
   website: https://prismic.io/
