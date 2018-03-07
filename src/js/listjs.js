@@ -15,8 +15,10 @@ document.addEventListener("turbolinks:load", function() {
     ],
     listClass: "filteredlist",
   }
+
   var tools = new List("filter", options)
   //console.log(tools)
+  tools.sort("article-count", { order: "asc" })
 
   var filterButtonsDataModel = document.getElementsByClassName(
     "filter-buttons-data_model"
