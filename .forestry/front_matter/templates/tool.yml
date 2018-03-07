@@ -100,3 +100,10 @@ fields:
     label: URL
   config:
     labelField: name
+- type: select
+  name: cat_test
+  config:
+    source:
+      type: pages
+      section: tools
+  label: Cat Test
