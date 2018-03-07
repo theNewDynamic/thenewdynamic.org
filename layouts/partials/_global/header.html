@@ -14,6 +14,8 @@
               {{with $section_heading}}{{- .Title -}}:
               {{end}}
             {{end}}
+            {{/* {{$section_heading := .Site.GetPage "section" .Section }}
+              {{with $section_heading}}{{- .Title -}}:{{end}} */}}
             {{- $.Title -}}
           </h1>
           {{- with .Params.description -}}
