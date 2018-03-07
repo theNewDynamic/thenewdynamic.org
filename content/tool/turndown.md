@@ -12,7 +12,7 @@ tools:
 license: Open Source
 tags:
 - Markdown
-headless_cms: ''
+headless-cms: ''
 language: ''
 related_tools: []
 resources: []
