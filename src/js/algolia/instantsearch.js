@@ -28,13 +28,13 @@ document.addEventListener("turbolinks:load", function() {
     apiKey: "fcbd6ff119bc3ddf14fa6115baa892ef",
     indexName: "all_content",
     // urlSync: true,
-    urlSync: {
-      getHistoryState: function() {
-        return {
-          turbolinks: true,
-        }
-      },
-    },
+    // urlSync: {
+    //   getHistoryState: function() {
+    //     return {
+    //       turbolinks: true,
+    //     }
+    //   },
+    // },
   })
 
   search.addWidget(
