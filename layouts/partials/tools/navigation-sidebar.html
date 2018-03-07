@@ -1,4 +1,6 @@
-{{ $currentPage := . }}
+{{/* {{.Scratch.Set "page" .URL}} */}}
+{{ $currentPage := .URL}}
+
 <aside class="sidebar hidden md:block bg-grey-lighter mx-4">
   <ul class="list-reset pb-4 pt-6">
     {{if eq .Kind "taxonomy"}}
@@ -9,16 +11,34 @@
       </li>
     {{end}}
 
-    {{ range $name, $taxonomy := .Site.Taxonomies.tools }}
-      {{$detail := $.Site.GetPage "taxonomy" "tools" $name }}
-      {{with $detail}}
-        {{$link := printf "%s%s%s" "/tools/" $name "/"}}
-        <li class="">
-          <a href="{{ $link }}" class="hover:bg-grey hover:text-grey-darkest lg:text-2xl text-grey-dark no-underline block px-6 py-2 {{if eq $currentPage.URL $link}} bg-black{{end}}">
-            {{- .Title -}}
-          </a>
-        </li>
-      {{end}}
-    {{ end }}
+    {{- with .Site.Menus.tools -}}
+      {{- range . -}}
+        {{ if .HasChildren }}
+          <li>
+            {{template "link" (dict "item" . "currentPage" $currentPage)}}
+              <ul class="list-reset ml-4">
+                {{ range .Children }}
+                  <li>
+                    {{template "link" (dict "item" . "currentPage" $currentPage)}}
+                  </li>
+                {{ end }}
+              </ul>
+        {{else}}
+          <li>
+            {{template "link" (dict "item" . "currentPage" $currentPage)}}
+          </li>
+        {{end}}
+      {{- end -}}
+    {{- end -}}
   </ul>
 </aside>
+
+
+
+{{define "link"}}
+  {{ $currentPage := .currentPage }}
+  <a href="{{.item.URL}}" class="hover:bg-grey hover:text-grey-darkest lg:text-2xl text-grey-dark no-underline block px-6 py-2{{if eq $currentPage .item.URL}} bg-black{{end}}">
+    {{- .item.Name -}}
+
+  </a>
+{{end}}

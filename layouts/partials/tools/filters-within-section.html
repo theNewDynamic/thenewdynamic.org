@@ -17,28 +17,20 @@
   {{with .Params.license}}
     {{$.Scratch.SetInMap "license" . .}}
   {{end}}
-  {{with .Params.headless_cms}}
-    {{$.Scratch.SetInMap "headless_cms" . .}}
-  {{end}}
+  {{/* {{with .Param "headless-cms"}}
+    {{$.Scratch.SetInMap "headless-cms" . .}}
+  {{end}} */}}
 {{end}}
 
-
-{{/* <style >
-.active {
-  background-color: black;
-  color: white;
-}
-</style> */}}
-{{/* bg-grey-lightest text-grey-darkest */}}
 <div class="flex flex-wrap items-start mb-3">
-{{$headless_cms := $.Scratch.GetSortedMapValues "headless_cms"}}
+{{/* {{$headless_cms := $.Scratch.GetSortedMapValues "headless-cms"}}
 {{with $headless_cms}}
-{{$taxonomy := $.Site.Taxonomies.headless_cms }}
+{{$taxonomy := index $.Site.Taxonomies "headless-cms" }}
   <div class="lg:mr-6">
     <h6 class="mb-2">Headless CMS</h6>
     {{range $name, $taxonomy := $taxonomy}}
       {{with $name}}
-      {{$link := printf "%s%s%s" ("/headless_cms/" | relLangURL) (. | urlize) "/"}}
+      {{$link := printf "%s%s%s" ("/headless-cms/" | relLangURL) (. | urlize) "/"}}
 
         <button id="{{urlize .}}" class="filter-buttons-headless_cmsTK ">
           <a href="{{ $link }}" class="no-underline text-black button_c hover:text-grey-lighter {{if eq $.URL $link}} bg-grey{{end}}">
@@ -48,13 +40,7 @@
       {{end}}
     {{end}}
   </div>
-{{end}}
-
-
-{{/* {{ range $name, $taxonomy := .Site.Taxonomies.headless_cms }}
-  <li><a href="{{ "/headless_cms/" | relLangURL }}{{ $name | urlize }}">{{ $name }}</a></li>
-{{ end }} */}}
-
+{{end}} */}}
 
 {{$language := $.Scratch.GetSortedMapValues "language"}}
 {{with $language}}
