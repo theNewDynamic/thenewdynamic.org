@@ -1,14 +1,23 @@
 ---
 title: Hammer for Mac
-date: 2016-08-09T00:00:00.000Z
+date: 2016-08-09 00:00:00 +0000
 featured: false
 tools:
-  - static-site-generator
+- static-site-generator
 urls:
-  website: 'http://hammerformac.com/'
-  github:
+  website: http://hammerformac.com/
+  github: ''
   twitter: hammerformac
-description:
----
+  other: ''
+description: macOS desktop app that generates static websites
+license: Commercial
+related_tools:
+- tool/forge.md
+data_model: ''
+language: ''
+tags: []
+resources: []
+cat_test: ''
 
+---
 Hammer is a commercial Mac OS desktop app that generate static sites locally, and integrates with the [Forge](/tool/forge/) static hosting service.

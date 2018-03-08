@@ -1,17 +1,26 @@
 ---
-title: "Jekyll Gdrive Plugin"
-date: 2015-12-02T19:10:00.000Z
-posted_date: 2015-12-02T19:10:00.000Z
+title: Jekyll Gdrive Plugin
+date: 2015-12-02 19:10:00 +0000
+posted_date: 2015-12-02 19:10:00 +0000
 featured: false
 slug: jekyll-gdrive-plugin
-tools: 
-  - content-management
+tools:
+- content-management
 related_tool: jekyll
 urls:
-  website: https://github.com/netlify/jekyll-gdrive
+  website: ''
+  github: https://github.com/netlify/jekyll-gdrive
+  twitter: ''
+  other: ''
+related_tools:
+- tool/jekyll.md
+description: Access data from a Google Drive Spreadsheet in your Jekyll sites
+license: Open Source
+language: Ruby
+data_model: ''
+tags: []
+resources: []
+cat_test: ''
+
 ---
-Access data from a Google Drive Spreadsheet in your Jekyll sites
-
-
-
-
+Access data from a Google Drive Spreadsheet in your Jekyll sites.

@@ -11,9 +11,9 @@ headless-cms: Git-based
 urls:
   website: https://www.netlifycms.org/
   github: https://github.com/netlify/netlify-cms
-  twitter: ''
-  other: ''
-description: ''
+  twitter: https://twitter.com/NetlifyCMS
+  other: https://gitter.im/netlify/NetlifyCMS
+description: Open source content management for your Git workflow
 related_tools:
 - tool/gatsby.md
 - tool/phenomic.md
@@ -21,6 +21,9 @@ related_tools:
 - tool/jekyll.md
 resources: []
 license: Open Source
+data_model: Git-based
+language: React
+cat_test: ''
 
 ---
 A CMS for static site generators. Give non-technical users a simple way to edit and add content to any site built with a static site generator.

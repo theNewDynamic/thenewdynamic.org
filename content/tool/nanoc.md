@@ -13,11 +13,13 @@ urls:
   other: ''
 license: Open Source
 language: Ruby
-description: ''
+description: Flexible static-site generator written in Ruby
 headless-cms: ''
 related_tools: []
 tags: []
 resources: []
+data_model: ''
+cat_test: ''
 
 ---
 nanoc is a static site generator, fit for building anything from a small personal blog to a large corporate web site.
