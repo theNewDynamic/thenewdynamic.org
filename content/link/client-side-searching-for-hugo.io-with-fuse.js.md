@@ -12,5 +12,3 @@ category: ''
 
 ---
 This gist shows how to implement client side searching with nothing but Hugo and a few common JS tools.
-
-* 
