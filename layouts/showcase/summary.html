@@ -1,0 +1,10 @@
+
+<div class="title">
+{{.Title}}
+
+{{with .Params.related_tools}}
+  {{range .}}
+    <div class="related_tools">{{- urlize . -}}</div>
+  {{end}}
+{{end}}
+</div>
