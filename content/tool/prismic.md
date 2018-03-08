@@ -14,8 +14,14 @@ urls:
   github: ''
   twitter: ''
   other: ''
-description: ''
-resources: []
+description: "\nAPI-based headlessCMS "
+resources:
+- name: Documentation
+  url: https://prismic.io/docs
+data_model: API-based
+language: ''
+related_tools: []
+cat_test: ''
 
 ---
-Content as a Service
+prismic.io is a productive, enjoyable WordPress alternative for  developers and publishers.
