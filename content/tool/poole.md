@@ -7,14 +7,18 @@ slug: poole
 tools:
 - theme
 urls:
-  website: ''
+  website: http://getpoole.com/
   github: https://github.com/poole
   twitter: ''
   other: ''
-description: ''
+description: Themes for Jekyll by @mdo.
 tags: []
 related_tools: []
 resources: []
+license: Open Source
+data_model: ''
+language: ''
+cat_test: ''
 
 ---
 Poole is a fully furnished Jekyll setup, designed to be a consistent and flexible starting point for Jekyll projects, including themes.
