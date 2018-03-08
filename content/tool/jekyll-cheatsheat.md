@@ -1,14 +1,24 @@
 ---
-title: "Jekyll Cheatsheet"
-date: 2016-01-26T02:53:00.000Z
-tools: 
-  - helper
+title: Jekyll Cheatsheet
+date: 2016-01-26 02:53:00 +0000
+tools:
+- helper
 related_tool: jekyll
 urls:
-  website: http://ricostacruz.com/cheatsheets/jekyll.html
+  website: https://devhints.io/jekyll
+  github: ''
+  twitter: ''
+  other: ''
+description: Quick reference for Jekyll
+related_tools:
+- tool/jekyll.md
+license: ''
+data_model: ''
+language: ''
+tags: []
+resources: []
+cat_test: ''
+
 ---
-A directory of the best-looking themes for Jekyll blogs
 
-
-
-
+See also Cloudcannon's [Jekyll Cheat Sheet](https://learn.cloudcannon.com/jekyll-cheat-sheet/ "Jekyll Cheat Sheet")
