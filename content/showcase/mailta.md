@@ -2,7 +2,7 @@
 title: MailTape
 date: 2017-01-15 10:00:00 +0000
 related_tools:
-    - tool/jekyll.md
+  - tool/jekyll.md
 website: https://www.mailta.pe
 repo: https://github.com/MailTape/MailTape.github.io
 creator:

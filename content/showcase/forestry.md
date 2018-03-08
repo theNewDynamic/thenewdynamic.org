@@ -3,7 +3,7 @@ title: Forestry.io
 date: 2017-10-13 10:00:00 +0000
 related_tools:
   - tool/hugo.md
-  - forestry
+  - tool/forestry.md
   - tool/algolia.md
   - tool/cloudinary.md
 website: https://forestry.io/

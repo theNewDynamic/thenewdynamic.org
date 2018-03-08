@@ -5,7 +5,7 @@ website: 'http://www.getty.edu/publications/terracottas/'
 repo:
 related_tools:
   - tool/middleman.md
-  - lunrjs
+  - tool/lunrjs.md
 creator:
   - name: 'Eric Gardner, Getty Museum'
     role: 'Design/Development'

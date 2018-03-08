@@ -2,7 +2,7 @@
 title: Mike Johnston for Colorado
 date: 2018-03-04 16:47:48 +0000
 related_tools:
-- tool/gatsby.md
+  - tool/gatsby.md
 website: https://www.mikejohnstonforcolorado.com/
 repo: ''
 creator:

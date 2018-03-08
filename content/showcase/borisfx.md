@@ -2,7 +2,7 @@
 title: Boris FX
 date: 2017-10-05
 related_tools:
-    - tool/hugo.md
+  - tool/hugo.md
 website: http://borisfx.com/
 repo:
 creator:

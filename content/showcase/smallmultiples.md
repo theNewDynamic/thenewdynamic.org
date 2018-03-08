@@ -2,9 +2,9 @@
 title: "Smallmultiples"
 date: 2018-02-25T18:21:23+01:00
 related_tools:
-  - hugo
-  - netlify
-  - forestry
+  - tool/hugo.md
+  - tool/netlify.md
+  - tool/forestry.md
 website: https://smallmultiples.com.au
 repo:
 creator:
