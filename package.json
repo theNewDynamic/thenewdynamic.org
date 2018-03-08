@@ -11,13 +11,10 @@
     "version:major": "npm version major -m 'Breaking Release'",
     "version:minor": "npm version minor -m 'Feature Release'",
     "version:patch": "npm version patch -m 'bump version for fixes minor changes'",
-    "browsersync-public": "browser-sync start --server 'public' --files 'public' reload",
     "bs": "browser-sync start --config 'bs-config.js'",
-    "browsersync-old": "browser-sync start --port 1313 --files reload 'content, src, themes' reload",
     "buildp": "webpack --config webpack.prod.js --env=production",
     "buildd": "webpack --config webpack.dev.js --env=development --progress --colors --watch",
-    "hugo": "hugo server --disableFastRender --disableLiveReload",
-    "hugoBuild": "hugo -w",
+    "hugo": "hugo server --disableLiveReload",
     "start": "concurrently \"npm run hugo\" \"npm run buildd\" \"npm run bs\" "
   },
   "devDependencies": {
