@@ -1,7 +1,6 @@
 ---
 title: Webpack
 date: 2016-05-08 00:00:00 +0000
-draft: true
 posted_date: 2017-01-10 00:00:00 +0000
 featured: false
 slug: webpack
@@ -19,6 +18,7 @@ data_model: ''
 related_tools: []
 tags: []
 resources: []
+cat_test: ''
 
 ---
 A bundler for javascript and friends. Packs many modules into a few bundled assets.
