@@ -1,16 +1,23 @@
 ---
-title: "Typeform"
-date: 2015-11-12T04:04:00.000Z
-posted_date: 2015-11-12T04:04:00.000Z
+title: Typeform
+date: 2015-11-12 04:04:00 +0000
+posted_date: 2015-11-12 04:04:00 +0000
 featured: false
 slug: typeform
-tools: 
-  - interaction
+tools:
+- interaction
 urls:
   website: http://www.typeform.com/
+  github: ''
+  twitter: ''
+  other: ''
+description: Build conversational forms, surveys, quizzes, and more.
+license: Commercial
+data_model: ''
+language: ''
+related_tools: []
+tags: []
+resources: []
+cat_test: ''
+
 ---
-
-
-
-
-
