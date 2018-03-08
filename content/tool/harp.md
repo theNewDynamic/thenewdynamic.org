@@ -13,11 +13,23 @@ urls:
   other: ''
 license: Open Source
 language: Node
-description: ''
+description: Node static web server with built-in preprocessing.
 headless-cms: ''
 related_tools: []
 tags: []
 resources: []
+data_model: ''
+cat_test: ''
 
 ---
-The static web server with built-in preprocessing.
+### Features
+
+* easy installation, easy to use
+* fast and lightweight
+* robust (clean urls, intelligent path redirects)
+* built in pre-processing
+* first-class layout and partial support
+* built in LRU caching in production mode
+* can export assets to HTML/CSS/JS
+* does not require a build steps or grunt task
+* fun to use
