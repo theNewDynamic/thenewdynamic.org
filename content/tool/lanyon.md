@@ -1,14 +1,26 @@
 ---
-title: "Lanyon"
-date: 2015-11-12T02:09:00.000Z
-posted_date: 2015-11-12T02:09:00.000Z
+title: Lanyon
+date: 2015-11-12 02:09:00 +0000
+posted_date: 2015-11-12 02:09:00 +0000
 featured: false
 slug: lanyon
-tools: 
-  - theme
+tools:
+- theme
 urls:
   website: http://lanyon.getpoole.com/
-  github: https://github.com/poole/lanyon  
+  github: https://github.com/poole/lanyon
+  twitter: ''
+  other: ''
+license: Open Source
+related_tools:
+- tool/jekyll.md
+description: ''
+data_model: ''
+language: ''
+tags: []
+resources: []
+cat_test: ''
+
 ---
 An unassuming Jekyll theme that places content first by tucking away navigation in a drawer.
 
