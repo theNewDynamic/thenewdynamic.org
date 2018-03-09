@@ -17,8 +17,11 @@ description: Blazing-fast static site generator for React
 headless-cms: ''
 related_tools: []
 tags: []
-resources: []
+resources:
+- name: Gatsby Manor Themes
+  url: https://www.gatsbymanor.com/
 data_model: ''
+cat_test: ''
 
 ---
 Transform plain text into dynamic blogs and websites using the latest web technologies. A React.js static site generator.
