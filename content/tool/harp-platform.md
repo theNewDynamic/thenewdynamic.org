@@ -1,13 +1,26 @@
 ---
-title: "Harp Platform"
-date: 2015-05-14T02:05:00.000Z
-posted_date: 2015-05-14T02:05:00.000Z
+title: Harp Platform
+date: 2015-05-14 02:05:00 +0000
+posted_date: 2015-05-14 02:05:00 +0000
 featured: false
 slug: harp-platform
-tools: 
-  - hosting-deployment
+tools:
+- hosting-deployment
 urls:
   website: https://www.harp.io/
+  github: ''
+  twitter: ''
+  other: ''
+description: ''
+license: ''
+data_model: ''
+language: ''
+related_tools: []
+tags: []
+resources: []
+cat_test: ''
+draft: true
+
 ---
 Hosting/Deployment Platform for Harpjs
 
