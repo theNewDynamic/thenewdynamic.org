@@ -14,7 +14,7 @@ urls:
 license: Open Source
 related_tools:
 - tool/jekyll.md
-description: ''
+description: A content-first, sliding sidebar theme for Jekyll
 data_model: ''
 language: ''
 tags: []
