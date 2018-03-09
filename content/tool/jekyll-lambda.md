@@ -15,7 +15,7 @@ urls:
 related_tools:
 - tool/jekyll.md
 license: Open Source
-description: ''
+description: An ascetic theme for Jekyll.
 data_model: ''
 language: ''
 tags: []
