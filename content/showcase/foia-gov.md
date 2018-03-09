@@ -14,7 +14,6 @@ image_path: "/uploads/showcase/"
 images:
 - "/uploads/showcase/"
 image: "/uploads/foia-gov.jpg"
-draft: true
 
 ---
 Developed by the Department of Justice, powered by GitHub Pages, Jekyll, React and an API to make requests.
