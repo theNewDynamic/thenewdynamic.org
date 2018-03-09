@@ -12,10 +12,11 @@ urls:
   twitter: ''
   other: ''
 description: ''
-license: ''
+license: Commercial
 data_model: ''
-language: ''
-related_tools: []
+language: Node
+related_tools:
+- tool/harp.md
 tags: []
 resources: []
 cat_test: ''
