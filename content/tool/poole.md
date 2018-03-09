@@ -13,7 +13,8 @@ urls:
   other: ''
 description: Themes for Jekyll by @mdo.
 tags: []
-related_tools: []
+related_tools:
+- tool/jekyll.md
 resources: []
 license: Open Source
 data_model: ''
