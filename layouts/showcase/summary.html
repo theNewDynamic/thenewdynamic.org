@@ -1,10 +1,19 @@
 
 <div class="title">
-{{.Title}}
+
+<h3 class="m-1">{{.Title}}</h3>
+
+{{with .Params.images}}
+  {{ range .}}
+    <img class="m-1" src="{{.}}" alt="" />
+  {{end}}
+{{end}}
 
 {{with .Params.related_tools}}
   {{range .}}
-    <div class="related_tools">{{- urlize . -}}</div>
+    <div class="related_tools">
+      <a href="{{- urlize . | relURL -}}">{{- urlize . -}}</a>
+    </div>
   {{end}}
 {{end}}
 </div>
