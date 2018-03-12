@@ -2,17 +2,18 @@
 title: Bunker One
 date: 2018-03-12 16:32:25 +0000
 related_tools:
-- 
-website: ''
+- tool/datocms.md
+- tool/gatsby.md
+website: https://bunkerone.com/
 repo: ''
 creator:
-- name: 
+- name: Kontrapunkt
   role: Design/Development
-  url: 
-  twitter_username: 
+  url: http://www.kontrapunkt.com/
+  twitter_username: https://twitter.com/kontrapunktcom
 image_path: "/uploads/showcase/"
 images:
 - "/uploads/showcase/"
-draft: true
+image: "/uploads/bunkerone.jpg"
 
 ---
