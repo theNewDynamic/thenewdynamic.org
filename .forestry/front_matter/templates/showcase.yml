@@ -58,6 +58,6 @@ fields:
     source:
       type: pages
       section: tool
-- type: file
-  name: image
-  label: Image
+- type: image_gallery
+  name: images
+  label: Images
