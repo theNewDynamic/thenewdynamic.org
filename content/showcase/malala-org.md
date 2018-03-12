@@ -11,5 +11,6 @@ creator:
     url: http://carrot.is/
     name: Carrot Creative
     twitter_username: carrot
-image: /uploads/showcase/malala-org-roots-static-site-generator.jpg
+images:
+  - "/uploads/showcase/malala-org-roots-static-site-generator.jpg"
 ---

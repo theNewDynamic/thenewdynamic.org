@@ -11,6 +11,7 @@ creator:
     url: https://developmentseed.org
     name: Development Seed
     twitter_username:
-image: /uploads/1444963925320_screenshot-mapbox-1.jpg
+images:
+  - "/uploads/1444963925320_screenshot-mapbox-1.jpg"
 ---
 [How We Build CMS-Free Websites](https://developmentseed.org/blog/2012/07/27/build-cms-free-websites/)[How We Build CMS-Free Websites](https://developmentseed.org/blog/2012/07/27/build-cms-free-websites/)

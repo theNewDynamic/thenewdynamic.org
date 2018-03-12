@@ -11,7 +11,8 @@ creator:
     role: 'Design/Development'
     url: http://www.trysmudford.com/
     twitter_username: trysmudford
-image: /uploads/showcase/hartwell-hugo-netlify.jpg
+images:
+  - "/uploads/showcase/hartwell-hugo-netlify.jpg"
 ---
 
 [Read the background story](http://www.trysmudford.com/perfomance-wins-with-hugo-and-netlify/)

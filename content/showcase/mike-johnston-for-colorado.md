@@ -10,10 +10,8 @@ creator:
   role: Design/Development
   url: http://www.ecliptic.io/
   twitter_username: eclipticdev
-image_path: "/uploads/showcase/"
 images:
-- "/uploads/showcase/"
-image: "/images/mike-johnston-for-colorado.jpg"
-
+- "/images/mike-johnston-for-colorado.jpg"
 ---
+
 [Read the case study: How we used React, Headless WordPress, GraphQL & Gatsby](https://www.gatsbyjs.org/blog/2018-3-03-case-study-mike-johnston/)

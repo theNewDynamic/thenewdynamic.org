@@ -11,7 +11,8 @@ creator:
     role: 'Design/Development'
     url: https://mattfinucane.com/
     twitter_username: matfinucane
-image: /uploads/showcase/cinematt.jpg
+images:
+  - "/uploads/showcase/cinematt.jpg"
 ---
 
 Photographic website [build with CSS Grid](https://mattfinucane.com/blog/building-cinematt-css-grid-layout/), using Cloudinary and displaying EXIF metadata.

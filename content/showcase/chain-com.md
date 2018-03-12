@@ -11,5 +11,6 @@ creator:
     role: Design/Development
     url: 'http://github.com/julesforrest'
     twitter_username: julesforrest
-image: /uploads/showcase/jekyll-chain.png
+images:
+  - "/uploads/showcase/jekyll-chain.png"
 ---

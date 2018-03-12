@@ -11,8 +11,8 @@ creator:
     role: Design/Development
     url:
     twitter_username:
-image: /uploads/showcase/hugo-forestgiant.jpg
+images:
+  - "/uploads/showcase/hugo-forestgiant.jpg"
 ---
-
 
 A Netlify [Site of the Week](https://www.netlify.com/site-of-the-week/forest-giant/)

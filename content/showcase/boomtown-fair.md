@@ -11,5 +11,6 @@ creator:
     role: Design/Development
     url:
     twitter_username:
-image: /uploads/screenshot-hugo-datocms-boomtown.jpg
+images:
+  - "/uploads/screenshot-hugo-datocms-boomtown.jpg"
 ---

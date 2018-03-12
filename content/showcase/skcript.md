@@ -12,7 +12,8 @@ creator:
     role: 'Design/Development'
     url:
     twitter_username:
-image: /uploads/showcase/skcript.jpg
+images:
+  - "/uploads/showcase/skcript.jpg"
 ---
 
 A Design Artificial Intelligence Consulting Company serving customers Worldwide.

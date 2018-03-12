@@ -10,5 +10,6 @@ creator:
     role: 'Design/Development'
     url:
     twitter_username: marmelab
-image: /uploads/showcase/marmelab.jpg
+images:
+  - "/uploads/showcase/marmelab.jpg"
 ---

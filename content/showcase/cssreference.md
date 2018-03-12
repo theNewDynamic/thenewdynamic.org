@@ -10,5 +10,6 @@ creator:
     role: Design/Development
     url: 'https://github.com/jgthms'
     twitter_username:
-image: /uploads/showcase/cssreference-io.png
+images:
+  - "/uploads/showcase/cssreference-io.png"
 ---

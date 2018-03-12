@@ -10,7 +10,8 @@ creator:
     role: 'Design/Development'
     url:
     twitter_username: smartive_ch
-image: /uploads/showcase/smartive-gatsby.jpg
+images:
+  - "/uploads/showcase/smartive-gatsby.jpg"
 ---
 
 At smartive we always saw the potential of static site generators. After using Wintersmith and Next.js we recently made the switch to Gatsby.js for our company site. A decision we don’t regret. [Here’s why.](https://blog.smartive.ch/smartive-ch-goes-gatsby-js-27a056b3b817)

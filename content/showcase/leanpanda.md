@@ -10,5 +10,6 @@ creator:
     role:
     url:
     twitter_username:
-image: /uploads/showcase/leanpanda-middleman-datocms.jpg
+images:
+  - "/uploads/showcase/leanpanda-middleman-datocms.jpg"
 ---

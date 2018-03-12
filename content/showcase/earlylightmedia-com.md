@@ -22,5 +22,6 @@ creator:
   - name: Tom Kraak
     role: 'site migration from jekyll to roots & contentful'
     url: 'http://backroom.io/'
-image: /uploads/showcase/earlylightmedia-roots.jpg
+images:
+  - "/uploads/showcase/earlylightmedia-roots.jpg"
 ---

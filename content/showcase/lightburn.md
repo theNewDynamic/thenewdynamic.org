@@ -11,5 +11,6 @@ creator:
     role: 'Design/Development'
     url:
     twitter_username: lightburn
-image: /uploads/showcase/lightburn.jpg
+images:
+  - "/uploads/showcase/lightburn.jpg"
 ---

@@ -11,7 +11,8 @@ creator:
     role: 'Design/Development'
     url:
     twitter_username:
-image: /uploads/showcase/prettyflyfpv.jpg
+images:
+  - "/uploads/showcase/prettyflyfpv.jpg"
 ---
 
 Static e-commerce website powered by Snipcart.

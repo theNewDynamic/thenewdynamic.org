@@ -11,5 +11,6 @@ creator:
     role: 'Design/Development'
     url: https://opensoul.org/
     twitter_username: bkeepers
-image: /uploads/showcase/probot.png
+images:
+  - "/uploads/showcase/probot.png"
 ---

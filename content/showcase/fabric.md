@@ -10,5 +10,6 @@ creator:
     role: 'Design/Development'
     url:
     twitter_username:
-image: /uploads/showcase/fabric.png
+images:
+  - "/uploads/showcase/fabric.png"
 ---

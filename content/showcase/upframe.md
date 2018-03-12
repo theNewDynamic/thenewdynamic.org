@@ -10,6 +10,7 @@ creator:
   - name:
     role: 'Design/Development'
     url:
-    twitter_username: 
-image: /uploads/showcase/upframe.png
+    twitter_username:
+images:
+  - "/uploads/showcase/upframe.png"
 ---

@@ -10,7 +10,8 @@ creator:
     role: 'Design/Development'
     url:
     twitter_username: ImaCrea
-image: /uploads/showcase/mailta.png
+images:
+  - "/uploads/showcase/mailta.png"
 ---
 
  MailTape - Feed your inspiration with music, every Sunday morning

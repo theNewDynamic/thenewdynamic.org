@@ -12,5 +12,6 @@ creator:
     role: 'Design/Development'
     url: https://code.facebook.com/projects/#web
     twitter_username: reactjs
-image: /uploads/showcase/react.png
+images:
+  - "/uploads/showcase/react.png"
 ---

@@ -13,8 +13,10 @@ creator:
     role:
     url:
     twitter_username:
-image: /uploads/screenshot-smashing-mag-hugo.jpg
+images:
+  - "/uploads/screenshot-smashing-mag-hugo.jpg"
 ---
+
 From the blog post at [Netlify](https://www.netlify.com/blog/2017/03/16/smashing-magazine-just-got-10x-faster/) (we'll add more later):
 
 We wanted to deliver every single tool, detail, and functionality that Smashing Magazine desired. However, it was equally important to us that we made our efforts worthwhile for the community at large. We had the opportunity to show the JAMstack is the future of web development while building tools that could be used by the community growing around it. That is why everything we built for smashing is open source.

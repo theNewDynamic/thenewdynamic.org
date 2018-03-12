@@ -9,9 +9,10 @@ repo:
 creator:
   - name: Instrument
     role: Design, Development
-    url: http://www.instrument.com/latest/the-new-ebay-creating-excitement-through-code    
+    url: http://www.instrument.com/latest/the-new-ebay-creating-excitement-through-code
     twitter_username:
-image: /uploads/showcase/ebay.jpg
+images:
+  - "/uploads/showcase/ebay.jpg"
 ---
 
 ### Build Architecture

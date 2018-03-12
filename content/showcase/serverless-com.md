@@ -10,5 +10,6 @@ creator:
     role: Design/Development
     url:
     twitter_username:
-image: /uploads/showcase/phenomic-serverless.jpg
+images:
+  - "/uploads/showcase/phenomic-serverless.jpg"
 ---

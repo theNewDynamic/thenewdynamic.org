@@ -10,7 +10,8 @@ creator:
     role: 'Design/Development'
     url: https://www.passbolt.com/
     twitter_username: passbolt
-image: /uploads/showcase/passbolt-help.png
+images:
+  - "/uploads/showcase/passbolt-help.png"
 ---
 
 [Help section is editable through GitHub](https://medium.com/passbolt/help-me-jekyll-1ac075d75d28), search is powered by DuckDuck Go.

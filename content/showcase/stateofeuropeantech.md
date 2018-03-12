@@ -10,5 +10,6 @@ creator:
     role: 'Design/Development'
     url: http://www.studiolovelock.com/
     twitter_username: studiolovelock
-image: /uploads/showcase/state-of-european-tech-gatsby.jpg
+images:
+  - "/uploads/showcase/state-of-european-tech-gatsby.jpg"
 ---

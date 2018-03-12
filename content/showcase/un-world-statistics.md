@@ -10,5 +10,6 @@ creator:
     role: 'Design/Development'
     url:
     twitter_username:
-image: /uploads/1445952048351_screenshot-un-statistics-static-site.jpg
+images:
+  - "/uploads/1445952048351_screenshot-un-statistics-static-site.jpg"
 ---

@@ -10,7 +10,8 @@ creator:
     role: 'Design/Development'
     url: https://mozilla.org/developers
     twitter_username: MozHacks
-image: /uploads/showcase/mozilla-developers.png
+images:
+  - "/uploads/showcase/mozilla-developers.png"
 ---
 
 A playground for Web Developers to learn CSS Grid.

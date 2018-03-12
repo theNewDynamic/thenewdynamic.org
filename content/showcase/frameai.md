@@ -11,5 +11,6 @@ creator:
     role: 'Design/Development'
     url:
     twitter_username:
-image: /uploads/showcase/frameai.png
+images:
+  - "/uploads/showcase/frameai.png"
 ---

@@ -10,5 +10,6 @@ creator:
     role:
     url:
     twitter_username:
-image: /uploads/showcase/labs-us-gov-hugo.jpg
+images:
+  - "/uploads/showcase/labs-us-gov-hugo.jpg"
 ---

@@ -11,5 +11,6 @@ creator:
     role: Design/Development
     url:
     twitter_username:
-image: /uploads/showcase/jekyll-datocms-lattichq.jpg
+images:
+  - "/uploads/showcase/jekyll-datocms-lattichq.jpg"
 ---

@@ -10,8 +10,8 @@ creator:
     role: Design/Development
     url:
     twitter_username:
-image: /uploads/showcase/gatsby-perspexilabs-com.jpg
+images:
+  - "/uploads/showcase/gatsby-perspexilabs-com.jpg"
 ---
-
 
 Perspexi Outreach collects customer satisfaction data automatically by using text messages.

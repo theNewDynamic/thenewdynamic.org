@@ -12,5 +12,6 @@ creator:
     role: 'Design/Development'
     url: https://www.leanpanda.com/
     twitter_username: pandadevs
-image: /uploads/showcase/datocms-gatsby.png
+images:
+  - "/uploads/showcase/datocms-gatsby.png"
 ---

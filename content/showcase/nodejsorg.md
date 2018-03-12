@@ -8,7 +8,8 @@ related_tools:
 creator:
   - name: Node.js Foundation
     role: "Design/Development"
-    url: https://github.com/nodejs/new.nodejs.org    
+    url: https://github.com/nodejs/new.nodejs.org
     twitter_username:
-image: /uploads/1446050712434_screenshot-nodejs.jpg
+images:
+  - "/uploads/1446050712434_screenshot-nodejs.jpg"
 ---

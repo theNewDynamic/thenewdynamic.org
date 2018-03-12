@@ -12,6 +12,7 @@ creator:
     role: 'Design/Development'
     url:
     twitter_username:
-image: /uploads/showcase/showcase-fabuwood-metalsmith-prismic-netlify.jpg
+images:
+  - "/uploads/showcase/showcase-fabuwood-metalsmith-prismic-netlify.jpg"
 ---
 Fabuwood Cabinetry official website.

@@ -10,7 +10,8 @@ creator:
     role: 'Design/Development'
     url:
     twitter_username:
-image: /uploads/showcase/showcase-gatsby-city-of-boston.jpg
+images:
+  - "/uploads/showcase/showcase-gatsby-city-of-boston.jpg"
 ---
 When Amazon announced in September that it was looking to build a new headquarters, bringing 50,000 jobs and billions of investment to the chosen city, Boston’s city government jumped to throw their hat in the ring.
 

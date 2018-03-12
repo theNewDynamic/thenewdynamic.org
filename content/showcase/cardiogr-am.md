@@ -10,5 +10,6 @@ creator:
     role: Design/Development
     url:
     twitter_username:
-image: /uploads/showcase/gatsby-cardiogram.jpg
+images:
+  - "/uploads/showcase/gatsby-cardiogram.jpg"
 ---

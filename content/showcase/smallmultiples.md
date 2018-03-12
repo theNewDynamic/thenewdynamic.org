@@ -12,9 +12,8 @@ creator:
     role: "Design/Development"
     url:
     twitter_username: smallmultiples
-image_path: /uploads/showcase/
 images:
-  - /uploads/showcase/smallmultiples.jpg
+  - "/uploads/showcase/smallmultiples.jpg"
 ---
 
 [Introducing the new Smallmultiples website](https://smallmultiples.com.au/articles/introducing-the-new-small-multiples-website/)

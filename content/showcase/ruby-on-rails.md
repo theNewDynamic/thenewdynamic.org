@@ -11,9 +11,8 @@ creator:
     role: "Design/Development"
     url: https://basecamp.com/
     twitter_username: basecamp
-image: /uploads/showcase/ruby-on-rails.png
 images:
-  - /uploads/showcase/ruby-on-rails.png
+  - "/uploads/showcase/ruby-on-rails.png"
 ---
 
 [Rails](http://rubyonrails.org/) is a popular Ruby framework developped by [Basecamp](https://basecamp.com/).

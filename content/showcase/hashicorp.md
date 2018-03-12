@@ -11,7 +11,8 @@ creator:
     role: 'Design/Development'
     url:
     twitter_username: hashicorp
-image: /uploads/showcase/hashicorp-spike.png
+images:
+  - "/uploads/showcase/hashicorp-spike.png"
 ---
 
 [HashiCorp](https://www.hashicorp.com/) is a company based in San Francisco that solves development, operations, and security challenges in infrastructure so organizations can focus on business-critical tasks.

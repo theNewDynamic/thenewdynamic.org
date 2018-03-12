@@ -9,6 +9,7 @@ creator:
   - role: "Developer"
     url: https://github.com/faustgertz
     name: Faust Gertz
-    twitter_username:    
-image: /uploads/1436535424517_thenewdynamic-showcase-vesterheim-org-150710.jpg
+    twitter_username:
+images:
+  - "/uploads/1436535424517_thenewdynamic-showcase-vesterheim-org-150710.jpg"
 ---

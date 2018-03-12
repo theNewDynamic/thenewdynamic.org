@@ -9,7 +9,8 @@ creator:
     role: 'Design/Development'
     url: https://agilebits.com/
     twitter_username: 1Password
-image: /uploads/showcase/1password.png
+images:
+  - "/uploads/showcase/1password.png"
 ---
 
 [1Password website](https://1password.com).

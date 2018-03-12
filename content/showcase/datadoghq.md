@@ -11,7 +11,6 @@ creator:
     role: "Design/Development"
     url:
     twitter_username:
-image: /uploads/showcase/datadoghq.jpg
 images:
-  - /uploads/showcase/datadoghq.jpg
+  - "/uploads/showcase/datadoghq.jpg"
 ---

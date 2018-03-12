@@ -11,9 +11,6 @@ creator:
   role: Design/Development
   url: http://www.kontrapunkt.com/
   twitter_username: https://twitter.com/kontrapunktcom
-image_path: "/uploads/showcase/"
 images:
-- "/uploads/showcase/"
-image: "/uploads/bunkerone.jpg"
-
+- "/uploads/bunkerone.jpg"
 ---

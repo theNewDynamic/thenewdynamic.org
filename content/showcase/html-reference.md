@@ -10,5 +10,6 @@ creator:
     role: 'Design/Development'
     url: http://jgthms.com/
     twitter_username: jgthms
-image: /uploads/showcase/html-reference.jpg
+images:
+  - "/uploads/showcase/html-reference.jpg"
 ---

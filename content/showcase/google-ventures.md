@@ -10,5 +10,6 @@ creator:
     role: Design/Development
     url: 'http://www.gv.com/humans.txt'
     twitter_username: GVteam
-image: /uploads/showcase/gv.jpg
+images:
+  - "/uploads/showcase/gv.jpg"
 ---

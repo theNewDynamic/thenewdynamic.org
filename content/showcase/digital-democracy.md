@@ -11,5 +11,6 @@ creator:
     role: 'Design/Development'
     url:
     twitter_username:
-image: /uploads/showcase/digital-democracy.jpg
+images:
+  - "/uploads/showcase/digital-democracy.jpg"
 ---

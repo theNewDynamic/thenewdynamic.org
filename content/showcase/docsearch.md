@@ -12,5 +12,6 @@ creator:
     role: 'Design/Development'
     url: https://www.algolia.com/
     twitter_username: algolia
-image: /uploads/showcase/docsearch.jpg
+images:
+  - "/uploads/showcase/docsearch.jpg"
 ---

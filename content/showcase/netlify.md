@@ -13,5 +13,8 @@ creator:
     role: 'Design/Development'
     url:
     twitter_username:
-image: /uploads/showcase/netlify.png
+images:
+  - "/uploads/showcase/netlify.png"
 ---
+
+Netlify website is built with Hugo and use third-party services like Cloudinary for images and Algolia for search.

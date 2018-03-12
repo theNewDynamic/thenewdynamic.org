@@ -10,9 +10,9 @@ creator:
     role: Design/Development
     url:
     twitter_username:
-image: /uploads/showcase/sketch-app.jpg
+images:
+  - "/uploads/showcase/sketch-app.jpg"
 ---
-
 
 > I’m really happy with the result of migrating the Sketch site to [@jekyllrb](https://twitter.com/jekyllrb). Docs and community alone made the change worth already :)
 > — Alberto Calvo (@pumpkin) [November 10, 2016](https://twitter.com/pumpkin/status/796708628090748928)
