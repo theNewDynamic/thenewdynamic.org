@@ -11,8 +11,8 @@
         {{with .Params.related_tools}}
           {{range .}}
             <div class="related_tools">
-              {{$related_tool := index (where (where $.Site.RegularPages ".Section" "tool") ".File.Path" "in" .) 0}}
-              <a href="{{- urlize . | relURL -}}">{{ $related_tool }}</a>
+              {{$related_tool := index (where (where $.Site.Pages ".Section" "tool") ".File.Path" "in" .) 0}}
+              <a href="{{ $related_tool.Permalink }}">{{ $related_tool.Title }}</a>
             </div>
           {{end}}
         {{end}}

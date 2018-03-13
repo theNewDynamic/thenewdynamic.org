@@ -1,7 +1,7 @@
 
 <div class="title">
 
-<h3 class="m-1">{{.Title}}</h3>
+<h3 class="m-1"><a href="{{.Permalink}}">{{.Title}}</a></h3>
 
 {{with .Params.images}}
   {{ range .}}
@@ -13,7 +13,7 @@
   {{range .}}
     <div class="related_tools">
       {{$related_tool := index (where (where $.Site.RegularPages ".Section" "tool") ".File.Path" "in" .) 0}}
-      <a href="{{- urlize . | relURL -}}">{{ $related_tool }}</a>
+      <a href="{{ $related_tool.Permalink }}">{{ $related_tool.Title }}</a>
     </div>
   {{end}}
 {{end}}
