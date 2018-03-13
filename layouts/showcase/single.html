@@ -1,16 +1,25 @@
 {{ define "main" }}
   <div class="flex-l mt2 mw8 center">
     <article class="center cf pv5 ph3 ph4-ns mw7 min-vh-100">
-      <p class="f6 b helvetica tracked">
-        {{ humanize .Section | upper  }}
-      </p>
-      <h1 class="f1"> showcase tempal
-        {{ .Title }}
-      </h1>
       <section class="nested-copy-line-height lh-copy f4 nested-links nested-img mid-gray">
+        {{with .Params.images}}
+          {{ range .}}
+            <img class="max-w-full" src="{{.}}" alt="" />
+          {{end}}
+        {{end}}
+
+        {{with .Params.related_tools}}
+          {{range .}}
+            <div class="related_tools">
+              {{$related_tool := index (where (where $.Site.Pages ".Section" "tool") ".File.Path" "in" .) 0}}
+              <a href="{{ $related_tool.Permalink }}">{{ $related_tool.Title }}</a>
+            </div>
+          {{end}}
+        {{end}}
+
         {{ .Content }}
       </section>
     </article>
-    
+
   </div>
 {{ end }}
