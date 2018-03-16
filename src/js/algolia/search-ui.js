@@ -1,15 +1,16 @@
-document.addEventListener("turbolinks:load", function() {
-  var contentDiv = document.getElementById("content")
-  var header = document.getElementById("page-header")
-  var searchInput = document.getElementById("searchbox")
-  var results = document.getElementById("results")
+var contentDiv = document.getElementById("content")
+var header = document.getElementById("page-header")
+var searchInput = document.getElementById("searchbox")
+var results = document.getElementById("results")
 
+document.addEventListener("DOMContentLoaded", function() {
   if (searchInput) {
     searchInput.addEventListener("input", event, false)
     function event() {
       results.classList.remove("results-hidden")
       contentDiv.classList.add("hidden")
       header.classList.add("hidden")
+      console.log("yay")
     }
   }
 

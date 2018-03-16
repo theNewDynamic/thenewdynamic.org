@@ -1,17 +1,15 @@
-// For tools' mobile nav
 document.addEventListener(
-  "turbolinks:load",
+  "DOMContentLoaded",
   function() {
-    var selectButton = document.querySelector('select[name="selectUrl"]')
-
-    if (selectButton) {
-      this.onchange = changeEventHandler
-    }
+    document.querySelector(
+      'select[name="selectUrl"]'
+    ).onchange = changeEventHandler
   },
   false
 )
+
 function changeEventHandler(event) {
   // You can use “this” to refer to the selected element.
-  if (!event.target.value) alert("Please Select One")
-  else window.location.href = event.target.value
+  if (!event.target.value) log.console("select")
+  window.location.href = event.target.value
 }

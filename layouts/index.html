@@ -9,6 +9,8 @@
     <li><a href="{{ "/headless_cms/" | relLangURL }}{{ $name | urlize }}">{{ $name }}</a></li>
   {{ end }}
 </ul> */}}
+
+hdi
 {{$tools := where .Site.Pages "Section" "tools"}}
 {{$pages := where ($tools) "Kind" "taxonomy"}}
 {{ range $pages}}
