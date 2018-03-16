@@ -21,6 +21,13 @@ module.exports = merge(common, {
       PRODUCTION: JSON.stringify(true),
     }),
 
+    // In production, hash our CSS
+    new ExtractTextPlugin({
+      filename: getPath => {
+        return getPath("css/[name].[contenthash].css")
+      },
+      allChunks: true,
+    }),
     // In production, Run our CSS through PurgeCSS
     new PurgecssPlugin({
       whitelist: [
@@ -48,13 +55,7 @@ module.exports = merge(common, {
         },
       ],
     }),
-    // In production, hash our CSS
-    new ExtractTextPlugin({
-      filename: getPath => {
-        return getPath("css/[name].[contenthash].css")
-      },
-      allChunks: true,
-    }),
+    // UGly
     new UglifyJSPlugin(),
     new webpack.optimize.ModuleConcatenationPlugin(),
   ],
