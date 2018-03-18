@@ -13,7 +13,14 @@ import hitTemplate from "./templates/hits-listed-content.html"
 import noResultsTemplate from "./templates/no-results.html"
 import queryResultsTemplate from "./templates/query-results.html"
 import hitsToolsTemplate from "./templates/hits-tools.html"
-document.addEventListener("turbolinks:load", function() {
+
+if (PRODUCTION) {
+  var documentLoad = "turbolinks:load"
+} else {
+  var documentLoad = "DOMContentLoaded"
+}
+
+document.addEventListener(documentLoad, function() {
   var search = instantsearch({
     appId: "EGKL8BPJHJ",
     apiKey: "fcbd6ff119bc3ddf14fa6115baa892ef",
@@ -24,14 +31,14 @@ document.addEventListener("turbolinks:load", function() {
 
       if (helper.state.query === "") {
         // searchResults.hide()
-        searchResults.classList.add("hidden")
+        searchResults.classList.add("results-hidden")
         console.log("No Query")
         return
       }
       helper.search()
       // searchResults.show()
       console.log("query: " + helper.state.query)
-      searchResults.classList.remove("hidden")
+      searchResults.classList.remove("results-hidden")
     },
   })
 
