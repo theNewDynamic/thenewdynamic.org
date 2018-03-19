@@ -5,7 +5,7 @@
     {{template "menu" .}}
     {{template "follow" .}}
   </div>
-    <a class="block text-xs fw4 hover-white  no-underline text-grey-dark py-2 mt-8" href="{{ .Site.BaseURL }}" >
+    <a class="block text-xs fw4 hover-white  no-underline text-grey-darker py-2 mt-8" href="{{ .Site.BaseURL }}" >
       &copy; {{ now.Format "2006" }} {{ .Site.Title }}
     </a>
 </footer>
@@ -22,7 +22,7 @@
     <ul class="list-reset text-left">
       {{range .}}
       <li class="text-4xl list mb-3">
-        <a class="no-underline text-grey hover:text-black" href="{{ .URL }}" title="{{ .Name }} page">
+        <a class="no-underline text-grey-darker hover:text-black" href="{{ .URL }}" title="{{ .Name }} page">
           {{.Name}}
         </a>
       </li>

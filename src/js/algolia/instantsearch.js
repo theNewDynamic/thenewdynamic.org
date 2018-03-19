@@ -26,12 +26,20 @@ document.addEventListener(documentLoad, function() {
     apiKey: "fcbd6ff119bc3ddf14fa6115baa892ef",
     indexName: "all_content",
     urlSync: false,
+    // urlSync: {
+    //   getHistoryState: function() {
+    //     return {
+    //       turbolinks: true,
+    //     }
+    //   },
+    // },
     searchFunction: function(helper) {
       var searchResults = document.getElementById("results")
-
+      var b = document.getElementsByTagName("BODY")[0]
       if (helper.state.query === "") {
         // searchResults.hide()
         searchResults.classList.add("results-hidden")
+        b.classList.remove("search-displayed")
         console.log("No Query")
         return
       }
@@ -39,6 +47,8 @@ document.addEventListener(documentLoad, function() {
       // searchResults.show()
       console.log("query: " + helper.state.query)
       searchResults.classList.remove("results-hidden")
+
+      b.classList.add("search-displayed")
     },
   })
 
@@ -61,20 +71,20 @@ document.addEventListener(documentLoad, function() {
     })
   )
 
-  search.addWidget(
-    clearAll({
-      container: "#clear-all",
-      templates: {
-        link: "Reset",
-      },
-      autoHideContainer: true,
-      clearsQuery: true,
-      cssClasses: {
-        link:
-          "inline-block px-3 py-1 no-underline rounded-t text-white text-sm bg-grey-darkest",
-      },
-    })
-  )
+  // search.addWidget(
+  //   clearAll({
+  //     container: "#clear-all",
+  //     templates: {
+  //       link: "Reset",
+  //     },
+  //     autoHideContainer: true,
+  //     clearsQuery: true,
+  //     cssClasses: {
+  //       link:
+  //         "inline-block px-3 py-1 no-underline rounded-t text-white text-sm bg-grey",
+  //     },
+  //   })
+  // )
 
   search.addWidget(
     refinementList({
@@ -84,7 +94,7 @@ document.addEventListener(documentLoad, function() {
       limit: 10,
       collapsible: { collapsed: true },
       cssClasses: {
-        item: "inline-block mr-3 my-2",
+        item: "inline-block mr-3 my-2 text-sm",
         list: "nav nav-list",
         count: "badge pull-right",
         active: "active",
@@ -94,7 +104,7 @@ document.addEventListener(documentLoad, function() {
 
   search.addWidget(
     hits({
-      hitsPerPage: 100,
+      hitsPerPage: 5,
       container: "#hits",
       collapsible: true,
       templates: {
@@ -108,7 +118,7 @@ document.addEventListener(documentLoad, function() {
   search.addWidget(
     pagination({
       container: "#pagination",
-      maxPages: 20,
+      maxPages: 100,
       // default is to scroll to 'body', here we disable this behavior
       scrollTo: true,
     })

@@ -1,1 +1,7 @@
-<input type="search" id="searchbox" class="js-only rounded border px-1 md:px-3 block my-3 md:my-auto py-1 w-fullTK w-auto bg-grey-lighter nice-outline text-grey-dark border-transparent" aria-labelledby="search_label" autocomplete="off" placeholder="Search">
+<div class="flex justify-between text-grey">
+  <div class="icon text-primary-color-lighter opacity-75 mt-2">
+    {{- partial "svg/magnifier.svg" (dict "size" "16px") -}}
+  </div>
+
+  <input type="search" id="searchbox" class="js-only rounded border px-1 md:px-3 block md:my-auto py-1 bg-primary-color  nice-outline text-white text-lg border-transparent" aria-label="Search" autocomplete="off" placeholder="Search">
+</div>

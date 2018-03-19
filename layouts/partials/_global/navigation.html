@@ -34,16 +34,12 @@
     </ul>
     {{- end -}}
 
-    {{partial "search/searchbox-nav.html" .}}
+
 
     <div class="hidden lg:flex opacity-75 flex-wrap items-center">
       {{ partial "_components/social-follow.html" (dict "cx" . "icon_size" "28px") }}
 
     </div>
-
+{{partial "search/searchbox-nav.html" .}}
   </div>
 </nav>
-{{/* {{partial "search/global-searchbox.html" .}} */}}
-<div id="results" class="js-only max-w-2xl mx-auto p-4 results-hidden">
-  {{partial "search/results-global.html" .}}
-</div>

@@ -41,6 +41,7 @@ module.exports = merge(common, {
         "ais-pagination--item__last",
         "bg-primary-color",
         "turbolinks-progress-bar",
+        "opacity-25",
       ],
       paths: glob.sync([
         path.join(__dirname, "layouts/**/*.html"),
