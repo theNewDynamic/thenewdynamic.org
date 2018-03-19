@@ -23,65 +23,69 @@
 {{end}}
 
 <div class="flex flex-wrap items-start mb-3">
-{{/* {{$headless_cms := $.Scratch.GetSortedMapValues "headless-cms"}}
-{{with $headless_cms}}
-{{$taxonomy := index $.Site.Taxonomies "headless-cms" }}
-  <div class="lg:mr-6">
-    <h6 class="mb-2">Headless CMS</h6>
-    {{range $name, $taxonomy := $taxonomy}}
-      {{with $name}}
-      {{$link := printf "%s%s%s" ("/headless-cms/" | relLangURL) (. | urlize) "/"}}
+  {{/* {{$headless_cms := $.Scratch.GetSortedMapValues "headless-cms"}}
+  {{with $headless_cms}}
+  {{$taxonomy := index $.Site.Taxonomies "headless-cms" }}
+    <div class="lg:mr-6">
+      <h6 class="mb-2">Headless CMS</h6>
+      {{range $name, $taxonomy := $taxonomy}}
+        {{with $name}}
+        {{$link := printf "%s%s%s" ("/headless-cms/" | relLangURL) (. | urlize) "/"}}
 
-        <button id="{{urlize .}}" class="filter-buttons-headless_cmsTK ">
-          <a href="{{ $link }}" class="no-underline text-black button_c hover:text-grey-lighter {{if eq $.URL $link}} bg-grey{{end}}">
-            {{- . -}}
-          </a>
-        </button>
+          <button id="{{urlize .}}" class="filter-buttons-headless_cmsTK ">
+            <a href="{{ $link }}" class="no-underline text-black button_c hover:text-grey-lighter {{if eq $.URL $link}} bg-grey{{end}}">
+              {{- . -}}
+            </a>
+          </button>
+        {{end}}
       {{end}}
-    {{end}}
-  </div>
-{{end}} */}}
+    </div>
+  {{end}} */}}
 
-{{$language := $.Scratch.GetSortedMapValues "language"}}
-{{with $language}}
-  <div class="lg:mr-6">
-  <h6 class="mb-2">Language</h6>
-  {{range .}}
-    <button id="{{urlize .}}" class='filter-buttons-language button_c'>{{.}}</button>
-  {{end}}
-  </div>
-{{end}}
-
-{{$license := $.Scratch.GetSortedMapValues "license"}}
-{{with $license}}
-  <div class="lg:mr-6">
-  <h6 class="mb-2">License</h6>
-  {{range .}}
-    <button id="{{urlize .}}" class='filter-buttons-license button_c'>{{.}}</button>
-  {{end}}
-  </div>
-{{end}}
-
-{{$related_tools := $.Scratch.GetSortedMapValues "related_tools"}}
-{{with $related_tools}}
-  <div class="lg:mr-6">
-    <h6 class="mb-2">Related Tools</h6>
+  {{$language := $.Scratch.GetSortedMapValues "language"}}
+  {{with $language}}
+    <div class="lg:mr-6">
+    <h6 class="mb-2">Language</h6>
     {{range .}}
-    {{$related_tool := index (where (where $.Site.RegularPages ".Section" "tool") ".File.Path" "in" .) 0}}
-      <button id="{{urlize .}}" class='filter-buttons-tools button_c'>{{with $related_tool }}{{.Title}}{{end}}</button>
+      <button id="{{urlize .}}" class='filter-buttons-language button_c'>{{.}}</button>
     {{end}}
-  </div>
-{{end}}
+    </div>
+  {{end}}
 
-
-{{$tags := $.Scratch.GetSortedMapValues "tags"}}
-{{with $tags}}
-  <div class="lg:mr-6">
-    <h6 class="mb-2">Tags</h6>
+  {{$license := $.Scratch.GetSortedMapValues "license"}}
+  {{with $license}}
+    <div class="lg:mr-6">
+    <h6 class="mb-2">License</h6>
     {{range .}}
-      <button id="{{urlize .}}" class='filter-buttons-tags button_c'>{{.}}</button>
+      <button id="{{urlize .}}" class='filter-buttons-license button_c'>{{.}}</button>
     {{end}}
+    </div>
+  {{end}}
+
+  {{$related_tools := $.Scratch.GetSortedMapValues "related_tools"}}
+  {{with $related_tools}}
+    <div class="lg:mr-6">
+      <h6 class="mb-2">Related Tools</h6>
+      {{range .}}
+      {{$related_tool := index (where (where $.Site.RegularPages ".Section" "tool") ".File.Path" "in" .) 0}}
+        <button id="{{urlize .}}" class='filter-buttons-tools button_c'>{{with $related_tool }}{{.Title}}{{end}}</button>
+      {{end}}
+    </div>
+  {{end}}
+
+
+  {{$tags := $.Scratch.GetSortedMapValues "tags"}}
+  {{with $tags}}
+    <div class="lg:mr-6">
+      <h6 class="mb-2">Tags</h6>
+      {{range .}}
+        <button id="{{urlize .}}" class='filter-buttons-tags button_c'>{{.}}</button>
+      {{end}}
+    </div>
+  {{end}}
+  {{/* Self end keeps the button in line with the others, even without a heading */}}
+  <div class="self-end">
+    <button id="clear-filters" class="js-only sort border text-grey-darkest hover:bg-grey-darkest hover:text-white text-sm inline block mb-3 mr-3 px-3 py-2 rounded-sm" data-sort="main-category">clear</button>
   </div>
-{{end}}
 
 </div>

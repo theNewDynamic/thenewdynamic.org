@@ -125,6 +125,6 @@ document.addEventListener(documentLoad, function() {
   )
 
   search.start()
-  console.log("instantsearch Has been loaded")
+  // console.log("instantsearch Has been loaded")
   // document.addEventListener("DOMContentLoaded", function() {})
 })
