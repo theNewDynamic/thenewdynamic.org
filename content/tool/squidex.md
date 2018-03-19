@@ -2,6 +2,7 @@
 title: Squidex
 date: 2018-03-19 10:06:34 +0000
 tools:
+- content-management
 - headless-cms
 license: Open Source
 data_model: API-based
