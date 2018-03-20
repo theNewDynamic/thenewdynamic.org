@@ -15,7 +15,6 @@ creator:
   twitter_username: 
 images:
 - "/uploads/netlify-hugo.png"
-- "/uploads/showcase/netlify.png"
 
 ---
 Netlify website is built with Hugo and use third-party services like Cloudinary for images and Algolia for search.
