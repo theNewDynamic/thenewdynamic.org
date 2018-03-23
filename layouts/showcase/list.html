@@ -1,16 +1,18 @@
 {{ define "main" }} {{ $section := .Data.Pages }}
   {{- partial "_components/page-content.html" . -}}
   <article id="filter" class="center max-w-5xl mx-auto px-3 lg:px-4">
-  {{partial "showcase/filters.html" .}}
-  <div class="wrapper">
-    <section class="filteredlist content dg g-gap-15 g-columns-300">
-      {{ range .Data.Pages }}
-      <dl class=" border-2 border-grey-lighter bg-white">
-        {{ .Render "summary" }}
-      </dl>
-      {{ end }}
-    </section>
-  </div>
-  {{/* we will need listjs pagination here, not native. {{ template "_internal/pagination.html" . }} */}}
-</article>
+
+    {{ partial "showcase/filters.html" . }}
+
+    <div class="wrapper">
+      <section class="filteredlist content dg g-gap-15 g-columns-300">
+        {{ range .Data.Pages }}
+        <dl class=" border-2 border-grey-lighter bg-white">
+          {{- .Render "summary" -}}
+        </dl>
+        {{ end }}
+      </section>
+    </div>
+    {{/* we will need listjs pagination here, not native. {{ template "_internal/pagination.html" . }} */}}
+  </article>
 {{ end }}

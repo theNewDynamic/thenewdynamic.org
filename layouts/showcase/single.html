@@ -1,25 +1,32 @@
 {{ define "main" }}
-  <div class="flex-l mt2 mw8 center">
-    <article class="center cf pv5 ph3 ph4-ns mw7 min-vh-100">
-      <section class="nested-copy-line-height lh-copy f4 nested-links nested-img mid-gray">
-        {{with .Params.images}}
-          {{ range .}}
-            <img class="max-w-full" src="{{.}}" alt="" />
-          {{end}}
-        {{end}}
+  <div class="page-single_default mx-auto min-h-screen">
+    <article class="mx-auto py-5 px-3">
 
-        {{with .Params.related_tools}}
-          {{range .}}
-            <div class="related_tools">
-              {{$related_tool := index (where (where $.Site.Pages ".Section" "tool") ".File.Path" "in" .) 0}}
-              <a href="{{ $related_tool.Permalink }}">{{ $related_tool.Title }}</a>
-            </div>
-          {{end}}
-        {{end}}
+      {{ with .Params.related_tools }}
+        <aside class="related_tools flex flex-wrap mb-8 text-xl">
+          {{ range . }}{{ $link := index (where (where $.Site.Pages ".Section" "tool") ".File.Path" "in" .) 0 }}
+            {{ partial "_components/tags" $link }}
+          {{ end }}
+        </aside>
+      {{ end }}
 
+      <section>
+        {{ with .Params.images }}
+          {{ range . }}
+          <picture>
+            <source srcset="{{ . }}?w=1280" media="(min-width: 1280px)">
+            <source srcset="{{ . }}?w=768&h=1024&fit=crop" media="(min-width: 768px)">
+            <source srcset="{{ . }}?w=568&h=320&fit=crop" media="(min-width: 480px)">
+            <img src="{{ . }}?w=320&h=568&fit=crop">
+          </picture>
+          {{ end }}
+        {{ end }}
+      </section>
+
+      <section class="text-xl my-16 leading-normal text-grey-darker">
         {{ .Content }}
       </section>
-    </article>
 
+    </article>
   </div>
 {{ end }}

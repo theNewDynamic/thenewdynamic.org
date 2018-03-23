@@ -25,9 +25,10 @@
   <div class="px-6 py-4">
 
     {{ with .Params.related_tools }}
-    <div class="related_tools flex flex-wrap">
-      {{ range . }} {{ $related_tool := index (where (where $.Site.RegularPages ".Section" "tool") ".File.Path" "in" .) 0 }}
-      <a href="{{ $related_tool.Permalink }}" class="dim inline-block bg-grey-lighter rounded-full px-3 py-1 mr-1 mb-1 text-xs no-underline font-semibold text-grey-darker">{{ $related_tool.Title }}</a>
+    <div class="related_tools  text-xs">
+      {{ range . }} {{ $link := index (where (where $.Site.RegularPages ".Section" "tool") ".File.Path" "in" .) 0 }}
+
+        {{ partial "_components/tags" $link }}
 
       {{ end }}
     </div>
