@@ -6,12 +6,23 @@
   .g-gap-10 {
     grid-gap: 1rem;
   }
+  .g-gap-15 {
+    grid-gap: 1.5rem;
+  }
+
 
   .g-columns-100 {
     /*grid-template-columns: 100px;*/
     /*grid-template-columns: repeat(6, 200px);*/
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr) ) ;
   }
+
+
+    .g-columns-300 {
+      /*grid-template-columns: 100px;*/
+      /*grid-template-columns: repeat(6, 200px);*/
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr) ) ;
+    }
 
 
   .wrapper {

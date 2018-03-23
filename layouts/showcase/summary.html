@@ -1,20 +1,40 @@
+<div class="max-w-sm rounded overflow-hidden shadow">
 
-<div class="title">
-
-<h3 class="m-1"><a href="{{.Permalink}}">{{.Title}}</a></h3>
-
-{{with .Params.images}}
-  {{ range .}}
-    <img class="m-1" src="{{.}}" alt="" />
-  {{end}}
-{{end}}
-
-{{with .Params.related_tools}}
-  {{range .}}
-    <div class="related_tools">
-      {{$related_tool := index (where (where $.Site.RegularPages ".Section" "tool") ".File.Path" "in" .) 0}}
-      <a href="{{ $related_tool.Permalink }}">{{ $related_tool.Title }}</a>
+  {{ with .Params.images }}
+    {{ range . -}}
+      <picture>
+        <source srcset="{{ . }}?w=1280" media="(min-width: 1280px)">
+        <source srcset="{{ . }}?w=768&h=1024&fit=crop" media="(min-width: 768px)">
+        <source srcset="{{ . }}?w=568&h=320&fit=crop" media="(min-width: 480px)">
+        <img src="{{ . }}?w=320&h=568&fit=crop">
+      </picture>
+    {{- end }}
+  {{ end }}
+  <div class="px-6 py-4">
+    <div class="font-bold text-base mb-2">
+      <a href="{{ .Permalink }}" class="dim text-black no-underline title">
+        {{ .Title }}
+      </a>
     </div>
-  {{end}}
-{{end}}
+    {{with .Params.Description}}
+    <p class="text-grey-darker text-base">
+      {{.}}
+    </p>
+    {{end}}
+  </div>
+  <div class="px-6 py-4">
+
+    {{ with .Params.related_tools }}
+    <div class="related_tools flex flex-wrap">
+      {{ range . }} {{ $related_tool := index (where (where $.Site.RegularPages ".Section" "tool") ".File.Path" "in" .) 0 }}
+      <a href="{{ $related_tool.Permalink }}" class="dim inline-block bg-grey-lighter rounded-full px-3 py-1 mr-1 mb-1 text-xs no-underline font-semibold text-grey-darker">{{ $related_tool.Title }}</a>
+
+      {{ end }}
+    </div>
+    {{ end }}
+
+
+
+
+  </div>
 </div>
