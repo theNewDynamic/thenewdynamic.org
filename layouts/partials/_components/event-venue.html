@@ -1,0 +1,11 @@
+{{/* thows an error, so we're copying it here to comment it out. until it can be fixed. */}}
+<aside class="font-sans text-sm text-grey-dark">
+  {{/* {{ with .Params.venue }}
+    {{ with .address }}{{ . }}{{ end }} {{ with .city }}{{ . }}, {{ end }}{{ with .state }}{{ . }}{{ end }} {{ with .zip }}{{ . }}{{ end }}
+  {{ end }} */}}
+  {{ with .Params.link }}
+    <a href="{{ printf  . | safeHTMLAttr }}" target="_blank" class="inline-block ml-4 text-blue dim no-underline">
+      {{- replaceRE "^https?://([^/]+).*" "$1" . | safeHTMLAttr -}}
+    </a>
+  {{ end }}
+</aside>
