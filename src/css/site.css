@@ -17,3 +17,6 @@ h1, h2, h3, h4, h5 {
 .button_c:hover {
   @apply bg-grey-darkest text-white
 }
+.list-item {
+  @apply .inline-block;
+}
