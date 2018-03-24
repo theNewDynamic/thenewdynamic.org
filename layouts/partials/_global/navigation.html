@@ -1,45 +1,33 @@
 {{ $currentPage := . }} {{/* border-t-4 border-primary-color */}}
-<nav class="bg-primary-color pb-1 pt-2" role="navigation">
-  <div class="mx-auto flex flex-wrap justify-between items-center max-w-5xl pl-4 pr-3">
+<nav class="bg-white" role="navigation border-b">
+  <div class="mx-auto flex flex-wrap justify-between items-baseline max-w-5xl pl-4">
 
-    <div>
-      <h1 class="font-brand inline-block p-0 mb-2 lg:mb-3 lg:mr-3">
-        <a href="/" class="hover:text-grey text-3xl no-underline text-white">
+    <div class="md:flex flex-wrap items-baseline">
+      <h1 class="font-brand inline-block lg:mr-3 leading-none mb-0">
+        <a href="/" class="hover:text-grey text-2xl no-underline text-primary-color">
           {{- .Site.Title -}}
         </a>
-      </h1>
-      <div class="font-brand tracking-wide lg:inline-block text-sm font-bold text-grey-lighter">
-        {{- .Site.Params.subtitle -}}
-      </div>
-    </div>
+      </h1><div class="font-brand tracking-wide text-base font-bold text-grey-dark">{{- .Site.Params.subtitle -}}</div></div>
 
     {{- if .Site.Menus.main -}}
     <ul class="p-0 mt-4 md:mt-0">
       {{- range .Site.Menus.main -}}
       <li class="inline-block text-lg h-full mb-3 sm:mb-0">
-        <a class="font-sans text-sm hover:text-grey no-underline pointer pr-4 py-4{{if $currentPage.IsMenuCurrent " main " . }} text-grey{{else}} text-grey-lighter{{ end}}" href="{{ .URL }}" title="{{ .Name }} page">
+        <a class="font-sans text-sm font-bold hover:text-primary-color-lighter no-underline pointer pr-4 py-4{{ if $currentPage.IsMenuCurrent "main" . }} text-primary-color-light{{ else }} text-grey-dark{{ end }}" href="{{ .URL }}" title="{{ .Name }} page">
             {{- .Name -}}
           </a>
       </li>
       {{- end -}}
       <li class="inline-block pointer text-lg h-full mb-3 sm:mb-0">
-        {{/* <button id="reveal-search" class="text-white" data-turbolinks="false">{{ partialCached "svg/magnifier.svg" (dict "size" "12px") }}</button>
-        data-turbolinks="false"
-         */}}
-
-        {{/* <a href="/search/" class="no-underline hover:text-black text-white">{{partialCached "svg/magnifier.svg" (dict "size" "12px")}}</a> */}}
-
-
       </li>
     </ul>
     {{- end -}}
 
 
 
-    <div class="hidden lg:flex opacity-75 flex-wrap items-center">
+    {{/* <div class="hidden lg:flex opacity-75 flex-wrap items-center">
       {{ partial "_components/social-follow.html" (dict "cx" . "icon_size" "28px") }}
-
-    </div>
+    </div> */}}
 {{partial "search/searchbox-nav.html" .}}
   </div>
 </nav>
