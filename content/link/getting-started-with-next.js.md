@@ -6,7 +6,8 @@ source: Flavio Copes
 content_type: Tutorial
 video: false
 category: ''
-tool: []
+tool:
+- tool/next.js.md
 
 ---
 Next.js is a very popular Node.js framework which enables an easy server-side React rendering, and provides many other amazing features.
