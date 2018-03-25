@@ -47,7 +47,7 @@ menu:
     #   weight: 25
     -
       identifier: jobs
-      name: Jobs
+      name: Find a Developer
       url: /jobs/
       weight: 25
   secondary:
