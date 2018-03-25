@@ -1,15 +1,15 @@
-<div class="max-w-sm rounded overflow-hidden shadow">
+{{ $image := index (.Params.images) 0 }}
 
-  {{ with .Params.images }}
-    {{ range . -}}
-      <picture>
-        <source srcset="{{ . }}?w=1280" media="(min-width: 1280px)">
-        <source srcset="{{ . }}?w=768&h=1024&fit=crop" media="(min-width: 768px)">
-        <source srcset="{{ . }}?w=568&h=320&fit=crop" media="(min-width: 480px)">
-        <img src="{{ . }}?w=320&h=568&fit=crop">
-      </picture>
-    {{- end }}
+<div class="max-w-sm rounded overflow-hidden shadow">
+  {{ with $image }}
+    {{ if in (print $.Site.BaseURL) "localhost" }}
+      <img data-src="{{ . }}" src="/images/placeholder.svg" class="lazyload mw-100">
+    {{ else }}
+      {{ $img := replace . "/uploads" ($.Param "image_url")  }}
+        <img src="/images/placeholder.svg" data-src="{{ $img }}{{ (querify "w" "329" "h" "203" "fit" "crop") | safeURL }}" class="lazyload">
+    {{ end }}
   {{ end }}
+
   <div class="px-6 py-4">
     <div class="font-bold text-base mb-2">
       <a href="{{ .Permalink }}" class="dim text-black no-underline title">
