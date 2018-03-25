@@ -1,19 +1,23 @@
 {{ $currentPage := . }} {{/* border-t-4 border-primary-color */}}
-<nav class="bg-white" role="navigation border-b">
+<nav class="bg-primary-color text-grey-light" role="navigation border-b">
   <div class="mx-auto flex flex-wrap justify-between items-baseline max-w-5xl pl-4">
 
     <div class="md:flex flex-wrap items-baseline">
       <h1 class="font-brand inline-block lg:mr-3 leading-none mb-0">
-        <a href="/" class="hover:text-grey text-2xl no-underline text-primary-color">
+        <a href="/" class="hover:text-grey text-3xl no-underline text-white">
           {{- .Site.Title -}}
         </a>
-      </h1><div class="font-brand tracking-wide text-base font-bold text-grey-dark">{{- .Site.Params.subtitle -}}</div></div>
+      </h1>
+      {{/* <div class="font-brand tracking-wide text-base font-bold">
+        {{- .Site.Params.subtitle -}}
+      </div> */}}
+    </div>
 
     {{- if .Site.Menus.main -}}
     <ul class="p-0 mt-4 md:mt-0">
       {{- range .Site.Menus.main -}}
       <li class="inline-block text-lg h-full mb-3 sm:mb-0">
-        <a class="font-sans text-sm font-bold hover:text-primary-color-lighter no-underline pointer pr-4 py-4{{ if $currentPage.IsMenuCurrent "main" . }} text-primary-color-light{{ else }} text-grey-dark{{ end }}" href="{{ .URL }}" title="{{ .Name }} page">
+        <a class="font-sans text-sm font-bold hover:text-grey-light no-underline pointer pr-4 py-4{{ if in $currentPage.URL .URL  }} text-grey-light{{ else }} text-white{{ end }}" href="{{ .URL }}" title="{{ .Name }} page">
             {{- .Name -}}
           </a>
       </li>
