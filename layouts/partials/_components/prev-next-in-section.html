@@ -1,0 +1,26 @@
+
+  {{if .PrevInSection }}
+    <a href="{{ .PrevInSection.Permalink }}" class="color-inherit db-l f5 f3-ns link hover-black fw8">
+      <span class="v-mid dib"><</span> {{ .PrevInSection.Title }}
+    </a>
+  {{end}}
+
+  {{if .NextInSection }}
+    <a href="{{.NextInSection.Permalink }}" class="color-inherit db-l f5 f3-ns link hover-black fw8">
+      {{ .NextInSection.Title }} <span class="v-mid dib">></span>
+    </a>
+  {{end}}
+
+{{/*
+  <script>
+    document.body.onkeyup = function(e){
+
+      {{ if .PrevInSection }}
+        if (e.keyCode == '37') { window.location = '{{ .PrevInSection.Permalink }}'; }
+      {{ end }}
+      {{ if .NextInSection }}
+        if (e.keyCode == '39') { window.location = '{{.NextInSection.Permalink }}'; }
+      {{ end }}
+    };
+
+  </script> */}}
