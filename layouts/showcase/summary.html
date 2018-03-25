@@ -1,5 +1,4 @@
 {{ $image := index (.Params.images) 0 }}
-{{ $i := $.Param "image_url" }}{{$i}}
 <div class="max-w-sm rounded overflow-hidden shadow">
   {{ with $image }}
     {{ if in (print $.Site.BaseURL) "localhost" }}
