@@ -1,5 +1,5 @@
 {{ $currentPage := . }} {{/* border-t-4 border-primary-color */}}
-<nav class="bg-primary-color text-grey-light" role="navigation border-b">
+<nav class="bg-primary-color text-grey-light py-4 md:py-0" role="navigation border-b">
   <div class="mx-auto flex flex-wrap justify-between items-baseline max-w-5xl pl-4">
 
     <div class="md:flex flex-wrap items-baseline">
@@ -27,11 +27,9 @@
     </ul>
     {{- end -}}
 
-
-
     {{/* <div class="hidden lg:flex opacity-75 flex-wrap items-center">
       {{ partial "_components/social-follow.html" (dict "cx" . "icon_size" "28px") }}
     </div> */}}
-{{partial "search/searchbox-nav.html" .}}
+    {{partial "search/searchbox-nav.html" .}}
   </div>
 </nav>
