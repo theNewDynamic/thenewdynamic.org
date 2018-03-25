@@ -11,5 +11,5 @@ creator:
     url: 'http://www.gv.com/humans.txt'
     twitter_username: GVteam
 images:
-  - "/uploads/showcase/gv.jpg"
+  - "/uploads/gv.jpg"
 ---

@@ -10,5 +10,5 @@ creator:
     name:
     twitter_username:
 images:
-  - "/uploads/showcase/pattern-lab.png"
+  - "/uploads/pattern-lab.png"
 ---

@@ -13,6 +13,6 @@ creator:
     url:
     twitter_username:
 images:
-  - "/uploads/showcase/showcase-fabuwood-metalsmith-prismic-netlify.jpg"
+  - "/uploads/showcase-fabuwood-metalsmith-prismic-netlify.jpg"
 ---
 Fabuwood Cabinetry official website.

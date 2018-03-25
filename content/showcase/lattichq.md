@@ -12,5 +12,5 @@ creator:
     url:
     twitter_username:
 images:
-  - "/uploads/showcase/jekyll-datocms-lattichq.jpg"
+  - "/uploads/jekyll-datocms-lattichq.jpg"
 ---

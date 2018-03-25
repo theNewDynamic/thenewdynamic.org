@@ -11,5 +11,5 @@ creator:
     url: 'https://github.com/jgthms'
     twitter_username:
 images:
-  - "/uploads/showcase/cssreference-io.png"
+  - "/uploads/cssreference-io.png"
 ---

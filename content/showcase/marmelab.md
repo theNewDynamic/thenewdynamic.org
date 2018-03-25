@@ -11,5 +11,5 @@ creator:
     url:
     twitter_username: marmelab
 images:
-  - "/uploads/showcase/marmelab.jpg"
+  - "/uploads/marmelab.jpg"
 ---

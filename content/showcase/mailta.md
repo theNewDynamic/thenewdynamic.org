@@ -11,7 +11,7 @@ creator:
     url:
     twitter_username: ImaCrea
 images:
-  - "/uploads/showcase/mailta.png"
+  - "/uploads/mailta.png"
 ---
 
  MailTape - Feed your inspiration with music, every Sunday morning

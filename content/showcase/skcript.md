@@ -13,7 +13,7 @@ creator:
     url:
     twitter_username:
 images:
-  - "/uploads/showcase/skcript.jpg"
+  - "/uploads/skcript.jpg"
 ---
 
 A Design Artificial Intelligence Consulting Company serving customers Worldwide.

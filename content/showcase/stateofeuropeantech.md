@@ -11,5 +11,5 @@ creator:
     url: http://www.studiolovelock.com/
     twitter_username: studiolovelock
 images:
-  - "/uploads/showcase/state-of-european-tech-gatsby.jpg"
+  - "/uploads/state-of-european-tech-gatsby.jpg"
 ---

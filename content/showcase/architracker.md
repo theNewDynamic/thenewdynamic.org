@@ -11,7 +11,7 @@ creator:
     url:
     twitter_username:
 images:
-  - "/uploads/showcase/showcase-architracker-gatsbyjs.jpg"
+  - "/uploads/showcase-architracker-gatsbyjs.jpg"
 ---
 
 ARCHiTRACKER is a map of curated architecture, complete with expert guides, to help you discover the most impressive buildings around the city and experience London from a new perspective.

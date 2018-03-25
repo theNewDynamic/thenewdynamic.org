@@ -11,6 +11,6 @@ creator:
     url:
     twitter_username:
 images:
-  - "/uploads/showcase/budget.boston.gov-jekyll.jpg"
+  - "/uploads/budget.boston.gov-jekyll.jpg"
 ---
 [Unlocking Boston's Budget](https://medium.com/@KHammer/unlocking-bostons-budget-5eaedad50900)

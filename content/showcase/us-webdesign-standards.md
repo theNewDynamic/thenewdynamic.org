@@ -12,7 +12,7 @@ creator:
     url: https://18f.gsa.gov/
     twitter_username: 18F
 images:
-  - "/uploads/showcase/us-webdesign-standards.png"
+  - "/uploads/us-webdesign-standards.png"
 ---
 
 Open source UI components and visual [style guide for U.S. government websites](https://standards.usa.gov).

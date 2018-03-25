@@ -10,7 +10,7 @@ creator:
     url: https://agilebits.com/
     twitter_username: 1Password
 images:
-  - "/uploads/showcase/1password.png"
+  - "/uploads/1password.png"
 ---
 
 [1Password website](https://1password.com).

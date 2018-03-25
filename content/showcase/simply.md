@@ -11,5 +11,5 @@ creator:
     url:
     twitter_username:
 images:
-  - "/uploads/showcase/simply.jpg"
+  - "/uploads/simply.jpg"
 ---

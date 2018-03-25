@@ -11,5 +11,5 @@ creator:
     url: http://jgthms.com/
     twitter_username: jgthms
 images:
-  - "/uploads/showcase/html-reference.jpg"
+  - "/uploads/html-reference.jpg"
 ---

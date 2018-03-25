@@ -12,7 +12,7 @@ creator:
     url:
     twitter_username:
 images:
-  - "/uploads/showcase/prettyflyfpv.jpg"
+  - "/uploads/prettyflyfpv.jpg"
 ---
 
 Static e-commerce website powered by Snipcart.

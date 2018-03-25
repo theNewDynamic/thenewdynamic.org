@@ -13,7 +13,7 @@ creator:
     url:
     twitter_username: smallmultiples
 images:
-  - "/uploads/showcase/smallmultiples.jpg"
+  - "/uploads/smallmultiples.jpg"
 ---
 
 [Introducing the new Smallmultiples website](https://smallmultiples.com.au/articles/introducing-the-new-small-multiples-website/)

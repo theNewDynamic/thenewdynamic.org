@@ -11,7 +11,7 @@ creator:
     url:
     twitter_username: http://twitter.com/formidablelabs
 images:
-  - "/uploads/showcase/formidable.jpg"
+  - "/uploads/formidable.jpg"
 ---
 
 Formidable design and develop web apps, train engineers at startups and Fortune 500 companies, and improve the web with open source software.

@@ -13,5 +13,5 @@ creator:
     url: https://www.algolia.com/
     twitter_username: algolia
 images:
-  - "/uploads/showcase/docsearch.jpg"
+  - "/uploads/docsearch.jpg"
 ---

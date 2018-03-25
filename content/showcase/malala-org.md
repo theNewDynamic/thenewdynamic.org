@@ -12,5 +12,5 @@ creator:
     name: Carrot Creative
     twitter_username: carrot
 images:
-  - "/uploads/showcase/malala-org-roots-static-site-generator.jpg"
+  - "/uploads/malala-org-roots-static-site-generator.jpg"
 ---

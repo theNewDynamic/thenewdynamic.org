@@ -12,7 +12,7 @@ creator:
     url: https://smartergiving.org/
     twitter_username: smartergiving
 images:
-  - "/uploads/showcase/grantmakers.jpg"
+  - "/uploads/grantmakers.jpg"
 ---
 
 > My intention with [Grantmakers.io](https://www.grantmakers.io/) is to simply

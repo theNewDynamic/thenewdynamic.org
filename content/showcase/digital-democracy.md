@@ -12,5 +12,5 @@ creator:
     url:
     twitter_username:
 images:
-  - "/uploads/showcase/digital-democracy.jpg"
+  - "/uploads/digital-democracy.jpg"
 ---

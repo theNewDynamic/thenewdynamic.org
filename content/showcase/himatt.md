@@ -12,5 +12,5 @@ creator:
     url:
     twitter_username:
 images:
-  - "/uploads/showcase/cinematt.jpg"
+  - "/uploads/cinematt.jpg"
 ---

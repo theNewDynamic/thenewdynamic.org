@@ -11,5 +11,5 @@ creator:
     url:
     twitter_username:
 images:
-  - "/uploads/showcase/borisfx.jpg"
+  - "/uploads/borisfx.jpg"
 ---

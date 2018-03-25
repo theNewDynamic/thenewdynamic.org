@@ -13,5 +13,5 @@ creator:
     url: http://www.cityofsydney.nsw.gov.au/
     twitter_username: cityofsydney
 images:
-  - "/uploads/showcase/sydneynewyearseve-jekyll.png"
+  - "/uploads/sydneynewyearseve-jekyll.png"
 ---

@@ -12,7 +12,7 @@ creator:
     url: https://mattfinucane.com/
     twitter_username: matfinucane
 images:
-  - "/uploads/showcase/cinematt.jpg"
+  - "/uploads/cinematt.jpg"
 ---
 
 Photographic website [build with CSS Grid](https://mattfinucane.com/blog/building-cinematt-css-grid-layout/), using Cloudinary and displaying EXIF metadata.

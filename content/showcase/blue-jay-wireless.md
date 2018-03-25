@@ -11,5 +11,5 @@ creator:
     url: http://www.bigdcreative.com/
     twitter_username:
 images:
-  - "/uploads/showcase/blue-jay-wireless.png"
+  - "/uploads/blue-jay-wireless.png"
 ---

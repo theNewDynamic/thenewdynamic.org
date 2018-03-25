@@ -13,5 +13,5 @@ creator:
     url: https://www.leanpanda.com/
     twitter_username: pandadevs
 images:
-  - "/uploads/showcase/datocms-gatsby.png"
+  - "/uploads/datocms-gatsby.png"
 ---

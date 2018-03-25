@@ -12,5 +12,5 @@ creator:
     url:
     twitter_username: lightburn
 images:
-  - "/uploads/showcase/lightburn.jpg"
+  - "/uploads/lightburn.jpg"
 ---

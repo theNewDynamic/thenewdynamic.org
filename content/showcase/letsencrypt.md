@@ -11,5 +11,5 @@ creator:
     url: https://github.com/bep
     twitter_username: bepsays
 images:
-  - "/uploads/showcase/letsencrypt.jpg"
+  - "/uploads/letsencrypt.jpg"
 ---

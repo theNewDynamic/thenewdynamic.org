@@ -12,5 +12,5 @@ creator:
     url: https://www.cantierecreativo.net/
     twitter_username:
 images:
-  - "/uploads/showcase/linking-art-middleman-datocms.jpg"
+  - "/uploads/linking-art-middleman-datocms.jpg"
 ---

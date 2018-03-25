@@ -14,7 +14,7 @@ creator:
     url:
     twitter_username: forestryio
 images:
-  - "/uploads/showcase/forestry-hugo.png"
+  - "/uploads/forestry-hugo.png"
 ---
 
 Marketing website for [Forestry.io](https://forestry.io/) a git-based CMS for Jekyll and Hugo.
