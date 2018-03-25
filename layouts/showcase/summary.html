@@ -1,12 +1,12 @@
 {{ $image := index (.Params.images) 0 }}
-
+{{ $i := $.Param "image_url" }}{{$i}}
 <div class="max-w-sm rounded overflow-hidden shadow">
   {{ with $image }}
     {{ if in (print $.Site.BaseURL) "localhost" }}
       <img data-src="{{ . }}" src="/images/placeholder.svg" class="lazyload mw-100">
     {{ else }}
-      {{ $img := replace . "/uploads" ($.Param "image_url")  }}
-        <img src="/images/placeholder.svg" data-src="{{ $img }}{{ (querify "w" "329" "h" "203" "fit" "crop") | safeURL }}" class="lazyload">
+      {{ $img := replace . "/uploads" ($.Param "dev.image_url")  }}
+        <img src="/images/placeholder.svg" data-src="{{ $img }}?{{ (querify "w" "329" "h" "203" "fit" "crop") | safeURL }}" class="lazyload">
     {{ end }}
   {{ end }}
 
