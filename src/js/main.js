@@ -1,6 +1,6 @@
 import "./lazysizes.js"
 import "./listjs.js"
-// import "./select-url.js"
+import "./select-url.js"
 import "./algolia/instantsearch.js"
 import "./nojs.js"
 import "./turbolinks.js"
