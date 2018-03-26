@@ -6,9 +6,9 @@
     {{ $img := replace . "/uploads" ($.Param "dev.image_url")  }}
     <picture>
       <source data-srcset="{{ $img }}?{{ (querify "w" "1280") | safeURL }}" media="(min-width: 1280px)">
-      <source data-srcset="{{ $img }}?{{ (querify "w" "768" "h" "1024" "fit" "crop") | safeURL }}" media="(min-width: 768px)">
-      <source data-srcset="{{ $img }}?{{ (querify "w" "568" "h" "320" "fit" "crop") | safeURL }}" media="(min-width: 480px)">
-      <img src="/images/placeholder.svg" data-src="{{ $img }}?{{ (querify "w" "320" "h" "568" "fit" "crop") | safeURL }}" class="lazyload">
+      <source data-srcset="{{ $img }}?{{ (querify "w" "768" "h" "474" "fit" "crop") | safeURL }}" media="(min-width: 768px)">
+      <source data-srcset="{{ $img }}?{{ (querify "w" "568" "h" "351" "fit" "crop") | safeURL }}" media="(min-width: 480px)">
+      <img src="/images/placeholder.svg" data-src="{{ $img }}?{{ (querify "w" "400" "h" "247" "fit" "crop") | safeURL }}" class="lazyload max-w-full">
     </picture>
   {{ end }}
 {{ end }}
