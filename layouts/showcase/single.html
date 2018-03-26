@@ -1,9 +1,12 @@
 {{ define "main" }}
-  <div class="page-single_default mx-auto min-h-screen">
-    <article class="mx-auto py-5 px-3">
 
+{{ partial "prev-next-in-section-icon.html" . }}
+
+  <div class="page-single_default mx-auto min-h-screen relative">
+
+    <article class="mx-auto py-5 px-3">
       {{ with .Params.related_tools }}
-        <aside class="related_tools flex flex-wrap mb-8 text-xl">
+        <aside class="related_tools flex flex-wrap mb-8 md:text-xl">
           {{ range . }}{{ $link := index (where (where $.Site.Pages ".Section" "tool") ".File.Path" "in" .) 0 }}
             {{ partial "_components/tags" $link }}
           {{ end }}
@@ -53,8 +56,10 @@
         {{ .Content }}
       </section>
 
+      <aside class="text-grey-dark">
+        {{ partial "prev-next-in-section.html" . }}
+      </aside>
 
-      {{ partial "_components/prev-next-in-section.html" . }}
     </article>
   </div>
 {{ end }}
