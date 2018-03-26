@@ -25,14 +25,14 @@ document.addEventListener(documentLoad, function() {
     appId: "EGKL8BPJHJ",
     apiKey: "fcbd6ff119bc3ddf14fa6115baa892ef",
     indexName: "all_content",
-    // urlSync: false,
-    urlSync: {
-      getHistoryState: function() {
-        return {
-          turbolinks: true,
-        }
-      },
-    },
+    urlSync: false,
+    // urlSync: {
+    //   getHistoryState: function() {
+    //     return {
+    //       turbolinks: true,
+    //     }
+    //   },
+    // },
     searchFunction: function(helper) {
       var searchResults = document.getElementById("results")
       var b = document.getElementsByTagName("BODY")[0]
