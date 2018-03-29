@@ -16,7 +16,6 @@ related_tools: []
 tags: []
 resources: []
 cat_test: ''
-draft: true
 
 ---
 Scrivito is a user friendly, secure and serverless JavaScript SaaS CMS – built for digital agencies and medium to large sized businesses.
