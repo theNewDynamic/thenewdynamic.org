@@ -1,0 +1,8 @@
+<div class="flex flex-wrap justify-between text-lg text-grey-dark">
+  {{ with .PrevInSection }}
+    <a href="{{ .URL }}" class="hidden xl:block fixed pin-l md:mt-32 bg-grey-light hover:bg-grey hover:text-white  no-underline color-inherit px-6 py-1 rounded text-4xl" title="{{ .Title }}">&laquo;</a>
+  {{ end }}
+  {{ with .NextInSection }}
+    <a href="{{ .URL }}" class="hidden xl:block fixed pin-r md:mt-32 bg-grey-light hover:bg-grey hover:text-white no-underline color-inherit px-6 py-1 rounded text-4xl" title="{{ .Title }}">&raquo;</a>
+  {{ end }}
+</div>
