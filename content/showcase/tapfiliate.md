@@ -2,8 +2,8 @@
 title: Tapfiliate
 date: 2018-03-31 03:38:21 +0000
 related_tools:
-- 
-website: ''
+- tool/hugo.md
+website: https://tapfiliate.com
 repo: ''
 creator:
 - name: 
@@ -12,7 +12,7 @@ creator:
   twitter_username: 
 image_path: "/uploads/showcase/"
 images:
+- "/uploads/tapfiliate-hugo.jpg"
 - "/uploads/showcase/"
-draft: true
 
 ---
