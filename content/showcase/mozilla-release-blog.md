@@ -15,6 +15,5 @@ image_path: "/uploads/showcase/"
 images:
 - "/uploads/mozilla-release-blog-jekyll.png"
 - "/uploads/showcase/"
-draft: true
 
 ---
