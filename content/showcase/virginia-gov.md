@@ -2,8 +2,8 @@
 title: Virginia.gov
 date: 2018-04-03 08:45:23 +0000
 related_tools:
-- 
-website: ''
+- tool/hugo.md
+website: https://www.virginia.gov
 repo: ''
 creator:
 - name: 
@@ -12,7 +12,7 @@ creator:
   twitter_username: 
 image_path: "/uploads/showcase/"
 images:
+- "/uploads/virginia.gov-hugo.jpg"
 - "/uploads/showcase/"
-draft: true
 
 ---
