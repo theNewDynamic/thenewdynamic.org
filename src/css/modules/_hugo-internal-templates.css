@@ -1,0 +1,22 @@
+/* pagination.html: https://github.com/spf13/hugo/blob/master/tpl/tplimpl/template_embedded.go#L117 */
+.pagination {
+  @apply .my-3 .mx-0
+}
+.pagination li {
+
+  @apply .inline-block .text-xs .mb-8 .mr-1 .font-sans
+}
+.pagination li a {
+  @apply .no-underline .rounded .text-grey-dark .border .bg-white .py-1 .px-3
+}
+.pagination li a:hover {
+  @apply bg-grey
+}
+.pagination li.disabled {
+  @apply .hidden
+}
+.pagination li.active a:link,
+.pagination li.active a:active,
+.pagination li.active a:visited {
+  @apply bg-grey-light
+}
