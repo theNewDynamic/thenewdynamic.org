@@ -10,7 +10,7 @@ creator:
 - name: Kontrapunkt
   role: Design/Development
   url: http://www.kontrapunkt.com/
-  twitter_username: https://twitter.com/kontrapunktcom
+  twitter_username: kontrapunktcom
 images:
 - "/uploads/bunkerone.jpg"
 ---

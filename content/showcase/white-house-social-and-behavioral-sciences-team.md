@@ -10,7 +10,7 @@ creator:
   - role: "Design/Development"
     url: https://18f.gsa.gov/
     name: "18F"
-    twitter_username: '18f'
+    twitter_username: "18F"
 images:
   - "/uploads/1446050119463_screenshot-sbst.jpg"
 ---
