@@ -1,5 +1,7 @@
 /* Base - Variables: tailwind-config.js */
-@import "tailwind";
+@import "tailwindcss/preflight";
+@import "tailwindcss/components";
+
 
 /* Modules */
 @import "modules/_algolia-mods";
@@ -8,5 +10,10 @@
 @import "modules/_hovers";
 @import "modules/_utilities";
 
+
+
 /* Site Specific */
 @import "site";
+
+
+@import "tailwindcss/utilities";

@@ -24,7 +24,7 @@ View the full documentation at https://tailwindcss.com.
 |
 */
 
-//let defaultConfig = require('tailwindcss/defaultConfig')()
+// let defaultConfig = require('tailwindcss/defaultConfig')()
 
 /*
 |-------------------------------------------------------------------------------
@@ -43,8 +43,6 @@ View the full documentation at https://tailwindcss.com.
 */
 
 let colors = {
-  transparent: "transparent",
-
   "primary-color-lightest": "#F4E8E7",
   "primary-color-lighter": "#D1A2A1",
   "primary-color-light": "#AF5C5A",
@@ -56,8 +54,8 @@ let colors = {
   //'text-on-primary-color': ,
   //'text-color-secondary': ,
   //'text-color-disabled':  ,
-  //'divider-color':        ,
-  //'warn-color': var(--dark-red);
+
+  transparent: "transparent",
 
   black: "#22292f",
   "grey-darkest": "#3d4852",
@@ -69,46 +67,46 @@ let colors = {
   "grey-lightest": "#f9f9fb",
   white: "#ffffff",
 
-  // 'red-darkest': '#3b0d0c',
-  // 'red-darker': '#621b18',
-  // 'red-dark': '#cc1f1a',
+  "red-darkest": "#3b0d0c",
+  "red-darker": "#621b18",
+  "red-dark": "#cc1f1a",
   red: "#e3342f",
-  // 'red-light': '#ef5753',
-  // 'red-lighter': '#f9acaa',
-  // 'red-lightest': '#fcebea',
+  "red-light": "#ef5753",
+  "red-lighter": "#f9acaa",
+  "red-lightest": "#fcebea",
 
-  // 'orange-darkest': '#462a16',
-  // 'orange-darker': '#613b1f',
-  // 'orange-dark': '#de751f',
-  // 'orange': '#f6993f',
-  // 'orange-light': '#faad63',
-  // 'orange-lighter': '#fcd9b6',
-  // 'orange-lightest': '#fff5eb',
+  "orange-darkest": "#462a16",
+  "orange-darker": "#613b1f",
+  "orange-dark": "#de751f",
+  orange: "#f6993f",
+  "orange-light": "#faad63",
+  "orange-lighter": "#fcd9b6",
+  "orange-lightest": "#fff5eb",
 
-  // 'yellow-darkest': '#453411',
-  // 'yellow-darker': '#684f1d',
-  // 'yellow-dark': '#f2d024',
-  // 'yellow': '#ffed4a',
-  // 'yellow-light': '#fff382',
-  // 'yellow-lighter': '#fff9c2',
-  // 'yellow-lightest': '#fcfbeb',
+  "yellow-darkest": "#453411",
+  "yellow-darker": "#684f1d",
+  "yellow-dark": "#f2d024",
+  yellow: "#ffed4a",
+  "yellow-light": "#fff382",
+  "yellow-lighter": "#fff9c2",
+  "yellow-lightest": "#fcfbeb",
 
-  // 'green-darkest': '#0f2f21',
-  // 'green-darker': '#1a4731',
-  // 'green-dark': '#1f9d55',
-  // 'green': '#38c172',
-  // 'green-light': '#51d88a',
-  // 'green-lighter': '#a2f5bf',
-  // 'green-lightest': '#e3fcec',
+  "green-darkest": "#0f2f21",
+  "green-darker": "#1a4731",
+  "green-dark": "#1f9d55",
+  green: "#38c172",
+  "green-light": "#51d88a",
+  "green-lighter": "#a2f5bf",
+  "green-lightest": "#e3fcec",
 
-  // 'teal-darkest': '#0d3331',
-  // 'teal-darker': '#20504f',
-  // 'teal-dark': '#38a89d',
-  // 'teal': '#4dc0b5',
-  // 'teal-light': '#64d5ca',
-  // 'teal-lighter': '#a0f0ed',
-  // 'teal-lightest': '#e8fffe',
-  //
+  "teal-darkest": "#0d3331",
+  "teal-darker": "#20504f",
+  "teal-dark": "#38a89d",
+  teal: "#4dc0b5",
+  "teal-light": "#64d5ca",
+  "teal-lighter": "#a0f0ed",
+  "teal-lightest": "#e8fffe",
+
   "blue-darkest": "#12283a",
   "blue-darker": "#1c3d5a",
   "blue-dark": "#2779bd",
@@ -116,30 +114,30 @@ let colors = {
   "blue-light": "#6cb2eb",
   "blue-lighter": "#bcdefa",
   "blue-lightest": "#eff8ff",
-  //
-  // 'indigo-darkest': '#191e38',
-  // 'indigo-darker': '#2f365f',
-  // 'indigo-dark': '#5661b3',
-  // 'indigo': '#6574cd',
-  // 'indigo-light': '#7886d7',
-  // 'indigo-lighter': '#b2b7ff',
-  // 'indigo-lightest': '#e6e8ff',
-  //
-  // 'purple-darkest': '#21183c',
-  // 'purple-darker': '#382b5f',
-  // 'purple-dark': '#794acf',
-  // 'purple': '#9561e2',
-  // 'purple-light': '#a779e9',
-  // 'purple-lighter': '#d6bbfc',
-  // 'purple-lightest': '#f3ebff',
-  //
-  // 'pink-darkest': '#451225',
-  // 'pink-darker': '#6f213f',
-  // 'pink-dark': '#eb5286',
-  // 'pink': '#f66d9b',
-  // 'pink-light': '#fa7ea8',
-  // 'pink-lighter': '#ffbbca',
-  // 'pink-lightest': '#ffebef',
+
+  "indigo-darkest": "#191e38",
+  "indigo-darker": "#2f365f",
+  "indigo-dark": "#5661b3",
+  indigo: "#6574cd",
+  "indigo-light": "#7886d7",
+  "indigo-lighter": "#b2b7ff",
+  "indigo-lightest": "#e6e8ff",
+
+  "purple-darkest": "#21183c",
+  "purple-darker": "#382b5f",
+  "purple-dark": "#794acf",
+  purple: "#9561e2",
+  "purple-light": "#a779e9",
+  "purple-lighter": "#d6bbfc",
+  "purple-lightest": "#f3ebff",
+
+  "pink-darkest": "#451225",
+  "pink-darker": "#6f213f",
+  "pink-dark": "#eb5286",
+  pink: "#f66d9b",
+  "pink-light": "#fa7ea8",
+  "pink-lighter": "#ffbbca",
+  "pink-lightest": "#ffebef",
 }
 
 module.exports = {
@@ -203,6 +201,22 @@ module.exports = {
   */
 
   fonts: {
+    brand: [
+      "URW Franklin Gothic W01",
+      "URW Franklin Gothic",
+      "system-ui",
+      "BlinkMacSystemFont",
+      "-apple-system",
+      "Segoe UI",
+      "Roboto",
+      "Oxygen",
+      "Ubuntu",
+      "Cantarell",
+      "Fira Sans",
+      "Droid Sans",
+      "Helvetica Neue",
+      "sans-serif",
+    ],
     sans: [
       "Avenir Next W00",
       "Avenir Next",
@@ -220,43 +234,25 @@ module.exports = {
       "Helvetica Neue",
       "sans-serif",
     ],
-    // ,
-    // 'serif': [
-    //   'Constantia',
-    //   'Lucida Bright',
-    //   'Lucidabright',
-    //   'Lucida Serif',
-    //   'Lucida',
-    //   'DejaVu Serif',
-    //   'Bitstream Vera Serif',
-    //   'Liberation Serif',
-    //   'Georgia',
-    //   'serif',
-    // ],
-    // ,
-    // 'mono': [
-    //   'Menlo',
-    //   'Monaco',
-    //   'Consolas',
-    //   'Liberation Mono',
-    //   'Courier New',
-    //   'monospace',
-    // ]
-    brand: [
-      "URW Franklin Gothic W01",
-      "URW Franklin Gothic",
-      "system-ui",
-      "BlinkMacSystemFont",
-      "-apple-system",
-      "Segoe UI",
-      "Roboto",
-      "Oxygen",
-      "Ubuntu",
-      "Cantarell",
-      "Fira Sans",
-      "Droid Sans",
-      "Helvetica Neue",
-      "sans-serif",
+    serif: [
+      "Constantia",
+      "Lucida Bright",
+      "Lucidabright",
+      "Lucida Serif",
+      "Lucida",
+      "DejaVu Serif",
+      "Bitstream Vera Serif",
+      "Liberation Serif",
+      "Georgia",
+      "serif",
+    ],
+    mono: [
+      "Menlo",
+      "Monaco",
+      "Consolas",
+      "Liberation Mono",
+      "Courier New",
+      "monospace",
     ],
   },
 
@@ -306,15 +302,15 @@ module.exports = {
   */
 
   fontWeights: {
-    // 'hairline': 100,
-    // 'thin': 200,
-    // 'light': 300,
+    hairline: 100,
+    thin: 200,
+    light: 300,
     normal: 400,
     medium: 500,
     semibold: 600,
     bold: 700,
     extrabold: 800,
-    // 'black': 900,
+    black: 900,
   },
 
   /*
@@ -333,7 +329,7 @@ module.exports = {
     none: 1,
     tight: 1.25,
     normal: 1.5,
-    // 'loose': 2,
+    loose: 2,
   },
 
   /*
@@ -386,6 +382,25 @@ module.exports = {
 
   /*
   |-----------------------------------------------------------------------------
+  | Background sizes               https://tailwindcss.com/docs/background-size
+  |-----------------------------------------------------------------------------
+  |
+  | Here is where you define your background sizes. We provide some common
+  | values that are useful in most projects, but feel free to add other sizes
+  | that are specific to your project here as well.
+  |
+  | Class name: .bg-{size}
+  |
+  */
+
+  backgroundSize: {
+    auto: "auto",
+    cover: "cover",
+    contain: "contain",
+  },
+
+  /*
+  |-----------------------------------------------------------------------------
   | Border widths                     https://tailwindcss.com/docs/border-width
   |-----------------------------------------------------------------------------
   |
@@ -422,7 +437,7 @@ module.exports = {
   |
   */
 
-  borderColors: Object.assign({ default: colors["grey-light"] }, colors),
+  borderColors: global.Object.assign({ default: colors["grey-light"] }, colors),
 
   /*
   |-----------------------------------------------------------------------------
@@ -484,7 +499,6 @@ module.exports = {
     "32": "8rem",
     "48": "12rem",
     "64": "16rem",
-    "120": "30rem",
     "1/2": "50%",
     "1/3": "33.33333%",
     "2/3": "66.66667%",
@@ -572,7 +586,6 @@ module.exports = {
     "0": "0",
     full: "100%",
     screen: "100vh",
-    partial: "80vh",
   },
 
   /*
@@ -644,10 +657,10 @@ module.exports = {
     "2": "0.5rem",
     "3": "0.75rem",
     "4": "1rem",
-    "5": "1.125rem",
     "6": "1.5rem",
     "8": "2rem",
-    "12": "8rem",
+    "16": "4rem",
+    "32": "8rem",
   },
 
   /*
@@ -817,7 +830,12 @@ module.exports = {
   | Here is where you control which modules are generated and what variants are
   | generated for each of those modules.
   |
-  | Currently supported variants: 'responsive', 'hover', 'focus', 'group-hover'
+  | Currently supported variants:
+  |   - responsive
+  |   - hover
+  |   - focus
+  |   - active
+  |   - group-hover
   |
   | To disable a module completely, use `false` instead of an array.
   |
@@ -849,7 +867,7 @@ module.exports = {
     minHeight: ["responsive"],
     minWidth: ["responsive"],
     negativeMargin: ["responsive"],
-    opacity: ["responsive", "hover"],
+    opacity: ["responsive"],
     overflow: ["responsive"],
     padding: ["responsive"],
     pointerEvents: ["responsive"],
@@ -870,6 +888,27 @@ module.exports = {
     width: ["responsive"],
     zIndex: ["responsive"],
   },
+
+  /*
+  |-----------------------------------------------------------------------------
+  | Plugins                                https://tailwindcss.com/docs/plugins
+  |-----------------------------------------------------------------------------
+  |
+  | Here is where you can register any plugins you'd like to use in your
+  | project. Tailwind's built-in `container` plugin is enabled by default to
+  | give you a Bootstrap-style responsive container component out of the box.
+  |
+  | Be sure to view the complete plugin documentation to learn more about how
+  | the plugin system works.
+  |
+  */
+
+  plugins: [
+    require("tailwindcss/plugins/container")({
+      // center: true,
+      // padding: '1rem',
+    }),
+  ],
 
   /*
   |-----------------------------------------------------------------------------
