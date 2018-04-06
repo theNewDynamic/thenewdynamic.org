@@ -6,9 +6,13 @@
       {{- partial "tools/filters-global.html" . -}}
     </div>
 
-    <div class="wrapper">
-      {{- partial "tools/section.html" . -}}
-      {{- partial "tools/navigation-sidebar.html" . -}}
+    <div class="sm:grid grid-columns-5">
+      <div class="col-span-4">
+        {{- partial "tools/section.html" . -}}
+      </div>
+      <div class="col-span-1">
+        {{- partial "tools/navigation-sidebar.html" . -}}
+      </div>
     </div>
 
   </article>

@@ -1,15 +1,15 @@
 {{/* {{.Scratch.Set "page" .URL}} */}}
 {{ $currentPage := .URL}}
 
-<aside class="sidebar hidden md:block bg-grey-lighter mx-4">
+<aside class="sidebar hidden md:block bg-grey mx-4">
   <ul class="list-reset pb-4 pt-6">
-    {{if eq .Kind "taxonomy"}}
+
       <li class="black hover-white">
-        <a href="{{ "/tool/" | relLangURL }}" class="text-grey-dark hover:text-grey-darkest text-xl block hover:bg-grey no-underline px-2 py-2">
-          &laquo; All Tools
+        <a href="{{ "/tool/" | relLangURL }}" class="hover:bg-grey hover:text-grey-darkest lg:text-lg no-underline block px-6 py-1{{if eq $currentPage "/tool/" }} bg-grey-darker text-white{{ else }} text-grey-darkest{{ end }}">
+          All Tools
         </a>
       </li>
-    {{end}}
+
 
     {{- with .Site.Menus.tools -}}
       {{- range . -}}
@@ -37,7 +37,7 @@
 
 {{define "link"}}
   {{ $currentPage := .currentPage }}
-  <a href="{{.item.URL}}" class="hover:bg-grey hover:text-grey-darkest lg:text-2xl text-grey-dark no-underline block px-6 py-2{{if eq $currentPage .item.URL}} bg-black{{end}}">
+  <a href="{{.item.URL}}" class="hover:bg-grey hover:text-grey-darkest lg:text-lg no-underline block px-6 py-1{{if eq $currentPage .item.URL}} bg-grey-darker text-white{{ else }} text-grey-darkest{{end}}">
     {{- .item.Name -}}
 
   </a>

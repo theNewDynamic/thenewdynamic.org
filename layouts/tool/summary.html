@@ -14,8 +14,8 @@
         {{- .Title -}}
       </dt>
     {{end}}
-
-<span class="article-count{{if lt $related_links_count 1}} hidden{{end}}" title="Article Count">{{ $related_links | len }}</span>
+{{/* May want article account{{if lt $related_links_count 1}} hidden{{end}} */}}
+<span class="article-count hidden" title="Article Count">{{ $related_links | len }}</span>
       {{/* <span class="inline-block text-black">
          article{{if gt $related_links_count 1}}s{{end}}
       </span> */}}
