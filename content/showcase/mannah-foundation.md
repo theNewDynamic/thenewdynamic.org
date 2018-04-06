@@ -15,6 +15,5 @@ image_path: "/uploads/showcase/"
 images:
 - "/uploads/mannahfoundation-11ty.jpg"
 - "/uploads/showcase/"
-draft: true
 
 ---
