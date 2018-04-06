@@ -1,11 +1,9 @@
 const webpack = require("webpack")
+const path = require("path")
 const merge = require("webpack-merge")
 const common = require("./webpack.common.js")
-const ExtractTextPlugin = require("extract-text-webpack-plugin")
-const path = require("path")
-
+const MiniCssExtractPlugin = require("mini-css-extract-plugin")
 const PurgecssPlugin = require("purgecss-webpack-plugin")
-const UglifyJSPlugin = require("uglifyjs-webpack-plugin")
 const glob = require("glob-all")
 
 class TailwindExtractor {
@@ -15,20 +13,12 @@ class TailwindExtractor {
 }
 
 module.exports = merge(common, {
+  mode: "production",
   plugins: [
-    // define const production  to selectivily call scripts
+    // define production === true to selectivily call scripts
     new webpack.DefinePlugin({
-      PRODUCTION: JSON.stringify(true),
+      PRODUCTION: JSON.stringify(false),
     }),
-
-    // In production, hash our CSS
-    new ExtractTextPlugin({
-      filename: getPath => {
-        return getPath("css/[name].[contenthash].css")
-      },
-      allChunks: true,
-    }),
-    // In production, Run our CSS through PurgeCSS
     new PurgecssPlugin({
       whitelist: [
         "body",
@@ -56,11 +46,12 @@ module.exports = merge(common, {
         },
       ],
     }),
-    // UGly
-    new UglifyJSPlugin(),
-    new webpack.optimize.ModuleConcatenationPlugin(),
+    // In production, hash our CSS, here we do not
+    new MiniCssExtractPlugin({
+      filename: "css/[name].[contenthash].css",
+    }),
   ],
   output: {
-    filename: "js/[name].[chunkhash].js",
+    filename: "js/[name].[contenthash].js",
   },
 })
