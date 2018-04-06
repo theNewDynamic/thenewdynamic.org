@@ -8,13 +8,13 @@
   "license": "MIT",
   "scripts": {
     "algolia": "atomic-algolia",
-    "autotrack":"autotrack -o static/autotrack.js -p eventTracker,outboundLinkTracker,urlChangeTracker",
+    "autotrack": "autotrack -o static/autotrack.js -p eventTracker,outboundLinkTracker,urlChangeTracker",
     "version:major": "npm version major -m 'Breaking Release'",
     "version:minor": "npm version minor -m 'Feature Release'",
     "version:patch": "npm version patch -m 'bump version for fixes minor changes'",
     "bs": "browser-sync start --config 'bs-config.js'",
-    "buildp": "webpack --config webpack.prod.js --env=production",
-    "buildd": "webpack --config webpack.dev.js --env=development --progress --colors --watch",
+    "build": "webpack --config webpack.prod.js --env.NODE_ENV=production",
+    "buildd": "webpack --config webpack.dev.js --env.NODE_ENV=development --progress --colors --watch",
     "hugo": "hugo server --disableLiveReload",
     "start": "concurrently \"npm run buildd\" \"npm run bs\" \"npm run hugo\" "
   },
@@ -46,6 +46,5 @@
     "webpack-cli": "^2.0.14",
     "webpack-merge": "^4.1.1"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
