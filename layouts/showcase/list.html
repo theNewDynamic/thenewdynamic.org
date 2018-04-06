@@ -1,6 +1,7 @@
 {{ define "main" }} {{ $section := .Data.Pages }}
-  {{- partial "_components/page-content.html" . -}}
-  <article id="filter" class="center max-w-5xl mx-auto px-3 lg:px-4">
+
+  <article id="filter" class="page-list_default mx-auto">
+    {{- partial "_components/page-content.html" . -}}
 
     {{ partial "showcase/filters.html" . }}
 
