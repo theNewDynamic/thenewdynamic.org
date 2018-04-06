@@ -9,7 +9,7 @@ creator:
   - name:
     role: "Design/Development"
     url:
-    twitter_username: http://twitter.com/formidablelabs
+    twitter_username: formidablelabs
 images:
   - "/uploads/formidable.jpg"
 ---

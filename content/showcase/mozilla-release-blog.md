@@ -10,7 +10,7 @@ creator:
 - name: Mozilla
   role: Design/Development
   url: https://mozilla.org
-  twitter_username: https://twitter.com/mozilla
+  twitter_username: mozilla
 image_path: "/uploads/showcase/"
 images:
 - "/uploads/mozilla-release-blog-jekyll.png"
