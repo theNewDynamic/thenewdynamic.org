@@ -1,8 +1,15 @@
-<div class="flex flex-wrap justify-between text-lg text-grey-dark">
-  {{ with .PrevInSection }}
-    <a href="{{ .URL }}" class="hidden xl:block fixed pin-l md:mt-32 bg-grey-light hover:bg-grey hover:text-white  no-underline color-inherit px-6 py-1 rounded text-4xl" title="{{ .Title }}">&laquo;</a>
-  {{ end }}
-  {{ with .NextInSection }}
-    <a href="{{ .URL }}" class="hidden xl:block fixed pin-r md:mt-32 bg-grey-light hover:bg-grey hover:text-white no-underline color-inherit px-6 py-1 rounded text-4xl" title="{{ .Title }}">&raquo;</a>
-  {{ end }}
-</div>
+{{ with .PrevInSection }}
+  <button class="inline-block hover:bg-grey-light bg-grey-darkest text-white mb-1 pt-1 px-1 rounded hover:text-grey-darker">
+    <a href="{{ .URL }}" class="color-inherit" title="{{ .Title }}">
+      {{- partial "svg/chevron-left.svg" (dict "size" "28") -}}
+    </a>
+  </button>
+{{ end }}
+
+{{ with .NextInSection }}
+  <button class="inline-block hover:bg-grey-light bg-grey-darkest text-white mb-1 pt-1 px-1 rounded hover:text-grey-darker">
+    <a href="{{ .URL }}" class="color-inherit" title="{{ .Title }}">
+      {{- partial "svg/chevron-right.svg" (dict "size" "28") -}}
+    </a>
+  </button>
+{{ end }}
