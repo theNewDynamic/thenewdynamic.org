@@ -8,6 +8,5 @@ tools:
 - build-tool
 urls:
   website: http://gulpjs.com/
-draft: true
 
 ---
