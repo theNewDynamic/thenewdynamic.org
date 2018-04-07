@@ -1,9 +1,10 @@
 {{$js_path := $.Param "dev.js_path"}}
 {{with $js_path}}
   {{range readDir .}}
-    <script src="{{replace $js_path "static/" "/"}}/{{.Name}}" defer data-turbolinks-track="reload"></script>
+    <script src="{{replace $js_path "static/" "/"}}/{{.Name}}" defer></script>
   {{end}}
 {{end}}
+{{/* data-turbolinks-track="reload" */}}
 
 <script type="text/javascript">
 var MTIProjectId='0279604d-1ddd-4c0d-b491-eff8ca0e76df';
