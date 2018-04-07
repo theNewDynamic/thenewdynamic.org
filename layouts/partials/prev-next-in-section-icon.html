@@ -1,15 +1,10 @@
 {{ with .PrevInSection }}
-  <button class="inline-block hover:bg-grey-light bg-grey-darkest text-white mb-1 pt-1 px-1 rounded hover:text-grey-darker">
-    <a href="{{ .URL }}" class="color-inherit" title="{{ .Title }}">
-      {{- partial "svg/chevron-left.svg" (dict "size" "28") -}}
-    </a>
-  </button>
+  <a href="{{ .URL }}" class="inline-block hover:bg-grey-light bg-grey-darkest text-white mb-1 pt-1 px-1 rounded hover:text-grey-darker" title="navigate to {{ .Title }}" aria-label="Previous item in this section">
+    {{- partial "svg/chevron-left.svg" (dict "size" "28") -}}
+  </a>
 {{ end }}
-
 {{ with .NextInSection }}
-  <button class="inline-block hover:bg-grey-light bg-grey-darkest text-white mb-1 pt-1 px-1 rounded hover:text-grey-darker">
-    <a href="{{ .URL }}" class="color-inherit" title="{{ .Title }}">
-      {{- partial "svg/chevron-right.svg" (dict "size" "28") -}}
-    </a>
-  </button>
+  <a href="{{ .URL }}" class="inline-block hover:bg-grey-light bg-grey-darkest text-white mb-1 pt-1 px-1 rounded hover:text-grey-darker" title="navigate to {{ .Title }}" aria-label="Next item in this section">
+    {{- partial "svg/chevron-right.svg" (dict "size" "28") -}}
+  </a>
 {{ end }}
