@@ -17,7 +17,7 @@ module.exports = merge(common, {
   plugins: [
     // define production === true to selectivily call scripts
     new webpack.DefinePlugin({
-      PRODUCTION: JSON.stringify(false),
+      PRODUCTION: JSON.stringify(true),
     }),
     new PurgecssPlugin({
       whitelist: [
