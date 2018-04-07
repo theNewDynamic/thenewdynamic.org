@@ -15,6 +15,5 @@ image_path: "/uploads/showcase/"
 images:
 - "/uploads/visualcinnamon-hugo.png"
 - "/uploads/showcase/"
-draft: true
 
 ---
