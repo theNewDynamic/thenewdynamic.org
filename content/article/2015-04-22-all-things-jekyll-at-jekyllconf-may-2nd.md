@@ -1,14 +1,16 @@
 ---
-title: "All things Jekyll at JekyllConf"
-date: 2015-04-22T22:37:00.000Z
-posted_date: 2015-05-02T22:37:00.000Z
+title: All things Jekyll at JekyllConf
+date: 2015-04-22 22:37:00 +0000
+posted_date: 2015-05-02 22:37:00 +0000
 category: event
 slug: all-things-jekyll-at-jekyllconf-may-2nd
-source:
-description: Check out jekyllconf.com for information on the upcoming JekyllConf web-conference on  Saturday 2nd May 2015
+source: ''
+description: Check out jekyllconf.com for information on the upcoming JekyllConf web-conference
+  on  Saturday 2nd May 2015
 video: true
 tool:
-  - jekyll
+- jekyll
+
 ---
 Check out [jekyllconf.com](http://jekyllconf.com/) for information on the upcoming JekyllConf web-conference on 10am - 5pm **(PST)**, Saturday 2nd May 2015
 

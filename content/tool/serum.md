@@ -1,17 +1,17 @@
 ---
 title: Serum
-date: 2016-08-11T00:00:00.000Z
-tools: 
-  - helper
+date: 2016-08-11 00:00:00 +0000
+tools:
+- helper
 related_tool: jekyll
 urls:
-  website: 'https://chrome.google.com/webstore/detail/serum/ffboflhdigfmnnokjjcmfipgehggjhlj'
-  github: 'https://github.com/dmison/Serum'
-  twitter:
-description: A simple extension to make link-blogging to a Github-hosted Jekyll blog easy.
+  website: https://chrome.google.com/webstore/detail/serum/ffboflhdigfmnnokjjcmfipgehggjhlj
+  github: https://github.com/dmison/Serum
+  twitter: ''
+description: A simple extension to make link-blogging to a Github-hosted Jekyll blog
+  easy.
+
 ---
-
-
 A simple extension to make link-blogging to a Github-hosted Jekyll blog easy.
 
 Install it from the Chrome WebStore

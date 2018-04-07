@@ -15,4 +15,5 @@ resources:
 description: A free and open-source headless CMS
 headless-cms: API-based
 license: Open Source
+
 ---

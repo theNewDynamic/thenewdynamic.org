@@ -3,11 +3,12 @@ title: Full Stack Static
 category: event
 meetup: the-new-dynamic
 featured: false
-start_at: 2015-12-02T18:30:00.000Z
+start_at: 2015-12-02 18:30:00 +0000
 venue: Workmarket
-address:
+address: ''
 link: http://www.meetup.com/The-New-Dynamic/events/226714878/
-description: 'Joint Meetup with the New York Web Performance group (VIDEO, SLIDES)'
+description: Joint Meetup with the New York Web Performance group (VIDEO, SLIDES)
+
 ---
 #### Joint Meetup! "static is the New Dynamic" with the "NY Web Performance" Meetup.
 

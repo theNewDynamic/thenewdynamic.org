@@ -1,18 +1,15 @@
 ---
-title: "Deploying Static Sites to CloudFront"
-date: 2015-03-27T02:16:00.000Z
-posted_date: 2015-12-08T03:16:00.000Z
-editor_recommends:
+title: Deploying Static Sites to CloudFront
+date: 2015-03-27 02:16:00 +0000
+posted_date: 2015-12-08 03:16:00 +0000
+editor_recommends: ''
 content_type: Resource/Website
 slug: links/deploying-static-sites-to-cloudfront
 source: James Turk
 link: https://jamesturk.net/posts/deploying-hugo-to-cloudfront/
 tool:
-  - tool/hugo.md
-  - tool/jekyll.md
-  - tool/pelican.md
+- tool/hugo.md
+- tool/jekyll.md
+- tool/pelican.md
+
 ---
-
-
-
-

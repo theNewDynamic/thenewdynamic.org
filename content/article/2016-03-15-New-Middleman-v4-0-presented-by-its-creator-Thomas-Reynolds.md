@@ -1,16 +1,17 @@
 ---
-title: "New Middleman v4.0 presented by its creator Thomas Reynolds"
+title: New Middleman v4.0 presented by its creator Thomas Reynolds
 meetup: static-web-tech-meetup
 date: 2016-03-15 17:47:00 +0000
-start_at: 2016-03-22T19:00:00.000Z
+start_at: 2016-03-22 19:00:00 +0000
 venue: Wikia (conference room)
-address: "360 3rd Street #750, 7th floor, San Francisco, CA"
+address: '360 3rd Street #750, 7th floor, San Francisco, CA'
 link: http://www.meetup.com/sf-static-web-tech/events/229493139/
 type: event
 category: event
-description: 'About the newest, largely re-written version Middleman'
+description: About the newest, largely re-written version Middleman
 tool:
-  - middleman
+- middleman
+
 ---
 Thomas Reynolds is the Technical Director at famed Portland digital agency Instrument.
 

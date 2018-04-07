@@ -1,15 +1,16 @@
 ---
-title: "Static is the New Dynamic Meetup"
-date: 2015-06-12T03:29:00.000Z
-posted_date: 2015-06-12T03:29:00.000Z
+title: Static is the New Dynamic Meetup
+date: 2015-06-12 03:29:00 +0000
+posted_date: 2015-06-12 03:29:00 +0000
 category: event
 slug: video-and-slides-from-our-first-meetup
-source:
+source: ''
 description: Why use Static Site Generators and How they Work
 video: true
 tool:
-  - Jekyll
-  - Webhook
+- Jekyll
+- Webhook
+
 ---
 We had a great first [Meetup](http://www.meetup.com/The-New-Dynamic/events/222477212/) on June 10th, 2015. I gave a presentation on my history with static sites, why I use them, and some use-cases and examples.
 

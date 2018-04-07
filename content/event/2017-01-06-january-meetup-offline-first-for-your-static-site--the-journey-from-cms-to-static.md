@@ -1,18 +1,17 @@
 ---
 address: 118 W 22nd St. New York, NY 10011
-date: 2017-01-06T00:00:00Z
-description: null
+date: 2017-01-06 00:00:00 +0000
+description: ''
 link: https://www.meetup.com/The-New-Dynamic/events/236530076/
 meetup: the-new-dynamic
-published: true
-start_at: 2017-01-26 18:30:00
+start_at: 2017-01-26 18:30:00 +0000
 title: 'January Meetup: Offline First for your Static Site + The Journey from CMS
   to Static (video)'
-url: /2017/01/06/january-meetup-offline-first-for-your-static-site--the-journey-from-cms-to-static/
+url: "/2017/01/06/january-meetup-offline-first-for-your-static-site--the-journey-from-cms-to-static/"
 venue: Civic Hall
 video: https://youtu.be/_kJMjJ1tm6o
----
 
+---
 Looking forward to a great Meetup to kick off 2017 with Tom Kraak from AOL on coming to static sites from a CMS world, and Jeff Posnick from Google, who has been working on applying Progressive Web App techniques to static sites.
 
 **First Talk: Going Static - Early Light Media's Journey from MovableType to Jekyll and over to Roots**

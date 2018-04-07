@@ -1,15 +1,16 @@
 ---
-title: "Nodejs.org"
-date: 2015-09-28T16:47:00.000Z
+title: Nodejs.org
+date: 2015-09-28 16:47:00 +0000
 website: https://nodejs.org/en/
-repo:
+repo: ''
 related_tools:
-  - tool/metalsmith.md
+- tool/metalsmith.md
 creator:
-  - name: Node.js Foundation
-    role: "Design/Development"
-    url: https://github.com/nodejs/new.nodejs.org
-    twitter_username:
+- name: Node.js Foundation
+  role: Design/Development
+  url: https://github.com/nodejs/new.nodejs.org
+  twitter_username: 
 images:
-  - "/uploads/1446050712434_screenshot-nodejs.jpg"
+- "/uploads/1446050712434_screenshot-nodejs.jpg"
+
 ---

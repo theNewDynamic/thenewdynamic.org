@@ -2,19 +2,19 @@
 title: Grantmaker Search
 date: 2017-10-17 00:00:00 +0000
 related_tools:
-  - tool/jekyll.md
-  - tool/algolia.md
+- tool/jekyll.md
+- tool/algolia.md
 website: https://www.grantmakers.io/
 repo: https://github.com/grantmakers/grantmakers.github.io
 creator:
-  - name: SmarterGiving
-    role: 'Design/Development'
-    url: https://smartergiving.org/
-    twitter_username: smartergiving
+- name: SmarterGiving
+  role: Design/Development
+  url: https://smartergiving.org/
+  twitter_username: smartergiving
 images:
-  - "/uploads/grantmakers.jpg"
----
+- "/uploads/grantmakers.jpg"
 
+---
 > My intention with [Grantmakers.io](https://www.grantmakers.io/) is to simply
 demonstrate a new way of thinking about philanthropic data accessibility. The
 Grantmakers.io dataset along with every line of code is open source and freely

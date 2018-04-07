@@ -1,17 +1,20 @@
 ---
-title: "CMS as Code + Pushing the Limits with Static Site Tools"
-published: true
+title: CMS as Code + Pushing the Limits with Static Site Tools
 category:
-  - event-recap
-  - video
+- event-recap
+- video
 video: https://youtu.be/YU39H2WWOec
 meetup: the-new-dynamic
 date: 2017-03-07 18:30:00 +0000
 start_at: 2017-04-06 18:30:00 +0000
 venue: Carrot Creative
-address: '55 Washington St, 9th Fl Brooklyn, NY 11201'
+address: 55 Washington St, 9th Fl Brooklyn, NY 11201
 link: https://www.meetup.com/The-New-Dynamic/events/238110931/
-description: "We're heading to Brooklyn! This month we'll have two Sessions: CMS as Code by Dmytri Kleiner of Contentful, and a roundtable discussion with Kyle Mathews and Jeff Escalante, creators of two of the most advanced static build tools, Gatsby and Spike, respectively."
+description: 'We''re heading to Brooklyn! This month we''ll have two Sessions: CMS
+  as Code by Dmytri Kleiner of Contentful, and a roundtable discussion with Kyle Mathews
+  and Jeff Escalante, creators of two of the most advanced static build tools, Gatsby
+  and Spike, respectively.'
+
 ---
 We're heading to Brooklyn! This month we'll have two Sessions: "CMS as Code" by Dmytri Kleiner of Contentful, and a roundtable discussion with Kyle Mathews and Jeff Escalante, creators of two of the most advanced static build tools, Gatsby and Spike, respectively.
 

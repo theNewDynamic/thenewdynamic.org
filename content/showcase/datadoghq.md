@@ -1,16 +1,17 @@
 ---
-title: "Datadoghq"
-date: 2018-02-13T13:54:01+01:00
+title: Datadoghq
+date: 2018-02-13 13:54:01 +0100
 related_tools:
-  - tool/hugo.md
-  - tool/aws.md
+- tool/hugo.md
+- tool/aws.md
 website: https://www.datadoghq.com/
 repo: https://github.com/DataDog/documentation
 creator:
-  - name:
-    role: "Design/Development"
-    url:
-    twitter_username:
+- name: 
+  role: Design/Development
+  url: 
+  twitter_username: 
 images:
-  - "/uploads/datadoghq.jpg"
+- "/uploads/datadoghq.jpg"
+
 ---

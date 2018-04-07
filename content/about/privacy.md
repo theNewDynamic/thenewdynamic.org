@@ -1,6 +1,11 @@
 ---
-title: "Privacy"
-date: 2017-03-02T12:00:00-05:00
+title: Privacy
+date: 2017-03-02 12:00:00 -0500
+menu:
+  secondary:
+    identifier: privacy
+    weight: 1
+
 ---
 We will never sell, rent or share your personal information with a 3rd party, especially your email addresses and phone numbers, without your express permission, unless required by law.
 

@@ -1,17 +1,18 @@
 ---
-title: "Static sites go all Hollywood"
-date: 2015-09-22T15:13:00.000Z
-posted_date: 2015-09-22T15:13:00.000Z
-editor_recommends:
+title: Static sites go all Hollywood
+date: 2015-09-22 15:13:00 +0000
+posted_date: 2015-09-22 15:13:00 +0000
+editor_recommends: ''
 content_type: Video/Presentation
 slug: links/static-sites-go-all-hollywood
 source: Phil Hawksworth
 link: https://speakerdeck.com/philhawksworth/static-sites-go-all-hollywood/
 tool:
-  - tool/jekyll.md
-  - tool/contentful.md
-  - tool/netlify.md
-  - tool/hugo.md
+- tool/jekyll.md
+- tool/contentful.md
+- tool/netlify.md
+- tool/hugo.md
+
 ---
 The popularity of building web sites with static site generators is on the rise. Their reduced complexity, easier compliance, cheaper hosting, and other benefits are getting people’s attention, but they do have limits.
 

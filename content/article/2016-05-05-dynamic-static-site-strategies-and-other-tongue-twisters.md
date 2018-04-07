@@ -1,14 +1,16 @@
 ---
-title: "Dynamic Site Strategies (and Other Tongue Twisters)"
-published: false
-date: 2016-06-15T12:00:00.000Z
+title: Dynamic Site Strategies (and Other Tongue Twisters)
+date: 2016-06-15 12:00:00 +0000
 category:
-  - event-recap
-start_at: 2016-06-15T11:30:00.000Z
+- event-recap
+start_at: 2016-06-15 11:30:00 +0000
+description: Explore some unexpected capabilities and characteristics of 'static'
+  sites
 venue: Smashing Conference, NYC
-address:
+address: ''
 link: http://smashingconf.com/schedule/day:wednesday#phil-hawksworth
-description: "Explore some unexpected capabilities and characteristics of 'static' sites"
+draft: true
+
 ---
 Are we over-engineering? What is the real effort in developing, hosting and maintaining sites which have many moving parts? The cost of serving static sites has never been lower. And front-end development practices have never been richer. Couldn't we harness this better and make life simpler without dumbing down?
 

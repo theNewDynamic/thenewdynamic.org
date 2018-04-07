@@ -1,14 +1,15 @@
 ---
-title: "Operation Disassemble &amp; Diversify"
-date: 2014-03-26T02:10:00.000Z
-posted_date: 2015-05-02T02:11:00.000Z
-editor_recommends:
+title: Operation Disassemble &amp; Diversify
+date: 2014-03-26 02:10:00 +0000
+posted_date: 2015-05-02 02:11:00 +0000
+editor_recommends: ''
 content_type: News
 slug: links/operation-disassemble-diversify
 source: DocPad
 link: https://github.com/docpad/docpad/issues/821
 tool:
-  - tool/docpad.md
+- tool/docpad.md
+
 ---
 The future of DocPad
 

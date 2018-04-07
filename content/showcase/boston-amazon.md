@@ -1,17 +1,18 @@
 ---
 title: City of Boston Amazon Proposal
-date: 2018-01-22T12:10:00.000Z
+date: 2018-01-22 12:10:00 +0000
 related_tools:
- - tool/gatsby.md
+- tool/gatsby.md
 website: https://amazon.boston.gov/
-repo:
+repo: ''
 creator:
-  - name:
-    role: 'Design/Development'
-    url:
-    twitter_username:
+- name: 
+  role: Design/Development
+  url: 
+  twitter_username: 
 images:
-  - "/uploads/showcase-gatsby-city-of-boston.jpg"
+- "/uploads/showcase-gatsby-city-of-boston.jpg"
+
 ---
 When Amazon announced in September that it was looking to build a new headquarters, bringing 50,000 jobs and billions of investment to the chosen city, Boston’s city government jumped to throw their hat in the ring.
 

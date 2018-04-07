@@ -14,4 +14,5 @@ resources:
 description: A robust API and intuitive dashboard for any kind of content.
 tags: []
 headless-cms: API-based
+
 ---

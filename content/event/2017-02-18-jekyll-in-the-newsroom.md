@@ -1,19 +1,18 @@
 ---
 address: 118 W 22nd St. New York, NY 10011
-date: 2017-02-18T18:30:00Z
+date: 2017-02-18 18:30:00 +0000
 description: 'It’s all about Jekyll and journalism: Find out how ProPublica uses Jekyll
   and Grunt to report some of its biggest stories, including everything from helping
   a network of over 1,000 journalists cover Election Day in real time...'
 link: https://www.meetup.com/The-New-Dynamic/events/237626879/
 meetup: the-new-dynamic
-published: true
-start_at: 2017-03-01 18:30:00
+start_at: 2017-03-01 18:30:00 +0000
 title: Jekyll in the Newsroom
-url: /2017/02/18/jekyll-in-the-newsroom/
+url: "/2017/02/18/jekyll-in-the-newsroom/"
 venue: Civic Hall
 video: https://youtu.be/J42wQ1hMfaQ
----
 
+---
 It’s all about Jekyll and journalism: Find out how ProPublica uses Jekyll and Grunt to report some of its biggest stories, including everything from helping a network of over 1,000 journalists cover Election Day in real time (on the site "Electionland"), to telling the sordid tale of how a U.S. company helped aid a notorious warlord—and everything in between.
 
 About David Sleight:

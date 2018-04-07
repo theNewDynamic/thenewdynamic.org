@@ -1,19 +1,18 @@
 ---
 address: 55 Washington St, 9th Fl Brooklyn, NY 11201
-date: 2017-03-09T18:30:00Z
+date: 2017-03-09 18:30:00 +0000
 description: 'We''re heading to Brooklyn! This month we''ll have two Sessions: CMS
   as Code by Dmytri Kleiner of Contentful, and a roundtable discussion with Kyle Mathews
   and Jeff Escalante, creators of two of the most advanced static build tools, Gatsby
   and Spike, respectively.'
 link: https://www.meetup.com/The-New-Dynamic/events/238110931/
 meetup: the-new-dynamic
-published: true
-start_at: 2017-04-06 18:30:00
+start_at: 2017-04-06 18:30:00 +0000
 title: CMS as Code + Pushing the Limits with Static Site Tools
-url: /2017/03/09/cms-as-code-roundtable-discussion/
+url: "/2017/03/09/cms-as-code-roundtable-discussion/"
 venue: Carrot Creative
----
 
+---
 We're heading to Brooklyn! This month we'll have two Sessions: "CMS as Code" by Dmytri Kleiner of Contentful, and a roundtable discussion with Kyle Mathews and Jeff Escalante, creators of two of the most advanced static build tools, Gatsby and Spike, respectively.
 
 We'll begin Dmytri's presentation and then, after a brief demo of the tools they've created, we'll have a discussion. Bring your questions!

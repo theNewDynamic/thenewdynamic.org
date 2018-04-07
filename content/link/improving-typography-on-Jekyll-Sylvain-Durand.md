@@ -1,11 +1,12 @@
 ---
-title: "Improving typography on Jekyll"
+title: Improving typography on Jekyll
 source: Sylvain Durand
 date: 2016-02-29 18:46:00 +0000
 link: https://www.sylvaindurand.org/improving-typography-on-jekyll/
 content_type: Tutorial
 tool:
-  - tool/jekyll.md
+- tool/jekyll.md
+
 ---
 Observing typographical rules on the Internet is not always easy: although Unicode reserves many areas of characters for typographic symbols, many punctuation marks and spaces are most of the time unused.
 

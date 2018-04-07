@@ -1,12 +1,12 @@
 ---
-title: "Community"
-date: 2018-02-16T14:08:14-05:00
-tags:
-images: ""
-description: ""
+title: Community
+date: 2018-02-16 14:08:14 -0500
+tags: []
+images: ''
+description: ''
+type: page
 
 ---
-
 To list here:
 
 Meetups

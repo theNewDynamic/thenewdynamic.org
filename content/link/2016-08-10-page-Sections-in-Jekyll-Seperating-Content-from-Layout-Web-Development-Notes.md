@@ -1,11 +1,12 @@
 ---
-title: "Page Sections in Jekyll - Seperating Content from Layout"
+title: Page Sections in Jekyll - Seperating Content from Layout
 source: David Egan
 date: 2016-08-10 12:15:00 +0000
 link: http://dev-notes.eu/2016/08/page-sections-in-jekyll-seperating-content-from-layout/
 content_type: Tutorial
 tool:
-  - tool/jekyll.md
+- tool/jekyll.md
+
 ---
 Achieving separation is pretty straightforward with single page/post/collection views - just define a custom template and inject the content from a markdown file (from yaml frontmatter and the main content field).
 

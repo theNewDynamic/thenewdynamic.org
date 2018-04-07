@@ -1,12 +1,14 @@
 ---
-title: "How do Static Site Generators Work?"
-date: 2015-11-10T15:22:00.000Z
-posted_date: 2015-11-10T15:22:00.000Z
+title: How do Static Site Generators Work?
+date: 2015-11-10 15:22:00 +0000
+posted_date: 2015-11-10 15:22:00 +0000
 category: article
 slug: how-do-static-site-generators-work
-source:
-excerpt: A brief overview of how a typical static site generator converts markdown files into fully formed HTML files.
-tool:
+source: ''
+excerpt: A brief overview of how a typical static site generator converts markdown
+  files into fully formed HTML files.
+tool: ''
+
 ---
 ### CONTENT IN
 

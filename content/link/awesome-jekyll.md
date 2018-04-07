@@ -1,14 +1,15 @@
 ---
-title: "Awesome Jekyll"
-date: 2015-05-11T12:10:00.000Z
-posted_date: 2015-05-15T12:10:00.000Z
-editor_recommends:
+title: Awesome Jekyll
+date: 2015-05-11 12:10:00 +0000
+posted_date: 2015-05-15 12:10:00 +0000
+editor_recommends: ''
 content_type: Resource/Website
 slug: links/awesome-jekyll
 source: Gerald Bauer
 link: https://github.com/planetjekyll/awesome-jekyll/
 tool:
-  - tool/jekyll.md
+- tool/jekyll.md
+
 ---
 A collection of awesome Jekyll goodies (tools, templates, plugins, guides, etc.)
 

@@ -20,5 +20,4 @@ resources: []
 cat_test: ''
 
 ---
-
 See also Cloudcannon's [Jekyll Cheat Sheet](https://learn.cloudcannon.com/jekyll-cheat-sheet/ "Jekyll Cheat Sheet")

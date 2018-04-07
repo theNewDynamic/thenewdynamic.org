@@ -1,17 +1,14 @@
 ---
-title: "How to Post a Jekyll Content Form to Slack"
-date: 2015-09-13T15:26:00.000Z
-posted_date: 2015-10-15T15:26:00.000Z
-editor_recommends:
+title: How to Post a Jekyll Content Form to Slack
+date: 2015-09-13 15:26:00 +0000
+posted_date: 2015-10-15 15:26:00 +0000
+editor_recommends: ''
 content_type: Tutorial
 slug: links/how-to-post-a-jekyll-content-form-to-slack
-source:
+source: ''
 link: http://www.aerobatic.com/blog/post-a-jekyll-contact-form-to-slack.html
 tool:
-  - tool/jekyll.md
-  - tool/aerobatic.md
+- tool/jekyll.md
+- tool/aerobatic.md
+
 ---
-
-
-
-

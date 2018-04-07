@@ -14,5 +14,6 @@ resources:
 description: Next Generation Headless CMS
 tags: []
 headless-cms: API-based
+
 ---
 Create your content with powerful editing tools and access it from anywhere with a GraphQL or REST API. Stop letting your CMS decide how you build your apps.

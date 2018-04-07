@@ -1,16 +1,18 @@
 ---
 title: ABE CMS
-date: 2017-02-19T12:12:00.000Z
+date: 2017-02-19 12:12:00 +0000
 tools:
- - content-management
+- content-management
 urls:
-  website:
+  website: ''
   github: https://github.com/abecms/abecms
-  twitter:
+  twitter: ''
 headless-cms: API-based
 resources:
-  - name: ''
-    url: ''
-description: Abe is your static websites generator with revolutionnary self-descriptive templates
+- name: ''
+  url: ''
+description: Abe is your static websites generator with revolutionnary self-descriptive
+  templates
+
 ---
 Static site generator with a built-in content management system.

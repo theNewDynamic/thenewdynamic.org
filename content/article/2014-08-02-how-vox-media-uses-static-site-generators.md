@@ -1,13 +1,15 @@
 ---
-title: "How Vox Media uses Static Site Generators"
-date: 2014-08-02T22:09:00.000Z
-posted_date: 2015-05-02T22:09:00.000Z
+title: How Vox Media uses Static Site Generators
+date: 2014-08-02 22:09:00 +0000
+posted_date: 2015-05-02 22:09:00 +0000
 category: article
 slug: how-vox-media-uses-static-site-generators
-source:
-excerpt: Here's the forward thinking Vox Media on their use of Middleman as part of their publishing strategy
+source: ''
+excerpt: Here's the forward thinking Vox Media on their use of Middleman as part of
+  their publishing strategy
 tool:
-  - Middleman
+- Middleman
+
 ---
 I'm constantly on the lookout for sophisticated and interesting uses of static site generators. Here's the forward thinking Vox Media on their use of Middleman as part of their publishing strategy:
 

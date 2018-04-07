@@ -1,16 +1,17 @@
 ---
 title: GoCommerce
-date: 2017-11-14T12:12:00.000Z
+date: 2017-11-14 12:12:00 +0000
 tools:
-  - interaction
+- interaction
 urls:
   website: https://www.gocommerceapi.org/
   github: https://github.com/netlify/gocommerce
-  twitter:
+  twitter: ''
 resources:
-  - name: ''
-    url: ''
-description: A headless e-commerce for JAMstack sites 
+- name: ''
+  url: ''
+description: A headless e-commerce for JAMstack sites
+
 ---
 A small go based API for static e-commerce sites.
 

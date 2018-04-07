@@ -1,3 +1,5 @@
 ---
-title: "Job Board"
+title: Job Board
+type: page
+
 ---

@@ -1,12 +1,14 @@
 ---
-title: "Dynamic Static Site Strategies (and Other Tongue Twisters)"
-date: 2016-06-15T11:20:00.000Z
-start_at: 2016-06-15T11:20:00.000Z
+title: Dynamic Static Site Strategies (and Other Tongue Twisters)
+date: 2016-06-15 11:20:00 +0000
+start_at: 2016-06-15 11:20:00 +0000
 category: event
-link: "http://smashingconf.com/ny-2016/speakers/phil-hawksworth"
+link: http://smashingconf.com/ny-2016/speakers/phil-hawksworth
 video: https://vimeo.com/174172567
-venue: "Smashing Conference"
-description: "Explore some unexpected capabilities and characteristics of “static” sites"
+venue: Smashing Conference
+description: Explore some unexpected capabilities and characteristics of “static”
+  sites
+
 ---
 A(nother!) talk by Phil Hawks­worth:
 

@@ -1,13 +1,14 @@
 ---
-title: "Tipue"
-date: 2015-05-16T22:55:00.000Z
-posted_date: 2015-05-16T22:55:00.000Z
+title: Tipue
+date: 2015-05-16 22:55:00 +0000
+posted_date: 2015-05-16 22:55:00 +0000
 featured: false
 slug: tipue
-tools: 
-  - interaction
+tools:
+- interaction
 urls:
   website: http://www.tipue.com/search/
+
 ---
 Tipue Search is a site search engine jQuery plugin. It's free, open source, responsive and fast.
 

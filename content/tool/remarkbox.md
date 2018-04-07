@@ -1,16 +1,17 @@
 ---
 title: Remarkbox
-date: 2017-10-22
+date: 2017-10-22 00:00:00 +0000
 tools:
-  - interaction
+- interaction
 license: Commercial
 urls:
   website: https://www.remarkbox.com/
-  github:
+  github: ''
   twitter: https://twitter.com/remarkbox
 resources:
-  - name: ''
-    url: ''
+- name: ''
+  url: ''
 description: Remarkbox offers a comment system to keep readers engaged with your content.
+
 ---
 Remarkbox offers a comment system to help engage readers with your content. It works everywhere, even static sites.

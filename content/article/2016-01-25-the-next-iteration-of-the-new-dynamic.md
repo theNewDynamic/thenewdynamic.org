@@ -1,8 +1,9 @@
 ---
 title: The Next Iteration of The New Dynamic
-date: 2016-01-25T19:09:00.000Z
+date: 2016-01-25 19:09:00 +0000
 category: article
-description: "Jekyll, Netlify, CloudCannon, job board coming soon"
+description: Jekyll, Netlify, CloudCannon, job board coming soon
+
 ---
 Always a work in progress, I've switched the site back to Jekyll. [Jekyll 3.1](http://jekyllrb.com/news/2016/01/24/jekyll-3-1-0-released/) is a fast (**significantly** faster than 2.4) and capable beast, but as always, has its nuances, so I feel I need to spend some quality tinkering time with it.
 

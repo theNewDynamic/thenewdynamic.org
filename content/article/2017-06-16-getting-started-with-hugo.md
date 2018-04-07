@@ -1,15 +1,19 @@
 ---
-title: "Getting Started with Hugo: The world’s fastest framework for building websites."
-published: true
+title: 'Getting Started with Hugo: The world’s fastest framework for building websites.'
 category:
-  - event
+- event
 meetup: the-new-dynamic
-video:
-start_at: 2017-06-29 18:00:00
+video: ''
+start_at: 2017-06-29 18:00:00 +0000
 venue: Spark Labs
-address: '25 W 39th Street, 14th Floor New York, NY 10018'
-link: "https://www.meetup.com/JAMstack-nyc/events/240821007/"
-description: "In partnership with Reboot, this is a complete workshop for building sites with Hugo. We’ll cover why build static sites instead of traditional CMS-driven websites along with the concept of JAMstack, and what's so special about Hugo; We'll start with reviewing themes, content structure, basic templating, deployment and hosting."
+address: 25 W 39th Street, 14th Floor New York, NY 10018
+link: https://www.meetup.com/JAMstack-nyc/events/240821007/
+description: In partnership with Reboot, this is a complete workshop for building
+  sites with Hugo. We’ll cover why build static sites instead of traditional CMS-driven
+  websites along with the concept of JAMstack, and what's so special about Hugo; We'll
+  start with reviewing themes, content structure, basic templating, deployment and
+  hosting.
+
 ---
 In partnership with Reboot, this is a complete workshop for building sites with Hugo. We’ll cover why build static sites instead of traditional CMS-driven websites along with the concept of JAMstack, and what's so special about Hugo; We'll start with reviewing themes, content structure, basic templating, deployment and hosting. At the end of this workshop you will have a working  website online. This is part one in a three part series of workshops.
 

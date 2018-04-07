@@ -1,14 +1,14 @@
 ---
 title: Real World Content Strategy With Jekyll
-subtitle: 'Conference talk from Jekyllconf (video, slides)'
+subtitle: Conference talk from Jekyllconf (video, slides)
 meetup: the-new-dynamic
-video: 'https://youtu.be/A1nTuNjoNbg'
+video: https://youtu.be/A1nTuNjoNbg
 description: Video and slides from JekyllConf 2016
 tags:
-  - conferences
-  - Jekyll
----
+- conferences
+- Jekyll
 
+---
 I'm honored to have been part of the second annual [Jekyll Conference](http://jekyllconf.com/), hosted by [Cloudcannon](http://cloudcannon.com/)&nbsp;on Saturday, May 7th. There was a great and diverse range of views and use-cases discussed from people all over the world. It's so interesting to see how people approach this flexible tool, and also to hear how avid people are about it.
 
 Here are my slides and the video from the talk, and you can find everyone else's at the [Jekyllconf](http://jekyllconf.com/) website.

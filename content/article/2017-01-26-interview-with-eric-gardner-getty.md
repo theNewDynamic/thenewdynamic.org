@@ -1,14 +1,14 @@
 ---
 title: Interview with Eric Gardner, Getty Publications
-published: true
 date: 2017-01-26 11:30:00 +0000
 category: Article
-meetup:
-start_at:
-venue:
-address:
-link:
-description:
+meetup: ''
+start_at: ''
+venue: ''
+address: ''
+link: ''
+description: ''
+
 ---
 Following the publication of [the digital publishing workflow based on Git and Middleman of a publisher](http://blogs.getty.edu/iris/an-editors-view-of-digital-publishing/), [Antoine Fauchié](https://www.quaternum.net) asked a few questions to [Eric Gardner](http://egardner.github.io/), developer and designer in the [Digital Publishing team](http://www.getty.edu/publications/digital/index.html) at Getty Publications.
 

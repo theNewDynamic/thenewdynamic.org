@@ -1,12 +1,12 @@
 ---
-title: "Getting Started with Static Site Generators"
-date: 2014-07-26T22:08:00.000Z
-posted_date: 2015-05-02T22:08:00.000Z
+title: Getting Started with Static Site Generators
+date: 2014-07-26 22:08:00 +0000
+posted_date: 2015-05-02 22:08:00 +0000
 category: article
 slug: getting-started-with-static-site-generators
-source:
+source: ''
+tool: ''
 
-tool:
 ---
 Here are some of the blog posts that first got me excited about the potential for static site generators:
 

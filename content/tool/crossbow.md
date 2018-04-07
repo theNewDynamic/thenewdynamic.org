@@ -1,12 +1,13 @@
 ---
-title: "Crossbow"
-draft: true
-date: 2015-05-08T22:00:00.000Z
-posted_date: 2015-05-08T22:00:00.000Z
+title: Crossbow
+date: 2015-05-08 22:00:00 +0000
+posted_date: 2015-05-08 22:00:00 +0000
 featured: false
 slug: crossbow
 tools:
-  - static-site-generator
+- static-site-generator
 urls:
   github: https://github.com/Crossbow-js/crossbow
+draft: true
+
 ---

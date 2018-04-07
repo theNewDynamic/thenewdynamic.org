@@ -1,21 +1,20 @@
 ---
-title: "Getty Museum's Ancient Terracottas"
-date: 2016-02-04T03:47:00.000Z
-website: 'http://www.getty.edu/publications/terracottas/'
-repo:
+title: Getty Museum's Ancient Terracottas
+date: 2016-02-04 03:47:00 +0000
+website: http://www.getty.edu/publications/terracottas/
+repo: ''
 related_tools:
-  - tool/middleman.md
-  - tool/lunrjs.md
+- tool/middleman.md
+- tool/lunrjs.md
 creator:
-  - name: 'Eric Gardner, Getty Museum'
-    role: 'Design/Development'
-    url: 'http://egardner.github.io/'
-    twitter_username:
+- name: Eric Gardner, Getty Museum
+  role: Design/Development
+  url: http://egardner.github.io/
+  twitter_username: 
 images:
-  - "/uploads/getty-museum-ancient-terracottas-1600.jpg"
+- "/uploads/getty-museum-ancient-terracottas-1600.jpg"
+
 ---
-
-
 Static site generators are great for a lot of things but I'm especially excited about their potential in the world of book publishing. Most small publishers don't have the resources to maintain a new server-side application every time they want to publish a new book. And for us as a museum, the long-term availability of the content is an important concern. But the bar is set very high by the beautiful print books people are accustomed to, so delivering a poor experience in the name of long-term sustainability is not an option either.
 
 I think that's where tools like Middleman really shine. There is a master set of content files (Markdown and YAML docs) and then a series of different output formats are auto-generated as necessary. Write once, put it in version control, and publish anywhere – that's the dream, and I think it's becoming doable.

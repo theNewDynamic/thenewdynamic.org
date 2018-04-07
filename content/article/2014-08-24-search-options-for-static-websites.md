@@ -1,12 +1,12 @@
 ---
-title: "Search Options for Static Websites"
-date: 2014-08-24T22:10:00.000Z
-posted_date: 2015-05-02T22:10:00.000Z
+title: Search Options for Static Websites
+date: 2014-08-24 22:10:00 +0000
+posted_date: 2015-05-02 22:10:00 +0000
 category: article
 slug: search-options-for-static-websites
-source:
+source: ''
+tool: ''
 
-tool:
 ---
 Here are some options for adding search and/or filters to your static website. These have various approaches, costs and ease of implementation.
 

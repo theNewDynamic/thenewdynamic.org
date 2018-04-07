@@ -1,15 +1,16 @@
 ---
-title: "JekyllConf"
-date: 2016-05-05T12:01:00.000Z
-start_at: 2016-05-07T10:00:00.000Z
+title: JekyllConf
+date: 2016-05-05 12:01:00 +0000
+start_at: 2016-05-07 10:00:00 +0000
 category:
-  - event-recap
+- event-recap
+link: http://jekyllconf.com/
 venue: JekyllCOnf Online
 video: https://www.youtube.com/playlist?list=PLrxYIq_0LFJdi2HJ6lnY4nm7ewu221hyS
-link: http://jekyllconf.com/
-description: "The free, online global conference for all things Jekyll (videos)"
+description: The free, online global conference for all things Jekyll (videos)
 tool:
-  - Jekyll
+- Jekyll
+
 ---
 ## Details
 Vidoes for the conference are posted on the website, and Youtube. Here's a link to the [Youtube playlist](https://www.youtube.com/playlist?list=PLrxYIq_0LFJdi2HJ6lnY4nm7ewu221hyS).

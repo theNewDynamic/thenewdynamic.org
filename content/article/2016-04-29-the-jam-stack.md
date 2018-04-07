@@ -1,10 +1,10 @@
 ---
-title: "The JAM Stack"
-published: true
-start_at: 2016-04-06T12:00:00.000Z
-description: "Netlify CEO Mathias Biilmann speaking at SmashingConf on the JAM Stack."
+title: The JAM Stack
+start_at: 2016-04-06 12:00:00 +0000
+description: Netlify CEO Mathias Biilmann speaking at SmashingConf on the JAM Stack.
 video: https://vimeo.com/163522126
-date: "2016-04-29 15:29:10 -0400"
+date: 2016-04-29 15:29:10 -0400
+
 ---
 [Netlify](https://www.netlify.com/) CEO Mathias Biilmann (_n.b. this site is hosted with Netlify_) gave a talk at [Smashing Conference](http://smashingconf.com/sf-2016/speakers/mathias-biilman) in San Francisco last week. This is not only a great discussion of the need for and growth of the static web stack, but Mathias has really encapsulated the bigger picture that static sites and apps fit into with what he describes, compellingly, as the "JAM (Javascript, APIs, and Markup) Stack."
 

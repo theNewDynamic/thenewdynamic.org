@@ -1,15 +1,16 @@
 ---
 title: Boris FX
-date: 2017-10-05
+date: 2017-10-05 00:00:00 +0000
 related_tools:
-  - tool/hugo.md
+- tool/hugo.md
 website: http://borisfx.com/
-repo:
+repo: ''
 creator:
-  - name:
-    role: 'Design/Development'
-    url:
-    twitter_username:
+- name: 
+  role: Design/Development
+  url: 
+  twitter_username: 
 images:
-  - "/uploads/borisfx.jpg"
+- "/uploads/borisfx.jpg"
+
 ---

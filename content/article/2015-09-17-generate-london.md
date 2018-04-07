@@ -1,13 +1,14 @@
 ---
-title: "Generate London: Break through the limits of static site generators"
+title: 'Generate London: Break through the limits of static site generators'
 category: event
-meetup:
-start_at: 2015-09-17T19:00:00.000Z
+meetup: ''
+start_at: 2015-09-17 19:00:00 +0000
 venue: Generate London
-address:
+address: ''
 link: http://www.creativebloq.com/web-design/break-through-limits-static-site-generators-61515155
 video: true
-description:
+description: ''
+
 ---
 By Phil Hawksworth
 

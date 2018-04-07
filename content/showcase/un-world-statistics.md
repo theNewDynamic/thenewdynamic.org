@@ -1,15 +1,16 @@
 ---
-title: "UN World Statistics"
-date: 2015-06-27T13:22:00.000Z
+title: UN World Statistics
+date: 2015-06-27 13:22:00 +0000
 website: https://worldstatisticsday.org/
-repo:
+repo: ''
 related_tools:
-  - tool/jekyll.md
+- tool/jekyll.md
 creator:
-  - name: United Nations
-    role: 'Design/Development'
-    url:
-    twitter_username:
+- name: United Nations
+  role: Design/Development
+  url: 
+  twitter_username: 
 images:
-  - "/uploads/1445952048351_screenshot-un-statistics-static-site.jpg"
+- "/uploads/1445952048351_screenshot-un-statistics-static-site.jpg"
+
 ---

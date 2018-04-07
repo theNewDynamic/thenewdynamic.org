@@ -1,16 +1,17 @@
 ---
 title: Isso
-date: 2017-02-24
+date: 2017-02-24 00:00:00 +0000
 tools:
- - interaction
+- interaction
 urls:
   website: https://posativ.org/isso/
-  github:
-  twitter:
+  github: ''
+  twitter: ''
 resources:
-  - name: ''
-    url: ''
+- name: ''
+  url: ''
 description: Isso is a commenting server similar to Disqus
+
 ---
 **Comments written in Markdown**
 

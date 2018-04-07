@@ -14,6 +14,7 @@ resources:
 description: Easy for Content Editors + Powerful for Developers
 tags: []
 headless-cms: API-based
+
 ---
 Cloud CMS is a headless, API-first approach to content management, built around JSON and a high performance cloud architecture. It delivers enterprise features, including flexible content models and a full editorial environment, allowing your business users create, manage and publish fresh content with ease.
 

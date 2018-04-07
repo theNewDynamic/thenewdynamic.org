@@ -1,17 +1,19 @@
 ---
-title: "Migrating to Static, with Brian Rinaldi, author of “Working with Static Sites”"
-published: true
+title: Migrating to Static, with Brian Rinaldi, author of “Working with Static Sites”
 category:
-  - event-recap
-  - video
+- event-recap
+- video
 meetup: the-new-dynamic
 video: https://youtu.be/XjPZWh9oV7E
 date: 2017-05-15 18:30:00 +0000
 start_at: 2017-05-23 18:30:00 +0000
 venue: Vector Media
-address: '18 W 21st St Fl 8, New York, NY'
+address: 18 W 21st St Fl 8, New York, NY
 link: https://www.meetup.com/The-New-Dynamic/events/239893056/
-description: "Perhaps you're intrigued by static sites but can't imagine going through the manual labor of extracting your current content into a new tool. Well - good news - most static site generators have some sort of migration tools..."
+description: Perhaps you're intrigued by static sites but can't imagine going through
+  the manual labor of extracting your current content into a new tool. Well - good
+  news - most static site generators have some sort of migration tools...
+
 ---
 Short notice on this talk, but we're delighted to have Brian Rinaldi speak. Brian is the author of O'Reilly's "Working with Static Sites."
 

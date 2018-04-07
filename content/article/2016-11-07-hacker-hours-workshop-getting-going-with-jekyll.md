@@ -1,17 +1,16 @@
 ---
 title: 'Hacker Hours Workshop: Getting going with Jekyll'
-published: true
 category:
-  - event
+- event
 meetup: the-new-dynamic
-start_at: 2016-11-10 14:00:00
+start_at: 2016-11-10 14:00:00 +0000
 venue: Civic Hall
-address: '156 5th Ave. New York, NY 10010'
-link: 'https://www.meetup.com/The-New-Dynamic/events/235271051/'
-description: “Getting Going with Jekyll” is a beginner to intermediate workshop on building a website using the Jekyll static site generator.
+address: 156 5th Ave. New York, NY 10010
+link: https://www.meetup.com/The-New-Dynamic/events/235271051/
+description: "“Getting Going with Jekyll” is a beginner to intermediate workshop on
+  building a website using the Jekyll static site generator."
+
 ---
-
-
 Last month we took a dive into javascript and APIs, so this month, in collaboration with the Hacker Hours Meetup, let's spend some time working with one of the most popular static site generators around, Jekyll.
 
 “Getting Going with Jekyll” is a beginner to intermediate workshop on building a website using the Jekyll static site generator. Not just for blogs, Jekyll is adept at handling a wide variety of projects from simple to complex. Jekyll enjoys a wide and avid user base and a large ecosystem.

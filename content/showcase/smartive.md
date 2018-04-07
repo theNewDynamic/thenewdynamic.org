@@ -1,17 +1,16 @@
 ---
 title: Smartive
-date: 2017-10-06
+date: 2017-10-06 00:00:00 +0000
 related_tools:
-  - tool/gatsby.md
+- tool/gatsby.md
 website: https://smartive.ch/
-# repo: https://github.com/adHawk/adhawk-website (private)
 creator:
-  - name: Smartive
-    role: 'Design/Development'
-    url:
-    twitter_username: smartive_ch
+- name: Smartive
+  role: Design/Development
+  url: 
+  twitter_username: smartive_ch
 images:
-  - "/uploads/smartive-gatsby.jpg"
----
+- "/uploads/smartive-gatsby.jpg"
 
+---
 At smartive we always saw the potential of static site generators. After using Wintersmith and Next.js we recently made the switch to Gatsby.js for our company site. A decision we don’t regret. [Here’s why.](https://blog.smartive.ch/smartive-ch-goes-gatsby-js-27a056b3b817)

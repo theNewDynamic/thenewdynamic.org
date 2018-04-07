@@ -1,13 +1,14 @@
 ---
-title: "Cloudflare for Static Sites"
-date: 2015-07-26T02:44:00.000Z
+title: Cloudflare for Static Sites
+date: 2015-07-26 02:44:00 +0000
 category: article
-posted_date: 2015-07-26T02:44:00.000Z
+posted_date: 2015-07-26 02:44:00 +0000
 slug: cloudflare-for-static-sites
-source:
+source: ''
 excerpt: I've found Cloudflare to be quite useful for static sites.
 tool:
-  - CloudFlare
+- CloudFlare
+
 ---
 I've found [Cloudflare](https://www.cloudflare.com/) to be quite useful for all the sites I manage, including static sites. Aside from their great service, I like keeping DNS information for the sites I manage in one place. When you change DNS settings at Cloudflare, the changes happen very quickly.
 

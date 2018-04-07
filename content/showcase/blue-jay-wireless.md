@@ -1,15 +1,16 @@
 ---
 title: Blue Jay Wireless
-date: 2016-06-08T00:00:00.000Z
+date: 2016-06-08 00:00:00 +0000
 related_tools:
-  - tool/phenomic.md
-website: 'https://bluejaywireless.com/'
-repo:
+- tool/phenomic.md
+website: https://bluejaywireless.com/
+repo: ''
 creator:
-  - name: Big D Creative
-    role: 'Design, Development'
-    url: http://www.bigdcreative.com/
-    twitter_username:
+- name: Big D Creative
+  role: Design, Development
+  url: http://www.bigdcreative.com/
+  twitter_username: 
 images:
-  - "/uploads/blue-jay-wireless.png"
+- "/uploads/blue-jay-wireless.png"
+
 ---

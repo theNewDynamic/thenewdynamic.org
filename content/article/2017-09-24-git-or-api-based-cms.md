@@ -1,16 +1,18 @@
 ---
-title: "JAMstack at O'Reilly's Velocity Conference: Git-based or API-driven CMSs"
-published: true
+title: 'JAMstack at O''Reilly''s Velocity Conference: Git-based or API-driven CMSs'
 category:
-  - event-recap
-  - video
+- event-recap
+- video
 meetup: the-new-dynamic
 video: https://youtu.be/KX4G49ZrvY0
-start_at: 2017-10-02 18:30:00
-venue: "Velocity Conference: New York Hilton, Midtown"
-address: '1335 6th Avenue New York 10019'
-link: "https://www.meetup.com/preview/JAMstack-nyc/events/242739848"
-description: "In “Git-based or API-driven CMS” Chris Macrae breaks down the differences between the two different types of Headless CMS’ — Git-based and API-driven CMS’ — helping you decide on the right tools for your next web project."
+start_at: 2017-10-02 18:30:00 +0000
+venue: 'Velocity Conference: New York Hilton, Midtown'
+address: 1335 6th Avenue New York 10019
+link: https://www.meetup.com/preview/JAMstack-nyc/events/242739848
+description: In “Git-based or API-driven CMS” Chris Macrae breaks down the differences
+  between the two different types of Headless CMS’ — Git-based and API-driven CMS’
+  — helping you decide on the right tools for your next web project.
+
 ---
 We had a great time at our last Meetup that was held in conjunction with our sponsor O'Reilly at their Velocity Conference!
 

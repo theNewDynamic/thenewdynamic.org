@@ -1,15 +1,16 @@
 ---
-title: "The Changelog #162: Octopress 3.0 with Brandon Mathis"
-date: 2015-06-26T14:30:00.000Z
-posted_date: 2015-06-26T14:30:00.000Z
-editor_recommends:
+title: 'The Changelog #162: Octopress 3.0 with Brandon Mathis'
+date: 2015-06-26 14:30:00 +0000
+posted_date: 2015-06-26 14:30:00 +0000
+editor_recommends: ''
 content_type: Resource/Website
 slug: links/the-changelog-162-octopress-30-with-brandon-mathis
 source: The Changelog
 link: https://changelog.com/162/
 tool:
-  - tool/octopress.md
-  - tool/jekyll.md
+- tool/octopress.md
+- tool/jekyll.md
+
 ---
 This week Brandon Mathis joins the show to tell us all about the much anticipated 3.0 release of Octopress, his Jekyll-based blogging framework for hackers.
 

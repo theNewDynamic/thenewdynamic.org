@@ -1,10 +1,12 @@
 ---
 title: Join our Slack
-published: true
-date: 2017-08-20T22:08:00.000Z
+date: 2017-08-20 22:08:00 +0000
 category: article
-link:
-description: "We started a Slack a while back. We'll be posting interesting bits, jobs, resources, and open to discussing all things #JAMstack/static sites and front-end development."
+link: ''
+description: 'We started a Slack a while back. We''ll be posting interesting bits,
+  jobs, resources, and open to discussing all things #JAMstack/static sites and front-end
+  development.'
+
 ---
 We started a Slack a while back. We'll be posting interesting bits, jobs, resources, and open to discussing all things #JAMstack/static sites and front-end development.
 

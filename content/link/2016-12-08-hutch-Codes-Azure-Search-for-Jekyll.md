@@ -1,11 +1,12 @@
 ---
-title: "Hutch Codes — Azure Search for Jekyll"
+title: Hutch Codes — Azure Search for Jekyll
 source: Jeremy Hutchinson
 date: 2016-12-08 22:45:00 +0000
 link: https://hutchcodes.net/2016/12/azure-search-for-jekyll/
 content_type: Tutorial
 tool:
-  - tool/jekyll.md 
+- tool/jekyll.md
+
 ---
 I added Azure Search to my static site built with Jekyll through the use of Azure Functions. Best part, it’s free*.
 
