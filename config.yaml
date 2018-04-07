@@ -139,6 +139,10 @@ related:
       name: tool
       toLower: true
       weight: 100
+    -
+      name: related_tools
+      toLower: true
+      weight: 100
 sitemap:
   changefreq: monthly
   filename: sitemap.xml
