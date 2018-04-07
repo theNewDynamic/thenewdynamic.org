@@ -8,5 +8,16 @@ tools:
 - build-tool
 urls:
   website: http://gulpjs.com/
+  github: https://github.com/gulpjs/gulp
+  twitter: gulpjs
+  other: ''
+license: Open Source
+language: Node
+description: ''
+data_model: ''
+related_tools: []
+tags: []
+resources: []
+cat_test: ''
 
 ---
