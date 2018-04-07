@@ -1,18 +1,12 @@
 {{ define "main" }}
   <article class="page-single_default mx-auto min-h-screen">
-
-    <div class="flex items-start justify-between">
       {{ with .Params.related_tools }}
         <aside class="related_tools flex flex-wrap mb-8 md:text-xl">
           {{ range . }}{{ $link := index (where (where $.Site.Pages ".Section" "tool") ".File.Path" "in" .) 0 }}
             {{ partial "_components/tags" $link }}
           {{ end }}
         </aside>
-      {{ end }}
-      <div class="">
-        {{ partial "prev-next-in-section-icon.html" . }}
-      </div>
-    </div>
+      {{ end }}      
     <section class="border">
       {{ partial "_components/image-picture-element.html" . }}
     </section>
