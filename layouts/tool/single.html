@@ -1,0 +1,47 @@
+{{ define "main" }}
+  {{$showcase := where (.Site.RegularPages) "Section" "showcase"}}
+  {{$related_showcase := $showcase.RelatedTo (keyVals "related_tools" .File.Path)}}
+
+  <div class="page-list_default mx-auto min-h-screen"> 
+
+    <div class="lg:grid-columns-3 grid-gap-4 sm:grid">
+
+      <div class="text-lg max-w-sm">
+        {{- .Content -}}
+      </div>
+
+      <div class="">
+        info
+      </div>
+
+      <div class="">
+        {{ with $related_showcase }}
+          <h2 class="mb-4">{{ $.Title }} Showcase Sites</h2>
+        <div class="grid-columns-2 grid-gap-4 sm:grid">
+          {{ range . }}
+            {{ $image := index (.Params.images) 0 }}
+          {{ with $image }}
+            <a href="{{ $.URL }}" class="no-underline bg-black">
+              {{ if in (print $.Site.BaseURL) "localhost" }}
+                <img data-src="{{ . }}" src="/images/placeholder.svg" class="lazyload mb-8 max-w-full border hover:opacity-25">
+              {{ else }}
+                {{ $img := replace . "/uploads" ($.Param "dev.image_url")  }}
+                  <img src="/images/placeholder.svg" data-src="{{ $img }}?{{ (querify "w" "100" "h" "300" "fit" "crop") | safeURL }}" class="lazyload max-w-full">
+              {{ end }}
+            </a>
+          {{ end }}
+
+          {{ end }}
+        </div>
+        {{ end }}
+
+
+
+
+      </div>
+    </div>
+
+
+
+  </div>
+{{ end }}
