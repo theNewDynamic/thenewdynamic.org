@@ -20,7 +20,6 @@ language: ''
 tags: []
 resources: []
 cat_test: ''
-draft: true
 
 ---
 A simple, beautiful Jekyll theme that's mobile first.
