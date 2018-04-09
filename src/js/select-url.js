@@ -4,11 +4,19 @@ if (PRODUCTION) {
   var documentLoad = "DOMContentLoaded"
 }
 
-document.addEventListener(documentLoad,function() {
-    document.querySelector('select[name="selectUrl"]').onchange=changeEventHandler;
-},false);
-function changeEventHandler(event) {
+if (document.querySelector('select[name="selectUrl"]')) {
+  document.addEventListener(
+    documentLoad,
+    function() {
+      document.querySelector(
+        'select[name="selectUrl"]'
+      ).onchange = changeEventHandler
+    },
+    false
+  )
+  function changeEventHandler(event) {
     // You can use “this” to refer to the selected element.
-    if(!event.target.value) log.console("select")
-    else window.location.href=event.target.value;
+    if (!event.target.value) log.console("select")
+    else window.location.href = event.target.value
+  }
 }
