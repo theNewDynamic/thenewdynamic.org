@@ -21,4 +21,4 @@ sections:
     default_front_matter_template: link
   event:
     default_front_matter_template: event
-version: 0.31.1
+version: 0.38.1
