@@ -23,4 +23,6 @@ resources: []
 ---
 Federalist is a unified interface for publishing static government websites. It automates common tasks for integrating GitHub, Prose, and Amazon Web Services to provide a simple way for developers to launch new websites or more easily manage existing ones.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qeFNf2EPzpE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+---
+
+{{< youtube qeFNf2EPzpE >}}

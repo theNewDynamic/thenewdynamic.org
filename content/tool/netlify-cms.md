@@ -28,6 +28,4 @@ cat_test: ''
 ---
 A CMS for static site generators. Give non-technical users a simple way to edit and add content to any site built with a static site generator.
 
-<div class="embed-container">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/IbNvjNtL1Oo" frameborder="0" allowfullscreen></iframe>
-</div>
+{{< youtube IbNvjNtL1Oo>}}

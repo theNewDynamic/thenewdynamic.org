@@ -26,6 +26,6 @@ cat_test: ''
 ---
 Transform plain text into dynamic blogs and websites using the latest web technologies. A React.js static site generator.
 
-<div class="embed-container">
-<iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/G4LVKJOOj7o?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-</div>
+--- 
+
+{{< youtube G4LVKJOOj7o >}}
