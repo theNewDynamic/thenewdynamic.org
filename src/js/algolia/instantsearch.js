@@ -55,6 +55,7 @@ document.addEventListener(documentLoad, function() {
   search.addWidget(
     searchBox({
       container: "#searchbox",
+      autofocus: false,
       poweredBy: false,
       placeholder: "Search for Tools, Articles, and Showcase",
       magnifier: false,
