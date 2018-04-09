@@ -1,17 +1,96 @@
 {{ define "main" }}
   {{$showcase := where (.Site.RegularPages) "Section" "showcase"}}
-  {{$related_showcase := $showcase.RelatedTo (keyVals "related_tools" .File.Path)}}
+    {{$related_showcase := $showcase.RelatedTo (keyVals "related_tools" .File.Path)}}
+  {{$tools := where (.Site.RegularPages) "Section" "tool"}}
+  {{$related_tools := ($tools).RelatedTo (keyVals "related_tools" .File.Path)}}
+
+
 
   <div class="page-list_default mx-auto min-h-screen"> 
 
     <div class="lg:grid-columns-3 grid-gap-4 sm:grid">
 
-      <div class="text-lg max-w-sm">
-        {{- .Content -}}
+      <div class="max-w-sm">
+
+        <h2 class="mb-4">About {{ .Title }}</h2>
+
+        <div class="text-sm mb-4">
+          {{ with .Params.language }}language:
+            <a href="/language/{{ . | urlize }}" class="no-underline text-black">{{ . }}</a>
+          {{ end }}
+
+          {{ with .Params.license }}license:
+            <a href="/license/{{ . | urlize }}" class="no-underline text-black">{{ . }}</a>
+          {{ end }}
+
+
+{{ range $key, $value := .Params.urls }}
+  {{ with $value }}
+    <a href="{{ . }}" class="block no-underline">{{ $key  }}</a>
+  {{ end }}
+{{ end }}
+
+
+
+          {{/* urls:
+            website: http://jekyllrb.com
+            github: https://github.com/jekyll/jekyll
+            twitter: https://twitter.com/jekyllrb
+            other: '' */}}
+
+
+        </div>
+        {{ with .Content }}
+          <div class="text-lg text-grey-darker">{{/* <<-- this div you may only want if there's content */}}
+            {{- . -}}
+          </div>
+        {{ end }}
+
+
       </div>
 
       <div class="">
-        info
+
+        {{ with .Params.resources }}
+        {{ if (index . 0) }}
+          <h2>Resources</h2>
+        {{ end }}
+
+        {{ range .}}
+          {{ $name := .name }}
+          {{ with .url }}
+            <a href="{{ . }}" class="block no-underline">{{ $name }} {{ partial "svg/link-external.svg" (dict "size" "12") }}</a>
+          {{ end }}
+        {{ end }}
+        {{ end }}
+
+        {{ with  .Params.related_tools }}
+        <h2>Related Tools a</h2>
+        {{ range .}}
+        {{$related_tools := ($tools).RelatedTo (keyVals "related_tools" .)}}
+<ul>
+
+
+          {{with $related_tools}}{{range .}}
+              <li>
+                <a href="{{ .URL }}">{{.Title }}</a>
+              </li>
+          {{ end }}
+        </ul>
+          {{ end }}
+        {{ end }}
+        {{ end }}
+
+          {{ with $related_tools }}
+          <h2>Related Tools b</h2>
+        {{range .}}
+        <h5>
+          <a href="{{ .URL }}">{{.Title}}</a>
+        </h5>
+        {{ end }}{{ end }}
+
+
+
       </div>
 
       <div class="">
@@ -19,14 +98,15 @@
           <h2 class="mb-4">{{ $.Title }} Showcase Sites</h2>
         <div class="grid-columns-2 grid-gap-4 sm:grid">
           {{ range . }}
+            {{ $url := .URL }}
             {{ $image := index (.Params.images) 0 }}
           {{ with $image }}
-            <a href="{{ $.URL }}" class="no-underline bg-black">
+            <a href="{{ $url }}" class="no-underline bg-black h-32 overflow-hidden">
               {{ if in (print $.Site.BaseURL) "localhost" }}
                 <img data-src="{{ . }}" src="/images/placeholder.svg" class="lazyload mb-8 max-w-full border hover:opacity-25">
               {{ else }}
                 {{ $img := replace . "/uploads" ($.Param "dev.image_url")  }}
-                  <img src="/images/placeholder.svg" data-src="{{ $img }}?{{ (querify "w" "100" "h" "300" "fit" "crop") | safeURL }}" class="lazyload max-w-full">
+                  <img src="/images/placeholder.svg" data-src="{{ $img }}?{{ (querify "w" "214" "h" "132" "fit" "crop") | safeURL }}" class="lazyload mb-8 max-w-full border hover:opacity-25">
               {{ end }}
             </a>
           {{ end }}
