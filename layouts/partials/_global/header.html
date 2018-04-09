@@ -3,16 +3,15 @@
 <header name="header" class="mb-4 relative bg-grey-lighter">
   <div class="px-8 py-4 max-w-5xl mx-auto flex flex-wrap justify-between items-baseline">
     <div class="flex-grow">
-      <h1 class="font-brand dib-ns text-2xl md:text-4xl lh-title text-grey-darker m-0">
+      <h1 class="font-brand dib-ns text-3xl md:text-4xl lh-title text-grey-darker m-0">
         {{ if eq .Kind "taxonomy" }}
           {{ $section_heading := .Site.GetPage "taxonomy" .Section }}
           {{ with $section_heading }}{{- .Title -}}:
           {{ end }}
         {{ end }}
-        {{ if eq .Kind "page" }}
-        {{ $section_heading := .Site.GetPage "section" .Section }}
-          {{ with $section_heading }}{{- .Title -}}:{{ end }}
-        {{ end }}
+        {{if .IsPage }}
+          {{ with .CurrentSection.Title }}{{ . }}: {{ end }}
+        {{ end }}        
         {{- $.Title -}}
       </h1>
       {{- with .Params.description -}}
@@ -21,7 +20,7 @@
         </h2>
       {{- end -}}
     </div>
-    <div class="mt-4 sm:mt-0">
+    <div class="hidden md:block">
       {{ partial "prev-next-in-section-icon.html" . }}
     </div>
   </div>
