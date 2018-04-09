@@ -24,7 +24,9 @@
           {{ end }}
 
 
-{{/* {{ range $key, $value := .Params.urls }}
+{{/*
+  TOD: THis is causeing an error on Forestry. May need to revert to older version of Hugo for testing.
+{{ range $key, $value := .Params.urls }}
   {{ with $value }}
     <a href="{{ . }}" class="block no-underline">{{ $key  }}</a>
   {{ end }}
