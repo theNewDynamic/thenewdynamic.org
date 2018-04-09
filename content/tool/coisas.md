@@ -9,8 +9,6 @@ urls:
   twitter: ''
   other: ''
 resources:
-- name: ''
-  url: ''
 description: 'A client-side CMS for editing GitHub Markdown (and other) files. '
 tags: []
 headless-cms: Git-based
