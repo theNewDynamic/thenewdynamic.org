@@ -12,7 +12,7 @@
 
 hdi
 {{$tools := where .Site.Pages "Section" "tools"}}
-{{$pages := where ($tools) "Kinds" "taxonomy"}}
+{{$pages := where ($tools) "Kind" "taxonomy"}}
 {{ range $pages}}
 
   <a href="{{.URL}}" class="block my-3 px-8">{{.Title}} - {{.Kind}}</a>
