@@ -9,12 +9,12 @@ related_tools:
 website: https://www.smashingmagazine.com/
 repo: ''
 creator:
-- name: 
-  role: 
-  url: 
-  twitter_username: 
+- name:
+  role:
+  url:
+  twitter_username:
 images:
-- "/uploads/showcase-screenshot-smashing-mag-hugo.jpg"
+- "/uploads/showcase-smashing-mag-hugo.jpg"
 
 ---
 From the blog post at [Netlify](https://www.netlify.com/blog/2017/03/16/smashing-magazine-just-got-10x-faster/) (we'll add more later):
