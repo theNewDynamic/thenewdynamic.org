@@ -10,6 +10,8 @@
   {{ end }}
 </ul> */}}
 
+
+Home page
 {{$tools := where .Site.Pages "Section" "tools"}}
 {{$pages := where ($tools) "Kind" "taxonomy"}}
 {{ range $pages}}
