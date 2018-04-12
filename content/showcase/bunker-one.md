@@ -12,6 +12,6 @@ creator:
   url: http://www.kontrapunkt.com/
   twitter_username: kontrapunktcom
 images:
-- "/uploads/bunkerone.jpg"
+- "/uploads/showcase-bunkerone-gatsby-datocms.jpg"
 
 ---

@@ -7,11 +7,11 @@ related_tools:
 website: http://www.digital-democracy.org/
 repo: ''
 creator:
-- name: 
+- name:
   role: Design/Development
-  url: 
-  twitter_username: 
+  url:
+  twitter_username:
 images:
-- "/uploads/digital-democracy.jpg"
+- "/uploads/showcase-digital-democracy-jekyll.jpg"
 
 ---

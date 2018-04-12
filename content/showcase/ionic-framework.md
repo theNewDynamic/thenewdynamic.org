@@ -7,13 +7,11 @@ related_tools:
 website: https://ionicframework.com/
 repo: https://github.com/ionic-team/ionic-site
 creator:
-- name: 
+- name:
   role: Design/Development
-  url: 
-  twitter_username: 
-image_path: "/uploads/showcase/"
+  url:
+  twitter_username:
 images:
-- "/uploads/ionicframework-jekyll.png"
-- "/uploads/showcase/"
+- "/uploads/showcase-ionicframework-jekyll.png"
 
 ---

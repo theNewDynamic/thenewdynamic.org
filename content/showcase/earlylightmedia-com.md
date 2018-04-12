@@ -23,6 +23,6 @@ creator:
   role: site migration from jekyll to roots & contentful
   url: http://backroom.io/
 images:
-- "/uploads/earlylightmedia-roots.jpg"
+- "/uploads/showcase-earlylightmedia-roots.jpg"
 
 ---

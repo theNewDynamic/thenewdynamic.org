@@ -13,6 +13,6 @@ creator:
   url: https://www.algolia.com/
   twitter_username: algolia
 images:
-- "/uploads/docsearch.jpg"
+- "/uploads/showcase-docsearch.jpg"
 
 ---

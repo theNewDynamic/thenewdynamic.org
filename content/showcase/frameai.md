@@ -12,6 +12,6 @@ creator:
   url: 
   twitter_username: 
 images:
-- "/uploads/frameai.png"
+- "/uploads/showcase-frameai.png"
 
 ---

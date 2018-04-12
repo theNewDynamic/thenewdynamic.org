@@ -7,11 +7,11 @@ related_tools:
 website: http://www.boomtownfair.co.uk/
 repo: ''
 creator:
-- name: 
+- name:
   role: Design/Development
-  url: 
-  twitter_username: 
+  url:
+  twitter_username:
 images:
-- "/uploads/screenshot-hugo-datocms-boomtown.jpg"
+- "/uploads/showcase-boomtown-hugo-datocms.jpg"
 
 ---

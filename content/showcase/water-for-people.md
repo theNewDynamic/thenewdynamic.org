@@ -13,7 +13,7 @@ creator:
   url: 
   twitter_username: 
 images:
-- "/uploads/water-for-people.jpg"
+- "/uploads/showcase-water-for-people.jpg"
 
 ---
 Our static pages and layouts are built on Middleman, with content updates from Contentful. Netlify’s automatic deploys were a natural fit, and our donors appreciate the secure environment.

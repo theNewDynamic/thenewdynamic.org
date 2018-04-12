@@ -10,9 +10,9 @@ creator:
 - role: Design/Development
   url: https://developmentseed.org
   name: Development Seed
-  twitter_username: 
+  twitter_username:
 images:
-- "/uploads/1444963925320_screenshot-mapbox-1.jpg"
+- "/uploads/showcase-mapbox-jekyll-prose.jpg"
 
 ---
 [How We Build CMS-Free Websites](https://developmentseed.org/blog/2012/07/27/build-cms-free-websites/)[How We Build CMS-Free Websites](https://developmentseed.org/blog/2012/07/27/build-cms-free-websites/)

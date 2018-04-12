@@ -10,7 +10,7 @@ creator:
   url: https://www.hillaryclinton.com/page/tech/
   twitter_username: 
 images:
-- "/uploads/hillaryclinton.png"
+- "/uploads/showcase-hillaryclinton.png"
 
 ---
 Interesting post from Cheston Lee at Hillary For America, outlining the engineering challenges on a high traffic, mission-critical site: [“Universal React: Potential, Performance, and a Presidential Campaign”&nbsp;](http://bit.ly/hfa-engineering-showcase)

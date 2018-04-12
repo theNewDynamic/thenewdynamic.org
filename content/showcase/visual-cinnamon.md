@@ -11,9 +11,7 @@ creator:
   role: Design/Development
   url: ''
   twitter_username: NadiehBremer
-image_path: "/uploads/showcase/"
 images:
-- "/uploads/visualcinnamon-hugo.png"
-- "/uploads/showcase/"
+- "/uploads/showcase-visualcinnamon-hugo.png"
 
 ---

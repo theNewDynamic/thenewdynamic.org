@@ -12,6 +12,6 @@ creator:
   url: 
   twitter_username: 
 images:
-- "/uploads/rehn.jpg"
+- "/uploads/showcase-rehn.jpg"
 
 ---

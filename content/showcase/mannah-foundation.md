@@ -11,9 +11,7 @@ creator:
   role: Design/Development
   url: http://danleatherman.com/
   twitter_username: danleatherman
-image_path: "/uploads/showcase/"
 images:
-- "/uploads/mannahfoundation-11ty.jpg"
-- "/uploads/showcase/"
+- "/uploads/showcase-mannahfoundation-11ty.jpg"
 
 ---

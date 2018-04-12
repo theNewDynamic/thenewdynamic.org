@@ -11,6 +11,6 @@ creator:
   url: 
   twitter_username: 
 images:
-- "/uploads/crossref.png"
+- "/uploads/showcase-crossref.png"
 
 ---

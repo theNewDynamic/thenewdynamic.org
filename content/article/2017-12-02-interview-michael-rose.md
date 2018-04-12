@@ -4,7 +4,7 @@ date: 2017-12-02 09:45:36 +0100
 author: Frank Taillandier
 description: Michael Rose, one of the most active webdesigner in the Jekyll community,
   shares his vision on static site generators.
-image: "/uploads/2017/michael-rose.jpg"
+image: "/uploads/articles/michael-rose.jpg"
 permalink: "/article/interview-michael-rose/"
 tool:
 - tool/jekyll.md
@@ -19,7 +19,7 @@ Michael shares his experience and designer's point of view about working with
 static site generators like Jekyll, Gatsby or Hugo. No silver bullet, and still
 plenty of room for improvement if you ask him.
 
-![Michael Rose](/uploads/2017/michael-rose.jpg)
+![Michael Rose](/uploads/articles/michael-rose.jpg)
 
 ## Hi Michael, how would you introduce yourself?
 

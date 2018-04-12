@@ -13,6 +13,6 @@ creator:
   url: https://www.leanpanda.com/
   twitter_username: pandadevs
 images:
-- "/uploads/datocms-gatsby.png"
+- "/uploads/showcase-datocms-gatsby.png"
 
 ---

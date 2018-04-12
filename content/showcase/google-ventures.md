@@ -11,6 +11,6 @@ creator:
   url: http://www.gv.com/humans.txt
   twitter_username: GVteam
 images:
-- "/uploads/gv.jpg"
+- "/uploads/showcase-gv-metalsmith.jpg"
 
 ---

@@ -13,6 +13,6 @@ creator:
   url: http://www.cityofsydney.nsw.gov.au/
   twitter_username: cityofsydney
 images:
-- "/uploads/artandabout-jekyll.jpg"
+- "/uploads/showcase-artandabout-jekyll.jpg"
 
 ---

@@ -12,6 +12,6 @@ creator:
   url: 
   twitter_username: 
 images:
-- "/uploads/graphcms.jpg"
+- "/uploads/showcase-graphcms.jpg"
 
 ---

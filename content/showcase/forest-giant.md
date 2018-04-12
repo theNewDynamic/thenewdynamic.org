@@ -12,7 +12,7 @@ creator:
   url: 
   twitter_username: 
 images:
-- "/uploads/hugo-forestgiant.jpg"
+- "/uploads/showcase-hugo-forestgiant.jpg"
 
 ---
 A Netlify [Site of the Week](https://www.netlify.com/site-of-the-week/forest-giant/)

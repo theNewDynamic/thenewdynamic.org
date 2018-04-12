@@ -9,9 +9,9 @@ creator:
 - name: US Departement of Justice
   role: Design/Development
   url: https://github.com/usdoj
-  twitter_username: 
+  twitter_username:
 images:
-- "/uploads/foia-gov.jpg"
+- "/uploads/showcase-foia-gov-jekyll.jpg"
 
 ---
 Developed by the Department of Justice, powered by GitHub Pages, Jekyll, React and an API to make requests.

@@ -6,13 +6,11 @@ related_tools:
 website: https://tapfiliate.com
 repo: ''
 creator:
-- name: 
+- name:
   role: Design/Development
-  url: 
-  twitter_username: 
-image_path: "/uploads/showcase/"
+  url:
+  twitter_username:
 images:
-- "/uploads/tapfiliate-hugo.jpg"
-- "/uploads/showcase/"
+- "/uploads/showcase-tapfiliate-hugo.jpg"
 
 ---

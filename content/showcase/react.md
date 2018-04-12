@@ -13,6 +13,6 @@ creator:
   url: https://code.facebook.com/projects/#web
   twitter_username: reactjs
 images:
-- "/uploads/react.png"
+- "/uploads/showcase-react.png"
 
 ---

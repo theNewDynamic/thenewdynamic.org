@@ -12,7 +12,7 @@ creator:
   url: http://www.trysmudford.com/
   twitter_username: trysmudford
 images:
-- "/uploads/hartwell-hugo-netlify.jpg"
+- "/uploads/showcase-hartwell-hugo-netlify.jpg"
 
 ---
 [Read the background story](http://www.trysmudford.com/perfomance-wins-with-hugo-and-netlify/)

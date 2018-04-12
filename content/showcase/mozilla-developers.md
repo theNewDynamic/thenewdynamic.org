@@ -11,7 +11,7 @@ creator:
   url: https://mozilla.org/developers
   twitter_username: MozHacks
 images:
-- "/uploads/mozilla-developers.png"
+- "/uploads/showcase-mozilla-developers.png"
 
 ---
 A playground for Web Developers to learn CSS Grid.

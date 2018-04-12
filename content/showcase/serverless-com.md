@@ -11,6 +11,6 @@ creator:
   url: 
   twitter_username: 
 images:
-- "/uploads/phenomic-serverless.jpg"
+- "/uploads/showcase-phenomic-serverless.jpg"
 
 ---

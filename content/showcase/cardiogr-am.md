@@ -11,6 +11,6 @@ creator:
   url: 
   twitter_username: 
 images:
-- "/uploads/gatsby-cardiogram.jpg"
+- "/uploads/showcase-gatsby-cardiogram.jpg"
 
 ---

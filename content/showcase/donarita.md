@@ -13,7 +13,7 @@ creator:
   url: http://pedroduarte.me
   twitter_username: peduarte
 images:
-- "/uploads/donarita-gatsby-netlify.jpg"
+- "/uploads/showcase-donarita-gatsby-netlify.jpg"
 
 ---
 [Read about the background story on Medium](https://medium.com/netlify/jamstack-with-gatsby-netlify-and-netlify-cms-a300735e2c5d)

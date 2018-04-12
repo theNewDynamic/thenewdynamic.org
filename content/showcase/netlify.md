@@ -9,12 +9,12 @@ related_tools:
 website: https://www.netlify.com/
 repo: ''
 creator:
-- name: 
+- name:
   role: Design/Development
-  url: 
-  twitter_username: 
+  url:
+  twitter_username:
 images:
-- "/uploads/netlify-hugo.png"
+- "/uploads/showcase-netlify-hugo.png"
 
 ---
 Netlify website is built with Hugo and use third-party services like Cloudinary for images and Algolia for search.

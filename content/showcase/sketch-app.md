@@ -11,7 +11,7 @@ creator:
   url: 
   twitter_username: 
 images:
-- "/uploads/sketch-app.jpg"
+- "/uploads/showcase-sketch-app.jpg"
 
 ---
 > I’m really happy with the result of migrating the Sketch site to [@jekyllrb](https://twitter.com/jekyllrb). Docs and community alone made the change worth already :)

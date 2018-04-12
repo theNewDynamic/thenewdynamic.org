@@ -10,7 +10,7 @@ creator:
   url: 
   twitter_username: adhawk
 images:
-- "/uploads/adhawk-about.png"
+- "/uploads/showcase-adhawk-about.png"
 
 ---
 A marketing website for [AdHawk](https://www.tryadhawk.com/) who builds software to help businesses automate their Google AdWords and Facebook Advertising.

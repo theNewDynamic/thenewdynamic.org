@@ -11,6 +11,6 @@ creator:
   url: https://nozzle.io/
   twitter_username: 
 images:
-- "/uploads/nozzle-react-static.jpg"
+- "/uploads/showcase-nozzle-react-static.jpg"
 
 ---

@@ -11,6 +11,6 @@ creator:
   url: 
   twitter_username: 
 images:
-- "/uploads/leanpanda-middleman-datocms.jpg"
+- "/uploads/showcase-leanpanda-middleman-datocms.jpg"
 
 ---

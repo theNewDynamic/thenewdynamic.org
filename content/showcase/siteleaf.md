@@ -12,7 +12,7 @@ creator:
   url: https://oak.is/
   twitter_username: oakstudios
 images:
-- "/uploads/siteleaf.png"
+- "/uploads/showcase-siteleaf.png"
 
 ---
 [Siteleaf](https://siteleaf.com) (content management system for Jekyll) marketing and blog website.

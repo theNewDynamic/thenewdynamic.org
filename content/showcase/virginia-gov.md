@@ -12,7 +12,7 @@ creator:
   twitter_username: 
 image_path: "/uploads/showcase/"
 images:
-- "/uploads/virginia.gov-hugo.jpg"
-- "/uploads/showcase/"
+- "/uploads/showcase-virginia.gov-hugo.jpg"
+- "/uploads/showcase-showcase/"
 
 ---

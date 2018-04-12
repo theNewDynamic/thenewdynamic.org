@@ -12,6 +12,6 @@ creator:
   url: 
   twitter_username: 
 images:
-- "/uploads/datadoghq.jpg"
+- "/uploads/showcase-datadoghq.jpg"
 
 ---

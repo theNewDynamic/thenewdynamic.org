@@ -12,6 +12,6 @@ creator:
   url: http://github.com/julesforrest
   twitter_username: julesforrest
 images:
-- "/uploads/jekyll-chain.png"
+- "/uploads/showcase-jekyll-chain.png"
 
 ---

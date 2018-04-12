@@ -10,6 +10,6 @@ creator:
   name: 
   twitter_username: 
 images:
-- "/uploads/pattern-lab.png"
+- "/uploads/showcase-pattern-lab.png"
 
 ---

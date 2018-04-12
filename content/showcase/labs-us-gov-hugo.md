@@ -11,6 +11,6 @@ creator:
   url: 
   twitter_username: 
 images:
-- "/uploads/labs-us-gov-hugo.jpg"
+- "/uploads/showcase-labs-us-gov-hugo.jpg"
 
 ---

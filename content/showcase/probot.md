@@ -12,6 +12,6 @@ creator:
   url: https://opensoul.org/
   twitter_username: bkeepers
 images:
-- "/uploads/probot.png"
+- "/uploads/showcase-probot.png"
 
 ---

@@ -10,9 +10,9 @@ creator:
 - name: Netflix
   role: Design/Development
   url: http://techblog.netflix.com/
-  twitter_username: 
+  twitter_username:
 images:
-- "/uploads/1444963245916_screenshot-netflix.jpg"
+- "/uploads/showcase-netflix-jekyll-cloudcannon.jpg"
 
 ---
 Netflix partnered with CloudCannon to rebuild [Netflix Devices](https://devices.netflix.com/). Devices was originally a Drupal site and was rebuilt in a fraction of the time using [Jekyll](http://jekyllrb.com/). The site is static so it loads quickly and reliably scales to the millions of Netflix visitors. The Partner Marketing team have taken control of their site. They’re empowered to quickly try out new messaging and update content directly on the page. Netflix Devices is translated into 16 languages which all get served from the same Jekyll site.

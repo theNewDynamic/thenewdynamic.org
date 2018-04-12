@@ -11,7 +11,7 @@ creator:
   url: 
   twitter_username: 
 images:
-- "/uploads/segment-blog.png"
+- "/uploads/showcase-segment-blog.png"
 
 ---
 Segment, authors of metalsmith relaunched their blog on Gatsby.
