@@ -19,6 +19,7 @@
     "start": "concurrently \"npm run buildd\" \"npm run bs\" \"npm run hugo\" "
   },
   "devDependencies": {
+    "assets-webpack-plugin": "^3.5.1",
     "atomic-algolia": "^0.3.13",
     "autotrack": "^2.4.1",
     "babel-core": "^6.26.0",

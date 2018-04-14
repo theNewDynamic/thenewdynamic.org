@@ -1,6 +1,7 @@
 const path = require("path")
 const CleanWebpackPlugin = require("clean-webpack-plugin")
 const MiniCssExtractPlugin = require("mini-css-extract-plugin")
+var AssetsPlugin = require("assets-webpack-plugin")
 
 module.exports = {
   entry: {
@@ -93,5 +94,10 @@ module.exports = {
         allowExternal: true,
       }
     ),
+    new AssetsPlugin({
+      filename: "webpack_assets.json",
+      path: path.join(__dirname, "./data"),
+      prettyPrint: true,
+    }),
   ],
 }
