@@ -40,8 +40,8 @@ fields:
     - Performance
   label: Category
 - type: list
-  name: tool
-  label: Tool
+  name: related_tools
+  label: Related Tools
   config:
     use_select: true
     source:
