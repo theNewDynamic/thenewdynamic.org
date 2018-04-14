@@ -1,52 +1,63 @@
 {{ define "main" }}
-  {{$showcase := where (.Site.RegularPages) "Section" "showcase"}}
-    {{$related_showcase := $showcase.RelatedTo (keyVals "related_tools" .File.Path)}}
-  {{$tools := where (.Site.RegularPages) "Section" "tool"}}
-  {{$related_tools := ($tools).RelatedTo (keyVals "related_tools" .File.Path)}}
-
-
+    {{ $showcase := where (.Site.RegularPages) "Section" "showcase" }}
+    {{ $related_showcase := $showcase.RelatedTo (keyVals "related_tools" .File.Path) }}
+    {{ $tools := where (.Site.RegularPages) "Section" "tool" }}
+    {{ $related_tools := ($tools).RelatedTo (keyVals "related_tools" .File.Path) }}
+    {{ $links := where (.Site.RegularPages) "Section" "link" }}
+    {{ $related_links := ($links).RelatedTo (keyVals "related_tools" .File.Path) }}
 
   <div class="page-list_default mx-auto min-h-screen"> 
 
-    <div class="lg:grid-columns-3 grid-gap-4 sm:grid">
+    <div class="text-base mb-8 -mt-4">
+      {{ with .Params.language }}language:
+        <a href="/language/{{ . | urlize }}" class="bg-grey font-bold hover:bg-primary-color-light inline-block mr-3 no-underline  px-2 py-1 rounded-full text-grey-darkest text-xs">
+          {{ . }}
+        </a>
+      {{ end }}
+      {{ with .Params.license }}license:
+        <a href="/license/{{ . | urlize }}" class="bg-grey font-bold hover:bg-primary-color-light inline-block mr-3 no-underline  px-2 py-1 rounded-full text-grey-darkest text-xs">{{ . }}</a>
+      {{ end }}
+    </div>
 
-      <div class="max-w-sm">
-
+    <div class="lg:grid-columns-3 grid-gap-16 sm:grid">
+      <div class="max-w-smTK">
         <h2 class="mb-4">About {{ .Title }}</h2>
-
-        <div class="text-sm mb-4">
-          {{ with .Params.language }}language:
-            <a href="/language/{{ . | urlize }}" class="no-underline text-black">{{ . }}</a>
-          {{ end }}
-
-          {{ with .Params.license }}license:
-            <a href="/license/{{ . | urlize }}" class="no-underline text-black">{{ . }}</a>
-          {{ end }}
-
-
-{{/*
-  TOD: THis is causeing an error on Forestry. May need to revert to older version of Hugo for testing.
-{{ range $key, $value := .Params.urls }}
-  {{ with $value }}
-    <a href="{{ . }}" class="block no-underline">{{ $key  }}</a>
-  {{ end }}
-{{ end }} */}}
-
-
-
-          {{/* urls:
-            website: http://jekyllrb.com
-            github: https://github.com/jekyll/jekyll
-            twitter: https://twitter.com/jekyllrb
-            other: '' */}}
-
-
-        </div>
         {{ with .Content }}
-          <div class="text-lg text-grey-darker">{{/* <<-- this div you may only want if there's content */}}
+          <div class="text-lg text-grey-darkest">{{/* <<-- this div you may only want if there's content */}}
             {{- . -}}
           </div>
         {{ end }}
+
+        {{ with .Params.urls }}
+          <div class="mt-8 text-lg">
+            {{ range $key, $value := . }}
+              {{ with $value }}
+                <a href="{{ . }}" class="block dim no-underline text-grey-darkest">{{ $key  }} {{ partial "svg/link-external.svg" (dict "size" "12") }}</a>
+              {{ end }}
+            {{ end }}
+          </div>
+        {{ end }}
+
+        {{ with $related_links }}
+          <h3 class="my-8">Latest External Links</h3>
+          <ul class="list-reset text-grey-darker">
+            {{range first 5 .}}
+              <li class="mb-4 border bg-grey-lighter">
+                <a href="{{ with .Params.link }}{{ . }}{{ end }}" class="px-2 py-1 block hover:bg-grey-darkest hover:text-white no-underline text-grey-darker">{{.Title }}
+                <div class="flex justify-between mt-2 text-xs">{{ with .Params.source }}by {{ . }} {{ end }} {{ partial "_components/time-short-format.html" (dict "context" . "show_time" false) }}</div>
+                </a>
+              </li>
+          {{ end }}
+          </ul>
+          {{ if gt (len .) 5 }}
+            <h4 class="my-8">
+              <a href="#links" class="dim no-underline text-primary-color uppercase">
+                  More Links <div class="align-middle inline-block">{{- partial "svg/chevron-right.svg" (dict "size" "15") -}}</div>
+              </a>
+            </h4>
+          {{ end }}
+        {{ end }}
+
 
 
       </div>
@@ -123,6 +134,10 @@
       </div>
     </div>
 
+
+    <div id="links" class="">
+      LINKS
+    </div>
 
 
   </div>
