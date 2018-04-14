@@ -25,7 +25,7 @@ h1, h2, h3, h4, h5 {
 PAGES
 */
 .page-list_default {
-  @apply .max-w-4xl .px-8 .pt-6;
+  @apply .max-w-4xl .px-8 .pt-4;
 }
 .page-single_default {
   @apply .max-w-xl .px-4 .pt-6;
