@@ -4,7 +4,7 @@ date: 2018-01-31 19:21:27 -0500
 link: https://www.kenticotricks.com/blog/static-sites-with-kentico-cloud
 source: Kenticotricks
 content_type: Article
-tool:
+related_tools:
 - tool/wyam.md
 - tool/netlify.md
 - tool/kenticocloud.md

@@ -7,7 +7,7 @@ content_type: Tutorial
 slug: links/using-google-docs-with-jekyll
 source: Max Quattromani
 link: http://maxquattromani.com/jekyll/google/2014/11/05/using-google-docs-with-jekyll/
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

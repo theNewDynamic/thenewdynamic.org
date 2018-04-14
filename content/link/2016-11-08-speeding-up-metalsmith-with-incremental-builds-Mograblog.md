@@ -4,7 +4,7 @@ source: Guy Mograbi
 date: 2016-11-15 00:17:00 +0000
 link: http://www.mograblog.com/2016/11/speed-up-metalsmith.html
 content_type: Tutorial
-tool:
+related_tools:
 - tool/metalsmith.md
 
 ---

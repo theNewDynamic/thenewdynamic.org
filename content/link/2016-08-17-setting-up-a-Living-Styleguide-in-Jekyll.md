@@ -4,7 +4,7 @@ source: Hugo Giraudel
 date: 2016-08-17 14:11:00 +0000
 link: https://www.sitepoint.com/setting-up-a-living-styleguide-in-jekyll/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

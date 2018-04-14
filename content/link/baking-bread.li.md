@@ -7,7 +7,7 @@ content_type: Video/Presentation
 slug: links/baking-breadli
 source: David Darnes
 link: https://www.youtube.com/playlist?list=PLqG97mWmzNL7OFKjx0eXQpwpOaXFRM251
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

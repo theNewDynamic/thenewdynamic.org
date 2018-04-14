@@ -4,7 +4,7 @@ source: Jonathan Petitcolas
 date: 2016-08-12 12:10:00 +0000
 link: http://www.jonathan-petitcolas.com/2016/08/12/plugging-webpack-to-jekyll-powered-pages.html
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 - tool/webpack.md
 

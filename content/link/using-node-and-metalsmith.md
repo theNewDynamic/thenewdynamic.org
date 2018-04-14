@@ -7,7 +7,7 @@ content_type: Tutorial
 slug: links/using-node-and-metalsmith
 source: Peter Morlion
 link: http://www.petermorlion.com/using-node-and-metalsmith/
-tool:
+related_tools:
 - tool/metalsmith.md
 
 ---

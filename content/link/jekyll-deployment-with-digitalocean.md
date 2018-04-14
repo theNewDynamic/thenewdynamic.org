@@ -7,7 +7,7 @@ content_type: Tutorial
 slug: links/jekyll-deployment-with-digitalocean
 source: Paul Anthony Webb
 link: http://dsgn.io/thoughts/post/jekyll-deployment-with-digitalocean/
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

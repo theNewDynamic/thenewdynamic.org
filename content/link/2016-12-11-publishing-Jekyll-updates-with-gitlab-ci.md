@@ -4,7 +4,7 @@ source: Lars Olafsen
 date: 2016-12-11 21:58:00 +0000
 link: https://redpill-linpro.com/sysadvent/2016/12/03/jekyll-gitlab-ci.html
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 - tool/gitlab.md
 

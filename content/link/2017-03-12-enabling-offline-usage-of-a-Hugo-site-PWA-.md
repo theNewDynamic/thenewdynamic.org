@@ -7,7 +7,7 @@ content_type: Tutorial
 tags:
 - progressive web apps
 - offline
-tool:
+related_tools:
 - tool/hugo.md
 
 ---

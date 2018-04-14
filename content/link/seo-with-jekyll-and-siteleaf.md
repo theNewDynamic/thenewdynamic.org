@@ -3,7 +3,7 @@ title: SEO with Jekyll and Siteleaf
 date: 2018-02-15 17:10:00 +0000
 source: Paweł Urbanek
 content_type: Article
-tool:
+related_tools:
 - tool/siteleaf.md
 - tool/jekyll.md
 video: false

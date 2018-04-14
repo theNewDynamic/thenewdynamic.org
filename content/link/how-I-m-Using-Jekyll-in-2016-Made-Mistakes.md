@@ -4,7 +4,7 @@ source: Michael Rose, Made Mistakes
 date: 2016-02-20 22:37:00 +0000
 link: https://mademistakes.com/articles/using-jekyll-2016/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

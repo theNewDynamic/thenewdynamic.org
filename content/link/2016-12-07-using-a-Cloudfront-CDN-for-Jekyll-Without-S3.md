@@ -4,7 +4,7 @@ source: Joe Buhlig
 date: 2016-12-07 19:35:00 +0000
 link: http://joebuhlig.com/using-a-cloudfront-cdn-for-jekyll-without-s3/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 - tool/cloudfront.md
 

@@ -4,7 +4,7 @@ source: Adam Laycock
 date: 2016-02-23 08:31:00 +0000
 link: http://arcath.net/2016/02/23/setting-up-lunrjs-in-jekyll.html
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

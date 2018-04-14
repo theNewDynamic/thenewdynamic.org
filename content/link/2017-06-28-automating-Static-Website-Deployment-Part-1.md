@@ -5,7 +5,7 @@ date: 2017-06-28 14:15:00 +0000
 link: http://computersfearme.com/post/automate-website-updates-part1/
 content_type: Tutorial
 tags: deployment
-tool:
+related_tools:
 - tool/hugo.md
 - tool/s3.md
 - tool/jekyll.md

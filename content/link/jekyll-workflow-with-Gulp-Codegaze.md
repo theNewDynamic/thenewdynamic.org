@@ -4,7 +4,7 @@ source: Thanos K
 date: 2016-01-09 23:12:00 +0000
 link: http://codegaze.github.io/2016/01/09/a-jekyll-workflow-with-gulp/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 - tool/gulp.md
 

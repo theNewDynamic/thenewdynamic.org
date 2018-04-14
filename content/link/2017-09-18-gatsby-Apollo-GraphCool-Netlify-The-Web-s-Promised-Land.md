@@ -4,7 +4,7 @@ source: Dennis Walsh
 date: 2017-09-18 20:56:00 +0000
 link: https://medium.com/@dwalsh.sdlr/gatsby-apollo-graphcool-netlify-the-webs-promised-land-6dd510efbd72
 content_type: Tutorial
-tool:
+related_tools:
 - tool/gatsby.md
 
 ---

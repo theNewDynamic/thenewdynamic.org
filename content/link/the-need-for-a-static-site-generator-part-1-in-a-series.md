@@ -7,7 +7,7 @@ content_type: Tutorial
 slug: links/the-need-for-a-static-site-generator-part-1-in-a-series
 source: David Tucker
 link: http://davidtucker.net/articles/move-to-static-site-generator/
-tool:
+related_tools:
 - tool/wintersmith.md
 
 ---

@@ -7,7 +7,7 @@ content_type: Tutorial
 slug: links/fun-jekyll-tricks
 source: Brian Knapp, Market Interactive
 link: http://www.madebymarket.com/blog/dev/fun-jekyll-tricks.html
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

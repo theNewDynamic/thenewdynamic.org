@@ -7,7 +7,7 @@ content_type: Article
 slug: links/building-a-static-cms
 source: ''
 link: http://carrot.is/coding/static_cms/
-tool:
+related_tools:
 - tool/contentful.md
 - tool/netlify.md
 

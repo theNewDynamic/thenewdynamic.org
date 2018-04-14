@@ -4,7 +4,7 @@ source: Ryan Brown, Serverless Code
 date: 2016-03-13 13:23:00 +0000
 link: https://serverlesscode.com/post/aerobatic-static-site-hosting-conversion/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/aerobatic.md
 - tool/jekyll.md
 - tool/hugo.md

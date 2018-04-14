@@ -7,7 +7,7 @@ content_type: News
 slug: links/statamic-the-flat-file-cms-now-includes-a-static-site-generator
 source: Statamic
 link: http://statamic.com/blog/hello-one-dot-ten
-tool:
+related_tools:
 - tool/statamic.md
 
 ---

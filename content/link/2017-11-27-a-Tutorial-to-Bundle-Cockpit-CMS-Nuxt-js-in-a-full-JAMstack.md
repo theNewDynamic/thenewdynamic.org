@@ -4,7 +4,7 @@ source: Charles Ouellet
 date: 2017-11-27 22:24:00 +0000
 link: https://hackernoon.com/in-depth-cockpit-cms-tutorial-with-a-nuxt-js-app-live-demo-4809e7cd1218
 content_type: Tutorial
-tool:
+related_tools:
 - cockpit-cms
 - tool/nuxtjs.md
 

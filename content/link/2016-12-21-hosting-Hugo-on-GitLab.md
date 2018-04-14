@@ -6,7 +6,7 @@ tags:
 - hosting
 link: https://bryanklein.com/blog/hugo-site-on-gitlab/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/hugo.md
 - tool/gitlab.md
 

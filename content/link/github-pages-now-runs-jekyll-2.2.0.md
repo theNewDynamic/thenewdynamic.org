@@ -7,7 +7,7 @@ content_type: News
 slug: links/github-pages-now-runs-jekyll-220
 source: Github
 link: https://github.com/blog/1867-github-pages-now-runs-jekyll-2-2-0/
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

@@ -7,7 +7,7 @@ content_type: Article
 slug: links/five-reasons-you-want-https-for-your-static-site
 source: Mathias Biilmann, Netlify
 link: https://www.netlify.com/blog/2014/10/03/five-reasons-you-want-https-for-your-static-site
-tool:
+related_tools:
 - tool/netlify.md
 
 ---

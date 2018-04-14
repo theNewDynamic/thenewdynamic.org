@@ -4,7 +4,7 @@ source: Stefan Baumgartner
 date: 2016-08-09 17:46:00 +0000
 link: https://fettblog.eu/snippets/jekyll/liquid-in-frontmatter/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

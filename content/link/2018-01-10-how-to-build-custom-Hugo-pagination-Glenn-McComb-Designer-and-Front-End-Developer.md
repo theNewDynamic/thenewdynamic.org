@@ -4,7 +4,7 @@ source: Glenn McComb
 date: 2018-01-10 08:07:00 +0000
 link: https://glennmccomb.com/articles/how-to-build-custom-hugo-pagination/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/hugo.md
 
 ---

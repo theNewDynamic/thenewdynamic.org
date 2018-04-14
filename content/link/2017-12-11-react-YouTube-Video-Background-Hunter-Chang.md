@@ -4,7 +4,7 @@ source: Hunter Chang
 date: 2017-12-11 09:20:00 +0000
 link: https://hunterchang.com/react-youtube-background/?ref=stackshare
 content_type: Tutorial
-tool:
+related_tools:
 - tool/gatsby.md
 
 ---

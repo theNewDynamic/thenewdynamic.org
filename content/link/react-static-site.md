@@ -7,7 +7,7 @@ content_type: Article
 slug: links/react-static-site
 source: Brad Denver
 link: http://braddenver.com/blog/2015/react-static-site.html
-tool:
+related_tools:
 - tool/react-static.md
 
 ---

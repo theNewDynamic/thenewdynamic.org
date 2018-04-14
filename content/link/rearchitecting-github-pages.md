@@ -7,7 +7,7 @@ content_type: Article
 slug: links/rearchitecting-github-pages
 source: Charlie Somerville, Github Engineering
 link: http://githubengineering.com/rearchitecting-github-pages/
-tool:
+related_tools:
 - tool/github-pages.md
 
 ---

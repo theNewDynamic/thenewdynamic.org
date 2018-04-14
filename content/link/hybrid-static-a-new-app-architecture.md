@@ -7,7 +7,7 @@ content_type: Article
 slug: links/hybrid-static-a-new-app-architecture
 source: Roots.cx
 link: http://roots.cx/articles/hybrid-static/
-tool:
+related_tools:
 - tool/contentful.md
 
 ---

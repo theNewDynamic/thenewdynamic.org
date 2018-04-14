@@ -4,7 +4,7 @@ source: Amanda Visconti, Programming Historian
 date: 2016-04-18 00:31:00 +0000
 link: http://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

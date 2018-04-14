@@ -4,7 +4,7 @@ source: Max Kleucker
 date: 2017-11-07 17:35:00 +0000
 link: https://www.scandio.de/blog/en/2017/11/jekyll-performance
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

@@ -8,7 +8,7 @@ slug: links/static-sites-can-be-the-solution
 source: Simon Wood, at Future Insights
 link: https://www.youtube.com/watch?v=jeQCoiZT5gg&amp;index=11&amp;list=UUT74dcdbbnN4VsDlj9SdeYA
 video: https://www.youtube.com/watch?v=jeQCoiZT5gg&amp;index=11&amp;list=UUT74dcdbbnN4VsDlj9SdeYA
-tool: ''
+related_tools: ''
 
 ---
 Video of a talk by Simon Wood at the London Web Meetup

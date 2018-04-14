@@ -7,7 +7,7 @@ content_type: Tutorial
 slug: links/compressing-jekyll-generated-html
 source: Sylvain Durand
 link: http://sylvaindurand.org/compressing-jekyll-generated-html/
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

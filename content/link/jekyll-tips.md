@@ -7,7 +7,7 @@ content_type: Resource/Website
 slug: links/jekyll-tips
 source: Jekyll
 link: http://jekyll.tips/
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

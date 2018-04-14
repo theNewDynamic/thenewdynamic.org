@@ -7,7 +7,7 @@ content_type: Tutorial
 slug: links/using-travis-to-build-your-sculpin-blog
 source: Wouter J
 link: http://wouterj.nl/2015/02/using-travis-to-build-your-sculpin-blog/
-tool:
+related_tools:
 - tool/sculpin.md
 
 ---

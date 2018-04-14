@@ -4,7 +4,7 @@ source: Eduard Boucas
 date: 2015-06-04 23:22:00 +0000
 link: https://eduardoboucas.com/blog/2015/06/04/supercharging-jekyll-with-a-serviceworker.html
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

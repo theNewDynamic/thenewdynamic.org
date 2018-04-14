@@ -4,7 +4,7 @@ source: Anne Tomasevich
 date: 2016-10-24 18:01:00 +0000
 link: http://savaslabs.com/2016/10/19/optimizing-jekyll-with-gulp.html
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 - tool/gulp.md
 

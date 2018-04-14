@@ -4,7 +4,7 @@ source: Sara Soueidan
 date: 2017-06-07 09:17:00 +0000
 link: https://www.sarasoueidan.com/blog/jekyll-ghpages-to-hugo-netlify/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/hugo.md
 - tool/jekyll.md
 - tool/netlify.md

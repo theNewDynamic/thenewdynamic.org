@@ -7,7 +7,7 @@ content_type: News
 slug: links/jekyll-300beta1-released
 source: Jekyll
 link: http://jekyllrb.com/news/2015/01/24/jekyll-3-0-0-beta1-released/
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

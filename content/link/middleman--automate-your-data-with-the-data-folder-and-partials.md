@@ -7,7 +7,7 @@ content_type: Tutorial
 slug: links/middleman-automate-your-data-with-the-data-folder-and-partials
 source: Anthony Candaele
 link: https://www.anthonycandaele.com/blog/2015/11/21/middleman-automate-your-data-with-the-data-folder-and-partials/
-tool:
+related_tools:
 - tool/middleman.md
 
 ---

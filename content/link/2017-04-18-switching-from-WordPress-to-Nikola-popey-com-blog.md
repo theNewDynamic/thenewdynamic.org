@@ -4,7 +4,7 @@ source: Alan Pope
 date: 2017-04-18 11:52:00 +0000
 link: https://popey.com/blog/posts/switching-from-wordpress-to-nikola.html
 content_type: Tutorial
-tool:
+related_tools:
 - tool/nikola.md
 
 ---

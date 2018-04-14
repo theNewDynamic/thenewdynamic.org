@@ -4,7 +4,7 @@ source: Sylvain Durand
 date: 2016-02-29 18:46:00 +0000
 link: https://www.sylvaindurand.org/improving-typography-on-jekyll/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

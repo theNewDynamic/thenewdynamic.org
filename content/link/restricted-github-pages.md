@@ -7,7 +7,7 @@ content_type: Tutorial
 slug: links/restricted-github-pages
 source: Alexandre Joseph
 link: http://www.alexandrejoseph.com/blog/2015-03-11-restricted-github-pages.html
-tool:
+related_tools:
 - tool/jekyll.md
 - tool/github-pages.md
 

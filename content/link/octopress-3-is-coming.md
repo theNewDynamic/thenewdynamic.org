@@ -7,7 +7,7 @@ content_type: News
 slug: links/octopress-30-is-coming
 source: Octopress
 link: http://octopress.org/2015/01/15/octopress-3.0-is-coming/
-tool:
+related_tools:
 - tool/octopress.md
 
 ---

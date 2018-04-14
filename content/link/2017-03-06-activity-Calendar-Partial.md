@@ -4,7 +4,7 @@ source: GoHugoHQ
 date: 2017-03-06 08:37:00 +0000
 link: https://gohugohq.com/partials/activity-calendar-posts/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/hugo.md
 
 ---

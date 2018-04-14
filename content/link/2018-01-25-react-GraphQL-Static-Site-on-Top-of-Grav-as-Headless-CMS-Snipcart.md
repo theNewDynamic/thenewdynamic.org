@@ -4,7 +4,7 @@ source: Charles Ouellet, Snipcart
 date: 2018-01-25 17:32:00 +0000
 link: https://snipcart.com/blog/react-graphql-grav-cms-headless-tutorial
 content_type: Article
-tool:
+related_tools:
 - tool/gatsby.md
 - tool/grav.md
 - tool/snipcart.md

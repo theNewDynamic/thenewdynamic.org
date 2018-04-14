@@ -4,7 +4,7 @@ source: C.J. Scarlett, Digital Ocean Community
 date: 2016-05-03 08:46:00 +0000
 link: https://www.digitalocean.com/community/tutorials/how-to-create-a-blog-with-hexo-on-ubuntu-14-04/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/hexo.md
 
 ---

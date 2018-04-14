@@ -4,7 +4,7 @@ source: GoHugoHQ
 date: 2017-03-09 08:35:00 +0000
 link: https://gohugohq.com/partials/autolinking-shortcode-for-articles/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/hugo.md
 
 ---

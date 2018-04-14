@@ -7,7 +7,7 @@ content_type: Tutorial
 slug: links/the-static-site-generator-pelican-vs-wordpress
 source: Martin Bundgaard
 link: http://ronn-bundgaard.dk/blog/the-static-site-generator-pelican-vs-wordpress/
-tool:
+related_tools:
 - tool/pelican.md
 
 ---

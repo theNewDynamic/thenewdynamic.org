@@ -4,7 +4,7 @@ source: Alex Ellison, ThinkShout
 date: 2014-12-09 23:30:00 +0000
 link: https://thinkshout.com/blog/2014/12/creating-dynamic-menus-in-jekyll/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

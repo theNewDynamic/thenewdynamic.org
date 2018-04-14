@@ -4,7 +4,7 @@ source: Eric Carlisle
 date: 2015-12-29 11:09:00 +0000
 link: http://www.ericcarlisle.com/jekyll/ruby/underscore/2015/12/29/Maintaining_Jekyll_Performance_When_Using_Package_Managers.html
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

@@ -4,7 +4,7 @@ source: Bleve
 date: 2015-07-24 08:08:00 +0000
 link: http://www.blevesearch.com/news/Site-Search/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/hugo.md
 
 ---

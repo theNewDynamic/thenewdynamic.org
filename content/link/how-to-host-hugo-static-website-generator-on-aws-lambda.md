@@ -7,7 +7,7 @@ content_type: Tutorial
 slug: links/how-to-host-hugo-static-website-generator-on-aws-lambda
 source: Ilya Bezdelev
 link: http://bezdelev.com/post/hugo-aws-lambda-static-website/
-tool:
+related_tools:
 - tool/hugo.md
 
 ---

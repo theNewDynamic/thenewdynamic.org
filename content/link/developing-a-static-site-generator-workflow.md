@@ -4,7 +4,7 @@ source: Thomas Peham, Sitepoint
 date: 2016-02-04 21:41:00 +0000
 link: http://www.sitepoint.com/developing-a-static-site-generator-workflow/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/hugo.md
 - tool/netlify.md
 

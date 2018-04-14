@@ -4,7 +4,7 @@ source: Chris Macrae, Forestry.io
 date: 2018-01-30 09:51:00 +0000
 link: https://forestry.io/blog/hugo-vs-jekyll-benchmark/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 - tool/hugo.md
 

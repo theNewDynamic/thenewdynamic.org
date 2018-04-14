@@ -4,7 +4,7 @@ date: 2018-03-27 06:16:18 -0400
 source: Nicholas C. Zakas
 link: https://www.nczonline.net/blog/2018/03/scheduling-jekyll-posts-netlify/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/netlify.md
 - tool/jekyll.md
 video: false

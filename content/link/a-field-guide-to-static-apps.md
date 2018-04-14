@@ -7,7 +7,7 @@ content_type: Resource/Website
 slug: links/a-field-guide-to-static-apps
 source: Divshot
 link: http://www.staticapps.org/
-tool: ''
+related_tools: ''
 
 ---
 Entire website devoted to static apps

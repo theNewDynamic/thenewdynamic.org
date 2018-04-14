@@ -5,7 +5,7 @@ date: 2017-03-25 17:55:00 +0000
 link: https://flinhong.com/2017/03/25/self-host-comments-in-jekyll-using-firebase-database/
 content_type: Tutorial
 category: solutions
-tool:
+related_tools:
 - tool/jekyll.md
 - tool/firebase.md
 

@@ -7,7 +7,7 @@ content_type: Tutorial
 slug: links/how-to-use-github-and-the-terminal-a-guide
 source: 18F
 link: https://18f.gsa.gov/2015/03/03/how-to-use-github-and-the-terminal-a-guide/
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

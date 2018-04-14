@@ -4,7 +4,7 @@ date: 2018-03-05 18:18:36 +0000
 source: Mozaik
 link: https://www.mozaik.io/blog/post/building-static-sites-with-mozaik-and-gatsby
 content_type: Article
-tool:
+related_tools:
 - tool/mozaik.md
 - tool/gatsby.md
 video: false

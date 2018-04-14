@@ -4,7 +4,7 @@ source: Jeremy Hutchinson
 date: 2016-12-08 22:45:00 +0000
 link: https://hutchcodes.net/2016/12/azure-search-for-jekyll/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

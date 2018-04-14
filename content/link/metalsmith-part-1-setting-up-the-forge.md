@@ -7,7 +7,7 @@ content_type: Tutorial
 slug: links/metalsmith-part-1-setting-up-the-forge
 source: Robin Thrift
 link: http://www.robinthrift.com/posts/metalsmith-part-1-setting-up-the-forge/
-tool:
+related_tools:
 - tool/metalsmith.md
 
 ---

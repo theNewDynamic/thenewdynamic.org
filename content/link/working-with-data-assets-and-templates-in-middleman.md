@@ -4,7 +4,7 @@ source: Ed Wassermann, Tutsplus
 date: 2016-02-02 09:23:00 +0000
 link: http://webdesign.tutsplus.com/articles/working-with-data-assets-and-templates-in-middleman--cms-25333
 content_type: Tutorial
-tool:
+related_tools:
 - tool/middleman.md
 
 ---

@@ -8,7 +8,7 @@ tags:
 - performance
 - tool/amp.md
 - google
-tool:
+related_tools:
 - tool/jekyll.md
 - tool/amp.md
 

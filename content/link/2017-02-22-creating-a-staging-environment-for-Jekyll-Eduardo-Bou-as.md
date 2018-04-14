@@ -4,7 +4,7 @@ source: Eduardo Bouças
 date: 2017-02-22 22:01:00 +0000
 link: https://eduardoboucas.com/blog/2017/02/22/jekyll-staging-environment.html
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 - tool/netlify.md
 

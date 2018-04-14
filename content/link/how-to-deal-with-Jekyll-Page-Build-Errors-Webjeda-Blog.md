@@ -4,7 +4,7 @@ source: Webjeda Blog
 date: 2016-07-22 10:29:00 +0000
 link: https://blog.webjeda.com/page-build-error/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

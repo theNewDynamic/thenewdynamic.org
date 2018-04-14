@@ -4,7 +4,7 @@ source: Parimal Satyal
 date: 2016-09-29 21:33:00 +0000
 link: https://neustadt.fr/essays/crafting-a-simple-blog-with-metalsmith/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/metalsmith.md
 
 ---

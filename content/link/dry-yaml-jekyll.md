@@ -4,7 +4,7 @@ source: Katy DeCorah
 date: 2014-09-02 22:20:00 +0000
 link: http://katydecorah.com/code/dry-yaml/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

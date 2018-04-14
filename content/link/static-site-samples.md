@@ -7,7 +7,7 @@ content_type: Resource/Website
 slug: links/static-site-samples
 source: Brian Rinaldi
 link: https://github.com/remotesynth/Static-Site-Samples
-tool:
+related_tools:
 - tool/jekyll.md
 - tool/harp.md
 - tool/middleman.md

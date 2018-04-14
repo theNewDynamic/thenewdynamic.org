@@ -4,7 +4,7 @@ source: David Darnes
 date: 2016-08-25 12:15:00 +0000
 link: https://david.darn.es/2016/08/25/adding-siteleaf-to-a-github-pages-site/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 - tool/siteleaf.md
 

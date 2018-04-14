@@ -7,7 +7,7 @@ content_type: Article
 slug: links/125-jekyll-with-parker-moore
 source: The Changelog
 link: https://changelog.com/125/
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

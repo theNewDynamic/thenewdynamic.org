@@ -5,7 +5,7 @@ date: 2017-01-05 17:55:00 +0000
 link: https://snipcart.com/blog/jamstack-clients-static-site-cms
 content_type: Tutorial
 category: essentials
-tool:
+related_tools:
 - tool/snipcart.md
 
 ---

@@ -7,7 +7,7 @@ content_type: Video/Presentation
 slug: links/jekyll-town-hall-feb-2015
 source: Jekyll
 link: https://www.youtube.com/watch?v=sRCXRkUVAag
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

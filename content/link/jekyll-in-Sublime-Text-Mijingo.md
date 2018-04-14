@@ -4,7 +4,7 @@ source: Ryan Irelan, Mijingo
 date: 2016-02-23 23:40:00 +0000
 link: https://mijingo.com/lessons/jekyll-in-sublime-text/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

@@ -4,7 +4,7 @@ source: Dave Maple
 date: 2016-03-01 20:01:00 +0000
 link: https://www.davemaple.com/articles/optimizing-jekyll-for-page-speed/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

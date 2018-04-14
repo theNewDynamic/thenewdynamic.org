@@ -7,7 +7,7 @@ content_type: Resource/Website
 slug: links/hugo-continuous-integration-with-wercker-and-bitbucket
 source: Aerobatic
 link: http://www.aerobatic.com/blog/hugo-continuous-integration-with-wercker-aerobatic-and-bitbucket.html
-tool:
+related_tools:
 - tool/hugo.md
 - tool/aerobatic.md
 

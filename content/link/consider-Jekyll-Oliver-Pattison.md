@@ -5,7 +5,7 @@ date: 2016-03-18 11:13:00 +0000
 link: https://olivermak.es/2016/03/consider-jekyll/
 content_type: Article
 category: essentials
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

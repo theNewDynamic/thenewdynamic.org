@@ -4,7 +4,7 @@ source: Katy DeCorah
 date: 2015-08-15 21:56:00 +0000
 link: http://katydecorah.com/code/lunr-and-jekyll/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 - tool/lunr.md
 

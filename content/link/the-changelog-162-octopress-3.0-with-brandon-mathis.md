@@ -7,7 +7,7 @@ content_type: Resource/Website
 slug: links/the-changelog-162-octopress-30-with-brandon-mathis
 source: The Changelog
 link: https://changelog.com/162/
-tool:
+related_tools:
 - tool/octopress.md
 - tool/jekyll.md
 

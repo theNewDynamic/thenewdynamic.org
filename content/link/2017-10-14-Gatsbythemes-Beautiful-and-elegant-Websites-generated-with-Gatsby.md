@@ -4,7 +4,7 @@ source: Sascha Jullmann
 date: 2017-10-21 08:49:00 +0000
 link: https://gatsbythemes.com/blog/how-to-use-redux-and-emotion-in-gatsby/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/gatsby.md
 
 ---

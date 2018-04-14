@@ -7,7 +7,7 @@ content_type: News
 slug: links/meet-the-new-members-of-the-sculpin-organization
 source: Beau Simensen
 link: http://blog.sculpin.io/2015/02/23/meet-the-new-members-of-the-sculpin-organization/
-tool:
+related_tools:
 - tool/sculpin.md
 
 ---

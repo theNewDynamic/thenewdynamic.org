@@ -7,7 +7,7 @@ content_type: Tutorial
 slug: links/spaces-and-special-characters-in-jekyll-categories
 source: Piotr Świderek
 link: http://fusil.li/blog/spaces-and-special-characters-in-jekyll-categories/
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

@@ -7,7 +7,7 @@ content_type: Tutorial
 slug: links/static-website-with-jekyll
 source: Sylvain Durand
 link: http://sylvaindurand.org/static-website-with-jekyll/
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

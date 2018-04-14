@@ -4,7 +4,7 @@ source: Ryan Baumann
 date: 2016-09-09 11:16:00 +0000
 link: http://ryanfb.github.io/etc/2016/09/09/archiving_jekyll_websites_with_sitemaps.html
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

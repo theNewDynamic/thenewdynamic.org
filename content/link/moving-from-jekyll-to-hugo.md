@@ -7,7 +7,7 @@ content_type: Article
 slug: links/moving-from-jekyll-to-hugo
 source: Fredrik Loch
 link: http://fredrikloch.me/post/moving_jekyll_hugo/
-tool:
+related_tools:
 - tool/hugo.md
 - tool/jekyll.md
 

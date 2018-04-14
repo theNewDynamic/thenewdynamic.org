@@ -4,7 +4,7 @@ source: Patrick Heeney, Evocode
 date: 2016-08-03 12:00:00 +0000
 link: http://evocode.com/blog/how-we-built-the-new-evocode/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/metalsmith.md
 
 ---

@@ -4,7 +4,7 @@ source: Knut Melvær, Hacker Noon
 date: 2017-11-20 19:06:00 +0000
 link: https://hackernoon.com/headless-in-love-with-sanity-689960571dc
 content_type: Article
-tool:
+related_tools:
 - tool/sanity.md
 
 ---

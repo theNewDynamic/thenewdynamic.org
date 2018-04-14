@@ -4,7 +4,7 @@ date: 2017-03-07 12:34:22 -0500
 link: https://scripter.co/installing-bleeding-edge-hugo-goorgeous/
 source: Kaushal Modi
 content_type: Tutorial
-tool:
+related_tools:
 - tool/hugo.md
 video: false
 category: ''

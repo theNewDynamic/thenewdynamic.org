@@ -7,7 +7,7 @@ content_type: Tutorial
 slug: links/middleman-static-sites-arent-just-for-blogs
 source: PJ Hagerty, Engine Yard
 link: https://blog.engineyard.com/2015/middleman-static-sites-arent-just-for-blogs/
-tool:
+related_tools:
 - tool/middleman.md
 
 ---

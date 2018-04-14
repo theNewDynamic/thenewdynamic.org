@@ -7,7 +7,7 @@ content_type: Tutorial
 slug: links/configuring-cloudflares-universal-ssl
 source: Ben Burwell
 link: https://www.benburwell.com/posts/configuring-cloudflare-universal-ssl/
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

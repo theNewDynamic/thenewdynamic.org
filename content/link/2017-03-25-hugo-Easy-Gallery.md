@@ -4,7 +4,7 @@ source: Li-Wen Yip
 date: 2017-04-05 19:31:00 +0000
 link: https://www.liwen.id.au/heg/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/hugo.md
 
 ---

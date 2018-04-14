@@ -4,7 +4,7 @@ source: Katy DeCorah
 date: 2014-07-26 22:26:00 +0000
 link: http://katydecorah.com/code/static-mapbox-for-jekyll/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

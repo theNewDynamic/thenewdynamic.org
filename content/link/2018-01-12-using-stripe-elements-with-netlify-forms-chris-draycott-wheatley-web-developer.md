@@ -4,7 +4,7 @@ source: Chris Draycott-wheatley
 date: 2018-01-12 17:13:00 +0000
 link: https://chrisdwheatley.com/article/using-stripe-elements-with-netlify-forms
 content_type: Tutorial
-tool:
+related_tools:
 - tool/netlify.md
 video: false
 category: ''

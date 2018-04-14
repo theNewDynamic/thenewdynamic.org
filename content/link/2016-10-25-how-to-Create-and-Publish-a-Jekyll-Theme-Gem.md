@@ -4,7 +4,7 @@ source: David Darnes
 date: 2016-10-19 07:59:00 +0000
 link: https://webdesign.tutsplus.com/tutorials/how-to-create-and-publish-a-jekyll-theme-gem--cms-27475
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 - tool/alembic-theme.md
 

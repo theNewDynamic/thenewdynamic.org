@@ -4,7 +4,7 @@ source: Ryan M
 date: 2016-08-19 08:40:00 +0000
 link: https://ryanmo.co/2016/08/19/publishing-from-day-one-to-pelican-with-hazel-and-dropbox/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/pelican.md
 
 ---

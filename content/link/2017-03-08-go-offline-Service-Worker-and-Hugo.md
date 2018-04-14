@@ -4,7 +4,7 @@ source: gohugohq
 date: 2017-03-08 13:40:00 +0000
 link: https://gohugohq.com/howto/go-offline-with-service-worker/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/hugo.md
 
 ---

@@ -7,7 +7,7 @@ content_type: Tutorial
 slug: links/building-a-blog-in-es6-with-metalsmith
 source: Cameron J Roe
 link: http://cameronjroe.com/writing/building-a-blog-in-es6-with-metalsmith/
-tool:
+related_tools:
 - tool/metalsmith.md
 
 ---

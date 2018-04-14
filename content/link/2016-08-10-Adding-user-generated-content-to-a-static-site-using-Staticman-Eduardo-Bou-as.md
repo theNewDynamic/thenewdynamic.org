@@ -5,7 +5,7 @@ date: 2016-08-10 10:08:00 +0000
 link: https://eduardoboucas.com/blog/2016/08/10/staticman.html
 content_type: Article
 category: essentials
-tool:
+related_tools:
 - tool/jekyll.md
 - tool/static-man.md
 

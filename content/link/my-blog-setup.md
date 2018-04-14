@@ -4,7 +4,7 @@ date: 2018-03-07 06:13:03 -0500
 source: Mark Wilkinson
 link: https://m82labs.com/blog-setup
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 - tool/lunrjs.md
 video: false

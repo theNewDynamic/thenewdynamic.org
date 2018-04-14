@@ -4,7 +4,7 @@ source: Paul D'ambra
 date: 2016-09-18 08:27:00 +0000
 link: http://pauldambra.github.io/using-travis-to-build-jekyll.html
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

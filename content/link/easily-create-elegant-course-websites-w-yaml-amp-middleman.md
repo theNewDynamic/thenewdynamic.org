@@ -7,7 +7,7 @@ content_type: Tutorial
 slug: links/easily-create-elegant-course-websites-w-yaml-middleman
 source: Andrew Pilsch
 link: http://andrew.pilsch.com/blog/2015/03/04/easily-create-elegant-course-websites-w-yaml-middleman/
-tool:
+related_tools:
 - tool/middleman.md
 
 ---

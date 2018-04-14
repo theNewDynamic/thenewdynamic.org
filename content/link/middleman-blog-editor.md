@@ -7,7 +7,7 @@ content_type: Resource/Website
 slug: links/middleman-blog-editor
 source: Thomas Reynolds
 link: http://middleman-blog-editor.awardwinningfjords.com/
-tool:
+related_tools:
 - tool/middleman.md
 - tool/middleman-blog-editor.md
 

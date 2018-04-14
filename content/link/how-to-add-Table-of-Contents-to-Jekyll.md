@@ -4,7 +4,7 @@ source: Webjeda
 date: 2016-04-20 09:20:00 +0000
 link: http://blog.webjeda.com/jekyll-toc/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

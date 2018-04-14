@@ -4,7 +4,7 @@ source: Jeremias Menichelli
 date: 2016-05-30 07:36:00 +0000
 link: https://jeremenichelli.github.io/2016/05/a-gulp-recipe-for-timestamps
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 - tool/gulp.md
 

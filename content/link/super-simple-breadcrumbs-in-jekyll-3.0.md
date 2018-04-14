@@ -7,7 +7,7 @@ content_type: Resource/Website
 slug: links/super-simple-breadcrumbs-in-jekyll-30
 source: Jordon Bedwell (Jekyll Core), @envygeeks
 link: https://envygeeks.io/2015/12/06/super-simple-breadcrumbs-in-jekyll-3-0/
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

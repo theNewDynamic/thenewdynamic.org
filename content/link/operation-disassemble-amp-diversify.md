@@ -7,7 +7,7 @@ content_type: News
 slug: links/operation-disassemble-diversify
 source: DocPad
 link: https://github.com/docpad/docpad/issues/821
-tool:
+related_tools:
 - tool/docpad.md
 
 ---

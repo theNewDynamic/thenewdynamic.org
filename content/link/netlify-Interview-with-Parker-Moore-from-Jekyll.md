@@ -4,7 +4,7 @@ source: Aaron Autrand, Netlify
 date: 2016-03-14 12:46:00 +0000
 link: https://www.netlify.com/blog/2016/03/11/interview-with-parker-moore-from-jekyll/
 content_type: Article
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

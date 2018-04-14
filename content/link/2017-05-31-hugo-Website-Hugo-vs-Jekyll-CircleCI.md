@@ -4,7 +4,7 @@ source: Ricardo Feliciano, CircleCI
 date: 2017-05-31 19:31:00 +0000
 link: https://circleci.com/blog/build-test-deploy-hugo-sites/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/hugo.md
 - tool/circleci.md
 

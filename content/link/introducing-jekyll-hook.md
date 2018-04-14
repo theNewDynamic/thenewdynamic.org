@@ -5,7 +5,7 @@ editor_recommends: true
 content_type: Article
 source: Dave Cole, Development Seed
 link: https://developmentseed.org/blog/2013/05/01/introducing-jekyll-hook/
-tool:
+related_tools:
 - tool/jekyll.md
 - tool/jekyll-hook.md
 

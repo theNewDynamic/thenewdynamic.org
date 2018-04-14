@@ -7,7 +7,7 @@ content_type: Article
 slug: links/static-site-generators-are-overkill
 source: Valeri Karpov
 link: http://thecodebarbarian.com/2015/02/06/static_site_generators
-tool:
+related_tools:
 - tool/hugo.md
 
 ---

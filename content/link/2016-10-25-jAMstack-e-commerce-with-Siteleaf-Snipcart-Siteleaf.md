@@ -4,7 +4,7 @@ source: Charles Ouellet
 date: 2016-10-25 14:14:00 +0000
 link: https://www.siteleaf.com/blog/jamstack-ecommerce/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 - tool/siteleaf.md
 - tool/snipcart.md

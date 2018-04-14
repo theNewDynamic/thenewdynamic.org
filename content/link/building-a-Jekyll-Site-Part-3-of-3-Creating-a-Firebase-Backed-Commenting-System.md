@@ -5,7 +5,7 @@ source: Mike Neumegen (Cloudcannon), CSS-Tricks
 date: 2016-02-11 21:10:00 +0000
 link: https://css-tricks.com/building-a-jekyll-site-part-3-of-3/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 - tool/firebase.md
 

@@ -4,7 +4,7 @@ source: Brian Rinaldi
 date: 2016-11-07 13:51:00 +0000
 link: http://www.remotesynthesis.com/general/2016/10/27/more-advanced-jekyll/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

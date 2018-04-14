@@ -7,7 +7,7 @@ content_type: Tutorial
 slug: links/pjax-middleman-or-any-other-static-site-generator
 source: Jan Vatova
 link: http://strongpoint.io/blog/2014/08/04/pjax-and-middleman/
-tool:
+related_tools:
 - tool/middleman.md
 
 ---

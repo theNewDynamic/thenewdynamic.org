@@ -4,7 +4,7 @@ source: Bryan King
 date: 2018-01-14 14:33:00 +0000
 link: https://brykng.com/blog/jekyll-on-netlify.html
 content_type: Tutorial
-tool:
+related_tools:
 - tool/netlify.md
 - tool/jekyll.md
 

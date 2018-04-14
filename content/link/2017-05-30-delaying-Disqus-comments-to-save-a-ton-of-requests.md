@@ -6,7 +6,7 @@ link: https://blog.kulman.sk/delaying-disqus-comments-to-save-requests/
 category: essentials
 tag: performance
 content_type: Tutorial
-tool:
+related_tools:
 - tool/hugo.md
 - tool/jekyll.md
 

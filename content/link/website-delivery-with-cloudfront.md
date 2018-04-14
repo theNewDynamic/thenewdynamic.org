@@ -7,7 +7,7 @@ content_type: Tutorial
 slug: links/website-delivery-with-cloudfront
 source: Sylvain Durand
 link: http://sylvaindurand.org/website-delivery-with-cloudfront/
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

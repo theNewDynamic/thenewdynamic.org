@@ -7,7 +7,7 @@ content_type: Tutorial
 slug: links/an-introduction-to-the-wintersmith-process
 source: David Tucker
 link: http://davidtucker.net/articles/introduction-to-wintersmith/
-tool:
+related_tools:
 - tool/wintersmith.md
 
 ---

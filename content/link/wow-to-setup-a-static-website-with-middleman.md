@@ -4,7 +4,7 @@ source: Ed Wassermann, Tutsplus
 date: 2016-02-02 09:22:00 +0000
 link: http://webdesign.tutsplus.com/articles/how-to-setup-a-static-website-with-middleman--cms-25275
 content_type: Tutorial
-tool:
+related_tools:
 - tool/middleman.md
 
 ---

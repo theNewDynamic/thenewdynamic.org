@@ -4,7 +4,7 @@ source: Bill Miksich, Customer.io
 date: 2017-11-21 21:42:00 +0000
 link: https://rsvp.customer.io/the-most-annoying-thing-about-static-site-generators-fixed-d05dd974c0e3
 content_type: Tutorial
-tool:
+related_tools:
 - tool/form-keep.md
 
 ---

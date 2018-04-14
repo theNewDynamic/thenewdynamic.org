@@ -7,7 +7,7 @@ content_type: Article
 slug: links/its-time-to-drop-your-cms
 source: Owen Williams, The Apartment
 link: http://theapartment.co/dev/2015/09/10/drop-that-old-cms/
-tool:
+related_tools:
 - tool/jekyll.md
 - tool/cloudcannon.md
 

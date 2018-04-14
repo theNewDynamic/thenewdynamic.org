@@ -7,7 +7,7 @@ content_type: Tutorial
 slug: links/static-site-generation-with-react-and-webpack
 source: Jxnblk
 link: http://jxnblk.com/writing/posts/static-site-generation-with-react-and-webpack/
-tool:
+related_tools:
 - react
 
 ---

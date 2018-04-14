@@ -7,7 +7,7 @@ content_type: Tutorial
 slug: links/adding-ajax-pagination-to-jekyll
 source: Eduardo Boucas
 link: https://eduardoboucas.com/blog/2014/11/10/adding-ajax-pagination-to-jekyll.html
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

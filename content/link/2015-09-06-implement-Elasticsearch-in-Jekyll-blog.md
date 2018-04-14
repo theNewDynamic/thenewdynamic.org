@@ -5,7 +5,7 @@ date: 2015-09-06 22:09:00 +0000
 link: https://botleg.com/stories/implement-elasticsearch-in-jekyll-blog/
 content_type: Tutorial
 tags: search
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

@@ -8,7 +8,7 @@ content_type: Article
 slug: links/the-static-html-reprise
 source: Andrew Goodricke
 link: http://www.andrewgoodricke.com/posts/2015-06-11_static_html_reprise.html
-tool:
+related_tools:
 - tool/metalsmith.md
 
 ---

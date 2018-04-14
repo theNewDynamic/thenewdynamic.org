@@ -7,7 +7,7 @@ content_type: Review
 slug: links/static-website-generators-reviewed-jekyll-middleman-roots-hugo
 source: Mathias Biilmann, Smashing Magazine
 link: http://www.smashingmagazine.com/2015/11/static-website-generators-jekyll-middleman-roots-hugo-review/
-tool:
+related_tools:
 - tool/jekyll.md
 - tool/middleman.md
 - tool/hugo.md

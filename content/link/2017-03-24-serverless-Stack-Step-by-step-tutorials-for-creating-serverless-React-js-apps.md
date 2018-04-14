@@ -5,7 +5,7 @@ source: Anomaly Innovations
 date: 2017-03-24 23:49:00 +0000
 link: http://serverless-stack.com/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/aws-lambda.md
 
 ---

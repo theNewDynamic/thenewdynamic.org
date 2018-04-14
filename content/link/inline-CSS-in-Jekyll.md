@@ -4,7 +4,7 @@ source: Hugo Giraudel
 date: 2016-06-02 21:16:00 +0000
 link: https://www.sitepoint.com/inline-css-in-jekyll/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

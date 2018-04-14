@@ -4,7 +4,7 @@ source: David Yates
 date: 2016-08-19 12:21:00 +0000
 link: https://davidyat.es/2016/08/19/moving-to-a-static-site/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/hugo.md
 
 ---

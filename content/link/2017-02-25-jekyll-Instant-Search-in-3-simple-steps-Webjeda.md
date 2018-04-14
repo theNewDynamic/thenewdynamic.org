@@ -4,7 +4,7 @@ source: Webjeda
 date: 2017-02-26 14:51:00 +0000
 link: https://blog.webjeda.com/instant-jekyll-search/?utm_source=feedburner&utm_medium=twitter&utm_campaign=Feed%3A+webjedablog+%28WebJeda+Blog%29
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 - tool/lunr.md
 

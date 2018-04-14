@@ -4,7 +4,7 @@ source: Dustin Schau
 date: 2017-07-27 08:34:00 +0000
 link: https://www.gatsbyjs.org/blog/2017-07-19-creating-a-blog-with-gatsby/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/gatsby.md
 
 ---

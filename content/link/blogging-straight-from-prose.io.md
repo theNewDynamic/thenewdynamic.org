@@ -7,7 +7,7 @@ content_type: Tutorial
 slug: links/blogging-straight-from-proseio
 source: Rowan, NetEngine.com
 link: http://netengine.com.au/blog/blogging-straight-from-prose-io/
-tool:
+related_tools:
 - tool/middleman.md
 - tool/proseio.md
 - tool/github-pages.md

@@ -7,7 +7,7 @@ content_type: News
 slug: links/jekyll-videos-updated-10815
 source: Thomas Bradley
 link: https://www.youtube.com/playlist?list=PLWjCJDeWfDdfVEcLGAfdJn_HXyM4Y7_k-
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

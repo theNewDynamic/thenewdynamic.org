@@ -4,7 +4,7 @@ date: 2018-03-03 13:24:34 +0000
 link: https://brunoamaral.eu/post/content-groups-in-hugo/
 source: Bruno Amaral
 content_type: Tutorial
-tool:
+related_tools:
 - tool/hugo.md
 video: false
 category: ''

@@ -7,7 +7,7 @@ content_type: Tutorial
 slug: links/building-a-static-developer-friendly-open-source-knowledge-base
 source: Aviv Nitsan, Dept. of Better Technology
 link: http://blog.dobt.co/2014/10/01/knowledge-base/
-tool:
+related_tools:
 - tool/wintersmith.md
 
 ---

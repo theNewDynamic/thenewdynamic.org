@@ -4,7 +4,7 @@ source: terriblecode
 date: 2017-09-14 10:59:00 +0000
 link: https://terriblecode.com/blog/deploying-static-sites-with-ssl/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/docker.md
 - tool/letsencrypt.md
 

@@ -4,7 +4,7 @@ source: Eric Gillespie, Technical Rex
 date: 2016-03-17 16:15:00 +0000
 link: http://technicalrex.com/scheduling-static-site-content/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 - tool/surge.md
 

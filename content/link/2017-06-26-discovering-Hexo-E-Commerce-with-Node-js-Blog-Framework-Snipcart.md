@@ -4,7 +4,7 @@ source: Snipcart
 date: 2017-06-26 21:54:00 +0000
 link: https://snipcart.com/blog/hexo-ecommerce-nodejs-blog-framework
 content_type: Tutorial
-tool:
+related_tools:
 - tool/hexo.md
 - tool/snipcart.md
 

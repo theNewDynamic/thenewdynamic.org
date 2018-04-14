@@ -7,7 +7,7 @@ content_type: Tutorial
 slug: links/static-site-e-commerce-part-3-integrating-snipcart-with-hugo
 source: Snipcart
 link: https://snipcart.com/blog/snipcart-hugo-integration/
-tool:
+related_tools:
 - tool/hugo.md
 - tool/snipcart.md
 

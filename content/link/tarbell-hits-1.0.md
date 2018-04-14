@@ -7,7 +7,7 @@ content_type: News
 slug: links/tarbell-hits-10
 source: Tarbell
 link: http://www.tarbell.io/
-tool:
+related_tools:
 - tool/tarbell.md
 
 ---

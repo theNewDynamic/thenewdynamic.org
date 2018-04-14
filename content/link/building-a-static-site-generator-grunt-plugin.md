@@ -7,7 +7,7 @@ content_type: Tutorial
 slug: links/building-a-static-site-generator-grunt-plugin
 source: Matthew Daly, Sitepoint
 link: http://www.sitepoint.com/building-static-site-generator-grunt-plugin/
-tool:
+related_tools:
 - tool/grunt.md
 
 ---

@@ -7,7 +7,7 @@ content_type: Tutorial
 slug: links/jekyll-from-scratch
 source: Mike Greiling
 link: http://pixelcog.com/blog/2013/jekyll-from-scratch-extending-jekyll/
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

@@ -5,7 +5,7 @@ date: 2016-06-14 21:51:00 +0000
 category: essentials
 link: https://about.gitlab.com/2016/06/03/ssg-overview-gitlab-pages-part-1-dynamic-x-static/
 content_type: Article
-tool:
+related_tools:
 - 
 
 ---

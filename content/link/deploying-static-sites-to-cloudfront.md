@@ -7,7 +7,7 @@ content_type: Resource/Website
 slug: links/deploying-static-sites-to-cloudfront
 source: James Turk
 link: https://jamesturk.net/posts/deploying-hugo-to-cloudfront/
-tool:
+related_tools:
 - tool/hugo.md
 - tool/jekyll.md
 - tool/pelican.md

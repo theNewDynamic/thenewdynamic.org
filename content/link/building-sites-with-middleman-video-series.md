@@ -6,7 +6,7 @@ editor_recommends: ''
 content_type: Tutorial
 source: Watch and Learn
 link: https://www.youtube.com/playlist?list=PLUBR53Dw-Ef-JqMxSWYmZjHRKxg1RI1NA
-tool:
+related_tools:
 - tool/middleman.md
 
 ---

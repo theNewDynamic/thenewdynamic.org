@@ -7,7 +7,7 @@ content_type: News
 slug: links/crossbow-static-site-generator
 source: Crossbow
 link: http://quick.as/ly3uw2m/
-tool:
+related_tools:
 - tool/crossbow.md
 
 ---

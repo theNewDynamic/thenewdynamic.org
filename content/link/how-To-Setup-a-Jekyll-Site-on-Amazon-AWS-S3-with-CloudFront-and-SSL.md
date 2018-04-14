@@ -4,7 +4,7 @@ source: Root Engineer
 date: 2016-03-17 16:31:00 +0000
 link: https://rootengineer.net/cloud/2016/jekyll-amazon-aws-s3-cloudfront-with-ssl/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

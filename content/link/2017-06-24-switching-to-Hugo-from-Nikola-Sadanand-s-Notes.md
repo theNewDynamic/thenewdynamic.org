@@ -4,7 +4,7 @@ source: Sadanand Singh
 date: 2017-06-24 18:12:00 +0000
 link: https://sadanand-singh.github.io/posts/nikola2hugo/
 content_type: Article
-tool:
+related_tools:
 - tool/hugo.md
 
 ---

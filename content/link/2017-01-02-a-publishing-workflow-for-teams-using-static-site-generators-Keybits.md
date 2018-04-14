@@ -4,7 +4,7 @@ source: Keybits
 date: 2017-01-02 21:49:00 +0000
 link: https://www.keybits.net/post/publishing-workflow-for-teams-using-static-site-generators/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/netlify.md
 
 ---

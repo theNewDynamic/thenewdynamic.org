@@ -7,6 +7,6 @@ content_type: Tutorial
 slug: links/managing-a-cd-release-workflow-with-staging-and-production-branches
 source: Aerobatic
 link: http://www.aerobatic.com/blog/managing-cd-releases-staging-production/
-tool: ''
+related_tools: ''
 
 ---

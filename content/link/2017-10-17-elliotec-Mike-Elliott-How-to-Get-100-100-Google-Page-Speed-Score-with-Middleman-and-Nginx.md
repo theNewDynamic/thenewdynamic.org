@@ -4,7 +4,7 @@ source: Mike Elliott
 date: 2017-10-20 21:38:00 +0000
 link: https://elliotec.com/how-to-get-100-google-page-speed-score/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/middleman.md
 
 ---

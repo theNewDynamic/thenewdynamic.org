@@ -7,7 +7,7 @@ content_type: Article
 slug: links/the-great-web-slowdown-infographic
 source: Web Performance Today
 link: http://www.webperformancetoday.com/2014/02/25/the-great-web-slowdown-infographic/
-tool: ''
+related_tools: ''
 
 ---
 Helpful infographic on web performance

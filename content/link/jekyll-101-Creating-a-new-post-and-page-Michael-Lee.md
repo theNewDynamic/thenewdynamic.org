@@ -4,7 +4,7 @@ source: Michael Lee
 date: 2016-06-15 21:37:00 +0000
 link: https://michaelsoolee.com/jekyll-post-page/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

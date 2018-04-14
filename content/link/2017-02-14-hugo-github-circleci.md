@@ -5,7 +5,7 @@ editor_recommends: ''
 content_type: ''
 source: Aerobatic
 link: https://www.aerobatic.com/blog/hugo-github-circleci/
-tool:
+related_tools:
 - tool/hugo.md
 - tool/circleci.md
 

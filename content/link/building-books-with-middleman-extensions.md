@@ -7,7 +7,7 @@ content_type: Article
 slug: links/building-books-with-middleman-extensions
 source: Eric Gardner (@ecgardner)
 link: http://egardner.github.io/posts/2015/building-books-with-middleman/
-tool:
+related_tools:
 - tool/middleman.md
 
 ---

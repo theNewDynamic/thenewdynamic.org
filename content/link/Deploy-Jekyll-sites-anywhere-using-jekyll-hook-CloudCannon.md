@@ -4,7 +4,7 @@ source: Mike Neumegen, CloudCannon
 date: 2016-01-26 19:50:00 +0000
 link: http://cloudcannon.com/tutorial/2016/01/26/deploy-jekyll-sites-anywhere-with-jekyll-hook/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 - tool/jekyll-hook.md
 

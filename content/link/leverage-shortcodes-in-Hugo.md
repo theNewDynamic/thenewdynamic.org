@@ -4,7 +4,7 @@ source: Julio Pescador
 date: 2016-03-16 22:54:00 +0000
 link: https://jpescador.com/blog/leverage-shortcodes-in-hugo/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/hugo.md
 
 ---

@@ -4,7 +4,7 @@ source: David Baumgold
 date: 2016-08-08 19:34:00 +0000
 link: https://www.davidbaumgold.com/tutorials/host-static-site-aws-s3-cloudfront/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/lektor.md
 
 ---

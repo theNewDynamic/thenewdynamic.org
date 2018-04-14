@@ -5,7 +5,7 @@ date: 2016-08-02 09:57:00 +0000
 link: https://www.smashingmagazine.com/2016/08/using-a-static-site-generator-at-scale-lessons-learned/
 category: essentials
 content_type: Article
-tool:
+related_tools:
 - tool/jekyll.md
 - tool/metalsmith.md
 - tool/contentful.md

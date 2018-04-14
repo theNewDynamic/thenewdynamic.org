@@ -7,7 +7,7 @@ content_type: News
 slug: links/octopress-30-qa-on-hacker-news
 source: ''
 link: https://news.ycombinator.com/item?id=8895231
-tool:
+related_tools:
 - tool/octopress.md
 
 ---

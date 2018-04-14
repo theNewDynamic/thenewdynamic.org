@@ -7,7 +7,7 @@ content_type: Tutorial
 slug: links/jekyll-quick-reference-cheat-sheet
 source: CloudCannon
 link: https://learn.cloudcannon.com/jekyll-cheat-sheet/
-tool:
+related_tools:
 - tool/jekyll.md
 video: false
 category: ''

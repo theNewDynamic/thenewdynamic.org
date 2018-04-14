@@ -5,7 +5,7 @@ tags: wordpress
 date: 2017-09-30 09:03:00 +0000
 link: http://blog.teamtreehouse.com/hugo-templates-wordpress-designers
 content_type: Tutorial
-tool:
+related_tools:
 - tool/hugo.md
 
 ---

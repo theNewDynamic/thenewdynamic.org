@@ -7,7 +7,7 @@ content_type: Resource/Website
 slug: links/jekyll-codex
 source: J.H. van der Schee
 link: http://jekyllcodex.org/
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

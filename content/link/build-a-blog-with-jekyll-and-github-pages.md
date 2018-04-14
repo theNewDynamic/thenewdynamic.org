@@ -7,7 +7,7 @@ content_type: Tutorial
 slug: links/build-a-blog-with-jekyll-and-github-pages
 source: Barry Clark, Smashing Magazine
 link: http://www.smashingmagazine.com/2014/08/01/build-blog-jekyll-github-pages/
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

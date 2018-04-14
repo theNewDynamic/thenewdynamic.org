@@ -4,7 +4,7 @@ source: Silvestar Bistrović
 date: 2017-10-21 08:48:00 +0000
 link: https://hackernoon.com/a-guide-to-static-site-generators-using-hexo-and-wordpress-e6c0b17285cb
 content_type: Article
-tool:
+related_tools:
 - tool/hexo.md
 
 ---

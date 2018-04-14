@@ -4,7 +4,7 @@ source: Sharath Kumar, Webjeda
 date: 2016-03-25 22:23:00 +0000
 link: http://blog.webjeda.com/optimize-jekyll-blog-seo/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

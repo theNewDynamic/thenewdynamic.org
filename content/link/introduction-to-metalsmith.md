@@ -7,7 +7,7 @@ content_type: Article
 slug: links/introduction-to-metalsmith
 source: Andy Jiang
 link: http://blog.andyjiang.com/introduction-to-metalsmith/
-tool:
+related_tools:
 - tool/metalsmith.md
 
 ---

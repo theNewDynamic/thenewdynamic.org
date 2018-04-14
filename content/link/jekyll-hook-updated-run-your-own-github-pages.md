@@ -7,7 +7,7 @@ content_type: News
 slug: links/jekyll-hook-updated-run-your-own-github-pages
 source: Development Seed
 link: https://developmentseed.org/blog/2014/07/23/jekyll-hook/
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

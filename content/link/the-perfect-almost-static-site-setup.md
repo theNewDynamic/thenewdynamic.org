@@ -7,7 +7,7 @@ content_type: Tutorial
 slug: links/the-perfect-almost-static-site-setup
 source: Romain, Hull.io
 link: http://blog.hull.io/post/45912703356/the-perfect-almost-static-site-setup
-tool:
+related_tools:
 - tool/middleman.md
 - tool/heroku.md
 

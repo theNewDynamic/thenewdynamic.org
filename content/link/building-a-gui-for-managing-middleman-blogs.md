@@ -7,7 +7,7 @@ content_type: Article
 slug: links/building-a-gui-for-managing-middleman-blogs
 source: Technology for the Blank Page
 link: http://willschenk.com/building-a-gui-for-managing-middleman-blogs/
-tool:
+related_tools:
 - tool/middleman.md
 
 ---

@@ -3,7 +3,7 @@ title: Setting up CloudFront and TLS (HTTPS) with Jekyll
 source: Oliver Pattison
 date: 2016-01-25 13:11:00 +0000
 link: https://olivermak.es/2016/01/aws-tls-certificate-with-jekyll/
-tool:
+related_tools:
 - tool/jekyll.md
 - tool/s3.md_website
 content_type: Tutorial

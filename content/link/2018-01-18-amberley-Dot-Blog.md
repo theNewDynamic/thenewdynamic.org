@@ -4,7 +4,7 @@ source: Amberley
 date: 2018-01-18 09:27:00 +0000
 link: https://amberley.blog/getting-started-with-gatsbyjs-and-wordpress/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/gatsby.md
 
 ---

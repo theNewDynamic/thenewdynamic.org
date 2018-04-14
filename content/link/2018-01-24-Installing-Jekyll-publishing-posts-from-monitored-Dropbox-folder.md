@@ -4,7 +4,7 @@ source: David Relich
 date: 2018-01-24 22:08:00 +0000
 link: https://www.davidrelich.net/2018/01/24/installing-jekyll-with-dropbox
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

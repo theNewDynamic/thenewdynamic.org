@@ -4,7 +4,7 @@ source: Maxime LaBoissonniere
 date: 2017-11-20 20:06:00 +0000
 link: https://blog.usejournal.com/api-first-cms-primer-with-directus-open-source-headless-cms-1f6749aa2399
 content_type: Article
-tool:
+related_tools:
 - tool/directus.md
 
 ---

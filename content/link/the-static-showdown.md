@@ -7,7 +7,7 @@ content_type: Resource/Website
 slug: links/the-static-showdown
 source: Divshot
 link: http://www.staticshowdown.com/
-tool:
+related_tools:
 - tool/divshot.md
 
 ---

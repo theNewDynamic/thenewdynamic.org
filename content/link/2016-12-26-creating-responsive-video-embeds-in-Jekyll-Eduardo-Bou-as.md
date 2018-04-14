@@ -4,7 +4,7 @@ source: Eduardo Bouças
 date: 2016-12-26 10:37:00 +0000
 link: https://eduardoboucas.com/blog/2016/12/21/responsive-video-embeds-jekyll.html
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

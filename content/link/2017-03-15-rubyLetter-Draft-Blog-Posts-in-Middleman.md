@@ -4,7 +4,7 @@ source: Rubyletter
 date: 2017-03-15 08:06:00 +0000
 link: http://www.rubyletter.com/blog/2017/03/15/middleman-blog-drafts.html
 content_type: Tutorial
-tool:
+related_tools:
 - tool/middleman.md
 
 ---

@@ -4,7 +4,7 @@ source: Alex Ellison, ThinkShout
 date: 2014-10-14 03:32:00 +0000
 link: https://thinkshout.com/blog/2014/10/success-building-cmsless-production-sites-with-jekyll/
 content_type: Article
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

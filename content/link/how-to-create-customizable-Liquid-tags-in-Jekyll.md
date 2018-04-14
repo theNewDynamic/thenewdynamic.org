@@ -4,7 +4,7 @@ source: Sverrir Sigmundarson
 date: 2016-04-17 08:35:00 +0000
 link: https://blog.sverrirs.com/2016/04/custom-jekyll-tags.html
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

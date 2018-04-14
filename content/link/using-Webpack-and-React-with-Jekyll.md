@@ -4,7 +4,7 @@ source: Allison Zardrozny
 date: 2016-05-02 18:06:00 +0000
 link: http://allizad.com/code/2016/05/02/using-webpack-with-jekyll/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

@@ -7,7 +7,7 @@ content_type: News
 slug: links/introducing-poole
 source: Mark Otto
 link: http://markdotto.com/2014/01/02/introducing-poole/
-tool:
+related_tools:
 - tool/jekyll.md
 - tool/poole.md
 

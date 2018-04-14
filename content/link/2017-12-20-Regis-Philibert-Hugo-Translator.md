@@ -4,7 +4,7 @@ source: ''
 date: 2017-12-20 08:03:00 +0000
 link: https://regisphilibert.com/blog/2017/04/hugo-go-template-translator-explained-understanding/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/hugo.md
 
 ---

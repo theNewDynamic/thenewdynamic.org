@@ -7,7 +7,7 @@ content_type: Article
 slug: links/hugo-another-performance-perspective
 source: Fredrik Loch
 link: http://fredrikloch.me/post/another-performance-perspective/
-tool:
+related_tools:
 - tool/hugo.md
 
 ---

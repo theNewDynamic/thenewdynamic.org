@@ -7,7 +7,7 @@ content_type: Tutorial
 slug: links/building-a-static-multi-language-site-with-metalsmith-part-ii
 source: Belén Albeza
 link: http://belenalbeza.com/building-a-static-multi-language-site-with-metalsmith-part-ii/
-tool:
+related_tools:
 - tool/metalsmith.md
 
 ---

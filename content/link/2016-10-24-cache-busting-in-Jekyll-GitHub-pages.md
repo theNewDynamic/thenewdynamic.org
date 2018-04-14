@@ -4,7 +4,7 @@ source: Todd Motto
 date: 2016-10-24 18:18:00 +0000
 link: https://toddmotto.com/cache-busting-jekyll-github-pages
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 - tool/github-pages.md
 

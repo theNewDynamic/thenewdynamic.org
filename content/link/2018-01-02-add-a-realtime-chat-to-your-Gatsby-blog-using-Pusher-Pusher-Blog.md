@@ -4,7 +4,7 @@ source: Pusher Blog
 date: 2018-01-02 08:11:00 +0000
 link: https://blog.pusher.com/add-realtime-chat-gatsby-blog-pusher/?ref=stackshare
 content_type: Tutorial
-tool:
+related_tools:
 - tool/gatsby.md
 
 ---

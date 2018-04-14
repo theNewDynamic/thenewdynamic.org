@@ -4,7 +4,7 @@ source: Philipp Hansch
 date: 2017-04-07 10:45:00 +0000
 link: http://phansch.net/2017/03/13/testing-jekyll-websites/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

@@ -4,7 +4,7 @@ source: Raymond Camden
 date: 2017-05-18 19:16:00 +0000
 link: https://www.raymondcamden.com/2017/05/18/creating-a-json-feed-for-hugo/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/hugo.md
 
 ---

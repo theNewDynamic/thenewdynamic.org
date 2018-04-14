@@ -4,7 +4,7 @@ source: Joost Baaij
 date: 2017-08-07 08:44:00 +0000
 link: https://www.spacebabies.nl/portfolio/middleman-netlify-server-push/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/middleman.md
 - tool/netlify.md
 

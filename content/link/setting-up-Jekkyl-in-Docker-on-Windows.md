@@ -4,7 +4,7 @@ source: Maciej Świętochowski
 date: 2016-07-31 22:21:00 +0000
 link: http://blog.swietochowski.eu/2016/07/31/Setting-up-jekyll-locally-with-docker.html
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 - tool/docker.md
 

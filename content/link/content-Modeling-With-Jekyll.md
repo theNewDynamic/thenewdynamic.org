@@ -4,7 +4,7 @@ source: Steve Hickey, Smashing Magazine
 date: 2016-02-23 08:21:00 +0000
 link: https://www.smashingmagazine.com/2016/02/content-modeling-with-jekyll/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

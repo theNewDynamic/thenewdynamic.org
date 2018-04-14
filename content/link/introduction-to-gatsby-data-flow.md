@@ -4,7 +4,7 @@ date: 2018-04-05 08:52:06 +0000
 link: https://www.gatsbycentral.com/introduction-to-gatsby-data-flow
 source: GatsbyCentral
 content_type: Tutorial
-tool:
+related_tools:
 - tool/gatsby.md
 video: false
 category: ''

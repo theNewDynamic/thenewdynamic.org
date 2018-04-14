@@ -7,7 +7,7 @@ content_type: Article
 slug: links/why-code-school-loves-middleman
 source: John D. Jameson, Code School
 link: https://www.codeschool.com/blog/2015/07/17/why-code-school-loves-middleman/
-tool:
+related_tools:
 - tool/middleman.md
 
 ---

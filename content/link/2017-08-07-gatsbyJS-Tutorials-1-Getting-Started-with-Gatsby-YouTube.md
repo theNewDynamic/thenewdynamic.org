@@ -4,7 +4,7 @@ source: LevelUp Tuts
 date: 2017-08-07 08:19:00 +0000
 link: https://www.youtube.com/watch?v=b2H7fWhQcdE
 content_type: Tutorial
-tool:
+related_tools:
 - tool/gatsby.md
 
 ---

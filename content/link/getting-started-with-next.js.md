@@ -6,7 +6,7 @@ source: Flavio Copes
 content_type: Tutorial
 video: false
 category: ''
-tool:
+related_tools:
 - tool/next.js.md
 
 ---

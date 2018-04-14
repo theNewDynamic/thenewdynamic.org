@@ -4,7 +4,7 @@ source: Junade Ali, Cloudflare
 date: 2016-06-16 10:03:00 +0000
 link: https://blog.cloudflare.com/secure-and-fast-github-pages-with-cloudflare/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/github-pages.md
 
 ---

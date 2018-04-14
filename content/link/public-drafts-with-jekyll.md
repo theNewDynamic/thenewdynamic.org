@@ -7,7 +7,7 @@ content_type: Tutorial
 slug: links/public-drafts-with-jekyll
 source: Kelly Sutton
 link: http://kellysutton.com/2015/02/18/public-drafts-with-jekyll.html
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

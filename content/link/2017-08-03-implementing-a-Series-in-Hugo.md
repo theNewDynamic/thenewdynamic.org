@@ -4,7 +4,7 @@ source: Joe Sacher
 date: 2017-08-03 15:26:00 +0000
 link: http://www.joesacher.com/blog/2017/08/03/implementing-series-in-hugo/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/hugo.md
 
 ---

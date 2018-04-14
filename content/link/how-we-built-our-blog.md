@@ -7,7 +7,7 @@ content_type: Article
 slug: links/how-we-built-our-blog
 source: Jon Chan, Stack
 link: http://blog.stackexchange.com/2015/07/how-we-built-our-blog/
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

@@ -5,7 +5,7 @@ editor_recommends: ''
 content_type: Article
 source: Jack Phelan
 link: https://www.bytesandwich.com/jekyll/software/blogging/2016/09/14/how-does-jekyll-work.html
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

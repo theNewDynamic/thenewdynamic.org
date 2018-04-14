@@ -8,7 +8,7 @@ tags:
 - calendar
 link: https://mckvr.com/jekyll/liquid/2017/05/15/displaying-opening-times-in-jekyll/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

@@ -7,7 +7,7 @@ content_type: Tutorial
 slug: links/deploy-your-blog-to-github-pages-automatically-using-hugo-and-travis
 source: Roman Coedo
 link: http://rcoedo.com/post/hugo-static-site-generator/
-tool:
+related_tools:
 - tool/hugo.md
 - tool/github-pages.md
 

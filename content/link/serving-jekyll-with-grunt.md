@@ -4,7 +4,7 @@ source: Tobias Lohse
 date: 2016-06-03 09:13:00 +0000
 link: http://mrloh.se/2015/06/serving-jekyll-with-grunt/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 - tool/grunt.md
 

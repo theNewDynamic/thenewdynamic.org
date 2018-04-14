@@ -4,7 +4,7 @@ source: Drunken Coder
 date: 2016-07-22 22:18:00 +0000
 link: http://blog.jetboystudio.com/articles/gatsby/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/gatsby.md
 
 ---

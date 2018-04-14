@@ -7,7 +7,7 @@ content_type: Resource/Website
 slug: links/prototype-with-proteus
 source: Joshua Ogle, Thoughbot
 link: https://robots.thoughtbot.com/prototype-with-proteus
-tool:
+related_tools:
 - proteus-static-site-starter-kits
 - tool/middleman.md
 - tool/jekyll.md

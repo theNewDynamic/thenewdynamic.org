@@ -4,7 +4,7 @@ source: Marcia Ramos, Gitlab
 date: 2016-06-10 23:45:00 +0000
 link: https://about.gitlab.com/2016/06/10/ssg-overview-gitlab-pages-part-2/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/gitlab.md
 
 ---

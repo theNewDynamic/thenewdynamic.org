@@ -7,7 +7,7 @@ content_type: Tutorial
 slug: links/metalsmith-part-2-shaping-the-metal
 source: Robin Thrift
 link: http://www.robinthrift.com/posts/metalsmith-part-2-shaping-the-metal/
-tool:
+related_tools:
 - tool/metalsmith.md
 
 ---

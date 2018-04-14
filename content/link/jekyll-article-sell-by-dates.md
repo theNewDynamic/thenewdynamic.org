@@ -4,7 +4,7 @@ source: Kevin Hougasian
 date: 2016-08-03 10:27:00 +0000
 link: http://rimdev.io/jekyll-article-sell-by-dates/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

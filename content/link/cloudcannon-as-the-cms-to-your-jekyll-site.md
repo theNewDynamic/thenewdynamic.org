@@ -8,7 +8,7 @@ content_type: Video/Presentation
 slug: links/cloudcannon-as-the-cms-to-your-jekyll-site
 source: CloudCannon
 link: https://www.youtube.com/watch?v=Fjd0V_pET5E
-tool:
+related_tools:
 - tool/jekyll.md
 - tool/cloudcannon.md
 

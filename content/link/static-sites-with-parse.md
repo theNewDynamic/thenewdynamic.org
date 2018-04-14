@@ -7,7 +7,7 @@ content_type: News
 slug: links/static-sites-with-parse
 source: Yon Bergman
 link: http://www.yonbergman.com/2015/04/28/static-sites-with-parse/
-tool: ''
+related_tools: ''
 
 ---
 [_ed. Note that Parse is closing_]

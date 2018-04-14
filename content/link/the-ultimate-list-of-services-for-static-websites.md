@@ -8,7 +8,7 @@ content_type: Resource/Website
 slug: links/the-ultimate-list-of-services-for-static-websites
 source: CloudCannon
 link: http://cloudcannon.com/tips/2014/12/12/the-ultimate-list-of-services-for-static-websites.html
-tool:
+related_tools:
 - 
 
 ---

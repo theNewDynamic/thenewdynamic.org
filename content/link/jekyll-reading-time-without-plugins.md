@@ -7,7 +7,7 @@ content_type: Article
 slug: links/5-reasons-you-should-use-jekyll
 source: CloudCannon
 link: http://carlosbecker.com/posts/jekyll-reading-time-without-plugins/
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

@@ -7,7 +7,7 @@ content_type: Tutorial
 slug: links/introduction-to-plugins-with-jekyll-30-pictures-of-squirrels
 source: "@osfameron"
 link: http://osfameron.github.io/jekyll-plugins-tutorial/2015/11/28/jekyll-plugins-tutorial-part-1.html
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

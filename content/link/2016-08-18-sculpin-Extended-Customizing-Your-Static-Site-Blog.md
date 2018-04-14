@@ -4,7 +4,7 @@ source: Wern Ancheta, Sitepoint
 date: 2016-08-18 16:18:00 +0000
 link: https://www.sitepoint.com/sculpin-extended-customizing-your-static-site-blog/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/sculpin.md
 
 ---

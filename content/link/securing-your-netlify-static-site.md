@@ -4,7 +4,7 @@ date: 2017-03-17 04:03:30 -0400
 source: Joseph Earl
 link: https://www.josephearl.co.uk/post/static-sites-netlify-security/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/netlify.md
 video: false
 category: ''

@@ -4,7 +4,7 @@ source: Hunter Chang
 date: 2017-11-24 11:47:00 +0000
 link: https://hunterchang.com/gatsby-featured-images/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/gatsby.md
 
 ---

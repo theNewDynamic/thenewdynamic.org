@@ -5,7 +5,7 @@ date: 2016-02-16 19:39:00 +0000
 link: https://ratson.name/blog/minify-hugo-generated-html/
 content_type: Tutorial
 category: performance
-tool:
+related_tools:
 - tool/hugo.md
 
 ---

@@ -7,7 +7,7 @@ content_type: Tutorial
 slug: links/static-websites-with-jekyll
 source: Mijingo
 link: https://mijingo.com/products/screencasts/jekyll-static-websites-tutorial/
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

@@ -7,7 +7,7 @@ content_type: Tutorial
 slug: links/building-middleman-extensions
 source: Will Schenk
 link: http://willschenk.com/building-middleman-extensions/
-tool:
+related_tools:
 - tool/middleman.md
 
 ---

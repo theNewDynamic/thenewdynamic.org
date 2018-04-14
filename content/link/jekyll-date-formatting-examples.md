@@ -7,7 +7,7 @@ content_type: Article
 slug: links/jekyll-date-formatting-examples
 source: Alan W. Smith
 link: http://alanwsmith.com/jekyll-liquid-date-formatting-examples/
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

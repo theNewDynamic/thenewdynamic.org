@@ -4,7 +4,7 @@ source: Kosta Harlan, Savas Labs
 date: 2016-04-20 22:30:00 +0000
 link: http://savaslabs.com/2016/04/20/squabble-comments.html
 content_type: Article
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

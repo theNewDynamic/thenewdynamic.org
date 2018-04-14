@@ -7,7 +7,7 @@ content_type: Article
 slug: links/static-site-engine-battle-royale
 source: Brian Rinaldi
 link: http://developer.telerik.com/featured/comparing-static-site-engines/
-tool:
+related_tools:
 - tool/jekyll.md
 - tool/harp.md
 

@@ -4,7 +4,7 @@ source: Jeff Escalante
 date: 2017-05-17 23:16:00 +0000
 link: https://graphcms.com/blog/static-site-generation-using-graphcms-spike-and-netlify
 content_type: Tutorial
-tool:
+related_tools:
 - tool/spike.md
 - tool/netlify.md
 - tool/graphcms.md

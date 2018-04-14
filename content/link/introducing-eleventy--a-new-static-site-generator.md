@@ -4,7 +4,7 @@ date: 2018-02-19 21:14:36 +0000
 link: https://www.zachleat.com/web/introducing-eleventy/
 source: Zach Leatherman
 content_type: Article
-tool:
+related_tools:
 - tool/eleventy.md
 video: false
 category: ''

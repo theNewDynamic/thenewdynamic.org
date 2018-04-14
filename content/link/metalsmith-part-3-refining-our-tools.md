@@ -7,7 +7,7 @@ content_type: Tutorial
 slug: links/metalsmith-part-3-refining-our-tools
 source: Robin Thrift
 link: http://www.robinthrift.com/posts/metalsmith-part-3-refining-our-tools/
-tool:
+related_tools:
 - tool/metalsmith.md
 
 ---

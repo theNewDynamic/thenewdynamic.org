@@ -4,7 +4,7 @@ source: Matthew Simpson
 date: 2016-09-07 11:12:00 +0000
 link: https://www.matthewsimpson.net/2016/09/07/does-varnish-make-jekyll-faster/?
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

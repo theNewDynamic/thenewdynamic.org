@@ -4,7 +4,7 @@ date: 2018-04-06 18:59:17 +0000
 link: https://blog.hasura.io/building-a-dynamic-listing-web-app-with-pagination-and-dynamic-pages-using-gatsby-2ddee9ec2dc3
 source: Jaison John Titus
 content_type: Tutorial
-tool:
+related_tools:
 - tool/gatsby.md
 - tool/algolia.md
 video: false

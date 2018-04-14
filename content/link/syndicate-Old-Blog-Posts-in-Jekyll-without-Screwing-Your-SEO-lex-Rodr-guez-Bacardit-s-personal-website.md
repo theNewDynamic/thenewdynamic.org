@@ -6,7 +6,7 @@ date: 2016-04-19 15:05:00 +0000
 link: http://www.alexrodba.com/2016/04/19/Syndicate-Old-Blog-Posts-in-Jekyll-Without-Screwing-Your-SEO.html
 content_type: Tutorial
 tags: seo
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

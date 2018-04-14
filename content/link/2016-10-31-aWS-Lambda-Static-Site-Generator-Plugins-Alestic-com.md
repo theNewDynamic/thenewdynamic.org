@@ -4,7 +4,7 @@ source: Eric Hammond
 date: 2016-10-31 22:25:00 +0000
 link: https://alestic.com/2016/10/aws-static-site-generator-plugins/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/hugo.md
 - tool/aws-lambda.md
 

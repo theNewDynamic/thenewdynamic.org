@@ -4,7 +4,7 @@ source: Paul Bakaus
 date: 2016-08-05 11:46:00 +0000
 link: https://paulbakaus.com/tutorials/html5/serve-pwaamp-over-https-from-static-site-generators-like-jekyll/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 - tool/grow.md
 

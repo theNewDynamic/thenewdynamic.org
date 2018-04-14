@@ -6,7 +6,7 @@ link: https://builtvisible.com/go-static-try-jamstack/
 content_type: Article
 tags: essentials
 category: essentials
-tool:
+related_tools:
 - tool/hugo.md
 - tool/jekyll.md
 - tool/metalsmith.md

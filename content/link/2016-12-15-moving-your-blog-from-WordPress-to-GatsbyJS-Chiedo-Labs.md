@@ -4,7 +4,7 @@ source: Chiedo
 date: 2016-12-15 22:07:00 +0000
 link: https://labs.chiedo.com/moving-your-wordpress-blog-to-gatsby/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/gatsby.md
 
 ---

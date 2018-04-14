@@ -4,7 +4,7 @@ source: Mike Neumegen (Cloudcannon), CSS-Tricks
 date: 2016-02-09 23:40:00 +0000
 link: https://css-tricks.com/building-a-jekyll-site-part-1-of-3/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 - tool/cloudcannon.md
 

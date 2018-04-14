@@ -4,7 +4,7 @@ source: Paul Heinlein
 date: 2016-08-04 10:37:00 +0000
 link: https://www.madboa.com/blog/2016/08/24/hugo-dateformat/
 content_type: Article
-tool:
+related_tools:
 - tool/hugo.md
 
 ---

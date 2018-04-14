@@ -7,7 +7,7 @@ content_type: Article
 slug: links/how-open-source-helped-segmentio-grow-a-healthier-company
 source: Steven Melendez, *Fast Company*
 link: http://www.fastcolabs.com/3034216/how-open-source-helped-segmentio-grow-a-healthier-company/
-tool:
+related_tools:
 - tool/metalsmith.md
 
 ---

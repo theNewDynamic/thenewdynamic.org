@@ -7,7 +7,7 @@ content_type: Article
 slug: links/i-am-a-jekyll-god
 source: Garth Braithwaite
 link: https://medium.com/design-open/becoming-a-jekyll-god-ef722e93f771/
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

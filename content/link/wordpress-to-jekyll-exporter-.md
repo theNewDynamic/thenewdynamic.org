@@ -7,7 +7,7 @@ content_type: Resource/Website
 slug: links/wordpress-to-jekyll-exporter
 source: Ben Balter
 link: https://wordpress.org/plugins/jekyll-exporter/
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

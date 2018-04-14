@@ -7,7 +7,7 @@ content_type: Article
 slug: links/a-new-siteleaf
 source: Siteleaf
 link: http://v2.siteleaf.com/
-tool:
+related_tools:
 - tool/siteleaf.md
 - tool/jekyll.md
 

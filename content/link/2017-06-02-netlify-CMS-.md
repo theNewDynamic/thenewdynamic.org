@@ -4,7 +4,7 @@ source: Václav Klecanda
 date: 2017-06-02 23:49:00 +0000
 link: http://www.vxk.cz/tips/2017/05/18/netlify-cms/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/netlify-cms.md
 
 ---

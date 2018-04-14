@@ -4,7 +4,7 @@ source: Víctor Adrián
 date: 2018-01-28 08:21:00 +0000
 link: https://lobotuerto.com/blog/how-to-setup-automatic-hugo-website-generation-and-deployment-with-git/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/hugo.md
 
 ---

@@ -7,7 +7,7 @@ content_type: Article
 slug: links/netlify-vs-amazon-s3
 source: Mathias Biilmann, Netlify
 link: https://www.netlify.com/blog/2015/03/06/comparing-netlify-and-s3/
-tool:
+related_tools:
 - tool/netlify.md
 
 ---

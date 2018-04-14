@@ -4,7 +4,7 @@ source: Sacha Schmid
 date: 2013-10-20 22:04:00 +0000
 link: https://sacha.me/articles/jekyll-word-counts/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

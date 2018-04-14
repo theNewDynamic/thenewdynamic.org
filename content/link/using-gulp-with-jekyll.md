@@ -4,7 +4,7 @@ source: Aaron Lasseigne
 date: 2016-02-04 18:47:00 +0000
 link: http://aaronlasseigne.com/2016/02/03/using-gulp-with-jekyll/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 - tool/gulp.md
 

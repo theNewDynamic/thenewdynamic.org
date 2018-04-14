@@ -4,7 +4,7 @@ source: Peter Y. Chuang
 date: 2016-12-30 20:08:00 +0000
 link: https://novelist.xyz/tech/related-posts-in-hugo/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/hugo.md
 
 ---

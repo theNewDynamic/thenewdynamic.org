@@ -7,7 +7,7 @@ content_type: Article
 slug: links/slow-data-and-fast-sites
 source: HFC Technology Academy
 link: http://willschenk.com/slow-data-and-fast-sites/
-tool:
+related_tools:
 - tool/middleman.md
 
 ---

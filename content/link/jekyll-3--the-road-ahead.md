@@ -7,7 +7,7 @@ content_type: News
 slug: links/jekyll-3-the-road-ahead
 source: Parker Moore
 link: https://byparker.com/blog/2014/jekyll-3-the-road-ahead/
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

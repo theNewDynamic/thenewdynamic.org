@@ -4,7 +4,7 @@ source: Jaime Caballero
 date: 2016-04-05 09:03:00 +0000
 link: https://jaicab.com/2016/04/05/travis-for-jekyll-on-github-pages/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 - tool/github-pages.md
 

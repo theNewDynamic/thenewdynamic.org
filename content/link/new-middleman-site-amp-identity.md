@@ -7,7 +7,7 @@ content_type: News
 slug: links/new-middleman-site-identity
 source: Middleman App
 link: https://middlemanapp.com/
-tool:
+related_tools:
 - tool/middleman.md
 
 ---

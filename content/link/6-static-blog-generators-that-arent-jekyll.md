@@ -7,7 +7,7 @@ content_type: Article
 slug: links/6-static-blog-generators-that-arent-jekyll
 source: David Turnbull, Sitepoint
 link: http://www.sitepoint.com/6-static-blog-generators-arent-jekyll/
-tool:
+related_tools:
 - tool/middleman.md
 - tool/hugo.md
 - tool/hexo.md

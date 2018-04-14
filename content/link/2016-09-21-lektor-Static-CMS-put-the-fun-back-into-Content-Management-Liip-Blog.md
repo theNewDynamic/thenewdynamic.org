@@ -4,7 +4,7 @@ source: Donato Rotunno
 date: 2016-09-21 16:29:00 +0000
 link: https://blog.liip.ch/archive/2016/09/21/lektor-static-cms-put-fun-back-content-management.html
 content_type: Tutorial
-tool:
+related_tools:
 - tool/lektor.md
 
 ---

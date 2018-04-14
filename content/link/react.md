@@ -4,7 +4,7 @@ source: Adam Laycock
 date: 2016-03-29 08:29:00 +0000
 link: http://arcath.net/2016/03/29/react.html
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

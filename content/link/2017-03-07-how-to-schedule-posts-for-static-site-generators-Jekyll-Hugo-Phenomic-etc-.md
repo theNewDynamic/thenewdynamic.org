@@ -4,7 +4,7 @@ source: David Wells
 date: 2017-03-07 08:28:00 +0000
 link: https://serverless.com/blog/static-site-post-scheduler/?utm_content=bufferf4214&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 - tool/hugo.md
 - tool/hexo.md

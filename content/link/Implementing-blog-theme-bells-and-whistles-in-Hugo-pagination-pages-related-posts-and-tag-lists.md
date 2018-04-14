@@ -5,7 +5,7 @@ date: 2016-01-22 21:16:00 +0000
 link: http://justindunham.net/blog-bells-and-whistles-in-hugo/
 content_type: Tutorial
 source: Justin Dunham
-tool:
+related_tools:
 - tool/hugo.md
 
 ---

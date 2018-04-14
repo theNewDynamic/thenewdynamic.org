@@ -5,7 +5,7 @@ date: 2016-08-01 08:54:00 +0000
 category: essentials
 link: http://hawksworx.com/blog/isomorphic-rendering-on-the-jam-stack/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/netlify.md
 - tool/gulp.md
 

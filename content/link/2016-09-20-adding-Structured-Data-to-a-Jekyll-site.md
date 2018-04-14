@@ -4,7 +4,7 @@ source: Paul D'ambra
 date: 2016-09-20 08:29:00 +0000
 link: http://pauldambra.github.io/structured-data-with-jekyll.html
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

@@ -5,7 +5,7 @@ editor_recommends: ''
 content_type: Tutorial
 source: "Àlex Rodríguez Bacardit"
 link: http://www.alexrodba.com/2016/04/24/Adding-minutes-to-read-to-your-jekyll-blog.html
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

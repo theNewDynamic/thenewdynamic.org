@@ -4,7 +4,7 @@ date: 2018-04-13 17:32:44 +0000
 source: Régis Philibert, Forestry
 link: https://forestry.io/blog/build-a-json-api-with-hugo/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/hugo.md
 video: false
 category: ''

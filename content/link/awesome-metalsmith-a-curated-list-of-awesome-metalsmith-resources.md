@@ -6,7 +6,7 @@ editor_recommends: ''
 content_type: Resource/Website
 source: Andy Jiang (lambtron), Segment
 link: https://github.com/lambtron/awesome-metalsmith/
-tool:
+related_tools:
 - tool/metalsmith.md
 
 ---

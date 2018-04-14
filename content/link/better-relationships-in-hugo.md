@@ -4,7 +4,7 @@ date: 2018-04-05 09:26:30 +0000
 source: Regis Philibert
 link: https://regisphilibert.com/blog/2018/04/hugo-optmized-relashionships-with-related-content/
 content_type: Article
-tool:
+related_tools:
 - tool/hugo.md
 video: false
 category: ''

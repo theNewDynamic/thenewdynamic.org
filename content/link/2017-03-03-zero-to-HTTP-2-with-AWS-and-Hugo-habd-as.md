@@ -4,7 +4,7 @@ source: Josh Habdas
 date: 2017-03-03 22:06:00 +0000
 link: https://habd.as/zero-to-http-2-aws-hugo/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/hugo.md
 
 ---

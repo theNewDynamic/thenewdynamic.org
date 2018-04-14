@@ -7,7 +7,7 @@ content_type: Resource/Website
 slug: links/episode-20-static-site-generators
 source: Podcast.__init__, a Podcast about Python
 link: http://pythonpodcast.com/static-site-generators.html
-tool:
+related_tools:
 - tool/nikola.md
 - tool/pelican.md
 

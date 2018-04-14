@@ -4,7 +4,7 @@ source: Justin James
 date: 2016-05-24 08:02:00 +0000
 link: http://digitaldrummerj.me/styling-jekyll-markdown/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

@@ -4,7 +4,7 @@ source: Isaac Gregson
 date: 2015-04-04 15:11:00 +0000
 link: http://thecodestead.com/post/how-to-use-npm-as-a-build-tool-with-hugo/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/hugo.md
 
 ---

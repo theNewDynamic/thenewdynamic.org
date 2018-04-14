@@ -7,7 +7,7 @@ content_type: Tutorial
 slug: links/creating-sustainable-documentation-with-jekyll
 source: SendGrid
 link: https://sendgrid.com/blog/creating-sustainable-documentation-with-jekyll/
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

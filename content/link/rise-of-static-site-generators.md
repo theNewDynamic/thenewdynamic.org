@@ -8,7 +8,7 @@ content_type: Presentation
 slug: links/rise-of-static-site-generators
 source: Justin Mayer
 link: https://justinmayer.com/posts/static-site-generators-talk-pycon-2014/
-tool:
+related_tools:
 - tool/pelican.md
 
 ---

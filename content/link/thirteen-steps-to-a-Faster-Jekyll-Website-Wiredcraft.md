@@ -4,7 +4,7 @@ source: Ronan Berder, Wiredcraft
 date: 2016-05-06 15:10:00 +0000
 link: https://wiredcraft.com/blog/make-jekyll-fast/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 - tool/github-pages.md
 - tool/gulp.md

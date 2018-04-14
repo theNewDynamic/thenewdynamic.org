@@ -7,7 +7,7 @@ content_type: Article
 slug: links/cms-functionality-for-static-site-generators
 source: Contentful
 link: https://www.contentful.com/r/knowledgebase/contentful-api-cms-static-site-generators/
-tool:
+related_tools:
 - tool/middleman.md
 - tool/metalsmith.md
 

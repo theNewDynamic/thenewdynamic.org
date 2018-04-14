@@ -4,7 +4,7 @@ source: Webjeda Blog
 date: 2016-08-10 12:11:00 +0000
 link: https://blog.webjeda.com/jekyll-issues/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

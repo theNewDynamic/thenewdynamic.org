@@ -4,7 +4,7 @@ source: Malik Browne
 date: 2017-11-15 09:29:00 +0000
 link: https://www.malikbrowne.com/blog/contentful-and-netlify-the-dynamic-duo
 content_type: Article
-tool:
+related_tools:
 - tool/contentful.md
 - tool/netlify.md
 - tool/gatsby.mdjs

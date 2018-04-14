@@ -4,7 +4,7 @@ source: Kezz Bracey, Tutsplus
 date: 2017-01-11 19:42:00 +0000
 link: https://webdesign.tutsplus.com/tutorials/how-to-set-up-a-jekyll-theme--cms-26332
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

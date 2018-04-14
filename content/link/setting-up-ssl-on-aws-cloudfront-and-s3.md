@@ -7,7 +7,7 @@ content_type: Tutorial
 slug: links/setting-up-ssl-on-aws-cloudfront-and-s3
 source: Bryce Fisher-Fleig
 link: https://bryce.fisher-fleig.org/blog/setting-up-ssl-on-aws-cloudfront-and-s3/
-tool: ''
+related_tools: ''
 
 ---
 I setup this blog using S3 as the origin server, CloudFront as my CDN, and HTTPS for roughly $10. Since there were so many articles to read along the way, I’ve gathered up what worked for me here.

@@ -8,7 +8,7 @@ content_type: Article
 slug: links/a-case-for-cms-free-ecommerce
 source: Max White, Pigeons and Creoles
 link: http://pigeons-and-creoles.co.uk/architecture/a-case-for-cms-free-ecommerce/
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

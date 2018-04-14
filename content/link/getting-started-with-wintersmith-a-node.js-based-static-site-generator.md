@@ -7,7 +7,7 @@ content_type: Tutorial
 slug: links/getting-started-with-wintersmith-a-nodejs-based-static-site-generator
 source: Brian Rinaldi, Sitepoint
 link: http://www.sitepoint.com/getting-started-wintersmith-nodejs-static-site-generator
-tool:
+related_tools:
 - tool/wintersmith.md
 
 ---

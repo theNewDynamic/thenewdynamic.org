@@ -4,7 +4,7 @@ source: Leon Paternoster
 date: 2016-12-04 16:02:00 +0000
 link: https://www.leonpaternoster.com/2016/12/dynamic-liquid-loops/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 - tool/zapier.md
 

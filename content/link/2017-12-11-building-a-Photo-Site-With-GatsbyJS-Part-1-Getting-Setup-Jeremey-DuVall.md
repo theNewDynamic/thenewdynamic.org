@@ -4,7 +4,7 @@ source: Jeremey DuVall
 date: 2017-12-11 09:16:00 +0000
 link: https://jeremey.blog/gatsby-photo/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/gatsby.md
 
 ---

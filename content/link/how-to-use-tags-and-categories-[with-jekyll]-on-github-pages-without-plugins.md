@@ -7,7 +7,7 @@ content_type: Tutorial
 slug: links/how-to-use-tags-and-categories-with-jekyll-on-github-pages-without-plugins
 source: "@minddust"
 link: http://www.minddust.com/post/tags-and-categories-on-github-pages/
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

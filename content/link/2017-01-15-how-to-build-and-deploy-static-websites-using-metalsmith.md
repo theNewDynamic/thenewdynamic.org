@@ -5,7 +5,7 @@ editor_recommends: ''
 content_type: tutorial
 source: Tilo, Node Web Apps
 link: http://nodewebapps.com/2017/01/15/how-to-build-and-deploy-static-websites-using-metalsmith/
-tool:
+related_tools:
 - tool/metalsmith.md
 
 ---

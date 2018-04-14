@@ -4,7 +4,7 @@ source: Gertjan van den Burg
 date: 2016-12-29 19:03:00 +0000
 link: https://gertjanvandenburg.com/blog/hugophotoswipe/
 content_type: Resources
-tool:
+related_tools:
 - tool/hugo.md
 
 ---

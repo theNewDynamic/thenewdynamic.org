@@ -8,7 +8,7 @@ content_type: Article
 slug: links/advanced-jekyll-plugins-features-custom-post-types-category-pages-pagination-and-more
 source: Divshot
 link: https://divshot.com/blog/web-development/advanced-jekyll-features/
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

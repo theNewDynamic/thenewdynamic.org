@@ -4,7 +4,7 @@ source: Hugo Giraudel
 date: 2016-05-10 11:27:00 +0000
 link: http://hugogiraudel.com/2016/05/10/syncing-a-site-between-github-and-jekyll/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

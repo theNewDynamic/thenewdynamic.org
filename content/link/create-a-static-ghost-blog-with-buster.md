@@ -7,7 +7,7 @@ content_type: Tutorial
 slug: links/create-a-static-ghost-blog-with-buster
 source: Shaumik Daityari, Sitepoint
 link: http://www.sitepoint.com/create-static-ghost-blog-buster/
-tool:
+related_tools:
 - tool/buster.md
 
 ---

@@ -4,7 +4,7 @@ source: Christopher Tarwater
 date: 2016-09-06 11:14:00 +0000
 link: https://www.chrisanthropic.com/blog/2016/creating-gem-based-themes-for-jekyll/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

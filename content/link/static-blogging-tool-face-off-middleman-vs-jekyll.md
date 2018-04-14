@@ -7,7 +7,7 @@ content_type: Article
 slug: links/static-blogging-tool-face-off-middleman-vs-jekyll
 source: David Turnbull, Sitepoint
 link: http://www.sitepoint.com/static-blogging-g-face-middleman-vs-jekyll/
-tool:
+related_tools:
 - tool/jekyll.md
 - tool/middleman.md
 

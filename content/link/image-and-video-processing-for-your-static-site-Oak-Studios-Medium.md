@@ -4,7 +4,7 @@ source: Sawyer Hollenshead, Oak Studios
 date: 2016-07-04 08:49:00 +0000
 link: http://www.siteleaf.com/blog/image-and-video-processing-for-your-static-site/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/imgix.md
 - tool/embedly.md
 - tool/cloudinary.md

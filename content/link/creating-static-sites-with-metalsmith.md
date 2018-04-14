@@ -7,7 +7,7 @@ content_type: Tutorial
 slug: links/creating-static-sites-with-metalsmith
 source: Peter Morlion
 link: http://www.petermorlion.com/creating-static-sites-with-metalsmith/
-tool:
+related_tools:
 - tool/metalsmith.md
 
 ---

@@ -7,7 +7,7 @@ content_type: News
 slug: links/proseio-the-markdown-editor-for-githubjekyll-looking-for-a-new-maintainer
 source: Development Seed
 link: https://github.com/prose/prose/issues/743
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

@@ -7,7 +7,7 @@ content_type: Article
 slug: links/static-site-generator-from-a-python-book
 source: Full Stack Python
 link: http://www.fullstackpython.com/static-site-generator.html
-tool:
+related_tools:
 - tool/pelican.md
 - tool/nikola.md
 

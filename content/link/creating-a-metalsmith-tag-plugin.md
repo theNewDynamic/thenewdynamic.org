@@ -7,7 +7,7 @@ content_type: Tutorial
 slug: links/creating-a-metalsmith-tag-plugin
 source: "@Krawaller"
 link: http://blog.krawaller.se/posts/creating-a-metalsmith-tag-plugin/
-tool:
+related_tools:
 - tool/metalsmith.md
 
 ---

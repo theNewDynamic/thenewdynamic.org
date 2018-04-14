@@ -4,7 +4,7 @@ source: GoHugoHQ
 date: 2017-02-21 08:34:00 +0000
 link: https://gohugohq.com/howto/hugo-dateformat/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/hugo.md
 
 ---

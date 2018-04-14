@@ -4,7 +4,7 @@ source: Snipcart
 date: 2017-04-20 15:08:00 +0000
 link: https://snipcart.com/blog/netlify-cms-react-git-workflow
 content_type: Tutorial
-tool:
+related_tools:
 - tool/netlify-cms.md
 
 ---

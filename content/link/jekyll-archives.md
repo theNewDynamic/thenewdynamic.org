@@ -7,7 +7,7 @@ content_type: News
 slug: links/jekyll-archives
 source: Jekyll
 link: https://github.com/jekyll/jekyll-archives/
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

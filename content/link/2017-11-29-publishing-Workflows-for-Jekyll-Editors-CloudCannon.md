@@ -4,7 +4,7 @@ source: Mike Neumegen, CloudCannon
 date: 2017-11-29 15:26:00 +0000
 link: https://cloudcannon.com/tips/2017/11/29/publishing-workflows-for-jekyll-editors/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 - tool/cloudcannon.md
 

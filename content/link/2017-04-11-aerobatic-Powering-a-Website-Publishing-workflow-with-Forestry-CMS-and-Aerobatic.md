@@ -4,7 +4,7 @@ source: Aerobatic
 date: 2017-04-11 20:01:00 +0000
 link: https://www.aerobatic.com/blog/forestry-aerobatic-publishing-workflow/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/forestry.md
 - tool/aerobatic.md
 

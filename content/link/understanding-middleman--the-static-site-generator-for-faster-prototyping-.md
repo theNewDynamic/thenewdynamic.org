@@ -7,7 +7,7 @@ content_type: Tutorial
 slug: links/understanding-middleman-the-static-site-generator-for-faster-prototyping
 source: Ben Frain
 link: http://benfrain.com/understanding-middleman-the-static-site-generator-for-faster-prototyping/
-tool:
+related_tools:
 - tool/middleman.md
 
 ---

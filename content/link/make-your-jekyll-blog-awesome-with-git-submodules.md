@@ -7,7 +7,7 @@ content_type: Tutorial
 slug: links/make-your-jekyll-blog-awesome-with-git-submodules
 source: Jacob Young
 link: http://www.jry.io/posts/make-your-jekyll-blog-awesome-with-git-submodules/
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

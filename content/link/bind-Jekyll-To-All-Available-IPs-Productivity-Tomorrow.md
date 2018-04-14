@@ -4,7 +4,7 @@ source: Bobby, Productivity Tomorrow
 date: 2016-07-31 23:51:00 +0000
 link: http://productivitytomorrow.com/2016/07/31/bind-jekyll-to-all-available-ips/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

@@ -4,7 +4,7 @@ source: Mxime Kjaer
 date: 2016-01-28 09:37:00 +0000
 link: http://kjaermaxi.me/travis/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

@@ -4,7 +4,7 @@ source: Tomas Dvorak
 date: 2016-03-23 13:15:00 +0000
 link: http://www.tomas-dvorak.cz/posts/jekyll-detecting-github/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 - tool/github-pages.md
 

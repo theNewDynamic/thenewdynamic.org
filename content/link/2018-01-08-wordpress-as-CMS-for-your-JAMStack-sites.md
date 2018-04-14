@@ -4,7 +4,7 @@ source: Stefan Baumgartner
 date: 2018-01-08 15:12:00 +0000
 link: https://fettblog.eu/wordpress-and-jamstack-sites/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/metalsmith.md
 - tool/jekyll.md
 

@@ -5,7 +5,7 @@ date: 2017-03-09 15:47:00 +0000
 link: https://www.gatsbyjs.org/blog/gatsbygram-case-study/
 content_type: Case Study
 category: essentials
-tool:
+related_tools:
 - tool/gatsby.md
 
 ---

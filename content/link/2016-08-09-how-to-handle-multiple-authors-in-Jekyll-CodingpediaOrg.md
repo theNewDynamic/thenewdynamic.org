@@ -4,7 +4,7 @@ source: Adrian Matei
 date: 2016-08-09 08:25:00 +0000
 link: http://www.codingpedia.org/ama/how-to-handle-multiple-authors-in-jekyll/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

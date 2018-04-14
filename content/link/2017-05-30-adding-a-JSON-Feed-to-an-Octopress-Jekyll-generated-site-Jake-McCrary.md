@@ -4,7 +4,7 @@ source: Jake McCrary
 date: 2017-05-30 09:19:00 +0000
 link: http://jakemccrary.com/blog/2017/05/30/adding-a-json-feed-to-octopress-slash-jekyll/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 - tool/octopress.md
 

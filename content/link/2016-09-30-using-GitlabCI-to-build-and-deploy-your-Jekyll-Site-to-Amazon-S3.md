@@ -4,7 +4,7 @@ source: Christ Tarwater
 date: 2016-11-03 17:35:00 +0000
 link: https://www.chrisanthropic.com/using-gitlab-ci-to-build-deploy-jekyll-site-amazon-s3/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 - tool/gitlab-pages.md
 

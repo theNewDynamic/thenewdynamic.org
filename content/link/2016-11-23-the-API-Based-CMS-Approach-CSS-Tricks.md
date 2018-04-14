@@ -5,7 +5,7 @@ date: 2016-11-23 13:22:00 +0000
 link: https://css-tricks.com/api-based-cms-approach/
 content_type: Tutorial
 category: essentials
-tool:
+related_tools:
 - tool/prismic.md
 
 ---

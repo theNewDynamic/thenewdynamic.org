@@ -5,7 +5,7 @@ editor_recommends: ''
 content_type: Tutorial
 source: Ricky Smith
 link: https://www.ricky-dev.com/code/2017/01/automating-jekyll-deployment-to-s3-using-circleci/
-tool:
+related_tools:
 - tool/jekyll.md
 - tool/circleci.md
 

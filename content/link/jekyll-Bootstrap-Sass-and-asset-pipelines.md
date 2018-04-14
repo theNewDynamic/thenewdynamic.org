@@ -4,7 +4,7 @@ source: Aerobatic
 date: 2016-03-23 20:00:00 +0000
 link: https://www.aerobatic.com/blog/jekyll-assets-bootstrap/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

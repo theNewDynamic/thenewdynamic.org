@@ -7,7 +7,7 @@ content_type: News
 slug: links/tarbell-project-governance-kickoff
 source: David Eads, Grant Blankenship
 link: https://hackpad.com/Tarbell-Project-Governance-Kickoff-S3UG8SlBHKA
-tool:
+related_tools:
 - tool/tarbell.md
 
 ---

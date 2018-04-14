@@ -4,7 +4,7 @@ source: David Darnes
 date: 2017-07-25 15:11:00 +0000
 link: https://david.darn.es/2017/07/25/adding-heading-links-to-your-jekyll-blog/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

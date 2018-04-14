@@ -4,7 +4,7 @@ source: Jay Aevyz L.
 date: 2017-04-02 10:50:00 +0000
 link: https://aevyz.github.io/adv-jekyll/Creating-A-Category-Based-Pager-In-Liquid.html
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

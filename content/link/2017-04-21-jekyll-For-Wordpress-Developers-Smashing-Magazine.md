@@ -5,7 +5,7 @@ category: essentials
 date: 2017-04-21 11:54:00 +0000
 link: https://www.smashingmagazine.com/2017/04/jekyll-wordpress-developers/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 - tool/cloudcannon.md
 

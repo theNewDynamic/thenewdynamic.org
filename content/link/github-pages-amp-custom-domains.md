@@ -7,7 +7,7 @@ content_type: Tutorial
 slug: links/github-pages-custom-domains
 source: David Darnes
 link: http://daviddarnes.github.io/articles/github-pages-custom-domains/
-tool:
+related_tools:
 - tool/github-pages.md
 
 ---

@@ -4,7 +4,7 @@ date: 2018-04-08 12:02:35 -0400
 link: http://code.krister.ee/subscription-form-for-hugo-with-flowxo-and-mailgun/
 source: Krister Viirsaar
 content_type: Tutorial
-tool:
+related_tools:
 - tool/hugo.md
 video: false
 category: ''

@@ -4,7 +4,7 @@ source: Jekyll theme for designers
 date: 2016-02-11 22:24:00 +0000
 link: http://idratherbewriting.com/documentation-theme-jekyll/mydoc/mydoc_yaml_tutorial.html
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

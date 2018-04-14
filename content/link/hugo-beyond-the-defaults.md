@@ -7,7 +7,7 @@ content_type: Tutorial
 slug: links/hugo-beyond-the-defaults
 source: Nate Finch
 link: https://npf.io/2014/08/hugo-beyond-the-defaults/
-tool:
+related_tools:
 - tool/hugo.md
 
 ---

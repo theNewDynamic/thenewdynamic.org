@@ -7,7 +7,7 @@ content_type: Tutorial
 slug: links/getting-to-know-metalsmith
 source: Robin Thrift
 link: http://www.robinthrift.com/posts/getting-to-know-metalsmith/
-tool:
+related_tools:
 - tool/metalsmith.md
 
 ---

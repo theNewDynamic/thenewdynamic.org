@@ -4,7 +4,7 @@ source: Michael Rose
 date: 2016-12-09 22:52:00 +0000
 link: https://mademistakes.com/articles/improving-jekyll-static-comments/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 - tool/staticman.md
 

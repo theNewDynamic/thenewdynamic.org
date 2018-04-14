@@ -7,7 +7,7 @@ content_type: Tutorial
 slug: links/how-to-use-jekyll-with-gulp
 source: Benoît Boucart
 link: http://blog.webbb.be/use-jekyll-with-gulp/
-tool:
+related_tools:
 - tool/jekyll.md
 - tool/gulp.md
 

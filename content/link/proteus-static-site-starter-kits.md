@@ -7,7 +7,7 @@ content_type: News
 slug: links/proteus-static-site-starter-kits
 source: Thoughtbot
 link: http://thoughtbot.github.io/proteus/
-tool:
+related_tools:
 - tool/jekyll.md
 - tool/middleman.md
 - tool/gulp.md

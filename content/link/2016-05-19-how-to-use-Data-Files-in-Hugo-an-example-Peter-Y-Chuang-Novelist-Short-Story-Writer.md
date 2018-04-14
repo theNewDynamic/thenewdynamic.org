@@ -4,7 +4,7 @@ source: Peter Y. Chuang
 date: 2016-05-19 20:02:00 +0000
 link: https://novelist.xyz/tech/hugo-data-files/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/hugo.md
 
 ---

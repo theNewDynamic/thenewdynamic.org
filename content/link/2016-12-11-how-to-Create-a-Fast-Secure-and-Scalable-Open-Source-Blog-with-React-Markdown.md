@@ -4,7 +4,7 @@ source: David Wells
 date: 2016-12-11 21:50:00 +0000
 link: https://serverless.com/blog/how-to-create-a-fast-secure-and-scalable-open-source-blog-with-react-markdown/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/phenomic.md
 
 ---

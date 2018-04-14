@@ -7,7 +7,7 @@ content_type: Tutorial
 slug: links/jekyll-and-git-hooks
 source: Jonathon Klem
 link: https://www.jonathonklem.com/blog/jekyll-and-git-hooks/
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

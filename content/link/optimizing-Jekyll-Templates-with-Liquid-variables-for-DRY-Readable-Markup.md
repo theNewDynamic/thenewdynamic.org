@@ -4,7 +4,7 @@ source: Eric Carlisle
 date: 2015-12-17 11:07:00 +0000
 link: http://www.ericcarlisle.com/jekyll/liquid/ruby/2015/12/17/Optimizing_Jekyll_Templates_with_Liquid_Variables.html
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

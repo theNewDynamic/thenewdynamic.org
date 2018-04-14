@@ -4,7 +4,7 @@ source: Typeform
 date: 2017-06-25 09:06:00 +0000
 link: https://www.typeform.com/help/embed-typeform-hugo-sites/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/hugo.md
 - tool/typeform.md
 

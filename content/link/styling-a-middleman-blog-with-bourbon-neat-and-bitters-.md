@@ -7,7 +7,7 @@ content_type: Tutorial
 slug: links/styling-a-middleman-blog-with-bourbon-neat-and-bitters
 source: Carolann Bonner
 link: https://robots.thoughtbot.com/middleman-bourbon-walkthrough/
-tool:
+related_tools:
 - tool/middleman.md
 
 ---

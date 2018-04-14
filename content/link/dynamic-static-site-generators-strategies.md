@@ -7,7 +7,7 @@ content_type: Article
 slug: links/dynamic-static-site-generators-strategies
 source: Tim Nash
 link: https://timnash.co.uk/dynamic-static-site-generators-strategies/
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

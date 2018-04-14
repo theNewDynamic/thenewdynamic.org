@@ -5,7 +5,7 @@ date: 2017-02-28 08:54:00 +0000
 link: https://www.raymondcamden.com/2017/02/24/an-example-of-a-static-site-with-a-dynamic-calendar
 content_type: Tutorial
 category: Essentials
-tool:
+related_tools:
 - tool/jekyll.md
 - tool/hugo.md
 

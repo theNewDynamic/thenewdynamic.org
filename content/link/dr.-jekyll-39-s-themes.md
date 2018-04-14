@@ -7,7 +7,7 @@ content_type: Resource/Website
 slug: links/dr-jekylls-themes
 source: Gerald Bauer
 link: http://drjekyllthemes.github.io/
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

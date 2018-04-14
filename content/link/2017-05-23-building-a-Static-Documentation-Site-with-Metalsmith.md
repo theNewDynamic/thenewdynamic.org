@@ -4,7 +4,7 @@ source: Greg Leeds
 date: 2017-05-23 22:25:00 +0000
 link: https://gregleeds.com/building-a-static-documentation-site-with-metalsmith/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/metalsmith.md
 
 ---

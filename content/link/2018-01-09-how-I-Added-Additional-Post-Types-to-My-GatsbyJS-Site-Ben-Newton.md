@@ -4,7 +4,7 @@ source: Ben Newton
 date: 2018-01-09 12:25:00 +0000
 link: https://benenewton.com/how-i-added-additional-post-types-to-my-gatsby-js-site/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/gatsby.md
 
 ---

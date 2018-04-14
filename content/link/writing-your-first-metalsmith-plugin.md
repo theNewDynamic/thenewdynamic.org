@@ -7,7 +7,7 @@ content_type: Tutorial
 slug: links/writing-your-first-metalsmith-plugin
 source: Peter Morlion
 link: http://www.petermorlion.com/writing-your-first-metalsmith-plugin/
-tool:
+related_tools:
 - tool/metalsmith.md
 
 ---

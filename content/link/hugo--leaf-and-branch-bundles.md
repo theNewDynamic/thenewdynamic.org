@@ -4,7 +4,7 @@ date: 2018-03-06 17:39:26 +0000
 source: Kaushal Modi
 link: https://scripter.co/hugo-leaf-and-branch-bundles/
 content_type: Article
-tool:
+related_tools:
 - tool/hugo.md
 video: false
 category: ''

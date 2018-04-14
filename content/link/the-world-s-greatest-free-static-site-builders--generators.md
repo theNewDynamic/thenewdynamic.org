@@ -7,7 +7,7 @@ content_type: Video/Presentation
 slug: links/the-worlds-greatest-free-static-site-builders-generators
 source: Vienna.html
 link: http://slideshow-s9.github.io/demos/staticgen.html#1
-tool:
+related_tools:
 - tool/middleman.md
 - tool/jekyll.md
 - tool/hexo.md

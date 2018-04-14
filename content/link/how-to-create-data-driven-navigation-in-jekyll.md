@@ -7,7 +7,7 @@ content_type: Tutorial
 slug: links/how-to-create-data-driven-navigation-in-jekyll
 source: Dale Tournemille
 link: http://www.tournemille.com/blog/How-to-create-data-driven-navigation-in-Jekyll/
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

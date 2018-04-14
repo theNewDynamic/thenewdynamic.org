@@ -4,7 +4,7 @@ source: Rob Wise
 date: 2015-08-01 23:14:00 +0000
 link: https://robwise.github.io/blog/jekyll-and-gulp/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 - tool/gulp.md
 

@@ -7,7 +7,7 @@ content_type: Article
 slug: links/static-sites-that-work-for-you
 source: Andrew Goodricke
 link: http://www.andrewgoodricke.com/posts/2015-06-19_static_generator_architecture.html
-tool:
+related_tools:
 - tool/contentful.md
 
 ---

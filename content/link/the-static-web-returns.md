@@ -8,6 +8,6 @@ content_type: Article
 slug: links/the-static-web-returns
 source: Rob Muhlestein
 link: http://robs.io/the-static-web-returns/
-tool: ''
+related_tools: ''
 
 ---

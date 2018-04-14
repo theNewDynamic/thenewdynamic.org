@@ -4,7 +4,7 @@ source: Fatih Arslan
 date: 2017-11-30 22:23:00 +0000
 link: http://arslan.io/2017/11/30/notes-about-migrating-to-hugo/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/hugo.md
 - tool/netlify.md
 

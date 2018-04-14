@@ -4,7 +4,7 @@ source: Frank Lin
 date: 2016-07-13 12:53:00 +0000
 link: https://www.flinhong.com/front-end/related-posts-in-jekyll/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

@@ -7,7 +7,7 @@ content_type: Tutorial
 slug: links/making-jekyll-multilingual
 source: Sylvain Durand
 link: http://sylvaindurand.org/making-jekyll-multilingual/
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

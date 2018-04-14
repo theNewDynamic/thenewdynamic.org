@@ -4,7 +4,7 @@ source: "Àlex Rdgz Bacardit, MarsBased"
 date: 2017-03-02 14:12:00 +0000
 link: https://marsbased.com/blog/2017/02/20/agile-prototyping-using-static-pages-to-reduce-development-times/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/middleman.md
 - tool/jekyll.md
 

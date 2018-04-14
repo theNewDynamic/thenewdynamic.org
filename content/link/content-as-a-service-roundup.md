@@ -7,7 +7,7 @@ content_type: Review
 slug: links/content-as-a-service-roundup
 source: Jeff Potts, ECM Architect
 link: http://ecmarchitect.com/categories/content-management/content-as-a-service/
-tool:
+related_tools:
 - tool/contentful.md
 - tool/prismic.md
 

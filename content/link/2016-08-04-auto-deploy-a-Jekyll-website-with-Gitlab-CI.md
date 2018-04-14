@@ -4,7 +4,7 @@ source: Riccardo Padovani
 date: 2016-08-04 12:08:00 +0000
 link: https://rpadovani.com/jekyll-autodeploy-gitlab-ci/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 - tool/gitlab.md
 

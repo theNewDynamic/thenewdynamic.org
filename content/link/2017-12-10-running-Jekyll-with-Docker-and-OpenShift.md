@@ -4,7 +4,7 @@ source: Lars Olafsen
 date: 2017-12-10 09:13:00 +0000
 link: https://www.redpill-linpro.com/sysadvent/2017/12/10/jekyll-openshift.html?ref=stackshare
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

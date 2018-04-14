@@ -8,7 +8,7 @@ content_type: Article
 slug: links/meet-the-obama-campaigns-250-million-fundraising-platform
 source: Kyle Rush
 link: http://kylerush.net/blog/meet-the-obama-campaigns-250-million-fundraising-platform/
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

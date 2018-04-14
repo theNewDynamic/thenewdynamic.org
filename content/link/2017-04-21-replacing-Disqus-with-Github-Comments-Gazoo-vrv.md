@@ -4,7 +4,7 @@ source: Don Williamson
 date: 2017-04-23 13:23:00 +0000
 link: http://donw.io/post/github-comments/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/hugo.md
 - tool/disqus.md
 

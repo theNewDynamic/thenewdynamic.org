@@ -4,7 +4,7 @@ date: 2018-04-06 18:57:01 +0000
 link: https://blog.airtable.com/build-your-own-custom-blog-cms-with-airtable-and-gatsbyjs/
 source: Airtable
 content_type: Tutorial
-tool:
+related_tools:
 - tool/gatsby.md
 video: false
 category: ''

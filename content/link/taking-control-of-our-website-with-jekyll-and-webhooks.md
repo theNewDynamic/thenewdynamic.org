@@ -7,7 +7,7 @@ content_type: Tutorial
 slug: links/taking-control-of-our-website-with-jekyll-and-webhooks
 source: by Eric Mill, Michelle Hertzfeld, and Greg Boone, at 18F
 link: https://18f.gsa.gov/2014/11/17/taking-control-of-our-website-with-jekyll-and-webhooks/
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

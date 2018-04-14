@@ -4,7 +4,7 @@ source: Steven Mercatante
 date: 2018-02-06 10:53:00 +0000
 link: https://www.stevenmercatante.com/how-to-add-custom-javascript-to-a-gatsby-site/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/gatsby.md
 
 ---

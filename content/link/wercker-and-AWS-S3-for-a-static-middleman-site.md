@@ -4,7 +4,7 @@ source: Elliot Blackburn
 date: 2016-07-30 22:34:00 +0000
 link: http://www.elliotblackburn.com/wercker-and-aws-s3-for-a-static-middleman-site/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/middleman.md
 - tool/s3.md
 

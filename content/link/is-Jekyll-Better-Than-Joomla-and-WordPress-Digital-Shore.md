@@ -4,7 +4,7 @@ source: ohn Foderaro, Digital Shore
 date: 2015-06-14 20:16:00 +0000
 link: http://digitalshore.io/jekyll-better-choice-than-joomla-wordpress/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

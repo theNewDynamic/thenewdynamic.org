@@ -7,7 +7,7 @@ content_type: Resource/Website
 slug: links/modern-documentation-with-docpad
 source: Lukasz Gornicki
 link: http://derberg.github.io/posts/2015-02-16.html
-tool:
+related_tools:
 - tool/docpad.md
 
 ---

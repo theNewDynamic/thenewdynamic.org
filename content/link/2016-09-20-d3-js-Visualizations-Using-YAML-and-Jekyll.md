@@ -4,7 +4,7 @@ source: Kin Lane
 date: 2016-09-20 21:19:00 +0000
 link: http://apievangelist.com/2016/09/20/d3js-visualizations-using-yaml-and-jekyll/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

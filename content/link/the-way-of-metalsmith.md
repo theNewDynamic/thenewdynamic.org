@@ -7,7 +7,7 @@ content_type: Tutorial
 slug: links/the-way-of-metalsmith
 source: Jocelyn Lecomte
 link: http://blog.lecomte.me/posts/2014/way-of-metalsmith/
-tool:
+related_tools:
 - tool/metalsmith.md
 
 ---

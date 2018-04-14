@@ -4,7 +4,7 @@ source: Pavel Dmytrenko
 date: 2016-02-25 22:21:00 +0000
 link: http://pavdmyt.com/how-to-implement-tags-at-jekyll-website/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

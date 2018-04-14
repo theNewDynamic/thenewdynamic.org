@@ -7,7 +7,7 @@ content_type: Tutorial
 slug: links/automating-the-development-build-and-deployment-process-with-grunt
 source: David Tucker
 link: http://davidtucker.net/articles/automating-with-grunt/
-tool:
+related_tools:
 - tool/wintersmith.md
 
 ---

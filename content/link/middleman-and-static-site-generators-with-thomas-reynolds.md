@@ -7,7 +7,7 @@ content_type: Video/Presentation
 slug: links/middleman-and-static-site-generators-with-thomas-reynolds
 source: The Changelog
 link: https://changelog.com/169/
-tool:
+related_tools:
 - tool/middleman.md
 
 ---

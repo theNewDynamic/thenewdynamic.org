@@ -7,7 +7,7 @@ content_type: Article
 slug: links/hosting-static-sites-with-docker-and-nginx
 source: Kyle Mathews
 link: http://bricolage.io/hosting-static-sites-with-docker-and-nginx/
-tool: ''
+related_tools: ''
 
 ---
 … how to host the site. I briefly considered using Amazon S3, which is a very attractive option as it’s very fast and essentially infinitely scalable, but decided against it as I wanted a chance to play around with two other software tools, Docker and Nginx.

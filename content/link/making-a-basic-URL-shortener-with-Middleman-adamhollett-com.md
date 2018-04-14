@@ -4,7 +4,7 @@ source: Adam Hollett
 date: 2016-07-27 22:37:00 +0000
 link: http://adamhollett.com/posts/2016/07/middleman-url-shortener/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/middleman.md
 
 ---

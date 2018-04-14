@@ -4,7 +4,7 @@ source: Phil Nash
 date: 2016-06-28 22:41:00 +0000
 link: https://philna.sh/blog/2016/06/28/asset-pipelines-with-jekyll-assets/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 - tool/jekyll-assets.md
 

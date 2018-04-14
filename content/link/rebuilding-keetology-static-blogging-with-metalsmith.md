@@ -7,7 +7,7 @@ content_type: Article
 slug: links/rebuilding-keetology-static-blogging-with-metalsmith
 source: Mark &quot;KEETO&quot; Obcena
 link: http://keetology.com/blog/rebuilding-keetology/
-tool:
+related_tools:
 - tool/metalsmith.md
 
 ---

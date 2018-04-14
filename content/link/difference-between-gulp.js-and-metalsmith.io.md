@@ -7,7 +7,7 @@ content_type: News
 slug: links/difference-between-gulpjs-and-metalsmithio
 source: "@pjeby"
 link: http://stackoverflow.com/questions/23227248/is-there-some-gulp-plugin-that-lets-it-perform-the-function-of-a-static-site-gen/23858857?sgp=2#23858857
-tool:
+related_tools:
 - tool/metalsmith.md
 
 ---

@@ -7,7 +7,7 @@ content_type: Resource/Website
 slug: links/awesome-jekyll
 source: Gerald Bauer
 link: https://github.com/planetjekyll/awesome-jekyll/
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

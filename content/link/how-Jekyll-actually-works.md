@@ -4,7 +4,7 @@ source: Niels de Hoog
 date: 2016-07-15 11:16:00 +0000
 link: http://nielsify.com/2016/07/15/how-jekyll-actually-works.html
 content_type: Article
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

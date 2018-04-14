@@ -4,7 +4,7 @@ source: Jeff McMorris
 date: 2016-02-29 08:46:00 +0000
 link: https://medium.com/@jeffmcmorris/tips-and-tricks-for-building-a-theme-in-hugo-4806bdd747d7
 content_type: Tutorial
-tool:
+related_tools:
 - tool/hugo.md
 
 ---

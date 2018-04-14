@@ -7,7 +7,7 @@ content_type: Tutorial
 slug: links/metalsmith-on-github-pages
 source: Ronan Berder, devo.ps
 link: http://devo.ps/blog/metalsmith-on-github-pages/
-tool:
+related_tools:
 - tool/metalsmith.md
 - tool/github-pages.md
 

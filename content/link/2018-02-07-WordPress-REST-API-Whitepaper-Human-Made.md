@@ -4,7 +4,7 @@ source: ''
 date: 2018-02-07 14:31:00 +0000
 link: https://humanmade.com/wordpress-rest-api-white-paper/
 content_type: Article
-tool:
+related_tools:
 - tool/gatsby.md
 
 ---

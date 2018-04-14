@@ -7,7 +7,7 @@ content_type: Resource/Website
 slug: links/staticgen
 source: Netlify
 link: http://www.staticgen.com/
-tool: ''
+related_tools: ''
 
 ---
 A one-stop listing of open source static site generators

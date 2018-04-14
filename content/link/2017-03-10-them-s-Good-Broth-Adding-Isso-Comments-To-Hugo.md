@@ -4,7 +4,7 @@ source: Stíobhart Matulevicz
 date: 2017-02-24 14:10:00 +0000
 link: https://stiobhart.net/2017-02-24-isso-comments/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/hugo.md
 - tool/isso.md
 

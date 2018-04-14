@@ -4,7 +4,7 @@ source: Sharath Kumar, Webjeda
 date: 2016-02-04 18:43:00 +0000
 link: http://blog.webjeda.com/how-to-compress-html-in-jekyll/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 
 ---

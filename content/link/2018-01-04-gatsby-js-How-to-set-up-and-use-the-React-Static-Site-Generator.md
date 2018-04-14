@@ -4,7 +4,7 @@ source: Aman Mittal
 date: 2018-01-04 19:41:00 +0000
 link: https://medium.freecodecamp.org/setting-up-and-getting-used-to-gatsby-1fc27985ae8a
 content_type: Tutorial
-tool:
+related_tools:
 - tool/gatsby.md
 
 ---

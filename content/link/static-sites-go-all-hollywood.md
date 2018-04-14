@@ -7,7 +7,7 @@ content_type: Video/Presentation
 slug: links/static-sites-go-all-hollywood
 source: Phil Hawksworth
 link: https://speakerdeck.com/philhawksworth/static-sites-go-all-hollywood/
-tool:
+related_tools:
 - tool/jekyll.md
 - tool/contentful.md
 - tool/netlify.md

@@ -4,7 +4,7 @@ source: Jesse Herrick, Sitepoint
 date: 2015-05-21 19:58:00 +0000
 link: https://www.sitepoint.com/fully-functional-jekyll-blog/
 content_type: Tutorial
-tool:
+related_tools:
 - tool/jekyll.md
 - tool/angular.md
 

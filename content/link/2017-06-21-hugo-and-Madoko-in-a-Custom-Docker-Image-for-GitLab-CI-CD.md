@@ -4,7 +4,7 @@ source: Brian Klein
 date: 2017-10-20 19:31:00 +0000
 link: https://bryanklein.com/blog/hugo-and-madoko-in-a-gitlab-custom-docker-image/
 content_type: Article
-tool:
+related_tools:
 - tool/hugo.md
 - tool/madoko.md
 - tool/docker.md

@@ -4,7 +4,7 @@ source: Forge
 date: 2017-12-22 21:44:00 +0000
 link: http://blog.beach.io/blog/static-cms-tutorial-converting-the-hammer-gallery
 content_type: Tutorial
-tool:
+related_tools:
 - tool/hammer-for-mac.md
 - tool/contentful.md
 
