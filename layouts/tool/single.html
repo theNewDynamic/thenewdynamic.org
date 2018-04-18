@@ -8,30 +8,39 @@
 
   <div class="page-list_default mx-auto min-h-screen max-w-5xl"> 
 
-    <div class="text-base mb-8 sm:mb-16 -mt-4">
-      {{ with .Params.tools }}Type:
-        {{ range  . }}
-          {{ $taxonomy := index (where (($.Site.GetPage "taxonomyTerm" "tools").Pages) "Data.Term" .) 0 }}
-            <a href="{{ $taxonomy.Permalink }}" class="dim font-sans inline-block bg-grey-dark mr-3 no-underline rounded-full px-3 py-1 text-sm text-white"{{ with $taxonomy.Params.color }} style="background-color:{{ . | default "grey" }};"{{ end }}>
-              {{ $taxonomy.Title }}
-            </a>
-        {{ end }}
+    <div class="text-base flex-wrap flex sm:flex-row flex-col mb-8 sm:mb-16 -mt-4">
+      {{ with .Params.tools }}
+        <div class="mr-3">
+          Type:
+          {{ range  . }}
+            {{ $taxonomy := index (where (($.Site.GetPage "taxonomyTerm" "tools").Pages) "Data.Term" .) 0 }}
+              <a href="{{ $taxonomy.Permalink }}" class="dim font-sans inline-block bg-grey-dark mb-4 mx-2 no-underline rounded-full px-3 py-1 text-sm text-white"{{ with $taxonomy.Params.color }} style="background-color:{{ . | default "grey" }};"{{ end }}>
+                {{ $taxonomy.Title }}
+              </a>
+          {{ end }}
+        </div>
       {{ end }}
 
       {{ with .Param "headless-cms" }}
-        {{ $taxonomy := index (where (($.Site.GetPage "taxonomyTerm" "headless-CMS").Pages) "Data.Term" .) 0 }}
-          <a href="{{ $taxonomy.Permalink }}" class="dim font-sans inline-block bg-grey-dark mr-3 no-underline rounded-full px-3 py-1 text-sm text-white">
-            Headless-CMS: {{ $taxonomy.Title }}
-          </a>
+        <div class="mr-3">
+          {{ $taxonomy := index (where (($.Site.GetPage "taxonomyTerm" "headless-CMS").Pages) "Data.Term" .) 0 }}
+            <a href="{{ $taxonomy.Permalink }}" class="dim font-sans inline-block bg-grey-dark mb-4 mx-2 no-underline rounded-full px-3 py-1 text-sm text-white">
+              Headless-CMS: {{ $taxonomy.Title }}
+            </a>
+        </div>
         {{ end }}
 
-      {{ with .Params.language }}Language:
-        <a href="/language/{{ . | urlize }}" class="dim font-sans inline-block bg-grey-dark mr-3 no-underline rounded-full px-3 py-1 text-sm text-white">
-          {{ . }}
-        </a>
+      {{ with .Params.language }}
+        <div class="mr-3">Language:
+          <a href="/language/{{ . | urlize }}" class="dim font-sans inline-block bg-grey-dark mb-4 mx-2 no-underline rounded-full px-3 py-1 text-sm text-white">
+            {{ . }}
+          </a>
+        </div>
       {{ end }}
-      {{ with .Params.license }}License:
-        <a href="/license/{{ . | urlize }}" class="dim font-sans inline-block bg-grey-dark mr-3 no-underline rounded-full px-3 py-1 text-sm text-white">{{ . }}</a>
+      {{ with .Params.license }}
+        <div class="mr-3">License:
+          <a href="/license/{{ . | urlize }}" class="dim font-sans inline-block bg-grey-dark mb-4 mx-2 no-underline rounded-full px-3 py-1 text-sm text-white">{{ . }}</a>
+        </div>
       {{ end }}
     </div>
 
