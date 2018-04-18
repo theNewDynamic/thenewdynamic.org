@@ -6,16 +6,32 @@
     {{ $links := where (.Site.RegularPages) "Section" "link" }}
     {{ $related_links := ($links).RelatedTo (keyVals "related_tools" .File.Path) }}
 
-  <div class="page-list_default mx-auto min-h-screen"> 
+  <div class="page-list_default mx-auto min-h-screen max-w-5xl"> 
 
-    <div class="text-base mb-8 -mt-4">
-      {{ with .Params.language }}language:
-        <a href="/language/{{ . | urlize }}" class="bg-grey font-bold hover:bg-primary-color-light inline-block mr-3 no-underline  px-2 py-1 rounded-full text-grey-darkest text-xs">
+    <div class="text-base mb-8 sm:mb-16 -mt-4">
+      {{ with .Params.tools }}Type:
+        {{ range  . }}
+          {{ $taxonomy := index (where (($.Site.GetPage "taxonomyTerm" "tools").Pages) "Data.Term" .) 0 }}
+            <a href="{{ $taxonomy.Permalink }}" class="dim font-sans inline-block bg-grey-dark mr-3 no-underline rounded-full px-3 py-1 text-sm text-white"{{ with $taxonomy.Params.color }} style="background-color:{{ . | default "grey" }};"{{ end }}>
+              {{ $taxonomy.Title }}
+            </a>
+        {{ end }}
+      {{ end }}
+
+      {{ with .Param "headless-cms" }}
+        {{ $taxonomy := index (where (($.Site.GetPage "taxonomyTerm" "headless-CMS").Pages) "Data.Term" .) 0 }}
+          <a href="{{ $taxonomy.Permalink }}" class="dim font-sans inline-block bg-grey-dark mr-3 no-underline rounded-full px-3 py-1 text-sm text-white">
+            Headless-CMS: {{ $taxonomy.Title }}
+          </a>
+        {{ end }}
+
+      {{ with .Params.language }}Language:
+        <a href="/language/{{ . | urlize }}" class="dim font-sans inline-block bg-grey-dark mr-3 no-underline rounded-full px-3 py-1 text-sm text-white">
           {{ . }}
         </a>
       {{ end }}
-      {{ with .Params.license }}license:
-        <a href="/license/{{ . | urlize }}" class="bg-grey font-bold hover:bg-primary-color-light inline-block mr-3 no-underline  px-2 py-1 rounded-full text-grey-darkest text-xs">{{ . }}</a>
+      {{ with .Params.license }}License:
+        <a href="/license/{{ . | urlize }}" class="dim font-sans inline-block bg-grey-dark mr-3 no-underline rounded-full px-3 py-1 text-sm text-white">{{ . }}</a>
       {{ end }}
     </div>
 
@@ -23,7 +39,8 @@
       <div class="max-w-smTK">
         <h2 class="mb-4">About {{ .Title }}</h2>
         {{ with .Content }}
-          <div class="text-lg text-grey-darkest">{{/* <<-- this div you may only want if there's content */}}
+          <div class="text-lg text-grey-darkest">
+            {{/* this div you may only want if there's content */}}
             {{- . -}}
           </div>
         {{ end }}
