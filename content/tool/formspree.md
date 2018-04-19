@@ -16,8 +16,10 @@ license: Open Source
 language: Python
 data_model: ''
 related_tools: []
-tags: []
+tags:
+- forms
 resources: []
+cat_test: ''
 
 ---
 Just send your form to our URL and we'll forward it to your email. No PHP, Javascript or sign up required — perfect for static sites! Formspree is a tool maintained by the community at Assembly.
