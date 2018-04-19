@@ -16,7 +16,8 @@ description: Vanilla JS Search, filter and sort for your HTML
 license: Open Source
 related_tools: []
 data_model: ''
-tags: []
+tags:
+- search
 resources: []
 cat_test: ''
 
