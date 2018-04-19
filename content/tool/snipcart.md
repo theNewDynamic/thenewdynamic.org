@@ -14,9 +14,6 @@ tags:
 - e-commerce
 data_model: ''
 related_tools:
-- tool/netlify-cms.md
-- tool/middleman.md
-- tool/hexo.md
 - tool/gatsby.md
 - tool/jekyll.md
 - tool/hugo.md
