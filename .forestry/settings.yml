@@ -5,14 +5,14 @@ body_file_url_template: "/uploads/"
 new_page_extension: md
 auto_deploy: false
 admin_path: admin
-webhook_url:
+webhook_url: 
 sections:
   article:
     default_front_matter_template: article
-  tool:
-    default_front_matter_template: tool
   tools:
     default_front_matter_template: tools
+  tool:
+    default_front_matter_template: tool
   showcase:
     default_front_matter_template: showcase
   link:

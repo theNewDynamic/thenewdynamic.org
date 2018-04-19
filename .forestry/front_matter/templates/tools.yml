@@ -11,7 +11,7 @@ fields:
   label: Color
   type: text
   hidden: false
-  default:
+  default: 
   description: 'This should be a hash. e.g. #ABA194'
 - name: description
   label: Description
