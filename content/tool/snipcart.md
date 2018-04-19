@@ -20,7 +20,7 @@ related_tools:
 - tool/gatsby.md
 - tool/jekyll.md
 - tool/hugo.md
-description: ''
+description: Shopping Cart for developers
 language: ''
 resources: []
 cat_test: ''
