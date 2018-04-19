@@ -5,12 +5,20 @@ tools:
 - interaction
 urls:
   website: https://posativ.org/isso/
-  github: ''
+  github: https://github.com/posativ/isso/
   twitter: ''
+  other: ''
 resources:
 - name: ''
   url: ''
 description: Isso is a commenting server similar to Disqus
+tags:
+- comments
+language: Python
+license: Open Source
+data_model: ''
+related_tools: []
+cat_test: ''
 
 ---
 **Comments written in Markdown**
