@@ -14,9 +14,10 @@ urls:
 description: Content infrastructure to please developers and content creators
 resources: []
 data_model: API-based
-license: ''
+license: Commercial
 language: ''
 related_tools: []
+cat_test: ''
 
 ---
 A single tool to reach any screen: API-first content management system for multi-device online publishing
