@@ -1,6 +1,6 @@
 ---
 title: Fuse.js Search
-date: 2015-12-15 02:46:00 +0000
+date: 2015-12-14 21:46:00 -0500
 posted_date: 2015-12-15 02:46:00 +0000
 featured: false
 slug: fusejs-search
@@ -17,7 +17,7 @@ tags:
 license: Open Source
 related_tools:
 - tool/hugo.md
-description: ''
+description: 'Lightweight fuzzy-search, in JavaScript '
 data_model: ''
 resources: []
 cat_test: ''
