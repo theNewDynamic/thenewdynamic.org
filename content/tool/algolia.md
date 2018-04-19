@@ -7,6 +7,7 @@ urls:
   website: https://www.algolia.com
   github: https://github.com/algolia
   twitter: https://twitter.com/algolia
+  other: ''
 resources:
 - name: DocSearch
   url: https://community.algolia.com/docsearch/
@@ -20,6 +21,13 @@ resources:
   url: https://github.com/algolia/awesome-algolia
 description: Hosted Search API that delivers instant and relevant results from the
   first keystroke
+tags:
+- search
+license: ''
+data_model: ''
+language: ''
+related_tools: []
+cat_test: ''
 
 ---
 Founded in 2012, Algolia is a privately held company created by veterans in the fields of algorithms, search engines and text mining.
