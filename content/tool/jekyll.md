@@ -10,6 +10,8 @@ urls:
   twitter: https://twitter.com/jekyllrb
   other: ''
 resources:
+- name: Learn Jekyll & CloudCannon
+  url: https://learn.cloudcannon.com/
 - name: Jekyll Cheat Sheet
   url: https://learn.cloudcannon.com/jekyll-cheat-sheet/
 - name: Awesome Jekyll
@@ -32,6 +34,8 @@ license: Open Source
 headless-cms: ''
 related_tools: []
 tags: []
+data_model: ''
+cat_test: ''
 
 ---
 Jekyll is the most popular static site generator, and among the oldest. It enjoys an avid community and a dedicated core team.
