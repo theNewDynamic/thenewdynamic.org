@@ -7,10 +7,19 @@ urls:
   website: https://www.gocommerceapi.org/
   github: https://github.com/netlify/gocommerce
   twitter: ''
+  other: ''
 resources:
 - name: ''
   url: ''
 description: A headless e-commerce for JAMstack sites
+license: Open Source
+language: Go
+related_tools:
+- tool/hugo.md
+tags:
+- e-commerce
+data_model: API-based
+cat_test: ''
 
 ---
 A small go based API for static e-commerce sites.
