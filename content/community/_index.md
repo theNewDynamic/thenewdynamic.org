@@ -4,9 +4,10 @@ date: 2018-02-16 14:08:14 -0500
 tags: []
 images: ''
 description: ''
-type: page
-
 ---
+
+Sign up for our weekly [newsletter](http://newsletter.thenewdynamic.org/)
+
 To list here:
 
 Meetups
