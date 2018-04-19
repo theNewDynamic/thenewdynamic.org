@@ -17,7 +17,8 @@ language: React
 related_tools:
 - tool/webpack.md
 data_model: ''
-tags: []
+tags:
+- e-commerce
 resources: []
 cat_test: ''
 
