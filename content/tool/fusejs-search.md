@@ -8,6 +8,19 @@ tools:
 - interaction
 urls:
   website: http://fusejs.io/
+  github: https://github.com/krisk/fuse
+  twitter: ''
+  other: ''
+language: Node
+tags:
+- search
+license: Open Source
+related_tools:
+- tool/hugo.md
+description: ''
+data_model: ''
+resources: []
+cat_test: ''
 
 ---
 If you need a lightweight, fast way to search through a list of items, and allow mispellings, then Fuse.js is for you. Forget all server-side logic. This is done all in JavaScript.
