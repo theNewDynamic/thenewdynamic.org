@@ -18,7 +18,6 @@ urls:
   other: ''
 resources: []
 cat_test: ''
-draft: true
 
 ---
 Postlight's Headless WordPress + React Starter Kit is an automated toolset that will spin up two things:
