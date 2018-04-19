@@ -1,4 +1,6 @@
 ---
+pages:
+- tool/headless-wordpress---react-starter-kit.md
 hide_body: true
 is_partial: false
 fields:
