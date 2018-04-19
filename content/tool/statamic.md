@@ -8,7 +8,6 @@ tools:
 description: Flat-file CMS. (not static)
 urls:
   website: http://statamic.com/
-draft: true
 
 ---
 A Flat-file CMS that also generates static pages as output
