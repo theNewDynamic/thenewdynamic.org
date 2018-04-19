@@ -11,6 +11,17 @@ tags:
 - Search
 urls:
   website: http://mathayward.com/jekyll-search/
+  github: https://github.com/mathaywarduk/jekyll-search
+  twitter: ''
+  other: ''
+license: Open Source
+language: ''
+related_tools:
+- tool/jekyll.md
+description: Basic search via JSON
+data_model: ''
+resources: []
+cat_test: ''
 
 ---
 “With the Liquid templating language, used by Jekyll, I built a JSON encoded feed for posts and pages on the site which I wanted to show up in search results.”
