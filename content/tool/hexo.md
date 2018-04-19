@@ -7,16 +7,19 @@ slug: hexo
 tools:
 - static-site-generator
 urls:
-  website: ''
-  github: ''
-  twitter: ''
+  website: 'https://hexo.io/'
+  github: 'https://github.com/hexojs/hexo'
+  twitter: 'https://twitter.com/hexojs'
   other: ''
 license: Open Source
 language: Node
-description: ''
+description: 'A fast, simple & powerful blog framework, powered by Node.js.'
 headless-cms: ''
 related_tools: []
 tags: []
 resources: []
-
 ---
+Blazing fast generating
+Support for GitHub Flavored Markdown and most Octopress plugins
+One-command deploy to GitHub Pages, Heroku, etc.
+Powerful plugin system
