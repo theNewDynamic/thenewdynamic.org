@@ -15,8 +15,6 @@ sections:
     default_front_matter_template: tool
   showcase:
     default_front_matter_template: showcase
-  meetup:
-    default_front_matter_template: the-new-dynamic-meetup-group
   link:
     default_front_matter_template: link
   event:
