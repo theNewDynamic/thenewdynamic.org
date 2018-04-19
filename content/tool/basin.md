@@ -10,7 +10,7 @@ urls:
   github: ''
   twitter: ''
   other: ''
-license: ''
+license: Commercial
 data_model: ''
 language: ''
 related_tools: []
