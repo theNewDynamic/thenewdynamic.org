@@ -6,8 +6,8 @@ tools:
 - interaction
 urls:
   website: https://snipcart.com/
-  github: ''
-  twitter: ''
+  github: https://github.com/snipcart/
+  twitter: snipcart
   other: ''
 license: Commercial
 tags:
