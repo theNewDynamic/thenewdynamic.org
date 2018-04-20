@@ -19,6 +19,5 @@ resources:
 - name: Documentation
   url: https://firebase.google.com/docs/database/
 cat_test: ''
-draft: true
 
 ---
