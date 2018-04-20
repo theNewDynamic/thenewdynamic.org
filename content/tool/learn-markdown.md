@@ -9,13 +9,13 @@ urls:
   github: ''
   twitter: ''
   other: ''
-description: ''
+description: Syntax memo for Markdown
 data_model: ''
 language: ''
 related_tools: []
-tags: []
+tags:
+- markup
 resources: []
 cat_test: ''
-draft: true
 
 ---
