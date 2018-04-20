@@ -2,11 +2,12 @@
 title: Serverless Post Scheduler
 date: 2017-03-07 12:12:00 +0000
 tools:
-- helper
+- interaction
 urls:
   website: ''
   github: https://github.com/serverless/post-scheduler/
   twitter: ''
+  other: ''
 related_tool:
 - jekyll
 - hugo
@@ -18,6 +19,12 @@ resources:
   url: ''
 description: Schedule posts & content updates for static websites (Jekyll, Hugo, Gatsby,
   Phenomic etc)
+license: ''
+data_model: ''
+language: ''
+related_tools: []
+tags: []
+cat_test: ''
 
 ---
 The post scheduler is a serverless project that gives static site owners the ability to schedule posts (or other site content).
