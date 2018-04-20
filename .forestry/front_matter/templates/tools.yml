@@ -1,4 +1,6 @@
 ---
+pages:
+- tool/the-markdown-guide.md
 hide_body: true
 is_partial: false
 fields:
