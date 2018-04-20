@@ -7,7 +7,7 @@ license: Open Source
 related_tools:
 - tool/hugo.md
 tags:
-- markup
+- reference
 urls:
   website: https://learnxinyminutes.com/docs/toml/
   github: ''
