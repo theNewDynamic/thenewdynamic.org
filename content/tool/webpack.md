@@ -16,6 +16,7 @@ language: Node
 description: Webpack is a static module bundler for modern JavaScript applications
 data_model: ''
 related_tools:
+- tool/phenomic.md
 - tool/gatsby.md
 tags: []
 resources: []
