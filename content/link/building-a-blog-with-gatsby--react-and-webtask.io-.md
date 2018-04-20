@@ -7,6 +7,7 @@ video: false
 content_type: Tutorial
 category: ''
 related_tools:
+- tool/auth0.md
 - tool/gatsby.md
 
 ---
