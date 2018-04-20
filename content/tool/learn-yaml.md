@@ -14,7 +14,6 @@ data_model: ''
 language: ''
 related_tools: []
 tags:
-- markup
 - reference
 resources: []
 cat_test: ''
