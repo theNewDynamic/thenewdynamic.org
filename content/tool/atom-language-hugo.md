@@ -9,7 +9,7 @@ language: Node
 related_tools:
 - tool/hugo.md
 tags:
-- atom
+- IDE
 urls:
   website: https://atom.io/packages/language-hugo
   github: https://github.com/mattstratton/language-hugo
