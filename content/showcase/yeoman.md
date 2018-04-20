@@ -2,6 +2,8 @@
 title: Yeoman
 date: 2018-04-12 03:07:10 +0000
 related_tools:
+- tool/netlify.md
+- tool/algolia.md
 - tool/grunt.md
 - tool/github-pages.md
 - tool/jekyll.md
