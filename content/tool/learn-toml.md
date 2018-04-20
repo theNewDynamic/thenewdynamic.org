@@ -16,10 +16,9 @@ urls:
 resources:
 - name: TOML
   url: https://github.com/toml-lang/toml
-description: ''
+description: Syntax memo for TOML
 data_model: ''
 language: ''
 cat_test: ''
-draft: true
 
 ---
