@@ -9,7 +9,8 @@ urls:
   twitter: staticmanapp
   other: ''
 description: Bring user-generated content to static sites
-tags: []
+tags:
+- comments
 related_tools:
 - tool/hugo.md
 - tool/github-pages.md
