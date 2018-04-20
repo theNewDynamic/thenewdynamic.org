@@ -13,7 +13,8 @@ urls:
 license: ''
 data_model: ''
 language: ''
-related_tools: []
+related_tools:
+- tool/google-cloud-storage.md
 tags: []
 resources: []
 cat_test: ''
