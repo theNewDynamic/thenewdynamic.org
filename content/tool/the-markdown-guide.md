@@ -10,7 +10,7 @@ urls:
   other: ''
 tools:
 - helper
-license: ''
+license: Open Source
 data_model: ''
 language: ''
 related_tools: []
