@@ -1,11 +1,11 @@
 {{$current_url := .}}
 
 {{range .Data.Pages}}
-  {{/* {{with .Params.tags}}
+  {{with .Params.tags}}
     {{range sort . "value" "asc"}}
       {{$.Scratch.SetInMap "tags" . .}}
     {{end}}
-  {{end}} */}}
+  {{end}}
   {{with .Params.related_tools}}
     {{range sort . "value" "asc"}}
       {{$.Scratch.SetInMap "related_tools" . .}}
