@@ -47,3 +47,7 @@ fields:
     source:
       type: pages
       section: tool
+- type: tag_list
+  name: keywords
+  label: Keywords
+  description: optional
