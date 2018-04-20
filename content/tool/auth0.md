@@ -18,6 +18,5 @@ description: Authentification as a service
 data_model: ''
 resources: []
 cat_test: ''
-draft: true
 
 ---
