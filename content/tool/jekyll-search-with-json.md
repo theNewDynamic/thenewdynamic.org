@@ -8,7 +8,7 @@ tools:
 - interaction
 related_tool: jekyll
 tags:
-- Search
+- search
 urls:
   website: http://mathayward.com/jekyll-search/
   github: https://github.com/mathaywarduk/jekyll-search
