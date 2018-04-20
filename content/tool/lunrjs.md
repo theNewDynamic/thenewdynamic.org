@@ -7,7 +7,7 @@ slug: lunrjs
 tools:
 - interaction
 tags:
-- Search
+- search
 urls:
   website: http://lunrjs.com/
   github: https://github.com/olivernn/lunr.js
