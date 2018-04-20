@@ -18,6 +18,7 @@ document.addEventListener(documentLoad, function() {
       "license",
       "article-count",
       "language",
+      "name",
     ],
     listClass: "filteredlist",
   }
