@@ -56,7 +56,7 @@
       <div class="max-w-smTK">
         <h2 class="mb-4">About {{ .Title }}</h2>
         {{ with .Content }}
-          <div class="text-lg text-grey-darkest">
+          <div class="nested-links nested-paragraph text-base text-grey-darkest">
             {{- . -}}
           </div>
         {{ end }}
@@ -133,27 +133,27 @@
         {{ end }}
       </div>
 
-      <div class="">
+      <div class="overflow-hidden">
         {{ with $related_showcase }}
           <h2 class="mb-4">
             {{ $.Title }} Showcase Sites
           </h2>
           <div class="grid-columns-2 grid-gap-4 sm:grid">
-            {{ range . }}
-              {{ $url := .URL }}
-              {{ $image := index (.Params.images) 0 }}
-              {{ with $image }}
-                <a href="{{ $url }}" class="no-underline bg-black h-32 overflow-hidden">
-                  {{ if in (print $.Site.BaseURL) "localhost" }}
-                    <img data-src="{{ . }}" src="/images/placeholder.svg" class="lazyload mb-8 max-w-full border hover:opacity-25">
-                  {{ else }}
-                    {{ $img := replace . "/uploads" ($.Param "dev.image_url")  }}
-                    <img src="/images/placeholder.svg" data-src="{{ $img }}?{{ (querify "w" "214" "h" "132" "fit" "crop") | safeURL }}" class="lazyload mb-8 max-w-full border hover:opacity-25">
-                  {{ end }}
-                </a>
-              {{ end }}
+            {{ range first 10 . }}
+              {{ template "showcase_item" . }}
             {{ end }}
           </div>
+          {{ if gt (len .) 10 }}
+            {{$id := "showcase_items"}}
+            {{partial "_components/show-hide-button.html" (dict "label" "More Showcase Sites" "id" $id "classes" "my-8 text-center font-sans inline-block bg-grey-dark hover:bg-grey-daker mb-4 mx-auto no-underline rounded-full px-3 py-1 text-sm text-white")}}
+            <div class="overflow-hidden relative hidden-{{$id}} ">
+              <div class="grid-columns-2 grid-gap-4 sm:grid relative">
+                {{ range after 10 . }}
+                  {{ template "showcase_item" . }}
+                {{ end }}
+                </div>
+              </div>
+          {{ end }}
         {{ end }}
       </div>
     </div>
@@ -170,4 +170,20 @@
       {{- .Title -}}
     </a>
   </li>
+{{ end }}
+
+
+{{ define "showcase_item" }}
+  {{ $url := .URL }}
+  {{ $image := index (.Params.images) 0 }}
+  {{ with $image }}
+    <a href="{{ $url }}" class="no-underline bg-black h-32 overflow-hidden">
+      {{ if in (print $.Site.BaseURL) "localhost" }}
+        <img data-src="{{ . }}" src="/images/placeholder.svg" class="lazyload mb-8 max-w-full border hover:opacity-25">
+      {{ else }}
+        {{ $img := replace . "/uploads" ($.Param "dev.image_url")  }}
+        <img src="/images/placeholder.svg" data-src="{{ $img }}?{{ (querify "w" "214" "h" "132" "fit" "crop") | safeURL }}" class="lazyload mb-8 max-w-full border hover:opacity-25">
+      {{ end }}
+    </a>
+  {{ end }}
 {{ end }}
