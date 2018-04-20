@@ -14,7 +14,7 @@ urls:
   github: https://github.com/auth0/
   twitter: auth0
   other: ''
-description: Authentification as a service
+description: Authentication as a service
 data_model: ''
 resources: []
 cat_test: ''
