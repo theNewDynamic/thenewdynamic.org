@@ -1,4 +1,6 @@
 ---
+pages:
+- tool/x0.md
 hide_body: true
 is_partial: false
 fields:
