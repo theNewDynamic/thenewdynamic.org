@@ -1,4 +1,6 @@
 ---
+pages:
+- tool/serverless-cost-calculator.md
 hide_body: true
 is_partial: false
 fields:
