@@ -2,7 +2,7 @@
 title: Converting WordPress Export File to Hugo
 source: Elmar Klausmeier
 date: 2017-04-24 13:52:00 +0000
-tags: resource
+keywords: resource
 link: https://eklausmeier.wordpress.com/2017/04/24/converting-wordpress-export-file-to-hugo/
 content_type: Tutorial
 related_tools:

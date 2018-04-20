@@ -2,7 +2,7 @@
 title: Displaying dynamic opening times in Jekyll
 source: Michael Mckeever
 date: 2017-05-15 08:11:00 +0000
-tags:
+keywords:
 - liquid
 - dates
 - calendar

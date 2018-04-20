@@ -4,7 +4,7 @@ source: Michel Racic
 date: 2017-03-12 07:55:00 +0000
 link: http://rac.su/post/hugo/pwa/
 content_type: Tutorial
-tags:
+keywords:
 - progressive web apps
 - offline
 related_tools:

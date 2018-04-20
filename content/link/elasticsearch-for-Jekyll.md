@@ -4,7 +4,7 @@ source: Allison Zadrozny
 date: 2016-05-06 18:07:00 +0000
 link: http://allizad.com/2016/05/06/elasticserch-for-jekyll/index.html
 content_type: Tutorial
-tags: search
+keywords: search
 related_tools:
 - tool/jekyll.md
 

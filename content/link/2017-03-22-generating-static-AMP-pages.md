@@ -4,7 +4,7 @@ source: Paul D'ambra
 date: 2017-03-22 08:30:00 +0000
 link: http://pauldambra.github.io/amp/2017/generating-accelerated-mobile-pages/
 content_type: Tutorial
-tags:
+keywords:
 - tool/amp.md
 related_tools:
 - tool/jekyll.md

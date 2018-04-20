@@ -4,7 +4,7 @@ source: Tom Bennet, Builtvisible
 date: 2017-03-13 10:43:00 +0000
 link: https://builtvisible.com/go-static-try-jamstack/
 content_type: Article
-tags: essentials
+keywords: essentials
 category: essentials
 related_tools:
 - tool/hugo.md

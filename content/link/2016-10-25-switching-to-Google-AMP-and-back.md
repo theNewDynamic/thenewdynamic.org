@@ -4,7 +4,7 @@ source: Evert Pot
 date: 2016-10-25 20:13:00 +0000
 link: https://evertpot.com/switching-to-amp-and-back-again/
 content_type: Tutorial
-tags:
+keywords:
 - performance
 - tool/amp.md
 - google
