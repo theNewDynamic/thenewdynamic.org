@@ -17,7 +17,6 @@ related_tools: []
 tags: []
 resources: []
 cat_test: ''
-draft: true
 
 ---
 Calculating cost for AWS Lambda, Azure Functions, Google Cloud Functions, and IBM OpenWhisk
