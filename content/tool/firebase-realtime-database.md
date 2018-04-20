@@ -15,7 +15,9 @@ urls:
 data_model: ''
 language: ''
 tags: []
-resources: []
+resources:
+- name: Documentation
+  url: https://firebase.google.com/docs/database/
 cat_test: ''
 draft: true
 
