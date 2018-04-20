@@ -1,5 +1,5 @@
 <section class="filteredlist content grid-columns-3 grid-gap-4 sm:grid lg:grid-columns-5 lg:grid-columns-2">
-  {{ range  .Data.Pages.ByTitle }}
+  {{ range .Data.Pages.ByTitle }}
     <dl class=" border-2 border-grey-lighter bg-white">
       {{ .Render "summary" }}
     </dl>
