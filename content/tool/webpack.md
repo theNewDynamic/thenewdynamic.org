@@ -15,7 +15,8 @@ license: Open Source
 language: Node
 description: Webpack is a static module bundler for modern JavaScript applications
 data_model: ''
-related_tools: []
+related_tools:
+- tool/gatsby.md
 tags: []
 resources: []
 cat_test: ''
