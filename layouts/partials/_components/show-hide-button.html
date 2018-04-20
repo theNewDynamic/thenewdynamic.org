@@ -1,21 +1,20 @@
 <style>
   input#show-{{.id}} ~ .hidden-{{.id}} {
-    display: none;
-    opacity: 0;
-    transition: opacity 3.35s ease-out 1.2s;
+    transform:scaleY(0);
+    transform-origin:top;
+    transition: transform 300ms ease-out;
+    /* height: 0; */
   }
   input#show-{{.id}}:checked ~ .hidden-{{.id}} {
-    display: block;
-    opacity: 1;
+    transform:scaleY(1);
+    height: auto;
   }
-  /* label:focus .arrow, label:hover .arrow {
-    transform: rotate(-0.25turn);
-    transition: rotate .35s ease-out;
-  } */
+  .arrow {
+    transition: transform .2s;
+  }
   input#show-{{.id}}:checked ~ label .arrow {
-    /* transform: rotate(0.5turn); */
     transform: rotate(180deg);
-    transition: rotate 1.35s ease-in;
+    position: relative;
   }
 </style>
 <input type="checkbox" name="show-{{.id}}" class="clip" value="{{.label}}" id="show-{{.id}}" />
