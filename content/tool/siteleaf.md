@@ -24,8 +24,4 @@ Siteleaf is a content management system for Jekyll-based websites that offers ro
 
 Siteleaf provides a JSON API for interacting with all of your Jekyll content. Integrate it into other sites, apps, or anything you want. It’s your data.
 
-<div class="embed-container">
-
-<iframe width="1280" height="720" src="https://www.youtube-nocookie.com/embed/zrkcGL5H3MU?rel=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
-
-</div>
+{{< youtube zrkcGL5H3MU >}}
