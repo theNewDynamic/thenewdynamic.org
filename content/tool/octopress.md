@@ -15,7 +15,7 @@ license: Open Source
 language: Ruby
 related_tools:
 - tool/jekyll.md
-description: ''
+description: A blogging framework for hackers
 data_model: ''
 tags: []
 resources: []
