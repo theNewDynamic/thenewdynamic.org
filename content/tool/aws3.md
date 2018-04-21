@@ -18,6 +18,5 @@ language: ''
 tags: []
 resources: []
 cat_test: ''
-draft: true
 
 ---
