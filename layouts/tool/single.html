@@ -5,6 +5,8 @@
     {{ $related_tools := ($tools).RelatedTo (keyVals "related_tools" .File.Path) }}
     {{ $links := where (.Site.RegularPages) "Section" "link" }}
     {{ $related_links := ($links).RelatedTo (keyVals "related_tools" .File.Path) }}
+    {{ $articles := where (.Site.RegularPages) "Section" "article" }}
+    {{ $related_articles := ($articles).RelatedTo (keyVals "related_tools" .File.Path) }}
 
   <div class="page-list_default mx-auto min-h-screen max-w-5xl"> 
 
@@ -81,6 +83,15 @@
                   {{ template "tools_link" . }}
                 {{ end }}
               {{ end }}
+            {{ end }}
+          </ul>
+        {{ end }}
+
+        {{ with $related_articles }}
+          <h2 class="mt-8">Articles</h2>
+          <ul class="list-reset">
+            {{range .}}
+              {{ template "tools_link" . }}
             {{ end }}
           </ul>
         {{ end }}
