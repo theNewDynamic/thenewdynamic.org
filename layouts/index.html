@@ -1,74 +1,29 @@
+{{ define "header" }}{{- partial "_global/navigation.html" . -}}{{ end }}
+
 {{ define "main" }}
-{{/*
-{{$pages := where .Site.Pages "Section" "ne" "link"}}
-{{ range $pages}}
-  <a href="{{.URL}}" class="block my-3 px-8">{{.File.Path}}</a>
-{{end}} */}}
-{{/* <ul id="all-tags">
-  {{ range $name, $taxonomy := .Site.Taxonomies.headless_cms }}
-    <li><a href="{{ "/headless_cms/" | relLangURL }}{{ $name | urlize }}">{{ $name }}</a></li>
+
+<div class="mt-16 center max-w-5xl mx-auto px-3 lg:px-4 grid-columns-3 grid-gap-4 sm:grid lg:grid-columns-4 ">
+  {{ range (where .Site.RegularPages "Section" "article") }}
+
+  <div class="border max-w-sm rounded overflow-hidden shadow-lgTK">
+    {{/* <img class="w-full" src="https://tailwindcss.com/img/card-top.jpg" alt="Sunset in the mountains"> */}}
+    <div class="px-6 py-4">
+      <div class="font-bold text-xl mb-2">{{ .Title }}</div>
+      <p class="text-grey-darker text-base">
+        {{.Description}}
+      </p>
+    </div>
+    <div class="px-6 py-4">
+      {{ partial "_components/related_tools-tag.html" . }}
+    </div>
+  </div>
+
+
+
   {{ end }}
-</ul> */}}
 
+</div>
 
-Home page
-{{$tools := where .Site.Pages "Section" "tools"}}
-{{$pages := where ($tools) "Kind" "taxonomy"}}
-{{ range $pages}}
-
-  <a href="{{.URL}}" class="block my-3 px-8">{{.Title}} - {{.Kind}}</a>
-
-{{end}}
-
-<hr class="my-8 block"/>
-{{$internalpages := where ($tools) "Kind" "page"}}
-{{range $internalpages}}
-<a href="{{.URL}}" class="block my-3 px-8">{{.Title}} - {{.Kind}}</a>
-{{end}}
-
-
-<hr class="my-8 block"/>
-{{ $home := .Site.Home }}
-{{/* <div class="css-treeview box">
-	<ul>
-		<li><input type="checkbox" id="item-0" checked="checked" /><label for="item-0">Home</label>
-		<ul>
-		{{ template "section-tree-nav" $home }}
-		</ul>
-	</ul>
-</div> */}}
-
-{{/* {{ define "section-tree-nav" }} */}}
-  {{ range .Sections.Reverse}}
-  <li>
-  	<li><input type="checkbox" id="item-0-0" checked="checked"/><label for="item-0-0">{{ .Title }}</label>
-  	<ul>
-  		{{ range .Pages }}
-  		<li><a href="{{ .RelPermalink}}">{{ .Title }}</a></li>
-  		{{ end }}
-  		<ul>
-  		{{/* {{ template "section-tree-nav" . }} */}}
-  		</ul>
-  	</ul>
-  </li>
-  </li>
-  {{ end }}
-{{/* {{ end }} */}}
-
-
-
-  {{/* <section id="menu">
-    <ul>
-        {{ range $key, $taxonomy := .Site.Taxonomies.headless_cms }}
-        <li> {{ $key }} </li>
-        <ul>
-            {{ range $taxonomy.Pages }}
-            <li hugo-nav="{{ .RelPermalink}}"><a href="{{ .Permalink}}"> {{ .LinkTitle }} </a> </li>
-            {{ end }}
-        </ul>
-        {{ end }}
-    </ul>
-</section>  */}}
 
 
 {{ end }}
