@@ -13,15 +13,13 @@ urls:
   other: ''
 license: Open Source
 language: Python
-description: ''
-headless-cms: ''
+description: Python-based static site generator
+data_model: ''
 related_tools: []
 tags: []
 resources: []
+cat_test: ''
+headless-cms: ''
 
 ---
-Python-based static site generator  that supports reStructuredText, Markdown, IPython (Jupyter) Notebooks and HTML, and have plugins for many other formats.
-
-
-
-
+Nikola supports reStructuredText, Markdown, IPython (Jupyter) Notebooks and HTML, and have plugins for many other formats.
