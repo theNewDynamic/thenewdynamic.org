@@ -7,7 +7,7 @@ link: http://central.team/workshops/jekyll/
 type: event
 category: event
 description: Apprenez à créer et organiser des sites statiques avec Jekyll
-tool:
+related_tools:
 - jekyll
 draft: true
 

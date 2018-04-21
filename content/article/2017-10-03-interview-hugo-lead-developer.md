@@ -7,7 +7,7 @@ description: As Hugo is getting more and more popular and fast, we ask a few que
   future of Hugo.
 image: "/uploads/articles/hugo-bjorn-erik-pedersen.jpg"
 permalink: "/article/interview-hugo-lead-developer/"
-tool:
+related_tools:
 - tool/hugo.md
 link: ''
 

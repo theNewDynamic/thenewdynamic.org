@@ -5,7 +5,7 @@ posted_date: 2015-05-02 22:14:00 +0000
 category: article
 slug: static-site-generators-coming-into-the-mainstream
 source: ''
-tool: ''
+related_tools: ''
 
 ---
 Thoughtworks, the San Francisco-based software development firm, has included static site generators on their "Technology Radar" for 2015, saying that:

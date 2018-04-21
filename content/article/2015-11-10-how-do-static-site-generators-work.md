@@ -7,7 +7,7 @@ slug: how-do-static-site-generators-work
 source: ''
 excerpt: A brief overview of how a typical static site generator converts markdown
   files into fully formed HTML files.
-tool: ''
+related_tools: ''
 
 ---
 ### CONTENT IN

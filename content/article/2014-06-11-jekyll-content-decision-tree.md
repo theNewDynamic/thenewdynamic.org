@@ -5,7 +5,7 @@ posted_date: 2015-05-02 22:07:00 +0000
 category: article
 slug: jekyll-content-decision-tree
 source: ''
-tool:
+related_tools:
 - jekyll
 
 ---

@@ -9,7 +9,7 @@ link: http://www.staticwebtech.com/presentations/wordpress-to-middleman/
 description: Video and Slides Available
 video: https://youtu.be/yGJh6K099xE
 speakerdeck: ''
-tool:
+related_tools:
 - middleman
 
 ---

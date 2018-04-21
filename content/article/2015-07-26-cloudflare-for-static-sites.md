@@ -6,7 +6,7 @@ posted_date: 2015-07-26 02:44:00 +0000
 slug: cloudflare-for-static-sites
 source: ''
 excerpt: I've found Cloudflare to be quite useful for static sites.
-tool:
+related_tools:
 - CloudFlare
 
 ---

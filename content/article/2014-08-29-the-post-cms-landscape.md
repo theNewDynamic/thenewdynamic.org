@@ -5,7 +5,7 @@ posted_date: 2015-05-02 22:21:00 +0000
 category: article
 slug: the-post-cms-landscape
 source: ''
-tool:
+related_tools:
 - Metalsmith
 - Osmek
 - Contentful

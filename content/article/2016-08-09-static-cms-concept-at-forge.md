@@ -3,7 +3,7 @@ title: Static CMS Concept at Forge
 source: ''
 link: http://guild.beach.io/t/static-cms-concept/103
 type: Article
-tool:
+related_tools:
 - 
 
 ---

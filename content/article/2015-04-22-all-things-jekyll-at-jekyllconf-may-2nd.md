@@ -8,7 +8,7 @@ source: ''
 description: Check out jekyllconf.com for information on the upcoming JekyllConf web-conference
   on  Saturday 2nd May 2015
 video: true
-tool:
+related_tools:
 - jekyll
 
 ---

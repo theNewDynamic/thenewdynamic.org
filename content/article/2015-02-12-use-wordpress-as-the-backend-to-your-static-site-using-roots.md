@@ -5,7 +5,7 @@ posted_date: 2015-05-02 22:18:00 +0000
 category: article
 slug: use-wordpress-as-the-backend-to-your-static-site-using-roots
 source: ''
-tool:
+related_tools:
 - Roots
 
 ---

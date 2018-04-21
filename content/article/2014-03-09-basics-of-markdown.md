@@ -5,7 +5,7 @@ posted_date: 2015-05-02 22:01:00 +0000
 category: article
 slug: basics-of-markdown
 source: ''
-tool: ''
+related_tools: ''
 
 ---
 [_An abreviated form of this article is available as a Gist on Github_](https://gist.github.com/budparr/9257428)

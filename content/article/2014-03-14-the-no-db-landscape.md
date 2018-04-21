@@ -5,7 +5,7 @@ posted_date: 2015-05-02 22:02:00 +0000
 category: article
 slug: the-no-db-landscape
 source: ''
-tool: ''
+related_tools: ''
 
 ---
 It's no coincidence that as I've become obsessed with website performance I've also become enamored with building sites with no database. They're unequivocally faster, simpler to maintain and build, and more secure and stable than database-driven websites. There are tradeoffs of course, but in my view well worth it. I don't understand the talk I see about static sites being for "hackers" or small or simple sites. I've seen some [large](http://kylerush.net/blog/meet-the-obama-campaigns-250-million-fundraising-platform/), [complex](http://developmentseed.org/blog/2013/09/19/relaunching-undp-portal/) and [highly trafficked](http://developmentseed.org/blog/2013/10/24/its-called-jekyll/) sites built this way. See my earlier [post](/article/2014/03/06/static-site-generators-introduction/) in this series for more information.

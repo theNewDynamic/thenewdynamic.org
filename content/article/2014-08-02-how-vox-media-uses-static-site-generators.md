@@ -7,7 +7,7 @@ slug: how-vox-media-uses-static-site-generators
 source: ''
 excerpt: Here's the forward thinking Vox Media on their use of Middleman as part of
   their publishing strategy
-tool:
+related_tools:
 - Middleman
 
 ---

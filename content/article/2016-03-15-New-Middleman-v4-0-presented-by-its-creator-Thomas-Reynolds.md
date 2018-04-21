@@ -9,7 +9,7 @@ link: http://www.meetup.com/sf-static-web-tech/events/229493139/
 type: event
 category: event
 description: About the newest, largely re-written version Middleman
-tool:
+related_tools:
 - middleman
 
 ---

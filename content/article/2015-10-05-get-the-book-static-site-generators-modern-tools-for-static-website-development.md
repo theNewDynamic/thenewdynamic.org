@@ -8,7 +8,7 @@ source: ''
 excerpt: O’Reilly and Brian Rinaldi have had the foresight to publish the first book
   on static site generators, called Static Site Generators Modern Tools for Static
   Website Development.
-tool: ''
+related_tools: ''
 
 ---
 ![](http://www.thenewdynamic.org/webhook-uploads/1444079082013_cat.gif) O’Reilly and [Brian Rinaldi](https://twitter.com/remotesynth) have had the foresight to publish the first book on static site generators, called _Static Site Generators Modern Tools for Static Website Development_.

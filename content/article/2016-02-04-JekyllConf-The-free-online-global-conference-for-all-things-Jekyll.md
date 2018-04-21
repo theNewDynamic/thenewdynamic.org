@@ -8,7 +8,7 @@ link: http://jekyllconf.com/
 venue: JekyllCOnf Online
 video: https://www.youtube.com/playlist?list=PLrxYIq_0LFJdi2HJ6lnY4nm7ewu221hyS
 description: The free, online global conference for all things Jekyll (videos)
-tool:
+related_tools:
 - Jekyll
 
 ---

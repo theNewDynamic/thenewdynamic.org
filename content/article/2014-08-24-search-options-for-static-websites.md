@@ -5,7 +5,7 @@ posted_date: 2015-05-02 22:10:00 +0000
 category: article
 slug: search-options-for-static-websites
 source: ''
-tool: ''
+related_tools: ''
 
 ---
 Here are some options for adding search and/or filters to your static website. These have various approaches, costs and ease of implementation.

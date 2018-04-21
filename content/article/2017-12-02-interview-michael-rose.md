@@ -6,7 +6,7 @@ description: Michael Rose, one of the most active webdesigner in the Jekyll comm
   shares his vision on static site generators.
 image: "/uploads/articles/michael-rose.jpg"
 permalink: "/article/interview-michael-rose/"
-tool:
+related_tools:
 - tool/jekyll.md
 - tool/jekyll-themes.md
 link: ''

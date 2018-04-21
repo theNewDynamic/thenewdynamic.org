@@ -2,7 +2,7 @@
 title: Jekyll and Firebase - Email/Password Authentication
 date: 2016-01-14 20:16:00 +0000
 link: http://knightsoftheoldcode.com/article/2016/01/09/jekyll-firebase-authentication-1/
-tool:
+related_tools:
 - jekyll
 - firebase
 draft: true

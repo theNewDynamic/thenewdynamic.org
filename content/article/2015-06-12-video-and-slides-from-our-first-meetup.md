@@ -7,7 +7,7 @@ slug: video-and-slides-from-our-first-meetup
 source: ''
 description: Why use Static Site Generators and How they Work
 video: true
-tool:
+related_tools:
 - Jekyll
 - Webhook
 
