@@ -14,10 +14,12 @@ resources:
   url: https://github.com/evocode/metalsmith-base
 license: Open Source
 language: Node
-description: ''
+description: Very modular vanilla JS static site generator
 headless-cms: ''
 related_tools: []
 tags: []
+data_model: ''
+cat_test: ''
 
 ---
 An extremely simple, pluggable static site generator.

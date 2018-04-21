@@ -9,14 +9,13 @@ tools:
 urls:
   website: https://surge.sh/
   github: https://github.com/sintaxi/surge
-  twitter: https://twitter.com/surge_sh
+  twitter: surge_sh
   other: ''
 description: Static web publishing for Front-End Developers
 related_tools:
+- tool/hugo.md
 - tool/jekyll.md
-- tool/grunt.md
-- tool/gulp.md
-license: ''
+license: Commercial
 data_model: ''
 language: ''
 tags: []

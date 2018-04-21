@@ -11,11 +11,14 @@ urls:
   other: ''
 license: Open Source
 language: Ruby
-description: ''
+description: Ruby-powered CLI to build static sites
 headless-cms: ''
-related_tools: []
+related_tools:
+- tool/middleman-blog-editor.md
 tags: []
 resources: []
+data_model: ''
+cat_test: ''
 
 ---
 Build static websites with an easy-to-use framework. Middleman is a static site generator using all the shortcuts and tools in modern web development.

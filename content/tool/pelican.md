@@ -12,11 +12,13 @@ urls:
   twitter: ''
   other: ''
 license: Open Source
-description: ''
+description: Python-based static site generator
 headless-cms: ''
 language: Python
 related_tools: []
 tags: []
 resources: []
+data_model: ''
+cat_test: ''
 
 ---
