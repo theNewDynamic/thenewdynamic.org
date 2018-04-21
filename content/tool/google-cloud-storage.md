@@ -12,7 +12,7 @@ urls:
   twitter: ''
   other: ''
 license: Commercial
-language: Node
+language: ''
 resources:
 - {}
 description: Host your data in a reliable, cheap and eco-friendly way
