@@ -1,0 +1,8 @@
+{{ with .Params.related_tools }}
+  <div class="related_tools text-xs">
+    {{ range . }}
+      {{ $link := index (where (where $.Site.RegularPages ".Section" "tool") ".File.Path" "in" .) 0 }}
+      {{ partial "_components/tags" $link }}
+    {{ end }}
+  </div>
+{{ end }}
