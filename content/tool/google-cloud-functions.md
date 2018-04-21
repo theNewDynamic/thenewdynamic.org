@@ -18,6 +18,5 @@ resources:
 data_model: ''
 tags: []
 cat_test: ''
-draft: true
 
 ---
