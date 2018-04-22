@@ -1,29 +1,68 @@
 {{ define "header" }}{{- partial "_global/navigation.html" . -}}{{ end }}
 
 {{ define "main" }}
+  {{ $tools := where .Site.RegularPages "Section" "tool"}}
+  {{ $tools_top := $tools }}
+  {{ $tools_new := $tools }}
 
-<div class="mt-16 center max-w-5xl mx-auto px-3 lg:px-4 grid-columns-3 grid-gap-4 sm:grid lg:grid-columns-4 ">
-  {{ range (where .Site.RegularPages "Section" "article") }}
 
-  <div class="border max-w-sm rounded overflow-hidden shadow-lgTK">
-    {{/* <img class="w-full" src="https://tailwindcss.com/img/card-top.jpg" alt="Sunset in the mountains"> */}}
-    <div class="px-6 py-4">
-      <div class="font-bold text-xl mb-2">{{ .Title }}</div>
-      <p class="text-grey-darker text-base">
-        {{.Description}}
-      </p>
+<div class="page-list_default mt-16 center mx-auto">
+
+
+<div class="sm:grid lg:px-4 grid-columns-12 grid-gap-4">
+
+
+  <div class="col-span-9">
+    <div class="borderTK p-8 sm:grid grid-columns-12 grid-gap-4">
+      <div class="col-span-4">
+          <img src="/uploads/fast.svg" alt="" class="h-64 ">
+      </div>
+      <div class="col-span-8">
+        <p class="font-brand text-4xl lh-copy grey-dark mb-4 max-w-sm">
+          {{- .Site.Params.description -}}
+        </p>
+        {{ with .Content }}{{ . }}{{ end }}
+      </div>
     </div>
-    <div class="px-6 py-4">
-      {{ partial "_components/related_tools-tag.html" . }}
+    <div class="mt-8 grid-columns-2 grid-gap-4 sm:grid lg:grid-columns-3">
+
+      {{ partial "articles-cards.html" (dict "limit" 6 "item" .) }}
     </div>
   </div>
 
 
+  <div class="rightt col-span-3">
 
-  {{ end }}
+      <div class="bg-grey-lighter mb-8 p-8">
+        <h3>Top Tools</h3>
+        <ul class="list-reset">
+          {{ range first 10 $tools_top }}
+            <li class="mb-1">
+              <a href="{{ .Permalink }}" class="no-underline dim text-black">
+                {{ .Title }}
+              </a>
+            </li>
+          {{ end }}
+        </ul>
+      </div>
+
+      <div class="bg-grey-lighter p-8">
+        <h3 class="mt-8">New Tools</h3>
+        <ul class="list-reset">
+          {{ range first 10 $tools_top }}
+            <li class="mb-1">
+              <a href="{{ .Permalink }}" class="no-underline dim text-black">
+                {{ .Title }}
+              </a>
+            </li>
+          {{ end }}
+        </ul>
+      </div>
+
+
+  </div>
+
 
 </div>
-
-
-
+</div>
 {{ end }}
