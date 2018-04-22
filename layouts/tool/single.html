@@ -58,7 +58,7 @@
       <div class="max-w-smTK">
         <h2 class="mb-4">About {{ .Title }}</h2>
         {{ with .Content }}
-          <div class="nested-links nested-paragraph text-base text-grey-darkest">
+          <div class="nested-links nested-paragraph text-lg text-grey-darkest">
             {{- . -}}
           </div>
         {{ end }}
@@ -88,7 +88,7 @@
         {{ end }}
 
         {{ with $related_articles }}
-          <h2 class="mt-8">Articles</h2>
+          <h3 class="mt-8">Articles</h3>
           <ul class="list-reset">
             {{range .}}
               {{ template "tools_link" . }}
