@@ -2,7 +2,6 @@
 title: Cockpit CMS
 date: 2017-02-14 15:17:00 +0000
 tools:
-- headless-cms
 - content-management
 tags: []
 urls:
