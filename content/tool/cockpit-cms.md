@@ -10,9 +10,7 @@ urls:
   github: https://github.com/agentejo/cockpit
   twitter: https://twitter.com/getcockpit
   other: ''
-resources:
-- name: ''
-  url: ''
+resources: []
 description: A self-hosted headless and api-driven CMS
 headless-cms: API-based
 license: Open Source
