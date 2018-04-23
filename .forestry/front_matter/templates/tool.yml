@@ -23,7 +23,6 @@ fields:
     options:
     - content-management
     - build-tool
-    - headless-cms
     - helper
     - hosting-deployment
     - interaction
