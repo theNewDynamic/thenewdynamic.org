@@ -4,7 +4,6 @@ date: 2018-03-29 10:51:55 +0000
 description: User-friendly JavaScript SaaS CMS
 tools:
 - content-management
-- headless-cms
 license: Commercial
 data_model: API-based
 language: React
