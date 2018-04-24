@@ -16,8 +16,14 @@ description: A framework for creating Universal Vue.js Applications, and a Stati
 license: Open Source
 language: Node
 headless-cms: ''
-related_tools: []
-tags: []
+related_tools:
+- tool/vuepress.md
+- tool/next.js.md
+- tool/zeit.md
+tags:
+- SSR
+data_model: ''
+cat_test: ''
 
 ---
 Nuxt.js is a framework for creating Universal Vue.js Applications.
