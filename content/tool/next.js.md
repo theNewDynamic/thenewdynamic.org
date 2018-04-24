@@ -5,6 +5,7 @@ tools:
 - static-site-generator
 license: Open Source
 related_tools:
+- tool/zeit.md
 - tool/nuxtjs.md
 urls:
   website: ''
@@ -16,8 +17,9 @@ resources:
   url: https://zeit.co/blog/next5
 description: Next.js is a minimalistic framework for server-rendered React applications
 data_model: ''
-language: ''
-tags: []
+language: React
+tags:
+- SSR
 cat_test: ''
 
 ---
