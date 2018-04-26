@@ -909,6 +909,7 @@ module.exports = {
       center: true,
       padding: "4rem",
     }),
+    require("tailwindcss-flexbox-order")([0, 1, 2], ["responsive"]),
     require("./plugins/css-grid.js")({
       grids: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
       gaps: {
