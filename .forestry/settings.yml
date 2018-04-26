@@ -7,12 +7,12 @@ auto_deploy: false
 admin_path: admin
 webhook_url: 
 sections:
+  tool:
+    default_front_matter_template: tool
   article:
     default_front_matter_template: article
   tools:
     default_front_matter_template: tools
-  tool:
-    default_front_matter_template: tool
   showcase:
     default_front_matter_template: showcase
   link:

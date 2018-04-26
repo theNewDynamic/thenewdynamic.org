@@ -28,6 +28,8 @@ fields:
     - interaction
     - static-site-generator
     - theme
+    - interaction/back-end
+    - interaction/front-end
   description: Category
 - type: select
   name: license
