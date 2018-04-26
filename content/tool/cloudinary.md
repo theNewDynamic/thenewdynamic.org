@@ -3,7 +3,7 @@ title: Cloudinary
 date: 2017-06-18 12:12:00 +0000
 tools:
 - interaction
-- hosting-deployment
+- interaction/backend
 urls:
   website: http://cloudinary.com/
   github: ''
