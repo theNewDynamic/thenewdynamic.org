@@ -26,7 +26,15 @@
     </div>
     <div class="mt-8 grid-columns-2 grid-gap-4 sm:grid lg:grid-columns-3">
 
-      {{ partial "articles-cards.html" (dict "limit" 6 "item" .) }}
+
+        {{ $featured := where (.Site.RegularPages) "Section" "showcase" }}
+        {{ range first 1 ($featured) }}
+          <div class="col-span-2">
+            {{- partial "showcase/display-horizontal.html" . -}}
+          </div>
+        {{ end }}
+
+      {{ partial "articles-cards.html" (dict "limit" 4 "item" .) }}
     </div>
   </div>
 
