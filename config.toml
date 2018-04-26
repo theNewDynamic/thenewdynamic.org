@@ -50,14 +50,14 @@ weight = 3.0
 parent = "interaction"
 identifier = "interaction-backend"
 name = "Back-end"
-url = "/tools/interaction/backend/"
+url = "/tools/interaction/back-end/"
 weight = 1.0
 
 [[menu.tools]]
 parent = "interaction"
 identifier = "interaction-front-end"
 name = "Front-end"
-url = "/tools/interaction/frontend/"
+url = "/tools/interaction/front-end/"
 weight = 2.0
 
 
