@@ -6,7 +6,7 @@ var AssetsPlugin = require("assets-webpack-plugin")
 module.exports = {
   entry: {
     app: "./src/index.js",
-    // algolia: "./src/algolia.js"
+    algolia: "./src/algolia.js",
   },
   output: {
     path: path.join(__dirname, "./static/assets/"),

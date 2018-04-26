@@ -1,6 +1,9 @@
 {
+  "algolia": {
+    "js": "/assets/js/algolia.385705b3a3131cab064d.js"
+  },
   "app": {
-    "css": "/assets/css/app.bda863184e67388e31f2.css",
-    "js": "/assets/js/app.9780858d0d3671de011e.js"
+    "css": "/assets/css/app.0f29a584f45e3247714a.css",
+    "js": "/assets/js/app.f2637c0edb4fd019438d.js"
   }
 }
