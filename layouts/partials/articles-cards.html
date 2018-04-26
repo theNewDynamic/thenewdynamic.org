@@ -1,6 +1,6 @@
 {{ $limit := .limit | default 100 }}
 {{ range first $limit (where .item.Site.RegularPages "Section" "article") }}
-  <div class="flex flex-col justify-between border max-w-sm rounded overflow-hidden">
+  <div class="flex flex-col bg-white justify-between border max-w-sm rounded overflow-hidden">
   {{/* <img class="w-full" src="https://tailwindcss.com/img/card-top.jpg" alt="Sunset in the mountains"> */}}
   <div class="px-6 py-4">
     <span class="text-xs text-grey-darker">{{ partial "_components/time.html" (dict "context" . "show_time" false) }}</span>

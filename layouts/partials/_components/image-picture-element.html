@@ -1,13 +1,13 @@
-{{ $image := index (.Params.images) 0 }}
-{{ with $image }}
-  {{ if in (print $.Site.BaseURL) "localhost" }}
-    <img data-src="{{ . }}" src="/images/placeholder.svg" class="lazyload mw-100">
-  {{ else }}
-    {{ $img := replace . "/uploads" ($.Param "dev.image_url")  }}
-    <picture>
-      <source data-srcset="{{ $img }}?{{ (querify "w" "981" "h" "606" "fit" "crop") | safeURL }}" media="(min-width: 768px)">
-      <source data-srcset="{{ $img }}?{{ (querify "w" "568" "h" "351" "fit" "crop") | safeURL }}" media="(min-width: 480px)">
-      <img src="/images/placeholder.svg" data-src="{{ $img }}?{{ (querify "w" "400" "h" "247" "fit" "crop") | safeURL }}" class="lazyload max-w-full">
-    </picture>
+  {{ $image := index (.Params.images) 0 }}
+  {{ with $image }}
+    {{ if in (print $.Site.BaseURL) "localhost" }}
+      <img data-src="{{ . }}" src="/images/placeholder.svg" class="lazyload w-full shadow-lg mb-3">
+    {{ else }}
+      {{ $img := replace . "/uploads" ($.Param "dev.image_url")  }}
+      <picture>
+        <source data-srcset="{{ $img }}?{{ (querify "w" "981" "h" "606" "fit" "crop") | safeURL }}" media="(min-width: 768px)">
+        <source data-srcset="{{ $img }}?{{ (querify "w" "568" "h" "351" "fit" "crop") | safeURL }}" media="(min-width: 480px)">
+        <img src="/images/placeholder.svg" data-src="{{ $img }}?{{ (querify "w" "400" "h" "247" "fit" "crop") | safeURL }}" class="lazyload max-w-full">
+      </picture>
+    {{ end }}
   {{ end }}
-{{ end }}
