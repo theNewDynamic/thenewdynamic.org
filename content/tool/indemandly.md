@@ -5,6 +5,7 @@ description: The simple, powerful, & versatile contact tool that you can stick o
   your website and social media.
 tools:
 - interaction
+- interaction/front-end
 tags:
 - forms
 urls:
