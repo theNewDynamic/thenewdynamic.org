@@ -22,7 +22,7 @@
         <img data-src="{{ . }}" src="/images/placeholder.svg" class="lazyload mw-100  shadow ">
       {{ else }}
         {{ $img := replace . "/uploads" ($.Param "dev.image_url")  }}
-          <img src="/images/placeholder.svg" data-src="{{ $img }}?{{ (querify "w" "400" "h" "247" "fit" "crop") | safeURL }}" class="lazyload shadow">
+          <img src="/images/placeholder.svg" data-src="{{ $img }}?{{ (querify "w" "460" "h" "284" "fit" "crop") | safeURL }}" class="lazyload shadow mw-100">
       {{ end }}
     </a>
   {{ end }}
