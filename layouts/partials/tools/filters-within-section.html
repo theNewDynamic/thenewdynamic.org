@@ -62,7 +62,7 @@
     </div>
   {{end}}
 
-  {{$related_tools := $.Scratch.GetSortedMapValues "related_tools"}}
+  {{/* {{$related_tools := $.Scratch.GetSortedMapValues "related_tools"}}
   {{with $related_tools}}
     <div class="lg:mr-6">
       <h6 class="mb-2">Related Tools</h6>
@@ -71,7 +71,7 @@
         <button id="{{urlize .}}" class='filter-buttons-tools button_c'>{{with $related_tool }}{{.Title}}{{end}}</button>
       {{end}}
     </div>
-  {{end}}
+  {{end}} */}}
 
 
   {{$tags := $.Scratch.GetSortedMapValues "tags"}}
