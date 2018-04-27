@@ -4,7 +4,6 @@ date: 2018-04-21 07:38:40 -0400
 license: Commercial
 tools:
 - hosting-deployment
-language: Node
 urls:
   website: https://aws.amazon.com/lambda/
   github: ''

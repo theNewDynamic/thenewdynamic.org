@@ -4,7 +4,6 @@ date: 2018-04-21 10:26:34 -0400
 tools:
 - hosting-deployment
 license: Commercial
-language: Node
 urls:
   website: https://zeit.co
   github: https://github.com/zeit

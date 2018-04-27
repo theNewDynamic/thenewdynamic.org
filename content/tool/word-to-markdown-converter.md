@@ -12,8 +12,6 @@ urls:
   github: https://github.com/benbalter/word-to-markdown
   twitter: ''
   other: ''
-language: Ruby
-
 related_tools: []
 resources: []
 cat_test: ''

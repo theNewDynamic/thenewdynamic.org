@@ -1,9 +1,8 @@
 ---
-title: s3_website
+title: S3 Website
 date: 2015-12-02 03:30:00 +0000
 posted_date: 2015-12-02 03:30:00 +0000
 featured: false
-slug: s3_website
 tools:
 - hosting-deployment
 urls:
@@ -15,7 +14,6 @@ description: |2-
 
   Manage an S3 website: sync, deliver via CloudFront, benefit from advanced S3 website features.
 license: Open Source
-language: Ruby
 related_tools:
 - tool/middleman.md
 - tool/nanoc.md
@@ -23,8 +21,6 @@ related_tools:
 
 tags: []
 resources: []
-cat_test: ''
-
 ---
 * Create and configure an S3 website for you
 * Upload your static website to AWS S3

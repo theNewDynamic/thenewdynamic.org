@@ -12,7 +12,6 @@ urls:
 description: Host directly from your GitHub repository
 related_tools:
 - tool/jekyll.md
-language: Ruby
 license: ''
 
 tags: []

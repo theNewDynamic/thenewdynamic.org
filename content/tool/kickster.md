@@ -13,7 +13,6 @@ urls:
   other: ''
 license: Open Source
 description: Worry-free deploying to GitHub Pages using Jekyll
-language: Ruby
 related_tools:
 - tool/github-pages.md
 - tool/jekyll.md

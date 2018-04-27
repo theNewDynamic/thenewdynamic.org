@@ -11,7 +11,6 @@ urls:
   twitter: ''
   other: ''
 description: Run your code in the cloud
-language: Node
 resources:
 - name: NodeJS functions samples
   url: https://github.com/GoogleCloudPlatform/nodejs-docs-samples/tree/master/functions

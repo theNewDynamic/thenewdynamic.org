@@ -5,7 +5,6 @@ tools:
 - "interaction"
 - "interaction-back-end"
 license: Commercial
-language: Node
 related_tools:
 - tool/gatsby.md
 tags:

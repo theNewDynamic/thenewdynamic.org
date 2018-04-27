@@ -5,7 +5,6 @@ description: Hugo grammar, snippets and shortcodes
 tools:
 - helper
 license: Open Source
-language: Node
 related_tools:
 - tool/hugo.md
 tags:
