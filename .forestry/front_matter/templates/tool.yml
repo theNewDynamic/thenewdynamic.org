@@ -22,16 +22,14 @@ fields:
       section: tools
     options:
     - content-management
-    - headless-cms-api-based
-    - headless-cms-git-based
     - build-tool
     - helper
     - hosting-deployment
     - interaction
     - static-site-generator
     - theme
-    - interaction-back-end
-    - interaction-front-end
+    - interaction/back-end
+    - interaction/front-end
   description: Category
 - type: select
   name: license
@@ -44,6 +42,18 @@ fields:
     - Hybrid
     - Other
   label: License
+- type: select
+  name: data_model
+  config:
+    source:
+      type: simple
+    options:
+    - API-based
+    - Git-based
+    - Database
+    - Other
+  label: Data Model
+  description: For CMS/Editing Tools only
 - type: select
   name: language
   config:
@@ -92,3 +102,10 @@ fields:
     label: URL
   config:
     labelField: name
+- type: select
+  name: cat_test
+  config:
+    source:
+      type: pages
+      section: tools
+  label: Cat Test
