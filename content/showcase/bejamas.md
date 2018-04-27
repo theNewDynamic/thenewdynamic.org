@@ -2,8 +2,8 @@
 title: Bejamas
 date: 2018-04-27 19:00:25 -0400
 related_tools:
-- 
-website: ''
+- tool/gatsby.md
+website: https://bejamas.io/
 repo: ''
 creator:
 - name: 
@@ -12,7 +12,8 @@ creator:
   twitter_username: 
 image_path: "/uploads/showcase/"
 images:
+- "/uploads/bejamas-gatsby.png"
 - "/uploads/showcase/"
-draft: true
 
 ---
+A Web studio in Poland focused on working on JAMstack-powered websites.
