@@ -7,6 +7,8 @@ auto_deploy: false
 admin_path: admin
 webhook_url: 
 sections:
+  video:
+    default_front_matter_template: video
   tool:
     default_front_matter_template: tool-directory
   article:
@@ -19,6 +21,4 @@ sections:
     default_front_matter_template: link
   event:
     default_front_matter_template: event
-  video:
-    default_front_matter_template: video
 version: 0.38.1
