@@ -16,6 +16,6 @@ urls:
   twitter: https://twitter.com/DocPad
   other: ''
 resources: []
-data_model: ''
+
 
 ---

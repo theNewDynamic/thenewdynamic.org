@@ -15,7 +15,7 @@ resources:
 description: Remarkbox offers a comment system to keep readers engaged with your content.
 tags:
 - comments
-data_model: ''
+
 language: ''
 related_tools: []
 cat_test: ''

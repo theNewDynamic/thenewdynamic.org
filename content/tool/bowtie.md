@@ -4,6 +4,7 @@ date: 2016-01-14 18:47:00 +0000
 tools:
 - content-management
 - hosting-deployment
+- headless-cms-git-based
 description: Static Hosting for Application Developers and Digital Agencies (currently
   in public beta)
 urls:
@@ -12,11 +13,9 @@ urls:
   twitter: ''
   other: ''
 tags: []
-headless-cms: Git-based
 related_tools:
 - tool/jekyll.md
 resources: []
-
 ---
 Get the benefits of static – enhanced with tools to make building, extending, and maintaining the project easier.
 

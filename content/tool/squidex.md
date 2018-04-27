@@ -4,7 +4,6 @@ date: 2018-03-19 10:06:34 +0000
 tools:
 - content-management
 license: Open Source
-data_model: API-based
 description: " Headless CMS and Content Managment Hub"
 urls:
   website: https://squidex.io/

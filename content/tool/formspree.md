@@ -14,7 +14,7 @@ urls:
 description: Functional HTML forms for static sites
 license: Open Source
 language: Python
-data_model: ''
+
 related_tools: []
 tags:
 - forms

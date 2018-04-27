@@ -6,8 +6,8 @@ featured: false
 slug: osmek
 tools:
 - content-management
+- headless-cms-api-based
 tags: []
-headless-cms: API-based
 urls:
   website: http://osmek.com/
   github: ''

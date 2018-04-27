@@ -6,8 +6,8 @@ featured: false
 slug: netlify-cms
 tools:
 - content-management
+- headless-cms-git-based
 tags: []
-headless-cms: Git-based
 urls:
   website: https://www.netlifycms.org/
   github: https://github.com/netlify/netlify-cms
@@ -21,10 +21,8 @@ related_tools:
 - tool/jekyll.md
 resources: []
 license: Open Source
-data_model: Git-based
 language: React
 cat_test: ''
-
 ---
 A CMS for static site generators. Give non-technical users a simple way to edit and add content to any site built with a static site generator.
 

@@ -11,7 +11,7 @@ urls:
   github: https://github.com/bep/s3deploy
   twitter: ''
   other: ''
-data_model: ''
+
 language: ''
 related_tools: []
 tags: []

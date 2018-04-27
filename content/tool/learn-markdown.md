@@ -10,7 +10,7 @@ urls:
   twitter: ''
   other: ''
 description: Syntax memo for Markdown
-data_model: ''
+
 language: ''
 related_tools: []
 tags:

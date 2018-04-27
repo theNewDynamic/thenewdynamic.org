@@ -3,6 +3,7 @@ title: Contenta CMS
 date: 2017-11-14 15:17:00 +0000
 tools:
 - content-management
+- headless-cms-api-based
 urls:
   website: http://www.contentacms.org
   github: https://github.com/contentacms
@@ -13,9 +14,8 @@ resources:
   url: ''
 description: Contenta is an API-First Drupal distribution.
 tags: []
-headless-cms: API-based
 license: ''
-data_model: ''
+
 language: ''
 related_tools: []
 

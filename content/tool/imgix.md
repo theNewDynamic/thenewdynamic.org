@@ -15,7 +15,7 @@ resources:
 description: imgix solves the context problem by making all of your images responsive
   and enabling on-the-fly manipulation, while improving delivery speed.
 license: Commercial
-data_model: ''
+
 tags:
 - services
 language: ''

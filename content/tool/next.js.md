@@ -16,7 +16,7 @@ resources:
 - name: Introductory Blog Post
   url: https://zeit.co/blog/next5
 description: Next.js is a minimalistic framework for server-rendered React applications
-data_model: ''
+
 language: React
 tags:
 - SSR

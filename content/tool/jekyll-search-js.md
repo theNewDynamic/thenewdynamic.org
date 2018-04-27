@@ -14,7 +14,7 @@ urls:
   github: https://github.com/daviddarnes/jekyll-search-js
   twitter: ''
   other: ''
-data_model: ''
+
 language: ''
 resources: []
 cat_test: ''

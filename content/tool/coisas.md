@@ -3,6 +3,7 @@ title: Coisas
 date: 2017-11-14 15:17:00 +0000
 tools:
 - content-management
+- headless-cms-git-based
 urls:
   website: https://coisas.alhur.es/#!/
   github: https://github.com/fiatjaf/coisas
@@ -11,7 +12,6 @@ urls:
 resources:
 description: 'A client-side CMS for editing GitHub Markdown (and other) files. '
 tags: []
-headless-cms: Git-based
 related_tools:
 - tool/hexo.md
 - tool/hugo.md

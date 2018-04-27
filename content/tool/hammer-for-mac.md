@@ -13,7 +13,7 @@ description: macOS desktop app that generates static websites
 license: Commercial
 related_tools:
 - tool/forge.md
-data_model: ''
+
 language: ''
 tags: []
 resources: []

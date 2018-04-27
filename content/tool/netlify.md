@@ -18,7 +18,7 @@ related_tools:
 resources:
 - name: Documentation
   url: https://www.netlify.com/docs/
-data_model: ''
+
 language: ''
 tags: []
 cat_test: ''

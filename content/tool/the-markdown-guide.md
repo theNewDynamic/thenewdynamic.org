@@ -11,7 +11,7 @@ urls:
 tools:
 - helper
 license: Open Source
-data_model: ''
+
 language: ''
 related_tools: []
 tags:

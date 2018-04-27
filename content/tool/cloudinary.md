@@ -3,7 +3,7 @@ title: Cloudinary
 date: 2017-06-18 12:12:00 +0000
 tools:
 - interaction
-- interaction/back-end
+- interaction-back-end  
 urls:
   website: http://cloudinary.com/
   github: ''
@@ -15,7 +15,6 @@ resources:
   url: ''
 description: Image and Video Management in the Cloud
 license: Commercial
-data_model: API-based
 related_tools:
 - tool/hugo.md
 - tool/jekyll.md

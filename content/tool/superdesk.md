@@ -4,7 +4,6 @@ date: 2018-03-23 08:01:05 +0000
 tools:
 - content-management
 license: Open Source
-data_model: API-based
 description: Special purpose headless CMS and workflow management solution for newsrooms
   with open source and paid versions.
 urls:

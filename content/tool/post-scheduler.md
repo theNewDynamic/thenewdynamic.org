@@ -20,7 +20,7 @@ resources:
 description: Schedule posts & content updates for static websites (Jekyll, Hugo, Gatsby,
   Phenomic etc)
 license: ''
-data_model: ''
+
 language: ''
 related_tools: []
 tags: []

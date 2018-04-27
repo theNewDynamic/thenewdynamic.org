@@ -5,7 +5,6 @@ description: User-friendly JavaScript SaaS CMS
 tools:
 - content-management
 license: Commercial
-data_model: API-based
 language: React
 urls:
   website: https://www.scrivito.com/

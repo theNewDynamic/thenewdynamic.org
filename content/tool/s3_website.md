@@ -20,7 +20,7 @@ related_tools:
 - tool/middleman.md
 - tool/nanoc.md
 - tool/jekyll.md
-data_model: ''
+
 tags: []
 resources: []
 cat_test: ''

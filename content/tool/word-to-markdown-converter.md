@@ -13,7 +13,7 @@ urls:
   twitter: ''
   other: ''
 language: Ruby
-data_model: ''
+
 related_tools: []
 resources: []
 cat_test: ''

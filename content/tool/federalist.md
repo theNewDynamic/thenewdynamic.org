@@ -12,7 +12,6 @@ urls:
   other: ''
 description: Interface for publishing static US government websites
 license: Open Source
-data_model: Git-based
 language: Node
 related_tools:
 - tool/hugo.md

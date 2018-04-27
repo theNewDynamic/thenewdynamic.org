@@ -13,7 +13,7 @@ urls:
   other: ''
 description: Build conversational forms, surveys, quizzes, and more.
 license: Commercial
-data_model: ''
+
 language: ''
 related_tools: []
 tags:

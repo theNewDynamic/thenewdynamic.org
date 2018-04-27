@@ -16,7 +16,7 @@ license: Open Source
 language: ''
 related_tools:
 - tool/jekyll.md
-data_model: ''
+
 tags: []
 resources: []
 cat_test: ''

@@ -14,7 +14,7 @@ urls:
 license: Open Source
 language: Python
 description: Python-based static site generator
-data_model: ''
+
 related_tools: []
 tags: []
 resources: []

@@ -13,7 +13,7 @@ urls:
   other: ''
 license: Commercial
 language: PHP
-data_model: ''
+
 related_tools: []
 tags: []
 resources: []

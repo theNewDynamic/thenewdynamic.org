@@ -15,7 +15,7 @@ license: Open Source
 related_tools:
 - tool/hugo.md
 description: Official Hugo themes directory
-data_model: ''
+
 language: ''
 tags: []
 resources: []

@@ -15,7 +15,7 @@ description: 'A blogging Jekyll theme with a sidebar '
 license: Open Source
 related_tools:
 - tool/jekyll.md
-data_model: ''
+
 language: ''
 tags: []
 resources: []

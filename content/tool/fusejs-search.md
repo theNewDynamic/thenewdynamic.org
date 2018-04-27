@@ -18,7 +18,7 @@ license: Open Source
 related_tools:
 - tool/hugo.md
 description: 'Lightweight fuzzy-search, in JavaScript '
-data_model: ''
+
 resources: []
 cat_test: ''
 

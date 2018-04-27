@@ -14,7 +14,7 @@ urls:
 license: Open Source
 language: Node
 description: The JavaScript Task Runner
-data_model: ''
+
 related_tools: []
 tags: []
 resources: []

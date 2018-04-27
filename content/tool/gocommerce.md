@@ -18,7 +18,6 @@ related_tools:
 - tool/hugo.md
 tags:
 - e-commerce
-data_model: API-based
 cat_test: ''
 
 ---

@@ -16,7 +16,7 @@ license: Commercial
 resources:
 - name: Documentation
   url: https://firebase.google.com/docs/hosting/
-data_model: ''
+
 language: ''
 related_tools: []
 tags: []

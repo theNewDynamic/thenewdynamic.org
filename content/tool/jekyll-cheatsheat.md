@@ -13,7 +13,7 @@ description: Quick reference for Jekyll
 related_tools:
 - tool/jekyll.md
 license: ''
-data_model: ''
+
 language: ''
 tags: []
 resources: []

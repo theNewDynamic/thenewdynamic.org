@@ -15,7 +15,7 @@ tags:
 - search
 description: ''
 license: ''
-data_model: ''
+
 language: ''
 related_tools: []
 resources: []

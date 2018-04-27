@@ -15,7 +15,7 @@ language: Node
 resources:
 - name: NodeJS functions samples
   url: https://github.com/GoogleCloudPlatform/nodejs-docs-samples/tree/master/functions
-data_model: ''
+
 tags: []
 cat_test: ''
 

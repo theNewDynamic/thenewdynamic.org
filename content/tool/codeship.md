@@ -13,7 +13,7 @@ urls:
   other: ''
 description: Fast and secure Continuous Integration, Deployment and Delivery
 license: ''
-data_model: ''
+
 language: ''
 related_tools: []
 tags: []

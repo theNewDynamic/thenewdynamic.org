@@ -21,7 +21,7 @@ related_tools:
 - tool/hugo.md
 - tool/jekyll.md
 description: Lunr.js is a small, full-text search library for use in the browse.
-data_model: ''
+
 resources: []
 cat_test: ''
 

@@ -16,7 +16,7 @@ license: Open Source
 related_tools:
 - tool/nikola.md
 language: Python
-data_model: ''
+
 tags: []
 resources: []
 

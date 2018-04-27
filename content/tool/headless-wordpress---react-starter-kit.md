@@ -8,7 +8,7 @@ tools:
 license: Open Source
 tags:
 - starter
-data_model: ''
+
 language: ''
 related_tools: []
 urls:

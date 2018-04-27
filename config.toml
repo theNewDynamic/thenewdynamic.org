@@ -27,16 +27,16 @@ weight = 2.0
 
   [[menu.tools]]
   identifier = "git-based"
-  name = "Headless/Git-based"
+  name = "Git-based"
   parent = "content-management"
-  url = "/headless-cms/git-based/"
+  url = "/tools/headless-cms-git-based/"
   weight = 1.0
 
   [[menu.tools]]
   identifier = "api-based"
-  name = "Headless/API-based"
+  name = "API-based"
   parent = "content-management"
-  url = "/headless-cms/api-based/"
+  url = "/tools/headless-cms-api-based/"
   weight = 2.0
 
 
@@ -50,14 +50,14 @@ weight = 3.0
 parent = "interaction"
 identifier = "interaction-backend"
 name = "Back-end"
-url = "/tools/interaction/back-end/"
+url = "/tools/interaction-back-end/"
 weight = 1.0
 
 [[menu.tools]]
 parent = "interaction"
 identifier = "interaction-front-end"
 name = "Front-end"
-url = "/tools/interaction/front-end/"
+url = "/tools/interaction-front-end/"
 weight = 2.0
 
 

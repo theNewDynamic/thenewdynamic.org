@@ -4,6 +4,7 @@ date: 2017-11-14 15:17:00 +0000
 tags: []
 tools:
 - content-management
+- headless-cms-api-based
 urls:
   website: https://strapi.io
   github: ''
@@ -14,7 +15,6 @@ resources:
   url: ''
 description: Open source. API creation made simple, secure and fast.
 license: Open Source
-headless-cms: API-based
 related_tools:
 - tool/gatsby.md
 

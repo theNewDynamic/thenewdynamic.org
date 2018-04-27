@@ -3,19 +3,19 @@ title: Grow
 date: 2017-01-01 00:00:00 +0000
 tools:
 - static-site-generator
+- headless-cms-git-based
 urls:
   website: http://grow.io/
   github: https://github.com/grow/grow
   twitter: ''
   other: ''
-headless-cms: Git-based
 resources:
 - name: 
   url: 
 description: A Python-based declarative, file-based microsite generator
 language: Python
 license: Open Source
-data_model: ''
+
 related_tools: []
 tags: []
 

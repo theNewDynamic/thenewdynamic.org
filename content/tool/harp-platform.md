@@ -13,7 +13,7 @@ urls:
   other: ''
 description: ''
 license: Commercial
-data_model: ''
+
 language: Node
 related_tools:
 - tool/harp.md

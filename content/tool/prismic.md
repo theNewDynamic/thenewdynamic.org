@@ -6,8 +6,8 @@ featured: false
 slug: prismic
 tools:
 - content-management
+- headless-cms-api-based
 tags: []
-headless-cms: API-based
 license: Commercial
 urls:
   website: https://prismic.io/
@@ -18,7 +18,6 @@ description: "\nAPI-based headlessCMS "
 resources:
 - name: Documentation
   url: https://prismic.io/docs
-data_model: API-based
 language: ''
 related_tools: []
 cat_test: ''

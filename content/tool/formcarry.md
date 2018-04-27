@@ -11,7 +11,7 @@ urls:
   github: ''
   twitter: ''
   other: ''
-data_model: ''
+
 language: ''
 related_tools: []
 tags:

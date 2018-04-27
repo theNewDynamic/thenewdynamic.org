@@ -6,8 +6,8 @@ featured: false
 slug: siteleaf
 tools:
 - content-management
+- headless-cms-git-based
 tags: []
-headless-cms: Git-based
 license: Commercial
 related_tools:
 - tool/jekyll.md
@@ -18,7 +18,6 @@ urls:
   other: ''
 description: Siteleaf is a content management system for Jekyll
 resources: []
-
 ---
 Siteleaf is a content management system for Jekyll-based websites that offers robust user-management, previews, text editor, and asset management.
 

@@ -16,7 +16,7 @@ license: Open Source
 language: React
 related_tools:
 - tool/webpack.md
-data_model: ''
+
 tags:
 - e-commerce
 resources: []

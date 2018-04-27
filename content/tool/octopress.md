@@ -16,7 +16,7 @@ language: Ruby
 related_tools:
 - tool/jekyll.md
 description: A blogging framework for hackers
-data_model: ''
+
 tags: []
 resources: []
 cat_test: ''

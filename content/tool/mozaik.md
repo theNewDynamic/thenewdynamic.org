@@ -5,7 +5,6 @@ description: A headless CMS, a GraphQL API
 tools:
 - content-management
 license: Commercial
-data_model: API-based
 related_tools:
 - tool/gatsby.md
 urls:

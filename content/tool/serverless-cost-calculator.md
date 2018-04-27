@@ -11,7 +11,7 @@ urls:
   twitter: https://twitter.com/sbarski
   other: ''
 license: ''
-data_model: ''
+
 language: ''
 related_tools:
 - tool/google-cloud-storage.md

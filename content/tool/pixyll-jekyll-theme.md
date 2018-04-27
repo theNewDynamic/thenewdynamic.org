@@ -15,7 +15,7 @@ license: Open Source
 related_tools:
 - tool/jekyll.md
 description: A simple, beautiful Jekyll theme.
-data_model: ''
+
 language: ''
 tags: []
 resources: []

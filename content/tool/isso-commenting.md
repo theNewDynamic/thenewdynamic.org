@@ -16,7 +16,7 @@ tags:
 - comments
 language: Python
 license: Open Source
-data_model: ''
+
 related_tools: []
 cat_test: ''
 

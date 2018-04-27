@@ -13,7 +13,7 @@ urls:
 description: The user management API - Fastest way to build user management with payments,
   email, and social.
 license: ''
-data_model: ''
+
 language: ''
 related_tools: []
 tags: []

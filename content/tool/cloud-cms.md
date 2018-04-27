@@ -3,6 +3,7 @@ title: Cloud CMS
 date: 2017-11-14 15:17:00 +0000
 tools:
 - content-management
+- headless-cms-api-based
 urls:
   website: https://www.cloudcms.com/
   github: ''
@@ -13,8 +14,6 @@ resources:
   url: ''
 description: Easy for Content Editors + Powerful for Developers
 tags: []
-headless-cms: API-based
-
 ---
 Cloud CMS is a headless, API-first approach to content management, built around JSON and a high performance cloud architecture. It delivers enterprise features, including flexible content models and a full editorial environment, allowing your business users create, manage and publish fresh content with ease.
 

@@ -11,7 +11,7 @@ urls:
   twitter: ''
   other: ''
 license: Commercial
-data_model: ''
+
 language: ''
 related_tools: []
 tags:

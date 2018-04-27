@@ -17,7 +17,7 @@ language: Ruby
 related_tools:
 - tool/github-pages.md
 - tool/jekyll.md
-data_model: ''
+
 tags: []
 resources: []
 cat_test: ''

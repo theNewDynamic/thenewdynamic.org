@@ -2,7 +2,8 @@
 title: Auth0
 date: 2018-04-20 06:56:52 -0400
 tools:
-- interaction
+- "interaction"
+- "interaction-back-end"
 license: Commercial
 language: Node
 related_tools:
@@ -15,7 +16,7 @@ urls:
   twitter: auth0
   other: ''
 description: Authentication as a service
-data_model: ''
+
 resources: []
 cat_test: ''
 

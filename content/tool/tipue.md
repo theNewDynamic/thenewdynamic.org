@@ -15,7 +15,7 @@ license: Open Source
 tags:
 - search
 description: Search plugin for jQuery
-data_model: ''
+
 language: ''
 related_tools: []
 resources: []

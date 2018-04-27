@@ -14,7 +14,7 @@ urls:
   github: https://github.com/vkuznecovas/mouthful
   twitter: ''
   other: ''
-data_model: ''
+
 resources: []
 cat_test: ''
 

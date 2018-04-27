@@ -13,7 +13,7 @@ urls:
   other: ''
 description: Form endpoints for designers and developers
 license: Commercial
-data_model: ''
+
 language: ''
 related_tools: []
 tags: []

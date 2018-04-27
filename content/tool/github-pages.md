@@ -14,7 +14,7 @@ related_tools:
 - tool/jekyll.md
 language: Ruby
 license: ''
-data_model: ''
+
 tags: []
 resources: []
 cat_test: ''

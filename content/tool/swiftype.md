@@ -14,7 +14,7 @@ urls:
 license: Commercial
 language: ''
 description: Add search to any website
-data_model: ''
+
 related_tools: []
 tags:
 - search

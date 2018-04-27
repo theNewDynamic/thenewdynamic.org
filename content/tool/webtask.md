@@ -11,7 +11,7 @@ urls:
 description: Run serverless tasks for free
 tools:
 - helper
-data_model: ''
+
 related_tools: []
 tags: []
 resources: []

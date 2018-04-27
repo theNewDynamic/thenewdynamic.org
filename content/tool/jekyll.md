@@ -34,7 +34,7 @@ license: Open Source
 headless-cms: ''
 related_tools: []
 tags: []
-data_model: ''
+
 cat_test: ''
 
 ---

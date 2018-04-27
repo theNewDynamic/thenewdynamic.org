@@ -15,7 +15,7 @@ urls:
   github: https://github.com/mattstratton/language-hugo
   twitter: ''
   other: ''
-data_model: ''
+
 resources: []
 cat_test: ''
 

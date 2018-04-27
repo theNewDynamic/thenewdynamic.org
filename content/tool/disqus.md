@@ -16,7 +16,7 @@ license: Commercial
 language: ''
 tags:
 - comments
-data_model: ''
+
 related_tools: []
 cat_test: ''
 

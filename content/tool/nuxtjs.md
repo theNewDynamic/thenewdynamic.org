@@ -22,7 +22,7 @@ related_tools:
 - tool/zeit.md
 tags:
 - SSR
-data_model: ''
+
 cat_test: ''
 
 ---

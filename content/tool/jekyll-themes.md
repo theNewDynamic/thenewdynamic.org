@@ -16,7 +16,7 @@ related_tools:
 - tool/jekyll.md
 license: Open Source
 description: A directory of the best-looking themes for Jekyll blogs
-data_model: ''
+
 language: ''
 tags: []
 resources: []

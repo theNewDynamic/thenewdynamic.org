@@ -15,7 +15,7 @@ related_tools:
 - tool/jekyll.md
 license: Open Source
 description: Premium Jekyll themes developed by Michael Rose
-data_model: ''
+
 language: ''
 tags: []
 resources: []

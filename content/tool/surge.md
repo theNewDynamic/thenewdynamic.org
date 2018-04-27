@@ -16,7 +16,7 @@ related_tools:
 - tool/hugo.md
 - tool/jekyll.md
 license: Commercial
-data_model: ''
+
 language: ''
 tags: []
 resources: []

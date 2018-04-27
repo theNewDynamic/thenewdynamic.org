@@ -3,6 +3,7 @@ title: Drive CMS
 date: 2016-06-22 00:00:00 +0000
 tools:
 - content-management
+- headless-cms-api-based
 urls:
   website: https://www.drivecms.xyz
   github: https://github.com/max-barry/google-drive-cms
@@ -10,9 +11,7 @@ urls:
   other: ''
 description: A content management system (CMS) built on an interface everyone understands.
 tags: []
-headless-cms: API-based
 resources: []
-
 ---
 The Google Drive CMS uses a combination of Google Sheets and Google Docs to maintain content on a website. These documents are sent to a site or a supporting service (e.g. a Firebase database) via a POST request to an API the admin specifies.
 

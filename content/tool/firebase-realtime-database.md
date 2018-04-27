@@ -12,7 +12,7 @@ urls:
   github: ''
   twitter: ''
   other: ''
-data_model: ''
+
 language: ''
 tags: []
 resources:

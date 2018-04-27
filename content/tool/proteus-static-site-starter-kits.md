@@ -13,7 +13,7 @@ urls:
   other: ''
 description: ''
 license: ''
-data_model: ''
+
 language: ''
 related_tools: []
 tags: []

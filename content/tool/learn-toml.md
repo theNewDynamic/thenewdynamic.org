@@ -17,7 +17,7 @@ resources:
 - name: TOML
   url: https://github.com/toml-lang/toml
 description: Syntax memo for TOML
-data_model: ''
+
 language: ''
 cat_test: ''
 

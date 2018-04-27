@@ -19,7 +19,7 @@ language: ''
 related_tools:
 - tool/jekyll.md
 description: Basic search via JSON
-data_model: ''
+
 resources: []
 cat_test: ''
 

@@ -12,7 +12,7 @@ urls:
 license: Commercial
 tags:
 - e-commerce
-data_model: ''
+
 related_tools:
 - tool/gatsby.md
 - tool/jekyll.md

@@ -17,7 +17,7 @@ tags:
 resources:
 - name: Blog
   url: https://pageclip.co/blog
-data_model: ''
+
 language: ''
 related_tools: []
 cat_test: ''

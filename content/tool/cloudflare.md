@@ -13,7 +13,7 @@ urls:
   other: ''
 description: CDN, DNS, DDoS protection and security for your websites.
 license: Commercial
-data_model: ''
+
 language: ''
 related_tools: []
 tags: []

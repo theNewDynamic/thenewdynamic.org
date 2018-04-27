@@ -13,7 +13,7 @@ urls:
   other: ''
 license: Open Source
 description: ''
-data_model: ''
+
 language: ''
 related_tools: []
 tags: []

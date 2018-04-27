@@ -13,7 +13,7 @@ urls:
   other: ''
 description: Services and tools to build, run, and scale web and mobile applications.
 license: Commercial
-data_model: ''
+
 language: ''
 related_tools: []
 tags: []

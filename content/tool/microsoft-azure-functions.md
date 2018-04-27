@@ -13,7 +13,7 @@ urls:
   twitter: ''
   other: ''
 description: Run event-driven functions on demand
-data_model: ''
+
 language: ''
 tags: []
 resources: []

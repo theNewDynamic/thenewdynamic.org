@@ -13,7 +13,7 @@ urls:
 description: Run code without thinking about servers
 related_tools:
 - tool/netlify.md
-data_model: ''
+
 tags: []
 resources: []
 cat_test: ''

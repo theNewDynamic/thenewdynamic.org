@@ -15,7 +15,7 @@ description: Simple node app for Disqus-like drop-in commenting on static websit
 tags:
 - comments
 license: Open Source
-data_model: ''
+
 language: ''
 related_tools: []
 cat_test: ''

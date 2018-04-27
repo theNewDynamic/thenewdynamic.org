@@ -24,7 +24,6 @@ description: Hosted Search API that delivers instant and relevant results from t
 tags:
 - search
 license: ''
-data_model: ''
 language: ''
 related_tools: []
 cat_test: ''

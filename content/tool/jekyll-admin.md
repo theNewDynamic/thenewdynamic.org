@@ -6,6 +6,7 @@ featured: false
 related_tool: jekyll
 tools:
 - content-management
+- headless-cms-git-based
 urls:
   website: ''
   github: https://github.com/jekyll/jekyll-admin
@@ -14,7 +15,6 @@ urls:
 description: A Jekyll plugin that provides users with a traditional CMS-style graphical
   interface to author content and administer Jekyll sites.
 tags: []
-headless-cms: Git-based
 related_tools: []
 resources: []
 

@@ -18,7 +18,7 @@ description: Very modular vanilla JS static site generator
 headless-cms: ''
 related_tools: []
 tags: []
-data_model: ''
+
 cat_test: ''
 
 ---

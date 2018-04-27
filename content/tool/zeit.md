@@ -11,7 +11,7 @@ urls:
   twitter: zeithq
   other: ''
 description: Deploy your Node apps with a single command
-data_model: ''
+
 related_tools: []
 tags: []
 resources: []

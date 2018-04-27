@@ -10,7 +10,7 @@ urls:
   github: https://github.com/adambard/learnxinyminutes-docs/blob/master/yaml.html.markdown
   twitter: ''
   other: ''
-data_model: ''
+
 language: ''
 related_tools: []
 tags:

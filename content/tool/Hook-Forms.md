@@ -10,7 +10,7 @@ urls:
   other: ''
 license: Commercial
 description: Spam-free web forms
-data_model: ''
+
 language: ''
 related_tools: []
 tags:

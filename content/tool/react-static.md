@@ -16,7 +16,7 @@ license: Open Source
 headless-cms: ''
 related_tools: []
 resources: []
-data_model: ''
+
 cat_test: ''
 
 ---

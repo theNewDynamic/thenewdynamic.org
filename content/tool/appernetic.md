@@ -3,6 +3,7 @@ title: Appernetic
 date: 2016-11-13 00:00:00 +0000
 tools:
 - content-management
+- headless-cms-git-based
 urls:
   website: https://appernetic.io/
   github: https://github.com/appernetic
@@ -16,7 +17,6 @@ resources:
 description: A bridge between the simplicity of static websites and user-friendliness
   of CMS (content management system) authoring interfaces.
 tags: []
-headless-cms: Git-based
 related_tools:
 - tool/hugo.md
 

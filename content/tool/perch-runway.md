@@ -4,16 +4,15 @@ date: 2018-02-16 15:24:18 +0000
 description: A powerful CMS for developing content-centric websites
 tools:
 - content-management
+- headless-cms-api-based
 tags: []
 license: Commercial
-headless-cms: API-based
 urls:
   website: https://perchrunway.com/
   github: ''
   twitter: https://twitter.com/grabaperch
   other: ''
 resources: []
-
 ---
 #### Both templated and headless
 

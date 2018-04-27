@@ -18,7 +18,7 @@ headless-cms: ''
 related_tools: []
 tags: []
 resources: []
-data_model: ''
+
 cat_test: ''
 
 ---

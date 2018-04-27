@@ -17,7 +17,7 @@ related_tools:
 description: Access data from a Google Drive Spreadsheet in your Jekyll sites
 license: Open Source
 language: Ruby
-data_model: ''
+
 tags: []
 resources: []
 cat_test: ''

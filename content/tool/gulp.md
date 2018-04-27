@@ -14,7 +14,7 @@ urls:
 license: Open Source
 language: Node
 description: Automate you build system
-data_model: ''
+
 related_tools: []
 tags: []
 resources: []

@@ -3,6 +3,7 @@ title: Cockpit CMS
 date: 2017-02-14 15:17:00 +0000
 tools:
 - content-management
+- headless-cms-api-based
 tags: []
 urls:
   website: https://getcockpit.com/
@@ -11,10 +12,8 @@ urls:
   other: ''
 resources: []
 description: A self-hosted headless and api-driven CMS
-headless-cms: API-based
 license: Open Source
 related_tools: []
-data_model: API-based
 language: PHP
 cat_test: ''
 

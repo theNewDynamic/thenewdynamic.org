@@ -20,7 +20,7 @@ tags: []
 resources:
 - name: Gatsby Manor Themes
   url: https://www.gatsbymanor.com/
-data_model: ''
+
 cat_test: ''
 
 ---

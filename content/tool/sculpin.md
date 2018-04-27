@@ -14,7 +14,7 @@ urls:
 description: PHP-powered SSG
 license: Open Source
 language: PHP
-data_model: ''
+
 related_tools: []
 tags: []
 resources: []

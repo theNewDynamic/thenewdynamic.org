@@ -16,7 +16,7 @@ language: ''
 resources:
 - {}
 description: Host your data in a reliable, cheap and eco-friendly way
-data_model: ''
+
 related_tools: []
 tags: []
 cat_test: ''

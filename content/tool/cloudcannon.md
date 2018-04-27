@@ -5,8 +5,8 @@ featured: false
 tools:
 - content-management
 - hosting-deployment
+- headless-cms-git-based
 tags: []
-headless-cms: Git-based
 urls:
   website: http://cloudcannon.com/
   github: https://github.com/cloudcannon
@@ -17,7 +17,6 @@ resources: []
 related_tools:
 - tool/jekyll.md
 license: Commercial
-data_model: ''
 language: ''
 
 ---

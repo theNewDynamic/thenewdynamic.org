@@ -17,7 +17,7 @@ related_tools:
 - tool/middleman-blog-editor.md
 tags: []
 resources: []
-data_model: ''
+
 cat_test: ''
 
 ---
