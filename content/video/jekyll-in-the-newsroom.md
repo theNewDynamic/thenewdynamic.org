@@ -11,6 +11,7 @@ description: 'It’s all about Jekyll and journalism: Find out how ProPublica us
 tool:
 - tool/grunt.md
 - tool/jekyll.md
-related_content: []
+related_content:
+- article/2017-02-18-jekyll-in-the-newsroom.md
 
 ---
