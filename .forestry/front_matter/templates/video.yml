@@ -11,6 +11,19 @@ fields:
 - type: textarea
   name: description
   label: Description
+- type: select
+  name: vendor
+  config:
+    source:
+      type: simple
+    options:
+    - YouTube
+    - Vimeo
+  label: Vendor
+- type: text
+  name: video_id
+  label: Video ID
+  description: e.g. KX4G49ZrvY0
 - type: list
   name: tool
   label: Related Tool
@@ -19,3 +32,10 @@ fields:
     source:
       type: pages
       section: tool
+- type: list
+  name: related_content
+  label: Related Event or Article
+  config:
+    use_select: true
+    source:
+      type: pages
