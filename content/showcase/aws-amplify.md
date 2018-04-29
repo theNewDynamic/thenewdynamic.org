@@ -3,13 +3,13 @@ title: AWS Amplify
 date: 2018-04-29 05:37:51 -0400
 related_tools:
 - 
-website: ''
-repo: ''
+website: https://aws.github.io/aws-amplify/
+repo: https://github.com/aws/aws-amplify
 creator:
-- name: 
+- name: AWS Labs
   role: Design/Development
-  url: 
-  twitter_username: 
+  url: https://github.com/awslabs
+  twitter_username: awscloud
 image_path: "/uploads/showcase/"
 images:
 - "/uploads/showcase/"
