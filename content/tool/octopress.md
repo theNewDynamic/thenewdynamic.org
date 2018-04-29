@@ -16,10 +16,10 @@ language: Ruby
 related_tools:
 - tool/jekyll.md
 description: A blogging framework for hackers
-
 tags: []
 resources: []
 cat_test: ''
+draft: true
 
 ---
 Octopress is an obsessively designed toolkit for writing and deploying Jekyll blogs.
