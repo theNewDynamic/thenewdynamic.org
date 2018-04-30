@@ -39,17 +39,3 @@ fields:
     use_select: true
     source:
       type: pages
-- type: field_group
-  name: apple
-  label: Apple
-  fields:
-  - type: text
-    name: title
-    label: Title
-  - type: textarea
-    name: description
-    label: Description
-    config:
-      wysiwyg: true
-      schema:
-        format: markdown
