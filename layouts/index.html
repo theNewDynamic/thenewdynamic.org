@@ -2,8 +2,6 @@
 
 {{ define "main" }}
   {{ $tools := where .Site.RegularPages "Section" "tool"}}
-  {{ $tools_top := $tools }}
-  {{ $tools_new := $tools }}
 
 
 <div class="page-list_default mt-16 center mx-auto">
@@ -46,7 +44,7 @@
       <div class="bg-grey-lighter mb-8 p-8">
         <h3>Top Tools</h3>
         <ul class="list-reset">
-          {{ range first 10 $tools_top }}
+          {{ range first 10 $tools.ByWeight }}
             <li class="mb-1">
               <a href="{{ .Permalink }}" class="no-underline dim text-black">
                 {{ .Title }}
@@ -59,7 +57,7 @@
       <div class="bg-grey-lighter p-8">
         <h3 class="mt-8">New Tools</h3>
         <ul class="list-reset">
-          {{ range first 10 $tools_top }}
+          {{ range first 10 $tools.ByDate.Reverse }}
             <li class="mb-1">
               <a href="{{ .Permalink }}" class="no-underline dim text-black">
                 {{ .Title }}
