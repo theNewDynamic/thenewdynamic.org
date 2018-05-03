@@ -8,6 +8,6 @@ tool:
 - tool/jekyll.md
 related_content: []
 related_tools: []
-
+draft: true
 ---
 Bud Parr introduces static site generators like Jekyll, and explains why people have become so excited about them recently. Learn why you should consider building your next site with these tools, covering, security, cost and other benefits, and review the ecosystem of tools.
