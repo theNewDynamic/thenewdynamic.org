@@ -8,46 +8,40 @@
 
 <div class="page-list_default mt-16 center mx-auto">
 
+  <div class="sm:grid lg:px-4 grid-columns-12 grid-gap-4">
 
-<div class="sm:grid lg:px-4 grid-columns-12 grid-gap-4">
-
-
-  <div class="col-span-9">
-    <div class="borderTK p-8 sm:grid grid-columns-12 grid-gap-4">
-      <div class="col-span-4">
-          <img src="/uploads/fast.svg" alt="" class="h-64 ">
+    <div class="col-span-9">
+      <div class="borderTK p-8 sm:grid grid-columns-12 grid-gap-4">
+        <div class="col-span-4">
+            <img src="/uploads/fast.svg" alt="" class="h-64 ">
+        </div>
+        <div class="col-span-8">
+          <p class="font-brand text-4xl lh-copy grey-dark mb-4 max-w-sm">
+            {{- .Site.Params.description -}}
+          </p>
+          {{ with .Content }}{{ . }}{{ end }}
+        </div>
       </div>
-      <div class="col-span-8">
-        <p class="font-brand text-4xl lh-copy grey-dark mb-4 max-w-sm">
-          {{- .Site.Params.description -}}
-        </p>
-        {{ with .Content }}{{ . }}{{ end }}
-      </div>
-    </div>
-    <div class="mt-8 grid-columns-2 grid-gap-4 sm:grid lg:grid-columns-3">
-
-
+      <div class="mt-8 grid-columns-2 grid-gap-4 sm:grid lg:grid-columns-3">
         {{ $featured := where (.Site.RegularPages) "Section" "showcase" }}
         {{ range first 1 ($featured) }}
           <div class="col-span-2">
             {{- partial "showcase/display-horizontal.html" . -}}
           </div>
         {{ end }}
-
-      {{ partial "articles-cards.html" (dict "limit" 4 "item" .) }}
-    </div>
-  </div>
-
-
-  <div class="rightt col-span-3">
-
-    <div class="bg-grey-lighter mb-8 p-8">
-      <h3>Join the Conversation</h3>
-      <div class="inline-block hidden lg:flex flex-wrap items-center">
-        {{ partial "_components/social-follow.html" (dict "cx" . "icon_size" "26px") }}
+        {{ partial "articles-cards.html" (dict "limit" 4 "item" .) }}
       </div>
     </div>
 
+
+    <div class="rightt col-span-3">
+
+      <div class="bg-grey-lighter mb-8 p-8">
+        <h3>Join the Conversation</h3>
+        <div class="inline-block hidden lg:flex flex-wrap items-center">
+          {{ partial "_components/social-follow.html" (dict "cx" . "icon_size" "26px") }}
+        </div>
+      </div>
 
       <div class="bg-grey-lighter mb-8 p-8">
         <h3>Top Tools</h3>
@@ -74,11 +68,37 @@
           {{ end }}
         </ul>
       </div>
-
-
+      </div>
   </div>
 
+  <div class="lg:px-4">
+    <div class="flex items-center mb-2">
+      <h2 class="inline-block text-4xl">
+        <a href="/video/" class="no-underline dim text-black">Video</a>
+      </h2>
+      <a href="/video/" class="ml-4 dim inline-block bg-grey-dark rounded px-2 py-1f no-underline text-xs text-grey-lighter">
+        see all
+      </a>
+    </div>
+
+    <div class="sm:grid grid-columns-4 grid-gap-4">
+      {{range first 4 (where .Site.RegularPages "Section" "video")}}
+        {{ $vendor := .Params.vendor }}
+        {{ $url := .URL }}
+        {{ $title := .Title }}
+        {{ with .Params.video_id }}
+          <div class="p-0">
+            {{ $.Scratch.Set "video_id" . }}
+            <a href="{{ $url }}" class="no-underline">
+              <img src="/images/placeholder.svg" data-src="{{ if eq $vendor "YouTube" }}http://img.youtube.com/vi/{{ . }}/hqdefault.jpg{{ else if eq $vendor "Vimeo" }}https://i.vimeocdn.com/video/{{ . }}_640.jpg{{ end }}" alt="" class="lazyload max-w-full">
+            </a>
+            <h3 class="text-base">{{ $title }}</h3>
+          </div>
+        {{ end }}
+      {{ end }}
+    </div>
+  </div>
 
 </div>
-</div>
+
 {{ end }}
