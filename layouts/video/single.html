@@ -1,0 +1,41 @@
+{{ define "main" }}
+  <article class="page-single_default mx-auto min-h-screen">
+      {{ with .Params.related_tools }}
+        <aside class="related_tools flex flex-wrap mb-8 md:text-xl">
+          {{ range . }}{{ $link := index (where (where $.Site.Pages ".Section" "tool") ".File.Path" "in" .) 0 }}
+            {{ partial "_components/tags" $link }}
+          {{ end }}
+        </aside>
+      {{ end }}
+
+      {{/* {{- partial "_components/image-picture-element.html" . -}} */}}
+
+      <iframe id="existing-iframe-example"
+        width="640" height="360"
+        src="https://www.youtube.com/embed/{{.Params.video_id}}?enablejsapi=1"
+        frameborder="0"
+        style="border: solid 4px #37474F"
+        ></iframe>
+
+    <section class="text-xl my-16 leading-normal text-grey-darker">
+      {{ .Content }}
+    </section>
+    {{ partial "prev-next-in-section-icon.html" . }}
+  </article>
+
+
+  <script type="text/javascript">
+  var player;
+  function onYouTubeIframeAPIReady() {
+  player = new YT.Player('player', {
+    height: '390',
+    width: '640',
+    videoId: '{{ $.Scratch.Get "video_id" }}',
+    events: {
+      'onReady': onPlayerReady,
+      'onStateChange': onPlayerStateChange
+    }
+  });
+  }
+  </script>
+{{ end }}
