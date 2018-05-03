@@ -7,10 +7,13 @@ fields:
 - type: text
   name: title
   label: Title
-- type: boolean
-  name: featured
-  label: Featured
-  hidden: true
+- type: number
+  name: weight
+  label: weight
+  config:
+    step: '1'
+    max: '100'
+    min: '0'
 - type: textarea
   name: description
   label: Description
