@@ -9,14 +9,12 @@
       {{ end }}
 
       {{/* {{- partial "_components/image-picture-element.html" . -}} */}}
-
-      <iframe id="existing-iframe-example"
-        width="640" height="360"
+      <div class="aspect-ratio-16/9 w-full relative">
+        <iframe id="existing-iframe-example" class="absolute w-full h-full pin"
         src="https://www.youtube.com/embed/{{.Params.video_id}}?enablejsapi=1"
         frameborder="0"
-        style="border: solid 4px #37474F"
         ></iframe>
-
+      </div>
     <section class="text-xl my-16 leading-normal text-grey-darker">
       {{ .Content }}
     </section>

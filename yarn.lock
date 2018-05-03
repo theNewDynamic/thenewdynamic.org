@@ -5740,6 +5740,10 @@ symbol-observable@^0.2.2:
   version "0.2.4"
   resolved "https://registry.yarnpkg.com/symbol-observable/-/symbol-observable-0.2.4.tgz#95a83db26186d6af7e7a18dbd9760a2f86d08f40"
 
+tailwindcss-aspect-ratio@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/tailwindcss-aspect-ratio/-/tailwindcss-aspect-ratio-1.0.0.tgz#c2e6340193424397b60f08377cdede7856fc85c7"
+
 tailwindcss-flexbox-order@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/tailwindcss-flexbox-order/-/tailwindcss-flexbox-order-0.2.0.tgz#51ff6a46c81280c2c6561f6261fb443f4ab5893d"
