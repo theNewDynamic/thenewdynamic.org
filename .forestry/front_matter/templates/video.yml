@@ -26,7 +26,7 @@ fields:
   label: Video ID
   description: e.g. KX4G49ZrvY0
 - type: list
-  name: tool
+  name: related_tools
   label: Related Tool
   config:
     use_select: true
