@@ -40,3 +40,10 @@ fields:
     use_select: true
     source:
       type: pages
+- type: number
+  name: weight
+  label: Weight
+  config:
+    min: '0'
+    max: '100'
+    step: '1'
