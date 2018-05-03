@@ -1,8 +1,7 @@
 ---
 title: 'Roundtable discussion: Kleiner, Mathews, Escalante'
 date: 2017-04-06 13:00:17 -0400
-description: Dmytri Kleiner, Jeff Escalante, Kyle Mathews disccuss the painpoints
-  on working with Static Websites.
+description: Dmytri Kleiner, Jeff Escalante, Kyle Mathews
 vendor: YouTube
 video_id: ZbprnWe-FvM
 tool:
@@ -12,3 +11,4 @@ tool:
 related_content: []
 
 ---
+Dmytri Kleiner, Jeff Escalante, Kyle Mathews disccuss the painpoints on working with Static Websites.
