@@ -7,6 +7,10 @@ fields:
 - type: text
   name: title
   label: Title
+- type: boolean
+  name: featured
+  label: Featured
+  hidden: true
 - type: textarea
   name: description
   label: Description
