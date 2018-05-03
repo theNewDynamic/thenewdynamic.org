@@ -34,8 +34,8 @@ license: Open Source
 headless-cms: ''
 related_tools: []
 tags: []
-
 cat_test: ''
+weight: 1
 
 ---
 Jekyll is the most popular static site generator, and among the oldest. It enjoys an avid community and a dedicated core team.
