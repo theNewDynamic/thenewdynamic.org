@@ -5,7 +5,7 @@ vendor: YouTube
 video_id: 4xu7c5UVPvY
 description: Phil Hawksworth explains the pros of automated workflows and statically
   generated websites like no one else.
-tool: []
+related_tools: []
 related_content: []
 
 ---

@@ -9,7 +9,7 @@ This talk will look at ways to design a developer experience which then enables 
 We’ll talk about the benefits in keeping your stack simple, in using the expertise of others, and we’ll examine some performance and security benefits of the JAMstack and microservices."
 vendor: Vimeo
 video_id: 254678463
-tool:
+related_tools:
 related_content: []
 draft: true
 ---

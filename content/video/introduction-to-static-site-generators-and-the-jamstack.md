@@ -7,7 +7,7 @@ description: 'Bud Parr introduces static site generators like Jekyll, and explai
   and review the ecosystem of tools. '
 vendor: YouTube
 video_id: Gy8mhRwlt8
-tool:
+related_tools:
 - tool/jekyll.md
 related_content: []
 

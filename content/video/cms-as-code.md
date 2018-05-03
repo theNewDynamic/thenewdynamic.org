@@ -3,7 +3,7 @@ title: CMS as Code
 date: 2017-04-06 13:05:44 -0400
 vendor: YouTube
 video_id: vQtu1uC8FaY
-tool:
+related_tools:
 - tool/contentful.md
 related_content:
 - article/2017-03-09-cms-as-code-roundtable-discussion.md

@@ -7,7 +7,7 @@ description: 'Kyle Matthews is a tech entrepreneur based in San Francisco, CA. H
   tooling and client-side capabilities of React.js. '
 vendor: YouTube
 video_id: hbjR5N6IhDU
-tool:
+related_tools:
 - tool/gatsby.md
 related_content: []
 

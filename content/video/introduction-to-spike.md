@@ -5,7 +5,7 @@ vendor: YouTube
 video_id: JtgTa4ACPT8
 description: Jeff Escalante introduces Spike, a static site generator  build on top
   of Webpack
-tool:
+related_tools:
 - tool/webpack.md
 - tool/spike.md
 related_content: []

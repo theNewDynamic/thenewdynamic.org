@@ -8,7 +8,7 @@ description: Chris Macrae breaks down the differences between the two different 
   is better suited for these jobs.
 vendor: YouTube
 video_id: KX4G49ZrvY0
-tool:
+related_tools:
 - tool/contentful.md
 - tool/forestry.md
 related_content: []

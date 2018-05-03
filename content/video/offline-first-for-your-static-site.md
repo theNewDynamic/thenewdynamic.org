@@ -4,7 +4,7 @@ date: 2017-01-26 12:44:42 -0500
 description: Jeff Posnick
 vendor: YouTube
 video_id: _kJMjJ1tm6o
-tool:
+related_tools:
 - tool/jekyll.md
 related_content: []
 

@@ -7,7 +7,7 @@ description: Matt Biilmann, Netlify CEO explains how the emergence of Git center
   have changed the way most front-end developers work. Then Matt tells how Smashing
   Magazine moved to the JAMstack.
 video_id: uWTMEDEPw8c
-tool:
+related_tools:
 - tool/hugo.md
 - tool/netlify-cms.md
 - tool/netlify.md

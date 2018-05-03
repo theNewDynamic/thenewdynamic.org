@@ -8,7 +8,7 @@ description: 'It’s all about Jekyll and journalism: Find out how ProPublica us
   a network of over 1,000 journalists cover Election Day in real time (on the site
   "Electionland"), to telling the sordid tale of how a U.S. company helped aid a notorious
   warlord—and everything in between. '
-tool:
+related_tools:
 - tool/grunt.md
 - tool/jekyll.md
 related_content:

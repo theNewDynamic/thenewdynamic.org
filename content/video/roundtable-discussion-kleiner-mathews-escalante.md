@@ -5,7 +5,7 @@ description: Dmytri Kleiner, Jeff Escalante, Kyle Mathews disccuss the painpoint
   on working with Static Websites.
 vendor: YouTube
 video_id: ZbprnWe-FvM
-tool:
+related_tools:
 - tool/contentful.md
 - tool/spike.md
 - tool/gatsby.md

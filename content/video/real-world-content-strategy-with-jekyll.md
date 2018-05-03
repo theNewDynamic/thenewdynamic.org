@@ -5,7 +5,7 @@ description: Bud Parr focuses in this talk on freely modeling your content with 
   help of YAML, JSON and Markdown
 vendor: YouTube
 video_id: A1nTuNjoNbg
-tool:
+related_tools:
 - tool/jekyll.md
 related_content:
 - article/2016-02-04-JekyllConf-The-free-online-global-conference-for-all-things-Jekyll.md
