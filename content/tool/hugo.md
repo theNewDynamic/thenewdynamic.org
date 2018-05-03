@@ -29,6 +29,7 @@ headless-cms: ''
 related_tools: []
 tags: []
 language: Go
+weight: 2
 
 ---
 Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again.
