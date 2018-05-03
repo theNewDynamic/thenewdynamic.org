@@ -20,8 +20,8 @@ tags: []
 resources:
 - name: Gatsby Manor Themes
   url: https://www.gatsbymanor.com/
-
 cat_test: ''
+weight: 3
 
 ---
 Transform plain text into dynamic blogs and websites using the latest web technologies. A React.js static site generator.
