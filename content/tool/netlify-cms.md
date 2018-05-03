@@ -23,6 +23,8 @@ resources: []
 license: Open Source
 language: React
 cat_test: ''
+weight: 7
+
 ---
 A CMS for static site generators. Give non-technical users a simple way to edit and add content to any site built with a static site generator.
 
