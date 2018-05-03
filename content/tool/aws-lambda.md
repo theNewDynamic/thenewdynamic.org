@@ -12,10 +12,11 @@ urls:
 description: Run code without thinking about servers
 related_tools:
 - tool/netlify.md
-
 tags: []
 resources: []
 cat_test: ''
+weight: 9
+language: ''
 
 ---
 Like Google Cloud functions, AWS Lambda allows you to run your code in the cloud and only charge you when your code is running. Your can run 1M requests per month on the free tier.
