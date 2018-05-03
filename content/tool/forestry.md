@@ -19,6 +19,9 @@ urls:
 description: Sync your Jekyll or Hugo site. Your editors will love it and won’t realize
   they’re making commits.
 resources: []
+weight: 7
+license: ''
+language: ''
 
 ---
 A simple CMS for Jekyll and Hugo sites.
