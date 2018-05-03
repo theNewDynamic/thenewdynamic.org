@@ -118,9 +118,3 @@ fields:
       type: pages
       section: tools
   label: Cat Test
-- type: number
-  name: weight
-  label: Weight
-  config:
-    max: '100'
-    step: '1'
