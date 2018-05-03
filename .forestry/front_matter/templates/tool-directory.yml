@@ -92,3 +92,10 @@ fields:
     label: URL
   config:
     labelField: name
+- type: number
+  name: weight
+  label: Weight
+  description: Used order top tools
+  config:
+    max: '100'
+    step: '1'
