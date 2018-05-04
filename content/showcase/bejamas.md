@@ -2,6 +2,8 @@
 title: Bejamas
 date: 2018-04-27 19:00:25 -0400
 related_tools:
+- tool/firebase-hosting.md
+- tool/contentful.md
 - tool/gatsby.md
 website: https://bejamas.io/
 repo: ''
