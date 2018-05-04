@@ -26,6 +26,7 @@ h5 {
 h6 {
   @apply text-xs;
 }
+
 /*
 .text-xs	font-size: .75rem;
 .text-sm	font-size: .875rem;
@@ -37,7 +38,18 @@ h6 {
 .text-4xl	font-size: 2.25rem;
 .text-5xl	font-size: 3rem;
 */
-
+p {
+  margin-bottom: 1.5rem;
+}
+.nested ul {
+  @apply mb-32;
+}
+.nested li {
+  @apply mb-2 text-grey-darkest;
+}
+.page-description {
+  @apply text-xl mb-8 text-grey-darkest;
+}
 
 .nice-outline {
   outline:none;
