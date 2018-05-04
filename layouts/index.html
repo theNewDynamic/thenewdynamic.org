@@ -2,75 +2,90 @@
 
 {{ define "main" }}
   {{ $tools := where .Site.RegularPages "Section" "tool"}}
-
-
-<div class="page-list_default mt-16 center mx-auto">
-
-  <div class="sm:grid lg:px-4 grid-columns-12 grid-gap-4">
-
-    <div class="col-span-9">
-      <div class="borderTK p-8 sm:grid grid-columns-12 grid-gap-4">
-        <div class="col-span-4">
-            <img src="/uploads/fast.svg" alt="" class="h-64 ">
+  <div class="lg:mt-16">
+    {{/* TOP SECTION */}}
+    <div class="page-list_default center mx-auto lg:grid grid-columns-12 grid-gap-4">
+      <div class="col-span-9">
+        <div class="borderTK p-8 sm:grid grid-columns-12 grid-gap-4">
+          <div class="col-span-4">
+            <img src="/uploads/fast.svg" alt="" class="h-64">
+          </div>
+          <div class="col-span-8">
+            <p class="font-brand text-4xl lh-copy grey-dark mb-4 max-w-sm">
+              {{- .Site.Params.description -}}
+            </p>
+            {{ with .Content }}{{ . }}{{ end }}
+          </div>
         </div>
-        <div class="col-span-8">
-          <p class="font-brand text-4xl lh-copy grey-dark mb-4 max-w-sm">
-            {{- .Site.Params.description -}}
-          </p>
-          {{ with .Content }}{{ . }}{{ end }}
+        <div class="lg:mt-8 grid-columns-2 grid-gap-4 sm:grid lg:grid-columns-3">
+          {{ $featured := where (.Site.RegularPages) "Section" "showcase" }}
+          {{ range first 1 ($featured) }}
+            <div class="col-span-2">
+              {{- partial "showcase/display-horizontal.html" . -}}
+            </div>
+          {{ end }}
+          {{ partial "articles-cards.html" (dict "limit" 4 "item" .) }}
         </div>
       </div>
-      <div class="mt-8 grid-columns-2 grid-gap-4 sm:grid lg:grid-columns-3">
-        {{ $featured := where (.Site.RegularPages) "Section" "showcase" }}
-        {{ range first 1 ($featured) }}
-          <div class="col-span-2">
-            {{- partial "showcase/display-horizontal.html" . -}}
+
+      {{/* RIGHT TOP COLUMN */}}
+      <div class="rightt col-span-3">
+        <div class="bg-grey-lighter mt-8 lg:mt-0 mb-8 py-4 px-8">
+          <h3>Join the Conversation</h3>
+          <div class="inline-block hidden flex flex-wrap items-center">
+            {{ partial "_components/social-follow.html" (dict "cx" . "icon_size" "26px") }}
           </div>
-        {{ end }}
-        {{ partial "articles-cards.html" (dict "limit" 4 "item" .) }}
+        </div>
+
+      <div class="grid lg:block grid-columns-2 grid-gap-4">
+        <div class="bg-grey-lighter mb-8 px-8 py-4">
+          <h3>New Tools</h3>
+          <ul class="list-reset">
+            {{ range first 10 $tools.ByDate.Reverse }}
+              <li class="mb-1">
+                <a href="{{ .Permalink }}" class="no-underline dim text-black">
+                  {{ .Title }}
+                </a>
+              </li>
+            {{ end }}
+          </ul>
+        </div>
+
+        <div class="bg-grey-lighter px-8 py-4">
+          <h3>Top Tools</h3>
+          <ul class="list-reset">
+            {{ range first 10 $tools.ByWeight }}
+              <li class="mb-1">
+                <a href="{{ .Permalink }}" class="no-underline dim text-black">
+                  {{ .Title }}
+                </a>
+              </li>
+            {{ end }}
+          </ul>
+        </div>
       </div>
     </div>
-
-
-    <div class="rightt col-span-3">
-
-      <div class="bg-grey-lighter mb-8 py-4 px-8">
-        <h3>Join the Conversation</h3>
-        <div class="inline-block hidden lg:flex flex-wrap items-center">
-          {{ partial "_components/social-follow.html" (dict "cx" . "icon_size" "26px") }}
-        </div>
-      </div>
-
-      <div class="bg-grey-lighter mb-8 px-8 py-4">
-        <h3>New Tools</h3>
-        <ul class="list-reset">
-          {{ range first 10 $tools.ByDate.Reverse }}
-            <li class="mb-1">
-              <a href="{{ .Permalink }}" class="no-underline dim text-black">
-                {{ .Title }}
-              </a>
-            </li>
-          {{ end }}
-        </ul>
-      </div>
-
-      <div class="bg-grey-lighter px-8 py-4">
-        <h3>Top Tools</h3>
-        <ul class="list-reset">
-          {{ range first 10 $tools.ByWeight }}
-            <li class="mb-1">
-              <a href="{{ .Permalink }}" class="no-underline dim text-black">
-                {{ .Title }}
-              </a>
-            </li>
-          {{ end }}
-        </ul>
-
-      </div>
-      </div>
   </div>
 
-  <div class="lg:px-4 mt-8">
+
+  <div class="w-full py-16 px-4 sm:px-8 bg-grey-lighter">
+    <h2 class="inline-block text-4xl">
+      Get our Newsletter</h2>
+      <p>Once a week we update you with the latest in #JAMstack</p>
+      <div class="lg:py-16">
+        <form class="lg:w-1/2 max-w-md mx-auto" action="http://newsletter.thenewdynamic.org/add_subscriber" method="post" id="revue-form" name="revue-form"  target="_blank">
+          <div class="flex items-center border-b border-b-2 border-grey py-2">
+            <input class="appearance-none bg-transparent border-none w-full text-grey-darker mr-3 py-1 px-2 text-3xl" type="email" placeholder="Your Email" aria-label="email" name="member[email]">
+            <button class="flex-no-shrink bg-primary-color hover:bg-primary-color-dark border-primary-color hover:border-primary-color-dark text-sm border-4 text-white py-1 px-2 rounded" type="submit" name="member[subscribe]">
+            Sign Up
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  {{/* VIDEO ROW */}}
+  <div class="page-list_default center mx-auto  mt-8">
     <div class="flex items-center mb-2">
       <h2 class="inline-block text-4xl">
         <a href="/video/" class="no-underline dim text-black">Video</a>
@@ -79,25 +94,23 @@
         see all
       </a>
     </div>
-
-    <div class="sm:grid grid-columns-4 grid-gap-4">
+    <div class="sm:grid sm:grid-columns-2 lg:grid-columns-4 grid-gap-4">
       {{range first 4 (where .Site.RegularPages "Section" "video")}}
         {{ $vendor := .Params.vendor }}
         {{ $url := .URL }}
         {{ $title := .Title }}
         {{ with .Params.video_id }}
           <div class="p-0">
-            {{ $.Scratch.Set "video_id" . }}
             <a href="{{ $url }}" class="no-underline">
               <img src="/images/placeholder.svg" data-src="{{ if eq $vendor "YouTube" }}http://img.youtube.com/vi/{{ . }}/hqdefault.jpg{{ else if eq $vendor "Vimeo" }}https://i.vimeocdn.com/video/{{ . }}_640.jpg{{ end }}" alt="" class="lazyload max-w-full">
             </a>
-            <h3 class="text-base">{{ $title }}</h3>
+            <h3 class="text-base">
+              {{- $title -}}
+            </h3>
           </div>
         {{ end }}
       {{ end }}
+      </div>
     </div>
   </div>
-
-</div>
-
 {{ end }}
