@@ -9,8 +9,9 @@ urls:
   other: ''
 description: Run serverless tasks for free
 tools:
-- helper
-related_tools: []
+- interaction-back-end
+related_tools:
+- tool/aws-lambda.md
 tags: []
 resources: []
 cat_test: ''
