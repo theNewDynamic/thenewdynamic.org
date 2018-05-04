@@ -5,7 +5,7 @@ author: Frank Taillandier
 description: As Hugo is getting more and more popular and fast, we ask a few questions
   to Bjørn Erik Pedersen, the current lead developer, about the past, present and
   future of Hugo.
-images: 
+images:
   - "/uploads/articles/hugo-bjorn-erik-pedersen.jpg"
 permalink: "/article/interview-hugo-lead-developer/"
 related_tools:
@@ -46,9 +46,10 @@ Performance bottlenecks show up in the most surprising places, so you have to be
 
 Some nice sites I know about are [labs.usa.gov](https://labs.usa.gov/), [netlify.com](https://www.netlify.com), [cdnplanet.com](https://www.cdnplanet.com/), [support.balsamiq.com](https://support.balsamiq.com/) [crossref.org](https://www.crossref.org/), [1password.com](https://1password.com/), [borisfx.com](http://borisfx.com/), [Urban Airship documentation](https://docs.urbanairship.com/).
 
-And there are more coming. For one, [Smashing Magazine](https://www.smashingmagazine.com) has announced that they are working on a [redesign built on Hugo](https://next.smashingmagazine.com).
+And there are more coming. For one, [Smashing Magazine](https://www.smashingmagazine.com) has announced that they are working on a [redesign built on Hugo](https://www.smashingmagazine.com).
 
-[![Showcase: Samashing Magazine](/uploads/screenshot-smashing-mag-hugo.jpg)](/showcase/smashing-magazine/)
+[![Showcase: Samashing Magazine](/uploads/showcase-smashing-mag-hugo.jpg)](/showcase/smashing-magazine/)
+
 
 ## What's the current status of the project?
 
