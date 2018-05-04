@@ -8,7 +8,7 @@ related_tools:
 - tool/zeit.md
 - tool/nuxtjs.md
 urls:
-  website: ''
+  website: https://nextjs.org/
   github: https://github.com/zeit/next.js
   twitter: ''
   other: ''
@@ -21,6 +21,7 @@ language: React
 tags:
 - SSR
 cat_test: ''
+weight: ''
 
 ---
 Next.js is a minimalistic framework for server-rendered React applications, which supports exporting as a standalone static app without any Node.js server. The export app supports almost every feature of Next.js including dynamic urls, prefetching, preloading and dynamic imports.
