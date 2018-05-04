@@ -6,7 +6,7 @@ link: ''
 description: 'We started a Slack a while back. We''ll be posting interesting bits,
   jobs, resources, and open to discussing all things #JAMstack/static sites and front-end
   development.'
-
+draft: true
 ---
 We started a Slack a while back. We'll be posting interesting bits, jobs, resources, and open to discussing all things #JAMstack/static sites and front-end development.
 

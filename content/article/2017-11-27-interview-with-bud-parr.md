@@ -4,7 +4,7 @@ date: 2017-11-27 08:45:36 +0100
 author: Frank Taillandier
 description: Bud Parr, founder of TheNewDynamic, shares his vision on the current
   state of the JAMstack ecosystem.
-image: https://github.com/budparr.png
+images: ["https://github.com/budparr.png"]
 permalink: "/article/interview-bud-parr/"
 
 ---
@@ -15,7 +15,6 @@ JAMstack ecosystem. Bud also organizes [JAMstack NYC
 meetups](http://www.meetup.com/the-new-dynamic/). and redesigned [Hugo
 website](https://gohugo.io/). Bud kindly accepted to answer some questions.
 
-![Bud Parr](https://github.com/budparr.png)
 
 ## Hi Bud, you've been an advocate and an observer for what is sometimes still simply referred as static sites. How did the landscape evolve since the early days?
 

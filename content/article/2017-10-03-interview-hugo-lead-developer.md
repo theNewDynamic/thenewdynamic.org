@@ -5,7 +5,8 @@ author: Frank Taillandier
 description: As Hugo is getting more and more popular and fast, we ask a few questions
   to Bjørn Erik Pedersen, the current lead developer, about the past, present and
   future of Hugo.
-image: "/uploads/articles/hugo-bjorn-erik-pedersen.jpg"
+images: 
+  - "/uploads/articles/hugo-bjorn-erik-pedersen.jpg"
 permalink: "/article/interview-hugo-lead-developer/"
 related_tools:
 - tool/hugo.md
@@ -16,7 +17,6 @@ link: ''
 
 Hugo comes also with handy features like partials, shortcodes, i18n, custom outputs (JSON, AMP, epub, Atom, etc.), nested sections and so on… And features and releases keep up coming at a good pace. Since v0.14, [Bjørn Erik Pedersen](https://github.com/bep) has taken the lead on development, we took the opportunity to ask him a few questions about this open source project.
 
-![Bjorn Erik Pedersen](/uploads/articles/hugo-bjorn-erik-pedersen.jpg)
 
 ## Hi Bjørn Erik, how did you become involved in Hugo?
 

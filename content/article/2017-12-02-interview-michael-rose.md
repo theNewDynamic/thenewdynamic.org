@@ -4,7 +4,8 @@ date: 2017-12-02 09:45:36 +0100
 author: Frank Taillandier
 description: Michael Rose, one of the most active webdesigner in the Jekyll community,
   shares his vision on static site generators.
-image: "/uploads/articles/michael-rose.jpg"
+images: 
+  - "/uploads/articles/michael-rose.jpg"
 permalink: "/article/interview-michael-rose/"
 related_tools:
 - tool/jekyll.md
@@ -19,7 +20,6 @@ Michael shares his experience and designer's point of view about working with
 static site generators like Jekyll, Gatsby or Hugo. No silver bullet, and still
 plenty of room for improvement if you ask him.
 
-![Michael Rose](/uploads/articles/michael-rose.jpg)
 
 ## Hi Michael, how would you introduce yourself?
 
@@ -33,9 +33,7 @@ spending time with my wife and twin girls.
 
 ## How did you come to adopt Jekyll as a publishing platform?
 
-Jekyll's use of [Liquid](https://shopify.github.io/liquid/) for building templates is what pulled me in. At the time
-I was building websites and blogs using Wordpress and had a hard time
-understanding what was going on "in the loop".
+Jekyll's use of [Liquid](https://shopify.github.io/liquid/) for building templates is what pulled me in. At the time I was building websites and blogs using Wordpress and had a hard time understanding what was going on "in the loop".
 
 For me Liquid is clear and easy to understand. Taking a set of HTML documents
 and peppering them with tags and if/then conditions just clicked.
