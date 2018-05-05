@@ -102,7 +102,7 @@
         {{ with .Params.video_id }}
           <div class="p-0">
             <a href="{{ $url }}" class="no-underline">
-              <img src="/images/placeholder.svg" data-src="{{ if eq $vendor "YouTube" }}http://img.youtube.com/vi/{{ . }}/hqdefault.jpg{{ else if eq $vendor "Vimeo" }}https://i.vimeocdn.com/video/{{ . }}_640.jpg{{ end }}" alt="" class="lazyload max-w-full">
+              <img src="/images/placeholder.svg" data-src="{{ if eq $vendor "YouTube" }}https://img.youtube.com/vi/{{ . }}/hqdefault.jpg{{ else if eq $vendor "Vimeo" }}https://i.vimeocdn.com/video/{{ . }}_640.jpg{{ end }}" alt="" class="lazyload max-w-full">
             </a>
             <h3 class="text-base">
               {{- $title -}}
