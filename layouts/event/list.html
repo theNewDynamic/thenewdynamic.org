@@ -1,0 +1,25 @@
+{{ define "main" }}
+  {{ $section := .Data.Pages.ByDate }}
+  {{ $events := where $section ".Date.Unix" "ge" now.Unix }}
+  {{ $events_past := where $section.Reverse ".Date.Unix" "<" now.Unix }}
+
+  <div class="center cf min-vh-100 mw7 pv5 ph3 ph4-ns">
+
+    {{ range $events }}
+      <article class="bg-accent-color-light mb4 pa4 relative w-100">
+        {{ .Render "view-item" }}
+      </article>
+    {{ end }}
+
+    <h1 class="">
+      Past Events
+    </h1>
+    {{ range $events_past }}
+      <article class="bg-accent-color-light mb4 pa4 relative w-100">
+        {{ .Render "view-item-shortened" }}
+      </article>
+    {{ end }}
+
+  </div>
+
+{{ end }}

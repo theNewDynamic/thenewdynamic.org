@@ -1,0 +1,25 @@
+---
+hide_body: true
+is_partial: false
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- type: textarea
+  name: description
+  label: Description
+- name: location
+  label: Location
+  type: text
+  hidden: false
+  default: ''
+- name: website
+  label: Website
+  type: text
+  hidden: false
+  default: ''
+- type: file
+  name: image
+  label: Image

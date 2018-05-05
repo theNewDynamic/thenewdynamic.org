@@ -1,0 +1,53 @@
+---
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: title
+  label: Title
+- type: datetime
+  name: date
+  label: Date
+- type: text
+  name: source
+  label: Source
+- type: text
+  name: link
+  label: Link
+- type: boolean
+  name: video
+  label: Video
+- type: select
+  name: content_type
+  config:
+    source:
+      type: simple
+    options:
+    - Tutorial
+    - Article
+    - Resource
+    - News
+    - Presentation
+  label: Type
+- type: select
+  name: category
+  config:
+    source:
+      type: simple
+    options:
+    - Video
+    - Essentials
+    - Performance
+  label: Category
+- type: list
+  name: related_tools
+  label: Related Tools
+  config:
+    use_select: true
+    source:
+      type: pages
+      section: tool
+- type: tag_list
+  name: keywords
+  label: Keywords
+  description: optional

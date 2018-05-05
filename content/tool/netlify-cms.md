@@ -1,0 +1,31 @@
+---
+title: Netlify CMS
+date: 2015-10-03 16:57:00 +0000
+posted_date: 2015-10-03 16:57:00 +0000
+featured: false
+slug: netlify-cms
+tools:
+- content-management
+- headless-cms-git-based
+tags: []
+urls:
+  website: https://www.netlifycms.org/
+  github: https://github.com/netlify/netlify-cms
+  twitter: https://twitter.com/NetlifyCMS
+  other: https://gitter.im/netlify/NetlifyCMS
+description: Open source content management for your Git workflow
+related_tools:
+- tool/gatsby.md
+- tool/phenomic.md
+- tool/hugo.md
+- tool/jekyll.md
+resources: []
+license: Open Source
+language: React
+cat_test: ''
+weight: 7
+
+---
+A CMS for static site generators. Give non-technical users a simple way to edit and add content to any site built with a static site generator.
+
+{{< youtube IbNvjNtL1Oo>}}

@@ -1,0 +1,19 @@
+/* Base - Variables: tailwind-config.js */
+@import "tailwindcss/preflight";
+@import "tailwindcss/components";
+
+
+/* Modules */
+@import "modules/_algolia-mods";
+@import "modules/_hugo-internal-templates";
+@import "modules/_hovers";
+@import "modules/_social-icons-inverse";
+@import "modules/_utilities";
+
+
+
+/* Site Specific */
+@import "site";
+
+
+@import "tailwindcss/utilities";

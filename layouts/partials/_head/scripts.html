@@ -1,0 +1,19 @@
+{{$js_path := $.Param "dev.js_path"}}
+{{with $js_path}}
+  {{range readDir .}}
+    <script src="{{replace $js_path "static/" "/"}}/{{.Name}}" defer></script>
+  {{end}}
+{{end}}
+{{/* data-turbolinks-track="reload" */}}
+
+<script type="text/javascript">
+var MTIProjectId='0279604d-1ddd-4c0d-b491-eff8ca0e76df';
+ (function() {
+        var mtiTracking = document.createElement('script');
+        mtiTracking.type='text/javascript';
+        mtiTracking.async='true';
+         mtiTracking.src='/mtiFontTrackingCode.js';
+        (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild( mtiTracking );
+   })();
+</script>
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js" ></script>

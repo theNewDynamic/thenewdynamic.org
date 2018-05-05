@@ -1,0 +1,64 @@
+---
+hide_body: false
+is_partial: false
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+  description: Use the resource name, e.g. example.com
+- type: datetime
+  name: date
+  label: Date
+- name: website
+  label: Website
+  type: text
+  hidden: false
+  default: 
+- name: repo
+  label: Repo
+  type: text
+  hidden: false
+  default: 
+- name: creator
+  label: Creator
+  type: field_group_list
+  fields:
+  - name: name
+    label: Name
+    type: text
+    hidden: false
+    default: ''
+  - name: role
+    label: Role
+    type: text
+    hidden: false
+    default: ''
+  - name: url
+    label: Url
+    type: text
+    hidden: false
+    default: ''
+  - name: twitter_username
+    label: Twitter username
+    type: text
+    hidden: false
+    default: ''
+  hidden: false
+  default:
+  - name: 
+    role: Design/Development
+    url: 
+    twitter_username: 
+- type: list
+  name: related_tools
+  label: Related Tools
+  config:
+    use_select: true
+    source:
+      type: pages
+      section: tool
+- type: image_gallery
+  name: images
+  label: Images

@@ -1,0 +1,24 @@
+---
+upload_path: "/static/uploads/"
+frontmatter_file_url_template: "/uploads/"
+body_file_url_template: "/uploads/"
+new_page_extension: md
+auto_deploy: false
+admin_path: admin
+webhook_url: 
+sections:
+  video:
+    default_front_matter_template: video
+  tool:
+    default_front_matter_template: tool-directory
+  article:
+    default_front_matter_template: article
+  tools:
+    default_front_matter_template: tools
+  showcase:
+    default_front_matter_template: showcase
+  link:
+    default_front_matter_template: link
+  event:
+    default_front_matter_template: event
+version: 0.38.1

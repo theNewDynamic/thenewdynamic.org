@@ -1,0 +1,43 @@
+
+
+html.no-js .js-only{
+  visibility: hidden;
+}
+html.js .js-only{
+  visibility: visible;
+}
+
+.clip {
+  position: fixed !important;
+  _position: absolute !important;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+
+.bg-inherit { background-color: inherit}
+.color-inherit { color: inherit}
+
+
+p a:link, p a:active, p a:visited {
+  /* This blue has a 4.77 contrast ratio on white 4.56 on near-white */
+    color: #1A76C1;
+}
+p a:hover {
+  color: #12283a;
+}
+
+.nested-paragraph p {
+  @apply .mb-4;
+}
+
+.nested-links a {
+  @apply text-blue;
+  transition: color .15s ease-in;
+}
+
+.nested-links a:hover,
+.nested-links a:focus {
+  @apply text-blue-light;
+  transition: color .15s ease-in;
+}

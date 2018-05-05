@@ -1,0 +1,70 @@
+---
+hide_body: false
+is_partial: false
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- type: datetime
+  name: date
+  label: Date
+- name: images
+  label: Images
+  type: text
+  hidden: false
+  default: 
+- name: description
+  label: Description
+  type: text
+  hidden: false
+  default: 
+- name: link
+  label: Link
+  type: text
+  hidden: false
+  default: 
+- name: show_time
+  label: Show time
+  type: boolean
+  hidden: false
+  default: true
+- name: venue
+  label: Venue
+  type: field_group
+  fields:
+  - name: address
+    label: Address
+    type: text
+    hidden: false
+    default: ''
+  - name: city
+    label: City
+    type: text
+    hidden: false
+    default: ''
+  - name: name
+    label: Name
+    type: text
+    hidden: false
+    default: ''
+  - name: state
+    label: State
+    type: text
+    hidden: false
+    default: ''
+  - name: zip
+    label: Zip
+    type: text
+    hidden: false
+    default: ''
+  hidden: false
+  default: 
+- type: select
+  name: meetup
+  config:
+    source:
+      type: pages
+      section: meetup
+  label: Meetup

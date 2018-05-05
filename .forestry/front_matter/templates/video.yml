@@ -1,0 +1,49 @@
+---
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: title
+  label: Title
+- type: datetime
+  name: date
+  label: Date
+- type: textarea
+  name: description
+  label: Description
+  description: Name of presenter, or very short intro
+- type: select
+  name: vendor
+  config:
+    source:
+      type: simple
+    options:
+    - YouTube
+    - Vimeo
+  label: Vendor
+- type: text
+  name: video_id
+  label: Video ID
+  description: e.g. KX4G49ZrvY0
+- type: list
+  name: related_tools
+  label: Related Tool
+  config:
+    use_select: true
+    source:
+      type: pages
+      section: tool
+- type: list
+  name: related_content
+  label: Related Event or Article
+  config:
+    use_select: true
+    source:
+      type: pages
+- type: number
+  name: weight
+  label: Weight
+  config:
+    min: '0'
+    max: '100'
+    step: '1'

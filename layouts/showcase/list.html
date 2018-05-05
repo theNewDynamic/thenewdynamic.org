@@ -1,0 +1,20 @@
+{{ define "main" }}
+
+  <article id="filter" class="page-list_default mx-auto">
+    {{- partial "_components/page-content.html" . -}}
+
+    {{ partial "showcase/filters.html" . }}
+
+    <section class="filteredlist content grid-columns-3 grid-gap-8 sm:grid lg:grid-columns-4">
+      {{ range (.Paginator 20).Pages }}
+      <dl class=" border-2 border-grey-lighter bg-white">
+        {{- .Render "summary" -}}
+      </dl>
+      {{ end }}
+    </section>
+
+    {{/* we will need listjs pagination here, not native.  */}}
+    {{/* {{ template "_internal/pagination.html" . }} */}}
+
+  </article>
+{{ end }}

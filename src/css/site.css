@@ -1,0 +1,78 @@
+body {
+  @apply .bg-grey-lightest
+}
+p {
+  @apply font-sans;
+}
+h1, h2, h3, h4, h5 {
+  @apply .font-brand;
+}
+
+h1 {
+  @apply text-4xl;
+}
+h2 {
+  @apply text-3xl;
+}
+h3 {
+  @apply text-2xl;
+}
+h4 {
+  @apply text-base;
+}
+h5 {
+  @apply text-sm;
+}
+h6 {
+  @apply text-xs;
+}
+
+/*
+.text-xs	font-size: .75rem;
+.text-sm	font-size: .875rem;
+.text-base	font-size: 1rem;
+.text-lg	font-size: 1.125rem;
+.text-xl	font-size: 1.25rem;
+.text-2xl	font-size: 1.5rem;
+.text-3xl	font-size: 1.875rem;
+.text-4xl	font-size: 2.25rem;
+.text-5xl	font-size: 3rem;
+*/
+p {
+  margin-bottom: 1.5rem;
+}
+.nested ul {
+  @apply mb-32;
+}
+.nested li {
+  @apply mb-2 text-grey-darkest;
+}
+.page-description {
+  @apply text-xl mb-8 text-grey-darkest;
+}
+
+.nice-outline {
+  outline:none;
+  text-decoration: underline;
+}
+
+.button_c {
+  @apply border border-grey-light text-sm inline-block mb-3 mr-3 px-3 py-2 rounded-sm;
+}
+
+.button_c:hover {
+  @apply bg-grey-darkest text-white
+}
+.list-item {
+  @apply .inline-block;
+}
+
+/*
+PAGES .
+*/
+.page-list_default {
+  @apply .max-w-5xl .px-8 .pt-4;
+}
+.page-single_default {
+  @apply .max-w-xl .px-4 .pt-6;
+}
