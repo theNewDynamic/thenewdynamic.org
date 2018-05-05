@@ -1,7 +1,0 @@
-/* SITE BY */
-Name: The New Dynamic, https://www.thenewdynamic.com
-
-/* TEAM */
-Role: Developer
-Name: Bud Parr
-Site: https://www.thenewdynamic.com/about/bud-parr
