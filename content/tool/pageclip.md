@@ -10,7 +10,7 @@ description: Pageclip is a simple way to save information from your website via 
   or front-end JavaScript. That is, you can save data from your website without a
   server—Pageclip is your server.
 tools:
-- interaction
+- interaction-front-end
 license: Commercial
 tags:
 - forms

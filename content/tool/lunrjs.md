@@ -5,7 +5,7 @@ posted_date: 2015-05-02 20:37:00 +0000
 featured: false
 slug: lunrjs
 tools:
-- interaction
+- interaction-front-end
 tags:
 - search
 urls:

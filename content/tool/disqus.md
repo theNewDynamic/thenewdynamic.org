@@ -2,7 +2,7 @@
 title: Disqus
 date: 2017-02-24 00:00:00 +0000
 tools:
-- interaction
+- interaction-front-end
 urls:
   website: https://disqus.com/
   github: ''

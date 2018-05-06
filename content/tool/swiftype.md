@@ -5,7 +5,7 @@ posted_date: 2015-05-16 22:54:00 +0000
 featured: false
 slug: swiftype
 tools:
-- interaction
+- interaction-front-end
 urls:
   website: https://swiftype.com/
   github: ''
@@ -23,7 +23,3 @@ cat_test: ''
 
 ---
 Add great search to any website
-
-
-
-

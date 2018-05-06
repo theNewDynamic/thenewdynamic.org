@@ -2,7 +2,7 @@
 title: Staticman
 date: 2016-08-09 00:00:00 +0000
 tools:
-- interaction
+- interaction-front-end
 urls:
   website: https://staticman.net
   github: https://github.com/eduardoboucas/staticman

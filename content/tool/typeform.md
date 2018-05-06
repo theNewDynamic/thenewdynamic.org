@@ -5,7 +5,7 @@ posted_date: 2015-11-12 04:04:00 +0000
 featured: false
 slug: typeform
 tools:
-- interaction
+- interaction-front-end
 urls:
   website: http://www.typeform.com/
   github: ''

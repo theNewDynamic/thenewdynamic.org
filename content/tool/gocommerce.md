@@ -2,7 +2,7 @@
 title: GoCommerce
 date: 2017-11-14 12:12:00 +0000
 tools:
-- interaction
+- interaction-back-end
 urls:
   website: https://www.gocommerceapi.org/
   github: https://github.com/netlify/gocommerce

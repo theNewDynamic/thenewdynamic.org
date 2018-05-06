@@ -2,7 +2,6 @@
 title: Cloudinary
 date: 2017-06-18 12:12:00 +0000
 tools:
-- interaction
 - interaction-back-end  
 urls:
   website: http://cloudinary.com/

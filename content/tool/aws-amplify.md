@@ -9,7 +9,6 @@ urls:
   other: ''
 license: Open Source
 tools:
-- interaction
 - interaction-back-end
 related_tools:
 - tool/aws-lambda.md
