@@ -9,7 +9,7 @@ images:
 - "/uploads/maxresdefault.jpg"
 
 ---
-We just launched the next iteration of the New Dynamic. There's much more to be done (side projects!), but the site has never been so ready to grow with burgeoning ecosystem of tools and methods that make up the #JAMstack.
+We just launched the next iteration of the New Dynamic. There's much more to be done (side projects!), but the site has never been so ready to grow with the burgeoning ecosystem of tools and methods that make up the #JAMstack.
 
 The core of the site is the directory of nearly 200 tools. We've been collecting links related to those tools for years; we now have over 600 links. We also have over 100 sites in our showcase to show a broad range of use-cases for what we think is the very best way to build websites.
 
