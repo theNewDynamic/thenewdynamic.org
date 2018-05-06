@@ -41,3 +41,6 @@ fields:
     label: Content
     config:
       wysiwyg: true
+- type: image_gallery
+  name: images
+  label: Images
