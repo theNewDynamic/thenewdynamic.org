@@ -41,31 +41,23 @@ weight = 2.0
 
 
 [[menu.tools]]
-identifier = "interaction"
-name = "Interaction"
-url = "/tools/interaction/"
+identifier = "interaction-backend"
+name = "Interaction: Back-end"
+url = "/tools/interaction-back-end/"
 weight = 3.0
 
 [[menu.tools]]
-parent = "interaction"
-identifier = "interaction-backend"
-name = "Back-end"
-url = "/tools/interaction-back-end/"
-weight = 1.0
-
-[[menu.tools]]
-parent = "interaction"
 identifier = "interaction-front-end"
-name = "Front-end"
+name = "Interaction: Front-end"
 url = "/tools/interaction-front-end/"
-weight = 2.0
+weight = 4.0
 
 
   [[menu.tools]]
   identifier = "hosting-deployment"
   name = "Hosting & Deployment"
   url = "/tools/hosting-deployment/"
-  weight = 4.0
+  weight = 5.0
 
 
 
@@ -82,7 +74,7 @@ weight = 2.0
   identifier = "helper"
   name = "Helper"
   url = "/tools/helper/"
-  weight = 5.0
+  weight = 6.0
 
 
   [[menu.main]]
