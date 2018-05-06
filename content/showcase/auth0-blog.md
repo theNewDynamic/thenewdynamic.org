@@ -2,9 +2,9 @@
 title: Auth0 Blog
 date: 2018-05-06 08:34:32 -0400
 related_tools:
-- 
-website: ''
-repo: ''
+- tool/jekyll.md
+website: https://auth0.com/blog/
+repo: https://github.com/auth0/blog
 creator:
 - name: 
   role: Design/Development
@@ -13,6 +13,5 @@ creator:
 image_path: "/uploads/showcase/"
 images:
 - "/uploads/showcase/"
-draft: true
 
 ---
