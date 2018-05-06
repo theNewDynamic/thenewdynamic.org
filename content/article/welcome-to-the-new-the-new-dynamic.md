@@ -5,7 +5,8 @@ description: We just launched the next iteration of the New Dynamic.
 link: ''
 tool: []
 custom: []
-draft: true
+images:
+- "/uploads/maxresdefault.jpg"
 
 ---
 We just launched the next iteration of the New Dynamic. There's much more to be done (side projects!), but the site has never been so ready to grow with burgeoning ecosystem of tools and methods that make up the #JAMstack.
