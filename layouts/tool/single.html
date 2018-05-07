@@ -131,7 +131,7 @@
               {{ $name := .name }}
               <li>
                 {{ with .url }}
-                  <a href="{{ . }}" class="block dim no-underline text-grey-darkest mb-1">{{ $name }} {{ partial "svg/link-external.svg" (dict "size" "12") }}</a>
+                  <a href="{{ . }}?{{ (querify "utm_source" $.Site.Params.utm_source "utm_medium" $.Site.Params.utm_medium "utm_campaign" $.Section ) | safeURL }}" class="block dim no-underline text-grey-darkest mb-1">{{ $name }} {{ partial "svg/link-external.svg" (dict "size" "12") }}</a>
                 {{ end }}
               </li>
             {{ end }}
@@ -143,7 +143,7 @@
           <ul class="list-reset text-grey-darker">
             {{range first 5 .}}
               <li class="mb-4 border bg-grey-lighter">
-                <a href="{{ with .Params.link }}{{ . }}{{ end }}" class="px-2 py-1 block hover:bg-grey-darkest hover:text-white no-underline text-grey-darker">{{.Title }}
+                <a href="{{ with .Params.link }}{{ . }}?{{ (querify "utm_source" $.Site.Params.utm_source "utm_medium" $.Site.Params.utm_medium "utm_campaign" $.Section ) | safeURL }}{{ end }}" class="px-2 py-1 block hover:bg-grey-darkest hover:text-white no-underline text-grey-darker">{{.Title }}
                 <div class="flex justify-between mt-2 text-xs">{{ with .Params.source }}by {{ . }} {{ end }} {{ partial "_components/time-short-format.html" (dict "context" . "show_time" false) }}</div>
                 </a>
               </li>
@@ -192,7 +192,7 @@
         <ul  class="filteredlist list-reset text-grey-darker lg:grid-columns-4 grid-gap-8 sm:grid">
           {{range  $related_links }}
             <li class="mb-4 border bg-grey-lighter">
-              <a href="{{ with .Params.link }}{{ . }}{{ end }}" class="px-2 py-1 block hover:bg-grey-darkest hover:text-white no-underline text-grey-darker title">{{.Title }}
+              <a href="{{ with .Params.link }}{{ . }}?{{ (querify "utm_source" $.Site.Params.utm_source "utm_medium" $.Site.Params.utm_medium "utm_campaign" $.Section ) | safeURL }}{{ end }}" class="px-2 py-1 block hover:bg-grey-darkest hover:text-white no-underline text-grey-darker title">{{.Title }}
               <div class="flex justify-between name mt-2 text-xs">{{ with .Params.source }}by {{ . }} {{ end }} {{ partial "_components/time-short-format.html" (dict "context" . "show_time" false) }}</div>
               </a>
             </li>
