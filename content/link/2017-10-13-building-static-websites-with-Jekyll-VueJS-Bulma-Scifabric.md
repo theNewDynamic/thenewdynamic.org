@@ -2,7 +2,7 @@
 title: Building static websites with Jekyll, VueJS & Bulma
 source: Daniel Lombraña, Scifabric
 date: 2017-10-13 18:08:00 +0000
-link: https://scifabric.com/blog/2017/10/13/jekyll-vuejs-bulma.html?
+link: https://scifabric.com/blog/2017/10/13/jekyll-vuejs-bulma.html
 content_type: Tutorial
 related_tools:
 - tool/jekyll.md
