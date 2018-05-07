@@ -52,4 +52,4 @@ Sign up Here: [https://www.meetup.com/The-New-Dynamic/events/236530076/](https:
 
 ---
 
-We have a weekly newsletter now. Subscribe for links to great articles, the latest showcase items and more: http://newsletter.thenewdynamic.org/
+We have a weekly newsletter now. Subscribe for links to great articles, the latest showcase items and more: https://www.getrevue.co/profile/thenewdynamic/
