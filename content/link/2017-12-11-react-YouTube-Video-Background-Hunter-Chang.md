@@ -2,7 +2,7 @@
 title: React YouTube Video Background
 source: Hunter Chang
 date: 2017-12-11 09:20:00 +0000
-link: https://hunterchang.com/react-youtube-background/?ref=stackshare
+link: https://hunterchang.com/react-youtube-background
 content_type: Tutorial
 related_tools:
 - tool/gatsby.md
