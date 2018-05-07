@@ -14,6 +14,5 @@ image_path: "/uploads/showcase/"
 images:
 - "/uploads/auth0-blog-jekyll.png"
 - "/uploads/showcase/"
-draft: true
 
 ---
