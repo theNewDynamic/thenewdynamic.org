@@ -31,4 +31,4 @@ The post scheduler is a serverless project that gives static site owners the abi
 
 It works with any static site setup (Jekyll, Hugo, Phenomic, Gatsby etc.)
 
-See blog post for more information: ["How to schedule posts for static site generators (Jekyll, Hugo, Phenomic etc.)"](https://serverless.com/blog/static-site-post-scheduler/?utm_content=bufferf4214&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)
+See blog post for more information: ["How to schedule posts for static site generators (Jekyll, Hugo, Phenomic etc.)"](https://serverless.com/blog/static-site-post-scheduler/)
