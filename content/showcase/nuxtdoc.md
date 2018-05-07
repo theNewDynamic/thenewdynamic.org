@@ -16,6 +16,7 @@ image_path: "/uploads/showcase/"
 images:
 - "/uploads/nuxtdoc-nuxt-storyblok.png"
 - "/uploads/showcase/"
+draft: true
 
 ---
 NuxtDoc is an easy to customize documentation setup. It's based on  NuxtJs to render content added in the headless CMS Storyblok and  deployed using Netlify. Combining those services allows you to easily  create and host fast, flexible and beautiful documentations.
