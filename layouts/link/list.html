@@ -19,7 +19,7 @@
     <tbody class="">
       {{ range  .Data.Pages.ByTitle }}
         <tr class="border-2 border-grey-lighter bg-white p-2">
-        {{with .Params.link}}<td><a href="{{.}}">link</a></td>{{end}}
+        {{with .Params.link}}<td><a href="{{.}}?{{ (querify "utm_source" $.Site.Params.utm_source "utm_medium" $.Site.Params.utm_medium "utm_campaign" $.Section ) | safeURL }}">link</a></td>{{end}}
           <td>{{- .Title -}}</td>
           {{with .Params.source}}<td>{{.}}</td>{{end}}
           {{with .Params.content_type}}<td>{{.}}</td>{{end}}
