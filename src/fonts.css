@@ -3,6 +3,7 @@
     src:url("Fonts/7db1f672-3a8f-4d19-9c49-7f61aed450b5.woff2") format("woff2");
     font-weight: 400;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face{
@@ -10,6 +11,7 @@
     src:url("Fonts/b17468ea-cf53-4635-984b-4d930a68ed4d.woff2") format("woff2");
     font-weight: 400;
     font-style: italic;
+    font-display: fallback;
 }
 
 @font-face{
@@ -17,16 +19,19 @@
     src:url("Fonts/4c04fb14-abdb-4f93-82bb-734d1b84307b.woff2") format("woff2");
     font-weight: 700;
     font-style: normal;
+    font-display: swap;
 }
 @font-face{
     font-family:"Avenir Next W00";
     src:url("Fonts/395aeb70-3407-45d6-91b3-3d9a114af9bd.woff2") format("woff2");
     font-weight: 700;
     font-style: italic;
+    font-display: fallback;
 }
 @font-face{
     font-family:"URW Franklin Gothic W01";
     src:url("Fonts/011200c5-40ca-4ab0-98e6-d675a122d5e0.woff2") format("woff2");
-font-weight: 700;
-font-style: normal;
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
 }
