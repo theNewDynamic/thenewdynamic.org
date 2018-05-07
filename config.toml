@@ -107,6 +107,8 @@ body_classes = "font-sans bg-near-white border-solid border-t-4 border-primary-c
 description = "Build Faster Better Websites with modern tools and techniques"
 logo = ""
 subtitle = "Build Faster Better Websites"
+utm_source = "thenewdynamic.org"
+utm_medium = "website"
 
   [params.dev]
   css_path = "static/assets/css"

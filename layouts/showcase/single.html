@@ -14,7 +14,7 @@
     <aside class="py-4 border-b text-base text-grey-darkest">
       <p class="mb-4">
         {{ with .Params.website -}}
-          <a href="{{ . }}" class="no-underline">
+          <a href="{{ . }}?{{ (querify "utm_source" $.Site.Params.utm_source "utm_medium" $.Site.Params.utm_medium "utm_campaign" $.Section ) | safeURL }}" class="no-underline">
             {{- partial "_components/link-clean.html" . -}}
             {{- partial "svg/link-external.svg" (dict "size" "12") -}}
           </a>
@@ -33,7 +33,7 @@
             {{ if .name }}
               by
               {{ if .url}}
-                <a href="{{ .url }}" class="no-underline">{{ .name }}</a>
+                <a href="{{ .url }}?{{ (querify "utm_source" $.Site.Params.utm_source "utm_medium" $.Site.Params.utm_medium "utm_campaign" $.Section) | safeURL }}" class="no-underline">{{ .name }}</a>
               {{ else }}
                 {{.name}}
               {{ end }}
