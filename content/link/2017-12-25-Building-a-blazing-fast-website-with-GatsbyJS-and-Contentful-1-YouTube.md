@@ -2,9 +2,9 @@
 title: 'Building a blazing fast website with GatsbyJS and Contentful #1 - YouTube'
 source: k garbaya
 date: 2017-12-25 08:21:00 +0000
-link: https://www.youtube.com/watch?v=Ek4o40w1tH4
+link: https://youtu.be/Ek4o40w1tH4
 content_type: Video
-video: https://www.youtube.com/watch?v=Ek4o40w1tH4
+video: https://youtu.be/Ek4o40w1tH4
 related_tools:
 - tool/gatsby.md
 

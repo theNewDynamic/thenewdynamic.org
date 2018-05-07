@@ -2,7 +2,7 @@
 title: 'GatsbyJS Tutorials #1 - Getting Started with Gatsby'
 source: LevelUp Tuts
 date: 2017-08-07 08:19:00 +0000
-link: https://www.youtube.com/watch?v=b2H7fWhQcdE
+link: https://youtu.be/b2H7fWhQcdE
 content_type: Tutorial
 related_tools:
 - tool/gatsby.md
