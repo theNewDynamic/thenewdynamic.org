@@ -6,7 +6,7 @@ editor_recommends: ''
 content_type: Tutorial
 slug: links/getting-started-with-jekyll-the-static-site-generator
 source: Travis Neilson
-link: https://www.youtube.com/watch?v=iWowJBRMtpc
+link: https://youtu.be/iWowJBRMtpc
 related_tools:
 - tool/jekyll.md
 

@@ -8,7 +8,7 @@ category: essentials
 content_type: Video/Presentation
 slug: links/comparing-static-site-engines
 source: Brian Rinaldi at SFHTML5
-link: https://www.youtube.com/watch?v=R-fJWOO1bjE
+link: https://youtu.be/R-fJWOO1bjE
 related_tools:
 - tool/jekyll.md
 - tool/metalsmith.md

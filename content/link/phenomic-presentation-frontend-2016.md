@@ -5,7 +5,7 @@ editor_recommends: true
 content_type: Presentation
 category: video
 source: Maxime Thirouin, AtTheFrontend 2016
-link: https://www.youtube.com/watch?v=WWPkj72Nn6s
+link: https://youtu.be/WWPkj72Nn6s
 related_tools:
 - tool/phenomic.md
 

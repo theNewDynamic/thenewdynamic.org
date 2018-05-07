@@ -6,8 +6,8 @@ editor_recommends: ''
 content_type: Video/Presentation
 slug: links/making-a-news-app-with-middleman
 source: Cindy Royal
-link: https://www.youtube.com/watch?v=KEWtdYm6hhY
-video: https://www.youtube.com/watch?v=KEWtdYm6hhY
+link: https://youtu.be/KEWtdYm6hhY
+video: https://youtu.be/KEWtdYm6hhY
 related_tools:
 - tool/middleman.md
 

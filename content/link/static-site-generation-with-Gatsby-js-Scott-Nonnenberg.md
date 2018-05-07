@@ -4,7 +4,7 @@ source: Scott Nonnenberg
 date: 2016-04-19 18:04:00 +0000
 link: https://blog.scottnonnenberg.com/static-site-generation-with-gatsby-js/
 content_type: Presentation
-video: https://www.youtube.com/watch?v=Wpkc8o1V_SU
+video: https://youtu.be/Wpkc8o1V_SU
 related_tools:
 - tool/gatsby.md
 
