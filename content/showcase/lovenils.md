@@ -1,18 +1,20 @@
 ---
-title: Lovenils
+title: Love, Nils
 date: 2018-05-08 05:34:40 -0400
 related_tools:
-- 
-website: ''
+- tool/webpack.md
+- tool/netlify.md
+- tool/prismic.md
+website: https://www.lovenils.org
 repo: ''
 creator:
-- name: 
+- name: Gridhaus
   role: Design/Development
-  url: 
+  url: https://www.gridhaus.com/
   twitter_username: 
 image_path: "/uploads/showcase/"
 images:
+- "/uploads/lovenils-prismic.jpg"
 - "/uploads/showcase/"
-draft: true
 
 ---
