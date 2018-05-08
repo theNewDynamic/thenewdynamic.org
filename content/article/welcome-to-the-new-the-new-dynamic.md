@@ -1,5 +1,5 @@
 ---
-title: Welcome to the new the New Dynamic
+title: Welcome to the New the New Dynamic
 date: 2018-05-05 23:47:09 -0400
 description: We just launched the next iteration of the New Dynamic.
 link: ''
