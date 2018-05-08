@@ -24,4 +24,4 @@ license: ''
 language: ''
 
 ---
-A simple CMS for Jekyll and Hugo sites.
+Forestry is a content manager for static sites that gives editors all of the tools they’re used to, including visual editing and drag and drop page building.
