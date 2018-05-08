@@ -14,6 +14,5 @@ image_path: "/uploads/showcase/"
 images:
 - "/uploads/wilto-makes-food-eleventy.jpg"
 - "/uploads/showcase/"
-draft: true
 
 ---
