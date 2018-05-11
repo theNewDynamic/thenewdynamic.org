@@ -1,10 +1,16 @@
-{{$js_path := $.Param "dev.js_path"}}
-{{with $js_path}}
-  {{range readDir .}}
-    <script src="{{replace $js_path "static/" "/"}}/{{.Name}}" defer></script>
-  {{end}}
-{{end}}
 {{/* data-turbolinks-track="reload" */}}
+
+{{ $script := .Site.Data.webpack_assets.app }}
+{{ with $script.js }}
+  <script src="{{ print . }}" defer></script>
+{{ end }}
+
+  {{ $script := .Site.Data.webpack_assets.algolia }}
+  {{ with $script.js }}
+    <script src="{{ print . }}" defer></script>
+  {{ end }}
+
+
 
 <script type="text/javascript">
 var MTIProjectId='0279604d-1ddd-4c0d-b491-eff8ca0e76df';
