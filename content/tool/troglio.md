@@ -22,4 +22,4 @@ weight: 100
 
 Write into Trello cards like if they were pages. Collaborate, use markdown, attach images, preview your work... publish!
 
-Troglio is a Trello Power-up.
+Troglio is a Trello Power-up
