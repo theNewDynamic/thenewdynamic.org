@@ -20,6 +20,6 @@ weight: 100
 ---
 \[ed: This is an early stage product\]
 
-Write into Trello cards like if they were pages. Collaborate, use markdown, attach images, preview your work... publish !
+Write into Trello cards like if they were pages. Collaborate, use markdown, attach images, preview your work... publish!
 
-Troglio is a Trello Power-up.
+Troglio is a Trello Power-up. credenza.
