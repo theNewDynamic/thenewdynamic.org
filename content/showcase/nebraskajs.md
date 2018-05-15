@@ -12,6 +12,7 @@ creator:
   twitter_username: zachleat
 image_path: "/uploads/showcase/"
 images:
+- "/uploads/nejsconf-eleventy.jpg"
 - "/uploads/showcase/"
 
 ---
