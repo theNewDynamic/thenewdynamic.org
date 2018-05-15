@@ -21,7 +21,7 @@ language: React
 tags:
 - SSR
 cat_test: ''
-weight: ''
+weight: 30
 
 ---
 Next.js is a minimalistic framework for server-rendered React applications, which supports exporting as a standalone static app without any Node.js server. The export app supports almost every feature of Next.js including dynamic urls, prefetching, preloading and dynamic imports.
