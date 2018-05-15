@@ -18,6 +18,7 @@ related_tools: []
 resources:
 - name: Starter repository for a blog web site
   url: https://github.com/11ty/eleventy-base-blog
+weight: 80
 
 ---
 Eleventy is a simple static site generator betting on JavaScript. Eleventy is designed with flexibility in mind and supports meny templating engines including the popular Liquid used by Jekyll.
