@@ -22,8 +22,9 @@ related_tools:
 - tool/zeit.md
 tags:
 - SSR
-
+data_model: ''
 cat_test: ''
+weight: 20
 
 ---
 Nuxt.js is a framework for creating Universal Vue.js Applications.

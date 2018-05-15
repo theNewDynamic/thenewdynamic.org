@@ -1,5 +1,6 @@
 ---
 pages:
+- tool/nuxtjs.md
 - tool/next.js.md
 hide_body: false
 is_partial: false
