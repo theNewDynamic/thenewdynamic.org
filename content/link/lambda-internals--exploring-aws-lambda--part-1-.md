@@ -1,6 +1,6 @@
 ---
 title: 'Lambda Internals: Exploring AWS Lambda (part 1)'
-date: 2018-05-19 11:59:27 -0400
+date: 2018-04-25 11:59:27 -0400
 source: Gal Bashan
 link: https://medium.com/epsagon/lambda-internals-exploring-aws-lambda-462f05f74076
 content_type: Tutorial
