@@ -9,7 +9,6 @@ related_tools:
 category: Essentials
 video: false
 keywords: []
-draft: true
 
 ---
 Serverless development is simply the best. Double click, upload your code and you are done, right? Most people are more than happy to leave it at that. If you are not most people, and up for some Lambda exploration, this article is just for you.
