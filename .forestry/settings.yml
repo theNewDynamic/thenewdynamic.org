@@ -1,7 +1,4 @@
 ---
-upload_path: "/static/uploads/"
-frontmatter_file_url_template: "/uploads/"
-body_file_url_template: "/uploads/"
 new_page_extension: md
 auto_deploy: false
 admin_path: admin
@@ -21,4 +18,9 @@ sections:
     default_front_matter_template: link
   event:
     default_front_matter_template: event
+upload_dir: static/uploads
+public_path: "/uploads"
+front_matter_path: "/uploads"
+use_front_matter_path: false
+file_template: ":filename:"
 version: 0.38.1

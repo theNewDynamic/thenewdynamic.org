@@ -1,7 +1,4 @@
 ---
-pages:
-- tool/nuxtjs.md
-- tool/next.js.md
 hide_body: false
 is_partial: false
 fields:
@@ -119,3 +116,6 @@ fields:
       type: pages
       section: tools
   label: Cat Test
+pages:
+- tool/next.js.md
+- tool/nuxtjs.md

@@ -1,6 +1,4 @@
 ---
-pages:
-- article/_index.md
 hide_body: false
 is_partial: false
 fields:
@@ -15,3 +13,5 @@ fields:
 - type: image_gallery
   name: images
   label: Images
+pages:
+- article/_index.md
