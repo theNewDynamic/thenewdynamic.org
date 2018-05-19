@@ -1,6 +1,22 @@
 ---
 title: Netlify Forms
 date: 2018-05-19 11:54:24 -0400
-draft: true
+description: Built-in form handling
+tools:
+- interaction-front-end
+license: Commercial
+related_tools:
+- tool/netlify.md
+tags:
+- forms
+urls:
+  website: https://www.netlify.com/docs/form-handling/
+  github: ''
+  twitter: ''
+  other: ''
+resources: []
+language: ''
+weight: ''
 
 ---
+Netlify comes with built-in form handling. Our build bots do it by parsing your HTML files directly at deploy time, so there’s no need for you to make an API call or include extra JavaScript on your site.
