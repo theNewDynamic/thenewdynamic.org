@@ -1,24 +1,23 @@
 ---
 title: AWS Lambda
-date: 2018-04-21 07:38:40 -0400
-license: Commercial
+date: 2017-05-18 11:57:44 -0400
+description: Run code without thinking about servers. Pay only for the compute time
+  you consume.
 tools:
-- hosting-deployment
+- interaction-back-end
+license: Commercial
 urls:
   website: https://aws.amazon.com/lambda/
   github: ''
   twitter: ''
   other: ''
-description: Run code without thinking about servers
-related_tools:
-- tool/netlify.md
-tags: []
-resources: []
-cat_test: ''
-weight: 9
+tags:
+- serverless
 language: ''
-
+related_tools: []
+resources: []
+weight: ''
 ---
-Like Google Cloud functions, AWS Lambda allows you to run your code in the cloud and only charge you when your code is running. Your can run 1M requests per month on the free tier.
+AWS Lambda lets you run code without provisioning or managing servers. You pay only for the compute time you consume - there is no charge when your code is not running.
 
-If you're hosted on Netlify, [Netlify functions](https://www.netlify.com/docs/functions/) allows you to easily add lambda functions that will run on AWS Lambda.
+With Lambda, you can run code for virtually any type of application or backend service - all with zero administration. Just upload your code and Lambda takes care of everything required to run and scale your code with high availability. You can set up your code to automatically trigger from other AWS services or call it directly from any web or mobile app.
