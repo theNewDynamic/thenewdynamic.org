@@ -7,7 +7,7 @@ content_type: Tutorial
 related_tools:
 - tool/aws-lambda.md
 video: false
-category: ''
+category: Essentials
 keywords: []
 
 ---
