@@ -13,7 +13,8 @@ license: Commercial
 related_tools:
 - tool/netlify.md
 language: ''
-tags: []
+tags:
+- serverless
 resources: []
 weight: ''
 
