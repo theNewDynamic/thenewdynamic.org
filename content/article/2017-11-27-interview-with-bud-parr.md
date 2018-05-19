@@ -1,12 +1,11 @@
 ---
 title: Interview with Bud Parr, JAMstack engineer, Content Strategist
-date: 2017-11-27 08:45:36 +0100
+date: 2017-09-27 08:45:36 +0100
 author: Frank Taillandier
 description: Bud Parr, founder of TheNewDynamic, shares his vision on the current
   state of the JAMstack ecosystem.
 images: ["https://github.com/budparr.png"]
 permalink: "/article/interview-bud-parr/"
-
 ---
 Bud is involved in the SSG landscape since quiet a few years now. He runs [his
 own agency](https://www.thenewdynamic.com/) and [this website you're currently
