@@ -9,11 +9,14 @@ urls:
   github: ''
   twitter: ''
   other: ''
-resources:
-- name: ''
-  url: ''
+resources: []
 description: Get the comfort of a headless CMS with all the features of a full blown
   CMS
 tags: []
+language: Java
+license: Open Source
+related_tools: []
+weight: ''
+
 ---
 Gentics Mesh is an open source API-first CMS, complete with multi‑language support, versioning and roles & permissions
