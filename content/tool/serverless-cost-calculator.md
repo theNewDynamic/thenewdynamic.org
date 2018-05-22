@@ -11,13 +11,14 @@ urls:
   twitter: https://twitter.com/sbarski
   other: ''
 license: ''
-
 language: ''
 related_tools:
 - tool/google-cloud-storage.md
-tags: []
+tags:
+- serverless
 resources: []
 cat_test: ''
+weight: ''
 
 ---
 Calculating cost for AWS Lambda, Azure Functions, Google Cloud Functions, and IBM OpenWhisk
