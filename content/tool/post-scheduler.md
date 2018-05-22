@@ -20,11 +20,12 @@ resources:
 description: Schedule posts & content updates for static websites (Jekyll, Hugo, Gatsby,
   Phenomic etc)
 license: ''
-
 language: ''
 related_tools: []
-tags: []
+tags:
+- serverless
 cat_test: ''
+weight: ''
 
 ---
 The post scheduler is a serverless project that gives static site owners the ability to schedule posts (or other site content).
