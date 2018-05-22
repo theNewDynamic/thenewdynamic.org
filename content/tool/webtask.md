@@ -12,7 +12,8 @@ tools:
 - interaction-back-end
 related_tools:
 - tool/aws-lambda.md
-tags: []
+tags:
+- serverless
 resources: []
 cat_test: ''
 weight: 10
