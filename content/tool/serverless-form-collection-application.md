@@ -1,6 +1,25 @@
 ---
 title: Serverless Form Collection Application
 date: 2018-05-22 12:25:15 -0400
-draft: true
+urls:
+  github: https://github.com/serverless/forms-service
+  website: ''
+  twitter: ''
+  other: ''
+description: |2-
+
+  Collect and manage form data with serverless tech.
+tools:
+- interaction-front-end
+license: Open Source
+related_tools:
+- tool/auth0.md
+- tool/netlify.md
+- tool/aws-lambda.md
+tags:
+- serverless
+language: ''
+resources: []
+weight: ''
 
 ---
