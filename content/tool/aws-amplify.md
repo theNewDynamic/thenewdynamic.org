@@ -15,8 +15,10 @@ related_tools:
 tags:
 - authentication
 - react
+- serverless
 language: ''
 resources: []
+weight: ''
 
 ---
 AWS Amplify provides a declarative and easy-to-use interface across different categories of cloud operations. AWS Amplify goes well with any JavaScript based frontend workflow, and React Native for mobile developers.
