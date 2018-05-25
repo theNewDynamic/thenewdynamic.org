@@ -2,17 +2,14 @@
 title: Gatsby, Inc.
 date: 2018-05-25 11:52:20 -0400
 related_tools:
-- 
-website: ''
+- tool/webpack.md
+- tool/gatsby.md
+website: https://www.gatsbyjs.com
 repo: ''
-creator:
-- name: 
-  role: Design/Development
-  url: 
-  twitter_username: 
+creator: []
 image_path: "/uploads/showcase/"
 images:
+- "/uploads/gatsbyjs-inc.jpg"
 - "/uploads/showcase/"
-draft: true
 
 ---
