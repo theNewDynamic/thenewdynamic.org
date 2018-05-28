@@ -1,7 +1,8 @@
 ---
 title: The Service Worker Cookbook
 date: 2018-05-28 18:02:07 -0400
-description: ''
+description: The Service Worker Cookbook is a collection of working, practical examples
+  of using service workers in modern web sites.
 tools:
 - helper
 license: Open Source
