@@ -62,3 +62,5 @@ fields:
 - type: image_gallery
   name: images
   label: Images
+pages:
+- about/airbnb-cereal.md

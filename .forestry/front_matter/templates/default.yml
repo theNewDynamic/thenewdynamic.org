@@ -15,5 +15,3 @@ fields:
   type: text
   hidden: false
   default: ''
-pages:
-- about/airbnb-cereal.md
