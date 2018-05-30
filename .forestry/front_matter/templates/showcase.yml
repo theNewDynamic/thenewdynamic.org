@@ -15,12 +15,12 @@ fields:
   label: Website
   type: text
   hidden: false
-  default: 
+  default:
 - name: repo
   label: Repo
   type: text
   hidden: false
-  default: 
+  default:
 - name: creator
   label: Creator
   type: field_group_list
@@ -47,10 +47,10 @@ fields:
     default: ''
   hidden: false
   default:
-  - name: 
+  - name:
     role: Design/Development
-    url: 
-    twitter_username: 
+    url:
+    twitter_username:
 - type: list
   name: related_tools
   label: Related Tools
@@ -62,5 +62,3 @@ fields:
 - type: image_gallery
   name: images
   label: Images
-pages:
-- about/airbnb-cereal.md
