@@ -4,6 +4,8 @@ auto_deploy: false
 admin_path: admin
 webhook_url: ''
 sections:
+  profile:
+    default_front_matter_template: profile
   video:
     default_front_matter_template: video
   tool:
