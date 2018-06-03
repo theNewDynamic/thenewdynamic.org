@@ -2,12 +2,11 @@
 title: "{{ replace .TranslationBaseName "-" " " | title }}"
 name_organization: 
 link:
-work_type: [""]
-date: {{ .Date }}
 tags:
 images: ""
 description: ""
-related_tool: [""]
+services: [""]
+related_tools: [""]
 related_showcase: [""]
 location:
   city:
