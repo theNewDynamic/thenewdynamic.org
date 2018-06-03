@@ -28,11 +28,13 @@ fields:
       type: datafiles
       file: services-yaml
       path: services
-- name: description
+- type: textarea
+  name: description
   label: Description
-  type: text
-  hidden: false
-  default: ''
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
 - name: location
   label: Location
   type: field_group
