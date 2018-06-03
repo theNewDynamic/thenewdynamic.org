@@ -1,17 +1,12 @@
 ---
-hide_body: false
+hide_body: true
 is_partial: false
 fields:
 - name: title
-  label: Title
+  label: Name
   type: text
   hidden: false
   default: ''
-- name: date
-  label: Date
-  type: datetime
-  hidden: false
-  default: 
 - name: name_organization
   label: Organization Name
   type: text
@@ -22,16 +17,17 @@ fields:
   type: text
   hidden: false
   default: 
-- name: work_type
-  label: Work type
+- name: services
+  label: Services
   type: list
   hidden: false
-  default:
-  - ''
+  default: []
   config:
     use_select: true
     source:
-      type: simple
+      type: datafiles
+      file: services-yaml
+      path: services
 - name: description
   label: Description
   type: text
