@@ -17,5 +17,6 @@ services:
 - Development
 related_tools:
 - tool/gatsby.md
+draft: true
 
 ---
