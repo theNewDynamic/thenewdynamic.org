@@ -1,5 +1,5 @@
 ---
-title: 'June 20 - Event: Tools for the Modern Developer'
+title: 'June 20 - Web Event: Tools for the Modern Developer'
 date: 2018-06-05 14:23:05 -0400
 description: With Shannon Soper on GatsbyJS and Chris Coyier on Codepen
 link: https://certifiedfreshevents.com/events/tools-for-modern-dev/#
