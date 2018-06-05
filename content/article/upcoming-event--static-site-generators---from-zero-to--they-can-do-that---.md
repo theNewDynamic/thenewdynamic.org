@@ -1,5 +1,6 @@
 ---
-title: 'July 10th - Event: Static Site Generators — From Zero To “They Can Do That?!”'
+title: 'July 10th - Web Event: Static Site Generators — From Zero To “They Can Do
+  That?!”'
 date: 2018-05-19 12:13:37 -0400
 images:
 - "/uploads/webinar-screenshot.jpg"
