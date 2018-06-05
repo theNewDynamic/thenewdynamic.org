@@ -1,10 +1,10 @@
 ---
-title: 'Event: Static Site Generators — From Zero To “They Can Do That?!”'
+title: 'July 10th - Event: Static Site Generators — From Zero To “They Can Do That?!”'
 date: 2018-05-19 12:13:37 -0400
 images:
 - "/uploads/webinar-screenshot.jpg"
-description: July 10th, Are there good reasons why creating sites with an SSG is becoming
-  so popular?
+description: Are there good reasons why creating sites with an SSG is becoming so
+  popular?
 link: https://www.smashingmagazine.com/smashing-tv/static-site-generators/?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=The%20New%20Dynamic
 tool: []
 custom: []
