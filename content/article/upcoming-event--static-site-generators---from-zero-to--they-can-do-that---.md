@@ -20,3 +20,5 @@ This webinar will explore some of these reasons for using an SSG to build a JAMs
 **Key takeaway:** A considered approach to deciding if a static site architecture could be right for you, and tools and techniques for using Static Site Generators and modern tooling to create your next site.
 
 60 mins + Q&A. Tuesday, July 10, 15:00 GMT.
+
+More information at [Smashing Magazine](https://www.smashingmagazine.com/smashing-tv/static-site-generators/)
