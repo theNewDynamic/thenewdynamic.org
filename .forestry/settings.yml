@@ -4,22 +4,22 @@ auto_deploy: false
 admin_path: admin
 webhook_url: ''
 sections:
-  profile:
-    default_front_matter_template: profile
-  video:
+  content/video:
     default_front_matter_template: video
-  tool:
-    default_front_matter_template: tool-directory
-  article:
-    default_front_matter_template: article
-  tools:
+  content/tools:
     default_front_matter_template: tools
-  showcase:
+  content/showcase:
     default_front_matter_template: showcase
-  link:
+  content/link:
     default_front_matter_template: link
-  event:
+  content/event:
     default_front_matter_template: event
+  content/article:
+    default_front_matter_template: article
+  content/profile:
+    default_front_matter_template: profile
+  content/tool:
+    default_front_matter_template: tool-directory
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: "/uploads"
