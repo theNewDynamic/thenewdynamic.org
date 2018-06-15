@@ -1,6 +1,6 @@
 ---
 title: How we spotted--and fixed--11 errors in our docs with our new markdown proofer
-date: 2018-06-15 16:54:13 -0400
+date: 2018-06-14 16:54:13 -0400
 source: Ricardo Feliciano, Circle CI
 link: https://circleci.com/blog/markdown-proofer/
 video: false
