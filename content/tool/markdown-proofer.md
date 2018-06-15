@@ -15,6 +15,5 @@ urls:
   other: ''
 resources: []
 weight: ''
-draft: true
 
 ---
