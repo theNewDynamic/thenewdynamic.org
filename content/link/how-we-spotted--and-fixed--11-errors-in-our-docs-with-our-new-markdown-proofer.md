@@ -7,7 +7,7 @@ video: false
 content_type: Article
 category: ''
 related_tools:
-- tool/content/tool/markdown-proofer.md
+- tool/markdown-proofer.md
 keywords:
 - testing
 
