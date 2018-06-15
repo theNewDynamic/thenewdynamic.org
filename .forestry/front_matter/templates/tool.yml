@@ -117,5 +117,5 @@ fields:
       section: tools
   label: Cat Test
 pages:
-- content/tool/next.js.md
 - content/tool/nuxtjs.md
+- content/tool/next.js.md
