@@ -9,6 +9,7 @@ language: Go
 related_tools: []
 tags:
 - testing
+- beta
 urls:
   website: ''
   github: https://github.com/felicianotech/md-proofer
