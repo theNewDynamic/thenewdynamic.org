@@ -7,7 +7,8 @@ tools:
 license: Open Source
 language: Go
 related_tools: []
-tags: []
+tags:
+- testing
 urls:
   website: ''
   github: https://github.com/felicianotech/md-proofer
