@@ -8,6 +8,7 @@ content_type: Article
 category: ''
 related_tools:
 - tool/markdown-proofer.md
+- tool/html-proofer.md
 keywords:
 - testing
 
