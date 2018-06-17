@@ -10,6 +10,10 @@ disableAliases = false
 preserveTaxonomyNames = true
 title = "the New Dynamic"
 
+[blackfriday]
+fractions = false
+
+
 [menu]
 
 [[menu.tools]]
