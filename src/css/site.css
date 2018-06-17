@@ -27,6 +27,9 @@ h6 {
   @apply text-xs;
 }
 
+blockquote {
+  @apply pl-4 border-l-4 border-grey-light
+}
 /*
 .text-xs	font-size: .75rem;
 .text-sm	font-size: .875rem;
@@ -46,9 +49,6 @@ p {
 }
 .nested li {
   @apply mb-2 text-grey-darkest;
-}
-.page-description {
-  @apply text-xl mb-8 text-grey-darkest;
 }
 
 .nice-outline {
