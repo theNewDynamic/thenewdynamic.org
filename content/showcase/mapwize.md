@@ -6,10 +6,10 @@ related_tools:
 website: https://www.mapwize.io
 repo: ''
 creator:
-- name: 
-  role: Design/Development
-  url: 
-  twitter_username: 
+- name: Mapwize
+  role: ''
+  url: ''
+  twitter_username: ''
 image_path: "/uploads/showcase/"
 images:
 - "/uploads/mapwize-jekyll.png"
