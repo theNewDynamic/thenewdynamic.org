@@ -2,9 +2,9 @@
 title: Mapwize
 date: 2018-06-18 06:44:33 -0400
 related_tools:
-- 
-website: 
-repo: 
+- tool/jekyll.md
+website: https://www.mapwize.io
+repo: ''
 creator:
 - name: 
   role: Design/Development
@@ -12,7 +12,9 @@ creator:
   twitter_username: 
 image_path: "/uploads/showcase/"
 images:
+- "/uploads/mapwize-jekyll.png"
 - "/uploads/showcase/"
 draft: true
 
 ---
+A nice handcrafted multilingual product website made with Jekyll and deployed on Microsoft Azure edge CDN.
