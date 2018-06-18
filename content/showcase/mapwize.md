@@ -14,7 +14,6 @@ image_path: "/uploads/showcase/"
 images:
 - "/uploads/mapwize-jekyll.png"
 - "/uploads/showcase/"
-draft: true
 
 ---
 A nice handcrafted multilingual product website made with Jekyll and deployed on Microsoft Azure edge CDN.
