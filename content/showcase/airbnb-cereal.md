@@ -15,6 +15,5 @@ related_tools:
 - tool/webpack.md
 - tool/gatsby.md
 repo: ''
-draft: true
 
 ---
