@@ -2,7 +2,7 @@
 new_page_extension: md
 auto_deploy: false
 admin_path: admin
-webhook_url: ''
+webhook_url:
 sections:
   content/video:
     default_front_matter_template: video
