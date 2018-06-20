@@ -13,5 +13,12 @@ urls:
   twitter: ''
   other: ''
 resources: []
+license: ''
+language: ''
+related_tools: []
+weight: ''
+
 ---
-The fully customizable, headless CMS. Edit collaboratively, distribute over APIs and freely decide later how and where your content will be used
+The fully customizable, headless CMS. Edit collaboratively, distribute over APIs and freely decide later how and where your content will be used.
+
+Read ["These Norwegian entrepreneurs are out to kill ‘monolithic’ content management systems"](https://nordic.businessinsider.com/these-norwegian-entrepreneurs-are-out-to-kill-monolithic-content-management-systems--/)
