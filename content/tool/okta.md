@@ -12,8 +12,10 @@ urls:
   website: https://www.okta.com/
   github: ''
   twitter: ''
-  other: https://developer.okta.com/
+  other: ''
 resources:
+- name: Developer site
+  url: https://developer.okta.com/
 - name: Okta for Static Site
   url: https://www.npmjs.com/package/okta-for-static-site
 weight: ''
