@@ -9,6 +9,7 @@ theme = "hugo-base-layouts"
 disableAliases = false
 preserveTaxonomyNames = true
 title = "the New Dynamic"
+rssLimit = 20
 
 [blackfriday]
 fractions = false
