@@ -2,8 +2,9 @@
 title: Okta
 date: 2018-06-22 21:16:48 -0400
 description: ''
-tools: []
-license: ''
+tools:
+- interaction-front-end
+license: Commercial
 language: ''
 related_tools: []
 tags: []
@@ -12,7 +13,9 @@ urls:
   github: ''
   twitter: ''
   other: https://developer.okta.com/
-resources: []
+resources:
+- name: Okta for Static Site
+  url: https://www.npmjs.com/package/okta-for-static-site
 weight: ''
 
 ---
