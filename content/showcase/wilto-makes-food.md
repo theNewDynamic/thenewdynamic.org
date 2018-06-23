@@ -10,9 +10,7 @@ creator:
   role: Design/Development
   url: http://wilto.blog/
   twitter_username: Wilto
-image_path: "/uploads/showcase/"
 images:
 - "/uploads/wilto-makes-food-eleventy.jpg"
-- "/uploads/showcase/"
 
 ---

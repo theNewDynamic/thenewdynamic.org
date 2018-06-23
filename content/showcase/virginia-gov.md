@@ -6,13 +6,11 @@ related_tools:
 website: https://www.virginia.gov
 repo: ''
 creator:
-- name: 
+- name:
   role: Design/Development
-  url: 
-  twitter_username: 
-image_path: "/uploads/showcase/"
+  url:
+  twitter_username:
 images:
 - "/uploads/showcase-virginia.gov-hugo.jpg"
-- "/uploads/showcase-showcase/"
 
 ---

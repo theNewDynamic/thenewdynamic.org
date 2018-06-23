@@ -11,10 +11,8 @@ creator:
 - name: Gridhaus
   role: Design/Development
   url: https://www.gridhaus.com/
-  twitter_username: 
-image_path: "/uploads/showcase/"
+  twitter_username:
 images:
 - "/uploads/lovenils-prismic.jpg"
-- "/uploads/showcase/"
 
 ---

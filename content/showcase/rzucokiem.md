@@ -10,11 +10,9 @@ creator:
 - name: Bejamas
   role: Design/Development
   url: https://bejamas.io
-  twitter_username: 
-image_path: "/uploads/showcase/"
+  twitter_username:
 images:
 - "/uploads/rzucokiem-nextjs.png"
-- "/uploads/showcase/"
 
 ---
 Polish web design & development agency focused on small & medium businesses. Each website they built for their clients is static.

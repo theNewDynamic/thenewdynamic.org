@@ -11,9 +11,7 @@ creator:
   role: Design/Development
   url: https://github.com/awslabs
   twitter_username: awscloud
-image_path: "/uploads/showcase/"
 images:
 - "/uploads/aws-amplify-jekyll.jpg"
-- "/uploads/showcase/"
 
 ---

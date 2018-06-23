@@ -14,10 +14,8 @@ creator:
   role: Development
   url: https://www.trysmudford.com/
   twitter_username: trysmudford
-image_path: "/uploads/showcase/"
 images:
 - "/uploads/tomango-hugo.png"
-- "/uploads/showcase/"
 
 ---
 Read [the full story on how Tomago build with the JAMstack](https://www.tomango.co.uk/thinks/tomango-progressive-web-app/) and optimize performance.

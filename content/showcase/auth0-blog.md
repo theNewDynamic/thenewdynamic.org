@@ -6,13 +6,11 @@ related_tools:
 website: https://auth0.com/blog/
 repo: https://github.com/auth0/blog
 creator:
-- name: 
+- name:
   role: Design/Development
-  url: 
-  twitter_username: 
-image_path: "/uploads/showcase/"
+  url:
+  twitter_username:
 images:
 - "/uploads/auth0-blog-jekyll.png"
-- "/uploads/showcase/"
 
 ---
