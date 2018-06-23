@@ -19,3 +19,4 @@ resources:
 weight: ''
 
 ---
+Okta adds authentication, authorization, and user management to your web or mobile app within minutes.
