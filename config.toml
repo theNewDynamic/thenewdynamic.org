@@ -2,180 +2,128 @@ DefaultContentLanguage = "en"
 MetaDataFormat = "yaml"
 Paginate = 300.0
 baseURL = "https://www.thenewdynamic.org"
+disableAliases = false
 enableRobotsTXT = true
 googleAnalytics = "UA-30899180-6"
 languageCode = "en-us"
-theme = "hugo-base-layouts"
-disableAliases = false
 preserveTaxonomyNames = true
+theme = "hugo-base-layouts"
 title = "the New Dynamic"
-
 [blackfriday]
 fractions = false
-
-
-[menu]
-
+[mediaTypes."text/netlify"]
+delimiter = ""
+suffix = ""
+[[menu.main]]
+identifier = "tools"
+name = "Tools Directory"
+url = "/tool/"
+weight = 1.0
+[[menu.main]]
+identifier = "jobs"
+name = "Find a Developer"
+url = "/jobs/"
+weight = 4.0
+[[menu.main]]
+identifier = "showcase"
+name = "Showcase"
+url = "/showcase/"
+weight = 2.0
+[[menu.main]]
+identifier = "community"
+name = "Community"
+url = "/community/"
+weight = 3.0
 [[menu.tools]]
 identifier = "static-site-generator"
 name = "Static Site Generator"
 url = "/tools/static-site-generator/"
 weight = 1.0
-
 [[menu.tools]]
 identifier = "content-management"
 name = "Content Management"
 url = "/tools/content-management/"
 weight = 2.0
-
-
-  [[menu.tools]]
-  identifier = "git-based"
-  name = "Git-based"
-  parent = "content-management"
-  url = "/tools/headless-cms-git-based/"
-  weight = 1.0
-
-  [[menu.tools]]
-  identifier = "api-based"
-  name = "API-based"
-  parent = "content-management"
-  url = "/tools/headless-cms-api-based/"
-  weight = 2.0
-
-
+[[menu.tools]]
+identifier = "git-based"
+name = "Git-based"
+parent = "content-management"
+url = "/tools/headless-cms-git-based/"
+weight = 1.0
+[[menu.tools]]
+identifier = "api-based"
+name = "API-based"
+parent = "content-management"
+url = "/tools/headless-cms-api-based/"
+weight = 2.0
 [[menu.tools]]
 identifier = "interaction-backend"
 name = "Interaction: Back-end"
 url = "/tools/interaction-back-end/"
 weight = 3.0
-
 [[menu.tools]]
 identifier = "interaction-front-end"
 name = "Interaction: Front-end"
 url = "/tools/interaction-front-end/"
 weight = 4.0
-
-
-  [[menu.tools]]
-  identifier = "hosting-deployment"
-  name = "Hosting & Deployment"
-  url = "/tools/hosting-deployment/"
-  weight = 5.0
-
-
-
-
-
-  # [[menu.tools]]
-  # identifier = "theme"
-  # name = "Themes"
-  # url = "/tools/theme/"
-  # weight = 1.0
-
-
-  [[menu.tools]]
-  identifier = "helper"
-  name = "Helper"
-  url = "/tools/helper/"
-  weight = 6.0
-
-
-  [[menu.main]]
-  identifier = "tools"
-  name = "Tools Directory"
-  url = "/tool/"
-  weight = 1.0
-
-  [[menu.main]]
-  identifier = "jobs"
-  name = "Find a Developer"
-  url = "/jobs/"
-  weight = 4.0
-
-  [[menu.main]]
-  identifier = "showcase"
-  name = "Showcase"
-  url = "/showcase/"
-  weight = 2.0
-
-  [[menu.main]]
-  identifier = "community"
-  name = "Community"
-  url = "/community/"
-  weight = 3.0
-
+[[menu.tools]]
+identifier = "hosting-deployment"
+name = "Hosting & Deployment"
+url = "/tools/hosting-deployment/"
+weight = 5.0
+[[menu.tools]]
+identifier = "helper"
+name = "Helper"
+url = "/tools/helper/"
+weight = 6.0
+[outputFormats.HEADERS]
+baseName = "_headers"
+isPlainText = true
+mediatype = "text/netlify"
+notAlternative = true
+[outputFormats.REDIR]
+baseName = "_redirects"
+isPlainText = true
+mediatype = "text/netlify"
+notAlternative = true
+[outputs]
+home = ["HTML", "HEADERS", "REDIR", "JSON"]
 [params]
-background_color_class = "bg-near-white"
+background_color_class = "bg-near-whit"
 body_classes = "font-sans bg-near-white border-solid border-t-4 border-primary-color"
 description = "Build Faster Better Websites with modern tools and techniques"
 logo = ""
 subtitle = "Build Faster Better Websites"
-utm_source = "thenewdynamic.org"
 utm_medium = "website"
-
-  [params.dev]
-  css_path = "static/assets/css"
-  fonts_path = "static/assets/Fonts"
-  image_url = "https://thenewdynamic-org.imgix.net"
-  js_path = "static/assets/js"
-
-[mediaTypes]
-
-  [mediaTypes."text/netlify"]
-  delimiter = ""
-  suffix = ""
-
-[outputFormats]
-
-  [outputFormats.HEADERS]
-  baseName = "_headers"
-  isPlainText = true
-  mediatype = "text/netlify"
-  notAlternative = true
-
-  [outputFormats.REDIR]
-  baseName = "_redirects"
-  isPlainText = true
-  mediatype = "text/netlify"
-  notAlternative = true
-
-[outputs]
-home = [
-  "HTML",
-  "HEADERS",
-  "REDIR",
-  "JSON"
-]
-
+utm_source = "thenewdynamic.org"
+[params.dev]
+css_path = "static/assets/css"
+fonts_path = "static/assets/Fonts"
+image_url = "https://thenewdynamic-org.imgix.net"
+js_path = "static/assets/js"
 [related]
 includeNewer = true
-
 [[related.indices]]
 name = "tool"
 toLower = true
 weight = 100.0
-
 [[related.indices]]
 name = "related_tools"
 toLower = true
 weight = 100.0
-
 [sitemap]
 changefreq = "monthly"
 filename = "sitemap.xml"
 priority = 0.5
-
 [social]
-twitter = "thenewdynamic"
 meetup = "https://www.meetup.com/JAMstack-nyc/"
 slack = "http://em.getrevue.co/mpss/c/JwE/1EoYAA/t.2ev/jSaKaYSMSceVQJcvS_U60A/h2/pOX6dG0WOSaHZ2xGmd4gW0-2BrN1qYSXeUzlrtE6-2BVVHGW98kh-2F2-2BGFDjImF5dH0Y6xebMeCT9MNxDau7ub3YeLycsgNuvcNz-2FX3nLY-2FICMvLdhuiC8Y73BLlet89Qcp29-2BePlJKx7TM7lfKr8D7ySqHSks0vCpkw0cfKSr0B6nrR7tXySaTIuzI7qAUTFoUtv5BAhGQCSnOpXZ6uUub7Pfw-3D-3D"
-
+twitter = "thenewdynamic"
 [taxonomies]
+headless-cms = "headless-CMS"
+language = "language"
+license = "license"
+related_tool = "related_tools"
 series = "series"
 tag = "tags"
 tools = "tools"
-related_tool = "related_tools"
-headless-cms = "headless-CMS"
-license = "license"
-language = "language"
