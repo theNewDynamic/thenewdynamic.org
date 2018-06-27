@@ -89,7 +89,7 @@ notAlternative = true
 [outputs]
 home = ["HTML", "HEADERS", "REDIR", "JSON"]
 [params]
-background_color_class = "bg-near-whit"
+background_color_class = "bg-near-white"
 body_classes = "font-sans bg-near-white border-solid border-t-4 border-primary-color"
 description = "Build Faster Better Websites with modern tools and techniques"
 logo = ""
