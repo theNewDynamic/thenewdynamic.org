@@ -4,22 +4,47 @@ auto_deploy: false
 admin_path: admin
 webhook_url: 
 sections:
-  content/video:
-    default_front_matter_template: video
-  content/tools:
-    default_front_matter_template: tools
-  content/showcase:
-    default_front_matter_template: showcase
-  content/link:
-    default_front_matter_template: link
-  content/event:
-    default_front_matter_template: event
-  content/article:
-    default_front_matter_template: article
-  content/profile:
-    default_front_matter_template: profile
-  content/tool:
-    default_front_matter_template: tool-directory
+- path: content
+  label: Pages
+  create: all
+- path: content/about
+  label: About
+  create: all
+- path: content/article
+  label: Article
+  create: all
+  default_front_matter_template: article
+- path: content/event
+  label: Event
+  create: all
+  default_front_matter_template: event
+- path: content/link
+  label: Link
+  create: all
+  default_front_matter_template: link
+- path: content/showcase
+  label: Showcase
+  create: all
+  default_front_matter_template: showcase
+- path: content/tools
+  label: Tools
+  create: all
+  default_front_matter_template: tools
+- path: content/tool
+  label: Tool
+  create: all
+  default_front_matter_template: tool-directory
+- path: content/community
+  label: Community
+  create: all
+- path: content/profile
+  label: Profile
+  create: all
+  default_front_matter_template: profile
+- path: content/video
+  label: Video
+  create: all
+  default_front_matter_template: video
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: "/uploads"
