@@ -9,7 +9,6 @@ category: ''
 related_tools:
 - tool/hugo.md
 keywords: []
-draft: true
 
 ---
 A somewhat random collection of code for Hugo so that I don’t have to keep looking things up all over the Internet.
