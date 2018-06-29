@@ -1,6 +1,6 @@
 ---
 title: Forms, Auth and Serverless Functions on Gatsby and Netlify
-date: 2018-06-29 16:40:34 -0400
+date: 2018-05-31 16:40:34 -0400
 source: Maxime Laboissonnière, CSS-Tricks
 link: https://css-tricks.com/forms-auth-and-serverless-functions-on-gatsby-and-netlify/
 video: false
