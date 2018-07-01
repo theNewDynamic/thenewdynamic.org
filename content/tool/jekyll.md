@@ -8,7 +8,7 @@ urls:
   website: http://jekyllrb.com
   github: https://github.com/jekyll/jekyll
   twitter: https://twitter.com/jekyllrb
-  other: ''
+  other: https://opencollective.com/jekyll
 resources:
 - name: Learn Jekyll & CloudCannon
   url: https://learn.cloudcannon.com/
