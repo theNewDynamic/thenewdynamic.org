@@ -23,6 +23,8 @@ resources:
   url: https://github.com/rdwatters/hugo-starter
 - name: Fucking Go Date Format
   url: http://fuckinggodateformat.com/
+- name: Hugo CLI
+  url: https://www.npmjs.com/package/hugo-cli
 description: The world’s fastest framework for building websites
 license: Open Source
 headless-cms: ''
