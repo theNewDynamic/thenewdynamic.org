@@ -11,11 +11,9 @@ creator:
 - name: Work & Co.
   role: Design/Development
   url: https://work.co/
-  twitter_username: 
-image_path: "/uploads/showcase/"
+  twitter_username:
 images:
 - "/uploads/showcase-whittle-gatsbyjs.jpg"
-- "/uploads/showcase/"
 
 ---
 Most recently, I had the opportunity to lead the first Gatsby project at Work & Co. Work & Co is a digital product agency. Our goal is to design and develop engaging user experiences, ranging from websites to mobile applications to e-commerce platforms to chatbots.

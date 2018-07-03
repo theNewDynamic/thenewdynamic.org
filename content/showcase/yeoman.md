@@ -10,13 +10,11 @@ related_tools:
 website: http://yeoman.io/
 repo: https://github.com/yeoman/yeoman.github.io
 creator:
-- name: 
+- name:
   role: Design/Development
-  url: 
-  twitter_username: 
-image_path: "/uploads/showcase/"
+  url:
+  twitter_username:
 images:
 - "/uploads/showcase-yeoman-jekyll-grunt-githubpages.png"
-- "/uploads/showcase/"
 
 ---

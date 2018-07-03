@@ -7,9 +7,7 @@ related_tools:
 website: https://www.gatsbyjs.com
 repo: ''
 creator: []
-image_path: "/uploads/showcase/"
 images:
 - "/uploads/gatsbyjs-inc.jpg"
-- "/uploads/showcase/"
 
 ---

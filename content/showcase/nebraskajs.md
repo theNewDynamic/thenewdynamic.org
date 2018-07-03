@@ -10,9 +10,7 @@ creator:
   role: Design/Development
   url: https://github.com/zachleat
   twitter_username: zachleat
-image_path: "/uploads/showcase/"
 images:
 - "/uploads/nejsconf-eleventy.jpg"
-- "/uploads/showcase/"
 
 ---

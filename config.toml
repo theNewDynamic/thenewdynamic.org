@@ -9,6 +9,7 @@ languageCode = "en-us"
 preserveTaxonomyNames = true
 theme = "hugo-base-layouts"
 title = "the New Dynamic"
+rssLimit = 20
 [blackfriday]
 fractions = false
 [mediaTypes."text/netlify"]

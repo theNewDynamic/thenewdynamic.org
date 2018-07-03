@@ -8,14 +8,12 @@ related_tools:
 website: https://bejamas.io/
 repo: ''
 creator:
-- name: 
+- name:
   role: Design/Development
-  url: 
-  twitter_username: 
-image_path: "/uploads/showcase/"
+  url:
+  twitter_username:
 images:
 - "/uploads/bejamas-gatsby.png"
-- "/uploads/showcase/"
 
 ---
 A Web studio in Poland focused on working on JAMstack-powered websites.
