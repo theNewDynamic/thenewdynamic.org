@@ -9,7 +9,7 @@ tools:
 urls:
   website: http://gulpjs.com/
   github: https://github.com/gulpjs/gulp
-  twitter: gulpjs
+  twitter: https://twitter.com/gulpjs
   other: ''
 license: Open Source
 language: Node

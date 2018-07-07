@@ -7,7 +7,7 @@ tools:
 urls:
   website: https://www.rooftopcms.com/
   github: https://github.com/rooftopcms
-  twitter: rooftopcms
+  twitter: https://twitter.com/rooftopcms
   other: ''
 description: 'Rooftop CMS: WordPress without borders'
 tags: []

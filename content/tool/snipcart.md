@@ -7,7 +7,7 @@ tools:
 urls:
   website: https://snipcart.com/
   github: https://github.com/snipcart/
-  twitter: snipcart
+  twitter: https://twitter.com/snipcart
   other: ''
 license: Commercial
 tags:

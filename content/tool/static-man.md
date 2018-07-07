@@ -6,7 +6,7 @@ tools:
 urls:
   website: https://staticman.net
   github: https://github.com/eduardoboucas/staticman
-  twitter: staticmanapp
+  twitter: https://twitter.com/staticmanapp
   other: ''
 description: Bring user-generated content to static sites
 tags:

@@ -6,7 +6,7 @@ tools:
 urls:
   website: https://desiredpersona.github.io/minimal-jekyll-theme/
   github: https://github.com/desiredpersona/minimal-jekyll-theme
-  twitter: desiredpersona
+  twitter: https://twitter.com/desiredpersona
 resources:
 - name: Documentation
   url: https://desiredpersona.github.io/minimal-jekyll-theme/docs/

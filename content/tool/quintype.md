@@ -6,7 +6,7 @@ tools:
 license: Commercial
 urls:
   website: https://www.quintype.com/
-  twitter: quintype_inc
+  twitter: https://twitter.com/quintype_inc
   github: https://github.com/quintype
   other: ''
 description: Quintype is a mobile first publishing platform for digital publishers.

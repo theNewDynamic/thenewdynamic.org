@@ -7,7 +7,7 @@ tools:
 urls:
   website: http://hammerformac.com/
   github: ''
-  twitter: hammerformac
+  twitter: https://twitter.com/hammerformac
   other: ''
 description: macOS desktop app that generates static websites
 license: Commercial

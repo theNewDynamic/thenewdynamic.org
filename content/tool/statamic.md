@@ -9,7 +9,7 @@ description: Flat-file CMS powered by Laravel
 urls:
   website: http://statamic.com/
   github: https://github.com/statamic
-  twitter: statamic
+  twitter: https://twitter.com/statamic
   other: ''
 license: Commercial
 language: PHP

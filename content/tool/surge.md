@@ -9,7 +9,7 @@ tools:
 urls:
   website: https://surge.sh/
   github: https://github.com/sintaxi/surge
-  twitter: surge_sh
+  twitter: https://twitter.com/surge_sh
   other: ''
 description: Static web publishing for Front-End Developers
 related_tools:
@@ -24,7 +24,3 @@ cat_test: ''
 
 ---
 Zero-bullshit, single–command, bring your own source control web publishing CDN. Yes, it's free.
-
-
-
-

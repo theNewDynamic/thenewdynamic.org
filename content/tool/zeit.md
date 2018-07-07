@@ -7,7 +7,7 @@ license: Commercial
 urls:
   website: https://zeit.co/now
   github: https://github.com/zeit
-  twitter: zeithq
+  twitter: https://twitter.com/zeithq
   other: ''
 description: Deploy your Node apps with a single command
 related_tools: []

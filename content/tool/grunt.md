@@ -9,7 +9,7 @@ tools:
 urls:
   website: http://gruntjs.com/
   github: https://github.com/gruntjs/grunt
-  twitter: gruntjs
+  twitter: https://twitter.com/gruntjs
   other: ''
 license: Open Source
 language: Node
