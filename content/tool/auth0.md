@@ -12,7 +12,7 @@ tags:
 urls:
   website: https://auth0.com
   github: https://github.com/auth0/
-  twitter: "@auth0"
+  twitter: https://twitter.com/auth0
   other: ''
 description: Authentication as a service
 resources: []
