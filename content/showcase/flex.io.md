@@ -2,9 +2,9 @@
 title: Flex.io
 date: 2018-07-09 19:11:40 -0400
 related_tools:
-- 
-website: 
-repo: 
+- tool/hexo.md
+website: https://www.flex.io/
+repo: ''
 creator:
 - name: 
   role: Design/Development
@@ -12,7 +12,7 @@ creator:
   twitter_username: 
 image_path: "/uploads/showcase/"
 images:
+- "/uploads/showcase-hexo-flex.io-.jpg"
 - "/uploads/showcase/"
-draft: true
 
 ---
