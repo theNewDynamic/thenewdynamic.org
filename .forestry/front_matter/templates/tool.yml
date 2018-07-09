@@ -118,6 +118,7 @@ fields:
       section: tools
   label: Cat Test
 pages:
+- content/tool/markdown-components.md
 - content/tool/takeshape.md
 - content/tool/twill.md
 - content/tool/next.js.md
