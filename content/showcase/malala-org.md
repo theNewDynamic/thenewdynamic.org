@@ -13,5 +13,6 @@ creator:
   twitter_username: carrot
 images:
 - "/uploads/showcase-malala-org-roots-static-site-generator.jpg"
+draft: true
 
 ---
