@@ -13,38 +13,30 @@ sections:
 - path: content/article
   label: Article
   create: all
-  default_front_matter_template: article
 - path: content/event
   label: Event
   create: all
-  default_front_matter_template: event
 - path: content/link
   label: Link
   create: all
-  default_front_matter_template: link
 - path: content/showcase
   label: Showcase
   create: all
-  default_front_matter_template: showcase
 - path: content/tools
   label: Tools
   create: all
-  default_front_matter_template: tools
 - path: content/tool
   label: Tool
   create: all
-  default_front_matter_template: tool-directory
 - path: content/community
   label: Community
   create: all
 - path: content/profile
   label: Profile
   create: all
-  default_front_matter_template: profile
 - path: content/video
   label: Video
   create: all
-  default_front_matter_template: video
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: "/uploads"
