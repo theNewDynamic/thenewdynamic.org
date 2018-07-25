@@ -75,6 +75,7 @@ fields:
       type: pages
       section: showcase
 pages:
+- content/link/hugo-pipes--revolution.md
 - content/profile/regis-philibert.md
 - content/profile/bejamas.md
 - content/profile/_index.md
