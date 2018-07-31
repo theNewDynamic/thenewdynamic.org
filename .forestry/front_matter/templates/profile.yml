@@ -76,5 +76,6 @@ fields:
       section: showcase
 pages:
 - content/profile/regis-philibert.md
+- content/link/building-a-serverless-contact-form-with-aws-lambda-and-aws-ses.md
 - content/profile/bejamas.md
 - content/profile/_index.md
