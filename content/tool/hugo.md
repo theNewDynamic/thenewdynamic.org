@@ -10,6 +10,8 @@ urls:
   twitter: https://twitter.com/GoHugoIO
   other: ''
 resources:
+- name: Docker Image for Hugo
+  url: https://github.com/felicianotech/docker-hugo
 - name: Discussion Forums
   url: https://discuss.gohugo.io/
 - name: Victor Hugo (starter repo for using Webpack)

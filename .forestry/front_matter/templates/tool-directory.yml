@@ -101,6 +101,7 @@ fields:
     max: '100'
     step: '1'
 pages:
+- content/tool/hugo.md
 - content/tool/abecms.md
 - content/tool/bitballoon.md
 - content/tool/markdown-proofer.md
@@ -177,7 +178,6 @@ pages:
 - content/tool/docpad.md
 - content/tool/dr-jekylls-themes.md
 - content/tool/grunt.md
-- content/tool/hugo.md
 - content/tool/jekyll-hook.md
 - content/tool/kenticocloud.md
 - content/tool/lektor.md
