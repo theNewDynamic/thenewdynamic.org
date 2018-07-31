@@ -4,39 +4,61 @@ auto_deploy: false
 admin_path: admin
 webhook_url: 
 sections:
-- path: content
+- type: directory
+  path: content
   label: Pages
   create: all
-- path: content/about
+  match: "*"
+- type: directory
+  path: content/about
   label: About
   create: all
-- path: content/article
+  match: "**/*"
+- type: directory
+  path: content/article
   label: Article
   create: all
-- path: content/event
+  match: "**/*"
+- type: directory
+  path: content/event
   label: Event
   create: all
-- path: content/link
+  match: "**/*"
+- type: directory
+  path: content/link
   label: Link
   create: all
-- path: content/showcase
+  match: "**/*"
+- type: directory
+  path: content/showcase
   label: Showcase
   create: all
-- path: content/tools
+  match: "**/*"
+- type: directory
+  path: content/tools
   label: Tools
   create: all
-- path: content/tool
+  match: "**/*"
+- type: directory
+  path: content/tool
   label: Tool
   create: all
-- path: content/community
+  match: "**/*"
+- type: directory
+  path: content/community
   label: Community
   create: all
-- path: content/profile
+  match: "**/*"
+- type: directory
+  path: content/profile
   label: Profile
   create: all
-- path: content/video
+  match: "**/*"
+- type: directory
+  path: content/video
   label: Video
   create: all
+  match: "**/*"
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: "/uploads"
