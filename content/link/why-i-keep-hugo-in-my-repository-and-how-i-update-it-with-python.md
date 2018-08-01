@@ -1,0 +1,6 @@
+---
+title: WHY I KEEP HUGO IN MY REPOSITORY AND HOW I UPDATE IT WITH PYTHON.
+date: 2018-08-01 15:29:32 -0400
+draft: true
+
+---
