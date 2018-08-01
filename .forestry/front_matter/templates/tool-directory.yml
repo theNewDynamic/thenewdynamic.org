@@ -101,7 +101,6 @@ fields:
     max: '100'
     step: '1'
 pages:
-- content/tool/hugo.md
 - content/tool/abecms.md
 - content/tool/bitballoon.md
 - content/tool/markdown-proofer.md
@@ -137,6 +136,7 @@ pages:
 - content/tool/cosmicjs.md
 - content/tool/contentstack.md
 - content/tool/okta.md
+- content/tool/hugo.md
 - content/tool/vuepress.md
 - content/tool/azure-storage.md
 - content/tool/google-custom-search-engine.md

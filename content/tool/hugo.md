@@ -23,8 +23,6 @@ resources:
 - name: Hugo Starter with Gulp Asset Pipeline, SVG Icons, partials for global components,
     metadata, and social.
   url: https://github.com/rdwatters/hugo-starter
-- name: Fucking Go Date Format
-  url: http://fuckinggodateformat.com/
 - name: Hugo CLI
   url: https://www.npmjs.com/package/hugo-cli
 description: The world’s fastest framework for building websites
