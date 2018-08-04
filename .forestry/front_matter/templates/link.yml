@@ -383,6 +383,7 @@ pages:
 - content/link/netlify-vs.-amazon-s3.md
 - content/link/static-websites-with-jekyll.md
 - content/link/static-sites-go-all-hollywood.md
+- content/link/creating-a-multilingual-blog-with-jekyll.md
 - content/link/gatsby-vs-hugo-a-detailed-comparison.md
 - content/link/how-to-cache-bust-and-concatenate-js-and-sass-files-with-hugo-in-2018.md
 - content/link/building-a-serverless-contact-form-with-aws-lambda-and-aws-ses.md
