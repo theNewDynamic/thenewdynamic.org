@@ -9,7 +9,6 @@ category: ''
 related_tools:
 - tool/jekyll.md
 keywords: []
-draft: true
 
 ---
 In this post, I will explore how to set up a Jekyll site to support multiple languages, and use Forestry to provide an interface for creating translations.
