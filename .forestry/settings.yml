@@ -29,21 +29,29 @@ sections:
   label: Link
   create: all
   match: "**/*"
+  templates:
+   - link
 - type: directory
   path: content/showcase
   label: Showcase
   create: all
   match: "**/*"
+  templates:
+   - showcase
 - type: directory
   path: content/tools
   label: Tools
   create: all
   match: "**/*"
+  templates:
+   - tools
 - type: directory
   path: content/tool
   label: Tool
   create: all
   match: "**/*"
+  templates:
+   - tool
 - type: directory
   path: content/community
   label: Community
