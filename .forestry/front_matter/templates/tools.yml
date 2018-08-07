@@ -25,10 +25,10 @@ pages:
 - content/tools/content-management/api-based
 - content/tools/theme
 - content/tools/hosting-deployment/_index.md
-- content/tools/helper/_index.md
 - content/tools/interaction-front-end/_index.md
 - content/tools/headless-cms-api-based
 - content/tools/content-management/_index.md
+- content/tools/helper/_index.md
 - content/tools/content-management
 - content/tools/helper
 - content/tools/headless-cms-git-based

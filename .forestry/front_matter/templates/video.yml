@@ -53,9 +53,9 @@ pages:
 - content/video/jekyll-in-the-newsroom.md
 - content/video/introduction-to-gatsby.md
 - content/video/git-based-or-api-driven-cms.md
-- content/video/building-a-static-html-and-web-app-frankenstein.md
-- content/video/full-stack-static.md
 - content/video/getting-started-with-jekyll.md
+- content/video/full-stack-static.md
+- content/video/building-a-static-html-and-web-app-frankenstein.md
 - content/video/cms-as-code.md
 - content/video/rise-of-the-jamstack.md
 - content/video/offline-first-for-your-static-site.md

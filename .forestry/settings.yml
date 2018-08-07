@@ -30,28 +30,28 @@ sections:
   create: all
   match: "**/*"
   templates:
-   - link
+  - link
 - type: directory
   path: content/showcase
   label: Showcase
   create: all
   match: "**/*"
   templates:
-   - showcase
+  - showcase
 - type: directory
   path: content/tools
   label: Tools
   create: all
   match: "**/*"
   templates:
-   - tools
+  - tools
 - type: directory
   path: content/tool
   label: Tool
   create: all
   match: "**/*"
   templates:
-   - tool
+  - tool
 - type: directory
   path: content/community
   label: Community
