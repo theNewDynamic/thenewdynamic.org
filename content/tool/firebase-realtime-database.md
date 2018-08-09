@@ -1,9 +1,9 @@
 ---
 title: Firebase Realtime Database
-date: 2018-04-20 09:31:58 -0400
+date: 2018-04-20 13:31:58 +0000
 description: Real time syncing for JSON data
 tools:
-- hosting-deployment
+- interaction-back-end
 license: Commercial
 related_tools:
 - tool/firebase-hosting.md
@@ -12,12 +12,12 @@ urls:
   github: ''
   twitter: ''
   other: ''
-
 language: ''
 tags: []
 resources:
 - name: Documentation
   url: https://firebase.google.com/docs/database/
 cat_test: ''
+weight: ''
 
 ---
