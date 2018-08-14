@@ -21,7 +21,7 @@ description: Sync your Jekyll, Hugo or VuePress site. Your editors will love it 
   won’t realize they’re making commits.
 resources: []
 weight: 7
-license: ''
+license: Commercial
 language: ''
 
 ---
