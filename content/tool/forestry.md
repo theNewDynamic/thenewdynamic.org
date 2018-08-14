@@ -9,6 +9,7 @@ tools:
 - headless-cms-git-based
 tags: []
 related_tools:
+- tool/vuepress.md
 - tool/jekyll.md
 - tool/hugo.md
 urls:
@@ -16,8 +17,8 @@ urls:
   github: ''
   twitter: ''
   other: ''
-description: Sync your Jekyll or Hugo site. Your editors will love it and won’t realize
-  they’re making commits.
+description: Sync your Jekyll, Hugo or VuePress site. Your editors will love it and
+  won’t realize they’re making commits.
 resources: []
 weight: 7
 license: ''
