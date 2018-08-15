@@ -14,7 +14,7 @@ rssLimit = 20
 fractions = false
 [mediaTypes."text/netlify"]
 delimiter = ""
-suffix = ""
+suffixes = ""
 [[menu.main]]
 identifier = "tools"
 name = "Tools Directory"
