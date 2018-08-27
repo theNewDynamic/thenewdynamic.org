@@ -53,6 +53,7 @@ fields:
   label: Keywords
   description: optional
 pages:
+- content/link/staticman-user-generated-content-made-static.md
 - content/link/five-interesting-ways-to-use-sanity-io-for-image-art-direction.md
 - content/link/need-to-store-some-data.md
 - content/link/how-i-migrated-this-website-articles-from-jekyll-to-hugo.md
