@@ -1,19 +1,20 @@
 [build]
 publish = "public"
-command = "hugo"
+command = "hugo --gc --minify"
 
 [build.environment]
-HUGO_VERSION = "0.40.2"
+HUGO_VERSION = "0.47.1"
 
 [context.production.environment]
+# Uncomment the next line when moving site to production
 HUGO_ENV = "production"
 #HUGO_ENABLEGITINFO = "true"
 
 [context.deploy-preview]
-command = "hugo -b $DEPLOY_PRIME_URL"
+command = "hugo --gc -b $DEPLOY_PRIME_URL"
 
 [context.branch-deploy]
-command = "hugo -b $DEPLOY_PRIME_URL"
+command = "hugo --gc -b $DEPLOY_URL"
 
 
 
