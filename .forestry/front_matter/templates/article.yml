@@ -46,6 +46,8 @@ fields:
   name: images
   label: Images
 pages:
+- content/article/jamstack-conf-2018.md
+- content/article/2015-04-22-all-things-jekyll-at-jekyllconf-may-2nd.md
 - content/article/2014-03-06-static-site-generators-introduction.md
 - content/article/2015-09-29-lessons-learned-switching-from-wordpress-to-middleman-a-static-site-generator.md
 - content/article/2016-02-22-Static-site-generators-are-the-new-Wordpress-Milwaukee-Web-Professionals-Milwaukee-WI-Meetup.md
@@ -65,7 +67,6 @@ pages:
 - content/article/2016-04-29-the-jam-stack.md
 - content/article/2015-09-17-generate-london.md
 - content/article/2017-09-24-git-or-api-based-cms.md
-- content/article/2015-04-22-all-things-jekyll-at-jekyllconf-may-2nd.md
 - content/article/2014-12-17-static-site-generators-coming-into-the-mainstream.md
 - content/article/2014-08-24-search-options-for-static-websites.md
 - content/article/2016-01-25-Static-is-Back-Geekfest-Seattle-Seattle-WA-Meetup.md
