@@ -64,6 +64,7 @@ fields:
   name: images
   label: Images
 pages:
+- content/showcase/neonrated.md
 - content/showcase/vidgrid.md
 - content/showcase/segment.md
 - content/showcase/sequoia-capital.md
