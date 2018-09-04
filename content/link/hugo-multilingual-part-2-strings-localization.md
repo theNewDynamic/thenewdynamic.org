@@ -10,7 +10,6 @@ related_tools:
 - tool/hugo.md
 keywords:
 - multilingual
-draft: true
 
 ---
 In Part II we’ll see how Hugo, using its familiar data structure and configuration file, allows us to localize strings in any number of languages with minimum hassle.
