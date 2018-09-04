@@ -144,6 +144,7 @@ pages:
 - content/link/how-i-migrated-this-website-articles-from-jekyll-to-hugo.md
 - content/link/detecting-new-posts-with-jekyll-and-netlify.md
 - content/link/hugo-multilingual-part-2-strings-localization.md
+- content/link/hugo-multilingual-part-1-content-translation.md
 - content/link/-hugo-snippets-and-code-examples.md
 - content/link/jekyll-target-blank.md
 - content/link/five-interesting-ways-to-use-sanity-io-for-image-art-direction.md
