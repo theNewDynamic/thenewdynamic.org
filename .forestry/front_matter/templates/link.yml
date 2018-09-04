@@ -89,7 +89,6 @@ pages:
 - content/link/building-a-static-blog-using-jekyll-and-strapi.md
 - content/link/wordpress-to-jekyll-exporter-.md
 - content/link/using-travis-to-build-your-sculpin-blog.md
-- content/link/2018-01-11-Regis-Philibert-Hugo-Page-Resources.md
 - content/link/2016-10-25-how-to-Create-and-Publish-a-Jekyll-Theme-Gem.md
 - content/link/2017-03-22-generating-static-AMP-pages.md
 - content/link/2017-09-14-terriblecode-Deploying-Static-Sites-With-SSL.md
@@ -145,6 +144,7 @@ pages:
 - content/link/detecting-new-posts-with-jekyll-and-netlify.md
 - content/link/hugo-multilingual-part-2-strings-localization.md
 - content/link/hugo-multilingual-part-1-content-translation.md
+- content/link/2018-01-11-Regis-Philibert-Hugo-Page-Resources.md
 - content/link/-hugo-snippets-and-code-examples.md
 - content/link/jekyll-target-blank.md
 - content/link/five-interesting-ways-to-use-sanity-io-for-image-art-direction.md
