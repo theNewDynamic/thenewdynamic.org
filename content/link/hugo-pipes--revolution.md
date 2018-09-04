@@ -11,10 +11,13 @@ related_showcase:
 location:
   city: ''
   country: ''
-date: 2018-07-19 10:09:55 -0400
+date: 2018-07-19 14:09:55 +0000
 tags: []
-source: Regis Philibert
+source: Régis Philibert
 content_type: Tutorial
+video: false
+category: ''
+keywords: []
 
 ---
 Hugo’s roadmap got itself a new milestone when .43 delivered Hugo Pipes, a built-in set of asset processing methods.
