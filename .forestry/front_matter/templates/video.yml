@@ -49,12 +49,12 @@ fields:
     max: '100'
     step: '1'
 pages:
+- content/video/jekyll-in-the-newsroom.md
+- content/video/git-based-or-api-driven-cms.md
 - content/video/building-a-static-html-and-web-app-frankenstein.md
 - content/video/full-stack-static.md
 - content/video/platforms-and-promises.md
 - content/video/getting-started-with-jekyll.md
-- content/video/jekyll-in-the-newsroom.md
-- content/video/git-based-or-api-driven-cms.md
 - content/video/introduction-to-gatsby.md
 - content/video/static-sites-go-all-hollywood.md
 - content/video/introduction-to-static-site-generators-and-the-jamstack.md

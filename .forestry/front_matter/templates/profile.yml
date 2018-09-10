@@ -75,6 +75,6 @@ fields:
       type: pages
       section: showcase
 pages:
+- content/profile/bejamas.md
 - content/profile/regis-philibert.md
 - content/profile/_index.md
-- content/profile/bejamas.md

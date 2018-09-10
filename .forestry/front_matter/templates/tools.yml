@@ -19,11 +19,11 @@ fields:
   type: text
   hidden: false
 pages:
+- content/tools/interaction-front-end/_index.md
 - content/tools/helper/_index.md
 - content/tools/hosting-deployment
 - content/tools/headless-cms-api-based/_index.md
 - content/tools/headless-cms-api-based
-- content/tools/interaction-front-end/_index.md
 - content/tools/hosting-deployment/_index.md
 - content/tools/theme
 - content/tools/content-management/api-based

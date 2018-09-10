@@ -118,9 +118,9 @@ fields:
       section: tools
   label: Cat Test
 pages:
+- content/tool/nuxtjs.md
 - content/tool/markdown-components.md
 - content/tool/architect.md
-- content/tool/nuxtjs.md
 - content/tool/next.js.md
 - content/tool/twill.md
 - content/tool/takeshape.md
