@@ -5,14 +5,9 @@ related_tools:
 - tool/gatsby.md
 website: https://justdoit.nike.com/
 repo: ''
-creator:
-- name: 
-  role: Design/Development
-  url: 
-  twitter_username: 
+creator: []
 image_path: "/uploads/showcase/"
 images:
 - "/uploads/showcase-nike-gatsby.jpg"
-draft: true
 
 ---
