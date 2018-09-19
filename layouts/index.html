@@ -9,13 +9,13 @@
       <div class="col-span-9">
         <div class="borderTK p-8 sm:grid grid-columns-12 grid-gap-4">
           <div class="col-span-4">
-            <img src="/uploads/fast.svg" alt="" class="h-64">
+            <img src="/images/jamstack-acronym.png" alt="">
           </div>
           <div class="col-span-8">
             <p class="font-brand text-4xl lh-copy grey-dark mb-4 max-w-sm">
-              {{- .Site.Params.description -}}
-            </p>
-            {{ with .Content }}{{ . }}{{ end }}
+                {{ with .Content }}{{ . }}{{ end }}  
+            </p>            
+            {{/*  {{- .Site.Params.description -}}  */}}
           </div>
         </div>
         <div class="lg:mt-8 grid-columns-2 grid-gap-4 sm:grid lg:grid-columns-3">
