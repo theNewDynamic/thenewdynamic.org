@@ -64,6 +64,7 @@ fields:
   name: images
   label: Images
 pages:
+- content/showcase/Financial-Times-CFA-Institute.md
 - content/showcase/nike-just-do-it.md
 - content/showcase/the-verge-50.md
 - content/showcase/react.md
