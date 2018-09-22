@@ -1,7 +1,8 @@
 ---
 title: Financial Times CFA Institute
 date: 2018-09-22 11:10:49 -0400
-related_tools: []
+related_tools:
+- tool/hugo.md
 website: https://cfainstitute.ft.com/
 repo: ''
 creator: []
