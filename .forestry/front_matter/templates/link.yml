@@ -53,7 +53,6 @@ fields:
   label: Keywords
   description: optional
 pages:
-- content/link/Adding-Your-YouTube-Videos-to-Your-Static-Site-with-Vue.js.md
 - content/link/Adding-Your-YouTube-Videos-to-Your-Static-Site-on-Netlify.md
 - content/link/10-aws-lambda-use-cases-to-start-your-serverless-journey.md
 - content/link/switching-to-Aerobatic-Static-Site-Hosting-Serverless-Code.md
