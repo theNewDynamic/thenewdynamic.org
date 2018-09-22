@@ -1,8 +1,11 @@
 ---
 title: TakeShape
-date: 2018-06-29 22:53:36 -0400
-weight: ''
-description: ''
+date: 2018-06-30 02:53:36 +0000
+weight: 3
+description: 'A stress-free CMS, Instant API, and Static Site Generator to help you
+  get your projects done.
+
+'
 tools:
 - content-management
 - static-site-generator
@@ -20,4 +23,4 @@ resources: []
 cat_test: ''
 
 ---
-A stress-free CMS, Instant API, and Static Site Generator to help you get your projects done.
+CMS, Instant API, and a Built-in static site generator with a flexible asset pipeline, local image proxy, and an easy-to-use templating language (Nunjucks). Powered by GraphQl
