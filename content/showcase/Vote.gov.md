@@ -2,17 +2,17 @@
 title: Vote.gov
 date: 2018-09-25 14:18:11 -0400
 related_tools:
-- 
-website: 
-repo: 
+- tool/hugo.md
+website: https://vote.gov/
+repo: https://github.com/18F/vote-gov
 creator:
-- name: 
+- name: 18F
   role: Design/Development
-  url: 
-  twitter_username: 
+  url: https://18f.gsa.gov/
+  twitter_username: 18f
 image_path: "/uploads/showcase/"
 images:
-- "/uploads/showcase/"
+- "/uploads/showcase-vote-gov-hugo.jpg"
 draft: true
 
 ---
