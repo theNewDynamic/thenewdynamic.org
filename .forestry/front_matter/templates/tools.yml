@@ -19,6 +19,7 @@ fields:
   type: text
   hidden: false
 pages:
+- content/tools/test2/index.md
 - content/tools/test/this/index.md
 - content/tools/interaction-front-end/_index.md
 - content/tools/helper/_index.md
