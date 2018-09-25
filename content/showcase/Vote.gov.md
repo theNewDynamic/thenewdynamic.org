@@ -13,6 +13,5 @@ creator:
 image_path: "/uploads/showcase/"
 images:
 - "/uploads/showcase-vote-gov-hugo.jpg"
-draft: true
 
 ---
