@@ -1,8 +1,8 @@
 ---
 title: index
-description: 'This is the description for '
+description: This is a test
 date: 2018-09-25 16:31:58 -0400
-color: 
+color: ''
 draft: true
 
 ---
