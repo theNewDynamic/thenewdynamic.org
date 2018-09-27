@@ -17,7 +17,7 @@ tags: []
 urls:
   website: https://www.takeshape.io/
   github: ''
-  twitter: ''
+  twitter: https://twitter.com/TakeShapeCMS
   other: ''
 resources: []
 cat_test: ''
