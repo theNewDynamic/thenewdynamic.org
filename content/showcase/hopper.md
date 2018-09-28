@@ -9,7 +9,7 @@ creator:
 - name: Narative
   role: Design/Developement
   url: https://narative.co/
-  twitter_username: https://twitter.com/narative_co
+  twitter_username: narative_co
 image_path: "/uploads/showcase/"
 images:
 - "/uploads/hopper-gatsby.png"
