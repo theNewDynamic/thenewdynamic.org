@@ -12,8 +12,7 @@ creator:
   twitter_username: narative_co
 image_path: "/uploads/showcase/"
 images:
-- "/uploads/hopper-gatsby.png"
-- "/uploads/showcase/"
+- "/uploads/showcase-hopper-gatsby_2160x1350.jpg"
 
 ---
 Hopper.com was developed with Gatsby and saw a 58% faster page load times.
