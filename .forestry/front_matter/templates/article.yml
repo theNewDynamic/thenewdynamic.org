@@ -46,6 +46,7 @@ fields:
   name: images
   label: Images
 pages:
+- content/article/state-of-the-headless-cms-market-2018.md
 - content/article/2015-09-17-generate-london.md
 - content/article/2014-08-24-search-options-for-static-websites.md
 - content/article/2015-06-12-video-and-slides-from-our-first-meetup.md
