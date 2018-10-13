@@ -12,3 +12,5 @@ weight: ''
 
 ---
 Gerald Onyango (https://twitter.com/futuregerald) discusses authentication, and how it affects performance. He compares using session cookies vs JWT (JSON Web Tokens) tokens, and the benefits of JWT which can be used to authenticate requests and pass data on the frontend, on the CDN edge, in functions, and on third party servers, without having to make round trips back to your database for each request.
+
+This talk was given at the [NY Web performance Group](https://www.meetup.com/Web-Performance-NY/) on Sept. 26, 2018, along with the [JAMstack NYC Meetup](https://www.meetup.com/JAMstack-nyc/events/254382732/).

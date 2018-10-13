@@ -49,8 +49,8 @@ fields:
     max: '100'
     step: '1'
 pages:
-- content/video/even-better-performance-for-your-website-using-jamstack-tools-and-techniques.md
 - content/video/performance-and-authentication.md
+- content/video/even-better-performance-for-your-website-using-jamstack-tools-and-techniques.md
 - content/video/jekyll-in-the-newsroom.md
 - content/video/git-based-or-api-driven-cms.md
 - content/video/building-a-static-html-and-web-app-frankenstein.md
