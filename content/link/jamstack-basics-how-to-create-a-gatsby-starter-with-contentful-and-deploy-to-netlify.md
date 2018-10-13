@@ -13,7 +13,6 @@ related_tools:
 - tool/gatsby.md
 keywords:
 - beginner
-draft: true
 
 ---
 The JAMstack has inspired some of the greatest web development tools we’ve ever seen. Publishing amazingly fast, secure, and accessible websites has never been easier, or so free.
