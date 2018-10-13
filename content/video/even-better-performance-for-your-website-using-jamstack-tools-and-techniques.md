@@ -13,3 +13,5 @@ weight: ''
 
 ---
 Bud Parr ([https://twitter.com/budparr](https://twitter.com/budparr "https://twitter.com/budparr")) will show examples of tools and strategies to wring out every bit of performance from your website and get great Lighthouse scores (and what Lighthouse is). He will review getting the most out of static site generators and CDNs, techniques for loading assets and more.
+
+This talk was given at the [NY Web performance Group](https://www.meetup.com/Web-Performance-NY/) on Sept. 26, 2018, along with the [JAMstack NYC Meetup](https://www.meetup.com/JAMstack-nyc/events/254382732/).
