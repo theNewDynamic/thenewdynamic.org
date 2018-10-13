@@ -13,10 +13,10 @@
   {{ with $image }}
     <a href="{{ $.URL }}" class="no-underline w-full md:w-2/3 md:order-0 z-50">
       {{ if in (print $.Site.BaseURL) "localhost" }}
-        <img data-src="{{ . }}" src="/images/placeholder.svg" class="lazyload mw-100  shadow ">
+        <img data-src="{{ . }}" src="/images/placeholder.svg" class="lazyload w-full max-w-full shadow ">
       {{ else }}
         {{ $img := replace . "/uploads" ($.Param "dev.image_url")  }}
-          <img src="/images/placeholder.svg" data-src="{{ $img }}?{{ (querify "w" "460" "fit" "crop") | safeURL }}" class="lazyload shadow mw-100">
+          <img src="/images/placeholder.svg" data-src="{{ $img }}?{{ (querify "w" "460" "fit" "crop") | safeURL }}" class="lazyload shadow w-full max-w-full">
       {{ end }}
     </a>
   {{ end }}
