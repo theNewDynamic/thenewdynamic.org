@@ -64,9 +64,9 @@ fields:
   name: images
   label: Images
 pages:
+- content/showcase/hopper.md
 - content/showcase/madewithover-com.md
 - content/showcase/low-tech-magazine.md
-- content/showcase/hopper.md
 - content/showcase/Vote.gov.md
 - content/showcase/Financial-Times-CFA-Institute.md
 - content/showcase/nike-just-do-it.md

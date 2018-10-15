@@ -54,8 +54,8 @@ fields:
   description: optional
 pages:
 - content/link/using-minitest-to-regression-test-your-jekyll-static-site.md
-- content/link/jamstack-basics-how-to-create-a-gatsby-starter-with-contentful-and-deploy-to-netlify.md
 - content/link/wordpress-to-static-site-generator-(hugo)-migration-and-deployment.md
+- content/link/jamstack-basics-how-to-create-a-gatsby-starter-with-contentful-and-deploy-to-netlify.md
 - content/link/installing-hugo-and-hosting-on-openbsd-server.md
 - content/link/Adding-Your-YouTube-Videos-to-Your-Static-Site-on-Netlify.md
 - content/link/10-aws-lambda-use-cases-to-start-your-serverless-journey.md
