@@ -64,6 +64,7 @@ fields:
   name: images
   label: Images
 pages:
+- content/showcase/psd-wizard.md
 - content/showcase/hopper.md
 - content/showcase/madewithover-com.md
 - content/showcase/low-tech-magazine.md
