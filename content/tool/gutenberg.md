@@ -7,7 +7,7 @@ tools:
 - static-site-generator
 license: Open Source
 data_model: ''
-language: ''
+language: Rust
 related_tools: []
 tags: []
 urls:
