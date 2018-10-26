@@ -67,6 +67,11 @@ sections:
   label: Video
   create: all
   match: "**/*"
+- type: directory
+  path: data
+  label: Data
+  create: none
+  match: "**/*.{json,yaml,yml,toml}"
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: "/uploads"
