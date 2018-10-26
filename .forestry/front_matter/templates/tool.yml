@@ -66,8 +66,8 @@ fields:
   name: language
   config:
     source:
-      type: datafiles
-      file: languages-yaml
+      type: documents
+      file: data/languages.yaml
       path: languages
   label: Language
 - type: list
