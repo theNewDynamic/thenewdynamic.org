@@ -1,9 +1,10 @@
 ---
 languages:
+- Go
 - Node
 - React
 - Ruby
-- Go
+- Rust
 - Python
 - PHP
 - ".Net"
