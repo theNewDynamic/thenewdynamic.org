@@ -49,6 +49,7 @@ fields:
     max: '100'
     step: '1'
 pages:
+- content/video/static-site-generators-are-here-to-stay.md
 - content/video/even-better-performance-for-your-website-using-jamstack-tools-and-techniques.md
 - content/video/performance-and-authentication.md
 - content/video/jekyll-in-the-newsroom.md
