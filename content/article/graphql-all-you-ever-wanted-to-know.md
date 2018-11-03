@@ -45,3 +45,5 @@ We are hosted this month by **Postlight** ([https://postlight.com/](https://post
 We will begin at 6pm and conclude at 8pm.
 
 Refreshments are sponsored by our friends at **Netlify** ([https://www.netlify.com/](https://www.netlify.com/ "https://www.netlify.com/")).
+
+If you're not in NYC, no worries - we will be posting videos here.
