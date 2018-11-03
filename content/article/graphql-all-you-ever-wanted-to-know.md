@@ -8,7 +8,7 @@ link: https://www.meetup.com/JAMstack-nyc/events/255741440/
 tool: []
 custom: []
 images:
-- "/uploads/graphql-logo.svg"
+- "/uploads/graphql-logo.jpg"
 
 ---
 This month's Meetup will be centered around GraphQL from introduction to real life use-cases.  
