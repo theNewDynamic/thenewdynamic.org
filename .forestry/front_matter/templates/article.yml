@@ -46,7 +46,6 @@ fields:
   name: images
   label: Images
 pages:
-- content/event/graphql-all-you-ever-wanted-to-know.md
 - content/article/state-of-the-headless-cms-market-2018.md
 - content/article/2015-09-17-generate-london.md
 - content/article/2014-08-24-search-options-for-static-websites.md
