@@ -1,6 +1,6 @@
 ---
 title: GraphQL - All you ever wanted to know
-date: 2018-11-14 23:00:00 +0000
+date: 2018-11-01 23:00:00 +0000
 description: GraphQL has taken the API world by storm! If you've been RESTing on your
   laurels we'll get you up to speed with an introduction to GraphQL and some helpful
   tips to remember when you build out your first GraphQL API.
