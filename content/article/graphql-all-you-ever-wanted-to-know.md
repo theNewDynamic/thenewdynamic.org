@@ -7,7 +7,8 @@ description: GraphQL has taken the API world by storm! If you've been RESTing on
 link: https://www.meetup.com/JAMstack-nyc/events/255741440/
 tool: []
 custom: []
-images: []
+images:
+- "/uploads/graphql-logo.svg"
 
 ---
 This month's Meetup will be centered around GraphQL from introduction to real life use-cases.  
