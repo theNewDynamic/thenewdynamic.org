@@ -44,6 +44,8 @@ sections:
   label: Article
   create: all
   match: "**/*"
+  templates:
+  - article
 - type: directory
   path: data
   label: Data
