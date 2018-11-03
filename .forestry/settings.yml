@@ -35,7 +35,7 @@ sections:
   templates:
   - link
 - type: heading
-  label: Secondary Content
+  label: Secondary Section
 - type: directory
   path: content/event
   label: Event
