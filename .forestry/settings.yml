@@ -34,18 +34,6 @@ sections:
   match: "**/*"
   templates:
   - link
-- type: heading
-  label: Secondary Content
-- type: directory
-  path: content/article
-  label: Article
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/event
-  label: Event
-  create: all
-  match: "**/*"
 - type: directory
   path: content
   label: Pages
@@ -54,6 +42,16 @@ sections:
 - type: directory
   path: content/about
   label: About
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/article
+  label: Article
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/event
+  label: Event
   create: all
   match: "**/*"
 - type: directory
