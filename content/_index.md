@@ -6,4 +6,4 @@ date: 2018-04-07 10:56:56 +0000
 
 ---
 
-## Build Faster [Better Websites](/showcase/) with [modern tools](/tool/) and techniques
+Build Faster [Better Websites](/showcase/) with [modern tools](/tool/) and techniques
