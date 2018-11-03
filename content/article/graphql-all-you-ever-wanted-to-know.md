@@ -11,7 +11,7 @@ images:
 - "/uploads/graphql-logo.jpg"
 
 ---
-This month's Meetup will be centered around GraphQL from introduction to real life use-cases. [RSVP at Meetup](https://www.meetup.com/JAMstack-nyc/events/255741440/)
+This month's Meetup will be centered around GraphQL from introduction to real life use-cases. [**RSVP at Meetup**](https://www.meetup.com/JAMstack-nyc/events/255741440/)**.**
 
 Our first session:
 
