@@ -53,6 +53,7 @@ fields:
   label: Keywords
   description: optional
 pages:
+- content/link/how-to-use-hugo-template-variables-in-scss-files-in-2018.md
 - content/link/using-minitest-to-regression-test-your-jekyll-static-site.md
 - content/link/wordpress-to-static-site-generator-(hugo)-migration-and-deployment.md
 - content/link/jamstack-basics-how-to-create-a-gatsby-starter-with-contentful-and-deploy-to-netlify.md
