@@ -34,8 +34,6 @@ sections:
   match: "**/*"
   templates:
   - link
-- type: heading
-  label: Secondary Content
 - type: directory
   path: content/event
   label: Event
