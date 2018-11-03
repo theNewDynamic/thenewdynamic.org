@@ -18,26 +18,3 @@ fields:
   label: Description
   type: text
   hidden: false
-pages:
-- content/tools/interaction-front-end/_index.md
-- content/tools/helper/_index.md
-- content/tools/hosting-deployment
-- content/tools/headless-cms-api-based/_index.md
-- content/tools/headless-cms-api-based
-- content/tools/hosting-deployment/_index.md
-- content/tools/theme
-- content/tools/content-management/api-based
-- content/tools/static-site-generator
-- content/tools/headless-cms-git-based/_index.md
-- content/tools/interaction-back-end/_index.md
-- content/tools/static-site-generator/_index.md
-- content/tools/headless-cms-git-based
-- content/tools/content-management/_index.md
-- content/tools/interaction-back-end
-- content/tools/interaction-front-end
-- content/tools/content-management/api-based/_index.md
-- content/tools/theme/_index.md
-- content/tools/interaction
-- content/tools/interaction/_index.md
-- content/tools/content-management
-- content/tools/helper

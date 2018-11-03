@@ -35,6 +35,23 @@ sections:
   templates:
   - link
 - type: directory
+  path: content/event
+  label: Event
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/article
+  label: Article
+  create: all
+  match: "**/*"
+- type: directory
+  path: data
+  label: Data
+  create: none
+  match: "**/*.{json,yaml,yml,toml}"
+- type: heading
+  label: Internal Content
+- type: directory
   path: content
   label: Pages
   create: all
@@ -44,28 +61,6 @@ sections:
   label: About
   create: all
   match: "**/*"
-- type: directory
-  path: content/article
-  label: Article
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/event
-  label: Event
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/tools
-  label: Tools
-  create: all
-  match: "**/*"
-  templates:
-  - tools
-- type: directory
-  path: data
-  label: Data
-  create: none
-  match: "**/*.{json,yaml,yml,toml}"
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: "/uploads"
