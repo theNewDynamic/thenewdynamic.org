@@ -4,6 +4,36 @@ auto_deploy: false
 admin_path: admin
 webhook_url: 
 sections:
+- type: heading
+  label: Main Content
+- type: directory
+  path: content/tool
+  label: Tool
+  create: all
+  match: "**/*"
+  templates:
+  - tool
+- type: directory
+  path: content/showcase
+  label: Showcase
+  create: all
+  match: "**/*"
+  templates:
+  - showcase
+- type: directory
+  path: content/video
+  label: Video
+  create: all
+  match: "**/*"
+  templates:
+  - video
+- type: directory
+  path: content/link
+  label: Link
+  create: all
+  match: "**/*"
+  templates:
+  - link
 - type: directory
   path: content
   label: Pages
@@ -25,48 +55,12 @@ sections:
   create: all
   match: "**/*"
 - type: directory
-  path: content/link
-  label: Link
-  create: all
-  match: "**/*"
-  templates:
-  - link
-- type: directory
-  path: content/showcase
-  label: Showcase
-  create: all
-  match: "**/*"
-  templates:
-  - showcase
-- type: directory
   path: content/tools
   label: Tools
   create: all
   match: "**/*"
   templates:
   - tools
-- type: directory
-  path: content/tool
-  label: Tool
-  create: all
-  match: "**/*"
-  templates:
-  - tool
-- type: directory
-  path: content/community
-  label: Community
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/profile
-  label: Profile
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/video
-  label: Video
-  create: all
-  match: "**/*"
 - type: directory
   path: data
   label: Data
