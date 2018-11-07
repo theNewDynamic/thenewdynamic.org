@@ -5,7 +5,6 @@ weight: ''
 description: Commerce Layer is a headless platform that makes it easy to build enterprise-level
   ecommerce into your JAMstack site.
 tools:
-- interaction
 - interaction/back-end
 license: Commercial
 data_model: ''
