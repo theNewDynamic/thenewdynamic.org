@@ -3,7 +3,6 @@ title: Snipcart
 date: 2015-05-15 01:54:00 +0000
 featured: false
 tools:
-- interaction
 - interaction-front-end
 urls:
   website: https://snipcart.com/
