@@ -101,6 +101,7 @@ fields:
     max: '100'
     step: '1'
 pages:
+- content/tool/snipcart.md
 - content/tool/alembic-theme.md
 - content/tool/orchid.md
 - content/tool/contentstack.md
@@ -132,7 +133,6 @@ pages:
 - content/tool/flatmarket.md
 - content/tool/osmek.md
 - content/tool/bitballoon.md
-- content/tool/snipcart.md
 - content/tool/hugo.md
 - content/tool/federalist.md
 - content/tool/google-custom-search-engine.md
