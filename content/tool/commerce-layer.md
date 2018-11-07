@@ -12,7 +12,7 @@ data_model: ''
 language: ''
 related_tools: []
 tags:
-- commerce
+- e-commerce
 urls:
   website: https://commercelayer.io/
   github: ''
