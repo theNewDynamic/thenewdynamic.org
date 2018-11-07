@@ -11,7 +11,7 @@ urls:
   other: ''
 resources:
 - name: Docker Image for Hugo
-  url: https://github.com/felicianotech/docker-hugo
+  url: https://github.com/cibuilds/hugo
 - name: Discussion Forums
   url: https://discuss.gohugo.io/
 - name: Victor Hugo (starter repo for using Webpack)
@@ -30,7 +30,7 @@ license: Open Source
 headless-cms: ''
 related_tools: []
 tags: []
-language: Go
+language: ''
 weight: 2
 
 ---
