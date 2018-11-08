@@ -120,6 +120,7 @@ priority = 0.5
 meetup = "https://www.meetup.com/JAMstack-nyc/"
 slack = "https://join.slack.com/t/thenewdynamic/shared_invite/enQtMjkwNjYwNTY0NjkxLWI1NDhlNjZkZjA5ZGJmODE1OThiMjkwN2ZkMzE1YjEwN2YwNWUxYTNjZTUxMGQ2MzU3NWQ0YmVjNGU1NTkxMDk"
 twitter = "thenewdynamic"
+youtube = "/channel/UCIGy4_KqcaGvltWCLpMXWug"
 [taxonomies]
 headless-cms = "headless-CMS"
 language = "language"
