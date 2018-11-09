@@ -7,12 +7,23 @@
     {{/* TOP SECTION */}}
     <div class="page-list_default center mx-auto lg:grid grid-columns-12 grid-gap-4">
       <div class="col-span-9">
-        <div class="borderTK p-8 sm:grid grid-columns-12 grid-gap-4">
+        <div class="borderTK xl:grid grid-columns-12 grid-gap-4">
           <div class="col-span-9">
-            <h2 class="font-brand text-5xl lh-copy grey-dark text-gray-darker mb-4 max-w-smTK">
+              {{ with .Content }}{{ . }}{{ end }}
+            {{/* <h2 class="font-brand text-5xl lh-copy grey-dark text-gray-darker mb-4 max-w-smTK">
                 {{ with .Content }}{{ . }}{{ end }}
-            </h2>
+            </h2> */}}
+
           </div>
+          <div class="col-span-3">
+              {{ with .Params.home_page_copy }}
+                <div class="p-4">
+                    {{ . | markdownify }}
+                </div>
+              {{ end }}
+
+          </div>
+
         </div>
         <div class="lg:mt-8 grid-columns-2 grid-gap-4 sm:grid lg:grid-columns-3">
           {{ $featured := where (.Site.RegularPages) "Section" "showcase" }}
