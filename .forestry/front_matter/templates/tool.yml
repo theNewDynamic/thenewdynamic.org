@@ -118,6 +118,7 @@ fields:
       section: tools
   label: Cat Test
 pages:
+- content/tool/bonsai.md
 - content/tool/commerce-layer.md
 - content/tool/gutenberg.md
 - content/tool/nuxtjs.md
