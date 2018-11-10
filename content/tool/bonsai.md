@@ -6,7 +6,6 @@ description: Integrate powerful search functionality into your applications, wit
   ever having to set up or manage servers.
 tools:
 - interaction/front-end
-- interaction
 license: Commercial
 data_model: ''
 language: ''
