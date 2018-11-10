@@ -64,6 +64,7 @@ fields:
   name: images
   label: Images
 pages:
+- content/showcase/naturaily.md
 - content/showcase/zeit.md
 - content/showcase/shopflamingo-com.md
 - content/showcase/psd-wizard.md
