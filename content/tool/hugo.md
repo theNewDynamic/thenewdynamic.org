@@ -25,6 +25,8 @@ resources:
   url: https://github.com/rdwatters/hugo-starter
 - name: Hugo CLI
   url: https://www.npmjs.com/package/hugo-cli
+- name: Configure Hugo to Ingest into Elasticsearch
+  url: https://docs.bonsai.io/docs/hugo
 description: The world’s fastest framework for building websites
 license: Open Source
 headless-cms: ''
