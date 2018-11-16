@@ -29,7 +29,7 @@ sections:
   - video
 - type: directory
   path: content/link
-  label: Link
+  label: Links
   create: all
   match: "**/*"
   templates:
@@ -38,12 +38,12 @@ sections:
   label: Secondary Section
 - type: directory
   path: content/event
-  label: Event
+  label: Events
   create: all
   match: "**/*"
 - type: directory
   path: content/article
-  label: Article
+  label: Articles
   create: all
   match: "**/*"
   templates:
