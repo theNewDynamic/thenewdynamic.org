@@ -8,7 +8,7 @@ sections:
   label: Main Content
 - type: directory
   path: content/tool
-  label: Tool
+  label: Tools Directory
   create: all
   match: "**/*"
   templates:
