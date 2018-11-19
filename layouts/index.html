@@ -7,22 +7,12 @@
     {{/* TOP SECTION */}}
     <div class="page-list_default center mx-auto lg:grid grid-columns-12 grid-gap-4">
       <div class="col-span-9">
-        <div class="mb-16 lg:grid grid-columns-12 grid-gap-4">
+        <div class="borderTK p-8 sm:grid grid-columns-12 grid-gap-4">
           <div class="col-span-9">
-              {{ with .Content }}{{ . }}{{ end }}            
+            <h2 class="font-brand text-5xl lh-copy grey-dark text-gray-darker mb-4 max-w-smTK">
+                {{ with .Content }}{{ . }}{{ end }}
+            </h2>
           </div>
-          <div class="col-span-3">              
-            <div class="p-4 leading-tight">
-              <h2 class="leading-tight mb-4">GraphQL - Everything You've Ever Wanted to Know</h2>
-              <h3 class="mb-2">LIVESTREAM 11/14</h3>
-              <p>In NYC. Attend the event! <br />
-                <a href="https://www.meetup.com/JAMstack-nyc/events/255741440/">Click Here to RSVP or for more information.</a>
-              </p>
-            </div>
-              
-
-          </div>
-
         </div>
         <div class="lg:mt-8 grid-columns-2 grid-gap-4 sm:grid lg:grid-columns-3">
           {{ $featured := where (.Site.RegularPages) "Section" "showcase" }}
