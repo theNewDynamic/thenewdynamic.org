@@ -1,6 +1,6 @@
 ---
 title: AWS Amplify
-date: 2018-04-29 21:21:10 -0400
+date: 2018-04-30 01:21:10 +0000
 description: A JavaScript library for application development using cloud services.
 urls:
   website: https://aws.github.io/aws-amplify/
@@ -16,6 +16,7 @@ tags:
 - authentication
 - react
 - serverless
+- AWS
 language: ''
 resources: []
 weight: 6

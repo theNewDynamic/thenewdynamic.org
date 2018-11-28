@@ -134,10 +134,10 @@ pages:
 - content/tool/grow.md
 - content/tool/nanoc.md
 - content/tool/appernetic.md
-- content/tool/aws-amplify.md
 - content/tool/tipue.md
 - content/tool/hashbrown.md
 - content/tool/aws-lambda.md
+- content/tool/aws-amplify.md
 - content/tool/basin.md
 - content/tool/okta.md
 - content/tool/google-custom-search-engine.md
