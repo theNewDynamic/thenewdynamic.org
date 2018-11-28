@@ -1,6 +1,6 @@
 ---
 title: AWS Lambda
-date: 2017-05-18 11:57:44 -0400
+date: 2017-05-18 15:57:44 +0000
 description: Run code without thinking about servers. Pay only for the compute time
   you consume.
 tools:
@@ -13,10 +13,12 @@ urls:
   other: ''
 tags:
 - serverless
+- AWS
 language: ''
 related_tools: []
 resources: []
 weight: ''
+
 ---
 AWS Lambda lets you run code without provisioning or managing servers. You pay only for the compute time you consume - there is no charge when your code is not running.
 

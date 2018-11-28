@@ -137,6 +137,7 @@ pages:
 - content/tool/aws-amplify.md
 - content/tool/tipue.md
 - content/tool/hashbrown.md
+- content/tool/aws-lambda.md
 - content/tool/basin.md
 - content/tool/okta.md
 - content/tool/google-custom-search-engine.md
@@ -188,7 +189,6 @@ pages:
 - content/tool/static-man.md
 - content/tool/storyblok.md
 - content/tool/pageclip.md
-- content/tool/aws-lambda.md
 - content/tool/workbox.md
 - content/tool/netlify-forms.md
 - content/tool/serverless-form-collection-application.md
