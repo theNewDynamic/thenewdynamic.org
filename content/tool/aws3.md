@@ -1,6 +1,6 @@
 ---
 title: Amazon S3
-date: 2018-04-21 07:05:02 -0400
+date: 2018-04-21 11:05:02 +0000
 tools:
 - hosting-deployment
 license: Commercial
@@ -13,10 +13,11 @@ urls:
   github: ''
   twitter: ''
   other: ''
-
 language: ''
-tags: []
+tags:
+- AWS
 resources: []
 cat_test: ''
+weight: ''
 
 ---
