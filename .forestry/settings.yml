@@ -14,6 +14,11 @@ sections:
   templates:
   - tool
 - type: directory
+  path: content/tools
+  label: Tool Categories
+  create: all
+  match: "**/*"
+- type: directory
   path: content/showcase
   label: Showcase
   create: all
