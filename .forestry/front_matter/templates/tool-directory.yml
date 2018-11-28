@@ -33,6 +33,7 @@ fields:
     - theme
     - interaction-back-end
     - interaction-front-end
+    - serverless
   description: Category
 - type: select
   name: license
