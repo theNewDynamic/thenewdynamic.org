@@ -118,12 +118,13 @@ fields:
       section: tools
   label: Cat Test
 pages:
-- content/tool/bonsai.md
-- content/tool/commerce-layer.md
-- content/tool/gutenberg.md
-- content/tool/nuxtjs.md
-- content/tool/markdown-components.md
-- content/tool/architect.md
-- content/tool/next.js.md
-- content/tool/twill.md
 - content/tool/takeshape.md
+- content/tool/bonsai.md
+- content/tool/twill.md
+- content/tool/next.js.md
+- content/tool/architect.md
+- content/tool/aws-console.md
+- content/tool/markdown-components.md
+- content/tool/nuxtjs.md
+- content/tool/gutenberg.md
+- content/tool/commerce-layer.md
