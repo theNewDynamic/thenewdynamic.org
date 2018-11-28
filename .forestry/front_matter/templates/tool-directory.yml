@@ -136,10 +136,10 @@ pages:
 - content/tool/appernetic.md
 - content/tool/tipue.md
 - content/tool/hashbrown.md
-- content/tool/aws-lambda.md
 - content/tool/webtask.md
 - content/tool/aws-amplify.md
 - content/tool/netlify-functions.md
+- content/tool/aws-lambda.md
 - content/tool/basin.md
 - content/tool/okta.md
 - content/tool/google-custom-search-engine.md
