@@ -38,6 +38,7 @@ fields:
     - theme
     - interaction/back-end
     - interaction/front-end
+    - serverless
   description: Category
 - type: select
   name: license
@@ -123,8 +124,8 @@ pages:
 - content/tool/twill.md
 - content/tool/next.js.md
 - content/tool/architect.md
-- content/tool/aws-console.md
 - content/tool/begin.md
+- content/tool/aws-console.md
 - content/tool/markdown-components.md
 - content/tool/nuxtjs.md
 - content/tool/gutenberg.md
