@@ -137,6 +137,7 @@ pages:
 - content/tool/next.js.md
 - content/tool/hashbrown.md
 - content/tool/now.md
+- content/tool/azure-functions-by-microsoft.md
 - content/tool/begin.md
 - content/tool/aws-console.md
 - content/tool/html-proofer.md
