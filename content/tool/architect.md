@@ -1,10 +1,10 @@
 ---
 title: ".architect"
-date: 2018-07-31 09:18:07 -0400
+date: 2018-07-31 13:18:07 +0000
 weight: ''
 description: Lambda functions simplified
 tools:
-- interaction/back-end
+- serverless
 license: ''
 data_model: ''
 language: ''

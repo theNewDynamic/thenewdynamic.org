@@ -136,7 +136,6 @@ pages:
 - content/tool/appernetic.md
 - content/tool/next.js.md
 - content/tool/hashbrown.md
-- content/tool/architect.md
 - content/tool/begin.md
 - content/tool/aws-console.md
 - content/tool/html-proofer.md
@@ -206,6 +205,7 @@ pages:
 - content/tool/meet-hyde.md
 - content/tool/full-calendar.md
 - content/tool/hugo.md
+- content/tool/architect.md
 - content/tool/okta.md
 - content/tool/markdown-components.md
 - content/tool/bitballoon.md
