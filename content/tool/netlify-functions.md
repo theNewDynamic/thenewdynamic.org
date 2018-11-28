@@ -1,6 +1,6 @@
 ---
 title: Netlify Functions
-date: 2018-05-19 11:48:33 -0400
+date: 2018-05-19 15:48:33 +0000
 urls:
   website: https://www.netlify.com/docs/functions/
   github: ''
@@ -8,7 +8,7 @@ urls:
   other: ''
 description: Lambda functions on Netlify
 tools:
-- interaction-back-end
+- serverless
 license: Commercial
 related_tools:
 - tool/netlify.md

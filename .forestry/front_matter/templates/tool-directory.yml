@@ -139,6 +139,7 @@ pages:
 - content/tool/hashbrown.md
 - content/tool/aws-lambda.md
 - content/tool/aws-amplify.md
+- content/tool/netlify-functions.md
 - content/tool/basin.md
 - content/tool/okta.md
 - content/tool/google-custom-search-engine.md
@@ -163,7 +164,6 @@ pages:
 - content/tool/imgix.md
 - content/tool/userapp.md
 - content/tool/netlify-cms.md
-- content/tool/netlify-functions.md
 - content/tool/phenomic.md
 - content/tool/shoal-hosting.md
 - content/tool/jekyll-lambda.md
