@@ -1,9 +1,9 @@
 ---
 title: Firebase Functions
-date: 2018-06-05 09:46:26 -0400
+date: 2018-06-05 13:46:26 +0000
 description: Develop a backend without servers
 tools:
-- interaction-back-end
+- serverless
 license: Commercial
 language: ''
 related_tools: []

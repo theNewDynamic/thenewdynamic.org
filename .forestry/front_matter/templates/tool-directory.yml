@@ -109,7 +109,6 @@ pages:
 - content/tool/fridge-cms.md
 - content/tool/formcarry.md
 - content/tool/drive-cms.md
-- content/tool/webtask.md
 - content/tool/mozaik.md
 - content/tool/headless.md
 - content/tool/harp.md
@@ -138,6 +137,7 @@ pages:
 - content/tool/tipue.md
 - content/tool/hashbrown.md
 - content/tool/aws-lambda.md
+- content/tool/webtask.md
 - content/tool/aws-amplify.md
 - content/tool/netlify-functions.md
 - content/tool/basin.md
