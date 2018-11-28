@@ -7,76 +7,76 @@ enableRobotsTXT = true
 googleAnalytics = "UA-30899180-6"
 languageCode = "en-us"
 preserveTaxonomyNames = true
+rssLimit = 20
 theme = "hugo-base-layouts"
 title = "the New Dynamic"
-rssLimit = 20
 [blackfriday]
 fractions = false
 [mediaTypes."text/netlify"]
 delimiter = ""
 suffixes = ""
 [[menu.main]]
-identifier = "tools"
-name = "Tools Directory"
-url = "/tool/"
-weight = 1.0
-[[menu.main]]
 identifier = "jobs"
 name = "Find a Developer"
 url = "/jobs/"
-weight = 4.0
-[[menu.main]]
-identifier = "showcase"
-name = "Showcase"
-url = "/showcase/"
-weight = 2.0
+weight = 4
 [[menu.main]]
 identifier = "community"
 name = "Community"
 url = "/community/"
-weight = 3.0
-[[menu.tools]]
-identifier = "static-site-generator"
-name = "Static Site Generator"
-url = "/tools/static-site-generator/"
-weight = 1.0
+weight = 3
+[[menu.main]]
+identifier = "showcase"
+name = "Showcase"
+url = "/showcase/"
+weight = 2
+[[menu.main]]
+identifier = "tools"
+name = "Tools Directory"
+url = "/tool/"
+weight = 1
 [[menu.tools]]
 identifier = "content-management"
 name = "Content Management"
 url = "/tools/content-management/"
-weight = 2.0
-[[menu.tools]]
-identifier = "git-based"
-name = "Git-based"
-parent = "content-management"
-url = "/tools/headless-cms-git-based/"
-weight = 1.0
+weight = 4
 [[menu.tools]]
 identifier = "api-based"
 name = "API-based"
 parent = "content-management"
 url = "/tools/headless-cms-api-based/"
-weight = 2.0
+weight = 3
 [[menu.tools]]
-identifier = "interaction-backend"
-name = "Interaction: Back-end"
-url = "/tools/interaction-back-end/"
-weight = 3.0
+identifier = "static-site-generator"
+name = "Static Site Generator"
+url = "/tools/static-site-generator/"
+weight = 2
 [[menu.tools]]
-identifier = "interaction-front-end"
-name = "Interaction: Front-end"
-url = "/tools/interaction-front-end/"
-weight = 4.0
-[[menu.tools]]
-identifier = "hosting-deployment"
-name = "Hosting & Deployment"
-url = "/tools/hosting-deployment/"
-weight = 5.0
+identifier = "git-based"
+name = "Git-based"
+parent = "content-management"
+url = "/tools/headless-cms-git-based/"
+weight = 1
 [[menu.tools]]
 identifier = "helper"
 name = "Helper"
 url = "/tools/helper/"
-weight = 6.0
+weight = 9
+[[menu.tools]]
+identifier = "hosting-deployment"
+name = "Hosting & Deployment"
+url = "/tools/hosting-deployment/"
+weight = 8
+[[menu.tools]]
+identifier = "interaction-front-end"
+name = "Interaction: Front-end"
+url = "/tools/interaction-front-end/"
+weight = 7
+[[menu.tools]]
+identifier = "interaction-backend"
+name = "Interaction: Back-end"
+url = "/tools/interaction-back-end/"
+weight = 6
 [outputFormats.HEADERS]
 baseName = "_headers"
 isPlainText = true
