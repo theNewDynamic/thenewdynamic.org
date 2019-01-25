@@ -136,7 +136,6 @@ pages:
 - content/tool/appernetic.md
 - content/tool/next.js.md
 - content/tool/hashbrown.md
-- content/tool/azure-functions-by-microsoft.md
 - content/tool/now.md
 - content/tool/begin.md
 - content/tool/aws-console.md
@@ -252,6 +251,7 @@ pages:
 - content/tool/docusaurus.md
 - content/tool/graphcms.md
 - content/tool/microsoft-azure-functions.md
+- content/tool/vssue.md
 - content/tool/aws3.md
 - content/tool/commerce-layer.md
 - content/tool/snipcart.md
@@ -259,6 +259,7 @@ pages:
 - content/tool/hexo.md
 - content/tool/fusejs-search.md
 - content/tool/typeform.md
+- content/tool/azure-functions-by-microsoft.md
 - content/tool/brunch.md
 - content/tool/_index.md
 - content/tool/swiftype.md
