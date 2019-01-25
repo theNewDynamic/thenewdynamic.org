@@ -7,7 +7,7 @@ tools:
 - interaction/front-end
 license: Open Source
 data_model: ''
-language: ''
+language: VueJS
 related_tools: []
 tags:
 - comments
