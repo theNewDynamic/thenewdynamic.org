@@ -4,6 +4,7 @@ weight: ''
 description: A Vue-powered Issue-based Comment Plugin
 date: 2019-01-24 00:00:00 -0500
 tools:
+- interaction
 - interaction/front-end
 license: Open Source
 data_model: ''
