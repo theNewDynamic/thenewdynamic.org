@@ -4,7 +4,7 @@ weight: ''
 description: Outputs Wordpress sites to Static
 date: 2019-01-28 00:00:00 -0500
 tools:
-- build-tool
+- static-site-generator
 license: Commercial
 data_model: ''
 language: PHP
