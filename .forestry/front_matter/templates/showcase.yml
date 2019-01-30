@@ -45,7 +45,7 @@ fields:
     label: Twitter username
     type: text
     hidden: false
-    default: ''
+    default: "@username"
   hidden: false
   default:
   - name: 
