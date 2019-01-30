@@ -11,7 +11,7 @@ creator:
 - name: Monbanquet
   role: Design/Development
   url: https://github.com/monbanquet
-  twitter_username: https://twitter.com/monbanquet
+  twitter_username: monbanquet
 image_path: "/uploads/showcase/"
 images:
 - "/uploads/monbanquet-gatsby-contentful.png"
