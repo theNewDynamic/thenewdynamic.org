@@ -11,10 +11,10 @@ tags: []
 license: Commercial
 urls:
   website: https://prismic.io/
-  github: ''
-  twitter: ''
+  github: 'prismicio'
+  twitter: 'prismicio'
   other: ''
-description: "\nAPI-based headlessCMS "
+description: "API-based headlessCMS "
 resources:
 - name: Documentation
   url: https://prismic.io/docs
@@ -23,4 +23,5 @@ related_tools: []
 cat_test: ''
 
 ---
-prismic.io is a productive, enjoyable WordPress alternative for  developers and publishers.
+
+prismic.io is a productive, enjoyable WordPress alternative for developers and publishers.
