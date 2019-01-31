@@ -4,10 +4,9 @@ weight: 1
 description: Ghost is a fully open source, adaptable platform for building and running
   a modern online publication. We power blogs, magazines and journalists from Zappos
   to Sky News.
-date: 2019-01-10 00:00:00 -0500
+date: 2019-01-10 05:00:00 +0000
 tools:
 - content-management
-- headless-cms-api-base
 license: Hybrid
 data_model: API-based
 language: Node
@@ -20,7 +19,9 @@ urls:
   github: ''
   twitter: https://twitter.com/TryGhost
   other: ''
-resources: []
+resources:
+- name: Netlify Integration
+  url: https://docs.ghost.org/integrations/netlify/
 cat_test: ''
 
 ---
