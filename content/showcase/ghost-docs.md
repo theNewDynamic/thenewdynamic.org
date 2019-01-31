@@ -9,6 +9,6 @@ repo: ''
 creator: []
 image_path: "/uploads/showcase/"
 images:
-- "/uploads/Screen Shot 2019-01-30 at 10.32.54 PM.jpg"
+- "/uploads/showcase-ghost-gatsby.jpg"
 
 ---
