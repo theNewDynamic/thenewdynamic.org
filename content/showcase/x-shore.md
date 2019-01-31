@@ -1,6 +1,6 @@
 ---
 title: X Shore
-date: 2019-01-30 05:00:00 -0500
+date: 2019-01-29 05:00:00 -0500
 related_tools:
 - tool/next.js.md
 - tool/sanity.md
