@@ -39,6 +39,8 @@ fields:
     - interaction/back-end
     - interaction/front-end
     - serverless
+    - headless-cms-api-base
+    - headless-cms-git-base
   description: Category
 - type: select
   name: license
