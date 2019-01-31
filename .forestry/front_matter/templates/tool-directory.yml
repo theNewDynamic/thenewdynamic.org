@@ -23,17 +23,17 @@ fields:
       section: tools
     options:
     - content-management
-    - headless-cms-api-based
-    - headless-cms-git-based
     - build-tool
     - helper
     - hosting-deployment
     - interaction
     - static-site-generator
     - theme
-    - interaction-back-end
-    - interaction-front-end
+    - interaction/back-end
+    - interaction/front-end
     - serverless
+    - headless-cms-api-base
+    - headless-cms-git-base
   description: Category
 - type: select
   name: license
