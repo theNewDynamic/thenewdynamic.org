@@ -6,8 +6,8 @@ description: This month's event was about taking the static out of static websit
 link: https://www.meetup.com/JAMstack-nyc/events/257790865/
 tool: []
 custom: []
-images: []
-draft: true
+images:
+- "/uploads/JAMstack-nyc-jan-24-2019.png"
 
 ---
 
