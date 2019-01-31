@@ -3,7 +3,7 @@
   X-XSS-Protection: 1; mode=block
   X-Content-Type-Options: nosniff
   Referrer-Policy: origin-when-cross-origin
-*/
+/*
   
 {{ $stylesheet := .Site.Data.webpack_assets.app }}
 {{ $script := .Site.Data.webpack_assets.app }}
