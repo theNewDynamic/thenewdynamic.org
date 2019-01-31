@@ -1,10 +1,11 @@
 ---
 title: Bonsai
-date: 2018-11-10 08:13:48 -0500
+date: 2018-11-10 13:13:48 +0000
 weight: ''
 description: Integrate powerful search functionality into your applications, without
   ever having to set up or manage servers.
 tools:
+- interaction
 - interaction/front-end
 license: Commercial
 data_model: ''
