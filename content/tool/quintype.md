@@ -1,7 +1,8 @@
 ---
 title: Quintype
-date: 2018-05-08 05:12:41 -0400
+date: 2018-05-08 09:12:41 +0000
 tools:
+- content-management
 - headless-cms-api-based
 license: Commercial
 urls:
@@ -15,5 +16,7 @@ related_tools: []
 tags: []
 resources: []
 weight: ''
+data_model: ''
+cat_test: ''
 
 ---
