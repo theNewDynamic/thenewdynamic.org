@@ -26,11 +26,11 @@ And in the end we will look at the range of currently available solutions, from 
 
 ## Our Speakers
 
-Jared Short
+**Jared Short**
 
 Jared Short, Head of Developer Relations and Experience at Serverless, Inc., and is based in Washington, DC. He comes to the company with a strong background in and building, operating and maintaining serverless and event-driven systems in his previous role at Trek10, a serverless first AWS partner.
 
-Sergey Chernyshev
+**Sergey Chernyshev**
 
 Sergey Chernyshev (@sergeyche) is web a performance enthusiast, open source hacker and web addict. He works as a principal engineer at Meetup and organizes New York Web Performance Meetup Group, local community of web performance geeks in New York and helps kick-start local groups about Web Performance around the world. Sergey teaches a live on-line course about performance with O'Reilly and often speaks on performance-related topics at various local New York events and global conferences, including Velocity and QCon.
 
