@@ -12,6 +12,6 @@ images:
 - "/uploads/showcase-ghost-gatsby-v2.jpg"
 
 ---
-We started rebuilding our [Ghost Docs](https://docs.ghost.org/?_ga=2.184042278.1689119274.1548903111-1093169326.1541512825) site at the end of last year we set out to use Ghost as a headless CMS, along with a front-end written in [Gatsby.js](https://gatsbyjs.org/). We fell in love hard and fast, and have been building new things with Gatsby ever since.
+We started rebuilding our Ghost Docs site at the end of last year we set out to use Ghost as a headless CMS, along with a front-end written in Gatsby.js. We fell in love hard and fast, and have been building new things with Gatsby ever since.
 
 Read more at: ["Ghost on the JAMstack"](https://blog.ghost.org/jamstack/)
