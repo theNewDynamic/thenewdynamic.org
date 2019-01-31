@@ -1,11 +1,10 @@
 /*
   X-Frame-Options: DENY
   X-XSS-Protection: 1; mode=block
-  {{with $.Param "dev.content-security-policy"}}  Content-Security-Policy-Report-Only: {{.}}{{end}}
   X-Content-Type-Options: nosniff
-  Referrer-Policy: no-referrer-when-downgrade
-
-/*
+  Referrer-Policy: origin-when-cross-origin
+*/
+  
 {{ $stylesheet := .Site.Data.webpack_assets.app }}
 {{ $script := .Site.Data.webpack_assets.app }}
   {{ with $stylesheet.css }}
