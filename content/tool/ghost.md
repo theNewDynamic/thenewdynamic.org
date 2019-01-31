@@ -7,6 +7,7 @@ description: Ghost is a fully open source, adaptable platform for building and r
 date: 2019-01-10 00:00:00 -0500
 tools:
 - content-management
+- headless-cms-api-base
 license: Hybrid
 data_model: API-based
 language: Node
