@@ -10,11 +10,15 @@ images:
 - "/uploads/JAMstack-nyc-jan-24-2019.png"
 
 ---
+## Session 1
+
 You've heard the term "serverless", you may have tinkered with AWS Lambda, but now let's put our static site to work with a custom API that we don't have to worry about servers or scaling. We'll learn how to wrangle all our code in an end to end development workflow with the Serverless Framework, the most widely-adopted toolkit for building serverless applications.
 
 {{< youtube 1fI42ZTgYxM >}}
 
 ***
+
+## Session 2
 
 Sergey Chernyshev is going to talk about the reasons why we prefer generation+deployment workflow to calculating output in real time as users request information. We will review the difference between generation and caches and why the former is more preferred strategy while latter is often misleading with it’s declared ease of implementation.
 
@@ -24,7 +28,7 @@ And in the end we will look at the range of currently available solutions, from 
 
 ***
 
-## Our Speakers
+### Our Speakers
 
 **Jared Short**
 
