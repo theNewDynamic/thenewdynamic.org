@@ -9,6 +9,6 @@ repo: ''
 creator: []
 image_path: "/uploads/showcase/"
 images:
-- "/uploads/showcase-ghost-gatsby.jpg"
+- "/uploads/showcase-ghost-gatsby-v2.jpg"
 
 ---
