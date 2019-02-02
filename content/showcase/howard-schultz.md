@@ -10,6 +10,5 @@ creator: []
 image_path: "/uploads/showcase/"
 images:
 - "/uploads/showcase-howardschultz.com-gatsby.jpg"
-draft: true
 
 ---
