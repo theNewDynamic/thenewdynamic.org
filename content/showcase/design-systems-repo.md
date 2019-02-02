@@ -14,7 +14,6 @@ creator:
 image_path: "/uploads/showcase/"
 images:
 - "/uploads/designsystemsrepo-jekyll-github-pages.png"
-draft: true
 
 ---
 A frequently updated collection of Design System [examples](https://designsystemsrepo.com/design-systems/), [articles](https://designsystemsrepo.com/articles/), [tools](https://designsystemsrepo.com/tools/) and [talks](https://designsystemsrepo.com/talks/).
