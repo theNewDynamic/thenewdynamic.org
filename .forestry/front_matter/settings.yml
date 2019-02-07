@@ -1,0 +1,23 @@
+---
+new_page_extension: md
+auto_deploy: false
+admin_path: admin
+webhook_url: 
+sections:
+- path: content
+  label: Pages
+  create: all
+  templates:
+  - default
+  - home
+- path: content/about
+  label: About
+  create: all
+  templates:
+  - default
+upload_dir: static/uploads
+public_path: "/uploads"
+front_matter_path: ''
+use_front_matter_path: false
+file_template: ":filename:"
+version: 0.48

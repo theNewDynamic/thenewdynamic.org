@@ -6,10 +6,16 @@ fields:
   label: defaults
   template: partial-default
 - type: include
+  name: date
+  label: date
+  template: partial-date
+- type: include
   name: image
   label: image
   template: partial-images-w-credit
-- type: include
-  name: weight
-  label: weight
-  template: partial-weight
+- type: tag_list
+  label: Topics
+  name: tags
+- type: tag_list
+  label: Category
+  name: categories

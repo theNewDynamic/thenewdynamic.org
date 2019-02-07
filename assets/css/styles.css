@@ -1,0 +1,22 @@
+/* Declare values:
+  https://github.com/css-modules/postcss-modules-values#css-modules-values 
+*/
+
+/* 
+  Uncomment to use Tailwind Utility Class CSS
+    @import "tailwind/tailwind.css";  
+*/
+
+/* Add your styles here. You can import  */
+
+/* USE PURGE CSS ON ABOVE CODE ONLY. ANYTHING BETWEEN THE IGNORE TAGS BELOW WILL NOT BE IGNORED
+https://www.purgecss.com/whitelisting#in-the-css-directly */
+
+/* purgecss start ignore */
+
+@value primary: #BF4040;
+
+.text-primary {
+  color: primary;
+}
+/* purgecss end ignore */

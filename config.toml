@@ -1,0 +1,81 @@
+title = "Hugo Starter"
+DefaultContentLanguage = "en"
+MetaDataFormat = "yaml"
+buildFuture = true
+baseURL = "https://www.thenewdynamic.com"
+enableRobotsTXT = true
+googleAnalytics = ""
+languageCode = "en-us"
+themesDir = "components"
+#theme = ["hugo-base-layouts"]
+preserveTaxonomyNames = true
+disableAliases = true
+[blackfriday]
+extensionsmask = [
+"noIntraEmphasis"
+]
+
+[menu]
+
+[[menu.main]]
+identifier = "home"
+name = "Home"
+url = "/"
+weight = 1.0
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 60.0
+
+[mediaTypes]
+
+[mediaTypes."text/netlify"]
+delimiter = ""
+suffixes = [""]
+
+
+[outputFormats]
+
+[outputFormats.HEADERS]
+baseName = "_headers"
+isPlainText = true
+mediatype = "text/netlify"
+notAlternative = true
+
+[outputFormats.REDIR]
+baseName = "_redirects"
+isPlainText = true
+mediatype = "text/netlify"
+notAlternative = true
+
+[outputs]
+home = [
+"HTML",
+"HEADERS",
+"REDIR"
+]
+
+[params]
+description = "Build Faster Better Websites with modern tools and techniques"
+logo = ""
+
+
+# [related]
+# includeNewer = true
+
+# [[related.indices]]
+# name = "section_name"
+# toLower = true
+# weight = 100.0
+
+[sitemap]
+changefreq = "monthly"
+filename = "sitemap.xml"
+priority = 0.5
+
+[social]
+
+[taxonomies]
+tag = "tags"

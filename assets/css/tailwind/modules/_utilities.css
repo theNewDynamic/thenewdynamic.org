@@ -1,0 +1,38 @@
+h1, h2, h3, h4, h5 {
+  @apply .my-4;
+}
+
+
+html.no-js .js-only{
+  visibility: hidden;
+}
+html.js .js-only{
+  visibility: visible;
+}
+
+.bg-inherit { background-color: inherit}
+.color-inherit { color: inherit}
+
+p {
+  @apply .mb-4;
+}
+p a:link, p a:active, p a:visited {
+  /* This blue has a 4.77 contrast ratio on white 4.56 on near-white */
+    color: #1A76C1;
+}
+p a:hover {
+  color: #12283a;
+}
+
+
+hr {
+  @apply .py-4;
+}
+
+dt::after {
+  content: ": ";
+}
+
+.btn {
+    @apply .font-bold .py-2 .px-4 .rounded .no-underline .border .inline-block .mb-2;
+  }

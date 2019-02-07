@@ -1,0 +1,24 @@
+[build]
+publish = "public"
+command = "hugo --gc --minify"
+
+[build.environment]
+HUGO_VERSION = "0.51"
+
+[context.production.environment]
+HUGO_VERSION = "0.51"
+# Uncomment the next line when moving site to production
+# HUGO_ENV = "production"
+#HUGO_ENABLEGITINFO = "true"
+
+[context.deploy-preview]
+command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
+
+[context.branch-deploy]
+command = "hugo --gc --minify -b $DEPLOY_URL"
+
+
+
+
+# https://www.netlify.com/docs/continuous-deployment/#deploy-contexts
+# https://www.netlify.com/blog/2017/04/11/netlify-plus-hugo-0.20-and-beyond/

@@ -1,0 +1,41 @@
+---
+label: partial-date
+hide_body: false
+is_partial: true
+fields:
+- name: venue
+  label: Venue
+  type: field_group
+  fields:
+  - name: address
+    label: Address
+    type: text
+    hidden: false
+    default: ''
+  - name: city
+    label: City
+    type: text
+    hidden: false
+    default: ''
+  - name: name
+    label: Name
+    type: text
+    hidden: false
+    default: ''
+  - name: state
+    label: State
+    type: text
+    hidden: false
+    default: ''
+  - name: zip
+    label: Zip
+    type: text
+    hidden: false
+    default: ''
+  - name: link
+    label: Link
+    type: text
+    hidden: false
+    default:   
+  hidden: false
+  default: 
