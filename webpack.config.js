@@ -1,8 +1,8 @@
 const webpack = require("webpack");
 const path = require("path");
 const CleanWebpackPlugin = require("clean-webpack-plugin");
-const MiniCssExtractPlugin = require("mini-css-extract-plugin");
-const PurgecssPlugin = require("purgecss-webpack-plugin");
+// const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+// const PurgecssPlugin = require("purgecss-webpack-plugin");
 const glob = require("glob-all");
 
 class TailwindExtractor {
@@ -31,40 +31,7 @@ module.exports = env => {
 					use: {
 						loader: "babel-loader"
 					}
-				},
-				{
-					test: /\.css$/,
-					use: [
-						MiniCssExtractPlugin.loader,
-						{
-							loader: "css-loader",
-							options: {
-								importLoaders: 1,
-								minimize: true || {
-									discardComments: {
-										removeAll: true
-									},
-									minifyFontValues: false,
-									autoprefixer: false
-								}
-							}
-						},
-						{
-							loader: "postcss-loader",
-							options: {
-								ident: "postcss",
-								plugins: () => [
-									require("postcss-import"),
-									require("postcss-nested"),
-									require("tailwindcss")("./assets/css/tailwind/tailwind.config.js"),
-									require("autoprefixer")({
-										browsers: [">3%"]
-									})
-								]
-							}
-						}
-					]
-				},
+				},			
 				{
 					test: /\.(woff|woff2|eot|ttf|otf|svg)$/,
 					use: [
@@ -95,37 +62,8 @@ module.exports = env => {
 				verbose: true,
 				dry: false,
 				allowExternal: true
-			}),
-			new MiniCssExtractPlugin({
-				filename: "css/[name].css"
-			})
+			})			
 		]
 	};
-
-	if (process.env.NODE_ENV == "production") {
-		console.log("now with purge");
-		CONFIG.plugins.push(
-			new PurgecssPlugin({
-				paths: glob.sync([
-					path.join(__dirname, "layouts/**/*.html"),
-					path.join(__dirname, "layout_modules/**/**/*.html")
-				]),
-				extractors: [
-					{
-						extractor: TailwindExtractor,
-						extensions: ["html"]
-					}
-				],
-				fontFace: false,
-				whitelist: [
-					"body",
-					"ais-pagination",
-					"ais-pagination--item__active ais-pagination--item__first",
-					"ais-pagination--item__last",					
-				]
-			})
-		);
-	}
-
 	return CONFIG;
 };
