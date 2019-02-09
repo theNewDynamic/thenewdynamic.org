@@ -17,6 +17,7 @@ related_tools:
 - tool/netlify.md
 tags:
 - services
+- free
 language: ''
 resources: []
 cat_test: ''
