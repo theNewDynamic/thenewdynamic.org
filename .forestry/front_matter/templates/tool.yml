@@ -141,7 +141,6 @@ pages:
 - content/tool/hashbrown.md
 - content/tool/now.md
 - content/tool/begin.md
-- content/tool/aws-console.md
 - content/tool/html-proofer.md
 - content/tool/formspree.md
 - content/tool/staticland.md
@@ -268,6 +267,7 @@ pages:
 - content/tool/butter-cms.md
 - content/tool/bitballoon.md
 - content/tool/netlify.md
+- content/tool/aws-console.md
 - content/tool/wp2static-wordpress-plugin.md
 - content/tool/hexo-admin.md
 - content/tool/prismic.md
