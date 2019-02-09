@@ -1,0 +1,31 @@
+{{ define "main" }}
+
+  <article id="filter" class="page-list_default mx-auto">
+    {{- partial "_components/page-content.html" . -}}
+
+    {{ partial "showcase/filters.html" . }}
+
+    <section class="filteredlist content grid-columns-3 grid-gap-8 sm:grid lg:grid-columns-4">
+      {{ range (.Paginator 20).Pages }}
+      <dl class=" border-2 border-grey-lighter bg-white">
+        {{ $vendor := .Params.vendor }}
+        {{ $url := .URL }}
+        {{ $title := .Title }}
+        {{ with .Params.video_id }}
+          <div class="p-0">
+            {{ $.Scratch.Set "video_id" . }}
+            <a href="{{ $url }}" class="no-underline">
+              <img src="/images/placeholder.svg" data-src="{{ if eq $vendor "YouTube" }}https://img.youtube.com/vi/{{ . }}/hqdefault.jpg{{ else if eq $vendor "Vimeo" }}https://i.vimeocdn.com/video/{{ . }}_640.jpg{{ end }}" alt="" class="lazyload max-w-full">
+            </a>
+            <h3 class="text-base">{{ $title }}</h3>
+          </div>
+        {{ end }}
+      </dl>
+      {{ end }}
+    </section>
+
+    {{/* we will need listjs pagination here, not native.  */}}
+    {{/* {{ template "_internal/pagination.html" . }} */}}
+
+  </article>
+{{ end }}

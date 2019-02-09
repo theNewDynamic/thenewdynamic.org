@@ -1,0 +1,26 @@
+<style>
+  input#show-{{.id}} ~ .hidden-{{.id}} {
+    transform:scaleY(0);
+    transform-origin:top;
+    transition: transform 300ms ease-out;
+    position: absolute;
+    /* height: 0; */
+  }
+  input#show-{{.id}}:checked ~ .hidden-{{.id}} {
+    transform:scaleY(1);
+    height: auto;
+    position: relative;
+  }
+  .arrow {
+    transition: transform .2s;
+  }
+  input#show-{{.id}}:checked ~ label .arrow {
+    transform: rotate(180deg);
+    position: relative;
+  }
+</style>
+<input type="checkbox" name="show-{{.id}}" class="clip" value="{{.label}}" id="show-{{.id}}" />
+<label for="show-{{.id}}" class="{{.classes | default "dib bg-black br2 dim f5 link mt3 ph3 pv2 white"}}"><div class="flex items-center content-center">
+  {{.label}} <span class="arrow">{{ partial "svg/ic_arrow_drop_down.svg" . }}</span>
+</div>
+</label>

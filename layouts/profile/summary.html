@@ -1,0 +1,14 @@
+<div class="max-w-sm rounded overflow-hidden border bg-white">
+  <div class="px-6 py-4">
+    <div class="font-bold text-xl mb-2">
+      <a href="{{ .URL }}" class="dim no-underline text-grey-darkest">{{ .Title }}</a>
+    </div>
+    <div class="text-grey-darker text-base">
+      {{ .Description | markdownify | truncate "75" }}
+      <a href="{{ .URL }}" class="dim no-underline text-sm text-primary-color">more {{ partial "svg/chevron-right.svg" (dict "size" "13px") }}</a>
+    </div>
+  </div>
+  <div class="px-6 py-4">
+    {{ partial "_components/related_tools-tag.html" . }}
+  </div>
+</div>

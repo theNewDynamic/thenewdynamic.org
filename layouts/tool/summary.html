@@ -1,0 +1,45 @@
+{{ $taxonomy := index (.Params.tools) 0 }}
+{{ $category := .Site.GetPage (printf "%s%s" "/tools/" $taxonomy) }}
+{{ $links := where .Site.RegularPages ".Section" "link" }}
+{{ $related_links := $links.RelatedTo (keyVals "tool" .File.Path) }}
+{{ $related_links_count := $related_links | len }}
+
+<a href="{{ .URL }}" class="block no-underline text-black hover:opacity-90">
+  {{ with $category }}
+    <dl class="bg-grey-darkTK flex justify-between px-3 py-2 text-xs text-white" style="background-color:{{ .Params.color }};">    
+      <dt class="text-sm main-category">
+        {{- .Title -}}
+      </dt>  
+      {{/*  <span class="article-count hidden" title="Article Count">{{ $related_links | len }}</span>     */}}
+    </dl>
+  {{ end }}
+  <div class="p-3">
+    <dt class="title bold text-lg near-black">
+      {{- .Title -}}
+    </dt>
+    <dd class="description nested-links text-sm no-underline leading-normal nested-copy-line-height">
+      {{- .Params.description -}}
+    </dd>
+    <div class="hidden text-red">
+      {{ with .Params.headless_cms }}
+        <div class="headless_cms">{{- urlize . -}}</div>
+      {{ end }}
+      {{ with .Params.language}}
+        <div class="language">{{- urlize . -}}</div>
+      {{ end }}
+      {{ with .Params.license}}
+        <div class="license">{{- urlize . -}}</div>
+      {{ end }}
+      {{ with .Params.related_tools}}
+        {{range .}}
+          <div class="related_tools">{{- urlize . -}}</div>
+        {{ end }}
+      {{ end }}
+      {{ with .Params.tags}}
+        {{range .}}
+          <div class="tags">{{- urlize . -}}</div>
+        {{ end }}
+      {{ end }}
+    </div>
+  </div>
+</a>
