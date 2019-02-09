@@ -19,9 +19,11 @@ resources:
 - name: Documentation
   url: https://www.netlify.com/docs/
 language: ''
-tags: []
+tags:
+- free
 cat_test: ''
 weight: 4
+data_model: ''
 
 ---
 All the features developers need right out of the box: Global CDN, Continuous Deployment, one click HTTPS and more…

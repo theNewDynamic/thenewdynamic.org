@@ -160,7 +160,6 @@ pages:
 - content/tool/perch-runway.md
 - content/tool/troglio.md
 - content/tool/strapi.md
-- content/tool/netlify.md
 - content/tool/grow.md
 - content/tool/tipue.md
 - content/tool/webtask.md
@@ -268,6 +267,7 @@ pages:
 - content/tool/cockpit-cms.md
 - content/tool/butter-cms.md
 - content/tool/bitballoon.md
+- content/tool/netlify.md
 - content/tool/wp2static-wordpress-plugin.md
 - content/tool/hexo-admin.md
 - content/tool/prismic.md
