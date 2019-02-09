@@ -19,17 +19,21 @@ suffixes = ""
 identifier = "jobs"
 name = "Find a Developer"
 url = "/jobs/"
-weight = 4
+weight = 5
+[[menu.main]]
+name = "Videos"
+url = "/video/"
+weight = 2
 [[menu.main]]
 identifier = "community"
 name = "Community"
 url = "/community/"
-weight = 3
+weight = 4
 [[menu.main]]
 identifier = "showcase"
 name = "Showcase"
 url = "/showcase/"
-weight = 2
+weight = 3
 [[menu.main]]
 identifier = "tools"
 name = "Tools Directory"
