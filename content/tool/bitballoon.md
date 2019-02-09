@@ -1,5 +1,5 @@
 ---
-title: BitBalloon
+title: Netlify Drop
 date: 2015-05-16 22:38:00 +0000
 posted_date: 2015-05-16 22:38:00 +0000
 featured: false
@@ -8,7 +8,7 @@ tools:
 - hosting-deployment
 description: Drag'n Drop deployment for static sites
 urls:
-  website: https://www.bitballoon.com/
+  website: https://app.netlify.com/drop
   github: https://github.com/BitBalloon
   twitter: ''
   other: ''
@@ -17,12 +17,13 @@ related_tools:
 - tool/netlify.md
 tags:
 - services
-
 language: ''
 resources: []
 cat_test: ''
+weight: ''
+data_model: ''
 
 ---
-BitBalloon is the ancestor from [Netlify](/tool/netlify/), it's a simpler version aimed at people who just need to drag and drop a static project to get it online. 
+BitBalloon was the ancestor from [Netlify](/tool/netlify/), it's a simpler version aimed at people who just need to drag and drop a static project to get it online[.](https://www.netlify.com/blog/2018/08/14/announcing-netlify-drop---the-simplicity-of-bitballoon-with-the-added-power-of-netlify/)
 
-As Netlify also allows drag'n'drop, you better use it instead.
+[Bitballoon is now **Netlify Drop**](https://www.netlify.com/blog/2018/08/14/announcing-netlify-drop---the-simplicity-of-bitballoon-with-the-added-power-of-netlify/)
