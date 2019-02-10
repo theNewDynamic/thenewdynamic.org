@@ -1,11 +1,11 @@
 <!-- https://github.com/egoist/maid -->
-## build
+## dev
 
-Run tasks `hugo` and `parcel_watch` in parallel after this.
+Run tasks `parcel_build`, and then run`hugo` and `parcel_watch` in parallel after this.
 
 ## deploy
 
-Run task `webpack`, and then run `hugo`.
+Run task `parcel_build`, and then run `hugo`.
 
 ## parcel_watch
 
@@ -13,9 +13,10 @@ Run task `webpack`, and then run `hugo`.
 parcel watch ./assets/index.js --out-dir assets/output
 ```
 
-## os
-```js
-var os = require('os');
+## parcel_build
+
+```bash
+parcel build ./assets/index.js --out-dir assets/output --experimental-scope-hoisting
 ```
 
 ## hugo
@@ -48,7 +49,11 @@ hugo.on("close", function(code) {
     console.log('build failed');
   }
 });
+```
 
+## os
+```js
+var os = require('os');
 ```
 
 ## chmod
@@ -56,7 +61,6 @@ hugo.on("close", function(code) {
 ```bash
 chmod a+x ./bin/hugo.macos
 ```
-
 
 ## hugoUpdate
 
