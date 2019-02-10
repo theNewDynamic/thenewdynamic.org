@@ -1,5 +1,5 @@
 {
-  "name": "hugostarter",
+  "name": "thenewdynamic",
   "version": "2.0.0",
   "description": "Starter files for a Hugo project",
   "main": "index.js",
@@ -30,18 +30,5 @@
     "typeface-autour-one": "^0.0.69",
     "typeface-roboto": "^0.0.54"
   },
-  "dependencies": {
-    "tailwind": "^3.0.0",
-    "typeface-overpass": "^0.0.54"
-  },
-  "browserslist": [
-    "last 2 versions",
-    "> 1%",
-    "maintained node versions",
-    "not dead"
-  ],
-  "resources": {
-    "glob": "./assets/output",
-    "destination": "./static/output"
-  }
+  "dependencies": {}
 }

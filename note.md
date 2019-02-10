@@ -1,5 +1,7 @@
 # Hugo Asset Pipline
 
+This set up utilizes, ParcelJS for JS and fonts processing, Hugo Pipes + PostCSS for CSS processing, and Maid as a task runner. 
+
 ## JS
 
 - Uses Parcel Bundler.
