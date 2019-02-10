@@ -1,17 +1,3 @@
-{{/* data-turbolinks-track="reload" */}}
-
-{{ $script := .Site.Data.webpack_assets.app }}
-{{ with $script.js }}
-  <script src="{{ print . }}" defer></script>
-{{ end }}
-
-  {{ $script := .Site.Data.webpack_assets.algolia }}
-  {{ with $script.js }}
-    <script src="{{ print . }}" defer></script>
-  {{ end }}
-
-
-
 <script type="text/javascript">
 var MTIProjectId='0279604d-1ddd-4c0d-b491-eff8ca0e76df';
  (function() {
@@ -22,3 +8,11 @@ var MTIProjectId='0279604d-1ddd-4c0d-b491-eff8ca0e76df';
         (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild( mtiTracking );
    })();
 </script>
+
+{{ if (fileExists "./assets/output/index.js") }}
+  {{ $js := resources.Get "output/index.js" }}
+  {{ with $js }}
+    {{ $secureJS := . | resources.Fingerprint }}
+    <script type="text/javascript" src="{{ $secureJS.Permalink }}" integrity="{{ $secureJS.Data.Integrity }}" crossorigin="anonymous" defer></script>
+  {{ end }}
+{{ end }}
