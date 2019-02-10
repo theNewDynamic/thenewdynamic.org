@@ -7,40 +7,41 @@
   "author": "budparr <budparr@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "functions": "hugo & npm run serve:functions",
-    "serve:functions": "netlify-lambda serve assets/functions",
-    "build:functions": "netlify-lambda build assets/functions",
-    "deploy": "HUGO_ENV=production maid deploy",
-    "production": "hugo --gc --minify & npm run build:functions",
-    "start": "HUGO_ENV=development maid build server --gc --disableFastRender --navigateToChanged -p 4001"
+    "clean": "rm -rf public/ assets/output static/output resources",
+    "deploy": "NODE_ENV=production maid deploy",
+    "dev": "NODE_ENV=development maid dev server --gc --disableFastRender --navigateToChanged",
+    "hugo_dev": "NODE_ENV=development hugo serve --gc --disableFastRender --navigateToChanged",
+    "start": "yarn dev"
   },
   "devDependencies": {
-    "@babel/core": "^7.0.0-beta.53",
-    "@babel/preset-env": "^7.0.0-beta.53",
     "@fullhuman/postcss-purgecss": "^1.1.0",
     "autoprefixer": "^9.4.7",
-    "babel-core": "^6.26.3",
-    "babel-loader": "^8.0.0-beta",
-    "babel-preset-env": "^1.7.0",
-    "clean-webpack-plugin": "^0.1.18",
-    "css-loader": "^2.1.0",
-    "file-loader": "^2.0.0",
-    "glob-all": "^3.1.0",
     "lazysizes": "^4.1.5",
     "maid": "^0.3.0",
-    "mini-css-extract-plugin": "^0.5.0",
-    "postcss": "^7.0.14",
+    "parcel-bundler": "^1.11.0",
     "postcss-cli": "^6.1.1",
     "postcss-import": "^12.0.1",
-    "postcss-loader": "^3.0.0",
-    "purgecss-webpack-plugin": "^1.3.0",
+    "postcss-modules": "^1.4.1",
     "quicklink": "^1.0.0",
     "tailwindcss": "^0.7.4",
     "tailwindcss-aspect-ratio": "^1.0.1",
     "tailwindcss-flexbox-order": "^1.0.0",
     "tailwindcss-grid": "^1.1.0",
-    "webpack": "^4.16.0",
-    "webpack-command": "^0.4.1"
+    "typeface-autour-one": "^0.0.69",
+    "typeface-roboto": "^0.0.54"
   },
-  "dependencies": {}
+  "dependencies": {
+    "tailwind": "^3.0.0",
+    "typeface-overpass": "^0.0.54"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "> 1%",
+    "maintained node versions",
+    "not dead"
+  ],
+  "resources": {
+    "glob": "./assets/output",
+    "destination": "./static/output"
+  }
 }
