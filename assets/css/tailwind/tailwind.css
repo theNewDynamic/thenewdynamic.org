@@ -1,11 +1,19 @@
 /* Base - Variables: tailwind-config.js */
+/*
+To use Tailwind with ParcelJS, call the Tailwind files like this. Otherwise, use imports
+@tailwind preflight;
+@tailwind components;
+@tailwind utilities; */
 
-/* @import "tailwindcss/preflight"; */
+
+@import "tailwindcss/preflight";
 @import "tailwindcss/components";
+
+
 
 /* Modules */
 @import "modules/_utilities";
+@import "modules/_cards";
+
 
 @import "tailwindcss/utilities";
-
-/* Use the site file to define common component classes or to prevent duplicate sets of classes in templates. */
