@@ -1,7 +1,7 @@
 {{ $css := resources.Get "css/styles.css" | postCSS (dict "config" "./assets/css/postcss.config.js") | minify }}
 {{ with $css }}
   {{ $securecss := . | resources.Fingerprint }}  
-  <link rel="stylesheet" href="{{ $securecss.Permalink | relURL  }}" integrity="{{ $securecss.Data.Integrity }}" crossorigin="anonymous" defer data-bud> 
+  <link rel="stylesheet" href="{{ $securecss.Permalink | relURL  }}" integrity="{{ $securecss.Data.Integrity }}" crossorigin="anonymous"> 
 {{ end }}
 
 
@@ -11,7 +11,7 @@
   {{ $fonts_css := resources.Get "output/index.css" | minify }}
   {{ with $fonts_css }}
     {{ $fonts_securecss := . | resources.Fingerprint }}  
-    <link rel="stylesheet" href="{{ $fonts_securecss.Permalink | relURL  }}" integrity="{{ $fonts_securecss.Data.Integrity }}" crossorigin="anonymous" defer> 
+    <link rel="stylesheet" href="{{ $fonts_securecss.Permalink | relURL  }}" integrity="{{ $fonts_securecss.Data.Integrity }}" crossorigin="anonymous"> 
   {{ end }}
     {{/* And, Parcel generates the files to the output directory. Grab those files to create Prefetch links, and using Pipes, also puts them in our public folder */}}
   {{ $path := "./assets/output" }}

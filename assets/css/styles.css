@@ -6,29 +6,14 @@
   Uncomment to use Tailwind Utility Class CSS
     @import "tailwind/tailwind.css";  
 */
-
-/* @import 'typeface-roboto';
-
-
-@import "./tailwind/tailwind.css";   */
-
-/* @value primary: #BF4040; */
-
 @import "tailwind/tailwind.css";  
-/* Add your styles here. You can import  */
+
+
+
 
 /* USE PURGE CSS ON ABOVE CODE ONLY. ANYTHING BETWEEN THE IGNORE TAGS BELOW WILL NOT BE IGNORED
 https://www.purgecss.com/whitelisting#in-the-css-directly */
 
 /* purgecss start ignore */
-
-
-.text-primary {
-  text-align: left;
-  /* color: primary; */
-}
-.buddy {
-  color: red;
-}
 
 /* purgecss end ignore */
