@@ -1,8 +1,10 @@
 # Hugo Asset Pipline
 
-This set up utilizes ParcelJS for JS and open source font processing, Hugo Pipes + PostCSS for CSS processing, and Maid as a task runner to run Parcel and Hugo in parallel.
+This set up utilizes Parcel for Javascript and open source font processing, Hugo Pipes + PostCSS for CSS processing, and Maid as a task runner to run Parcel and Hugo in parallel.
 
-This asset pipeline is a shift from using Webpack to process JS/Fonts/CSS. ParcelJS is a bundler like Webpack, yet as a tradeoff for slightly less flexibility it has a smaller configuration and file footprint and builds faster; in fact, there is no Parcel configuration file. The shift to using Hugo to build CSS allows Hugo sites to be developed outside of an external build process. There are drawbacks to this approach, as outlined below.
+This asset pipeline is a shift for us from using Webpack to process JS/Fonts/CSS. Parcel is a bundler like Webpack, yet as a tradeoff for slightly less flexibility it has a smaller configuration and file footprint and builds faster; in fact, there is no Parcel configuration file. The shift to using Hugo to build CSS allows Hugo sites to be developed outside of an external build process. There are drawbacks to this approach, as outlined below.
+
+Note that this configuration is built around the assumption that JS/Fonts are processed in development, not production.
 
 ## JS
 
