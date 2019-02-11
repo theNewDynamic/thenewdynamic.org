@@ -4,7 +4,7 @@ This set up utilizes Parcel for Javascript and open source font processing, Hugo
 
 This asset pipeline is a shift for us from using Webpack to process JS/Fonts/CSS. Parcel is a bundler like Webpack, yet as a tradeoff for slightly less flexibility it has a smaller configuration and file footprint and builds faster; in fact, there is no Parcel configuration file. The shift to using Hugo to build CSS allows Hugo sites to be developed outside of an external build process. There are drawbacks to this approach, as outlined below.
 
-Note that this configuration is built around the assumption that JS/Fonts are processed in development, not production.
+Note that this configuration is built around the assumption that JS/Fonts are processed in development, not production, though it would take minimal effort to do so.
 
 ## JS
 
