@@ -10,7 +10,7 @@
     "clean": "rm -rf public/ assets/output static/output resources",
     "deploy": "NODE_ENV=production maid deploy",
     "dev": "NODE_ENV=development maid dev server --gc --disableFastRender --navigateToChanged",
-    "hugo_dev": "NODE_ENV=development hugo serve --gc --disableFastRender --navigateToChanged",
+    "hugo": "NODE_ENV=development hugo serve --gc --disableFastRender --navigateToChanged",
     "start": "yarn dev"
   },
   "devDependencies": {
