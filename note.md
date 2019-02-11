@@ -1,6 +1,8 @@
 # Hugo Asset Pipline
 
-This set up utilizes, ParcelJS for JS and fonts processing, Hugo Pipes + PostCSS for CSS processing, and Maid as a task runner. 
+This set up utilizes, ParcelJS for JS and fonts processing, Hugo Pipes + PostCSS for CSS processing, and Maid as a task runner.
+
+This asset pipeline is a shift from using Webpack to process JS/Fonts/CSS. ParcelJS is a bundler like Webpack, yet as a tradeoff for slightly less flexibility, has a smaller configuration and file footprint and builds faster. The shift to using Hugo to build CSS allows Hugo sites to be developed outside of an external build process. There are drawbacks to this approach, as outlined below.
 
 ## JS
 
@@ -32,8 +34,8 @@ This set up utilizes, ParcelJS for JS and fonts processing, Hugo Pipes + PostCSS
 
 ### TODO
 
-- See if we can avoid Maid by creating a Parcel plugin to run Hugo as a subprocess.
-- Account for resources in _header for caching and preload.
+- See if we can avoid Maid by creating a Parcel plugin to run Hugo as a subprocess, or something else.
+- Account for resources in _header for caching and preload (is Scratch viable).
 - Make sure our package.json commands are set up nicely.
 - Determine workflow for managing fontst that are not called with the typogpraphy package (i.e. commercial fonts).
 
@@ -47,7 +49,7 @@ This set up utilizes, ParcelJS for JS and fonts processing, Hugo Pipes + PostCSS
 #### cons
 
 - Must Install Node modules just to run Hugo.
-- Must run PostCSS (with Node modules) to build in production on the server.
+- Must run PostCSS (with Node modules) to build in production on the server, building CSS with every change.
 
 ### How to Switch to running JS-based PostCSS
 
