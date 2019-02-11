@@ -19,7 +19,7 @@
   {{ range $files }}
     {{ if in .Name "woff" }}  
       {{ $file := resources.Get (printf "%s%s" "output/" .Name)}}    
-      <link rel="prefetch" href="{{ $file.Permalink | relURL }}">  
+      <link rel="preload" href="{{ $file.Permalink | relURL }}" as="font" crossorigin>  
     {{ end }}
   {{ end }}
 
