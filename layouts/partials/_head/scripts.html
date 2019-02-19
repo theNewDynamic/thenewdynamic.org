@@ -12,5 +12,5 @@ var MTIProjectId='0279604d-1ddd-4c0d-b491-eff8ca0e76df';
 
 {{ if (fileExists "./assets/output/index.js") }}
   {{ $js := resources.Get "output/index.js" | resources.Fingerprint }}
-    <script type="text/javascript" src="{{ $js.Permalink }}" integrity="{{ $js.Data.Integrity }}" crossorigin="anonymous" defer></script>
+    <script type="text/javascript" src="{{ $js.Permalink | relURL }}" integrity="{{ $js.Data.Integrity }}" crossorigin="anonymous" defer></script>
 {{ end }}
