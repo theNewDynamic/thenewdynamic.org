@@ -12,6 +12,7 @@ To use Tailwind with ParcelJS, call the Tailwind files like this. Otherwise, use
 /* Modules */
 @import "tailwindcss/modules/_cards";
 @import "tailwindcss/modules/_utilities";
+@import "tailwindcss/modules/_social-icons-inverse";
 
 
 
