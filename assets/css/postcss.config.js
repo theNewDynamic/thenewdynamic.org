@@ -15,9 +15,7 @@ module.exports = ctx => ({
 		"postcss-import": {
 			path: ["assets/css"]
 		},
-		tailwindcss: {
-			path: "./assets/css/tailwind/tailwind.config.js"
-		},
+		tailwindcss: "./assets/css/tailwindcss/tailwind.config.js",
 		autoprefixer: {
 			grid: true,
 			browsers: [">1%"]

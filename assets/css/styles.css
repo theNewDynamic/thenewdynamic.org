@@ -1,12 +1,19 @@
-/* Declare values:
-  https://github.com/css-modules/postcss-modules-values#css-modules-values 
-*/
+/* Base - Variables: tailwind-config.js */
+/*
+To use Tailwind with ParcelJS, call the Tailwind files like this. Otherwise, use imports
+@tailwind preflight;
+@tailwind components;
+@tailwind utilities; */
 
-/* 
-  Uncomment to use Tailwind Utility Class CSS
-    @import "tailwind/tailwind.css";  
-*/
-@import "tailwind/tailwind.css";  
+
+@import "tailwindcss/preflight";
+@import "tailwindcss/components";
+
+/* Modules */
+@import "tailwindcss/modules/_cards";
+@import "tailwindcss/modules/_utilities";
+
+
 
 
 
@@ -17,3 +24,5 @@ https://www.purgecss.com/whitelisting#in-the-css-directly */
 /* purgecss start ignore */
 
 /* purgecss end ignore */
+
+@import "tailwindcss/utilities";

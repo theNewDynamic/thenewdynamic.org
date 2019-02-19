@@ -9,10 +9,8 @@ var MTIProjectId='0279604d-1ddd-4c0d-b491-eff8ca0e76df';
    })();
 </script>
 
+
 {{ if (fileExists "./assets/output/index.js") }}
-  {{ $js := resources.Get "output/index.js" }}
-  {{ with $js }}
-    {{ $secureJS := . | resources.Fingerprint }}
-    <script type="text/javascript" src="{{ $secureJS.Permalink }}" integrity="{{ $secureJS.Data.Integrity }}" crossorigin="anonymous" defer></script>
-  {{ end }}
+  {{ $js := resources.Get "output/index.js" | resources.Fingerprint }}
+    <script type="text/javascript" src="{{ $js.Permalink }}" integrity="{{ $js.Data.Integrity }}" crossorigin="anonymous" defer></script>
 {{ end }}

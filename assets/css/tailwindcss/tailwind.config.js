@@ -1,4 +1,4 @@
-let defaultConfig = require("tailwindcss/defaultConfig")();
+//let defaultConfig = require("tailwindcss/defaultConfig")();
 
 let colors = {
 	transparent: "transparent",
@@ -106,7 +106,9 @@ module.exports = {
 
 	fonts: {
 		brand: [
-			"Roboto",
+			"Ringside Narrow SSm A", "Ringside Narrow SSm B",
+			"Whitney Narrow SSm A", 
+			"Whitney Narrow SSm B",
 			"URW Franklin Gothic W01",
 			"URW Franklin Gothic",
 			"system-ui",

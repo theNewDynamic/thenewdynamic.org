@@ -27,3 +27,4 @@ Thumbs.db
 # Folders to ignore
 node_modules
 public
+layouts_archive
