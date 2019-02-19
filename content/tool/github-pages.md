@@ -13,10 +13,13 @@ description: Host directly from your GitHub repository
 related_tools:
 - tool/jekyll.md
 license: ''
-
-tags: []
+tags:
+- free
 resources: []
 cat_test: ''
+weight: ''
+data_model: ''
+language: ''
 
 ---
 GitHub Pages allows you to publish static websites for free, and supports custom domains.

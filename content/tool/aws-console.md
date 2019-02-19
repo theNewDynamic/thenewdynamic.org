@@ -1,6 +1,6 @@
 ---
-title: AWS Console
-date: 2018-11-28 14:18:42 -0500
+title: AWS Amplify Console
+date: 2018-11-28 19:18:42 +0000
 weight: 1
 description: Build, deploy, and host cloud-powered modern web apps
 tools:

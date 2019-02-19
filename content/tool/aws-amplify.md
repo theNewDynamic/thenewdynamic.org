@@ -1,5 +1,5 @@
 ---
-title: AWS Amplify
+title: AWS Amplify framework
 date: 2018-04-30 01:21:10 +0000
 description: A JavaScript library for application development using cloud services.
 urls:
@@ -20,6 +20,8 @@ tags:
 language: ''
 resources: []
 weight: 6
+data_model: ''
+cat_test: ''
 
 ---
 AWS Amplify provides a declarative and easy-to-use interface across different categories of cloud operations. AWS Amplify goes well with any JavaScript based frontend workflow, and React Native for mobile developers.
