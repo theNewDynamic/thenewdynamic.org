@@ -17,7 +17,7 @@ module.exports = ctx => ({
 		},
 		tailwindcss: "./assets/css/tailwindcss/tailwind.config.js",
 		autoprefixer: {
-			grid: true,
+			grid: false,
 			browsers: [">1%"]
 		},
 		"@fullhuman/postcss-purgecss":

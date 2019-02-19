@@ -4,6 +4,11 @@
   {{ $tools := where .Site.RegularPages "Section" "tool"}}
   {{ $image_url := $.Param "dev.image_url" }}
   <div class="lg:mt-16">
+
+    <div id="app">
+        <app></app>
+    </div>
+
     {{/* TOP SECTION */}}
     <div class="page-list_default center mx-auto lg:grid grid-columns-12 grid-gap-4">
       <div class="col-span-9">

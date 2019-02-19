@@ -96,11 +96,11 @@ dt::after {
     text-decoration: underline;
   }
   
-  .button_c {
+  .button_c, button {
     @apply border border-grey-light text-sm inline-block mb-3 mr-3 px-3 py-2 rounded-sm;
   }
   
-  .button_c:hover {
+  .button_c:hover, button:hover {
     @apply bg-grey-darkest text-white;
   }
   .list-item {

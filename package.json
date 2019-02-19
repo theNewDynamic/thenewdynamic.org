@@ -18,6 +18,7 @@
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^1.1.0",
+    "@vue/component-compiler-utils": "^2.5.2",
     "autoprefixer": "^9.4.7",
     "intersection-observer": "^0.5.1",
     "lazysizes": "^4.1.5",
@@ -27,14 +28,17 @@
     "postcss-import": "^12.0.1",
     "postcss-modules": "^1.4.1",
     "quicklink": "^1.0.0",
+    "sass": "^1.17.0",
     "tailwindcss": "^0.7.4",
     "tailwindcss-aspect-ratio": "^1.0.1",
     "tailwindcss-flexbox-order": "^1.0.0",
-    "tailwindcss-grid": "^1.1.0"
+    "tailwindcss-grid": "^1.1.0",
+    "vue": "^2.6.6",
+    "vue-hot-reload-api": "^2.3.2",
+    "vue-template-compiler": "^2.6.6"
   },
-  "dependencies": {
-    "css": "^2.2.4",
-    "fonts.css": "^2.0.0",
-    "typeface-roboto": "^0.0.54"
+  "dependencies": {},
+  "alias": {
+    "vue": "./node_modules/vue/dist/vue.common.js"
   }
 }

@@ -11,19 +11,22 @@ To use Tailwind with ParcelJS, call the Tailwind files like this. Otherwise, use
 
 /* Modules */
 @import "tailwindcss/modules/_cards";
+
+/* purgecss start ignore */
 @import "tailwindcss/modules/_utilities";
 @import "tailwindcss/modules/_social-icons-inverse";
 
 
 
 
-
+@import "tailwindcss/utilities";
 
 /* USE PURGE CSS ON ABOVE CODE ONLY. ANYTHING BETWEEN THE IGNORE TAGS BELOW WILL NOT BE IGNORED
 https://www.purgecss.com/whitelisting#in-the-css-directly */
 
-/* purgecss start ignore */
 
+button {
+  @apply bg-black text-white rounded;
+}
 /* purgecss end ignore */
 
-@import "tailwindcss/utilities";
