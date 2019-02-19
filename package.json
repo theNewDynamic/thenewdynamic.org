@@ -33,6 +33,8 @@
     "tailwindcss-grid": "^1.1.0"
   },
   "dependencies": {
+    "css": "^2.2.4",
+    "fonts.css": "^2.0.0",
     "typeface-roboto": "^0.0.54"
   }
 }

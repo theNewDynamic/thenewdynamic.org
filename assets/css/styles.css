@@ -5,7 +5,7 @@ To use Tailwind with ParcelJS, call the Tailwind files like this. Otherwise, use
 @tailwind components;
 @tailwind utilities; */
 
-
+@import "fonts";
 @import "tailwindcss/preflight";
 @import "tailwindcss/components";
 

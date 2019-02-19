@@ -105,10 +105,7 @@ module.exports = {
 	},
 
 	fonts: {
-		brand: [
-			"Ringside Narrow SSm A", "Ringside Narrow SSm B",
-			"Whitney Narrow SSm A", 
-			"Whitney Narrow SSm B",
+		brand: [			
 			"URW Franklin Gothic W01",
 			"URW Franklin Gothic",
 			"system-ui",

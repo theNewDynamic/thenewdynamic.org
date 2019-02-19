@@ -3,7 +3,7 @@
   <article id="filter" class="page-list_default mx-auto">
     {{- partial "_components/page-content.html" . -}}
 
-    {{ partial "showcase/filters.html" . }}
+
 
     <section class="filteredlist content grid-columns-3 grid-gap-8 sm:grid lg:grid-columns-4">
       {{ range (.Paginator 20).Pages }}
@@ -17,7 +17,7 @@
             <a href="{{ $url }}" class="no-underline">
               <img src="/images/placeholder.svg" data-src="{{ if eq $vendor "YouTube" }}https://img.youtube.com/vi/{{ . }}/hqdefault.jpg{{ else if eq $vendor "Vimeo" }}https://i.vimeocdn.com/video/{{ . }}_640.jpg{{ end }}" alt="" class="lazyload max-w-full">
             </a>
-            <h3 class="text-base">{{ $title }}</h3>
+            <h3 class="text-base px-2">{{ $title }}</h3>
           </div>
         {{ end }}
       </dl>
