@@ -8,18 +8,20 @@
   "license": "MIT",
   "scripts": {
     "clean": "rm -rf public/ assets/output static/output resources",
-    "build": "run-s build:assets build:hugo",
+    "build": "run-s deploy:assets build:hugo",
     "start": "run-s build:assets dev",
     "dev": "run-p dev:parcel dev:hugo",
     "dev:hugo": "NODE_ENV=development hugo server --gc --disableFastRender --navigateToChanged",
     "dev:parcel": "NODE_ENV=development parcel watch ./assets/index.js --out-dir assets/output",
-    "build:assets": "parcel build ./assets/index.js --out-dir assets/output --experimental-scope-hoisting",
-    "build:hugo": "hugo --gc --minify"
+    "build:assets": "NODE_ENV=development parcel build ./assets/index.js --out-dir assets/output --experimental-scope-hoisting --no-cache",
+    "deploy:assets": "NODE_ENV=production parcel build ./assets/index.js --out-dir assets/output --experimental-scope-hoisting --no-cache",
+    "build:hugo": "env NODE_ENV=production hugo --gc --minify"
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^1.1.0",
     "@vue/component-compiler-utils": "^2.5.2",
     "autoprefixer": "^9.4.7",
+    "cssnano": "^4.1.10",
     "intersection-observer": "^0.5.1",
     "lazysizes": "^4.1.5",
     "npm-run-all": "^4.1.5",
@@ -37,7 +39,11 @@
     "vue-hot-reload-api": "^2.3.2",
     "vue-template-compiler": "^2.6.6"
   },
-  "dependencies": {},
+  "dependencies": {
+    "css": "^2.2.4",
+    "fonts": "^0.0.2",
+    "typeface-roboto": "^0.0.54"
+  },
   "alias": {
     "vue": "./node_modules/vue/dist/vue.common.js"
   }

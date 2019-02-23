@@ -7,4 +7,4 @@ menu:
     weight: 1
 
 ---
-{{< privacy-policy >}}
+ privacy-policy >}}

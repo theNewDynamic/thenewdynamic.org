@@ -1,6 +1,6 @@
 const _ = require('lodash')
 
-module.exports = function ({ grids = _.range(1, 12), gaps = {}, variants = ['responsive']}) {
+module.exports = function ({ grids = _.range(1, 16), gaps = {}, variants = ['responsive']}) {
   return function ({ e, addUtilities }) {
     addUtilities([
       { '.grid': { display: 'grid' } },

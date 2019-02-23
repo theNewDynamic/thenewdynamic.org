@@ -1,32 +1,50 @@
 /* Base - Variables: tailwind-config.js */
 /*
 To use Tailwind with ParcelJS, call the Tailwind files like this. Otherwise, use imports
+
+*/
 @tailwind preflight;
 @tailwind components;
-@tailwind utilities; */
 
-@import "fonts";
-@import "tailwindcss/preflight";
-@import "tailwindcss/components";
 
 /* Modules */
-@import "tailwindcss/modules/_cards";
-
-/* purgecss start ignore */
-@import "tailwindcss/modules/_utilities";
-@import "tailwindcss/modules/_social-icons-inverse";
+@import "./tailwindcss/modules/_cards";
 
 
+@import "./tailwindcss/modules/_utilities";
+@import "./tailwindcss/modules/_social-icons-inverse";
 
 
-@import "tailwindcss/utilities";
+/* @tailwind utilities;  */
+
+@tailwind utilities; 
 
 /* USE PURGE CSS ON ABOVE CODE ONLY. ANYTHING BETWEEN THE IGNORE TAGS BELOW WILL NOT BE IGNORED
 https://www.purgecss.com/whitelisting#in-the-css-directly */
 
+/* purgecss start ignore */
 
-button {
-  @apply bg-black text-white rounded;
+/* .content {
+  @apply bg-grey p-4;
 }
-/* purgecss end ignore */
 
+main {
+  @apply bg-white;
+} */
+
+/* body {
+  display: grid;
+  grid-template-columns: 1fr 3.5fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: ". .";
+} */
+
+/* header {
+  @apply bg-primary-color h-screen text-white;
+}
+
+header a {
+  @apply text-white;
+} */
+
+/* purgecss end ignore */
