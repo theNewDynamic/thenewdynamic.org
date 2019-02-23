@@ -1,32 +1,12 @@
-{{ $currentPage := . }}
-{{- partial "_global/navigation.html" . -}}
-<header name="header" class="mb-4 relative bg-grey-lighter">
-  <div class="px-8 py-4 max-w-5xl mx-auto flex flex-wrap justify-between items-baseline">
-    <div class="flex-grow">
-      <h1 class="font-brand dib-ns text-3xl md:text-4xl lh-title text-grey-darker m-0">
-        {{/*  
-            TODO: put this back
-          {{ if eq .Kind "taxonomy" }}
-          {{ $section_heading := .Site.GetPage "taxonomy" .Section }}
-          {{ with $section_heading }}{{- .Title -}}:
-          {{ end }}
-        {{ end }}  */}}
-        {{if .IsPage }}
-          {{ with .CurrentSection.Title }}{{ . }}: {{ end }}
-        {{ end }}
-        {{- $.Title -}}
-      </h1>
-      {{- with .Params.description -}}
-        <h2 class="dib-ns text-lg lh-copy text-grey-darker measure-wide-l pl4">
-          {{- . -}}
-        </h2>
-      {{- end -}}
+<header>
+  <div class="text-center pt-12">
+    <a href="/" class="font-bold text-2xl block text-primary-color font-brand no-underline"> 
+      {{.Site.Title}}
+    </a>
+    <div class="text-sm tracking-wide text-grey-darkest">
+        {{.Site.Params.subtitle}}
     </div>
-    <div class="hidden md:block">
-      {{ partial "prev-next-in-section-icon.html" . }}
-    </div>
-  </div>
-  {{/*  <div id="results" class="js-only max-w-full absolute pin-r pin-t z-50 shadow-md">
-    {{ partial "search/results-global.html" . }}
-  </div>  */}}
+
+    {{/*  {{- partial "_global/menu.html" (dict "page" . "menu" "main") -}}  */}}
+  </div>  
 </header>

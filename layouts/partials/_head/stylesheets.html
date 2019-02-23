@@ -1,8 +1,15 @@
-{{ $css := resources.Get "css/styles.css" | postCSS (dict "config" "./assets/css/postcss.config.js") | minify }}
+{{/*  {{ $css := resources.Get "css/styles.css" | postCSS (dict "config" "./assets/css/_postcss.config.js") | minify }}
 {{ with $css }}
   {{ $securecss := . | resources.Fingerprint }}  
   <link rel="stylesheet" href="{{ $securecss.Permalink | relURL  }}" integrity="{{ $securecss.Data.Integrity }}" crossorigin="anonymous"> 
-{{ end }}
+{{ end }}  */}}
+
+
+  {{ $css := resources.Get "output/index.css" | minify }}
+{{ with $css }}
+  {{ $securecss := . | resources.Fingerprint }}  
+  <link rel="stylesheet" href="{{ $securecss.Permalink | relURL  }}" integrity="{{ $securecss.Data.Integrity }}" crossorigin="anonymous"> 
+{{ end }} 
 
 
 

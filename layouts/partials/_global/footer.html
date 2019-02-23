@@ -1,39 +1,14 @@
-<footer class="bg-grey-lighter w-100 mt-8 py-8" role="contentinfo">
-  <div class="lg:flex justify-around items-center py-8 px-8 max-w-5xl mx-auto">
-    {{template "description" .}}
-    {{template "menu" .}}
-    {{template "follow" .}}
-  </div>
-    <a class="block text-xs fw4 hover-white no-underline text-grey-darker py-2 px-8 mt-8" href="{{ .Site.BaseURL }}" >
+<footer role="contentinfo">  
+  <div>
+    <a class="hover:text-white no-underline color-inherit" href="{{ .Site.BaseURL }}" >
       &copy; {{ now.Format "2006" }} {{ .Site.Title }}
     </a>
-</footer>
-
-{{define "description"}}
-  <p class="font-brand text-4xl lh-copy grey-dark mb-4 max-w-sm">
-    {{- .Site.Params.description -}}
-  </p>
-{{end}}
-
-{{define "menu"}}
-  {{with .Site.Menus.secondary}}
-    <ul class="list-reset text-left">
-      {{range .}}
-      <li class="text-4xl list mb-3">
-        <a class="no-underline text-grey-darker hover:text-black" href="{{ .URL }}" title="{{ .Name }} page">
-          {{.Name}}
-        </a>
-      </li>
-      {{end}}
-    </ul>
-  {{end}}
-{{end}}
-
-{{define "follow"}}
-  <div>
-    <div class="inline-block hidden lg:flex flex-wrap items-center">
-      {{ partial "_components/social-follow.html" (dict "cx" . "icon_size" "24px") }}
-    </div>
-    <a href="https://www.getrevue.co/profile/thenewdynamic/" class="border-grey-lighter center hover:opacity-75 border rounded inline-block text-base bold bg-primary-color no-underline px-3 py-2 text-center text-white text-lg text-bold">Get our Weekly Newsletter</a>
+    {{- partial "_global/menu.html" (dict "page" . "menu" "footer") -}}
+    {{ partial "_components/social-follow.html" (dict "cx" . "icon_size" "24px") }}
   </div>
-{{end}}
+
+  <a class="hover:text-gray no-underline color-inherit" href="https://thenewdynamic.com" >
+    site by the New Dynamic
+  </a>
+</div>
+</footer>

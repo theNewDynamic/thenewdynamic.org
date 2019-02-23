@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="{{ $.Site.LanguageCode | default "en" }}" class="no-js">
+  <head>
+    {{ block "head" .}}
+      {{- partial "_head/_head.html" . -}}
+    {{ end }}
+    {{block "scripts" .}}
+      {{ partialCached "_head/scripts.html" . }}
+    {{ end }}
+  </head>
+  <body class="{{ partial "_components/body-class" }}">
+
+    <div class="bg-primary-color h-screen text-white sm:absolute pin-t pin-b w-16">
+      <div class="font-brand font-bold text-center pt-32 text-base"> <span class="text-sm">t</span>ND</div>
+    </div>
+    
+    <div id="content" class="content grid grid-columns-12 ml-16">
+      {{ block "header" . }}
+      <div class="col-span-2 border-r min-h-screen flex flex-col justify-between">
+          {{ partial "_global/header.html" . }}          
+      </div>
+      {{ end }}
+      
+      <main role="main" class="col-span-10">
+        {{ block "hero" . }}{{ end }}
+        {{ block "main" . }}{{ end }}
+      </main>
+      
+    </div>    
+
+    
+  </body>
+</html>
