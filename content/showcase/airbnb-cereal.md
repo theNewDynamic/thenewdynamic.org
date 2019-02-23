@@ -1,7 +1,7 @@
 ---
 title: Airbnb Cereal
 date: 2018-05-30 10:29:14 -0400
-tags: ''
+tags: 
 images:
 - "/uploads/airbnb-cereal-gatsby.png"
 description: ''
