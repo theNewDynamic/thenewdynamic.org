@@ -1,0 +1,18 @@
+/* nav[aria-label="main"] {
+  
+} */
+
+.tnd-Nav__item {
+  @apply font-sans;
+}
+.tnd-Nav__item a {
+  @apply px-6 block text-grey-darkest no-underline text-left leading-none py-2 text-base;
+}
+
+.tnd-Nav__item a:hover {
+  @apply bg-grey text-grey-lighter underline;
+}
+
+.tnd-Nav__item--active a{
+  @apply bg-grey-light text-grey-darkest;
+}

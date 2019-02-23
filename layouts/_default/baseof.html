@@ -9,25 +9,19 @@
     {{ end }}
   </head>
   <body class="{{ partial "_components/body-class" }}">
-
-    <div class="bg-primary-color h-screen text-white sm:absolute pin-t pin-b w-16">
-      <div class="font-brand font-bold text-center pt-32 text-base"> <span class="text-sm">t</span>ND</div>
-    </div>
-    
-    <div id="content" class="content grid grid-columns-12 ml-16">
-      {{ block "header" . }}
+    <div class="relative bg-primary-color text-white sm:fixed pin-t pin-b w-16">      
+      {{ partial "_global/side-nav.html" . }}
+    </div>    
+    <div id="content" class="content grid grid-columns-12 ml-16">      
       <div class="col-span-2 border-r min-h-screen flex flex-col justify-between">
           {{ partial "_global/header.html" . }}          
-      </div>
-      {{ end }}
-      
+      </div>          
       <main role="main" class="col-span-10">
         {{ block "hero" . }}{{ end }}
-        {{ block "main" . }}{{ end }}
-      </main>
-      
+        <div class="p-16">
+            {{ block "main" . }}{{ end }}
+        </div>
+      </main>      
     </div>    
-
-    
   </body>
 </html>

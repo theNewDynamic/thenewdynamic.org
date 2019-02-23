@@ -6,45 +6,30 @@ To use Tailwind with ParcelJS, call the Tailwind files like this. Otherwise, use
 @tailwind preflight;
 @tailwind components;
 
-
+@import "./fonts";
 /* Modules */
 @import "./tailwindcss/modules/_cards";
 
-
+@import "./tailwindcss/modules/_menu";
 @import "./tailwindcss/modules/_utilities";
+@import "./tailwindcss/modules/_user-content";
 @import "./tailwindcss/modules/_social-icons-inverse";
 
 
 /* @tailwind utilities;  */
 
-@tailwind utilities; 
+
 
 /* USE PURGE CSS ON ABOVE CODE ONLY. ANYTHING BETWEEN THE IGNORE TAGS BELOW WILL NOT BE IGNORED
 https://www.purgecss.com/whitelisting#in-the-css-directly */
 
 /* purgecss start ignore */
 
-/* .content {
-  @apply bg-grey p-4;
-}
-
-main {
-  @apply bg-white;
-} */
-
-/* body {
-  display: grid;
-  grid-template-columns: 1fr 3.5fr;
-  grid-template-rows: 1fr;
-  grid-template-areas: ". .";
-} */
-
-/* header {
-  @apply bg-primary-color h-screen text-white;
-}
-
-header a {
-  @apply text-white;
-} */
+@import "./tailwindcss/modules/_menu-button";
 
 /* purgecss end ignore */
+@tailwind utilities; 
+
+h1.page-heading  {
+  @apply text-4xl;
+}

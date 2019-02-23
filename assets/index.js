@@ -14,7 +14,7 @@ import "./css/styles.css";
 
 
 // To use https://github.com/KyleAMathews/typefaces
-require("typeface-roboto")
+import 'typeface-nunito';
 
 
 import "./js/polyfills.js" //MUST GO AT TOP

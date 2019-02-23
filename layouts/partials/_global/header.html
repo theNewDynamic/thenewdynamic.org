@@ -1,12 +1,23 @@
 <header>
-  <div class="text-center pt-12">
-    <a href="/" class="font-bold text-2xl block text-primary-color font-brand no-underline"> 
-      {{.Site.Title}}
-    </a>
-    <div class="text-sm tracking-wide text-grey-darkest">
-        {{.Site.Params.subtitle}}
-    </div>
+	<div class="pt-12">
+		<a href="/"
+			class="px-6 font-bold text-3xl block text-primary-color font-brand no-underline">
+			{{.Site.Title}}
+		</a>
+		<div class="px-6 text-sm tracking-wide text-grey-darkest">
+			{{.Site.Params.subtitle}}
+		</div>
 
-    {{/*  {{- partial "_global/menu.html" (dict "page" . "menu" "main") -}}  */}}
-  </div>  
+		<div class="pt-16">
+			{{- partial "_global/menu.html" (dict "page" . "menu" "main") -}}
+			<div class="pt-8">
+				<h2 class="mb-4 text-2xl">
+					<a href="/tool/" class="font-brand px-6 no-underline text-grey-darkest">
+						Directory
+					</a>
+				</h2>
+				{{- partial "_global/menu.html" (dict "page" . "menu" "tools") -}}
+			</div>
+		</div>
+	</div>
 </header>

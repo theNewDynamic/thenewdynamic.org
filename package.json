@@ -35,14 +35,13 @@
     "tailwindcss-aspect-ratio": "^1.0.1",
     "tailwindcss-flexbox-order": "^1.0.0",
     "tailwindcss-grid": "^1.1.0",
+    "typeface-nunito": "^0.0.54",
     "vue": "^2.6.6",
     "vue-hot-reload-api": "^2.3.2",
     "vue-template-compiler": "^2.6.6"
   },
   "dependencies": {
-    "css": "^2.2.4",
-    "fonts": "^0.0.2",
-    "typeface-roboto": "^0.0.54"
+    "fonts": "^0.0.2"
   },
   "alias": {
     "vue": "./node_modules/vue/dist/vue.common.js"
