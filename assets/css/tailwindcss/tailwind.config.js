@@ -2,14 +2,30 @@
 
 let colors = {
 	transparent: "transparent",
-	"primary-color-lightest": "#F4E8E7",
-	"primary-color-lighter": "#D1A2A1",
-	"primary-color-light": "#AF5C5A",
-	"primary-color": "#8C1613",
-	"primary-color-dark": "#7E1411",
-	"primary-color-darker": "#540D0B",
-	"primary-color-darkest": "#2A0706",
-	"text-color-primary": "#373737",
+	// "primary-color-lightest": "#F4E8E7",
+	// "primary-color-lighter": "#D1A2A1",
+	// "primary-color-light": "#AF5C5A",
+	// "primary-color": "#8C1613",
+	// "primary-color-dark": "#7E1411",
+	// "primary-color-darker": "#540D0B",
+	// "primary-color-darkest": "#2A0706",
+	// "text-color-primary": "#373737",
+
+// 	'primary-color-darkest' : '#3D000F',
+// 'primary-color-darker' : '#7A001F',
+// 'primary-color-dark' : '#B8002E',
+// 'primary-color' : '#b50938',
+// 'primary-color-light' : '#DB4D70',
+// 'primary-color-lighter' : '#EB99AD',
+// 'primary-color-lightest' : '#FAE6EB',
+
+'primary-color-darkest' : '#37000E',
+'primary-color-darker' : '#6E001C',
+'primary-color-dark' : '#A60029',
+'primary-color' : '#B8002E',
+'primary-color-light' : '#CD4D6D',
+'primary-color-lighter' : '#E399AB',
+'primary-color-lightest' : '#F8E6EA',
 
 	black: "#22292f",
 	"grey-darkest": "#3d4852",
@@ -463,7 +479,7 @@ module.exports = {
 		}),
 		require("tailwindcss-flexbox-order")([0, 1, 2], ["responsive"]),
 		require("./plugins/css-grid.js")({
-			grids: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+			grids: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],
 			gaps: {
 				"0": "0",
 				"4": "1rem",
