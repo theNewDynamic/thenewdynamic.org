@@ -1,0 +1,18 @@
+{{/* This select form relies on "src/js/select-url.js" */}}
+{{$current_url := .URL}}
+<div class="block mb-8 md:hidden relative w-64">
+  <select name="selectUrl" class="block appearance-none w-full bg-white border border-grey-light hover:border-grey mb-4 px-4 py-2 pr-8 rounded shadow">
+    <option value="/tool/" {{if eq $current_url "/tool/" }}selected{{end}}>All</option>
+    {{ range $name, $taxonomy := .Site.Taxonomies.tools }}
+      {{$detail := $.Site.GetPage (printf "%s%s" "/tools/" $name) }}
+      {{with $detail}}
+        <option value="{{.URL}}" {{if eq $current_url .URL }}selected{{end}}>
+          {{- .Title -}}
+        </option>
+      {{end}}
+    {{ end }}
+  </select>
+  <div class="pointer-events-none absolute pin-y pin-r flex items-center px-2 text-grey-darker">
+    <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
+  </div>
+</div>

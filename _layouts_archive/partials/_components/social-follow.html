@@ -1,0 +1,34 @@
+{{/* <!-- TODO: Add follow intents where available TODO: Revisit color and hover color --> */}}
+{{/* {{$size := printf "%s%s" .size}} */}}
+{{ $icon_size := .icon_size | default "24px"}}
+
+{{ with .cx.Site.Social.facebook }}
+  <a href="https://facebook.com/{{ . }}" class="facebook inline-block hover:text-gray no-underline mr-2 lg:pt-0 pt-3 z-999" title="Facebook no-underline">
+    {{ partial "svg/facebook.svg" (dict "size" $icon_size) }}
+  </a>
+{{ end }}
+{{ with .cx.Site.Social.twitter }}
+  <a href="https://twitter.com/{{ . }}" class="twitter inline-block hover:text-gray no-underline mr-2 lg:pt-0 pt-3 z-999" title="Twitter no-underline">
+    {{ partial "svg/twitter.svg" (dict "size" $icon_size) }}
+  </a>
+{{ end }}
+{{ with .cx.Site.Social.instagram }}
+  <a href="https://instagram.com/{{ . }}" class="instagram inline-block hover:text-gray no-underline mr-2 lg:pt-0 pt-3 z-999" title="Instagram no-underline">
+    {{ partial "svg/instagram.svg" (dict "size" $icon_size) }}
+  </a>
+{{ end }}
+{{ with .cx.Site.Social.youtube }}
+  <a href="https://youtube.com/{{ . }}?sub_confirmation=1" class="youtube inline-block hover:text-gray no-underline mr-1 lg:pt-0 pt-3 z-999" title="Youtube no-underline">
+    {{ partial "svg/youtube.svg" (dict "size" $icon_size) }}
+  </a>
+{{ end }}
+{{ with .cx.Site.Social.slack }}
+  <a href="{{ . }}" class="slack inline-block hover:text-gray no-underline mr-0 lg:pt-0 pt-3 z-999" title="Slack link">
+    {{ partialCached "svg/Slack_Mark_Monochrome_White_compressed.svg" (dict "size" "50px") }}
+  </a>
+{{ end }}
+{{ with .cx.Site.Social.meetup }}
+  <a href="{{ . }}" class="meetup inline-block hover:text-gray no-underline  lg:pt-0 pt-3 z-999 -ml-2" title="Slack link">
+    {{ partialCached "svg/meetup.svg" (dict "size" "50px") }}
+  </a>
+{{ end }}

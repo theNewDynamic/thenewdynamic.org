@@ -1,0 +1,60 @@
+{{ define "header" }}{{- partial "_global/header_alt.html" . -}}{{ end }}
+{{ define "main" }} {{ $current := .}}
+
+<div class="page-list_default mx-auto min-h-screenf bg-grey-lighter">
+  <div class="sm:grid lg:px-4 grid-columns-12 grid-gap-4">
+    <div class="col-span-3">
+      {{ with .Params.images }}
+        <div class="lazyload mt-4" data-noscript="">
+          <noscript>
+            <img src="{{ index . 0 | absURL }}" class="lazyload mb-2 mr-3 mt-2 max-w-full shadow-md" alt="Image " />
+          </noscript>
+        </div>
+      {{ end }}
+    </div>
+    <div class="col-span-6">
+      <article class="h-entry mx-auto max-w-lg py-2 lg:pt-5 px-8">
+        {{- partial "_components/page-heading.html" . -}}
+
+        <section class="nested leading-normal text-lg nested-no-underlines nested-imgTK text-grey-darkest pb-32">
+          {{ .Content }} {{ if (or (eq .Section "article") (eq .Section "event")) }} {{ if .Date }}
+          <div class="text-sm">
+            {{ partial "_components/time.html" (dict "context" . "show_time" false) }}
+          </div>
+          {{ end }} {{ end }} {{partial "_components/link-to-original.html" (dict "item" .)}}
+        </section>
+      </article>
+
+    </div>
+    <div class="col-span-3">
+      <div class="bg-grey-lightest mt-6 px-8 py-4">
+        {{ with .Params.related_tools }}
+        <h3>Related Tools</h3>
+        {{ range . }} {{ $link := index (where (where $.Site.Pages ".Section" "tool") ".File.Path" "in" .) 0 }}
+        <ul class="list-reset">
+          <li class="mb-3 leading-tight">
+            <a href="{{ $link.URL }}" class="block dim no-underline text-grey-darkest">
+              {{- $link.Title -}}
+            </a>
+          </li>
+        </ul>
+        {{ end }} {{ end }}
+
+
+        <h3 class="mt-8">Articles</h3>
+        <ul class="list-reset">
+          {{ range first 5 (where .Site.RegularPages "Section" "article") }} {{ if ne .URL $current.URL }}
+          <li class="mb-3 leading-tight">
+            <a href="{{ .URL }}" class="block dim no-underline text-grey-darkest">
+              {{- .Title -}}
+            </a>
+          </li>
+          {{ end }} {{ end }}
+        </ul>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+{{ end }}
