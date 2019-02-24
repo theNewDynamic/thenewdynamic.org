@@ -18,13 +18,15 @@ module.exports = {
 								extractor: class {
 									static extract(content) {
 										//console.log(process.env.NODE_ENV);
-										//return content.match(/[a-zA-Z0-9-:_/]+/g) || [];
-										return content.match(/[A-z0-9-:\/]+/g) || [];
+										return content.match(/[A-z0-9-:\/]+/g);
+										//return content.match(/[A-z0-9-:\/]+/g) || [];
 									}
 								},
 								extensions: ["vue", "html"]
+								
 							}
-						]
+						],
+						whitelist: ["fill-current"]
 					})
 			  ]
 			: []) //If Development, do not use PurgeCSS
