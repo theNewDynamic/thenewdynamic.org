@@ -18,23 +18,22 @@ mediaTypes:
   text/netlify:
     delimiter: ''
     suffixes: ''
-# outputFormats:
-#   HEADERS:
-#     baseName: _headers
-#     isPlainText: true
-#     mediatype: text/netlify
-#     notAlternative: true
-#   REDIR:
-#     baseName: _redirects
-#     isPlainText: true
-#     mediatype: text/netlify
-#     notAlternative: true
-# outputs:
-#   home:
-#     - HTML
-#     - HEADERS
-#     - REDIR
-#     - JSON
+outputFormats:
+  HEADERS:
+    baseName: _headers
+    isPlainText: true
+    mediatype: text/netlify
+    notAlternative: true
+  REDIR:
+    baseName: _redirects
+    isPlainText: true
+    mediatype: text/netlify
+    notAlternative: true
+outputs:
+  home:
+    - HTML
+    - HEADERS
+    - REDIR
   
 related:
   includeNewer: true
