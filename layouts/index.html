@@ -1,7 +1,7 @@
 {{ define "main" }}
 {{ $tools := where .Site.RegularPages "Section" "tool"}}
   {{ $image_url := $.Param "dev.image_url" }}
-  <article class="h-entry mx-auto max-w-lg py-2 lg:pt-5 px-8">
+  <article class="h-entry mx-auto page-list_default py-2 lg:pt-5 px-4 max-w-lg">
     {{/* {{- partial "_components/page-heading.html" . -}} */}}
     <section class="nested leading-normal text-lg nested-no-underlines nested-imgTK text-grey-darkest pb-32">
       {{ .Content }}       
