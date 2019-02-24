@@ -2,7 +2,7 @@
   
 } */
 
-.tnd-Nav__item li {
+.tnd-Nav__item {
   @apply font-sans;
 }
 .tnd-Nav__item a {
@@ -22,5 +22,19 @@
     @apply text-base py-2 px-6;
   }
   
+}
+#expandable-nav-side .tnd-Nav__item a {
+  @apply text-grey-lightest;
+}
 
+
+input[type=checkbox]#expandable-nav-side-input {
+  display: none;
+}
+#expandable-nav-side {
+ transform: translateX(-256px)
+}
+
+#expandable-nav-side-input:checked + #expandable-nav-side {
+ transform: translateX(0)
 }

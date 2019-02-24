@@ -5,7 +5,7 @@ let colors = {
 	'primary-color-darkest' : '#37000E',
 	'primary-color-darker' : '#6E001C',
 	'primary-color-dark' : '#A60029',
-	'primary-color' : '#B8002E',
+	'primary-color' : '#B50938',
 	'primary-color-light' : '#CD4D6D',
 	'primary-color-lighter' : '#E399AB',
 	'primary-color-lightest' : '#F8E6EA',

@@ -14,7 +14,7 @@ To use Tailwind with ParcelJS, call the Tailwind files like this. Otherwise, use
 @import "./tailwindcss/modules/_utilities";
 @import "./tailwindcss/modules/_user-content";
 @import "./tailwindcss/modules/_social-icons-inverse";
-
+@import "./tailwindcss/modules/_transitions";
 
 /* @tailwind utilities;  */
 

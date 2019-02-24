@@ -14,7 +14,7 @@
     </div>    
     <div id="content" class="content sm:grid grid-columns-12 ml-10 sm:ml-16">      
       <div class="sm:col-span-3 xl:col-span-2 w-full border-r lg:min-h-screen flex flex-col justify-between">
-          {{ partial "_global/header.html" . }}          
+        {{ partial "_global/header.html" . }}          
       </div>          
       <main role="main" class="sm:col-span-9 xl:col-span-10">
         {{ block "hero" . }}{{ end }}
@@ -22,6 +22,7 @@
           {{ block "main" . }}{{ end }}
         </div>
       </main>      
-    </div>    
+    </div>  
+    
   </body>
 </html>
