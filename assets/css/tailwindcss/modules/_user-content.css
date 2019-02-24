@@ -17,7 +17,13 @@ figure {
 	@apply border-grey my-16;
 }
 .nested h2 {
-	@apply mt-6 mb-4;
+	@apply mt-6 mb-4 text-xl;
+}
+
+@screen sm {
+	.nested h2 {
+		@apply mt-6 mb-4 text-3xl;
+	}
 }
 .nested h3 {
 	@apply mb-5 mt-6;
