@@ -15,6 +15,9 @@ To use Tailwind with ParcelJS, call the Tailwind files like this. Otherwise, use
 @import "./tailwindcss/modules/_user-content";
 @import "./tailwindcss/modules/_social-icons-inverse";
 @import "./tailwindcss/modules/_transitions";
+@import "./tailwindcss/modules/_menu";
+@import "./tailwindcss/modules/_menu-button";
+@import "./tailwindcss/modules/_hugo-internal-templates";
 
 /* @tailwind utilities;  */
 
@@ -24,9 +27,6 @@ To use Tailwind with ParcelJS, call the Tailwind files like this. Otherwise, use
 https://www.purgecss.com/whitelisting#in-the-css-directly */
 
 /* purgecss start ignore */
-@import "./tailwindcss/modules/_menu";
-@import "./tailwindcss/modules/_menu-button";
-@import "./tailwindcss/modules/_hugo-internal-templates";
 
 /* purgecss end ignore */
 @tailwind utilities; 
