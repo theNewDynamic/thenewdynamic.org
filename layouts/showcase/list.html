@@ -1,9 +1,10 @@
 {{ define "main" }}
   <article id="filter" class="page-list_default mx-auto">
+    {{- partial "_components/page-heading.html" . -}}
     {{- partial "_components/page-content.html" . -}}
-    <section class="filteredlist content grid-columns-3 grid-gap-8 sm:grid lg:grid-columns-4">
+    <section class="filteredlist mt-8 content grid-columns-2 lg:grid-columns-3 grid-gap-4 sm:grid xl:grid-columns-4">
       {{ range (.Paginator 20).Pages }}
-      <dl class=" border-2 border-grey-lighter bg-white">
+      <dl class=" border-2 border-grey-lighter bg-white shadow mb-8 ">
         {{- .Render "summary" -}}
       </dl>
       {{ end }}

@@ -2,11 +2,11 @@
   
 } */
 
-.tnd-Nav__item {
+.tnd-Nav__item li {
   @apply font-sans;
 }
 .tnd-Nav__item a {
-  @apply px-6 block text-grey-darkest no-underline text-left leading-none py-2 text-base;
+  @apply w-full px-4 block text-grey-darkest no-underline text-left leading-tight py-1 text-sm;
 }
 
 .tnd-Nav__item a:hover {
@@ -15,4 +15,12 @@
 
 .tnd-Nav__item--active a{
   @apply bg-grey-light text-grey-darkest;
+}
+
+@screen xl {
+  .tnd-Nav__item a {
+    @apply text-base py-2 px-6;
+  }
+  
+
 }

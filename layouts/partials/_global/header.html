@@ -1,18 +1,23 @@
 <header>
-	<div class="pt-12">
-		<a href="/"
+	<div class="pt-6 lg:pt-12 ">
+		{{/* 		<a href="/"
 			class="px-6 font-bold text-3xl block text-primary-color font-brand no-underline">
 			{{.Site.Title}}
 		</a>
 		<div class="px-6 text-sm tracking-wide text-grey-darkest">
 			{{.Site.Params.subtitle}}
-		</div>
+		</div> */}}
 
-		<div class="pt-16">
+		<a href="/"
+			class="block no-underline">
+			<img src="/images/tnd-logo-B50938.svg" alt="" class=" px-4 max-w-full">
+		</a>
+
+		<div class="pt-8 lg:pt-16 hidden sm:block">
 			{{- partial "_global/menu.html" (dict "page" . "menu" "main") -}}
 			<div class="pt-8">
-				<h2 class="mb-4 text-2xl">
-					<a href="/tool/" class="font-brand px-6 no-underline text-grey-darkest">
+				<h2 class="mb-4 text-xl px-4">
+					<a href="/tool/" class="font-brand no-underline text-grey-darkest">
 						Directory
 					</a>
 				</h2>

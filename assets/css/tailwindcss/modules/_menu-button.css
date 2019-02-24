@@ -1,7 +1,7 @@
 .toggle-item--menu {
   position: absolute;
-  top: 190px;
-  left: 10px;
+  top: 50px;
+  left: 1px;
   border: 0;
   background-color: transparent;
   box-shadow: none;
@@ -13,7 +13,14 @@
   padding: 0
 }
 
+@screen sm {
+  .toggle-item--menu {
+    top: 190px;
+  left: 10px;
+  }
+  
 
+}
 .toggle-item--menu:focus {
   outline: 0
 }

@@ -1,5 +1,8 @@
 {{ define "main" }}
   <article class="page-single_default mx-auto min-h-screen">
+      <div class="pb-4">
+          {{- partial "_components/page-heading.html" . -}}
+      </div>
       {{ with .Params.related_tools }}
         <aside class="related_tools flex flex-wrap mb-8 md:text-xl">
           {{ range . }}{{ $link := index (where (where $.Site.Pages ".Section" "tool") ".File.Path" "in" .) 0 }}

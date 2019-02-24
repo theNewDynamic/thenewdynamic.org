@@ -1,5 +1,5 @@
 {{ $image := index (.Params.images) 0 }}
-<div class="rounded overflow-hidden shadow h-full w-full">
+<div class="rounded overflow-hidden h-full w-full">
 	{{ with $image }}
 	<a href="{{ $.URL }}" class="no-underline">
 		{{ if in (print $.Site.BaseURL) "localhost" }}

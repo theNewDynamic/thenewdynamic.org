@@ -118,8 +118,19 @@ button:hover {
   PAGES .
   */
 .page-list_default {
-	@apply .max-w-5xl .px-8 .pt-4;
+	@apply max-w-sm;
 }
 .page-single_default {
-	@apply .max-w-xl .px-4 .pt-6;
+	@apply max-w-sm;
+}
+
+
+@screen lg {
+	.page-list_default {
+		@apply max-w-5xl;
+	}
+	.page-single_default {
+		@apply max-w-xl;
+	}
+	
 }

@@ -6,18 +6,18 @@
 
 <a href="{{ .URL }}" class="block no-underline text-black hover:opacity-90">
   {{ with $category }}
-    <dl class="bg-grey-darkTK flex justify-between px-3 py-2 text-xs text-white" style="background-color:{{ .Params.color }};">    
-      <dt class="text-sm main-category">
-        {{- .Title -}}
+    <dl class="bg-grey-darkTK flex justify-between px-3 py-1 text-xs text-white" style="background-color:{{ .Params.color }};">    
+      <dt class="text-xs main-category">
+        {{- .Title | lower -}}
       </dt>  
       {{/*  <span class="article-count hidden" title="Article Count">{{ $related_links | len }}</span>     */}}
     </dl>
   {{ end }}
   <div class="p-3">
-    <dt class="title bold text-lg near-black">
+    <dt class="title bold text-lg text-grey-darkest">
       {{- .Title -}}
     </dt>
-    <dd class="description nested-links text-sm no-underline leading-normal nested-copy-line-height">
+    <dd class="description nested-links text-grey-darker text-sm no-underline leading-normal nested-copy-line-height">
       {{- .Params.description -}}
     </dd>
     <div class="hidden text-red">
