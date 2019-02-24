@@ -26,6 +26,8 @@ https://www.purgecss.com/whitelisting#in-the-css-directly */
 /* purgecss start ignore */
 
 @import "./tailwindcss/modules/_menu-button";
+@import "./tailwindcss/modules/_hugo-internal-templates";
+
 
 /* purgecss end ignore */
 @tailwind utilities; 
