@@ -1,15 +1,49 @@
-<div class="font-brand font-bold text-center py-2 sm:pt-32 text-lg sm:text-xl"><span class="text-base sm:text-lg">t</span>ND</div>
+<div class="font-brand font-bold text-center py-2 sm:pt-32 text-lg sm:text-xl">
+	<span class="text-base sm:text-lg">t</span>ND
+</div>
 
-
+{{/*
 <div class="block sm:hidden ">
-  <label for="expandable-nav-side-input" class="block transition">    
-      <button type="button" class="toggle-item toggle-item--menu js-toggle-class" data-t-elem-pos="parent" data-t-selector="body" data-t-class="js-site-menu-open" tabindex="-1">
-          <span class="toggle-menu-inner">
-            <span class="toggle-item__icon"></span>
-            <span class="toggle-item__text">Menu</span>
-          </span>
-        </button>
-    </label>
-    <input type="checkbox" id="expandable-nav-side-input" name="" value="" />
-    {{ partial "_global/nav-panel.html" . }}  
+	<label for="expandable-nav-side-input" class="block transition">
+		<button
+			type="button"
+			class="toggle-item toggle-item--menu js-toggle-class"
+			data-t-elem-pos="parent"
+			data-t-selector="body"
+			data-t-class="js-site-menu-open"
+			tabindex="-1"
+		>
+			<span class="toggle-menu-inner">
+				<span class="toggle-item__icon"></span>
+				<span class="toggle-item__text">Menu</span>
+			</span>
+		</button>
+	</label>
+	<input type="checkbox" id="expandable-nav-side-input" name="" value="" />
+	{{ partial "_global/nav-panel.html" . }}
+</div>
+*/}}
+
+<div class="block sm:hidden">
+	<label
+		for="expandable-nav-side-input"
+		class="block transition text-white fixed pin-t pin-l mt-16"
+	>
+		<div
+			type="div"
+			class="toggle-item toggle-item--menu js-toggle-class"
+			data-t-elem-pos="parent"
+			data-t-selector="body"
+			data-t-class="js-site-menu-open"
+			tabindex="-1"
+		>
+			<span class="toggle-menu-inner">
+				<span class="toggle-item__icon"></span>
+				<span class="toggle-item__text">Menu</span>
+			</span>
+		</div>
+	</label>
+
+	<input type="checkbox" id="expandable-nav-side-input" name="" value="" />
+	{{ partial "_global/nav-panel.html" . }}
 </div>
