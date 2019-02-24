@@ -9,6 +9,7 @@
   "scripts": {
     "clean": "rm -rf public/ assets/output static/output resources",
     "build": "run-s deploy:assets build:hugo",
+    "deploy": "run-s clean build",
     "start": "run-s build:assets dev",
     "dev": "run-p dev:parcel dev:hugo",
     "dev:hugo": "NODE_ENV=development hugo server --gc --disableFastRender --navigateToChanged",
