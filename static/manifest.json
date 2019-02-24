@@ -1,6 +1,7 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "the New Dynamic",
+    "description": "Build Better Faster Websites",
+    "short_name": "tnd",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
@@ -17,3 +18,4 @@
     "background_color": "#ffffff",
     "display": "standalone"
 }
+
