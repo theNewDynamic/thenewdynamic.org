@@ -10,7 +10,7 @@ date: 2018-04-07 10:56:56 +0000
 
 #### New York City · April 9th–10th
 
-[![](/uploads/jamstack-conf.jpg)](https://jamstackconf.com/nyc/)
+[![](/uploads/jamstack-conf_sm.jpg)](https://jamstackconf.com/nyc/)
 
 [Click here to get Early Bird tickets for $199](https://ti.to/netlify/jamstackconf-new-york-2019)
 
