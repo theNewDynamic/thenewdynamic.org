@@ -18,8 +18,8 @@ urls:
   github: https://github.com/forestryio/
   twitter: forestryio
   other: ''
-description: Sync your Jekyll, Hugo or VuePress site. Your editors will love it and
-  won’t realize they’re making commits.
+description: Sync your Jekyll, Hugo, VuePress or Gatsby site. Your editors will love
+  it and won’t realize they’re making commits.
 resources: []
 weight: 7
 license: Commercial
