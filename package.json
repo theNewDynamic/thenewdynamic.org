@@ -1,7 +1,7 @@
 {
   "name": "thenewdynamic",
-  "version": "2.0.0",
-  "description": "Starter files for a Hugo project",
+  "version": "3.0.0",
+  "description": "Build Better Faster Websites",
   "main": "index.js",
   "repository": "https://github.com/theNewDynamic/hugo-starter.git",
   "author": "budparr <budparr@gmail.com>",
