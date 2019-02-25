@@ -59,7 +59,7 @@
       <div class="max-w-smTK">
         <h2 class="mb-4">About {{ .Title }}</h2>
         {{ with .Content }}
-          <div class="leading-nromal text-lg text-grey-darkest">
+          <div class="leading-nromal nested text-lg text-grey-darkest">
             {{- . -}}
           </div>
         {{ end }}
@@ -68,7 +68,7 @@
           <div class="mt-8 text-lg">
             {{ range $key, $value := . }}
               {{ with $value }}
-                <a href="{{ . }}" class="block dim no-underline text-grey-darkest">{{ $key  | humanize }} {{ partial "svg/link-external.svg" (dict "size" "12") }}</a>
+                <a href="{{ . }}" class="block mb-2 dim no-underline text-grey-darkest">{{ $key  | humanize }} {{ partial "svg/link-external.svg" (dict "size" "12") }}</a>
               {{ end }}
             {{ end }}
           </div>
@@ -163,7 +163,7 @@
 
 {{ define "tools_link" }}
   <li>
-    <a href="{{ .URL }}" class="block dim no-underline text-grey-darkest">
+    <a href="{{ .URL }}" class="block my-1 dim no-underline text-grey-darkest">
       {{- .Title -}}
     </a>
   </li>
