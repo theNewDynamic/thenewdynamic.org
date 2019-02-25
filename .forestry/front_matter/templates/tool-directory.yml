@@ -101,3 +101,5 @@ fields:
   config:
     max: '100'
     step: '1'
+pages:
+- content/tool/forestry.md

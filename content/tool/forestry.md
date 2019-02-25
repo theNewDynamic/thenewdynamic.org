@@ -9,20 +9,32 @@ tools:
 - headless-cms-git-based
 tags: []
 related_tools:
-- tool/vuepress.md
 - tool/jekyll.md
 - tool/hugo.md
+- tool/vuepress.md
+- tool/gatsby.md
 urls:
   website: https://forestry.io/
-  github: ''
-  twitter: ''
+  github: https://github.com/forestryio/
+  twitter: forestryio
   other: ''
-description: Sync your Jekyll, Hugo or VuePress site. Your editors will love it and
-  won’t realize they’re making commits.
+description: Sync your Jekyll, Hugo, VuePress or Gatsby site. Your editors will love
+  it and won’t realize they’re making commits.
 resources: []
 weight: 7
 license: Commercial
 language: ''
 
 ---
-Forestry is a content manager for static sites that gives editors all of the tools they’re used to, including visual editing and drag and drop page building.
+Forestry is an elegant visual content manager for static sites, that will commit changes to your Git repository.
+
+![](/uploads/forestry-cms.png)
+
+* Currently you can import Hugo, Jekyll and VuePress sites.   
+  Gatsby support is still in beta.
+* Page templates and [front matter templates](https://forestry.io/docs/settings/front-matter-templates/) ease creating and editing documents for non-technical users, who can drag-and-drop blocks to build pages.
+
+![Front Matter template creation](https://res.cloudinary.com/forestry-demo/image/fetch/c_limit,dpr_auto,f_auto,q_80,w_674/https://forestry.io/uploads/2018/01/35.png "Front Matter template creation in Forestry")
+
+* Contributors can preview their work before saving and publishing.
+* Forestry supports third party media storage ([Cloudinary](https://forestry.io/docs/media/cloudinary/) and [S3](https://forestry.io/docs/media/s3/) for now).
