@@ -11,6 +11,7 @@ rssLimit: 20
 themesDir: components
 theme:
   - layouts-base
+  - seo
 title: the New Dynamic
 blackfriday:
   fractions: false
