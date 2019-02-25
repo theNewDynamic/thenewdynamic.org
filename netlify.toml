@@ -8,7 +8,7 @@ HUGO_VERSION = "0.54.0"
 [context.production.environment]
 HUGO_VERSION = "0.54.0"
 # Uncomment the next line when moving site to production
-# HUGO_ENV = "production"
+HUGO_ENV = "production"
 #HUGO_ENABLEGITINFO = "true"
 
 [context.deploy-preview]
