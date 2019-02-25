@@ -1,0 +1,64 @@
+DefaultContentLanguage: en
+MetaDataFormat: yaml
+Paginate: 300
+baseURL: 'https://www.thenewdynamic.org'
+disableAliases: false
+enableRobotsTXT: true
+googleAnalytics: UA-30899180-6
+languageCode: en-us
+preserveTaxonomyNames: true
+rssLimit: 20
+themesDir: components
+theme:
+  - layouts-base
+  - seo
+title: the New Dynamic
+blackfriday:
+  fractions: false
+mediaTypes:
+  text/netlify:
+    delimiter: ''
+    suffixes: ''
+outputFormats:
+  HEADERS:
+    baseName: _headers
+    isPlainText: true
+    mediatype: text/netlify
+    notAlternative: true
+  REDIR:
+    baseName: _redirects
+    isPlainText: true
+    mediatype: text/netlify
+    notAlternative: true
+outputs:
+  home:
+    - HTML
+    - HEADERS
+    - REDIR
+  
+related:
+  includeNewer: true
+  indices:
+    - name: tool
+      toLower: true
+      weight: 100
+    - name: related_tools
+      toLower: true
+      weight: 100
+sitemap:
+  changefreq: monthly
+  filename: sitemap.xml
+  priority: 0.5
+social:
+  meetup: 'https://www.meetup.com/JAMstack-nyc/'
+  slack: "https://join.slack.com/t/thenewdynamic/shared_invite/enQtMjkwNjYwNTY0NjkxLWI1NDhlNjZkZjA5ZGJmODE1OThiMjkwN2ZkMzE1YjEwN2YwNWUxYTNjZTUxMGQ2MzU3NWQ0YmVjNGU1NTkxMDk"
+  twitter: thenewdynamic
+  youtube: thenewdynamic
+taxonomies:
+  headless-cms: headless-CMS
+  language: language
+  license: license
+  related_tool: related_tools
+  series: series
+  tag: tags
+  tools: tools

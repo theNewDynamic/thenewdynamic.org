@@ -1,18 +1,15 @@
 ---
-label: default
 hide_body: false
-is_partial: false
 fields:
-- name: date
-  label: Date
-  type: datetime
-  hidden: false
-  default: 
-- type: textarea
-  name: description
-  label: Description
-- name: images
-  label: Images
-  type: text
-  hidden: false
-  default: ''
+- type: include
+  name: defaults
+  label: defaults
+  template: partial-default
+- type: include
+  name: image
+  label: image
+  template: partial-images-w-credit
+- type: include
+  name: weight
+  label: weight
+  template: partial-weight

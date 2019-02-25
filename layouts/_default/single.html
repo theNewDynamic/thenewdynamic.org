@@ -1,0 +1,16 @@
+{{ define "main" }}
+  <article class="h-entry mx-auto max-w-lg py-2 lg:pt-5 px-8">
+    {{- partial "_components/page-heading.html" . -}}
+    <section class="nested leading-normal text-lg nested-no-underlines nested-imgTK text-grey-darkest pb-32">
+      {{ .Content }}
+       {{ if (or (eq .Section "article") (eq .Section "event")) }} 
+        {{ if .Date }}
+          <div class="text-sm">
+            {{ partial "_components/time.html" (dict "context" . "show_time" false) }}
+          </div>
+        {{ end }} 
+        {{ end }} 
+        {{partial "_components/link-to-original.html" (dict "item" .)}}
+    </section>
+  </article>
+{{end}}

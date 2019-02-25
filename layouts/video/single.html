@@ -1,21 +1,22 @@
 {{ define "main" }}
   <article class="page-single_default mx-auto min-h-screen">
-      {{ with .Params.related_tools }}
-        <aside class="related_tools flex flex-wrap mb-8 md:text-xl">
-          {{ range . }}{{ $link := index (where (where $.Site.Pages ".Section" "tool") ".File.Path" "in" .) 0 }}
-            {{ partial "_components/tags" $link }}
-          {{ end }}
-        </aside>
+    <div class="mb-16">
+      {{ partial "page-description.html" . }}
+    </div>
+  
+    {{ with .Params.related_tools }}
+    <aside class="related_tools flex flex-wrap mb-8 md:text-xl">
+      {{ range . }}{{ $link := index (where (where $.Site.Pages ".Section" "tool") ".File.Path" "in" .) 0 }}
+      {{ partial "_components/tags" $link }}
       {{ end }}
-
-      {{/* {{- partial "_components/image-picture-element.html" . -}} */}}
-      <div class="aspect-ratio-16/9 w-full relative">
-        <iframe id="existing-iframe-example" class="absolute w-full h-full pin"
-        src="https://www.youtube.com/embed/{{.Params.video_id}}?enablejsapi=1"
-        frameborder="0"
-        ></iframe>
-      </div>
-    <section class="text-xl my-16 leading-normal text-grey-darker">
+    </aside>
+    {{ end }}
+    {{/* {{- partial "_components/image-picture-element.html" . -}} */}}
+    <div class="aspect-ratio-16/9 w-full relative">
+      <iframe id="existing-iframe-example" class="absolute w-full h-full pin"
+        src="https://www.youtube.com/embed/{{.Params.video_id}}?enablejsapi=1" frameborder="0"></iframe>
+    </div>
+    <section class="text-xl my-16 leading-normal text-grey-darkest">
       {{ .Content }}
     </section>
     {{ partial "prev-next-in-section-icon.html" . }}

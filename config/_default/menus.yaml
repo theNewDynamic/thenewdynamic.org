@@ -1,0 +1,62 @@
+main:
+  - name: Events
+    url: /event/
+    weight: 1
+  - name: Articles
+    url: /article/
+    weight: 2
+  - name: Videos
+    url: /video/
+    weight: 3
+  - identifier: community
+    name: Community
+    url: /community/
+    weight: 4
+  - identifier: showcase
+    name: Showcase
+    url: /showcase/
+    weight: 5
+  - identifier: jobs
+    name: Find a Developer
+    url: /jobs/
+    weight: 6
+  
+tools:
+  - identifier: tools
+    name: All tools
+    url: /tool/
+    weight: 1
+  - identifier: content-management
+    name: Content Management
+    url: /tools/content-management/
+    weight: 4
+  # - identifier: api-based
+  #   name: API-based
+  #   parent: content-management
+  #   url: /tools/headless-cms-api-based/
+  #   weight: 3
+  - identifier: static-site-generator
+    name: Static Site Generator
+    url: /tools/static-site-generator/
+    weight: 2
+  # - identifier: git-based
+  #   name: Git-based
+  #   parent: content-management
+  #   url: /tools/headless-cms-git-based/
+  #   weight: 1
+  - identifier: helper
+    name: Helper
+    url: /tools/helper/
+    weight: 9
+  - identifier: hosting-deployment
+    name: Hosting & Deployment
+    url: /tools/hosting-deployment/
+    weight: 8
+  - identifier: interaction-front-end
+    name: 'Interaction'
+    url: /tools/interaction-front-end/
+    weight: 7
+  # - identifier: interaction-backend
+  #   name: 'Interaction: Back-end'
+  #   url: /tools/interaction-back-end/
+  #   weight: 6

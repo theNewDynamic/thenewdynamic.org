@@ -1,0 +1,22 @@
+---
+label: Image with Credit
+hide_body: false
+is_partial: true
+fields:
+- type: field_group_list
+  fields:
+  - type: file
+    name: file
+    label: Image File
+  - type: text
+    name: credit
+    label: Credit
+    description: optional
+  - type: text
+    name: caption
+    label: caption
+    description: optional
+  label: Images
+  name: images
+  config:
+    labelField: caption

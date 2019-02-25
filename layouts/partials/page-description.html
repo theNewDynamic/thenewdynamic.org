@@ -1,0 +1,18 @@
+<h1 class="font-brand dib-ns text-3xl md:text-4xl lh-title text-black m-0">
+  {{/*  
+      TODO: put this back
+    {{ if eq .Kind "taxonomy" }}
+    {{ $section_heading := .Site.GetPage "taxonomy" .Section }}
+    {{ with $section_heading }}{{- .Title -}}:
+    {{ end }}
+  {{ end }}  */}}
+  {{if .IsPage }}
+    {{ with .CurrentSection.Title }}{{ . }}: {{ end }}
+  {{ end }}
+  {{- $.Title -}}
+</h1>
+{{- with .Params.description -}}
+  <h2 class="dib-ns font-sans font-normal text-lg lh-copy text-grey-darker measure-wide-l pl4">
+    {{- . -}}
+  </h2>
+{{- end -}}

@@ -1,0 +1,9 @@
+{{ define "main" }}
+  {{- partial "_components/page-heading.html" . -}}
+  <section class="mt-16">
+	  {{ range.Paginator.Pages }}
+	    {{- partial "summary.html" . -}}
+	  {{ end }}
+  </section>
+  {{- template "_internal/pagination.html" . -}}
+{{ end }}

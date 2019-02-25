@@ -1,0 +1,21 @@
+---
+hide_body: false
+fields:
+- type: include
+  name: defaults
+  label: defaults
+  template: partial-default
+- type: include
+  name: date
+  label: date
+  template: partial-date
+- type: include
+  name: image
+  label: image
+  template: partial-images-w-credit
+- type: tag_list
+  label: Topics
+  name: tags
+- type: tag_list
+  label: Category
+  name: categories

@@ -1,0 +1,13 @@
+---
+label: partial-weight
+hide_body: false
+is_partial: true
+fields:
+- type: number
+  name: weight
+  label: Weight
+  config:
+    max: '100'
+    step: '5'
+  description: For ordering content (not always used)
+  hidden: true

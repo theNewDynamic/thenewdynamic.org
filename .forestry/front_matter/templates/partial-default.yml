@@ -1,0 +1,21 @@
+---
+label: partial-default
+hide_body: false
+is_partial: true
+fields:
+- type: text
+  name: title
+  label: Title
+  description: To make a word italicized put an *asterisk* before and after it, like
+    *The Title*
+  config:
+    required: true
+- type: textarea
+  name: description
+  label: Description
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+  description: Useful for Search Engines and Social Sharing. Limit formatting to bold
+    and italics.

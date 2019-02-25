@@ -1,7 +1,4 @@
 # Ignore docs files
-_site
-.ruby-version
-.jekyll-metadata
 .vscode
 
 # Numerous always-ignore extensions
@@ -26,7 +23,8 @@ Thumbs.db
 .settings
 .tmproj
 .asset-cache
-.sass-cache
-public
+
 # Folders to ignore
 node_modules
+public
+layouts_archive
