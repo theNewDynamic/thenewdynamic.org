@@ -9,14 +9,14 @@ tools:
 - headless-cms-git-based
 tags: []
 related_tools:
-- tool/gatsby.md
-- tool/vuepress.md
 - tool/jekyll.md
 - tool/hugo.md
+- tool/vuepress.md
+- tool/gatsby.md
 urls:
   website: https://forestry.io/
-  github: ''
-  twitter: ''
+  github: https://github.com/forestryio/
+  twitter: forestryio
   other: ''
 description: Sync your Jekyll, Hugo or VuePress site. Your editors will love it and
   won’t realize they’re making commits.
