@@ -20,7 +20,13 @@ urls:
   other: ''
 description: Sync your Jekyll, Hugo, VuePress or Gatsby site. Your editors will love
   it and won’t realize they’re making commits.
-resources: []
+resources:
+- name: Forestry CMS with Aerobatic
+  url: https://github.com/aerobatic/forestry-cms-demo
+- name: How I move my blog to Forestry CMS
+  url: https://dev.to/lauragift21/how-i-moved-my-blog-to-forestry-cms-1bb
+- name: Forestry  —  A static website CMS
+  url: https://medium.com/@fbnlsr/forestry-a-static-website-cms-81bebaacfae9
 weight: 7
 license: Commercial
 language: ''
