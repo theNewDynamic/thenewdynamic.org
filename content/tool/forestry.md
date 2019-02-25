@@ -9,6 +9,7 @@ tools:
 - headless-cms-git-based
 tags: []
 related_tools:
+- tool/gatsby.md
 - tool/vuepress.md
 - tool/jekyll.md
 - tool/hugo.md
