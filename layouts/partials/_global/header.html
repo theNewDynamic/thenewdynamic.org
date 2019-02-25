@@ -12,11 +12,14 @@
 			class="block no-underline">
 			<img src="/images/tnd-logo-B50938.svg" alt="logo" class="px-8 sm:px-4 max-w-full">
 		</a>
+		
 		<div class="flex items-center justify-center pt-8">
-			{{ partial "_components/social-follow.html" (dict "cx" . "icon_size" "26px") }}				
+			<div class="{{ if not .IsHome }} hidden sm:inline-block{{ end }}">
+				{{ partial "_components/social-follow.html" (dict "cx" . "icon_size" "26px") }}				
+			</div>
 		</div>
-		<div class="pt-8 hidden sm:block">
-			
+		
+		<div class="pt-8 hidden sm:block">			
 			{{ partial "_global/menus.html" . }}
 		</div>
 	</div>
