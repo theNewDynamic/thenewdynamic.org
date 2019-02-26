@@ -65,6 +65,7 @@ fields:
   name: images
   label: Images
 pages:
+- content/showcase/algolia.md
 - content/showcase/repower-australia.md
 - content/showcase/design-systems-repo.md
 - content/showcase/howard-schultz.md
