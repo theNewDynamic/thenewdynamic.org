@@ -2343,11 +2343,6 @@ flatten@^1.0.2:
   resolved "https://registry.yarnpkg.com/flatten/-/flatten-1.0.2.tgz#dae46a9d78fbe25292258cc1e780a41d95c03782"
   integrity sha1-2uRqnXj74lKSJYzB54CkHZXAN4I=
 
-fonts@^0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/fonts/-/fonts-0.0.2.tgz#fa5e5a92534a9868b99184ac92e45f8e6a684776"
-  integrity sha1-+l5aklNKmGi5kYSskuRfjmpoR3Y=
-
 for-in@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/for-in/-/for-in-1.0.2.tgz#81068d295a8142ec0ac726c6e2200c30fb6d5e80"

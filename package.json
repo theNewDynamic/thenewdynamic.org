@@ -41,9 +41,7 @@
     "vue-hot-reload-api": "^2.3.2",
     "vue-template-compiler": "^2.6.6"
   },
-  "dependencies": {
-    "fonts": "^0.0.2"
-  },
+  "dependencies": {},
   "alias": {
     "vue": "./node_modules/vue/dist/vue.common.js"
   }
