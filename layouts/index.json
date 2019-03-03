@@ -1,0 +1,6 @@
+{{- $.Scratch.Add "index" slice -}}
+{{$content := where (where .Site.RegularPages ".Section" "tool") ".Params.private" "ne" true}}
+{{- range $content -}}
+  {{- $.Scratch.Add "index" (dict "title" .Title "objectID" (md5 .File.Path) "date" (.Date.Format "January 2, 2006") "sort_date" .Date.Unix "uri" .RelPermalink "description" .Params.description "category" .Params.tools "license" .Params.license "tool_type" (index .Params.tools) "tags" .Params.tags "data_model" .Params.data_model "content" (.Plain | truncate 300)) -}}
+{{- end -}}
+{{- $.Scratch.Get "index" | jsonify -}}
