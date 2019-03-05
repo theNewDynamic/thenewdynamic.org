@@ -35,6 +35,10 @@ outputs:
     - HTML
     - HEADERS
     - REDIR
+    - JSON
+  section:
+    - HTML
+    - JSON
   
 related:
   includeNewer: true
