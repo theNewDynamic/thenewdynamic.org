@@ -9,7 +9,7 @@ urls:
   other: ''
 tools:
 - content-management
-- headless-cms-api-based
+data_model: API-based
 license: Commercial
 language: ''
 related_tools: []

@@ -6,7 +6,7 @@ featured: false
 slug: netlify-cms
 tools:
 - content-management
-- headless-cms-git-based
+data_model: Git-based
 tags: []
 urls:
   website: https://www.netlifycms.org/

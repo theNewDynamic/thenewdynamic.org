@@ -6,7 +6,7 @@ featured: false
 slug: prismic
 tools:
 - content-management
-- headless-cms-api-based
+data_model: API-based
 tags: []
 license: Commercial
 urls:

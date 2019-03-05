@@ -3,7 +3,7 @@ title: Coisas
 date: 2017-11-14 15:17:00 +0000
 tools:
 - content-management
-- headless-cms-git-based
+data_model: Git-based
 urls:
   website: https://coisas.alhur.es/#!/
   github: https://github.com/fiatjaf/coisas

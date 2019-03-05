@@ -3,7 +3,7 @@ title: Cockpit CMS
 date: 2017-02-14 15:17:00 +0000
 tools:
 - content-management
-- headless-cms-api-based
+data_model: API-based
 tags: []
 urls:
   website: https://getcockpit.com/

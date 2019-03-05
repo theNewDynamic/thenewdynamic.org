@@ -6,7 +6,7 @@ featured: false
 slug: hexo-admin
 tools:
 - content-management
-- headless-cms-git-based
+data_model: Git-based
 urls:
   website: https://jaredforsyth.com/hexo-admin/
   github: https://github.com/jaredly/hexo-admin

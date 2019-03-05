@@ -3,7 +3,7 @@ title: IBM Watson Content Hub
 date: 2017-11-14 15:17:00 +0000
 tools:
 - content-management
-- headless-cms-api-based
+data_model: API-based
 urls:
   website: https://www.ibm.com/products/watson-content-hub
   github: ''

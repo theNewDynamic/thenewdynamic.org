@@ -3,7 +3,7 @@ title: Drive CMS
 date: 2016-06-22 00:00:00 +0000
 tools:
 - content-management
-- headless-cms-api-based
+data_model: API-based
 urls:
   website: https://www.drivecms.xyz
   github: https://github.com/max-barry/google-drive-cms

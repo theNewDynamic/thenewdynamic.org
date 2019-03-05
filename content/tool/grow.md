@@ -3,7 +3,7 @@ title: Grow
 date: 2017-01-01 00:00:00 +0000
 tools:
 - static-site-generator
-- headless-cms-git-based
+data_model: Git-based
 urls:
   website: http://grow.io/
   github: https://github.com/grow/grow

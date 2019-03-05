@@ -6,7 +6,7 @@ featured: false
 slug: forestry
 tools:
 - content-management
-- headless-cms-git-based
+data_model: Git-based
 tags: []
 related_tools:
 - tool/jekyll.md

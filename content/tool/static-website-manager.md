@@ -5,7 +5,7 @@ posted_date: 2015-12-07 22:10:00 +0000
 featured: false
 tools:
 - content-management
-- headless-cms-git-based
+data_model: Git-based
 tags: []
 urls:
   website: https://www.staticwebsitemanager.com/

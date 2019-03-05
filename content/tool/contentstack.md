@@ -5,7 +5,7 @@ description: Publish simultaneously to all your digital channels, with content a
   optimized for each screen and device.
 tools:
 - content-management
-- headless-cms-api-based
+data_model: API-based
 license: Commercial
 related_tools:
 - tool/metalsmith.md

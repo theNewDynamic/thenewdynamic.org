@@ -4,7 +4,7 @@ date: 2016-01-14 18:47:00 +0000
 tools:
 - content-management
 - hosting-deployment
-- headless-cms-git-based
+data_model: Git-based
 description: Static Hosting for Application Developers and Digital Agencies (currently
   in public beta)
 urls:

@@ -6,7 +6,7 @@ featured: false
 slug: proseio
 tools:
 - content-management
-- headless-cms-git-based
+data_model: Git-based
 urls:
   website: http://prose.io
   github: https://github.com/prose/prose

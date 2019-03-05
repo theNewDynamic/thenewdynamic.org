@@ -3,7 +3,7 @@ title: Tipe
 date: 2017-11-16 15:17:00 +0000
 tools:
 - content-management
-- headless-cms-api-based
+data_model: API-based
 urls:
   website: https://tipe.io/
   github: ''

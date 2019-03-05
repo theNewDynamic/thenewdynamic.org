@@ -6,7 +6,7 @@ featured: false
 slug: siteleaf
 tools:
 - content-management
-- headless-cms-git-based
+data_model: Git-based
 tags: []
 license: Commercial
 related_tools:

@@ -3,7 +3,7 @@ title: PushTable
 date: 2017-10-24 00:00:00 +0000
 tools:
 - content-management
-- headless-cms-api-based
+data_model: API-based
 urls:
   website: https://www.pushtable.com/
   github: ''

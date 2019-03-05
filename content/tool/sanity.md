@@ -5,7 +5,7 @@ featured: false
 description: An open source fully customizable, headless CMS.
 tools:
 - content-management
-- headless-cms-api-based
+data_model: API-based
 tags: []
 urls:
   website: https://www.sanity.io/

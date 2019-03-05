@@ -6,7 +6,7 @@ featured: false
 related_tool: jekyll
 tools:
 - content-management
-- headless-cms-git-based
+data_model: Git-based
 urls:
   website: ''
   github: https://github.com/jekyll/jekyll-admin

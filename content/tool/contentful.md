@@ -4,7 +4,7 @@ date: 2015-05-02 02:57:00 +0000
 featured: true
 tools:
 - content-management
-- headless-cms-api-based
+data_model: API-based
 tags: []
 urls:
   website: https://www.contentful.com/

@@ -5,7 +5,7 @@ featured: false
 tools:
 - content-management
 - hosting-deployment
-- headless-cms-git-based
+data_model: Git-based
 tags: []
 urls:
   website: http://cloudcannon.com/

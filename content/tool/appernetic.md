@@ -3,7 +3,7 @@ title: Appernetic
 date: 2016-11-13 00:00:00 +0000
 tools:
 - content-management
-- headless-cms-git-based
+data_model: Git-based
 urls:
   website: https://appernetic.io/
   github: https://github.com/appernetic

@@ -3,7 +3,7 @@ title: Daptin
 date: 2018-02-16 16:05:59 +0000
 tools:
 - content-management
-- headless-cms-api-based
+data_model: API-based
 tags: []
 urls:
   website: https://dapt.in/
