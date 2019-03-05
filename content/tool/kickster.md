@@ -5,7 +5,7 @@ posted_date: 2015-11-27 03:29:00 +0000
 featured: false
 slug: kickster
 tools:
-- helper
+- Helper
 urls:
   website: http://kickster.nielsenramon.com/
   github: https://github.com/nielsenramon/kickster

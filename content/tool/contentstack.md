@@ -4,7 +4,7 @@ date: 2018-03-02 21:19:05 +0000
 description: Publish simultaneously to all your digital channels, with content automatically
   optimized for each screen and device.
 tools:
-- content-management
+- "Content Management"
 data_model: API-based
 license: Commercial
 related_tools:

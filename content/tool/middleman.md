@@ -3,7 +3,7 @@ title: Middleman
 date: 2015-05-02 01:55:00 +0000
 featured: true
 tools:
-- static-site-generator
+- "Static Site Generator"
 urls:
   website: https://middlemanapp.com/
   github: https://github.com/middleman/middleman

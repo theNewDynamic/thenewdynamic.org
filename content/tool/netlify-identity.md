@@ -3,7 +3,7 @@ title: Netlify Identity
 date: 2018-05-19 11:52:33 -0400
 description: Authentication functionality
 tools:
-- interaction-back-end
+- Interaction
 license: Commercial
 related_tools:
 - tool/netlify.md

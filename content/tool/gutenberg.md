@@ -4,7 +4,7 @@ date: 2018-10-26 19:04:56 -0400
 weight: ''
 description: Rust-based static site generator
 tools:
-- static-site-generator
+- "Static Site Generator"
 license: Open Source
 data_model: ''
 language: Rust

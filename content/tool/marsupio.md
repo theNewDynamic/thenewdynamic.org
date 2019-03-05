@@ -2,7 +2,7 @@
 title: Marsupi
 date: 2016-02-11 02:57:00 +0000
 tools:
-- hosting-deployment
+- "Hosting/Deployment"
 description: Deploy your website from GitHub. View it at any branch, tag, or commit.
 tags: []
 urls:

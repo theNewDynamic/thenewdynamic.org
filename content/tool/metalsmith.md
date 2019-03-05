@@ -3,7 +3,7 @@ title: Metalsmith
 date: 2015-05-02 01:54:00 +0000
 featured: false
 tools:
-- static-site-generator
+- "Static Site Generator"
 urls:
   website: http://www.metalsmith.io/
   github: https://github.com/segmentio/metalsmith.io

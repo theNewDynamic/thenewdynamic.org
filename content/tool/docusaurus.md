@@ -3,7 +3,7 @@ title: Docusaurus
 date: 2017-12-15 00:00:00 +0000
 featured: true
 tools:
-- static-site-generator
+- "Static Site Generator"
 urls:
   website: https://docusaurus.io/
   github: https://github.com/facebook/Docusaurus

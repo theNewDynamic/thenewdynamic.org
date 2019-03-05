@@ -3,8 +3,8 @@ title: CloudCannon
 date: 2015-05-08 22:00:00 +0000
 featured: false
 tools:
-- content-management
-- hosting-deployment
+- "Content Management"
+- "Hosting/Deployment"
 data_model: Git-based
 tags: []
 urls:

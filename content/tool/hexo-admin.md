@@ -5,7 +5,7 @@ posted_date: 2015-10-19 23:12:00 +0000
 featured: false
 slug: hexo-admin
 tools:
-- content-management
+- "Content Management"
 data_model: Git-based
 urls:
   website: https://jaredforsyth.com/hexo-admin/

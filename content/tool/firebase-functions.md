@@ -3,12 +3,12 @@ title: Firebase Functions
 date: 2018-06-05 13:46:26 +0000
 description: Develop a backend without servers
 tools:
-- serverless
+- Serverless
 license: Commercial
 language: ''
 related_tools: []
 tags:
-- serverless
+- Serverless
 urls:
   website: https://firebase.google.com/products/functions/
   github: ''

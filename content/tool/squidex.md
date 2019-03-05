@@ -2,7 +2,7 @@
 title: Squidex
 date: 2018-03-19 10:06:34 +0000
 tools:
-- content-management
+- "Content Management"
 license: Open Source
 description: " Headless CMS and Content Managment Hub"
 urls:

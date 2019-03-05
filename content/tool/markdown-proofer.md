@@ -3,7 +3,7 @@ title: Markdown Proofer
 date: 2018-06-15 16:52:57 -0400
 description: Tool to validate Markdown files.
 tools:
-- helper
+- Helper
 license: Open Source
 language: Go
 related_tools: []

@@ -2,7 +2,7 @@
 title: Jekyll Hook
 date: 2013-05-01 01:20:00 +0000
 tools:
-- hosting-deployment
+- "Hosting/Deployment"
 related_tool: jekyll
 urls:
   post: https://developmentseed.org/blog/2013/05/01/introducing-jekyll-hook/

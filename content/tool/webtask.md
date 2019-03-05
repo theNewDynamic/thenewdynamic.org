@@ -9,11 +9,11 @@ urls:
   other: ''
 description: Run serverless tasks for free
 tools:
-- serverless
+- Serverless
 related_tools:
 - tool/aws-lambda.md
 tags:
-- serverless
+- Serverless
 resources: []
 cat_test: ''
 weight: 10

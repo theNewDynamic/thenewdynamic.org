@@ -5,7 +5,7 @@ posted_date: 2015-05-08 22:01:00 +0000
 featured: false
 slug: harp
 tools:
-- static-site-generator
+- "Static Site Generator"
 urls:
   website: http://harpjs.com/
   github: https://github.com/sintaxi/harp

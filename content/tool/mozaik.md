@@ -3,7 +3,7 @@ title: Mozaik
 date: 2018-03-05 18:16:23 +0000
 description: A headless CMS, a GraphQL API
 tools:
-- content-management
+- "Content Management"
 license: Commercial
 related_tools:
 - tool/gatsby.md

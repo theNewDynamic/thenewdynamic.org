@@ -5,7 +5,7 @@ posted_date: 2016-06-15 04:43:00 +0000
 featured: false
 slug: forestry
 tools:
-- content-management
+- "Content Management"
 data_model: Git-based
 tags: []
 related_tools:

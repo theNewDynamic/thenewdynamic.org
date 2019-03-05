@@ -5,7 +5,7 @@ posted_date: 2015-05-16 22:55:00 +0000
 featured: false
 slug: tipue
 tools:
-- interaction-front-end
+- Interaction
 urls:
   website: http://www.tipue.com/search/
   github: ''

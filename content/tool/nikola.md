@@ -5,7 +5,7 @@ posted_date: 2015-07-24 02:31:00 +0000
 featured: false
 slug: nikola
 tools:
-- static-site-generator
+- "Static Site Generator"
 urls:
   website: https://getnikola.com/
   github: https://github.com/getnikola/nikola

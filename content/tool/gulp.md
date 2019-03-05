@@ -5,7 +5,7 @@ posted_date: 2015-05-08 22:00:00 +0000
 featured: false
 slug: gulp
 tools:
-- build-tool
+- "Bundler/Task Runner"
 urls:
   website: http://gulpjs.com/
   github: https://github.com/gulpjs/gulp

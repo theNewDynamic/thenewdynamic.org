@@ -4,8 +4,8 @@ date: 2018-03-03 11:37:31 +0000
 description: Publii is a new kind of blogging experience; an app for building static
   websites directly on your desktop.
 tools:
-- static-site-generator
-- content-management
+- "Static Site Generator"
+- "Content Management"
 license: Open Source
 tags:
 - Desktop

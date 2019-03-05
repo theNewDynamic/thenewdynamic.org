@@ -8,7 +8,7 @@ urls:
   twitter: https://twitter.com/try_troglio
   other: ''
 tools:
-- content-management
+- "Content Management"
 data_model: API-based
 license: Commercial
 language: ''

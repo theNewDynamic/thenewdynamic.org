@@ -2,7 +2,7 @@
 title: NuxtJS
 date: 2017-02-10 12:00:00 +0000
 tools:
-- static-site-generator
+- "Static Site Generator"
 urls:
   website: https://nuxtjs.org/
   github: https://github.com/nuxt/nuxt.js

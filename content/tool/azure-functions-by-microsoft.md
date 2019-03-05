@@ -5,7 +5,7 @@ weight: ''
 description: Accelerate your development with an event-driven, serverless compute
   experience. Scale on demand and pay only for the resources you consume.
 tools:
-- serverless
+- Serverless
 license: ''
 data_model: ''
 language: ''

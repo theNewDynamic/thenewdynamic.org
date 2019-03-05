@@ -2,7 +2,7 @@
 title: Appernetic
 date: 2016-11-13 00:00:00 +0000
 tools:
-- content-management
+- "Content Management"
 data_model: Git-based
 urls:
   website: https://appernetic.io/

@@ -5,7 +5,7 @@ posted_date: 2015-10-03 16:57:00 +0000
 featured: false
 slug: netlify-cms
 tools:
-- content-management
+- "Content Management"
 data_model: Git-based
 tags: []
 urls:

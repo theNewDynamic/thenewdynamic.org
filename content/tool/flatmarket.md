@@ -5,7 +5,7 @@ posted_date: 2015-08-30 03:57:00 +0000
 featured: false
 slug: flatmarket
 tools:
-- interaction-front-end
+- Interaction
 urls:
   website: https://christophercliff.com/flatmarket/
   github: https://github.com/christophercliff/flatmarket

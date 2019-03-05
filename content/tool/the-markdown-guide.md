@@ -9,7 +9,7 @@ urls:
   twitter: ''
   other: ''
 tools:
-- helper
+- Helper
 license: Open Source
 
 language: ''

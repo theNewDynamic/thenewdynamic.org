@@ -2,7 +2,7 @@
 title: Imgix
 date: 2017-06-18 12:12:00 +0000
 tools:
-- interaction-back-end
+- Interaction
 urls:
   website: https://www.imgix.com
   github: ''

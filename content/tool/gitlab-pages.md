@@ -3,7 +3,7 @@ title: Gitlab Pages
 date: 2016-08-07 21:18:00 +0000
 featured: false
 tools:
-- hosting-deployment
+- "Hosting/Deployment"
 urls:
   website: http://pages.gitlab.io/
   github: ''

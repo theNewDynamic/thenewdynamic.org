@@ -4,7 +4,7 @@ date: 2015-10-03 16:53:00 +0000
 posted_date: 2015-10-03 16:53:00 +0000
 featured: false
 tools:
-- content-management
+- "Content Management"
 urls:
   website: https://federalist.18f.gov/
   github: https://github.com/18F/federalist

@@ -3,7 +3,7 @@ title: Contentful
 date: 2015-05-02 02:57:00 +0000
 featured: true
 tools:
-- content-management
+- "Content Management"
 data_model: API-based
 tags: []
 urls:

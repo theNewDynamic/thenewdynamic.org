@@ -5,7 +5,7 @@ posted_date: 2015-11-19 17:33:00 +0000
 featured: false
 slug: a-free-jekyll-website-template-for-nonprofits
 tools:
-- theme
+- Theme
 urls:
   github: https://github.com/smartergiving/free-nonprofit-starter-website
 

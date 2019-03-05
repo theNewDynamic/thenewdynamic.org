@@ -5,7 +5,7 @@ weight: ''
 description: Create AWS serverless apps, APIs, and sites with databases, sessions,
   and full CI/CD. In ten seconds.
 tools:
-- serverless
+- Serverless
 license: ''
 data_model: ''
 language: ''

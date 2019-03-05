@@ -6,7 +6,7 @@ featured: false
 slug: jekyll-lambda
 related_tool: jekyll
 tools:
-- theme
+- Theme
 urls:
   website: https://lauris.github.io/
   github: https://github.com/lauris/jekyll-lambda

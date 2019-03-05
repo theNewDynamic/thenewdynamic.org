@@ -5,7 +5,7 @@ posted_date: 2015-11-12 02:07:00 +0000
 featured: false
 slug: hyde
 tools:
-- theme
+- Theme
 urls:
   website: http://hyde.getpoole.com/
   github: https://github.com/poole/hyde

@@ -2,7 +2,7 @@
 title: Serverless Post Scheduler
 date: 2017-03-07 12:12:00 +0000
 tools:
-- interaction-back-end
+- Interaction
 urls:
   website: ''
   github: https://github.com/serverless/post-scheduler/
@@ -23,7 +23,7 @@ license: ''
 language: ''
 related_tools: []
 tags:
-- serverless
+- Serverless
 cat_test: ''
 weight: ''
 

@@ -2,7 +2,7 @@
 title: Shifter
 date: 2017-02-12 12:12:00 +0000
 tools:
-- content-management
+- "Content Management"
 urls:
   website: https://getshifter.io/
   github: ''

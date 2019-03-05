@@ -5,7 +5,7 @@ posted_date: 2015-05-08 22:01:00 +0000
 featured: false
 slug: hexo
 tools:
-- static-site-generator
+- "Static Site Generator"
 urls:
   website: 'https://hexo.io/'
   github: 'https://github.com/hexojs/hexo'

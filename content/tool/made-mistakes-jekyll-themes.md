@@ -5,7 +5,7 @@ posted_date: 2015-11-12 19:23:00 +0000
 featured: false
 slug: made-mistakes-jekyll-themes
 tools:
-- theme
+- Theme
 urls:
   website: https://mademistakes.com/work/jekyll-themes/
   github: https://github.com/mmistakes/minimal-mistakes

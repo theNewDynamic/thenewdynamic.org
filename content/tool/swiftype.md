@@ -5,7 +5,7 @@ posted_date: 2015-05-16 22:54:00 +0000
 featured: false
 slug: swiftype
 tools:
-- interaction-front-end
+- Interaction
 urls:
   website: https://swiftype.com/
   github: ''

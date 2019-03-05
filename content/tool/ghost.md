@@ -6,7 +6,7 @@ description: Ghost is a fully open source, adaptable platform for building and r
   to Sky News.
 date: 2019-01-10 05:00:00 +0000
 tools:
-- content-management
+- "Content Management"
 data_model: API-based
 license: Hybrid
 language: Node

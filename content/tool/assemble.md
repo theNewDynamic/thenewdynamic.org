@@ -2,7 +2,7 @@
 title: Assemble
 date: 2014-07-23 00:00:00 +0000
 tools:
-- static-site-generator
+- "Static Site Generator"
 urls:
   website: http://assemble.io/
   github: https://github.com/assemble/assemble/

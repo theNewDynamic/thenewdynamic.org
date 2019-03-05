@@ -5,7 +5,7 @@ posted_date: 2015-10-05 18:17:00 +0000
 featured: false
 slug: coil-cms
 tools:
-- content-management
+- "Content Management"
 urls:
   website: ''
   github: https://github.com/getnikola/coil

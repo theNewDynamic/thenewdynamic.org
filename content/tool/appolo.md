@@ -5,7 +5,7 @@ posted_date: 2016-01-01 15:17:00 +0000
 featured: false
 slug: appolo
 tools:
-- theme
+- Theme
 urls:
   website: http://www.delightfuldev.com/appolo
   github: https://github.com/nicnocquee/appolo

@@ -5,7 +5,7 @@ weight: ''
 description: Integrate powerful search functionality into your applications, without
   ever having to set up or manage servers.
 tools:
-- interaction-front-end
+- Interaction
 license: Commercial
 data_model: ''
 language: ''

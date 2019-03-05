@@ -4,7 +4,7 @@ date: 2017-11-15 02:57:00 +0000
 featured: false
 description: An open source fully customizable, headless CMS.
 tools:
-- content-management
+- "Content Management"
 data_model: API-based
 tags: []
 urls:

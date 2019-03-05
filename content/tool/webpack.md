@@ -5,7 +5,7 @@ posted_date: 2017-01-10 00:00:00 +0000
 featured: false
 slug: webpack
 tools:
-- build-tool
+- "Bundler/Task Runner"
 urls:
   website: https://webpack.js.org/
   github: https://github.com/webpack/webpack

@@ -5,7 +5,7 @@ posted_date: 2015-11-12 19:21:00 +0000
 featured: false
 slug: pixyll-jekyll-theme
 tools:
-- theme
+- Theme
 urls:
   website: http://pixyll.com/
   github: https://github.com/johnotander/pixyll

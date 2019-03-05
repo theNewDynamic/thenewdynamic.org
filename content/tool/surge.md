@@ -5,7 +5,7 @@ posted_date: 2015-05-15 16:24:00 +0000
 featured: false
 slug: surge
 tools:
-- hosting-deployment
+- "Hosting/Deployment"
 urls:
   website: https://surge.sh/
   github: https://github.com/sintaxi/surge

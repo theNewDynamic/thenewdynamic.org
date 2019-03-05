@@ -5,7 +5,7 @@ posted_date: 2015-08-11 13:59:00 +0000
 featured: false
 slug: upstatic
 tools:
-- hosting-deployment
+- "Hosting/Deployment"
 description: A better way to deploy static websites to Amazon S3
 urls:
   website: http://beta.upstatic.io/

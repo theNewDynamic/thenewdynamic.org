@@ -3,7 +3,7 @@ title: Comment.sh
 date: 2018-04-30 09:00:48 -0400
 description: Lightweight hosted comments powered by Isso
 tools:
-- interaction-front-end
+- Interaction
 license: Commercial
 related_tools:
 - tool/isso-commenting.md

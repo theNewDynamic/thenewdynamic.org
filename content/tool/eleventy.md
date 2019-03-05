@@ -4,7 +4,7 @@ date: 2018-02-17 21:18:00 +0000
 featured: false
 tags: []
 tools:
-- static-site-generator
+- "Static Site Generator"
 urls:
   website: https://www.11ty.io/
   github: https://github.com/11ty/eleventy

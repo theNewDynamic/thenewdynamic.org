@@ -4,7 +4,7 @@ description: 'This is the description for '
 date: 2018-04-20 14:44:09 +0000
 color: ''
 tools:
-- serverless
+- Serverless
 urls:
   website: http://serverlesscalc.com/
   github: https://github.com/sbarski/serverless-calculator
@@ -15,7 +15,7 @@ language: ''
 related_tools:
 - tool/google-cloud-storage.md
 tags:
-- serverless
+- Serverless
 resources: []
 cat_test: ''
 weight: ''

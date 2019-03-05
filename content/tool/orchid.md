@@ -2,7 +2,7 @@
 title: Orchid
 date: 2018-05-08 14:37:39 -0400
 tools:
-- static-site-generator
+- "Static Site Generator"
 license: Open Source
 urls:
   github: https://github.com/JavaEden/Orchid

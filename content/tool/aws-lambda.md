@@ -4,7 +4,7 @@ date: 2017-05-18 15:57:44 +0000
 description: Run code without thinking about servers. Pay only for the compute time
   you consume.
 tools:
-- serverless
+- Serverless
 license: Commercial
 urls:
   website: https://aws.amazon.com/lambda/
@@ -12,7 +12,7 @@ urls:
   twitter: ''
   other: ''
 tags:
-- serverless
+- Serverless
 - AWS
 language: ''
 related_tools: []

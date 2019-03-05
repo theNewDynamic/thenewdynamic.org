@@ -2,7 +2,7 @@
 title: HashBrown CMS
 date: 2017-11-14 15:17:00 +0000
 tools:
-- content-management
+- "Content Management"
 data_model: API-based
 tags: []
 urls:

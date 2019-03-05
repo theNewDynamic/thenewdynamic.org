@@ -5,7 +5,7 @@ posted_date: 2015-11-13 02:53:00 +0000
 featured: false
 slug: jekyll-themes
 tools:
-- theme
+- Theme
 related_tool: jekyll
 urls:
   website: http://jekyllthemes.org/

@@ -5,7 +5,7 @@ posted_date: 2015-06-10 03:14:00 +0000
 featured: false
 slug: codeship
 tools:
-- hosting-deployment
+- "Hosting/Deployment"
 urls:
   website: https://codeship.com/
   github: ''

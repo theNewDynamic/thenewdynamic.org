@@ -5,7 +5,7 @@ posted_date: 2015-12-15 02:46:00 +0000
 featured: false
 slug: fusejs-search
 tools:
-- interaction-front-end
+- Interaction
 urls:
   website: http://fusejs.io/
   github: https://github.com/krisk/fuse

@@ -9,13 +9,13 @@ urls:
   other: ''
 license: Open Source
 tools:
-- interaction-back-end
+- Interaction
 related_tools:
 - tool/aws-lambda.md
 tags:
 - authentication
 - react
-- serverless
+- Serverless
 - AWS
 language: ''
 resources: []

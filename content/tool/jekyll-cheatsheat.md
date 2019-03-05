@@ -2,7 +2,7 @@
 title: Jekyll Cheatsheet
 date: 2016-01-26 02:53:00 +0000
 tools:
-- helper
+- Helper
 related_tool: jekyll
 urls:
   website: https://devhints.io/jekyll

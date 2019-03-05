@@ -2,7 +2,7 @@
 title: Superdesk
 date: 2018-03-23 08:01:05 +0000
 tools:
-- content-management
+- "Content Management"
 license: Open Source
 description: Special purpose headless CMS and workflow management solution for newsrooms
   with open source and paid versions.

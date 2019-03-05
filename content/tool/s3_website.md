@@ -4,7 +4,7 @@ date: 2015-12-02 03:30:00 +0000
 posted_date: 2015-12-02 03:30:00 +0000
 featured: false
 tools:
-- hosting-deployment
+- "Hosting/Deployment"
 urls:
   website: ''
   github: https://github.com/laurilehmijoki/s3_website

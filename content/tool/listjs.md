@@ -5,7 +5,7 @@ posted_date: 2015-05-16 22:53:00 +0000
 featured: false
 slug: listjs
 tools:
-- interaction-front-end
+- Interaction
 urls:
   website: http://www.listjs.com/
   github: https://github.com/javve/list.js

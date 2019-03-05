@@ -5,7 +5,7 @@ posted_date: 2015-05-02 02:39:00 +0000
 featured: false
 slug: roots
 tools:
-- static-site-generator
+- "Static Site Generator"
 urls:
   website: ''
   github: https://github.com/carrot/roots

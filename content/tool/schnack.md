@@ -2,7 +2,7 @@
 title: Schnack
 date: 2017-10-22 00:00:00 +0000
 tools:
-- interaction-front-end
+- Interaction
 urls:
   website: https://www.vis4.net/blog/2017/10/hello-schnack/
   github: https://github.com/gka/schnack

@@ -4,7 +4,7 @@ date: 2017-09-08 21:18:00 +0000
 featured: false
 tags: []
 tools:
-- static-site-generator
+- "Static Site Generator"
 urls:
   website: https://react-static.js.org/
   github: https://github.com/nozzle/react-static

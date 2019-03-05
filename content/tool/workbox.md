@@ -8,7 +8,7 @@ urls:
   other: ''
 description: JavaScript Libraries for adding offline support to web apps
 tools:
-- interaction-back-end
+- Interaction
 license: Open Source
 language: ''
 related_tools: []

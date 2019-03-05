@@ -3,7 +3,7 @@ title: Hugo
 date: 2015-05-02 01:41:00 +0000
 featured: true
 tools:
-- static-site-generator
+- "Static Site Generator"
 urls:
   website: http://gohugo.io/
   github: https://github.com/spf13/hugo

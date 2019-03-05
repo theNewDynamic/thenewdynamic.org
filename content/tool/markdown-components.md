@@ -5,7 +5,7 @@ weight: ''
 description: Extend Markdown capabilities on static sites with simple, inline JavaScript
   apps (using Hexo & Vue.js).
 tools:
-- helper
+- Helper
 license: Open Source
 data_model: ''
 language: ''

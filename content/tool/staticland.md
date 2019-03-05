@@ -2,7 +2,7 @@
 title: Staticland
 date: 2016-12-09 00:00:00 +0000
 tools:
-- hosting-deployment
+- "Hosting/Deployment"
 urls:
   website: https://static.land/
   github: https://github.com/staticland

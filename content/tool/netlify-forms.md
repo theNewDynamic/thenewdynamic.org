@@ -3,7 +3,7 @@ title: Netlify Forms
 date: 2018-05-19 11:54:24 -0400
 description: Built-in form handling
 tools:
-- interaction-front-end
+- Interaction
 license: Commercial
 related_tools:
 - tool/netlify.md

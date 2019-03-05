@@ -5,7 +5,7 @@ posted_date: 2015-05-08 21:52:00 +0000
 featured: false
 slug: osmek
 tools:
-- content-management
+- "Content Management"
 data_model: API-based
 tags: []
 urls:

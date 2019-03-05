@@ -5,7 +5,7 @@ posted_date: 2015-05-14 17:17:00 +0000
 featured: false
 slug: google-cloud-storage
 tools:
-- hosting-deployment
+- "Hosting/Deployment"
 urls:
   website: https://cloud.google.com/storage/
   github: ''

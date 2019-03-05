@@ -4,7 +4,7 @@ date: 2015-05-08 22:01:00 +0000
 posted_date: 2015-05-08 22:01:00 +0000
 slug: statamic
 tools:
-- content-management
+- "Content Management"
 description: Flat-file CMS powered by Laravel
 urls:
   website: http://statamic.com/

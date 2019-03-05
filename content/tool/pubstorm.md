@@ -4,7 +4,7 @@ date: 2016-07-06 22:38:00 +0000
 posted_date: 2016-07-06 22:38:00 +0000
 featured: false
 tools:
-- hosting-deployment
+- "Hosting/Deployment"
 description: Free Web Publishing and Hosting for Developers
 urls:
   website: https://www.pubstorm.com/

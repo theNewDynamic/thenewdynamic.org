@@ -5,7 +5,7 @@ posted_date: 2015-05-08 22:01:00 +0000
 featured: false
 slug: octopress
 tools:
-- static-site-generator
+- "Static Site Generator"
 urls:
   github: https://github.com/octopress/octopress
   website: http://octopress.org/

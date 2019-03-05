@@ -2,13 +2,13 @@
 title: Auth0
 date: 2018-04-20 10:56:52 +0000
 tools:
-- interaction-back-end
+- Interaction
 license: Commercial
 related_tools: []
 tags:
 - auth
 - authentication
-- serverless
+- Serverless
 urls:
   website: https://auth0.com/
   github: https://github.com/auth0/

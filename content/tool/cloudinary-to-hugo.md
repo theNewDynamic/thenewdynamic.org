@@ -2,7 +2,7 @@
 title: Cloudinary-to-Hugo
 date: 2017-06-18 12:12:00 +0000
 tools:
-- helper
+- Helper
 urls:
   website: ''
   github: https://github.com/matfin/cloudinary_to_hugo

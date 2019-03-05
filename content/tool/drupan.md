@@ -5,7 +5,7 @@ posted_date: 2015-05-02 02:56:00 +0000
 featured: false
 slug: drupan
 tools:
-- content-management
+- "Content Management"
 urls:
   website: ''
   github: https://github.com/fallenhitokiri/drupan

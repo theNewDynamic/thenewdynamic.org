@@ -5,7 +5,7 @@ posted_date: 2015-05-16 19:00:00 +0000
 featured: false
 slug: poole
 tools:
-- theme
+- Theme
 urls:
   website: http://getpoole.com/
   github: https://github.com/poole

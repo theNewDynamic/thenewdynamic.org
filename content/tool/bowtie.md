@@ -2,8 +2,8 @@
 title: BowTie.io
 date: 2016-01-14 18:47:00 +0000
 tools:
-- content-management
-- hosting-deployment
+- "Content Management"
+- "Hosting/Deployment"
 data_model: Git-based
 description: Static Hosting for Application Developers and Digital Agencies (currently
   in public beta)

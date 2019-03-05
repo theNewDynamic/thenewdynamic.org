@@ -3,7 +3,7 @@ title: Hammer for Mac
 date: 2016-08-09 00:00:00 +0000
 featured: false
 tools:
-- static-site-generator
+- "Static Site Generator"
 urls:
   website: http://hammerformac.com/
   github: ''

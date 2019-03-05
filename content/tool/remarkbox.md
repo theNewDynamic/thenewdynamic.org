@@ -2,7 +2,7 @@
 title: Remarkbox
 date: 2017-10-22 00:00:00 +0000
 tools:
-- interaction-front-end
+- Interaction
 license: Commercial
 urls:
   website: https://www.remarkbox.com/

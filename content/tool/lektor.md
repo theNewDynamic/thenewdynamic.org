@@ -2,7 +2,7 @@
 title: Lektor
 date: 2016-10-27 00:00:00 +0000
 tools:
-- static-site-generator
+- "Static Site Generator"
 urls:
   website: https://www.getlektor.com/
   github: https://github.com/lektor/lektor

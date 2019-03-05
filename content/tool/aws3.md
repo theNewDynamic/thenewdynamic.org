@@ -2,7 +2,7 @@
 title: Amazon S3
 date: 2018-04-21 11:05:02 +0000
 tools:
-- hosting-deployment
+- "Hosting/Deployment"
 license: Commercial
 related_tools:
 - tool/s3_website.md

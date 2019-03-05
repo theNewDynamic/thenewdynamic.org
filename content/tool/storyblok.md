@@ -2,7 +2,7 @@
 title: Storyblok
 date: 2017-01-23 15:17:00 +0000
 tools:
-- content-management
+- "Content Management"
 data_model: API-based
 urls:
   website: https://www.storyblok.com/

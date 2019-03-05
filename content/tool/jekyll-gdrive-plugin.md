@@ -5,7 +5,7 @@ posted_date: 2015-12-02 19:10:00 +0000
 featured: false
 slug: jekyll-gdrive-plugin
 tools:
-- content-management
+- "Content Management"
 related_tool: jekyll
 urls:
   website: ''

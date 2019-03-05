@@ -3,7 +3,7 @@ title: Spike
 date: 2018-02-20 09:44:42 +0000
 description: A modern static build tool, powered by webpack
 tools:
-- static-site-generator
+- "Static Site Generator"
 license: Open Source
 language: Node
 urls:

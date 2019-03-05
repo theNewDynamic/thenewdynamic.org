@@ -5,7 +5,7 @@ posted_date: 2015-05-14 17:18:00 +0000
 featured: false
 slug: proseio
 tools:
-- content-management
+- "Content Management"
 data_model: Git-based
 urls:
   website: http://prose.io

@@ -5,8 +5,8 @@ weight: 3
 description: 'A stress-free CMS, Instant API, and Static Site Generator to help you
   get your projects done.'
 tools:
-- content-management
-- static-site-generator
+- "Content Management"
+- "Static Site Generator"
 license: Commercial
 data_model: API-based
 language: ''

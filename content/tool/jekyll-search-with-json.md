@@ -5,7 +5,7 @@ posted_date: 2015-05-16 22:58:00 +0000
 featured: false
 slug: jekyll-search-with-json
 tools:
-- interaction-front-end
+- Interaction
 related_tool: jekyll
 tags:
 - search

@@ -2,7 +2,7 @@
 title: Wyam
 date: 2017-01-09 00:00:00 +0000
 tools:
-- static-site-generator
+- "Static Site Generator"
 urls:
   website: https://wyam.io
   github: https://github.com/Wyamio/Wyam

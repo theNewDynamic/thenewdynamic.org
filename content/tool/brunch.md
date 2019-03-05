@@ -5,7 +5,7 @@ posted_date: 2015-05-16 18:47:00 +0000
 featured: false
 slug: brunch
 tools:
-- build-tool
+- "Bundler/Task Runner"
 urls:
   website: http://brunch.io/
 draft: true

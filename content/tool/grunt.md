@@ -5,7 +5,7 @@ posted_date: 2015-05-08 22:00:00 +0000
 featured: false
 slug: grunt
 tools:
-- build-tool
+- "Bundler/Task Runner"
 urls:
   website: http://gruntjs.com/
   github: https://github.com/gruntjs/grunt

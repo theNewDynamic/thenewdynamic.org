@@ -4,7 +4,7 @@ date: 2018-11-28 19:18:42 +0000
 weight: 1
 description: Build, deploy, and host cloud-powered modern web apps
 tools:
-- hosting-deployment
+- "Hosting/Deployment"
 license: ''
 data_model: ''
 language: ''

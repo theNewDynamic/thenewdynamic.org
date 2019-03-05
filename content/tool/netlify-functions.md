@@ -8,13 +8,13 @@ urls:
   other: ''
 description: Lambda functions on Netlify
 tools:
-- serverless
+- Serverless
 license: Commercial
 related_tools:
 - tool/netlify.md
 language: ''
 tags:
-- serverless
+- Serverless
 resources: []
 weight: ''
 

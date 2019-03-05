@@ -6,7 +6,7 @@ featured: false
 slug: shoal-hosting
 related_tool: sculpin
 tools:
-- hosting-deployment
+- "Hosting/Deployment"
 description: For Sculpin-based websites
 urls:
   website: http://shoalhosting.com/

@@ -5,7 +5,7 @@ posted_date: 2015-05-08 21:52:00 +0000
 featured: false
 slug: cloudflare
 tools:
-- hosting-deployment
+- "Hosting/Deployment"
 urls:
   website: https://www.cloudflare.com
   github: https://github.com/cloudflare

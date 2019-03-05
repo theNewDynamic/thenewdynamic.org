@@ -2,7 +2,7 @@
 title: Online Compliance Solutions
 date: 2018-05-05 22:29:59 -0400
 tools:
-- interaction-front-end
+- Interaction
 license: Commercial
 urls:
   website: https://www.iubenda.com/en/overview

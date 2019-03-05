@@ -2,7 +2,7 @@
 title: Serum
 date: 2016-08-11 00:00:00 +0000
 tools:
-- helper
+- Helper
 related_tool: jekyll
 urls:
   website: https://chrome.google.com/webstore/detail/serum/ffboflhdigfmnnokjjcmfipgehggjhlj

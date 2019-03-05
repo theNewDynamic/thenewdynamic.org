@@ -5,7 +5,7 @@ posted_date: 2015-05-14 02:05:00 +0000
 featured: false
 slug: harp-platform
 tools:
-- hosting-deployment
+- "Hosting/Deployment"
 urls:
   website: https://www.harp.io/
   github: ''

@@ -5,7 +5,7 @@ posted_date: 2015-05-02 02:56:00 +0000
 featured: false
 slug: tarbell
 tools:
-- static-site-generator
+- "Static Site Generator"
 urls:
   website: http://www.tarbell.io/
   github: https://github.com/tarbell-project/tarbell

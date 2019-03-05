@@ -3,7 +3,7 @@ title: Hugo support in Atom
 date: 2018-04-20 15:30:49 -0400
 description: Hugo grammar, snippets and shortcodes
 tools:
-- helper
+- Helper
 license: Open Source
 related_tools:
 - tool/hugo.md

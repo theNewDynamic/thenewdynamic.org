@@ -5,7 +5,7 @@ posted_date: 2015-05-02 21:16:00 +0000
 featured: false
 slug: proteus-static-site-starter-kits
 tools:
-- helper
+- Helper
 urls:
   website: http://thoughtbot.github.io/proteus/
   github: ''

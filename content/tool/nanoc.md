@@ -5,7 +5,7 @@ posted_date: 2015-10-11 17:38:00 +0000
 featured: false
 slug: nanoc
 tools:
-- static-site-generator
+- "Static Site Generator"
 urls:
   website: http://nanoc.ws/
   github: https://github.com/nanoc/nanoc

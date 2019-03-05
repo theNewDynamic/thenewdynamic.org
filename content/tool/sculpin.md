@@ -5,7 +5,7 @@ posted_date: 2015-05-08 22:00:00 +0000
 featured: false
 slug: sculpin
 tools:
-- static-site-generator
+- "Static Site Generator"
 urls:
   website: https://sculpin.io/
   github: https://github.com/sculpin/sculpin

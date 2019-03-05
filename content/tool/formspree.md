@@ -5,7 +5,7 @@ posted_date: 2015-05-15 12:20:00 +0000
 featured: false
 slug: formspree
 tools:
-- interaction-front-end
+- Interaction
 urls:
   website: https://formspree.io/
   github: https://github.com/formspree/formspree

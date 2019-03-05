@@ -2,7 +2,7 @@
 title: Minimal Theme
 date: 2017-10-07 00:00:00 +0000
 tools:
-- theme
+- Theme
 urls:
   website: https://desiredpersona.github.io/minimal-jekyll-theme/
   github: https://github.com/desiredpersona/minimal-jekyll-theme

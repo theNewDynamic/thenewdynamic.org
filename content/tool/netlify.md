@@ -5,7 +5,7 @@ posted_date: 2015-05-02 02:56:00 +0000
 featured: true
 slug: netlify
 tools:
-- hosting-deployment
+- "Hosting/Deployment"
 urls:
   website: https://www.netlify.com/
   twitter: https://twitter.com/netlify

@@ -5,7 +5,7 @@ posted_date: 2015-10-02 21:18:00 +0000
 featured: true
 slug: gatsby
 tools:
-- static-site-generator
+- "Static Site Generator"
 urls:
   website: https://www.gatsbyjs.org/
   github: https://github.com/gatsbyjs/gatsby

@@ -3,7 +3,7 @@ title: Snipcart
 date: 2015-05-15 01:54:00 +0000
 featured: false
 tools:
-- interaction-front-end
+- Interaction
 urls:
   website: https://snipcart.com/
   github: https://github.com/snipcart/

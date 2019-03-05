@@ -3,7 +3,7 @@ title: Docpad
 date: 2015-05-02 02:39:00 +0000
 featured: false
 tools:
-- static-site-generator
+- "Static Site Generator"
 license: Open Source
 language: Node
 description: Dynamic static site generator

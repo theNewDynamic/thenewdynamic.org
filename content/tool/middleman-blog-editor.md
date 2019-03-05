@@ -5,7 +5,7 @@ posted_date: 2015-05-02 00:00:00 +0000
 featured: false
 slug: middleman-blog-editor
 tools:
-- content-management
+- "Content Management"
 urls:
   website: http://awardwinningfjords.com/2013/04/08/middleman-blog-editor-04
 

@@ -10,14 +10,14 @@ description: |2-
 
   Collect and manage form data with serverless tech.
 tools:
-- interaction-front-end
+- Interaction
 license: Open Source
 related_tools:
 - tool/auth0.md
 - tool/netlify.md
 - tool/aws-lambda.md
 tags:
-- serverless
+- Serverless
 language: ''
 resources: []
 weight: ''

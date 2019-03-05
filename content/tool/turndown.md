@@ -8,7 +8,7 @@ urls:
   other: ''
 description: An HTML to Markdown converter written in JavaScript
 tools:
-- helper
+- Helper
 license: Open Source
 tags:
 - Markdown

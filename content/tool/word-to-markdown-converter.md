@@ -3,7 +3,7 @@ title: Word to Markdown converter
 date: 2018-04-20 15:34:53 -0400
 description: Convert Microsoft Word documents to Markdown
 tools:
-- helper
+- Helper
 license: Open Source
 tags:
 - markup

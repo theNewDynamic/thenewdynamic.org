@@ -2,7 +2,7 @@
 title: Phenomic
 date: 2016-05-05 12:00:00 +0000
 tools:
-- static-site-generator
+- "Static Site Generator"
 urls:
   website: https://phenomic.io/
   github: https://github.com/MoOx/phenomic

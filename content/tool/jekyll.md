@@ -3,7 +3,7 @@ title: Jekyll
 date: 2015-05-02 01:20:00 +0000
 featured: true
 tools:
-- static-site-generator
+- "Static Site Generator"
 urls:
   website: http://jekyllrb.com
   github: https://github.com/jekyll/jekyll

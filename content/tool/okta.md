@@ -3,7 +3,7 @@ title: Okta
 date: 2018-06-22 21:16:48 -0400
 description: ''
 tools:
-- interaction-front-end
+- Interaction
 license: Commercial
 language: ''
 related_tools: 

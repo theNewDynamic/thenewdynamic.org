@@ -5,7 +5,7 @@ posted_date: 2015-11-12 02:03:00 +0000
 featured: false
 slug: dr-jekylls-themes
 tools:
-- theme
+- Theme
 urls:
   website: http://drjekyllthemes.github.io/
   github: https://github.com/drjekyllthemes/themes
