@@ -29,18 +29,14 @@ fields:
       type: simple
       section: tools
     options:
-    - content-management
-    - headless-cms-api-based
-    - headless-cms-git-based
-    - build-tool
-    - helper
-    - hosting-deployment
-    - interaction
-    - static-site-generator
-    - theme
-    - interaction-back-end
-    - interaction-front-end
-    - serverless
+    - "Bundler/Task Runner"
+    - "Content Management"
+    - "Helper"
+    - "Hosting/Deployment"
+    - "Interaction"
+    - "Serverless"
+    - "Static Site Generator"
+    - "Theme"    
   description: Category
 - type: select
   name: license
