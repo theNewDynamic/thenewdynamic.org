@@ -12,7 +12,7 @@
     "deploy": "run-s clean build",
     "start": "run-s build:assets dev",
     "dev": "run-p dev:parcel dev:hugo",
-    "dev:hugo": "NODE_ENV=development hugo server --gc --disableFastRender --navigateToChanged",
+    "dev:hugo": "NODE_ENV=development hugo server --gc --disableFastRender --navigateToChanged --watch false",
     "dev:parcel": "NODE_ENV=development parcel watch ./assets/index.js --out-dir assets/output",
     "build:assets": "NODE_ENV=development parcel build ./assets/index.js --out-dir assets/output --experimental-scope-hoisting --no-cache",
     "deploy:assets": "NODE_ENV=production parcel build ./assets/index.js --out-dir assets/output --experimental-scope-hoisting --no-cache",

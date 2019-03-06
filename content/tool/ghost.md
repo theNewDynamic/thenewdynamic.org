@@ -1,5 +1,5 @@
 ---
-title: Ghost
+title: "Ghost"
 weight: 1
 description: Ghost is a fully open source, adaptable platform for building and running
   a modern online publication. We power blogs, magazines and journalists from Zappos

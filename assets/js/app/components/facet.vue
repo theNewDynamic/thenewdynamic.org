@@ -1,8 +1,7 @@
 <template>
   <div class="mb-8">
-    
     <div v-if="facet.buckets.length != 0">
-    <h5 class="text-lg font-bold block mb-3">{{ facet.title }}</h5>
+      <h5 class="text-lg font-bold block mb-3">{{ facet.title }}</h5>
     </div>
     <!-- this is a WIP solution to test different facet template (checkboxes vs select) 
     As of now, only checkboxes work-->
@@ -17,7 +16,7 @@
             :value="bucket.key"
           >
           {{ bucket.key }}
-          <span class="text-xs">({{ bucket.doc_count }})</span>
+          <!-- <span class="text-xs">({{ bucket.doc_count }})</span> -->
         </label>
       </div>
     </div>

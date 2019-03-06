@@ -1,67 +1,72 @@
 <template>
   <!-- Following classes conditions allow styling loading etc.. -->
   <div class="to-load" :class="{ 'is-loading': loading, 'done-loading': !loading }">
-    
     <div class="relative mr-16 my-8">
-      <input  aria-describedby="name-desc" type="search"  v-model="query" class="bg-purple-white shadow w-full rounded border-0 p-3" placeholder="Search by name...">
-      <div class="absolute pin-r pin-t mt-3 mr-4 text-purple-lighter">
-        <svg version="1.1" class="h-4 text-dark" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-        viewBox="0 0 52.966 52.966" style="enable-background:new 0 0 52.966 52.966;" xml:space="preserve">
-          <path d="M51.704,51.273L36.845,35.82c3.79-3.801,6.138-9.041,6.138-14.82c0-11.58-9.42-21-21-21s-21,9.42-21,21s9.42,21,21,21
+      <input
+        aria-describedby="name-desc"
+        type="search"
+        v-model="query"
+        class="bg-purple-white shadow w-full rounded border-0 py-3 pl-12 pr-4"
+        placeholder="Search by name..."
+      >
+      <div class="absolute pin-l pin-t mt-3 ml-4 text-purple-lighter">
+        <svg
+          version="1.1"
+          class="h-4 text-dark"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          x="0px"
+          y="0px"
+          viewBox="0 0 52.966 52.966"
+          style="enable-background:new 0 0 52.966 52.966;"
+          xml:space="preserve"
+        >
+          <path
+            d="M51.704,51.273L36.845,35.82c3.79-3.801,6.138-9.041,6.138-14.82c0-11.58-9.42-21-21-21s-21,9.42-21,21s9.42,21,21,21
             c5.083,0,9.748-1.817,13.384-4.832l14.895,15.491c0.196,0.205,0.458,0.307,0.721,0.307c0.25,0,0.499-0.093,0.693-0.279
             C52.074,52.304,52.086,51.671,51.704,51.273z M21.983,40c-10.477,0-19-8.523-19-19s8.523-19,19-19s19,8.523,19,19
-            S32.459,40,21.983,40z"/>          
-        </svg>          
+            S32.459,40,21.983,40z"
+          ></path>
+        </svg>
       </div>
     </div>
 
     <div class="flex w-full">
-
-
       <div class="facets w-1/4">
         <!-- itemJS returns an object containing facets and items.
-        We here loop through aggregation and load a facet vue component for each -->
-        
+        We here loop through aggregation and load a facet vue component for each-->
         <div v-for="facet in searchResult.data.aggregations" :key="facet.id">
-          <facet
-            :facet="facet"
-            :filters="filters"
-          ></facet>        
+          <facet :facet="facet" :filters="filters"></facet>
         </div>
       </div>
 
       <div class="results w-3/4">
-      
-        <ul class='list-reset'>
-          <li v-for='item in searchResult.data.items' :key="item.id">
-          <!-- itemJS returns an object containing facets and items.
-            We here loop through results and load a facet plan component for each -->
-            
-            <tool :tool='item'>this</tool>
+        <ul class="list-reset">
+          <li v-for="item in searchResult.data.items" :key="item.id">
+            <!-- itemJS returns an object containing facets and items.
+            We here loop through results and load a facet plan component for each-->
+            <tool :tool="item">this</tool>
           </li>
         </ul>
       </div>
-
-
     </div>
   </div>
 </template>
 <script>
-let itemsJS = require("itemsjs")
-import tool from './components/tool.vue'
-import facet from './components/facet.vue'
-import config from './filters.config.js'
-
+let itemsJS = require("itemsjs");
+import tool from "./components/tool.vue";
+import facet from "./components/facet.vue";
+import config from "./filters.config.js";
 
 export default {
   components: {
     tool,
-    facet,
+    facet
   },
-  name: 'Filters',
+  name: "Filters",
   data: function() {
     // Configuration has been loaded from ../configuration.js
-    let configuration = config
+    let configuration = config;
     // We generate the filters from the configuration
     var filters = {};
     Object.keys(configuration.aggregations).map(function(v) {
@@ -75,15 +80,17 @@ export default {
       // We must populate the following with emtpty values, so the App can start without the
       // JSON endpoint fetched. There is no way for the computed method to wait for data to be fetched.
       items: {},
-      searchResults: {data:{
-        items: {},
-        aggregations: {}
-      }},
+      searchResults: {
+        data: {
+          items: {},
+          aggregations: {}
+        }
+      },
       // initializing filters with empty arrays
       filters: filters
     };
   },
-  mounted: function () {
+  mounted: function() {
     fetch("./index.json") // Call the fetch function passing the url of the API as a parameter
       .then(resp => {
         return resp.json(); // json response is turned into an object
@@ -115,40 +122,45 @@ export default {
     searchResult: function() {
       let result = {
         data: {
-          items: {
-            
-          }
+          items: {}
         }
-      }
+      };
       // It updates when items.search is available (after json endpoint is fetched and interpreted)
-      if(typeof this.items.search != "undefined") {
+      if (typeof this.items.search != "undefined") {
         result = this.items.search({
           per_page: 100,
+          sort: "name_asc",
           query: this.query,
           filters: this.filters
         });
       }
       return result;
     }
-  },
-}
+  }
+};
+
+
+
+
+
+
+
 
 // let params = (new URL(document.location)).searchParams;
 // let name = params.get('name'); // is the string "Jonathan Smith".
 // let age = parseInt(params.get('age')); // is the number 18
 
 // console.log("param", age)
-
 </script>
 
 <style lang="scss" scoped>
-  .to-load{
-    min-height: 70vh;
-    opacity:.2;
-    transition: opacity 300ms;
-    &.done-loading{
-      min-height: 0;
-      opacity: 1;
-    }
+.to-load {
+  min-height: 70vh;
+  opacity: 0.2;
+  transition: opacity 300ms;
+  &.done-loading {
+    min-height: 0;
+    opacity: 1;
   }
+}
 </style>

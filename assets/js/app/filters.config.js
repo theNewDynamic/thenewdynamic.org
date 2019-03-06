@@ -1,16 +1,16 @@
 var config = {
 	searchableFields: ["title", "tags"],
 	sortings: {
-		title: {
-			field: "title",
-			order: "asc"
-		}
+		name_asc: {
+      field: "title",
+      order: "asc"
+    }
 	},
 	aggregations: {
 		tool_type: {
 			title: "Type",
 			conjunction: true,
-		  sort: "title",
+		  sort: "term",
 			order: "asc",
 			size: 2000
     },
@@ -18,19 +18,19 @@ var config = {
 			title: "Data Model (for CMSs)",
 			conjunction: false,
 		  sort: "title",
-			order: "asc",
+			order: "desc",
 			size: 2000
     },    
     language: {			
 			conjunction: false,
-		  sort: "title",
+		  sort: "term",
 			order: "asc",
 			size: 2000
     },
     tags: {
 			title: "Tags",
 			conjunction: false,
-		  sort: "title",
+		  sort: "term",
 			order: "asc",
 			size: 2000
     },

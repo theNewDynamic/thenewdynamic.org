@@ -1,5 +1,11 @@
-{{ $taxonomy := index (.Params.tools) 0 }}
-{{ $category := .Site.GetPage (printf "%s%s" "/tools/" $taxonomy) }}
+{{ $category := false }}
+{{ with .Params.tools }}
+  {{ $taxonomy := (index . 0 ) | urlize }}
+  {{ with $.Site.GetPage (printf "/tools/%s" $taxonomy) }}
+    {{ $category = . }}       
+  {{ end }}
+{{ end }}
+
 {{ $links := where .Site.RegularPages ".Section" "link" }}
 {{ $related_links := $links.RelatedTo (keyVals "tool" .File.Path) }}
 {{ $related_links_count := $related_links | len }}
