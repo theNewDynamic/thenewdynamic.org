@@ -134,3 +134,13 @@ button:hover {
 	}
 	
 }
+
+/* 
+Independent scrolling for main layout 
+*/
+@screen lg {
+  .independent-scroll {
+    height: 100vh;
+    overflow: scroll;
+  }
+}
