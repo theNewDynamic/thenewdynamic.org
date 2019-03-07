@@ -12,9 +12,9 @@
 
 <a href="{{ .URL }}" class="block no-underline text-black hover:opacity-90">
   {{ with $category }}
-    <div class="bg-grey-darkTK flex justify-between px-3 py-1 text-xs text-white" style="background-color:{{ .Params.color }};">    
-      <div class="text-xs main-category">
-        {{- .Title | lower -}}
+    <div class="bg-grey-darkTK flex justify-between text-xs text-white" style="background-color:{{ .Params.color }};">    
+      <div class="text-sm main-category px-4 py-2">
+        {{- .Title -}}
       </div>  
       {{/*  <span class="article-count hidden" title="Article Count">{{ $related_links | len }}</span>     */}}
     </div>
