@@ -1,6 +1,7 @@
 <template>
   <!-- Following classes conditions allow styling loading etc.. -->
   <div class="to-load" :class="{ 'is-loading': loading, 'done-loading': !loading }">
+    <!-- Search ROW -->
     <div class="relative mr-16 my-8">
       <input
         aria-describedby="name-desc"
@@ -31,8 +32,8 @@
       </div>
     </div>
 
-    <div class="flex w-full">
-      <div class="facets w-1/4">
+    <div class="sm:grid grid-columns-8 grid-gap-4">
+      <div class="facets col-span-2 bg-white shadow py-8 px-4">
         <!-- itemJS returns an object containing facets and items.
         We here loop through aggregation and load a facet vue component for each-->
         <div v-for="facet in searchResult.data.aggregations" :key="facet.id">
@@ -40,30 +41,36 @@
         </div>
       </div>
 
-      <div class="results w-3/4">
-        <ul class="list-reset">
-          <li v-for="item in searchResult.data.items" :key="item.id">
+      <div class="results col-span-6">
+        <div class="sm:grid grid-columns-2 lg:grid-columns-3 grid-gap-4 xl:grid-columns-4">
+          <div
+            v-for="item in searchResult.data.items"
+            :key="item.id"
+            class="bg-white col-span-1 h-full mb-4 shadow hover:shadow-lg"
+          >
             <!-- itemJS returns an object containing facets and items.
             We here loop through results and load a facet plan component for each-->
-            <tool :tool="item">this</tool>
-          </li>
-        </ul>
+            <tool :tool="item"></tool>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </template>
+
 <script>
 let itemsJS = require("itemsjs");
-import tool from "./components/tool.vue";
-import facet from "./components/facet.vue";
+import facet from "./components/facet";
+import tool from "./components/tool";
+
 import config from "./filters.config.js";
 
 export default {
   components: {
-    tool,
-    facet
+    facet,
+    tool
   },
-  name: "Filters",
+  name: "App",
   data: function() {
     // Configuration has been loaded from ../configuration.js
     let configuration = config;
@@ -91,7 +98,7 @@ export default {
     };
   },
   mounted: function() {
-    fetch("./index.json") // Call the fetch function passing the url of the API as a parameter
+    fetch("../tool/index.json") // Call the fetch function passing the url of the API as a parameter
       .then(resp => {
         return resp.json(); // json response is turned into an object
       })
@@ -138,13 +145,6 @@ export default {
     }
   }
 };
-
-
-
-
-
-
-
 
 // let params = (new URL(document.location)).searchParams;
 // let name = params.get('name'); // is the string "Jonathan Smith".

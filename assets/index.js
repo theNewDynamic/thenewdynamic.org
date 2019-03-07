@@ -1,15 +1,23 @@
+import Vue from "vue";
+
 // To use https://github.com/KyleAMathews/typefaces
-import 'typeface-nunito';
+import "typeface-nunito";
 import "./css/styles.css";
 
-import "./js/polyfills.js" //MUST GO AT TOP
-import "./js/lazysizes.js"
-import "./js/quicklink.js"
-import "./js/nojs.js"
+import "./js/polyfills.js"; //MUST GO AT TOP
+import "./js/lazysizes.js";
+import "./js/quicklink.js";
+import "./js/nojs.js";
 
-//VUE
-import "./js/app/"
+// FILTERS APP
+import App from "./js/app/filters.vue";
+
+let vm = new Vue({
+	el: "#app",
+	template: "<App/>",
+	components: { App }
+});
 
 
-
-console.log('NODE_ENV=', process.env.NODE_ENV)
+// if (document.getElementById("app")) {  }
+console.log("NODE_ENV=", process.env.NODE_ENV);

@@ -12,7 +12,7 @@ module.exports = {
 		...(process.env.NODE_ENV !== "development"
 			? [
 					require("@fullhuman/postcss-purgecss")({
-						content: ["./layouts/**/*.html", "./components/**/**/*.html"],
+						content: ["./layouts/**/*.html", "./components/**/**/*.html", "./assets/js/app/**/*.vue"],
 						extractors: [
 							{
 								extractor: class {

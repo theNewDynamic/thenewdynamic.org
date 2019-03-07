@@ -6,29 +6,19 @@
     <!-- this is a WIP solution to test different facet template (checkboxes vs select) 
     As of now, only checkboxes work-->
     <div v-if="template === 'checkboxes'">
-      <div class="checkbox block" v-for="bucket in facet.buckets" :key="bucket.key">
-        <label class="mb-1 md:w-2/3 block text-grey-darker font-medium">
+      <div class="checkbox block mb-2" v-for="bucket in facet.buckets" :key="bucket.key">
+        <label class="mb-1 inline-block text-grey-darker font-sans text-base">
+        <input
+          class="mr-1 leading-tight"
+          type="checkbox"
+          v-model="filters[facet.name]"
+          :value="bucket.key"
+        >
+        
           <!-- Each checkbox is modeled after a facet -->
-          <input
-            class="mr-2 leading-tight"
-            type="checkbox"
-            v-model="filters[facet.name]"
-            :value="bucket.key"
-          >
           {{ bucket.key }}
-          <!-- <span class="text-xs">({{ bucket.doc_count }})</span> -->
+          <span class="text-xs">({{ bucket.doc_count }})</span>
         </label>
-      </div>
-    </div>
-    <div v-else>
-      <div class="mb-1 md:w-2/3 block text-grey-darker font-medium">
-        <select v-model="filters[facet.name]">
-          <option
-            v-for="bucket in facet.buckets"
-            :key="bucket.key"
-            :value="bucket.key"
-          >{{ bucket.key }}</option>
-        </select>
       </div>
     </div>
   </div>
