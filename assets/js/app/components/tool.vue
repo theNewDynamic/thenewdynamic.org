@@ -1,8 +1,8 @@
 <template>
   <div>
-    <a v-bind:href="tool.uri" class="block no-underline text-black hover:opacity-90">
+    <a v-bind:href="items.uri" class="block no-underline text-black hover:opacity-90">
       <div
-        v-for="(category, index) in tool.category"
+        v-for="(category) in items.category"
         :text="category.text"
         :key="category.id"
         :class="category | slugify"
@@ -14,11 +14,11 @@
       </div>
 
       <div class="p-3">
-        <div class="title bold text-lg text-grey-darkest">{{ tool.title }}</div>
-        <div v-if="tool.description != null">
+        <div class="title bold text-lg text-grey-darkest">{{ items.title }}</div>
+        <div v-if="items.description != null">
           <div
             class="description nested-links text-grey-darker text-sm no-underline leading-normal nested-copy-line-height"
-          >{{ tool.description }}</div>
+          >{{ items.description }}</div>
         </div>
       </div>
     </a>
@@ -28,7 +28,7 @@
 <script>
 import Slugify from "../filters/slugify.js";
 export default {
-  props: ["tool"]
+  props: ["items"]
 };
 </script>
 

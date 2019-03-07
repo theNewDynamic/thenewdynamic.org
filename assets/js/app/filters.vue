@@ -50,7 +50,7 @@
           >
             <!-- itemJS returns an object containing facets and items.
             We here loop through results and load a facet plan component for each-->
-            <tool :tool="item"></tool>
+            
           </div>
         </div>
       </div>
@@ -61,14 +61,14 @@
 <script>
 let itemsJS = require("itemsjs");
 import facet from "./components/facet";
-import tool from "./components/tool";
+import items from "./components/tool";
 
 import config from "./filters.config.js";
 
 export default {
   components: {
     facet,
-    tool
+    items
   },
   name: "App",
   data: function() {
@@ -132,10 +132,11 @@ export default {
           items: {}
         }
       };
+      console.log("Search Results", this.items.search);
       // It updates when items.search is available (after json endpoint is fetched and interpreted)
       if (typeof this.items.search != "undefined") {
         result = this.items.search({
-          per_page: 100,
+          per_page: 500,
           sort: "name_asc",
           query: this.query,
           filters: this.filters

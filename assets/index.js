@@ -1,4 +1,4 @@
-import Vue from "vue";
+
 
 // To use https://github.com/KyleAMathews/typefaces
 import "typeface-nunito";
@@ -10,14 +10,14 @@ import "./js/quicklink.js";
 import "./js/nojs.js";
 
 // FILTERS APP
-import App from "./js/app/filters.vue";
+		// import Vue from "vue";
+		// import App from "./js/app/filters.vue";
+		// new Vue({
+		// 	el: "#app",
+		// 	components: { App }
+		// });
 
-let vm = new Vue({
-	el: "#app",
-	template: "<App/>",
-	components: { App }
-});
-
-
-// if (document.getElementById("app")) {  }
+//if (document.getElementById("app")) { 
+	//may want to use this to not get errors on pages we're not using Vue
+//} 
 console.log("NODE_ENV=", process.env.NODE_ENV);

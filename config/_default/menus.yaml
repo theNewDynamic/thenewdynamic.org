@@ -1,7 +1,7 @@
 main:
-  - name: Tools Directory
-    url: /tools/
-    weight: 1
+  # - name: Tools Directory
+  #   url: /tools/
+  #   weight: 1
   - name: Events
     url: /event/
     weight: 3
