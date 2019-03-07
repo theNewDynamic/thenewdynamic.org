@@ -9,15 +9,15 @@ import "./js/lazysizes.js";
 import "./js/quicklink.js";
 import "./js/nojs.js";
 
-// FILTERS APP
-		// import Vue from "vue";
-		// import App from "./js/app/filters.vue";
-		// new Vue({
-		// 	el: "#app",
-		// 	components: { App }
-		// });
+import Vue from "vue";
+import App from "./js/app/filters.vue";
 
-//if (document.getElementById("app")) { 
-	//may want to use this to not get errors on pages we're not using Vue
-//} 
+// FILTERS APP
+if (document.getElementById("app")) { 
+
+	new Vue({
+		el: "#app",
+		components: { App }
+	});
+} 
 console.log("NODE_ENV=", process.env.NODE_ENV);

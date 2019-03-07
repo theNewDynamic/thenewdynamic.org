@@ -50,7 +50,7 @@
           >
             <!-- itemJS returns an object containing facets and items.
             We here loop through results and load a facet plan component for each-->
-            
+            <tool :item="item"></tool>
           </div>
         </div>
       </div>
@@ -60,17 +60,17 @@
 
 <script>
 let itemsJS = require("itemsjs");
-import facet from "./components/facet";
-import items from "./components/tool";
+import facet from "./components/facet.vue";
+import tool from "./components/tool.vue";
 
 import config from "./filters.config.js";
 
 export default {
   components: {
     facet,
-    items
+    tool
   },
-  name: "App",
+  name: "app",
   data: function() {
     // Configuration has been loaded from ../configuration.js
     let configuration = config;
