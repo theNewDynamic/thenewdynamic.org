@@ -5,7 +5,7 @@ posted_date: 2015-05-02 21:33:00 +0000
 featured: false
 slug: harpoon
 tools:
-- "Hosting/Deployment"
+- "Hosting-Deployment"
 urls:
   website: http://www.getharpoon.com/
   github: ''

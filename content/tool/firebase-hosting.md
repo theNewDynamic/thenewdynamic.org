@@ -4,7 +4,7 @@ date: 2016-05-20 15:17:00 +0000
 posted_date: 2016-05-20 15:17:00 +0000
 featured: false
 tools:
-- "Hosting/Deployment"
+- "Hosting-Deployment"
 urls:
   website: https://firebase.google.com/docs/hosting/
   github: ''

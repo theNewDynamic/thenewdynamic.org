@@ -4,7 +4,7 @@ date: 2015-05-08 22:00:00 +0000
 featured: false
 tools:
 - "Content Management"
-- "Hosting/Deployment"
+- "Hosting-Deployment"
 data_model: Git-based
 tags: []
 urls:

@@ -2,7 +2,7 @@
 title: Zeit
 date: 2018-04-21 14:26:34 +0000
 tools:
-- "Hosting/Deployment"
+- "Hosting-Deployment"
 license: Commercial
 urls:
   website: https://zeit.co/now

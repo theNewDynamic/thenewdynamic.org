@@ -4,7 +4,7 @@ date: 2015-10-15 15:17:00 +0000
 posted_date: 2015-10-15 15:17:00 +0000
 featured: false
 tools:
-- "Hosting/Deployment"
+- "Hosting-Deployment"
 slug: aerobatic
 urls:
   website: https://www.aerobatic.com/

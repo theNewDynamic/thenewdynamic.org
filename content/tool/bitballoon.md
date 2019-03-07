@@ -5,7 +5,7 @@ posted_date: 2015-05-16 22:38:00 +0000
 featured: false
 slug: bitballoon
 tools:
-- "Hosting/Deployment"
+- "Hosting-Deployment"
 description: Drag'n Drop deployment for static sites
 urls:
   website: https://app.netlify.com/drop

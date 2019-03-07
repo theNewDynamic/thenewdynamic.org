@@ -5,7 +5,7 @@ posted_date: 2015-05-14 04:04:00 +0000
 featured: false
 slug: heroku
 tools:
-- "Hosting/Deployment"
+- "Hosting-Deployment"
 urls:
   website: https://www.heroku.com/
   github: https://github.com/heroku

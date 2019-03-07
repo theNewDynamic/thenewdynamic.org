@@ -4,7 +4,7 @@ date: 2018-03-06 16:38:02 +0000
 description: A simple tool to deploy static websites to Amazon S3 with Gzip and custom
   headers support (e.g. "Cache-Control").
 tools:
-- "Hosting/Deployment"
+- "Hosting-Deployment"
 license: Open Source
 urls:
   website: ''
