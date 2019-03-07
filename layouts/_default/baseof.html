@@ -13,10 +13,10 @@
       {{ partial "_global/side-nav.html" . }}
     </div>    
     <div id="content" class="content sm:grid grid-columns-12 ml-10 sm:ml-16">      
-      <div class="sm:col-span-3 xl:col-span-2 w-full border-r lg:min-h-screen flex flex-col justify-between">
+      <div class="sm:col-span-3 xl:col-span-2 w-full border-r lg:min-h-screen flex flex-col justify-between lg:overflow-scroll lg:h-screen">
         {{ partial "_global/header.html" . }}          
       </div>          
-      <main role="main" class="sm:col-span-9 xl:col-span-10">
+      <main role="main" class="sm:col-span-9 xl:col-span-10 lg:overflow-scroll lg:h-screen">
         {{ block "hero" . }}{{ end }}
         <div class="p-4 xl:p-16">
           {{ block "main" . }}{{ end }}
