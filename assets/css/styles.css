@@ -71,5 +71,3 @@ h1.page-heading  {
 }
 /* purgecss end ignore */
 @tailwind utilities; 
-
-@import 'pretty-checkbox/src/pretty-checkbox.scss';

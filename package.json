@@ -42,10 +42,7 @@
     "vue-hot-reload-api": "^2.3.2",
     "vue-template-compiler": "^2.6.6"
   },
-  "dependencies": {
-    "components": "^0.1.0",
-    "pretty-checkbox": "^3.0.3"
-  },
+  "dependencies": {},
   "alias": {
     "vue": "./node_modules/vue/dist/vue.js"
   }
