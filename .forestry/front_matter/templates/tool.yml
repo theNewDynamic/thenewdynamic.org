@@ -116,6 +116,7 @@ fields:
       section: tools
   label: Cat Test
 pages:
+- content/tool/commento-1.md
 - content/tool/zerostatic.md
 - content/tool/parceljs.md
 - content/tool/datocms.md
