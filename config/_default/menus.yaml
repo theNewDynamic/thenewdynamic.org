@@ -1,5 +1,5 @@
 main:
-  - name: Tools Directory
+  - name: Database
     url: /tools/
     weight: 1
   - name: Events

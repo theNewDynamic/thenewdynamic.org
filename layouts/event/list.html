@@ -1,0 +1,29 @@
+{{ define "main" }}
+  {{ $events := .Pages.ByDate }}
+  {{ $events_upcoming := where $events ".Date" "ge" now }}
+  {{ $events_past := where $events.Reverse ".Date" "lt" now }}
+
+<div class="page-list_default mx-auto min-h-screen">
+    {{ partial "_components/page-heading.html" . }}
+{{ $events_upcoming}}
+    <section class="pt-5 min-vh-100">
+      {{ range $events_upcoming }}
+        <div class="relative w-full mb-8 border-b">
+          {{ .Render "item" }}
+        </div>
+      {{ end }}
+      {{ if $events_past }}
+        {{ $id := "events" }}
+        <div class="mt-32">
+          <h2>Past Events</h2>
+          {{ range $events_past }}
+            <div class="relative w-full mb-8 border-b">
+                {{ .Render "item" }}
+            </div>
+          {{ end }}
+        </div>
+      {{ end }}
+    </section>
+
+  </div>
+{{ end }}

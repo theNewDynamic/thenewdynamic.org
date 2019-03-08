@@ -12,6 +12,7 @@ themesDir: components
 theme:
   - layouts-base
   - seo
+  - layouts-events
 title: the New Dynamic
 blackfriday:
   fractions: false
