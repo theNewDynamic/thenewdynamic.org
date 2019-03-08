@@ -1,0 +1,104 @@
+---
+label: Tool directory
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: Title
+- type: textarea
+  name: description
+  label: Description
+- type: datetime
+  name: date
+  label: Date
+  description: Date added to the database
+- type: list
+  label: Tool Type
+  name: tools
+  config:
+    use_select: true
+    source:
+      type: simple
+      section: tools
+    options:
+    - content-management
+    - headless-cms-api-based
+    - headless-cms-git-based
+    - build-tool
+    - helper
+    - hosting-deployment
+    - interaction
+    - static-site-generator
+    - theme
+    - interaction-back-end
+    - interaction-front-end
+    - serverless
+  description: Category
+- type: select
+  name: license
+  config:
+    source:
+      type: simple
+    options:
+    - Commercial
+    - Open Source
+    - Hybrid
+    - Other
+  label: License
+- type: select
+  name: language
+  config:
+    source:
+      type: datafiles
+      file: languages-yaml
+      path: languages
+  label: Language
+- type: list
+  name: related_tools
+  label: Related Tools
+  config:
+    use_select: true
+    source:
+      type: pages
+      section: tool
+  description: For non-static site generators to relate to a specific SSG
+- type: tag_list
+  name: tags
+  label: Tags
+- type: field_group
+  name: urls
+  label: URLS
+  fields:
+  - type: text
+    name: website
+    label: Website
+  - type: text
+    name: github
+    label: Github
+  - type: text
+    name: twitter
+    label: Twitter
+  - type: text
+    name: other
+    label: Other
+- type: field_group_list
+  name: resources
+  label: Resources
+  fields:
+  - type: text
+    name: name
+    label: Name
+  - type: text
+    name: url
+    label: URL
+  config:
+    labelField: name
+- type: number
+  name: weight
+  label: Weight
+  description: Used order top tools
+  config:
+    max: '100'
+    step: '1'
+pages:
+- content/tool/forestry.md
