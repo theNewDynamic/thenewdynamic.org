@@ -116,6 +116,7 @@ fields:
       section: tools
   label: Cat Test
 pages:
+- content/tool/next.js.md
 - content/tool/trolly.md
 - content/tool/wyam.md
 - content/tool/drive-cms.md
@@ -178,7 +179,6 @@ pages:
 - content/tool/Hook-Forms.md
 - content/tool/jekyll-cheatsheat.md
 - content/tool/ibm-watson.md
-- content/tool/next.js.md
 - content/tool/flatmarket.md
 - content/tool/daptin.md
 - content/tool/swiftype.md
