@@ -1,5 +1,3 @@
-
-
 // To use https://github.com/KyleAMathews/typefaces
 import "typeface-nunito";
 import "./css/styles.css";

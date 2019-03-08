@@ -32,7 +32,7 @@
       </div>
     </div>
 
-    <div class="sm:grid grid-columns-8 grid-gap-4">
+    <div class="font-sans sm:grid grid-columns-8 grid-gap-4">
       <div class="facets col-span-2 bg-white shadow py-8 px-4">
         <!-- itemJS returns an object containing facets and items.
         We here loop through aggregation and load a facet vue component for each-->
