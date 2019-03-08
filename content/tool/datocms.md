@@ -15,7 +15,7 @@ resources:
 description: DatoCMS is a fully customizable administrative area for your static websites.
 tags: []
 weight: ''
-license: ''
+license: Commercial
 language: ''
 related_tools: []
 cat_test: ''
