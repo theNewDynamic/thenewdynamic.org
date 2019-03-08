@@ -116,6 +116,7 @@ fields:
       section: tools
   label: Cat Test
 pages:
+- content/tool/parceljs.md
 - content/tool/datocms.md
 - content/tool/next.js.md
 - content/tool/trolly.md
