@@ -64,6 +64,7 @@ fields:
   name: images
   label: Images
 pages:
+- content/showcase/storybook.md
 - content/showcase/algolia.md
 - content/showcase/repower-australia.md
 - content/showcase/design-systems-repo.md
