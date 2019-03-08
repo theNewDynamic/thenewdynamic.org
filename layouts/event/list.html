@@ -6,6 +6,10 @@
 <div class="page-list_default mx-auto min-h-screen">
     {{ partial "_components/page-heading.html" . }}
     <section class="pt-5 min-vh-100">
+      <p class="font-bold py-8">Next Event</p>
+      <h2>
+        <a href="https://www.meetup.com/JAMstack-nyc/events/259420324/" class="text-primary-color no-underline hover:underline">3/13 NYC: A/B Testing + Master Serverless API</a>
+      </h2>
       {{ range $events_upcoming }}
         <div class="relative w-full mb-8 border-b">
           {{ .Render "item" }}
@@ -14,7 +18,7 @@
       {{ if $events_past }}
         {{ $id := "events" }}
         <div class="mt-32">
-          <h2>Past Events</h2>
+          <h2>Select Past Events</h2>
           {{ range $events_past }}
             <div class="relative w-full mb-8 border-b">
                 {{ .Render "item" }}
