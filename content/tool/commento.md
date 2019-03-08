@@ -1,6 +1,6 @@
 ---
 title: Commento
-date: 2018-04-20 09:18:40 -0400
+date: 2018-04-20 13:18:40 +0000
 tools:
 - Interaction
 license: Open Source
@@ -16,6 +16,10 @@ description: Privacy-focused discussion platform
 related_tools: []
 resources: []
 cat_test: ''
+weight: ''
+data_model: ''
 
 ---
 Commento is an open source discussion platform developed in Go. You can host the Go binary on your server. Unlike Disqus, Commento focuses on privacy and performance. Development is sponsored by Mozilla and Digital Ocean.
+
+There is also a subscription-based service.
