@@ -116,6 +116,7 @@ fields:
       section: tools
   label: Cat Test
 pages:
+- content/tool/datocms.md
 - content/tool/next.js.md
 - content/tool/trolly.md
 - content/tool/wyam.md
@@ -245,7 +246,6 @@ pages:
 - content/tool/poolappcom.md
 - content/tool/cloudflare.md
 - content/tool/github-pages.md
-- content/tool/datocms.md
 - content/tool/pixyll-jekyll-theme.md
 - content/tool/cloudcannon.md
 - content/tool/elemeno.md
