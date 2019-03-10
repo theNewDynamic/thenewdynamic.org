@@ -8,7 +8,7 @@ license = "Commercial"
 related_tools = []
 resources = []
 tags = ["e-commerce"]
-title = "Trolly"
+title = "Trolley"
 tools = ["Interaction"]
 weight = ""
 [urls]

@@ -116,6 +116,7 @@ fields:
       section: tools
   label: Cat Test
 pages:
+- content/tool/trolly.md
 - content/tool/cloudsh-search.md
 - content/tool/stein.md
 - content/tool/strattic.md
@@ -123,7 +124,6 @@ pages:
 - content/tool/parceljs.md
 - content/tool/datocms.md
 - content/tool/next.js.md
-- content/tool/trolly.md
 - content/tool/wyam.md
 - content/tool/drive-cms.md
 - content/tool/netlify-forms.md
