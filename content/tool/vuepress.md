@@ -2,7 +2,7 @@
 title: VuePress
 date: 2018-04-16 16:59:59 +0000
 license: Open Source
-language: Node
+language: "Javascript"
 urls:
   website: https://vuepress.vuejs.org/
   github: https://github.com/vuejs/vuepress
@@ -12,7 +12,8 @@ description: Minimalistic docs generator with Vue component based layout system
 tools:
 - "Static Site Generator"
 related_tools: []
-tags: []
+tags:
+- Vue
 resources: []
 cat_test: ''
 weight: ''

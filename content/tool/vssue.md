@@ -7,9 +7,10 @@ tools:
 - Interaction
 license: Open Source
 data_model: ''
-language: VueJS
+language: "Javascript"
 related_tools: []
 tags:
+- Vue
 - comments
 urls:
   website: https://vssue.js.org/
