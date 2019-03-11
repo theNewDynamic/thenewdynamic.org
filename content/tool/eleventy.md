@@ -2,7 +2,6 @@
 title: Eleventy
 date: 2018-02-17 21:18:00 +0000
 featured: false
-- Node
 tools:
 - "Static Site Generator"
 urls:
