@@ -22,7 +22,7 @@ related_tools:
 - tool/zeit.md
 tags:
 - SSR
-- Node
+- Vue
 data_model: ''
 cat_test: ''
 weight: 20
