@@ -32,7 +32,7 @@ license: Open Source
 headless-cms: ''
 related_tools: []
 tags: []
-language: ''
+language: 'Go'
 weight: 2
 
 ---
