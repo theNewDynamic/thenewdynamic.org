@@ -116,6 +116,7 @@ fields:
       section: tools
   label: Cat Test
 pages:
+- content/tool/gridsome.md
 - content/tool/trolly.md
 - content/tool/cloudsh-search.md
 - content/tool/stein.md
