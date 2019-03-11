@@ -1,5 +1,4 @@
 DefaultContentLanguage: en
-MetaDataFormat: yaml
 Paginate: 300
 baseURL: 'https://www.thenewdynamic.org'
 disableAliases: false
