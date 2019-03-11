@@ -12,11 +12,12 @@ urls:
   other: ''
 description: Interface for publishing static US government websites
 license: Open Source
-language: Node
+language: Javascript
 related_tools:
 - tool/hugo.md
 - tool/jekyll.md
-tags: []
+tags:
+- Node
 resources: []
 
 ---

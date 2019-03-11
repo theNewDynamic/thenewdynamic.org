@@ -12,11 +12,11 @@ urls:
   twitter: ''
   other: ''
 license: Open Source
-language: Node
+language: Javascript
 description: ''
 headless-cms: ''
 related_tools: []
-tags: []
+tags: 
 resources: []
 draft: true
 

@@ -2,7 +2,7 @@
 title: Eleventy
 date: 2018-02-17 21:18:00 +0000
 featured: false
-tags: []
+- Node
 tools:
 - "Static Site Generator"
 urls:
@@ -10,7 +10,7 @@ urls:
   github: https://github.com/11ty/eleventy
   twitter: https://twitter.com/eleven_ty
   other: ''
-language: Node
+language: Javascript
 description: A simpler static site generator. An alternative to Jekyll.
 license: Open Source
 headless-cms: ''

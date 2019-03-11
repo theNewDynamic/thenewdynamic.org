@@ -12,11 +12,12 @@ urls:
   twitter: https://twitter.com/HarpWebServer
   other: ''
 license: Open Source
-language: Node
+language: Javascript
 description: Node static web server with built-in preprocessing.
 headless-cms: ''
 related_tools: []
-tags: []
+tags: 
+- Node
 resources: []
 
 cat_test: ''

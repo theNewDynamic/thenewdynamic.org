@@ -18,7 +18,7 @@ related_tools:
 resources: []
 license: Open Source
 
-language: Node
+language: Javascript
 cat_test: ''
 
 ---

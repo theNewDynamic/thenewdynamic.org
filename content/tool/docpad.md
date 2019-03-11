@@ -5,11 +5,12 @@ featured: false
 tools:
 - "Static Site Generator"
 license: Open Source
-language: Node
+language: 
 description: Dynamic static site generator
 headless-cms: ''
 related_tools: []
-tags: []
+tags:
+- Node
 urls:
   website: https://docpad.org/
   github: https://github.com/docpad/docpad

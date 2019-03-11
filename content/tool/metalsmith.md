@@ -13,11 +13,12 @@ resources:
 - name: metalsmith-base (starter)
   url: https://github.com/evocode/metalsmith-base
 license: Open Source
-language: Node
+language: Javascript
 description: Very modular vanilla JS static site generator
 headless-cms: ''
 related_tools: []
-tags: []
+tags:
+- Node
 
 cat_test: ''
 

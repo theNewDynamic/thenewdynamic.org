@@ -12,11 +12,12 @@ urls:
   twitter: https://twitter.com/gruntjs
   other: ''
 license: Open Source
-language: Node
+language: Javascript
 description: The JavaScript Task Runner
 
 related_tools: []
-tags: []
+tags:
+- Node
 resources: []
 cat_test: ''
 

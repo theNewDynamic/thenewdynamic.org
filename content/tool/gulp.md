@@ -12,11 +12,12 @@ urls:
   twitter: https://twitter.com/gulpjs
   other: ''
 license: Open Source
-language: Node
+language: Javascript
 description: Automate you build system
 
 related_tools: []
-tags: []
+tags: 
+- Node
 resources: []
 cat_test: ''
 

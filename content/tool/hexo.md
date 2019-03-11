@@ -12,11 +12,12 @@ urls:
   twitter: 'https://twitter.com/hexojs'
   other: ''
 license: Open Source
-language: Node
+language: Javascript
 description: 'A fast, simple & powerful blog framework, powered by Node.js.'
 headless-cms: ''
 related_tools: []
-tags: []
+tags:
+- Node
 resources: []
 ---
 Blazing fast generating

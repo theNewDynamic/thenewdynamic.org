@@ -5,7 +5,7 @@ description: A modern static build tool, powered by webpack
 tools:
 - "Static Site Generator"
 license: Open Source
-language: Node
+language: Javascript
 urls:
   website: https://www.spike.cf/
   github: https://github.com/static-dev/spike
@@ -13,7 +13,7 @@ urls:
   other: ''
 headless-cms: ''
 related_tools: []
-tags: []
+tags: 
 resources:
 - name: Documentation
   url: https://spike.readme.io/docs
@@ -21,6 +21,6 @@ resources:
   url: https://medium.com/static-dev
 aliases:
 - "/tool/roots/"
-
+draft: true
 ---
 Spike is a next-generation static site generator. It is built on top of [webpack](https://webpack.github.io/), and a foundation of [html](http://reshape.ml/), [css](http://postcss.org/), and [js](http://babeljs.io/) parsers that accept plugins to transform the output. It’s fast, actively developed, and very data-friendly.

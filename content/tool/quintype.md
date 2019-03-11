@@ -11,9 +11,10 @@ urls:
   github: https://github.com/quintype
   other: ''
 description: Quintype is a mobile first publishing platform for digital publishers.
-language: Node
+language: Javascript
 related_tools: []
-tags: []
+tags: 
+- Node
 resources: []
 weight: ''
 data_model: ''

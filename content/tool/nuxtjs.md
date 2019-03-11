@@ -14,7 +14,7 @@ resources:
 description: A framework for creating Universal Vue.js Applications, and a Static
   Generated Vue.js Application
 license: Open Source
-language: Node
+language: Javascript
 headless-cms: ''
 related_tools:
 - tool/vuepress.md
@@ -22,6 +22,7 @@ related_tools:
 - tool/zeit.md
 tags:
 - SSR
+- Node
 data_model: ''
 cat_test: ''
 weight: 20

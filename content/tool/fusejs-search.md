@@ -11,9 +11,10 @@ urls:
   github: https://github.com/krisk/fuse
   twitter: ''
   other: ''
-language: Node
+language: Javascript
 tags:
 - search
+- Node
 license: Open Source
 related_tools:
 - tool/hugo.md

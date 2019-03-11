@@ -8,13 +8,14 @@ tools:
 - Interaction
 tags:
 - search
+- Node
 urls:
   website: http://lunrjs.com/
   github: https://github.com/olivernn/lunr.js
   twitter: ''
   other: ''
 license: Open Source
-language: Node
+language: Javascript
 related_tools:
 - tool/harp.md
 - tool/hexo.md

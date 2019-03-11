@@ -11,13 +11,14 @@ urls:
   github: https://github.com/javve/list.js
   twitter: https://twitter.com/javve
   other: ''
-language: Node
+language: Javascript
 description: Vanilla JS Search, filter and sort for your HTML
 license: Open Source
 related_tools: []
 
 tags:
 - search
+- Node
 resources: []
 cat_test: ''
 

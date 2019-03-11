@@ -12,7 +12,7 @@ urls:
   twitter: https://twitter.com/webpack
   other: https://medium.com/webpack
 license: Open Source
-language: Node
+language: Javascript
 description: Webpack is a static module bundler for modern JavaScript applications
 
 related_tools:
