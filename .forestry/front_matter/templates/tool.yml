@@ -116,6 +116,7 @@ fields:
       section: tools
   label: Cat Test
 pages:
+- content/tool/publii.md
 - content/tool/stackbit.md
 - content/tool/nuxtjs.md
 - content/tool/zola.md
@@ -305,7 +306,6 @@ pages:
 - content/tool/lanyon.md
 - content/tool/shoal-hosting.md
 - content/tool/imgix.md
-- content/tool/publii.md
 - content/tool/webpack.md
 - content/tool/headless-wordpress---react-starter-kit.md
 - content/tool/grav.md
