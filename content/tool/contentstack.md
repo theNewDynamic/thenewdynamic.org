@@ -10,7 +10,7 @@ license: Commercial
 related_tools:
 - tool/metalsmith.md
 tags:
-- Enterprise
+- enterprise
 urls:
   website: https://www.contentstack.com/
   github: ''

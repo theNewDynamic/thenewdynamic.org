@@ -8,7 +8,7 @@ tools:
 - "Content Management"
 license: Open Source
 tags:
-- Desktop
+- "desktop app"
 urls:
   website: https://getpublii.com
   github: ''

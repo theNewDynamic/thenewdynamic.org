@@ -8,7 +8,6 @@ license: Open Source
 related_tools:
 - tool/hugo.md
 tags:
-- IDE
 urls:
   website: https://atom.io/packages/language-hugo
   github: https://github.com/mattstratton/language-hugo
