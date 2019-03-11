@@ -156,7 +156,7 @@ pages:
 - content/tool/s3_website.md
 - content/tool/sculpin.md
 - content/tool/formcarry.md
-- content/tool/gutenberg.md
+- content/tool/zola.md
 - content/tool/pragma.md
 - content/tool/harpoon.md
 - content/tool/gatsby.md
