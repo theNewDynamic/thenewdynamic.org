@@ -17,6 +17,7 @@ urls:
   other: ''
 resources: []
 cat_test: ''
-
+aliases:
+- /tool/gutenberg/
 ---
 Gutenberg comes as a single executable with Sass compilation, syntax highlighting, table of contents and many other features that traditionally require setting up a dev environment or adding some JavaScript libraries to your site. The average site will be generated in less than a second, including Sass compilation and syntax highlighting thanks to [Rust](https://www.rust-lang.org/).
