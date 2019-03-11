@@ -13,12 +13,13 @@ urls:
   other: ''
 description: A free, open source e-commerce platform for static websites
 license: Open Source
-language: React
+language: 
+language: "Javascript"
 related_tools:
 - tool/webpack.md
-
 tags:
 - e-commerce
+- React
 resources: []
 cat_test: ''
 

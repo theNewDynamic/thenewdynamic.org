@@ -12,11 +12,12 @@ urls:
   twitter: https://twitter.com/gatsbyjs
   other: ''
 license: Open Source
-language: React
+language: Javascript
 description: Blazing-fast static site generator for React
 headless-cms: ''
 related_tools: []
-tags: []
+tags:
+- React
 resources:
 - name: Gatsby Manor Themes
   url: https://www.gatsbymanor.com/

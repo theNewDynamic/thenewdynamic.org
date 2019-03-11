@@ -12,10 +12,10 @@ urls:
 description: Easy to maintain open source documentation websites with multilingual
   capabilities and search built-in, by Facebook.
 license: Open Source
-language: React
+language: "Javascript"
 headless-cms: ''
 related_tools: []
-tags: []
+tags: ["React"]
 resources: []
 
 ---

@@ -7,7 +7,8 @@ slug: netlify-cms
 tools:
 - "Content Management"
 data_model: Git-based
-tags: []
+tags:
+- React
 urls:
   website: https://www.netlifycms.org/
   github: https://github.com/netlify/netlify-cms
@@ -21,7 +22,7 @@ related_tools:
 - tool/jekyll.md
 resources: []
 license: Open Source
-language: React
+language: "Javascript"
 cat_test: ''
 weight: 7
 

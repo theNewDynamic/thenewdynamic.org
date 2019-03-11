@@ -2,7 +2,8 @@
 title: React Static
 date: 2017-09-08 21:18:00 +0000
 featured: false
-tags: []
+tags:
+- React
 tools:
 - "Static Site Generator"
 urls:
@@ -10,7 +11,7 @@ urls:
   github: https://github.com/nozzle/react-static
   twitter: ''
   other: ''
-language: React
+language: "Javascript"
 description: A progressive static site generator for React
 license: Open Source
 headless-cms: ''

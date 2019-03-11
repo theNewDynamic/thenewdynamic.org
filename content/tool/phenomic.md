@@ -11,10 +11,11 @@ urls:
 description: Modern static website generator for creating dynamic websites using React
   components.
 license: Open Source
-language: React
+language: "Javascript"
 headless-cms: ''
 related_tools: []
-tags: []
+tags:
+- React
 resources: []
 
 ---

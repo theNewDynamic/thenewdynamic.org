@@ -9,11 +9,12 @@ tools:
 - "Content Management"
 data_model: API-based
 license: Hybrid
-language: Node
+language: "Javascript"
 related_tools:
 - tool/netlify.md
 - tool/gatsby.md
-tags: []
+tags:
+- Node
 urls:
   website: https://ghost.org/
   github: ''

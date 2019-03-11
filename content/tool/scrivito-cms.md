@@ -5,14 +5,15 @@ description: User-friendly JavaScript SaaS CMS
 tools:
 - "Content Management"
 license: Commercial
-language: React
+language: "Javascript"
 urls:
   website: https://www.scrivito.com/
   github: https://github.com/Scrivito
   twitter: https://twitter.com/Scrivito
   other: ''
 related_tools: []
-tags: []
+tags:
+- React
 resources: []
 cat_test: ''
 
