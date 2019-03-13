@@ -3,7 +3,8 @@ title: Algolia Price Changes
 date: 2019-03-13 00:00:00 -0400
 description: ''
 link: ''
-tool: []
+tool:
+- tool/algolia.md
 custom: []
 images: []
 draft: true
