@@ -45,6 +45,7 @@ fields:
   name: images
   label: Images
 pages:
+- content/article/algolia-price-changes.md
 - content/article/videos-master-serverless-+-dynamic-generators.md
 - content/article/12-7-gatsby-days.md
 - content/article/state-of-the-headless-cms-market-2018.md
