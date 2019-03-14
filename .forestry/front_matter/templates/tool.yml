@@ -116,6 +116,7 @@ fields:
       section: tools
   label: Cat Test
 pages:
+- content/tool/contentstack-1.md
 - content/tool/publii.md
 - content/tool/stackbit.md
 - content/tool/nuxtjs.md
