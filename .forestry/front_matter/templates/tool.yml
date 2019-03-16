@@ -123,6 +123,7 @@ fields:
   config:
     labelField: name
 pages:
+- content/tool/firebase-authentication.md
 - content/tool/flamelink.md
 - content/tool/parceljs.md
 - content/tool/flatmarket.md
