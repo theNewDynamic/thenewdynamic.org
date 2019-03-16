@@ -45,7 +45,7 @@ fields:
     source:
       type: simple
     options:
-    - forms    
+    - forms
     - images-media
     - search
     - commerce
@@ -122,6 +122,14 @@ fields:
   config:
     labelField: name
 pages:
+- content/tool/pilon.md
+- content/tool/typeform.md
+- content/tool/swiftype.md
+- content/tool/netlify-functions.md
+- content/tool/fusejs-search.md
+- content/tool/Hook-Forms.md
+- content/tool/pageclip.md
+- content/tool/algolia.md
 - content/tool/backendless.md
 - content/tool/contentstack-1.md
 - content/tool/prime-cms.md
@@ -135,7 +143,6 @@ pages:
 - content/tool/hugo.md
 - content/tool/harp.md
 - content/tool/docpad.md
-- content/tool/fusejs-search.md
 - content/tool/hexo.md
 - content/tool/roots.md
 - content/tool/federalist.md
@@ -162,7 +169,6 @@ pages:
 - content/tool/poole.md
 - content/tool/lektor.md
 - content/tool/wp2static-wordpress-plugin.md
-- content/tool/algolia.md
 - content/tool/now.md
 - content/tool/markdown-components.md
 - content/tool/dr-jekylls-themes.md
@@ -170,7 +176,6 @@ pages:
 - content/tool/tipe.md
 - content/tool/commerce-layer.md
 - content/tool/storyblok.md
-- content/tool/typeform.md
 - content/tool/gocommerce.md
 - content/tool/learn-yaml.md
 - content/tool/grunt.md
@@ -187,7 +192,6 @@ pages:
 - content/tool/siteleaf.md
 - content/tool/jekyll.md
 - content/tool/made-mistakes-jekyll-themes.md
-- content/tool/netlify-functions.md
 - content/tool/firebase-realtime-database.md
 - content/tool/azure-storage.md
 - content/tool/blackstarcms.md
@@ -196,16 +200,13 @@ pages:
 - content/tool/post-scheduler.md
 - content/tool/firebase-hosting.md
 - content/tool/mouthful.md
-- content/tool/pageclip.md
 - content/tool/userapp.md
 - content/tool/jekyll-lambda.md
 - content/tool/bitballoon.md
 - content/tool/firebase-functions.md
-- content/tool/Hook-Forms.md
 - content/tool/jekyll-cheatsheat.md
 - content/tool/ibm-watson.md
 - content/tool/daptin.md
-- content/tool/swiftype.md
 - content/tool/hashbrown.md
 - content/tool/tarbell.md
 - content/tool/grow.md
