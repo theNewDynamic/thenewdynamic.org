@@ -31,7 +31,7 @@ fields:
     - Bundler/Task Runner
     - Content Management
     - Helper
-    - Hosting/Deployment
+    - Hosting-Deployment
     - Interaction
     - Serverless
     - Static Site Generator

@@ -5,7 +5,7 @@ description: Sitelify brings your Sitecore sites built using Sitecore JavaScript
   (Sitecore JSS) to Netlify, quickly and easily.
 date: 2019-02-20 00:00:00 -0500
 tools:
-- Hosting/Deployment
+- Hosting-Deployment
 license: Commercial
 data_model: ''
 language: ''

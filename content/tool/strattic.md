@@ -10,7 +10,7 @@ tags:
 title: Strattic
 tools:
   - Static Site Generator
-  - Hosting/Deployment
+  - Hosting-Deployment
 urls:
   website: 'https://www.strattic.com/'
 ---
