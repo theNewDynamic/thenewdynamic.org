@@ -131,11 +131,12 @@ fields:
       section: tools
   label: Cat Test
 pages:
+- content/tool/backendless.md
+- content/tool/contentstack-1.md
 - content/tool/prime-cms.md
 - content/tool/sitelify.md
 - content/tool/memberful.md
 - content/tool/staticrypt.md
-- content/tool/contentstack-1.md
 - content/tool/publii.md
 - content/tool/stackbit.md
 - content/tool/nuxtjs.md
