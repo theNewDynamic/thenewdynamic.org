@@ -122,6 +122,7 @@ fields:
   config:
     labelField: name
 pages:
+- content/tool/parceljs.md
 - content/tool/flatmarket.md
 - content/tool/trolly.md
 - content/tool/snipcart.md
@@ -161,7 +162,6 @@ pages:
 - content/tool/stein.md
 - content/tool/strattic.md
 - content/tool/zerostatic.md
-- content/tool/parceljs.md
 - content/tool/datocms.md
 - content/tool/next.js.md
 - content/tool/wyam.md
