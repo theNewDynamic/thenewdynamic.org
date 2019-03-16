@@ -122,6 +122,7 @@ fields:
   config:
     labelField: name
 pages:
+- content/tool/trolly.md
 - content/tool/snipcart.md
 - content/tool/pilon.md
 - content/tool/typeform.md
@@ -149,7 +150,6 @@ pages:
 - content/tool/federalist.md
 - content/tool/vuepress.md
 - content/tool/vssue.md
-- content/tool/trolly.md
 - content/tool/docusaurus.md
 - content/tool/gatsby.md
 - content/tool/ghost.md

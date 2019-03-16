@@ -3,6 +3,7 @@ cat_test = ""
 data_model = ""
 date = "2019-03-08T00:00:00-05:00"
 description = "A shopping cart for the modern web"
+interactions = ["commerce"]
 language = ""
 license = "Commercial"
 related_tools = []
