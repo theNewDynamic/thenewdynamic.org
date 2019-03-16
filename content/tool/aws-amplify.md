@@ -22,6 +22,8 @@ resources: []
 weight: 6
 data_model: ''
 cat_test: ''
+interactions:
+- authentication
 
 ---
 AWS Amplify provides a declarative and easy-to-use interface across different categories of cloud operations. AWS Amplify goes well with any JavaScript based frontend workflow, and React Native for mobile developers.
