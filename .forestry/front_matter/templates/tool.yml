@@ -116,6 +116,7 @@ fields:
       section: tools
   label: Cat Test
 pages:
+- content/tool/prime-cms.md
 - content/tool/sitelify.md
 - content/tool/memberful.md
 - content/tool/staticrypt.md
