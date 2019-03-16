@@ -8,6 +8,7 @@ license: Commercial
 related_tools:
 - tool/netlify.md
 tags:
+interactions:
 - forms
 urls:
   website: https://www.netlify.com/docs/form-handling/

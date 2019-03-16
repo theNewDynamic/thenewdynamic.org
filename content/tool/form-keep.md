@@ -15,8 +15,9 @@ description: Form endpoints for designers and developers
 license: Commercial
 language: ''
 related_tools: []
-tags:
+interactions:
 - forms
+tags:
 resources: []
 cat_test: ''
 weight: ''

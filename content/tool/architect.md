@@ -10,7 +10,6 @@ data_model: ''
 language: ''
 related_tools: []
 tags:
-- Serverless
 urls:
   website: https://arc.codes/
   github: https://github.com/arc-repos

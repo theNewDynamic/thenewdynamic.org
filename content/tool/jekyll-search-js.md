@@ -8,6 +8,7 @@ license: Open Source
 related_tools:
 - tool/jekyll.md
 tags:
+interactions:
 - search
 urls:
   website: ''

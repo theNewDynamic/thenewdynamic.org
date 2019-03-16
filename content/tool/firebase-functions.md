@@ -8,7 +8,6 @@ license: Commercial
 language: ''
 related_tools: []
 tags:
-- Serverless
 urls:
   website: https://firebase.google.com/products/functions/
   github: ''

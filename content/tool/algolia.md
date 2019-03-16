@@ -22,6 +22,7 @@ resources:
 description: Hosted Search API that delivers instant and relevant results from the
   first keystroke
 tags:
+interactions:
 - search
 license: ''
 language: ''

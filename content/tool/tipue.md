@@ -13,6 +13,7 @@ urls:
   other: ''
 license: Open Source
 tags:
+interactions:
 - search
 description: Search plugin for jQuery
 

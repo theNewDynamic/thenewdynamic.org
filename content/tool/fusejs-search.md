@@ -13,8 +13,8 @@ urls:
   other: ''
 language: Javascript
 tags:
+interactions:
 - search
-- Node
 license: Open Source
 related_tools:
 - tool/hugo.md

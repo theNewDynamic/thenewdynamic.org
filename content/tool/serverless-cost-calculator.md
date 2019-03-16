@@ -15,7 +15,6 @@ language: ''
 related_tools:
 - tool/google-cloud-storage.md
 tags:
-- Serverless
 resources: []
 cat_test: ''
 weight: ''

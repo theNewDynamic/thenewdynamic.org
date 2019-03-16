@@ -12,6 +12,7 @@ urls:
   twitter: ''
   other: ''
 tags:
+interactions:
 - search
 description: ''
 license: ''

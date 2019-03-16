@@ -39,7 +39,7 @@ fields:
   description: Category
 - type: list
   label: Interactions
-  name: interaction
+  name: interactions
   config:
     use_select: true
     source:

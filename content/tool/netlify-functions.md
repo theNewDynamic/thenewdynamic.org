@@ -14,7 +14,6 @@ related_tools:
 - tool/netlify.md
 language: ''
 tags:
-- Serverless
 resources: []
 weight: ''
 

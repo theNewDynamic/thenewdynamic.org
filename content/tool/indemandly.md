@@ -6,6 +6,7 @@ description: The simple, powerful, & versatile contact tool that you can stick o
 tools:
 - Interaction
 tags:
+interactions:
 - forms
 urls:
   website: https://indemandly.com/

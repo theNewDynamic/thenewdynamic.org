@@ -1,49 +1,53 @@
 var config = {
-	searchableFields: ["title", "tags"],
+	searchableFields: ["title", "tags", "language", "interactions"],
 	sortings: {
 		name_asc: {
-      field: "title",
-      order: "asc"
-    }
+			field: "title",
+			order: "asc"
+		}
 	},
 	aggregations: {
 		tool_type: {
 			title: "Type",
 			conjunction: true,
-		  sort: "term",
+			sort: "term",
 			order: "asc",
 			size: 2000
-    },
-    data_model: {			
-			title: "Data Model (for CMSs)",
+		},
+		interactions: {
+			title: "Interaction Type",
 			conjunction: false,
-		  sort: "title",
+			sort: "title",
 			order: "desc",
 			size: 2000
-    },    
-    language: {			
+		},
+		data_model: {
+			title: "Data Model (for CMSs)",
 			conjunction: false,
-		  sort: "term",
+			sort: "title",
+			order: "desc",
+			size: 2000
+		},
+		language: {
+			conjunction: false,
+			sort: "term",
 			order: "asc",
 			size: 2000
-    },
-    tags: {
-			title: "Tags",
-			conjunction: false,
-		  sort: "term",
-			order: "asc",
-			size: 2000
-    },
-    license: {
+		},
+		license: {
 			title: "License",
 			conjunction: false,
-		  sort: "title",
+			sort: "title",
 			order: "asc",
 			size: 2000
-    },
-    
-    
-
+		},
+		tags: {
+			title: "Tags",
+			conjunction: false,
+			sort: "term",
+			order: "asc",
+			size: 2000
+		}
 	}
 };
 

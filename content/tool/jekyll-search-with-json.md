@@ -8,6 +8,7 @@ tools:
 - Interaction
 related_tool: jekyll
 tags:
+interactions:
 - search
 urls:
   website: http://mathayward.com/jekyll-search/

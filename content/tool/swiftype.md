@@ -17,6 +17,7 @@ description: Add search to any website
 
 related_tools: []
 tags:
+interactions:
 - search
 resources: []
 cat_test: ''

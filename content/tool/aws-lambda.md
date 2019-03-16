@@ -12,7 +12,6 @@ urls:
   twitter: ''
   other: ''
 tags:
-- Serverless
 - AWS
 language: ''
 related_tools: []

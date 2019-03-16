@@ -13,7 +13,6 @@ tools:
 related_tools:
 - tool/aws-lambda.md
 tags:
-- Serverless
 resources: []
 cat_test: ''
 weight: 10
