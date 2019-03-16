@@ -18,7 +18,9 @@ related_tools:
 - tool/hugo.md
 - tool/jekyll.md
 tags:
-- services
+interactions:
+- images-media
+
 language: ''
 cat_test: ''
 

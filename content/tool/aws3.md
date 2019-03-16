@@ -16,6 +16,8 @@ urls:
 language: ''
 tags:
 - AWS
+interactions:
+- images-media
 resources: []
 cat_test: ''
 weight: ''

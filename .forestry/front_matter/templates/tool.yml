@@ -45,8 +45,7 @@ fields:
     source:
       type: simple
     options:
-    - forms
-    - serverless
+    - forms    
     - images-media
     - search
     - commerce

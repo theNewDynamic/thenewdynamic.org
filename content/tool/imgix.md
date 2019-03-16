@@ -17,7 +17,8 @@ description: imgix solves the context problem by making all of your images respo
 license: Commercial
 
 tags:
-- services
+interactions:
+- images-media
 language: ''
 related_tools: []
 cat_test: ''
