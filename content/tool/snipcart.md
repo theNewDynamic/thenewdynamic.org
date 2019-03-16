@@ -11,7 +11,6 @@ urls:
   other: ''
 license: Commercial
 tags:
-- e-commerce
 related_tools:
 - tool/gatsby.md
 - tool/jekyll.md

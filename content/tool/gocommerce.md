@@ -17,7 +17,6 @@ language: Go
 related_tools:
 - tool/hugo.md
 tags:
-- e-commerce
 cat_test: ''
 weight: ''
 interactions:

@@ -11,7 +11,6 @@ data_model: ''
 language: ''
 related_tools: []
 tags:
-- e-commerce
 urls:
   website: https://commercelayer.io/
   github: ''

@@ -17,8 +17,6 @@ language: Javascript
 related_tools:
 - tool/webpack.md
 tags:
-- e-commerce
-- React
 resources: []
 cat_test: ''
 weight: ''
