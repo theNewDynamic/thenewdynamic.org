@@ -4,12 +4,13 @@ date: 2018-07-07 08:33:15 -0400
 weight: ''
 description: An open source CMS toolkit for Laravel
 tools:
-- "Content Management"
+- content-management
 license: Open Source
 data_model: API-based
 language: PHP
 related_tools: []
-tags: []
+tags:
+- Laravel
 urls:
   website: https://twill.io/
   github: https://github.com/area17/twill
