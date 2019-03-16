@@ -122,6 +122,7 @@ fields:
   config:
     labelField: name
 pages:
+- content/tool/flatmarket.md
 - content/tool/trolly.md
 - content/tool/snipcart.md
 - content/tool/pilon.md
@@ -154,7 +155,6 @@ pages:
 - content/tool/gatsby.md
 - content/tool/ghost.md
 - content/tool/netlify-cms.md
-- content/tool/flatmarket.md
 - content/tool/phenomic.md
 - content/tool/gridsome.md
 - content/tool/cloudsh-search.md

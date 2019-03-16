@@ -13,8 +13,7 @@ urls:
   other: ''
 description: A free, open source e-commerce platform for static websites
 license: Open Source
-language: 
-language: "Javascript"
+language: Javascript
 related_tools:
 - tool/webpack.md
 tags:
@@ -22,6 +21,10 @@ tags:
 - React
 resources: []
 cat_test: ''
+weight: ''
+interactions:
+- commerce
+data_model: ''
 
 ---
 Flatmarket is a free, open source e-commerce platform for static websites. Its simple architecture makes it extremely reliable, secure, and inexpensive to operate. View the source on GitHub.

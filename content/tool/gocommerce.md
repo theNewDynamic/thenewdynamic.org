@@ -19,6 +19,10 @@ related_tools:
 tags:
 - e-commerce
 cat_test: ''
+weight: ''
+interactions:
+- commerce
+data_model: ''
 
 ---
 A small go based API for static e-commerce sites.
