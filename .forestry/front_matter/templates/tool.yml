@@ -50,7 +50,6 @@ fields:
     - images-media
     - search
     - commerce
-
   description: Category
   - type: select
   name: license
@@ -123,13 +122,6 @@ fields:
     label: URL
   config:
     labelField: name
-- type: select
-  name: cat_test
-  config:
-    source:
-      type: pages
-      section: tools
-  label: Cat Test
 pages:
 - content/tool/backendless.md
 - content/tool/contentstack-1.md
