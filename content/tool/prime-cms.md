@@ -12,8 +12,8 @@ language: ''
 related_tools: []
 tags: []
 urls:
-  website: ''
-  github: ''
+  website: https://docs.primecms.app
+  github: https://github.com/birkir/prime
   twitter: ''
   other: ''
 resources: []
