@@ -37,7 +37,22 @@ fields:
     - Static Site Generator
     - Theme
   description: Category
-- type: select
+- type: list
+  label: Interactions
+  name: interaction
+  config:
+    use_select: true
+    source:
+      type: simple      
+    options:
+    - forms
+    - serverless
+    - images-media
+    - search
+    - commerce
+
+  description: Category
+  - type: select
   name: license
   config:
     source:
