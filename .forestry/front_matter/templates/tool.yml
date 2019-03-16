@@ -122,6 +122,7 @@ fields:
   config:
     labelField: name
 pages:
+- content/tool/snipcart.md
 - content/tool/pilon.md
 - content/tool/typeform.md
 - content/tool/swiftype.md
@@ -210,7 +211,6 @@ pages:
 - content/tool/hashbrown.md
 - content/tool/tarbell.md
 - content/tool/grow.md
-- content/tool/snipcart.md
 - content/tool/microsoft-azure-functions.md
 - content/tool/meet-hyde.md
 - content/tool/cloud-cms.md

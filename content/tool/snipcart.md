@@ -21,6 +21,9 @@ language: ''
 resources: []
 cat_test: ''
 weight: ''
+interactions:
+- commerce
+data_model: ''
 
 ---
 Effortless shopping cart: Using simple HTML markup, turn any existing website into an extensive shopping cart platform. Snipcart allows payment processing, shipping estimates and order management without ever letting your customers leave your website.
