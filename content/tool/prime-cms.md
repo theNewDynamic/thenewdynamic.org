@@ -1,7 +1,8 @@
 ---
 title: Prime CMS
 weight: ''
-description: Open Source GraphQL CMS
+description: Prime is a standalone, self-hosted, headless CMS with a GraphQL interface
+  powered by TypeScript.
 date: 2019-03-15 00:00:00 -0400
 tools:
 - Content Management
