@@ -49,6 +49,7 @@ fields:
     - images-media
     - search
     - commerce
+    - authentication
   description: Category
 - type: select
   name: license
