@@ -21,13 +21,15 @@ resources:
   url: https://github.com/algolia/awesome-algolia
 description: Hosted Search API that delivers instant and relevant results from the
   first keystroke
-tags:
+tags: []
 interactions:
 - search
-license: ''
+license: Commercial
 language: ''
 related_tools: []
 cat_test: ''
+weight: ''
+data_model: ''
 
 ---
 Founded in 2012, Algolia is a privately held company created by veterans in the fields of algorithms, search engines and text mining.
