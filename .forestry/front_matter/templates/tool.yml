@@ -50,6 +50,7 @@ fields:
     - search
     - commerce
     - authentication
+    - privacy-data
   description: Category
 - type: select
   name: license
