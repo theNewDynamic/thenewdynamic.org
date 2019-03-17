@@ -23,6 +23,17 @@
           {{ end }}
         </div>
       {{ end }}
+      {{ with .Params.interactions }}
+        <div class="mr-3">
+          
+          {{ range  . }}
+            {{ $taxonomy := index (where (($.Site.GetPage "taxonomyTerm" "interactions").Pages) "Data.Term" .) 0 }}
+              <a href="{{ $taxonomy.Permalink }}" class="dim font-sans inline-block bg-grey-dark mb-4 mx-2 no-underline rounded-full px-3 py-1 text-sm text-white"{{ with $taxonomy.Params.color }} style="background-color:{{ . | default "grey" }};"{{ end }}>
+                {{ $taxonomy.Title }}
+              </a>
+          {{ end }}
+        </div>
+      {{ end }}
 
       {{ with .Param "headless-cms" }}
         <div class="mr-3">
