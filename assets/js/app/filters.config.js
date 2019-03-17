@@ -16,7 +16,7 @@ var config = {
 		},
 		interactions: {
 			title: "Interaction Type",
-			conjunction: false,
+			conjunction: true,
 			sort: "title",
 			order: "desc",
 			size: 2000
