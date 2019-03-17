@@ -7,8 +7,7 @@ description: Search through your jekyll pages, posts, or any collection the ES6 
 license: Open Source
 related_tools:
 - tool/jekyll.md
-tags:
-- search
+tags: []
 urls:
   website: ''
   github: https://github.com/daviddarnes/jekyll-search-js
