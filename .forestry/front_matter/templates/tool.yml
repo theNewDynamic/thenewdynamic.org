@@ -124,6 +124,7 @@ fields:
   config:
     labelField: name
 pages:
+- content/tool/iubenda.md
 - content/tool/algolia.md
 - content/tool/firebase-authentication.md
 - content/tool/flamelink.md
