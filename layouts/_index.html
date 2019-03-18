@@ -1,0 +1,48 @@
+{{ define "main" }}
+{{ $tools := where .Site.RegularPages "Section" "tool"}}
+  {{ $image_url := $.Param "dev.image_url" }}
+  <article class="h-entry mx-auto page-list_default py-2 lg:pt-5 px-4 max-w-lg">
+    {{/* {{- partial "_components/page-heading.html" . -}} */}}
+    <section class="nested leading-normal text-lg nested-no-underlines nested-imgTK text-grey-darkest pb-32">
+      {{ .Content }}       
+    </section>    
+  </article>
+  <div class="sm:grid grid-columns-3 grid-gap-4">      
+    <div class="col-span-1">
+      <div class="bg-grey-lighter mt-8 lg:mt-0 mb-8 py-4 px-8">
+        <h3>Join the Conversation</h3>
+        <div class="inline-block hidden flex flex-wrap items-center">
+          {{ partial "_components/social-follow.html" (dict "cx" . "icon_size" "26px") }}
+        </div>
+      </div>
+    </div>
+
+    <div class="col-span-1">
+      <div class="bg-grey-lighter mb-8 px-8 py-4">
+        <h3>New Tools</h3>
+        <ul class="list-reset">
+          {{ range first 10 $tools.ByDate.Reverse }}
+            <li class="mb-1">
+              <a href="{{ .Permalink }}" class="no-underline dim text-black">
+                {{ .Title }}
+              </a>
+            </li>
+          {{ end }}
+        </ul>
+      </div>
+    </div>
+
+    <div class="col-span-1 bg-grey-lighter px-8 py-4">
+      <h3>Top Tools</h3>
+      <ul class="list-reset">
+        {{ range first 10 $tools.ByWeight }}
+          <li class="mb-1">
+            <a href="{{ .Permalink }}" class="no-underline dim text-black">
+              {{ .Title }}
+            </a>
+          </li>
+        {{ end }}
+      </ul>
+    </div>    
+  </div>
+{{end}}

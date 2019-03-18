@@ -1,6 +1,6 @@
 main:
   - name: Database
-    url: /tools/
+    url: /
     weight: 1
   - name: Events
     url: /event/
