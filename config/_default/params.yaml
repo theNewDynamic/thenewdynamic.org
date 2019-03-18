@@ -8,3 +8,5 @@ utm_source: thenewdynamic.org
 dev:    
   fonts_path: static/assets/Fonts
   image_url: 'https://thenewdynamic-org.imgix.net'
+seo:
+  default_image: /images/tnd-logo-B50938.svg
