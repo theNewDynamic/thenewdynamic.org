@@ -2,8 +2,6 @@
 title: Code of Conduct
 ---
 
-# Code of Conduct
-
 These policies apply to all the New Dynamic/JAMstack.NYC “spaces”, which include: events, the Meetup group, the mailing list, the Slack community, and all other forms of communication related to the group. **If someone is violating any of these policies or you feel uncomfortable in the group in any way, please let one of the organizers know.**
 
 ## [#](#general)General
