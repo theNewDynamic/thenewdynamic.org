@@ -69,6 +69,7 @@ fields:
       section: meetup
   label: Meetup
 pages:
+- content/event/_index.md
 - content/event/2017-01-06-january-meetup-offline-first-for-your-static-site--the-journey-from-cms-to-static.md
 - content/event/2016-09-29-go-offline-first--api-first-for-blazing-fast-and-scalable-sites.md
 - content/event/2016-08-04-search-for-static-sites-by-aidan-feldman.md
@@ -79,4 +80,3 @@ pages:
 - content/event/2017-02-18-jekyll-in-the-newsroom.md
 - content/event/2016-05-09-real-world-content-strategy-with-jekyll.md
 - content/event/static-site-generators---from-zero-to--they-can-do-that---.md
-- content/event/_index.md

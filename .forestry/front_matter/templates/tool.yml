@@ -124,6 +124,7 @@ fields:
   config:
     labelField: name
 pages:
+- content/tool/webiny.md
 - content/tool/matomo.md
 - content/tool/cookiebot.md
 - content/tool/iubenda.md
