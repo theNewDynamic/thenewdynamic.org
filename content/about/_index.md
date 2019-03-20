@@ -10,7 +10,7 @@ menu:
 
 The site will be editorially driven; that is, it will not attempt to be comprehensive, just, hopefully, interesting and we welcome contributions from the community.
 
-Get in touch via Twitter: [@thenewdynamic](https://twitter.com/thenewdynamic)
+Get in touch via Twitter: [@thenewdynamic](https://twitter.com/thenewdynamic)  or [email ](mailto:budparr@thenewdynamic.com)
 
 While we may recommend commercial as well as open source projects on this site, we do not accept freebies that are not available to the general public and will disclose any interests when appropriate.
 
