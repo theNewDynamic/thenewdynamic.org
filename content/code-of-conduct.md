@@ -37,4 +37,4 @@ Portions of this Code of Conduct were adapted from
 
 [Write/Speak/Code](http://www.writespeakcode.com/code-of-conduct.html), [Hacker Hours Policies](https://hackerhours.org/policies.html), [JAMstack_conf](https://jamstackconf.com/nyc/code-of-conduct/), [Go Make Things Slack Guidelines](https://gomakethings.com/slack-guidelines/), and the [Slack Developer Community Code of Conduct](https://api.slack.com/docs/community-code-of-conduct).
 
-[Email budparr@thenewdynamic.com](mailto:budparr@thenewdynamic.com)
+[Email budparr@thenewdynamic.com](mailto:budparr@thenewdynamic.com?subject=code of conduct)
