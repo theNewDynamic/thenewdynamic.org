@@ -124,6 +124,7 @@ fields:
   config:
     labelField: name
 pages:
+- content/tool/blackstarcms.md
 - content/tool/discharge.md
 - content/tool/pageclip-1.md
 - content/tool/render.md
@@ -206,7 +207,6 @@ pages:
 - content/tool/made-mistakes-jekyll-themes.md
 - content/tool/firebase-realtime-database.md
 - content/tool/azure-storage.md
-- content/tool/blackstarcms.md
 - content/tool/cosmicjs.md
 - content/tool/full-calendar.md
 - content/tool/post-scheduler.md
