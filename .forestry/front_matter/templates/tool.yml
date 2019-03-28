@@ -125,7 +125,6 @@ fields:
     labelField: name
 pages:
 - content/tool/storyblok.md
-- content/tool/storyblok-1.md
 - content/tool/blackstarcms.md
 - content/tool/discharge.md
 - content/tool/pageclip-1.md
