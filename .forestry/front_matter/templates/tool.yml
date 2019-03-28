@@ -124,6 +124,7 @@ fields:
   config:
     labelField: name
 pages:
+- content/tool/storyblok.md
 - content/tool/storyblok-1.md
 - content/tool/blackstarcms.md
 - content/tool/discharge.md
@@ -189,7 +190,6 @@ pages:
 - content/tool/knownly.md
 - content/tool/tipe.md
 - content/tool/commerce-layer.md
-- content/tool/storyblok.md
 - content/tool/gocommerce.md
 - content/tool/learn-yaml.md
 - content/tool/grunt.md
