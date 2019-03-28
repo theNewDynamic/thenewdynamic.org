@@ -2,22 +2,20 @@
 title: Storyblok
 date: '2017-01-23T15:17:00Z'
 tools:
-- content-management
+- Content Management
 urls:
   website: https://www.storyblok.com/
   github: ''
   twitter: ''
   other: ''
-resources:
-- name: ''
-  url: ''
+resources: []
 description: The Only Headless CMS with a Visual Editor
 tags:
 - API-based
 weight: ''
 interactions: []
-license: ''
-data_model: ''
+license: Commercial
+data_model: API-based
 language: ''
 related_tools: []
 
