@@ -8,8 +8,9 @@ languageCode: en-us
 preserveTaxonomyNames: true
 rssLimit: 20
 themesDir: components
-theme:
-  - layouts-base
+theme:  
+  - tnd
+  - layouts-base  
   - seo
   - layouts-events
 title: the New Dynamic

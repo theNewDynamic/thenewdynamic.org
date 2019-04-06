@@ -4,3 +4,6 @@
 [submodule "components/seo"]
 	path = components/seo
 	url = https://github.com/theNewDynamic/hugo-component-tnd-seo.git
+[submodule "components/tnd"]
+	path = components/tnd
+	url = https://github.com/thenewdynamic-org/thenewdynamic-org-layouts.git
