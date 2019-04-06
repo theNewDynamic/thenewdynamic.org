@@ -124,11 +124,12 @@ fields:
   config:
     labelField: name
 pages:
+- content/tool/shifter.md
+- content/tool/render.md
+- content/tool/pageclip-1.md
 - content/tool/storyblok.md
 - content/tool/blackstarcms.md
 - content/tool/discharge.md
-- content/tool/pageclip-1.md
-- content/tool/render.md
 - content/tool/webiny.md
 - content/tool/matomo.md
 - content/tool/cookiebot.md
@@ -195,7 +196,6 @@ pages:
 - content/tool/appernetic.md
 - content/tool/aws-console.md
 - content/tool/pelican.md
-- content/tool/shifter.md
 - content/tool/s3_website.md
 - content/tool/sculpin.md
 - content/tool/formcarry.md
