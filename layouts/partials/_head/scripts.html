@@ -1,0 +1,18 @@
+<script type="text/javascript" defer>
+  var MTIProjectId='0279604d-1ddd-4c0d-b491-eff8ca0e76df';
+   (function() {
+          var mtiTracking = document.createElement('script');
+          mtiTracking.type='text/javascript';
+          mtiTracking.async='true';
+           mtiTracking.src='/mtiFontTrackingCode.js';
+          (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild( mtiTracking );
+     })();
+  </script>
+{{/*  TODO: Remove when removing  fonts.com */}}
+<link rel="dns-prefetch" href="https://fast.fonts.net">  
+  
+  {{ if (fileExists "./assets/output/index.js") }}
+    {{ $js := resources.Get "output/index.js" | resources.Fingerprint }}
+      <script type="text/javascript" src="{{ $js.Permalink | relURL }}" integrity="{{ $js.Data.Integrity }}" crossorigin="anonymous" defer></script>
+  {{ end }}
+  
