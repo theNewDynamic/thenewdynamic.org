@@ -9,12 +9,12 @@ urls:
   website: http://getkirby.com/
   github: ''
   twitter: ''
-  other: ''
+  other: https://github.com/getkirby/kirby
 weight: ''
 description: Kirby is the content management system that adapts to your projects like
   no other
 interactions: []
-license: ''
+license: Open Source
 data_model: ''
 language: ''
 related_tools: []
