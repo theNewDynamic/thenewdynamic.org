@@ -4,7 +4,7 @@ date: 2015-10-04 13:04:00 +0000
 posted_date: 2015-10-04 13:04:00 +0000
 slug: kirby
 tools:
-- CMS
+- Content Management
 urls:
   website: http://getkirby.com/
   github: ''
