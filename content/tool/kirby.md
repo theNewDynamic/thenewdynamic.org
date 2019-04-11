@@ -7,7 +7,19 @@ tools:
 - CMS
 urls:
   website: http://getkirby.com/
-draft: true
+  github: ''
+  twitter: ''
+  other: ''
+weight: ''
+description: Kirby is the content management system that adapts to your projects like
+  no other
+interactions: []
+license: ''
+data_model: ''
+language: ''
+related_tools: []
+tags: []
+resources: []
 
 ---
 Kirby is a file‑based CMS. Easy to setup. Easy to use. Flexible as hell.

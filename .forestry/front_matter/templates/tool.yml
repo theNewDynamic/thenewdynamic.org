@@ -124,6 +124,7 @@ fields:
   config:
     labelField: name
 pages:
+- content/tool/kirby.md
 - content/tool/shifter.md
 - content/tool/render.md
 - content/tool/pageclip-1.md
@@ -294,7 +295,6 @@ pages:
 - content/tool/heroku.md
 - content/tool/commento.md
 - content/tool/jigsaw.md
-- content/tool/kirby.md
 - content/tool/prismic.md
 - content/tool/butter-cms.md
 - content/tool/cockpit-cms.md
