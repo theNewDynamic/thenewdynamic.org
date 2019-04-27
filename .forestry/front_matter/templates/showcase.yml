@@ -1,6 +1,7 @@
 ---
 label: showcase
 hide_body: false
+display_field: title
 fields:
 - name: title
   label: Title
