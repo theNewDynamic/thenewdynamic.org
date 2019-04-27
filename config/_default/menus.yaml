@@ -20,9 +20,13 @@ main:
     url: /showcase/
     weight: 7
   - identifier: jobs
-    name: Find a Developer
+    name: Jobs
     url: /jobs/
     weight: 8
+  - identifier: find-an-expert
+    name: Find an Expert
+    url: /find-an-expert/
+    weight: 8  
   
 tools:
   - identifier: tools
