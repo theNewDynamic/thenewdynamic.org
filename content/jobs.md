@@ -1,6 +1,5 @@
 ---
-title: Find a Developer
+title: Jobs
 type: page
-
 ---
-Coming very soon!
+
