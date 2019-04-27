@@ -19,6 +19,7 @@ fields:
   name: date
   label: Date
   description: Date added to the database
+  default: now
 - type: list
   label: Tool Type
   name: tools
