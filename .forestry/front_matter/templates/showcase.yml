@@ -11,6 +11,7 @@ fields:
 - type: datetime
   name: date
   label: Date
+  default: now
 - name: website
   label: Website
   type: text
