@@ -1,11 +1,11 @@
 ---
 title: Prose.io
-date: 2015-05-14 17:18:00 +0000
-posted_date: 2015-05-14 17:18:00 +0000
+date: 2015-05-14T17:18:00.000+00:00
+posted_date: '2015-05-14T17:18:00.000+00:00'
 featured: false
 slug: proseio
 tools:
-- "Content Management"
+- Content Management
 data_model: Git-based
 urls:
   website: http://prose.io
@@ -21,6 +21,10 @@ resources: []
 license: Open Source
 language: ''
 cat_test: ''
+weight: ''
+interactions: []
+draft: true
+
 ---
 Prose provides a beautifully simple content authoring environment for CMS-free websites. It's a web-based interface for managing content on GitHub. Use it to create, edit, and delete files, and save your changes directly to GitHub. Host your website on GitHub Pages for free, or set up your own GitHub webhook server.
 
