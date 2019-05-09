@@ -61,7 +61,9 @@ Other businesses began to share faith in that vision as well, and the growth of 
 Naturally, the E-commerce industry was the first one to adopt APIs. Most notably, eBay and Amazon launched their public APIs. They were soon followed by the emerging social sites, with Twitter leading the way in 2006 when they unveiled their Twitter API. Cloud computing and mobile industry followed shortly after.
 
 At the end of December 2018, the API count in the programmableweb directory equaled 20,788, and AngelList listed over 15k SaaS companies.  
-Take a look at the chart below showing the API ecosystem growth since 2005.  
+Take a look at the chart below showing the API ecosystem growth since 2005.
+
+  
 ![](/uploads/apis-image.png)
 
 Source: [ProgrammableWeb](https://www.google.com/url?q=https://www.programmableweb.com/news/research-shows-interest-providing-apis-still-high/research/2018/02/23&sa=D&ust=1557370937763000)
