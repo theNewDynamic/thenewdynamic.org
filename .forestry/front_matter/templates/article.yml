@@ -45,6 +45,7 @@ fields:
   name: images
   label: Images
 pages:
+- content/article/2019-the-next-step-towards-the-microservices-architecture.md
 - content/article/2017-06-02-join-our-slack.md
 - content/article/2014-08-29-the-post-cms-landscape.md
 - content/article/2017-10-03-interview-hugo-lead-developer.md
