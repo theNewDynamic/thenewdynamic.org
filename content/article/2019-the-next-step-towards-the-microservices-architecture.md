@@ -64,7 +64,6 @@ At the end of December 2018, the API count in the programmableweb directory equa
 Take a look at the chart below showing the API ecosystem growth since 2005.  
 ![](/uploads/apis-image.png)
 
-  
 Source: [ProgrammableWeb](https://www.google.com/url?q=https://www.programmableweb.com/news/research-shows-interest-providing-apis-still-high/research/2018/02/23&sa=D&ust=1557370937763000)
 
 ## How APIs are driving the XaaS market
@@ -122,7 +121,7 @@ With the ever-changing landscape of trending technologies (AI, VR, AR, blockchai
 
 ### Last, but not least
 
-Reduced computing cost, modern powerful browsers and the booming popularity of concepts such as the [JAMstack](https://bejamas.io/blog/jamstack-modern-web-development/)and [Progressive Web Apps](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Progressive_web_applications&sa=D&ust=1557370937774000) makes the microservices a core to the modern-day developers' arsenal, and it seems that this shift is just beginning.
+Reduced computing cost, modern powerful browsers and the booming popularity of concepts such as the [JAMstack](https://bejamas.io/blog/jamstack-modern-web-development/) and [Progressive Web Apps](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Progressive_web_applications&sa=D&ust=1557370937774000) makes the microservices a core to the modern-day developers' arsenal, and it seems that this shift is just beginning.
 
 Furthermore, if we adjust our lens and zoom-out on the whole ‘internet revolution’, we’ll notice that merely 3% of global commerce happens online today, meanwhile generations of people born after 1995 are entering the global marketplace.
 
@@ -140,4 +139,4 @@ Summing this article up as promised in the preface, it’s hard for me to imagin
 
 While the XaaS solutions definitely aren’t devoid of flaws, I can’t imagine a world without them. With all the arguments and trends outlined above, we should see the continued growth of APIs and microservices in the following years.
 
-[Bejamas.io](https://bejamas.io/blog/jamstack-modern-web-development/)is a Web Dev shop focused on helping agencies and companies with serverless web, static site generators and JAMstack tools. We can help you say goodbye to your clunky dynamic website and welcome to lightning fast static world.
+[Bejamas.io](https://bejamas.io/blog/jamstack-modern-web-development/) is a Web Dev shop focused on helping agencies and companies with serverless web, static site generators and JAMstack tools. We can help you say goodbye to your clunky dynamic website and welcome to lightning fast static world.
