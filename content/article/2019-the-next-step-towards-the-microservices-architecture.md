@@ -122,7 +122,7 @@ With the ever-changing landscape of trending technologies (AI, VR, AR, blockchai
 
 ### Last, but not least
 
-Reduced computing cost, modern powerful browsers and the booming popularity of concepts such as the [JAMstack](https://www.google.com/url?q=https://bejamas.io/blog/jamstack-modern-web-development/&sa=D&ust=1557370937773000)and [Progressive Web Apps](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Progressive_web_applications&sa=D&ust=1557370937774000) makes the microservices a core to the modern-day developers' arsenal, and it seems that this shift is just beginning.
+Reduced computing cost, modern powerful browsers and the booming popularity of concepts such as the [JAMstack](https://bejamas.io/blog/jamstack-modern-web-development/)and [Progressive Web Apps](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Progressive_web_applications&sa=D&ust=1557370937774000) makes the microservices a core to the modern-day developers' arsenal, and it seems that this shift is just beginning.
 
 Furthermore, if we adjust our lens and zoom-out on the whole ‘internet revolution’, we’ll notice that merely 3% of global commerce happens online today, meanwhile generations of people born after 1995 are entering the global marketplace.
 
