@@ -140,4 +140,4 @@ Summing this article up as promised in the preface, it’s hard for me to imagin
 
 While the XaaS solutions definitely aren’t devoid of flaws, I can’t imagine a world without them. With all the arguments and trends outlined above, we should see the continued growth of APIs and microservices in the following years.
 
-[Bejamas.io](https://www.google.com/url?q=https://bejamas.io&sa=D&ust=1557370937776000)is a Web Dev shop focused on helping agencies and companies with serverless web, static site generators and JAMstack tools. We can help you say goodbye to your clunky dynamic website and welcome to lightning fast static world.
+[Bejamas.io](https://bejamas.io/blog/jamstack-modern-web-development/)is a Web Dev shop focused on helping agencies and companies with serverless web, static site generators and JAMstack tools. We can help you say goodbye to your clunky dynamic website and welcome to lightning fast static world.
