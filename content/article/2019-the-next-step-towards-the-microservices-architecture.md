@@ -8,6 +8,8 @@ custom: []
 images: []
 
 ---
+_by Denis Kostrzewa_
+
 Last year was definitely a year of events which made me optimistic about the further growth of microservices architecture and cloud-based solutions. While everyone is preaching what’s going to change and what the next disruption will be, I’d like to look at things from a slightly different perspective.
 
 In this article, I’d like to describe how we got to where we are today, and what will not change considering the events in 2018 and the global trends.
