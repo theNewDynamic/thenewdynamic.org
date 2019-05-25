@@ -125,6 +125,7 @@ fields:
   config:
     labelField: name
 pages:
+- content/tool/medium-2-md.md
 - content/tool/scar.md
 - content/tool/easycron.md
 - content/tool/imagekit.md
