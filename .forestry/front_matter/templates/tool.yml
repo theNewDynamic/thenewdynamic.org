@@ -129,6 +129,7 @@ pages:
 - content/tool/scar.md
 - content/tool/medium-2-md.md
 - content/tool/harness.md
+- content/tool/tipe.md
 - content/tool/imagekit.md
 - content/tool/memberstack.md
 - content/tool/markdown-tables-generator.md
@@ -271,7 +272,6 @@ pages:
 - content/tool/grunt.md
 - content/tool/learn-yaml.md
 - content/tool/gocommerce.md
-- content/tool/tipe.md
 - content/tool/knownly.md
 - content/tool/dr-jekylls-themes.md
 - content/tool/commerce-layer.md
