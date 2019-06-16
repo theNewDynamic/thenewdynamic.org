@@ -19,20 +19,11 @@ fields:
   config:
     date_format: MM/DD/YYYY
     export_format: MM/DD/YYYY
-- name: images
-  type: image_gallery
-  config: {}
-  label: Images
 - name: link
   label: Link
   type: text
   hidden: false
   default: 
-- name: show_time
-  label: Show time
-  type: boolean
-  hidden: false
-  default: true
 - name: venue
   label: Venue
   type: field_group
@@ -64,6 +55,15 @@ fields:
     default: ''
   hidden: false
   default: 
+- name: images
+  type: image_gallery
+  config: {}
+  label: Images
+- name: show_time
+  label: Show time
+  type: boolean
+  hidden: false
+  default: true
 - type: select
   name: meetup
   config:
