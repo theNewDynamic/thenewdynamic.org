@@ -8,19 +8,21 @@ fields:
   type: text
   hidden: false
   default: ''
-- type: datetime
-  name: date
-  label: Date
-- name: images
-  label: Images
-  type: text
-  hidden: false
-  default: 
 - name: description
   label: Description
   type: text
   hidden: false
   default: 
+- type: datetime
+  name: date
+  label: Date
+  config:
+    date_format: MM/DD/YYYY
+    export_format: MM/DD/YYYY
+- name: images
+  type: image_gallery
+  config: {}
+  label: Images
 - name: link
   label: Link
   type: text
