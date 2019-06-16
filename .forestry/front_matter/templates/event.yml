@@ -18,7 +18,7 @@ fields:
   label: Date
   config:
     date_format: MM/DD/YYYY
-    export_format: MM-DD-YYYY
+    export_format: YYYY-MM-DD
 - name: link
   label: Link
   type: text
