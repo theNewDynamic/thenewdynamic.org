@@ -3,7 +3,7 @@ title: Events
 aliases:
 - "/events/"
 date: 
-images: ''
+images: []
 description: JAMstack related events
 link: ''
 show_time: false
@@ -16,3 +16,4 @@ venue:
 meetup: ''
 
 ---
+Past.
