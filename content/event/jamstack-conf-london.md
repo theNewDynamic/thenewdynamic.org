@@ -1,6 +1,6 @@
 ---
 title: JAMstack conf London
-date: 2019-07-09T02:00:00-04:00
+date: 07/09/2019
 image: 
 description: Attend the conference to learn how to design, develop, and deploy fast,
   modern web projects that run on JAMstack, without web servers.
@@ -12,7 +12,8 @@ venue:
   name: Tobacco Dock
   state: ''
   zip: E1W 2SF
-images: https://jamstackconf.com/images/venue-tobacco-dock-interior-1374.jpg
+images:
+- https://jamstackconf.com/images/venue-tobacco-dock-interior-1374.jpg
 meetup: ''
 
 ---
