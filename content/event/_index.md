@@ -2,10 +2,22 @@
 title: Events
 aliases:
 - "/events/"
-date: 2017-03-09 18:30:00 +0000
+date: 2019-04-09T13:30:00-04:00
+images: https://jamstackconf.com/images/venue-tobacco-dock-interior-1374.jpg
+description: Attend the conference to learn how to design, develop, and deploy fast,
+  modern web projects that run on JAMstack, without web servers.
+link: https://jamstackconf.com/london/
+show_time: false
+venue:
+  address: Wapping Lane
+  city: London
+  name: Tobacco Dock
+  state: United Kingdom
+  zip: E1W 2SF
+meetup: ''
 
 ---
-## 4/9 - 4/10: JAMstack Conference
+## JAMstack Conference
 
 Attend the premier event to learn how to design, develop, and deploy fast, modern web projects that run without web servers.
 
