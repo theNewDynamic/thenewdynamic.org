@@ -1,6 +1,6 @@
 ---
 title: JAMstack conf London
-date: 06-14-2019
+date: 2019-06-15
 image: 
 description: Attend the conference to learn how to design, develop, and deploy fast,
   modern web projects that run on JAMstack, without web servers.
