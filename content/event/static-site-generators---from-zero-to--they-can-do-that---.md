@@ -1,12 +1,12 @@
 ---
 title: Static Site Generators — From Zero To “They Can Do That?!”
-date: 2018-05-19 00:00:00 -0400
-image: ''
+date: 2018-05-19T00:00:00-04:00
+image: 
 description: ''
 link: ''
 show_time: true
 venue:
-  address: ''
+  address: Online
   city: ''
   name: ''
   state: ''
