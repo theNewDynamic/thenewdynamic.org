@@ -14,6 +14,6 @@ venue:
   zip: E1W 2SF
 images: https://jamstackconf.com/images/venue-tobacco-dock-interior-1374.jpg
 meetup: ''
-draft: true
 
 ---
+![](https://jamstackconf.com/images/venue-tobacco-dock-interior-1374.jpg)
