@@ -46,6 +46,8 @@ sections:
   label: Events
   create: all
   match: "**/*"
+  templates:
+  - event
 - type: directory
   path: content/article
   label: Articles
