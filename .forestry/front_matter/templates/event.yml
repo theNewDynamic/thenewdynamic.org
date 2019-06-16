@@ -71,6 +71,9 @@ fields:
       type: pages
       section: meetup
   label: Meetup
+  showOnly:
+    field: show_time
+    value: true
 pages:
 - content/event/jamstack-conf-london.md
 - content/event/static-site-generators---from-zero-to--they-can-do-that---.md
