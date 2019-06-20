@@ -125,12 +125,12 @@ fields:
   config:
     labelField: name
 pages:
+- content/tool/harness.md
+- content/tool/medium-2-md.md
+- content/tool/markdown-tables-generator.md
 - content/tool/tipe.md
 - content/tool/medium-to-own-blog.md
 - content/tool/memberstack.md
-- content/tool/markdown-tables-generator.md
-- content/tool/harness.md
-- content/tool/medium-2-md.md
 - content/tool/scar.md
 - content/tool/easycron.md
 - content/tool/imagekit.md
