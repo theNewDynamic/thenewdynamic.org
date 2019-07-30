@@ -66,6 +66,7 @@ fields:
   name: images
   label: Images
 pages:
+- content/showcase/pinpoint-com.md
 - content/showcase/coffee-collective.md
 - content/showcase/vesterheim-norwegian-american-museum.md
 - content/showcase/foia-gov.md
