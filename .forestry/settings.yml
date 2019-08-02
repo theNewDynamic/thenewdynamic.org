@@ -83,7 +83,7 @@ build:
   publish_command: hugo -d public
   preview_env:
   - HUGO_ENV=staging
-  - HUGO_VERSION=0.54.0
+  - HUGO_VERSION=0.56.3
   publish_env:
   - HUGO_ENV=production
   - HUGO_VERSION=0.54.0
