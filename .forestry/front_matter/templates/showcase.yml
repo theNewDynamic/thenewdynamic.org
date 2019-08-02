@@ -66,6 +66,7 @@ fields:
   name: images
   label: Images
 pages:
+- content/showcase/komponents-ng.md
 - content/showcase/ghost-docs.md
 - content/showcase/diller-scofidio-+-renfro.md
 - content/showcase/mon-banquet.md
