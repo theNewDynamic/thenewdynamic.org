@@ -16,3 +16,4 @@ images:
 - "/uploads/showcase-pinpoint.com-gatsby-contentful.jpg"
 
 ---
+> The marketing team is loving working with Forestry so far, and it's pretty easy on us devs, too — Matthew Congrove, PinPoint
