@@ -66,6 +66,7 @@ fields:
   name: images
   label: Images
 pages:
+- content/showcase/pinpoint-com.md
 - content/showcase/komponents-ng.md
 - content/showcase/ghost-docs.md
 - content/showcase/diller-scofidio-+-renfro.md
@@ -129,7 +130,6 @@ pages:
 - content/showcase/boomtown-fair.md
 - content/showcase/architracker.md
 - content/showcase/1password.md
-- content/showcase/pinpoint-com.md
 - content/showcase/coffee-collective.md
 - content/showcase/datica.md
 - content/showcase/siteleaf.md
