@@ -66,6 +66,7 @@ fields:
   name: images
   label: Images
 pages:
+- content/showcase/wework-labs.md
 - content/showcase/pinpoint.md
 - content/showcase/komponents-ng.md
 - content/showcase/ghost-docs.md
