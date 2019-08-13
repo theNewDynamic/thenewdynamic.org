@@ -14,7 +14,6 @@ creator:
 image_path: "/uploads/showcase/"
 images:
 - "/uploads/showcase-wework.com-labs.gatsby-contentful.jpg"
-draft: true
 
 ---
 {{< youtube IgfzZ5z9Dqk >}}
