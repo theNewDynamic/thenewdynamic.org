@@ -125,6 +125,7 @@ fields:
   config:
     labelField: name
 pages:
+- content/tool/learn-jamstack.md
 - content/tool/medium-to-own-blog.md
 - content/tool/memberstack.md
 - content/tool/harness.md
