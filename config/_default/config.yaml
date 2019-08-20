@@ -12,7 +12,7 @@ theme:
   - tnd
   - layouts-base  
   - seo
-  - layouts-events
+  # - layouts-events
 title: the New Dynamic
 blackfriday:
   fractions: false
