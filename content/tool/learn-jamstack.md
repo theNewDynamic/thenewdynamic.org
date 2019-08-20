@@ -2,7 +2,7 @@
 date: 2019-08-20T18:27:08-04:00
 title: Learn JAMstack!
 weight: 
-description: ''
+description: A curated list of courses, articles and tips about JAMstack
 tools:
 - Helper
 interactions: []
@@ -21,4 +21,3 @@ urls:
 resources: []
 
 ---
-A curated list of courses, articles and tips about JAMstack
