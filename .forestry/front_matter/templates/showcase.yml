@@ -66,6 +66,7 @@ fields:
   name: images
   label: Images
 pages:
+- content/showcase/bejamas.md
 - content/showcase/orchestra-wellington.md
 - content/showcase/wework-labs.md
 - content/showcase/pinpoint.md
@@ -83,7 +84,6 @@ pages:
 - content/showcase/nuxtdoc.md
 - content/showcase/rzucokiem.md
 - content/showcase/tomango.md
-- content/showcase/bejamas.md
 - content/showcase/mannah-foundation.md
 - content/showcase/mozilla-release-blog.md
 - content/showcase/foia-gov.md

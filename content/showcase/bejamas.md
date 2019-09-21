@@ -1,6 +1,6 @@
 ---
 title: Bejamas
-date: 2018-04-27 19:00:25 -0400
+date: 2018-04-27T23:00:25.000+00:00
 related_tools:
 - tool/firebase-hosting.md
 - tool/contentful.md
@@ -8,12 +8,12 @@ related_tools:
 website: https://bejamas.io/
 repo: ''
 creator:
-- name:
+- name: ''
   role: Design/Development
-  url:
-  twitter_username:
+  url: ''
+  twitter_username: ''
 images:
-- "/uploads/bejamas-gatsby.png"
+- "/uploads/showcase-bejamas-2019.jpg"
 
 ---
 A Web studio in Poland focused on working on JAMstack-powered websites.
