@@ -9,6 +9,6 @@ repo: ''
 creator: []
 image_path: "/uploads/showcase/"
 images:
-- "/uploads/showcase-orchestrawellington-gatsby-datocms.jpg"
+- "/uploads/showcase-orchwellington-gatsby-datocms.jpg"
 
 ---

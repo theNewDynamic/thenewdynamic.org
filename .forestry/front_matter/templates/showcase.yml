@@ -66,8 +66,8 @@ fields:
   name: images
   label: Images
 pages:
-- content/showcase/bejamas.md
 - content/showcase/orchestra-wellington.md
+- content/showcase/bejamas.md
 - content/showcase/wework-labs.md
 - content/showcase/pinpoint.md
 - content/showcase/komponents-ng.md
