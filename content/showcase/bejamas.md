@@ -1,6 +1,6 @@
 ---
 title: Bejamas
-date: 2018-04-27T23:00:25.000+00:00
+date: 2019-09-02T19:00:25-04:00
 related_tools:
 - tool/firebase-hosting.md
 - tool/contentful.md
