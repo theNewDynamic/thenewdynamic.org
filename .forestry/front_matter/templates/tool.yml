@@ -52,6 +52,7 @@ fields:
     - commerce
     - authentication
     - privacy-data
+    - comments/discussion
   description: Category
 - type: select
   name: license
