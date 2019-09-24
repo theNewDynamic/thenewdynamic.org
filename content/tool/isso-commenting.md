@@ -1,6 +1,6 @@
 ---
 title: Isso
-date: 2017-02-24 00:00:00 +0000
+date: 2017-02-24T00:00:00.000+00:00
 tools:
 - Interaction
 urls:
@@ -16,9 +16,12 @@ tags:
 - comments
 language: Python
 license: Open Source
-
 related_tools: []
 cat_test: ''
+weight: 
+interactions:
+- comments/discussion
+data_model: ''
 
 ---
 **Comments written in Markdown**

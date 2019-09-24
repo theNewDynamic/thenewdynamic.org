@@ -126,6 +126,8 @@ fields:
   config:
     labelField: name
 pages:
+- content/tool/isso-commenting.md
+- content/tool/yoyo.md
 - content/tool/mouthful.md
 - content/tool/disqus.md
 - content/tool/schnack.md
@@ -151,7 +153,6 @@ pages:
 - content/tool/aws-console.md
 - content/tool/azure-storage.md
 - content/tool/html-proofer.md
-- content/tool/yoyo.md
 - content/tool/serverless-form-collection-application.md
 - content/tool/netlify-identity.md
 - content/tool/troglio.md
@@ -365,7 +366,6 @@ pages:
 - content/tool/brunch.md
 - content/tool/meet-hyde.md
 - content/tool/coil-cms.md
-- content/tool/isso-commenting.md
 - content/tool/atom-language-hugo.md
 - content/tool/jekyll-gdrive-plugin.md
 - content/tool/sanity.md
