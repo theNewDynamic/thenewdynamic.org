@@ -1,6 +1,6 @@
 ---
 title: Disqus
-date: 2017-02-24 00:00:00 +0000
+date: 2017-02-24T00:00:00.000+00:00
 tools:
 - Interaction
 urls:
@@ -16,9 +16,12 @@ license: Commercial
 language: ''
 tags:
 - comments
-
 related_tools: []
 cat_test: ''
+weight: 
+interactions:
+- comments/discussion
+data_model: ''
 
 ---
 Disqus offers the best add-on tools for site owners to power discussions, increase engagement, and earn revenue.
