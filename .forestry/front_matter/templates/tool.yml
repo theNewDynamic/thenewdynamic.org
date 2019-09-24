@@ -126,6 +126,7 @@ fields:
   config:
     labelField: name
 pages:
+- content/tool/commento.md
 - content/tool/muut.md
 - content/tool/kwes.md
 - content/tool/learn-jamstack.md
@@ -163,7 +164,6 @@ pages:
 - content/tool/learn-markdown.md
 - content/tool/serverless-cost-calculator.md
 - content/tool/firebase-realtime-database.md
-- content/tool/commento.md
 - content/tool/auth0.md
 - content/tool/basin.md
 - content/tool/formcarry.md
