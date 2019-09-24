@@ -5,7 +5,8 @@ weight:
 description: The complete discussion system for your site
 tools:
 - Interaction
-interactions: []
+interactions:
+- comments/discussion
 license: Commercial
 data_model: ''
 language: ''
