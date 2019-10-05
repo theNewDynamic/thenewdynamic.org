@@ -126,6 +126,7 @@ fields:
   config:
     labelField: name
 pages:
+- content/tool/pubstorm.md
 - content/tool/isso-commenting.md
 - content/tool/yoyo.md
 - content/tool/mouthful.md
@@ -371,7 +372,6 @@ pages:
 - content/tool/sanity.md
 - content/tool/getmesh.md
 - content/tool/codeship.md
-- content/tool/pubstorm.md
 - content/tool/online-compliance-solutions.md
 - content/tool/contentacms.md
 - content/tool/buster.md
