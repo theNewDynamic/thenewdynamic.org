@@ -10,7 +10,7 @@ creator:
 - name: Google Developers
   role: Design/Development
   url: https://developers.google.com/
-  twitter_username: "@googledevs"
+  twitter_username: googledevs
 image_path: "/uploads/showcase/"
 images:
 - "/uploads/web.dev-eleventy.png"
