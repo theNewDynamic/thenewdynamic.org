@@ -47,7 +47,7 @@ fields:
     type: text
     hidden: false
     default: ''
-    description: "@username"
+    description: username
   hidden: false
   default:
   - name: 
