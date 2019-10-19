@@ -28,6 +28,9 @@
       {{ end }}
     {{ end }}
   {{ end }}
-  
+  {{ with getenv "APIK" }}
+    <meta data-test="{{ . }}">
+  {{ end }}
+
 
   
