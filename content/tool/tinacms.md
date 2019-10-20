@@ -22,7 +22,6 @@ urls:
 resources:
 - name: Tina Announcement at JAMstack Conf San Francisco
   url: https://www.youtube.com/watch?v=iPDCmbaEF0Y
-draft: true
 
 ---
 Tina is a **lightweight but powerful toolkit** for creating a content editing interface with JavaScript components. Tina surfaces superpowers for developers to create an intuitive UI for real-time content editing, built directly into their website.
