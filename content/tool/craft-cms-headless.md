@@ -22,8 +22,6 @@ urls:
 resources: []
 
 ---
-Whether you’re building something with Vue, React, Angular, Gatsby, a native app, or even IoT devices, you can use Craft’s intuitive Control Panel to manage your content and structure your application data, and deliver it to your app with an API.
-
 ### Built-in GraphQL API
 
 Craft features a built-in [GraphQL API](https://docs.craftcms.com/v3/graphql.html) for your content. You can even define what’s available publicly versus what should be protected behind a private token.
