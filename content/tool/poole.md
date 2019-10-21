@@ -1,7 +1,7 @@
 ---
 title: Poole
-date: 2015-05-16 19:00:00 +0000
-posted_date: 2015-05-16 19:00:00 +0000
+date: 2015-05-16T19:00:00.000+00:00
+posted_date: '2015-05-16T19:00:00.000+00:00'
 featured: false
 slug: poole
 tools:
@@ -17,13 +17,9 @@ related_tools:
 - tool/jekyll.md
 resources: []
 license: Open Source
-
 language: ''
 cat_test: ''
+draft: true
 
 ---
 Poole is a fully furnished Jekyll setup, designed to be a consistent and flexible starting point for Jekyll projects, including themes.
-
-
-
-

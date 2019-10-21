@@ -135,6 +135,7 @@ pages:
 - content/tool/tinacms.md
 - content/tool/hyde.md
 - content/tool/jamstack-themes.md
+- content/tool/poole.md
 - content/tool/hugo-themes.md
 - content/tool/appolo.md
 - content/tool/free-jekyll-website-template-for-nonprofits.md
@@ -190,7 +191,6 @@ pages:
 - content/tool/nikola.md
 - content/tool/octopress.md
 - content/tool/pixyll-jekyll-theme.md
-- content/tool/poole.md
 - content/tool/prismic.md
 - content/tool/proteus-static-site-starter-kits.md
 - content/tool/react-static.md
