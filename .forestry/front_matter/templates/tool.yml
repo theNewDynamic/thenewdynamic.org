@@ -133,6 +133,7 @@ pages:
 - content/tool/kwes.md
 - content/tool/craft-cms-headless.md
 - content/tool/tinacms.md
+- content/tool/hyde.md
 - content/tool/jamstack-themes.md
 - content/tool/hugo-themes.md
 - content/tool/appolo.md
@@ -172,7 +173,6 @@ pages:
 - content/tool/headless.md
 - content/tool/hexo.md
 - content/tool/Hook-Forms.md
-- content/tool/hyde.md
 - content/tool/imgix.md
 - content/tool/jekyll.md
 - content/tool/jekyll-admin.md
