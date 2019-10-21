@@ -137,6 +137,7 @@ pages:
 - content/tool/hugo-themes.md
 - content/tool/appolo.md
 - content/tool/free-jekyll-website-template-for-nonprofits.md
+- content/tool/jekyll-lambda.md
 - content/tool/muut.md
 - content/tool/graphcms.md
 - content/tool/abecms.md
@@ -313,7 +314,6 @@ pages:
 - content/tool/jekyll-cheatsheat.md
 - content/tool/firebase-functions.md
 - content/tool/bitballoon.md
-- content/tool/jekyll-lambda.md
 - content/tool/full-calendar.md
 - content/tool/cosmicjs.md
 - content/tool/harpoon.md

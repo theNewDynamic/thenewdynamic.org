@@ -1,7 +1,7 @@
 ---
 title: Jekyll-lambda
-date: 2015-11-12 02:04:00 +0000
-posted_date: 2015-11-12 02:04:00 +0000
+date: 2015-11-12T02:04:00.000+00:00
+posted_date: '2015-11-12T02:04:00.000+00:00'
 featured: false
 slug: jekyll-lambda
 related_tool: jekyll
@@ -16,7 +16,6 @@ related_tools:
 - tool/jekyll.md
 license: Open Source
 description: An ascetic theme for Jekyll.
-
 language: ''
 tags: []
 resources: []
@@ -24,7 +23,3 @@ cat_test: ''
 
 ---
 An ascetic theme for Jekyll.
-
-
-
-
