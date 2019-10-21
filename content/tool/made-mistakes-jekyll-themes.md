@@ -1,7 +1,7 @@
 ---
 title: Made Mistakes Jekyll Themes
-date: 2015-11-12 19:23:00 +0000
-posted_date: 2015-11-12 19:23:00 +0000
+date: 2015-11-12T19:23:00.000+00:00
+posted_date: '2015-11-12T19:23:00.000+00:00'
 featured: false
 slug: made-mistakes-jekyll-themes
 tools:
@@ -15,7 +15,6 @@ related_tools:
 - tool/jekyll.md
 license: Open Source
 description: Premium Jekyll themes developed by Michael Rose
-
 language: ''
 tags: []
 resources: []
