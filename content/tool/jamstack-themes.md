@@ -5,7 +5,7 @@ weight:
 description: An extensive list of community themes filterable by static site generator
   and CMS support.
 tools:
-- Helper
+- Theme
 interactions: []
 license: Open Source
 data_model: ''
