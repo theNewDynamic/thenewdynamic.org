@@ -1,7 +1,7 @@
 ---
 title: Hugo Themes
-date: 2015-11-13 02:58:00 +0000
-posted_date: 2015-11-13 02:58:00 +0000
+date: 2015-11-13T02:58:00.000+00:00
+posted_date: '2015-11-13T02:58:00.000+00:00'
 featured: false
 slug: hugo-themes
 tools:
@@ -15,7 +15,6 @@ license: Open Source
 related_tools:
 - tool/hugo.md
 description: Official Hugo themes directory
-
 language: ''
 tags: []
 resources: []
@@ -23,7 +22,3 @@ cat_test: ''
 
 ---
 Official Hugo theme directory
-
-
-
-

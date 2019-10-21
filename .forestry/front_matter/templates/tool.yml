@@ -134,6 +134,7 @@ pages:
 - content/tool/craft-cms-headless.md
 - content/tool/tinacms.md
 - content/tool/jamstack-themes.md
+- content/tool/hugo-themes.md
 - content/tool/appolo.md
 - content/tool/free-jekyll-website-template-for-nonprofits.md
 - content/tool/muut.md
@@ -170,7 +171,6 @@ pages:
 - content/tool/headless.md
 - content/tool/hexo.md
 - content/tool/Hook-Forms.md
-- content/tool/hugo-themes.md
 - content/tool/hyde.md
 - content/tool/imgix.md
 - content/tool/jekyll.md
