@@ -135,6 +135,7 @@ pages:
 - content/tool/tinacms.md
 - content/tool/jamstack-themes.md
 - content/tool/appolo.md
+- content/tool/free-jekyll-website-template-for-nonprofits.md
 - content/tool/muut.md
 - content/tool/graphcms.md
 - content/tool/abecms.md
@@ -158,7 +159,6 @@ pages:
 - content/tool/flatmarket.md
 - content/tool/form-keep.md
 - content/tool/formspree.md
-- content/tool/free-jekyll-website-template-for-nonprofits.md
 - content/tool/fridge-cms.md
 - content/tool/fusejs-search.md
 - content/tool/github-pages.md
