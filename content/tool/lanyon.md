@@ -1,7 +1,7 @@
 ---
 title: Lanyon
-date: 2015-11-12 02:09:00 +0000
-posted_date: 2015-11-12 02:09:00 +0000
+date: 2015-11-12T02:09:00.000+00:00
+posted_date: '2015-11-12T02:09:00.000+00:00'
 featured: false
 slug: lanyon
 tools:
@@ -15,15 +15,11 @@ license: Open Source
 related_tools:
 - tool/jekyll.md
 description: A content-first, sliding sidebar theme for Jekyll
-
 language: ''
 tags: []
 resources: []
 cat_test: ''
+draft: true
 
 ---
 An unassuming Jekyll theme that places content first by tucking away navigation in a drawer.
-
-
-
-

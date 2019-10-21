@@ -141,6 +141,7 @@ pages:
 - content/tool/free-jekyll-website-template-for-nonprofits.md
 - content/tool/jekyll-lambda.md
 - content/tool/made-mistakes-jekyll-themes.md
+- content/tool/lanyon.md
 - content/tool/muut.md
 - content/tool/graphcms.md
 - content/tool/abecms.md
@@ -181,7 +182,6 @@ pages:
 - content/tool/jekyll-search-with-json.md
 - content/tool/kenticocloud.md
 - content/tool/knownly.md
-- content/tool/lanyon.md
 - content/tool/lunrjs.md
 - content/tool/middleman.md
 - content/tool/middleman-blog-editor.md
