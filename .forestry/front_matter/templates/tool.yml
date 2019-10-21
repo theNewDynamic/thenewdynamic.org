@@ -134,6 +134,7 @@ pages:
 - content/tool/craft-cms-headless.md
 - content/tool/tinacms.md
 - content/tool/jamstack-themes.md
+- content/tool/appolo.md
 - content/tool/muut.md
 - content/tool/graphcms.md
 - content/tool/abecms.md
@@ -141,7 +142,6 @@ pages:
 - content/tool/alembic-theme.md
 - content/tool/algolia.md
 - content/tool/appernetic.md
-- content/tool/appolo.md
 - content/tool/assemble.md
 - content/tool/bowtie.md
 - content/tool/cloudinary.md
