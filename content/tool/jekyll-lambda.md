@@ -20,6 +20,10 @@ language: ''
 tags: []
 resources: []
 cat_test: ''
+weight: 
+interactions: []
+data_model: ''
+draft: true
 
 ---
 An ascetic theme for Jekyll.
