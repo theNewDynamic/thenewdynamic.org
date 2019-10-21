@@ -19,6 +19,10 @@ language: ''
 tags: []
 resources: []
 cat_test: ''
+weight: 
+interactions: []
+data_model: ''
+draft: true
 
 ---
 Michael Rose develops carefully crafted Jekyll themes, compatible with GitHub Pages:
