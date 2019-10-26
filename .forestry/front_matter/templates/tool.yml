@@ -275,6 +275,7 @@ pages:
 - content/tool/jekyll-themes.md
 - content/tool/takeshape.md
 - content/tool/bonsai.md
+- content/tool/uploadcare.md
 - content/tool/twill.md
 - content/tool/google-cloud-storage.md
 - content/tool/parceljs.md
