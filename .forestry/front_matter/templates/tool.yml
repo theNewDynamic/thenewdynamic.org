@@ -180,7 +180,6 @@ pages:
 - content/tool/jekyll.md
 - content/tool/jekyll-admin.md
 - content/tool/jekyll-search-with-json.md
-- content/tool/kenticocloud.md
 - content/tool/knownly.md
 - content/tool/lunrjs.md
 - content/tool/middleman.md
@@ -276,6 +275,7 @@ pages:
 - content/tool/takeshape.md
 - content/tool/bonsai.md
 - content/tool/uploadcare.md
+- content/tool/kenticocloud.md
 - content/tool/twill.md
 - content/tool/google-cloud-storage.md
 - content/tool/parceljs.md
