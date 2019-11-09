@@ -7,7 +7,6 @@ tool: []
 custom: []
 images:
 - "/uploads/tnd-logo-card.png"
-draft: true
 
 ---
 This week began with the unexpected horror: An outage on JAMstack sites! Netlify sites were down for the better part of the morning and afternoon on Monday. This was a big deal because I don't remember it happening before. I mean _This is what we talk about when we talk about JAMstack!_
