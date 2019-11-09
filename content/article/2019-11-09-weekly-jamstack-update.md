@@ -2,7 +2,7 @@
 title: 'JAMstack Update: November 9, 2019'
 date: 2019-11-09T09:30:00-05:00
 description: Winter is Coming
-link: ''
+link: https://www.getrevue.co/profile/thenewdynamic/issues/build-better-faster-websites-the-new-dynamic-newsletter-11-9-winter-is-coming-209593
 tool: []
 custom: []
 images:
