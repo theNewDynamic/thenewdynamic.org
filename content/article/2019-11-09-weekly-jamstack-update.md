@@ -17,4 +17,4 @@ Fortunately I had data on my side. I was able to show our clients through our Pi
 
 So what started as a "Terrible, Horrible, No Good, Very Bad Day" ended up as an opportunity to learn and talk about why we use JAMstack in the first place.
 
-Join our [Slack](https://slack.tnd.dev/) to continue the conversation. See all the links and showcase items in our [weekly newsletter](): 
+Join our [Slack](https://slack.tnd.dev/) to continue the conversation. See all the links and showcase items in our [weekly newsletter](https://www.getrevue.co/profile/thenewdynamic/issues/build-better-faster-websites-the-new-dynamic-newsletter-11-9-winter-is-coming-209593):
