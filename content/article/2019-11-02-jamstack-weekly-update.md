@@ -5,7 +5,8 @@ description: The Fall Back Issue
 link: https://www.getrevue.co/profile/thenewdynamic/issues/build-better-faster-websites-the-new-dynamic-newsletter-11-2-the-fall-back-issue-208165
 tool: []
 custom: []
-images: []
+images:
+- "/uploads/tnd-logo-card.png"
 
 ---
 I wrote a blog post in 2014 called “Want to Speed up Your Website? Skip the database.” Its outdated now (most of the tools mentioned no longer exist), but the promise of the JAMstack remains: performance, flexibility and simplicity. These are gifts we get for choosing this methodology, but what we do with them is up to us, as Artem Denysov concludes in his article “A Look at JAMstack’s Speed, By the Numbers.”
