@@ -126,6 +126,7 @@ fields:
   config:
     labelField: name
 pages:
+- content/tool/storyblok-1.md
 - content/tool/kenticocloud.md
 - content/tool/uploadcare.md
 - content/tool/stackbit.md
