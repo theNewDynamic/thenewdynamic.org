@@ -19,7 +19,7 @@ resources:
   url: https://github.com/cyrilwanner/next-serverless
 description: Next.js is a minimalistic framework for server-rendered React applications
 data_model: ''
-language: React
+language: Javascript
 tags:
 - React
 - SSR
