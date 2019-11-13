@@ -20,6 +20,5 @@ urls:
   twitter: ''
   other: ''
 resources: []
-draft: true
 
 ---
