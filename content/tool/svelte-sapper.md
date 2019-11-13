@@ -22,3 +22,4 @@ urls:
 resources: []
 
 ---
+Introductory blog post: ["Sapper: Towards the ideal web app framework"](https://svelte.dev/blog/sapper-towards-the-ideal-web-app-framework)
