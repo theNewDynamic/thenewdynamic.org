@@ -2,7 +2,7 @@
 date: 2019-11-12T20:08:54-05:00
 title: RollupJS
 weight: 
-description: ''
+description: Next-generation ES module bundler
 tools:
 - Bundler/Task Runner
 interactions: []
