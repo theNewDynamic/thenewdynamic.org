@@ -126,6 +126,7 @@ fields:
   config:
     labelField: name
 pages:
+- content/tool/docusaurus.md
 - content/tool/gatsby.md
 - content/tool/next.js.md
 - content/tool/brunch-1.md
@@ -253,7 +254,6 @@ pages:
 - content/tool/federalist.md
 - content/tool/drupan.md
 - content/tool/drive-cms.md
-- content/tool/docusaurus.md
 - content/tool/directus.md
 - content/tool/contentful.md
 - content/tool/coisas.md
