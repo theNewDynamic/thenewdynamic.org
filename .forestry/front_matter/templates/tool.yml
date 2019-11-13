@@ -126,8 +126,8 @@ fields:
   config:
     labelField: name
 pages:
-- content/tool/cloudflare-workers-sites.md
 - content/tool/cloudflare-workers.md
+- content/tool/cloudflare-workers-sites.md
 - content/tool/gatsby.md
 - content/tool/docusaurus.md
 - content/tool/next.js.md

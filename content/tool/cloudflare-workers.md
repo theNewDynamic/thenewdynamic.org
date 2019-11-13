@@ -11,6 +11,7 @@ license: Commercial
 data_model: ''
 language: ''
 related_tools:
+- tool/cloudflare-workers-sites.md
 - tool/cloudflare.md
 tags: []
 urls:
