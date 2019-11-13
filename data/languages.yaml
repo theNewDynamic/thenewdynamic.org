@@ -3,8 +3,6 @@ languages:
 - Javascript
 - Go
 - Node
-- React
-- VueJS
 - Ruby
 - Rust
 - Python
