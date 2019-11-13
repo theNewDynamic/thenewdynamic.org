@@ -13,7 +13,7 @@ urls:
   twitter: https://twitter.com/gatsbyjs
   other: ''
 license: Commercial
-language: React
+language: Javascript
 description: Blazing-fast static site generator for React
 headless-cms: ''
 related_tools:
