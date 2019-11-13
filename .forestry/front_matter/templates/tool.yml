@@ -126,6 +126,7 @@ fields:
   config:
     labelField: name
 pages:
+- content/tool/gatsby.md
 - content/tool/next.js.md
 - content/tool/brunch-1.md
 - content/tool/rollupjs.md
@@ -301,7 +302,6 @@ pages:
 - content/tool/harp.md
 - content/tool/docpad.md
 - content/tool/vuepress.md
-- content/tool/gatsby.md
 - content/tool/ghost.md
 - content/tool/phenomic.md
 - content/tool/s3deploy.md
