@@ -13,9 +13,10 @@ language: ''
 related_tools:
 - tool/cloudflare-workers.md
 - tool/cloudflare.md
-tags: []
+tags:
+- serverless
 urls:
-  website: ''
+  website: https://workers.cloudflare.com/sites
   github: ''
   twitter: ''
   other: ''
