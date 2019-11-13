@@ -1,6 +1,6 @@
 ---
 title: Next.js
-date: 2018-03-24 08:52:50 +0000
+date: 2018-03-24T08:52:50.000+00:00
 tools:
 - Static Site Generator
 license: Open Source
@@ -19,12 +19,13 @@ resources:
   url: https://github.com/cyrilwanner/next-serverless
 description: Next.js is a minimalistic framework for server-rendered React applications
 data_model: ''
-language: "Javascript"
+language: React
 tags:
 - React
 - SSR
 cat_test: ''
 weight: 30
+interactions: []
 
 ---
 Next.js is a minimalistic framework for server-rendered React applications, which supports exporting as a standalone static app without any Node.js server. The export app supports almost every feature of Next.js including dynamic urls, prefetching, preloading and dynamic imports.

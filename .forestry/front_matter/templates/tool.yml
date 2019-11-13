@@ -126,6 +126,7 @@ fields:
   config:
     labelField: name
 pages:
+- content/tool/next.js.md
 - content/tool/brunch-1.md
 - content/tool/rollupjs.md
 - content/tool/kenticocloud.md
@@ -187,7 +188,6 @@ pages:
 - content/tool/basin.md
 - content/tool/formcarry.md
 - content/tool/scrivito-cms.md
-- content/tool/next.js.md
 - content/tool/superdesk.md
 - content/tool/jekyll-search-js.md
 - content/tool/mozaik.md
