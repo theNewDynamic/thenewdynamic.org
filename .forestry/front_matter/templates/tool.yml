@@ -126,6 +126,7 @@ fields:
   config:
     labelField: name
 pages:
+- content/tool/cloudflare.md
 - content/tool/cloudflare-workers.md
 - content/tool/cloudflare-workers-sites.md
 - content/tool/gatsby.md
@@ -284,7 +285,6 @@ pages:
 - content/tool/the-service-worker-cookbook.md
 - content/tool/learn-toml.md
 - content/tool/poolappcom.md
-- content/tool/cloudflare.md
 - content/tool/firebase-authentication.md
 - content/tool/flamelink.md
 - content/tool/pilon.md
