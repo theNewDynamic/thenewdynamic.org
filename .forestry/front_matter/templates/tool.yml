@@ -126,8 +126,8 @@ fields:
   config:
     labelField: name
 pages:
-- content/tool/next.js.md
 - content/tool/docusaurus.md
+- content/tool/next.js.md
 - content/tool/gatsby.md
 - content/tool/brunch-1.md
 - content/tool/rollupjs.md
