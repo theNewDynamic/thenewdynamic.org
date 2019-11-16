@@ -45,6 +45,7 @@ fields:
   name: images
   label: Images
 pages:
+- content/article/2019-11-16-jamstack-update.md
 - content/article/2019-11-02-jamstack-weekly-update.md
 - content/article/2019-11-09-weekly-jamstack-update.md
 - content/article/algolia-price-changes.md
