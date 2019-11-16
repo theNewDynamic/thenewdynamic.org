@@ -1,12 +1,12 @@
 ---
-title: 2019-11-16-Jamstack update
-date: 
-description: ''
+title: 'JAMstack Update: November 16th, 2019'
+date: 2019-11-16T09:30:00-05:00
+description: Whiter JAMstack
 link: ''
 tool: []
 custom: []
-images: []
-draft: true
+images:
+- "/uploads/tnd-logo-card.png"
 
 ---
 This week's big event was Gatsby's announcement of their multi-faceted Cloud product (see Kyle's [post](https://www.gatsbyjs.org/blog/2019-11-14-announcing-gatsby-cloud/)). It's notably difficult to build businesses around open source software, but as we see so much adoption of Gatsby, not just as a tool in the JAMstack space, but as an entry point into React, it seems to me that Gatsby Cloud will be a natural for organizations wanting to take advantage of pre-rendering their sites. Think Acquia or Automattic, but for JAMstack (more on this in the Software Engineering Daily podcast linked to below).
