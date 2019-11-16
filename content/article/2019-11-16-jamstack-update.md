@@ -1,7 +1,7 @@
 ---
 title: 'JAMstack Update: November 16th, 2019'
 date: 2019-11-16T09:30:00-05:00
-description: Whiter JAMstack
+description: Whiter JAMstack?
 link: ''
 tool: []
 custom: []
