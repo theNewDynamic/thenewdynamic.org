@@ -126,6 +126,7 @@ fields:
   config:
     labelField: name
 pages:
+- content/tool/osana-cookieconsent.md
 - content/tool/svelte-sapper.md
 - content/tool/cloudfront.md
 - content/tool/cloudflare-workers-sites.md
