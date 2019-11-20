@@ -126,13 +126,13 @@ fields:
   config:
     labelField: name
 pages:
+- content/tool/gatsby.md
 - content/tool/osana-cookieconsent.md
 - content/tool/svelte-sapper.md
 - content/tool/cloudfront.md
 - content/tool/cloudflare-workers-sites.md
 - content/tool/cloudflare.md
 - content/tool/cloudflare-workers.md
-- content/tool/gatsby.md
 - content/tool/docusaurus.md
 - content/tool/next.js.md
 - content/tool/brunch-1.md

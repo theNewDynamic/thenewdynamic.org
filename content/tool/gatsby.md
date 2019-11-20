@@ -5,7 +5,7 @@ posted_date: '2015-10-02T21:18:00.000+00:00'
 featured: true
 slug: gatsby
 tools:
-- Hosting/Deployment
+- Hosting-Deployment
 - Static Site Generator
 urls:
   website: https://www.gatsbyjs.org/
