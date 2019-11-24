@@ -66,6 +66,7 @@ fields:
   name: images
   label: Images
 pages:
+- content/showcase/go-dev.md
 - content/showcase/monetary.md
 - content/showcase/web-dev.md
 - content/showcase/orchestra-wellington.md
