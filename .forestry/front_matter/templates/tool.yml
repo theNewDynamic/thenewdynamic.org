@@ -126,6 +126,7 @@ fields:
   config:
     labelField: name
 pages:
+- content/tool/eleventy.md
 - content/tool/jekyll.md
 - content/tool/statickit.md
 - content/tool/gatsby.md
@@ -204,7 +205,6 @@ pages:
 - content/tool/jigsaw.md
 - content/tool/turndown.md
 - content/tool/spike.md
-- content/tool/eleventy.md
 - content/tool/daptin.md
 - content/tool/perch-runway.md
 - content/tool/webpack.md
