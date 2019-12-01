@@ -23,6 +23,6 @@ data_model: ''
 tags: []
 
 ---
-Eleventy is a simple static site generator betting on JavaScript. Eleventy is designed with flexibility in mind and supports meny templating engines including the popular Liquid used by Jekyll, and Nunjucks developped by Mozilla.
+Eleventy is a simple static site generator betting on JavaScript. Eleventy is designed with flexibility in mind and supports many templating engines including the popular Liquid used by Jekyll, and Nunjucks developped by Mozilla.
 
 [Read ELeventy introduction by Zach Leat](https://www.zachleat.com/web/introducing-eleventy/)
