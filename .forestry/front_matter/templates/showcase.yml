@@ -66,6 +66,7 @@ fields:
   name: images
   label: Images
 pages:
+- content/showcase/pocketsmith-com.md
 - content/showcase/mikebloomberg-com.md
 - content/showcase/go-dev.md
 - content/showcase/monetary.md
