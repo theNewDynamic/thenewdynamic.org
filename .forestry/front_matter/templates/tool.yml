@@ -126,6 +126,7 @@ fields:
   config:
     labelField: name
 pages:
+- content/tool/jekyll.md
 - content/tool/statickit.md
 - content/tool/gatsby.md
 - content/tool/osana-cookieconsent.md
@@ -241,7 +242,6 @@ pages:
 - content/tool/knownly.md
 - content/tool/jekyll-search-with-json.md
 - content/tool/jekyll-admin.md
-- content/tool/jekyll.md
 - content/tool/imgix.md
 - content/tool/Hook-Forms.md
 - content/tool/hexo.md

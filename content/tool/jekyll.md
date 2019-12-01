@@ -1,11 +1,11 @@
 ---
 title: Jekyll
-date: 2015-05-02 01:20:00 +0000
+date: 2015-05-02T01:20:00.000+00:00
 featured: true
 tools:
-- "Static Site Generator"
+- Static Site Generator
 urls:
-  website: http://jekyllrb.com
+  website: https://jekyllrb.com
   github: https://github.com/jekyll/jekyll
   twitter: https://twitter.com/jekyllrb
   other: https://opencollective.com/jekyll
@@ -36,6 +36,8 @@ related_tools: []
 tags: []
 cat_test: ''
 weight: 1
+interactions: []
+data_model: ''
 
 ---
-Jekyll is the most popular static site generator, and among the oldest. It enjoys an avid community and a dedicated core team.
+Jekyll is one of the most popular static site generators, and among the first ones. It still enjoys a large community and is fairly accessible. Jekyll powers [GitHub Pages](https://pages.github.com/) since 2009 and has contributed significantly to the new dynamic around static site generators.
