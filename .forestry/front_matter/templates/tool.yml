@@ -311,7 +311,6 @@ pages:
 - content/tool/zola.md
 - content/tool/harp.md
 - content/tool/docpad.md
-- content/tool/vuepress.md
 - content/tool/ghost.md
 - content/tool/phenomic.md
 - content/tool/s3deploy.md
