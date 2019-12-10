@@ -126,6 +126,7 @@ fields:
   config:
     labelField: name
 pages:
+- content/tool/docusaurus.md
 - content/tool/hugo.md
 - content/tool/orchid.md
 - content/tool/chisel-cms.md
@@ -142,7 +143,6 @@ pages:
 - content/tool/cloudflare-workers-sites.md
 - content/tool/cloudflare.md
 - content/tool/cloudflare-workers.md
-- content/tool/docusaurus.md
 - content/tool/next.js.md
 - content/tool/brunch-1.md
 - content/tool/rollupjs.md
