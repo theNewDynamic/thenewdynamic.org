@@ -126,6 +126,7 @@ fields:
   config:
     labelField: name
 pages:
+- content/tool/orchid.md
 - content/tool/chisel-cms.md
 - content/tool/segment-consent-manager.md
 - content/tool/metomic.md
@@ -188,7 +189,6 @@ pages:
 - content/tool/serverless-form-collection-application.md
 - content/tool/netlify-identity.md
 - content/tool/troglio.md
-- content/tool/orchid.md
 - content/tool/quintype.md
 - content/tool/workbox.md
 - content/tool/indemandly.md
