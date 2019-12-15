@@ -2,6 +2,7 @@
 title: Rye & Beyond
 date: 2019-12-15T11:54:07-05:00
 related_tools:
+- tool/netlify-cms.md
 - tool/gridsome.md
 website: https://ryeandbeyondcottages.co.uk/
 repo: ''
