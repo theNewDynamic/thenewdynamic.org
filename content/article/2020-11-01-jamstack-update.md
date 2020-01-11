@@ -2,12 +2,11 @@
 title: JAMstack Update 2020-01-11
 date: 2020-01-11T00:00:00-05:00
 description: The Year of Perfect Vision
-link: ''
+link: https://www.getrevue.co/profile/thenewdynamic/issues/build-better-faster-websites-the-new-dynamic-newsletter-1-11-2020-the-year-of-perfect-vision-219993
 tool: []
 custom: []
 images:
 - "/uploads/JAMstack_NYC-EVENT-JAN-14-20.jpg"
-draft: true
 
 ---
 2020 is beginning with an identity crisis. This week, the folks at [JAMstack.org](https://jamstack.org/) changed "JAM" to "jam" throughout the site, upsetting many (well a small many, including myself!). Maybe it's a good change. I think the JAM in JAMstack leads newcomers to believe that Javascript is the secret ingredient in JAMstack, when in fact, [there is no secret ingredient](https://youtu.be/8ucCF2_3TsE). JAMstack doesn't care if you use Javascript or APIs, or if you're building a simple site or complex; it only cares that you're pre-rendering your site and rendering it on a CDN. That alone solves so many problems (e.g. cost, security, performance, latency).
