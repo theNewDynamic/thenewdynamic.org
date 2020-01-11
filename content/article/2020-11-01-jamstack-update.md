@@ -1,5 +1,5 @@
 ---
-title: JAMstack Update 2020-01-11
+title: JAMstack Update January 11, 2020
 date: 2020-01-11T00:00:00-05:00
 description: The Year of Perfect Vision
 link: https://www.getrevue.co/profile/thenewdynamic/issues/build-better-faster-websites-the-new-dynamic-newsletter-1-11-2020-the-year-of-perfect-vision-219993
