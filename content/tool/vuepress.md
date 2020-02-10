@@ -10,7 +10,7 @@ urls:
   other: ''
 description: Minimalistic docs generator with Vue component based layout system
 tools:
-- static-site-generator
+- Static Site Generator
 related_tools: []
 tags:
 - great-for-documentation
