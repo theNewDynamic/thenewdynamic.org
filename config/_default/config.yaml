@@ -3,7 +3,7 @@ Paginate: 300
 baseURL: 'https://www.thenewdynamic.org'
 disableAliases: false
 enableRobotsTXT: true
-googleAnalytics: UA-30899180-6
+#googleAnalytics: UA-30899180-6
 languageCode: en-us
 preserveTaxonomyNames: true
 rssLimit: 20
