@@ -68,3 +68,6 @@ taxonomies:
   tag: tags
   tools: tools
   interaction: interactions
+module:
+  imports:
+    - path: github.com/theNewDynamic/tnd-assets-js/fathom-analytics

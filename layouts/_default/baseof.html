@@ -24,5 +24,6 @@
         </div>
       </main>      
     </div>  
+    {{ partial "scripts/fathom-analytics.html" (dict "fathom_id" site.Params.fathom_id) }}            
   </body>
 </html>
