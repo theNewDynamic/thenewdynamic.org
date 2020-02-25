@@ -37,6 +37,7 @@ fields:
     - Serverless
     - Static Site Generator
     - Theme
+    - Course
   description: Category
 - type: list
   label: Interactions
