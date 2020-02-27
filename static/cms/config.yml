@@ -4,161 +4,16 @@ backend:
 media_folder: static/images
 public_folder: /images
 publish_mode: editorial_workflow
-site_url: https://www.thenewdynamic.org/
+site_url: "https://www.thenewdynamic.org/"
 show_preview_links: true
 collections:
-  - name: author
-    label: Author
-    files:
-      - name: author
-        label: Author
-        file: content/authors/bud-parr/_index.md
-        fields:
-          - widget: string
-            name: title
-            label: Name
-            required: false
-          - widget: markdown
-            name: bio
-            label: Bio
-            required: false
-          - widget: image
-            name: avatar
-            label: Avatar
-            required: false
-          - widget: list
-            name: links
-            label: Social Links
-            required: false
-            hint: A list of social links displayed in the footer.
-            fields:
-              - widget: hidden
-                name: type
-                label: Type
-                required: false
-              - widget: string
-                name: title
-                label: Title
-                required: true
-              - widget: string
-                name: icon
-                label: Icon
-                required: true
-                hint: Font Awesome icon class name.
-              - widget: string
-                name: url
-                label: URL
-                required: true
-  - name: page
-    label: Pages
-    folder: content/
+  - name: tool
+    label: Tools
+    folder: content/tool
     create: true
     extension: md
     slug: "{{slug}}"
-    fields:
-      - widget: string
-        name: title
-        label: Title
-        required: true
-        hint: The title of the page.
-      - widget: string
-        name: subtitle
-        label: Subtitle
-        required: false
-        hint: The text shown just below the page title.
-      - widget: image
-        name: img_path
-        label: Image
-        required: false
-        hint: The image shown below the page title and subtitle.
-      - widget: object
-        name: menu
-        label: Page Menus
-        required: false
-        hint: Which menus should this page show up in
-        fields:
-          - widget: object
-            name: main
-            label: Main menu item
-            required: false
-            hint: Main menu item for this page
-            fields:
-              - widget: string
-                name: name
-                label: Title
-                required: false
-                hint: The title of the menu item
-              - widget: number
-                name: weight
-                label: Weight
-                required: false
-                hint: Position for sorting
-                valueType: int
-              - widget: string
-                name: identifier
-                label: Identifier
-                required: false
-                hint: >-
-                  The identifier of a menu item could be used as a parent menu
-                  of another menu item
-              - widget: string
-                name: parent
-                label: Parent Menu Identifier
-                required: false
-                hint: >-
-                  The parent of an entry should be the identifier of another
-                  entry.
-          - widget: object
-            name: layouts
-            label: Layouts menu item
-            required: false
-            hint: Layouts menu item for this page
-            fields:
-              - widget: string
-                name: name
-                label: Title
-                required: false
-                hint: The title of the menu item
-              - widget: number
-                name: weight
-                label: Weight
-                required: false
-                hint: Position for sorting
-                valueType: int
-              - widget: string
-                name: identifier
-                label: Identifier
-                required: false
-                hint: >-
-                  The identifier of a menu item could be used as a parent menu
-                  of another menu item
-              - widget: string
-                name: parent
-                label: Parent Menu Identifier
-                required: false
-                hint: >-
-                  The parent of an entry should be the identifier of another
-                  entry.
-      - widget: hidden
-        name: layout
-        label: Layout
-        required: true
-        default: page
-      - widget: markdown
-        name: body
-        label: Content
-        required: false
-        hint: Page content
-    filter:
-      field: layout
-      value: page
-  - name: article
-    label: Articles
-    folder: content/article
-    create: true
-    extension: md
-    slug: "{{slug}}"
-    preview_path: article/{{slug}}
+    preview_path: "tool/{{slug}}"
     editor:
       preview: true
     fields:
@@ -168,29 +23,27 @@ collections:
         required: true
         hint: The title of the post
       - widget: string
-        name: subtitle
-        label: Subtitle
+        name: description
+        label: Description
         required: false
-        hint: The text shown just below the post title.
+        hint: Keep it brief.
       - widget: date
         name: date
         label: Date
         required: true
-      - widget: image
-        name: hero
-        label: Hero Image
-        required: false
-        hint: The image shown in the blog feed.
-      - widget: string
-        name: excerpt
-        label: Excerpt
-        required: false
-        hint: The excerpt of the post displayed in the blog feed.
-      - widget: hidden
-        name: layout
-        label: Layout
-        required: true
-        default: post
+      - label: "Tool Type"
+        name: "tools"
+        widget: "select"
+        options:
+          - Bundler/Task Runner
+          - Content Management
+          - Helper
+          - Hosting-Deployment
+          - Interaction
+          - Serverless
+          - Static Site Generator
+          - Theme
+          - Course
       - widget: markdown
         name: body
         label: Content
