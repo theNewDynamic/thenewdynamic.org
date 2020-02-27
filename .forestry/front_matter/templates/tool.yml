@@ -246,6 +246,7 @@ pages:
 - content/tool/imagekit.md
 - content/tool/imgix.md
 - content/tool/indemandly.md
+- content/tool/introduction-to-the-jamstack.md
 - content/tool/isso-commenting.md
 - content/tool/iubenda.md
 - content/tool/jamstack-themes.md
@@ -388,6 +389,7 @@ pages:
 - content/tool/vssue.md
 - content/tool/webiny.md
 - content/tool/webpack.md
+- content/tool/websolr.md
 - content/tool/webtask.md
 - content/tool/wintersmith.md
 - content/tool/word-to-markdown-converter.md
