@@ -1,12 +1,14 @@
 backend:
   name: git-gateway
   branch: master
+  squash_merges: true
+publish_mode: editorial_workflow
+show_preview_links: true
 local_backend: true
 media_folder: static
 public_folder: /images
-publish_mode: editorial_workflow
 site_url: "https://www.thenewdynamic.org/"
-show_preview_links: true
+
 collections:
   - name: tool
     label: Tools
@@ -79,9 +81,9 @@ collections:
       # - widget: relationship
       #   name: language
       #   label: Language
-      #   collection: data
-      #   searchFields: ["language.languages"]
-      #   valueField: "language.languages"
+      #   collection: data.languages
+      #   searchFields: ["languages"]
+      #   valueField: "languages"
 
       - widget: markdown
         name: body
