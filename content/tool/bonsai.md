@@ -1,6 +1,7 @@
 ---
 title: Bonsai
-date: 2018-11-10 13:13:48 +0000
+#date: 2018-11-10 13:13:48 +0000
+date: 2018-11-10T05:00:00.000Z
 weight: ''
 description: Integrate powerful search functionality into your applications, without
   ever having to set up or manage servers.
