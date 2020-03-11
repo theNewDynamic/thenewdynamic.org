@@ -118,16 +118,16 @@ collections:
           - ".Net"
           - Java
 
-      - label: Related Tools
-        widget: relation
-        required: false
-        name: related_tools
-        hint: For non-static site generators to relate to a specific SSG
-        collection: tool
-        multiple: true
-        searchFields: ["title"]
-        valueField: title
-        displayFields: ["title"]
+      # - label: Related Tools
+      #   widget: relation
+      #   required: false
+      #   name: related_tools
+      #   hint: For non-static site generators to relate to a specific SSG
+      #   collection: tool
+      #   multiple: true
+      #   searchFields: ["title"]
+      #   valueField: title
+      #   displayFields: ["title"]
 
       - widget: markdown
         name: body
