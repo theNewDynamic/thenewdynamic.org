@@ -5,11 +5,31 @@ backend:
 publish_mode: editorial_workflow
 show_preview_links: true
 local_backend: true
+use_graphql: true
 media_folder: static
 public_folder: /images
 site_url: "https://www.thenewdynamic.org/"
 
 collections:
+  - name: data
+    label: data
+    files:
+      - label: "Languages"
+        name: "languages"
+        file: "data/languages.yaml"
+        fields:
+          - label: "languages"
+            name: languages
+            widget: list
+      - label: "services"
+        name: "services"
+        file: "data/services.yaml"
+        fields:
+          - label: "services"
+            collapsed: false
+            name: "services"
+            widget: "list"
+
   - name: tool
     label: Tools
     folder: content/tool
@@ -51,7 +71,8 @@ collections:
       - label: Interaction Type
         name: interactions
         widget: select
-        multiple: true
+        required: false
+        multiple: false
         options:
           - forms
           - images-media
@@ -63,6 +84,7 @@ collections:
       - label: License
         name: license
         widget: select
+        required: false
         multiple: false
         options:
           - Commercial
@@ -72,18 +94,39 @@ collections:
       - label: Data Model
         widget: select
         name: data_model
+        required: false
         hint: For CMS/Editing Tools only
         options:
           - API-based
           - Git-based
           - Database
           - Other
-      # - widget: relationship
-      #   name: language
-      #   label: Language
-      #   collection: data.languages
-      #   searchFields: ["languages"]
-      #   valueField: "languages"
+      - label: Language
+        widget: select
+        name: language
+        required: false
+        multiple: false
+        hint: For CMS/Editing Tools only
+        options:
+          - Javascript
+          - Go
+          - Node
+          - Ruby
+          - Rust
+          - Python
+          - PHP
+          - ".Net"
+          - Java
+
+      - label: Related Tools
+        widget: relation
+        name: related_tools
+        hint: For non-static site generators to relate to a specific SSG
+        collection: tool
+        multiple: true
+        searchFields: ["title","data_model"]
+        valueField: title
+        displayFields: ["title", "date"]
 
       - widget: markdown
         name: body
@@ -91,22 +134,49 @@ collections:
         required: false
         hint: Page content
 
-  - name: data
-    label: data
-    files:
-      - label: "Languages"
-        name: "languages"
-        file: "data/languages.yaml"
-        fields:
-          - label: "languages"
-            collapsed: false
-            name: "languages"
-            widget: "list"
-      - label: "services"
-        name: "services"
-        file: "data/services.yaml"
-        fields:
-          - label: "services"
-            collapsed: false
-            name: "services"
-            widget: "list"
+      - label: "Home Section"
+        name: "sections"
+        widget: "list"
+        types:
+          - label: "Carousel"
+            name: "carousel"
+            widget: object
+            fields:
+              - {
+                  label: Header,
+                  name: header,
+                  widget: string,
+                  default: "Image Gallery",
+                }
+              - {
+                  label: Template,
+                  name: template,
+                  widget: string,
+                  default: "carousel.html",
+                }
+              - label: Images
+                name: images
+                widget: list
+                field: { label: Image, name: image, widget: image }
+          - label: "Spotlight"
+            name: "spotlight"
+            widget: object
+            fields:
+              - {
+                  label: Header,
+                  name: header,
+                  widget: string,
+                  default: "Spotlight",
+                }
+              - {
+                  label: Template,
+                  name: template,
+                  widget: string,
+                  default: "spotlight.html",
+                }
+              - {
+                  label: Text,
+                  name: text,
+                  widget: text,
+                  default: "Hello World",
+                }
