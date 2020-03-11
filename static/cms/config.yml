@@ -124,9 +124,9 @@ collections:
         hint: For non-static site generators to relate to a specific SSG
         collection: tool
         multiple: true
-        searchFields: ["title","data_model"]
+        searchFields: ["title"]
         valueField: title
-        displayFields: ["title", "date"]
+        displayFields: ["title"]
 
       - widget: markdown
         name: body
