@@ -120,6 +120,7 @@ collections:
 
       - label: Related Tools
         widget: relation
+        required: false
         name: related_tools
         hint: For non-static site generators to relate to a specific SSG
         collection: tool
