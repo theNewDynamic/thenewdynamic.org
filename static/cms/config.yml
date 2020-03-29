@@ -9,34 +9,23 @@ use_graphql: true
 media_folder: static
 public_folder: /images
 site_url: "https://www.thenewdynamic.org/"
+slug:
+  encoding: "ascii"
+  clean_accents: true
+  sanitize_replacement: "-"
 
 collections:
-  - name: data
-    label: data
-    files:
-      - label: "Languages"
-        name: "languages"
-        file: "data/languages.yaml"
-        fields:
-          - label: "languages"
-            name: languages
-            widget: list
-      - label: "services"
-        name: "services"
-        file: "data/services.yaml"
-        fields:
-          - label: "services"
-            collapsed: false
-            name: "services"
-            widget: "list"
-
   - name: tool
     label: Tools
+    label_singular: "Tool"
+    description: >
+      Tools Database
     folder: content/tool
     create: true
     extension: md
     slug: "{{slug}}"
     preview_path: "tool/{{slug}}"
+    identifier_field: "title"
     editor:
       preview: true
     fields:
@@ -72,7 +61,7 @@ collections:
         name: interactions
         widget: select
         required: false
-        multiple: false
+        multiple: true
         options:
           - forms
           - images-media
@@ -106,7 +95,6 @@ collections:
         name: language
         required: false
         multiple: false
-        hint: For CMS/Editing Tools only
         options:
           - Javascript
           - Go
@@ -118,66 +106,81 @@ collections:
           - ".Net"
           - Java
 
-      # - label: Related Tools
-      #   widget: relation
-      #   required: false
-      #   name: related_tools
-      #   hint: For non-static site generators to relate to a specific SSG
-      #   collection: tool
-      #   multiple: true
-      #   searchFields: ["title"]
-      #   valueField: title
-      #   displayFields: ["title"]
+        # - label: Related Tools
+        #   widget: relation
+        #   required: false
+        #   name: related_tools
+        #   hint: For non-static site generators to relate to a specific SSG
+        #   collection: tool
+        #   multiple: true
+        #   searchFields: ["title"]
+        #   valueField: title
+        #   displayFields: ["title"]
+      - label: "Links"
+        name: "urls"
+        widget: "object"
+        collapsed: true
+        required: false
+        fields:
+          - {
+              label: "website",
+              required: false,
+              name: "website",
+              widget: "string",
+            }
+          - {
+              label: "twitter",
+              required: false,
+              name: "twitter",
+              widget: "string",
+            }
+          - {
+              label: "github",
+              required: false,
+              name: "github",
+              widget: "string",
+            }
+      - label: "Resources"
+        name: "resources"
+        label_singular: "Resource"
+        widget: "list"
+        required: false
+        fields:
+          - { label: name, name: name, widget: string }
+          - { label: URL, name: url, widget: string }
 
+      # - name: tags
+      #   widget: relation
+      #   multiple: true
+      #   create: true
+      #   required: false
+      #   selectFrom:
+      #     - collection: data
+      #       valueField: languages.language
       - widget: markdown
         name: body
         label: Content
         required: false
         hint: Page content
+  - name: data
+    label: Data
+    files:
+      - label: "Languages"
+        name: "languages"
+        file: "data/languages.yaml"
+        fields:
+          - label: languages
+            name: languages
+            collapsed: false
+            widget: list
+            field: { label: name, name: language, widget: string }
 
-      - label: "Home Section"
-        name: "sections"
-        widget: "list"
-        types:
-          - label: "Carousel"
-            name: "carousel"
-            widget: object
-            fields:
-              - {
-                  label: Header,
-                  name: header,
-                  widget: string,
-                  default: "Image Gallery",
-                }
-              - {
-                  label: Template,
-                  name: template,
-                  widget: string,
-                  default: "carousel.html",
-                }
-              - label: Images
-                name: images
-                widget: list
-                field: { label: Image, name: image, widget: image }
-          - label: "Spotlight"
-            name: "spotlight"
-            widget: object
-            fields:
-              - {
-                  label: Header,
-                  name: header,
-                  widget: string,
-                  default: "Spotlight",
-                }
-              - {
-                  label: Template,
-                  name: template,
-                  widget: string,
-                  default: "spotlight.html",
-                }
-              - {
-                  label: Text,
-                  name: text,
-                  widget: text,
-                  default: "Hello World",
-                }
+      - label: "Services"
+        name: "services"
+        file: "data/services.yaml"
+        fields:
+          - label: services
+            name: services
+            collapsed: false
+            widget: list
+            field: { label: name, widget: string }
