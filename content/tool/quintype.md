@@ -1,6 +1,6 @@
 ---
 title: Quintype
-date: 2018-05-08 09:12:41 +0000
+date: 2018-05-08T09:12:41.000+00:00
 tools:
 - "Content Management"
 data_model: API-based

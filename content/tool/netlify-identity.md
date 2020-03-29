@@ -1,6 +1,6 @@
 ---
 title: Netlify Identity
-date: 2018-05-19 15:52:33 +0000
+date: 2018-05-19T15:52:33.000+00:00
 description: Authentication functionality
 tools:
 - Interaction

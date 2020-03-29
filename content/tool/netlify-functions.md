@@ -1,6 +1,6 @@
 ---
 title: Netlify Functions
-date: 2018-05-19 15:48:33 +0000
+date: 2018-05-19T15:48:33.000+00:00
 urls:
   website: https://www.netlify.com/docs/functions/
   github: ''

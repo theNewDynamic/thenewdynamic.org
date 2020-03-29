@@ -1,7 +1,7 @@
 ---
 title: Meet Hyde
-date: 2015-11-10 04:21:00 +0000
-posted_date: 2015-11-10 04:21:00 +0000
+date: 2015-11-10T04:21:00.000+00:00
+posted_date: 2015-11-10T04:21:00.000+00:00
 featured: false
 slug: meet-hyde
 tools:

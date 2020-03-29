@@ -1,7 +1,7 @@
 ---
 title: Fuse.js Search
 date: 2015-12-14 21:46:00 -0500
-posted_date: 2015-12-15 02:46:00 +0000
+posted_date: 2015-12-15T02:46:00.000+00:00
 featured: false
 slug: fusejs-search
 tools:

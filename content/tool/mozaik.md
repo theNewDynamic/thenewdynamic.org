@@ -1,6 +1,6 @@
 ---
 title: Mozaik
-date: 2018-03-05 18:16:23 +0000
+date: 2018-03-05T18:16:23.000+00:00
 description: A headless CMS, a GraphQL API
 tools:
 - "Content Management"

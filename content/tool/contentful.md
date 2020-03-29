@@ -1,6 +1,6 @@
 ---
 title: Contentful
-date: 2015-05-02 02:57:00 +0000
+date: 2015-05-02T02:57:00.000+00:00
 featured: true
 tools:
 - "Content Management"

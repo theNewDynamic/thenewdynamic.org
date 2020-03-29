@@ -1,6 +1,6 @@
 ---
 title: Amazon S3
-date: 2018-04-21 11:05:02 +0000
+date: 2018-04-21T11:05:02.000+00:00
 tools:
 - "Hosting-Deployment"
 license: Commercial

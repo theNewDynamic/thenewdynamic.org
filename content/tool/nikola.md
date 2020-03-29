@@ -1,7 +1,7 @@
 ---
 title: Nikola
-date: 2015-07-24 02:31:00 +0000
-posted_date: 2015-07-24 02:31:00 +0000
+date: 2015-07-24T02:31:00.000+00:00
+posted_date: 2015-07-24T02:31:00.000+00:00
 featured: false
 slug: nikola
 tools:

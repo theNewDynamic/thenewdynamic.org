@@ -1,6 +1,6 @@
 ---
 title: AWS Amplify framework
-date: 2018-04-30 01:21:10 +0000
+date: 2018-04-30T01:21:10.000+00:00
 description: A JavaScript library for application development using cloud services.
 urls:
   website: https://aws.github.io/aws-amplify/

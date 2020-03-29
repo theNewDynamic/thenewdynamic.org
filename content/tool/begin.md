@@ -1,6 +1,6 @@
 ---
 title: Begin
-date: 2018-11-28 19:34:28 +0000
+date: 2018-11-28T19:34:28.000+00:00
 weight: ''
 description: Create AWS serverless apps, APIs, and sites with databases, sessions,
   and full CI/CD. In ten seconds.

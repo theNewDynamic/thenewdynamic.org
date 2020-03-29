@@ -1,6 +1,6 @@
 ---
 title: React Static
-date: 2017-09-08 21:18:00 +0000
+date: 2017-09-08T21:18:00.000+00:00
 featured: false
 tags:
 - React

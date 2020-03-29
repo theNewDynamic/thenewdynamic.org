@@ -1,6 +1,6 @@
 ---
 title: Shifter
-date: 2017-02-12 12:12:00 +0000
+date: 2017-02-12T12:12:00.000+00:00
 tools:
 - Content Management
 urls:

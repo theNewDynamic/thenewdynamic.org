@@ -1,7 +1,7 @@
 ---
 title: Pixyll Jekyll Theme
-date: 2015-11-12 19:21:00 +0000
-posted_date: 2015-11-12 19:21:00 +0000
+date: 2015-11-12T19:21:00.000+00:00
+posted_date: 2015-11-12T19:21:00.000+00:00
 featured: false
 slug: pixyll-jekyll-theme
 tools:

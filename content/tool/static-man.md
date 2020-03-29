@@ -1,6 +1,6 @@
 ---
 title: Staticman
-date: 2016-08-09 00:00:00 +0000
+date: 2016-08-09T00:00:00.000+00:00
 tools:
 - Interaction
 urls:

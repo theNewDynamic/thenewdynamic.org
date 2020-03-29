@@ -1,6 +1,6 @@
 ---
 title: Cloudinary-to-Hugo
-date: 2017-06-18 12:12:00 +0000
+date: 2017-06-18T12:12:00.000+00:00
 tools:
 - Helper
 urls:

@@ -1,7 +1,7 @@
 ---
 title: Static Website Manager
-date: 2015-12-07 22:10:00 +0000
-posted_date: 2015-12-07 22:10:00 +0000
+date: 2015-12-07T22:10:00.000+00:00
+posted_date: 2015-12-07T22:10:00.000+00:00
 featured: false
 tools:
 - "Content Management"

@@ -1,6 +1,6 @@
 ---
 title: ".architect"
-date: 2018-07-31 13:18:07 +0000
+date: 2018-07-31T13:18:07.000+00:00
 weight: ''
 description: Lambda functions simplified
 tools:

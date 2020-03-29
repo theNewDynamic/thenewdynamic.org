@@ -1,7 +1,7 @@
 ---
 title: Jekyll Gdrive Plugin
-date: 2015-12-02 19:10:00 +0000
-posted_date: 2015-12-02 19:10:00 +0000
+date: 2015-12-02T19:10:00.000+00:00
+posted_date: 2015-12-02T19:10:00.000+00:00
 featured: false
 slug: jekyll-gdrive-plugin
 tools:

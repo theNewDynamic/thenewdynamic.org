@@ -1,6 +1,6 @@
 ---
 title: Zeit
-date: 2018-04-21 14:26:34 +0000
+date: 2018-04-21T14:26:34.000+00:00
 tools:
 - "Hosting-Deployment"
 license: Commercial

@@ -1,6 +1,6 @@
 ---
 title: Scrivito CMS
-date: 2018-03-29 10:51:55 +0000
+date: 2018-03-29T10:51:55.000+00:00
 description: User-friendly JavaScript SaaS CMS
 tools:
 - "Content Management"

@@ -1,6 +1,6 @@
 ---
 title: Turndown
-date: 2018-03-01 08:29:28 +0000
+date: 2018-03-01T08:29:28.000+00:00
 urls:
   website: http://domchristie.github.io/turndown/
   github: https://github.com/domchristie/turndown

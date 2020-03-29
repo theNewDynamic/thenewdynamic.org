@@ -1,6 +1,6 @@
 ---
 title: Jekyll Cheatsheet
-date: 2016-01-26 02:53:00 +0000
+date: 2016-01-26T02:53:00.000+00:00
 tools:
 - Helper
 related_tool: jekyll

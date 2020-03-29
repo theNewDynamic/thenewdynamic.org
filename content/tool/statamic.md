@@ -1,7 +1,7 @@
 ---
 title: Statamic
-date: 2015-05-08 22:01:00 +0000
-posted_date: 2015-05-08 22:01:00 +0000
+date: 2015-05-08T22:01:00.000+00:00
+posted_date: 2015-05-08T22:01:00.000+00:00
 slug: statamic
 tools:
 - "Content Management"

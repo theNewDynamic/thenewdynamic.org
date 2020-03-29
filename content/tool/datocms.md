@@ -1,6 +1,6 @@
 ---
 title: DatoCMS
-date: 2016-10-24 00:00:00 +0000
+date: 2016-10-24T00:00:00.000+00:00
 tools:
 - Content Management
 data_model: API-based

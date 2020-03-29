@@ -1,6 +1,6 @@
 ---
 title: FaunaDB Serverless GraphQL
-date: 2019-06-21 10:09:14 +0000
+date: 2019-06-21T10:09:14.000+00:00
 description: GraphQL native database with global ACID transactions
 tools:
 - Interaction

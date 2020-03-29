@@ -1,7 +1,7 @@
 ---
 title: Jekyll Admin
-date: 2016-08-24 00:41:00 +0000
-posted_date: 2016-08-24 00:41:00 +0000
+date: 2016-08-24T00:41:00.000+00:00
+posted_date: 2016-08-24T00:41:00.000+00:00
 featured: false
 related_tool: jekyll
 tools:

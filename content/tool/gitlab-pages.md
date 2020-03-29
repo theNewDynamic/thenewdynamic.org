@@ -1,6 +1,6 @@
 ---
 title: Gitlab Pages
-date: 2016-08-07 21:18:00 +0000
+date: 2016-08-07T21:18:00.000+00:00
 featured: false
 tools:
 - "Hosting-Deployment"

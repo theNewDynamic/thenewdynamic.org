@@ -1,7 +1,7 @@
 ---
 title: Firebase Hosting
-date: 2016-05-20 15:17:00 +0000
-posted_date: 2016-05-20 15:17:00 +0000
+date: 2016-05-20T15:17:00.000+00:00
+posted_date: 2016-05-20T15:17:00.000+00:00
 featured: false
 tools:
 - "Hosting-Deployment"

@@ -1,7 +1,7 @@
 ---
 title: Shoal Hosting
-date: 2015-05-14 18:03:00 +0000
-posted_date: 2015-05-14 18:03:00 +0000
+date: 2015-05-14T18:03:00.000+00:00
+posted_date: 2015-05-14T18:03:00.000+00:00
 featured: false
 slug: shoal-hosting
 related_tool: sculpin

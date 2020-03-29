@@ -1,7 +1,7 @@
 ---
 title: Harp Platform
-date: 2015-05-14 02:05:00 +0000
-posted_date: 2015-05-14 02:05:00 +0000
+date: 2015-05-14T02:05:00.000+00:00
+posted_date: 2015-05-14T02:05:00.000+00:00
 featured: false
 slug: harp-platform
 tools:

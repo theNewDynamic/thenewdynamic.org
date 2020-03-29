@@ -4,7 +4,7 @@ weight: 1
 description: Ghost is a fully open source, adaptable platform for building and running
   a modern online publication. We power blogs, magazines and journalists from Zappos
   to Sky News.
-date: 2019-01-10 05:00:00 +0000
+date: 2019-01-10T05:00:00.000+00:00
 tools:
 - "Content Management"
 data_model: API-based

@@ -1,6 +1,6 @@
 ---
 title: Firebase Functions
-date: 2018-06-05 13:46:26 +0000
+date: 2018-06-05T13:46:26.000+00:00
 description: Develop a backend without servers
 tools:
 - Serverless

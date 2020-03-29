@@ -1,6 +1,6 @@
 ---
 title: GoCommerce
-date: 2017-11-14 12:12:00 +0000
+date: 2017-11-14T12:12:00.000+00:00
 tools:
 - Interaction
 urls:

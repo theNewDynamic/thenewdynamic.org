@@ -1,7 +1,7 @@
 ---
 title: Surge
-date: 2015-05-15 16:24:00 +0000
-posted_date: 2015-05-15 16:24:00 +0000
+date: 2015-05-15T16:24:00.000+00:00
+posted_date: 2015-05-15T16:24:00.000+00:00
 featured: false
 slug: surge
 tools:

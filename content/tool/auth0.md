@@ -1,6 +1,6 @@
 ---
 title: Auth0
-date: 2018-04-20 10:56:52 +0000
+date: 2018-04-20T10:56:52.000+00:00
 tools:
 - Interaction
 license: Commercial

@@ -1,7 +1,7 @@
 ---
 title: Google Cloud Storage
-date: 2015-05-14 17:17:00 +0000
-posted_date: 2015-05-14 17:17:00 +0000
+date: 2015-05-14T17:17:00.000+00:00
+posted_date: 2015-05-14T17:17:00.000+00:00
 featured: false
 slug: google-cloud-storage
 tools:

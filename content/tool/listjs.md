@@ -1,7 +1,7 @@
 ---
 title: List.js
-date: 2015-05-16 22:53:00 +0000
-posted_date: 2015-05-16 22:53:00 +0000
+date: 2015-05-16T22:53:00.000+00:00
+posted_date: 2015-05-16T22:53:00.000+00:00
 featured: false
 slug: listjs
 tools:

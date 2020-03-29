@@ -1,6 +1,6 @@
 ---
 title: Full Calendar
-date: 2016-06-16 00:00:00 +0000
+date: 2016-06-16T00:00:00.000+00:00
 tools:
 - Interaction
 urls:

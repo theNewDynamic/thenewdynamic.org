@@ -1,6 +1,6 @@
 ---
 title: Jigsaw
-date: 2018-03-03 09:38:52 +0000
+date: 2018-03-03T09:38:52.000+00:00
 description: Static sites for Laravel developers
 tools:
 - "Static Site Generator"

@@ -1,7 +1,7 @@
 ---
 title: Jekyll Themes
-date: 2015-11-13 02:53:00 +0000
-posted_date: 2015-11-13 02:53:00 +0000
+date: 2015-11-13T02:53:00.000+00:00
+posted_date: 2015-11-13T02:53:00.000+00:00
 featured: false
 slug: jekyll-themes
 tools:

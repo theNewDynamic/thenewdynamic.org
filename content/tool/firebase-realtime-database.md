@@ -1,6 +1,6 @@
 ---
 title: Firebase Realtime Database
-date: 2018-04-20 13:31:58 +0000
+date: 2018-04-20T13:31:58.000+00:00
 description: Real time syncing for JSON data
 tools:
 - Interaction

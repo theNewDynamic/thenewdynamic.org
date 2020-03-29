@@ -1,6 +1,6 @@
 ---
 title: Superdesk
-date: 2018-03-23 08:01:05 +0000
+date: 2018-03-23T08:01:05.000+00:00
 tools:
 - "Content Management"
 license: Open Source

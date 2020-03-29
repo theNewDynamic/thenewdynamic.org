@@ -1,6 +1,6 @@
 ---
 title: Assemble
-date: 2014-07-23 00:00:00 +0000
+date: 2014-07-23T00:00:00.000+00:00
 tools:
 - "Static Site Generator"
 urls:

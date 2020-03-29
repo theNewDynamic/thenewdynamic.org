@@ -1,6 +1,6 @@
 ---
 title: Phenomic
-date: 2016-05-05 12:00:00 +0000
+date: 2016-05-05T12:00:00.000+00:00
 tools:
 - "Static Site Generator"
 urls:

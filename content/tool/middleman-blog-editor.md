@@ -1,7 +1,7 @@
 ---
 title: Middleman Blog Editor
-date: 2014-05-02 20:45:00 +0000
-posted_date: 2015-05-02 00:00:00 +0000
+date: 2014-05-02T20:45:00.000+00:00
+posted_date: 2015-05-02T00:00:00.000+00:00
 featured: false
 slug: middleman-blog-editor
 tools:

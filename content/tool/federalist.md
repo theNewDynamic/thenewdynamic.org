@@ -1,7 +1,7 @@
 ---
 title: Federalist
-date: 2015-10-03 16:53:00 +0000
-posted_date: 2015-10-03 16:53:00 +0000
+date: 2015-10-03T16:53:00.000+00:00
+posted_date: 2015-10-03T16:53:00.000+00:00
 featured: false
 tools:
 - "Content Management"

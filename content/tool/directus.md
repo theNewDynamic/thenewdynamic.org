@@ -1,6 +1,6 @@
 ---
 title: Directus
-date: 2017-02-21 15:17:00 +0000
+date: 2017-02-21T15:17:00.000+00:00
 tools:
 - "Content Management"
 data_model: API-based

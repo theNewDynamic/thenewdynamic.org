@@ -1,7 +1,7 @@
 ---
 title: Forestry
-date: 2016-06-15 04:43:00 +0000
-posted_date: 2016-06-15 04:43:00 +0000
+date: 2016-06-15T04:43:00.000+00:00
+posted_date: 2016-06-15T04:43:00.000+00:00
 featured: false
 slug: forestry
 tools:

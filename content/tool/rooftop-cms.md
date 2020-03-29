@@ -1,6 +1,6 @@
 ---
 title: Rooftop CMS
-date: 2016-09-07 00:00:00 +0000
+date: 2016-09-07T00:00:00.000+00:00
 tools:
 - "Content Management"
 data_model: API-based

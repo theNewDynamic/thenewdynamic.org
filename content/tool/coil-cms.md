@@ -1,7 +1,7 @@
 ---
 title: Coil CMS
-date: 2015-10-05 18:17:00 +0000
-posted_date: 2015-10-05 18:17:00 +0000
+date: 2015-10-05T18:17:00.000+00:00
+posted_date: 2015-10-05T18:17:00.000+00:00
 featured: false
 slug: coil-cms
 tools:

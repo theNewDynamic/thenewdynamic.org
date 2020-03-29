@@ -1,6 +1,6 @@
 ---
 title: Snipcart
-date: 2015-05-15 01:54:00 +0000
+date: 2015-05-15T01:54:00.000+00:00
 featured: false
 tools:
 - Interaction

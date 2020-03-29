@@ -1,6 +1,6 @@
 ---
 title: Daptin
-date: 2018-02-16 16:05:59 +0000
+date: 2018-02-16T16:05:59.000+00:00
 tools:
 - "Content Management"
 data_model: API-based

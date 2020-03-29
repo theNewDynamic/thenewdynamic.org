@@ -1,6 +1,6 @@
 ---
 title: Sanity
-date: 2017-11-15 02:57:00 +0000
+date: 2017-11-15T02:57:00.000+00:00
 featured: false
 description: An open source fully customizable, headless CMS.
 tools:

@@ -1,7 +1,7 @@
 ---
 title: Kirby
-date: 2015-10-04 13:04:00 +0000
-posted_date: 2015-10-04 13:04:00 +0000
+date: 2015-10-04T13:04:00.000+00:00
+posted_date: 2015-10-04T13:04:00.000+00:00
 slug: kirby
 tools:
 - Content Management

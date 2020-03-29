@@ -1,6 +1,6 @@
 ---
 title: Middleman
-date: 2015-05-02 01:55:00 +0000
+date: 2015-05-02T01:55:00.000+00:00
 featured: true
 tools:
 - "Static Site Generator"

@@ -1,7 +1,7 @@
 ---
 title: Osmek
-date: 2015-05-08 21:52:00 +0000
-posted_date: 2015-05-08 21:52:00 +0000
+date: 2015-05-08T21:52:00.000+00:00
+posted_date: 2015-05-08T21:52:00.000+00:00
 featured: false
 slug: osmek
 tools:

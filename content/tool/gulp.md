@@ -1,7 +1,7 @@
 ---
 title: Gulp
-date: 2015-05-08 22:00:00 +0000
-posted_date: 2015-05-08 22:00:00 +0000
+date: 2015-05-08T22:00:00.000+00:00
+posted_date: 2015-05-08T22:00:00.000+00:00
 featured: false
 slug: gulp
 tools:

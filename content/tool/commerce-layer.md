@@ -1,6 +1,6 @@
 ---
 title: Commerce Layer
-date: 2018-11-07 00:06:07 +0000
+date: 2018-11-07T00:06:07.000+00:00
 weight: ''
 description: Commerce Layer is a headless platform that makes it easy to build enterprise-level
   ecommerce into your JAMstack site.

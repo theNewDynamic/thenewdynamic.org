@@ -1,7 +1,7 @@
 ---
 title: Brunch
-date: 2015-05-16 18:47:00 +0000
-posted_date: 2015-05-16 18:47:00 +0000
+date: 2015-05-16T18:47:00.000+00:00
+posted_date: 2015-05-16T18:47:00.000+00:00
 featured: false
 slug: brunch
 tools:

@@ -1,7 +1,7 @@
 ---
 title: Hexo Admin
-date: 2015-10-19 23:12:00 +0000
-posted_date: 2015-10-19 23:12:00 +0000
+date: 2015-10-19T23:12:00.000+00:00
+posted_date: 2015-10-19T23:12:00.000+00:00
 featured: false
 slug: hexo-admin
 tools:
