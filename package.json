@@ -8,10 +8,12 @@
   "license": "MIT",
   "scripts": {
     "clean": "rm -rf public/ assets/output static/output resources .cache",
+    "cms": "npx netlify-cms-proxy-server",
     "build": "run-s deploy:assets build:hugo",
     "deploy": "run-s clean build",
     "start": "run-s build:assets dev",
     "dev": "run-p dev:parcel dev:hugo",
+    "dev:cms": "run-p cms dev:hugo",
     "dev:hugo": "NODE_ENV=development hugo server --gc --disableFastRender --navigateToChanged --noHTTPCache",
     "dev:parcel": "NODE_ENV=development parcel watch ./assets/index.js --out-dir assets/output",
     "build:assets": "NODE_ENV=development parcel build ./assets/index.js --out-dir assets/output --no-cache",
