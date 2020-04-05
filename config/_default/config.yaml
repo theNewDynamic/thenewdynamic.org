@@ -2,42 +2,39 @@ title: the New Dynamic
 MetaDataFormat: yaml
 DefaultContentLanguage: en
 Paginate: 300
-baseURL: 'https://www.thenewdynamic.org'
+baseURL: "https://www.thenewdynamic.org"
 disableAliases: false
 enableRobotsTXT: true
 #googleAnalytics: UA-30899180-6
 languageCode: en-us
 preserveTaxonomyNames: true
 rssLimit: 20
-themesDir: components
-title: the New Dynamic
-blackfriday:
-  fractions: false
-mediaTypes:
-  text/netlify:
-    delimiter: ''
-    suffixes: ''
-outputFormats:
-  HEADERS:
-    baseName: _headers
-    isPlainText: true
-    mediatype: text/netlify
-    notAlternative: true
-  REDIR:
-    baseName: _redirects
-    isPlainText: true
-    mediatype: text/netlify
-    notAlternative: true
+#themesDir: components
+# mediaTypes:
+#   text/netlify:
+#     delimiter: ""
+#     suffixes: ""
+# outputFormats:
+#   HEADERS:
+#     baseName: _headers
+#     isPlainText: true
+#     mediatype: text/netlify
+#     notAlternative: true
+#   REDIR:
+#     baseName: _redirects
+#     isPlainText: true
+#     mediatype: text/netlify
+#     notAlternative: true
 outputs:
   home:
     - HTML
-    - HEADERS
-    - REDIR
+#    - HEADERS
+#    - REDIR
     - JSON
   section:
     - HTML
     - JSON
-  
+
 related:
   includeNewer: true
   indices:
@@ -52,7 +49,7 @@ sitemap:
   filename: sitemap.xml
   priority: 0.5
 social:
-  meetup: 'https://www.meetup.com/JAMstack-nyc/'
+  meetup: "https://www.meetup.com/JAMstack-nyc/"
   slack: "https://join.slack.com/t/thenewdynamic/shared_invite/enQtMjkwNjYwNTY0NjkxLTFkNGQ1YjMwZGNjNjY0YzY4MmM2YTBhZTY0YjkyOTBmYmE4NjMwY2M3ODMzZDIwNzg2ZTBkZjdjYjVlM2Q2ZDA"
   twitter: thenewdynamic
   youtube: thenewdynamic

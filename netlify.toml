@@ -7,7 +7,7 @@ command = "hugo --gc --minify"
 [context.production]
 
 [context.production.environment]
-HUGO_VERSION = "0.66.0"
+HUGO_VERSION = "0.68.0"
 HUGO_ENV = "production"
 GO_VERSION = "1.14"
 
@@ -15,13 +15,13 @@ GO_VERSION = "1.14"
 command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
 
 [context.deploy-preview.environment]
-HUGO_VERSION = "0.66.0"
+HUGO_VERSION = "0.68.0"
 
 [context.branch-deploy]
 command = "hugo --gc --minify -b $DEPLOY_URL"
 
 [context.branch-deploy.environment]
-HUGO_VERSION = "0.66.0"
+HUGO_VERSION = "0.68.0"
 
 [[headers]]
 for = "/*"

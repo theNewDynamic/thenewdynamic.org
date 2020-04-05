@@ -26,8 +26,8 @@ main:
   - identifier: find-an-expert
     name: Find an Expert
     url: /find-an-expert/
-    weight: 8  
-  
+    weight: 8
+
 tools:
   - identifier: tools
     name: All tools
@@ -60,7 +60,7 @@ tools:
     url: /tools/hosting-deployment
     weight: 8
   - identifier: interaction
-    name: 'Interaction'
+    name: "Interaction"
     url: /tools/interaction/
     weight: 7
   # - identifier: interaction-backend
