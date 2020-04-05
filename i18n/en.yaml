@@ -1,0 +1,4 @@
+- id: minutes_read
+  translation: 
+    one: "minute read"
+    other: "minutes read"
