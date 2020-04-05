@@ -105,17 +105,6 @@ collections:
           - PHP
           - ".Net"
           - Java
-
-        # - label: Related Tools
-        #   widget: relation
-        #   required: false
-        #   name: related_tools
-        #   hint: For non-static site generators to relate to a specific SSG
-        #   collection: tool
-        #   multiple: true
-        #   searchFields: ["title"]
-        #   valueField: title
-        #   displayFields: ["title"]
       - label: "Links"
         name: "urls"
         widget: "object"
@@ -148,15 +137,22 @@ collections:
         fields:
           - { label: name, name: name, widget: string }
           - { label: URL, name: url, widget: string }
-
-      # - name: tags
-      #   widget: relation
-      #   multiple: true
-      #   create: true
-      #   required: false
-      #   selectFrom:
-      #     - collection: data
-      #       valueField: languages.language
+      - name: related_tools
+        widget: relation
+        multiple: true
+        required: false
+        create: true
+        collection: tool
+        searchFields:
+          - title
+        valueField:
+          title
+      - name: tags
+        widget: select
+        required: false
+        default: ["news"]
+        multiple: true
+        options: ["API-based", "AWS", "Cloudfront","Cron Jobs","GDPR","Google Sheets", "Laravel", "Markdown", "Node", "React", "S3", "SSR", "Serverless", "Svelte", "Traffic Analysis", "Vue", "Wordpress", "alpha", "auth", "authentication", "beta", "comments", "desktop app", "e-commerce", "education", "enterprise", "forums", "free", "great-for-documentation", "markup", "membership","performance", "react", "reference", "resources", "serverless", "services", "solr", "starter", "testing" ]
       - widget: markdown
         name: body
         label: Content
@@ -173,7 +169,7 @@ collections:
             name: languages
             collapsed: false
             widget: list
-            field: { label: name, name: language, widget: string }
+            field: { label: language, name: language, widget: string }
 
       - label: "Services"
         name: "services"
