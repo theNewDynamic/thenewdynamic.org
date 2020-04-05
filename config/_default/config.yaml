@@ -8,11 +8,6 @@ languageCode: en-us
 preserveTaxonomyNames: true
 rssLimit: 20
 themesDir: components
-theme:  
-  - tnd
-  - layouts-base  
-  - seo
-  # - layouts-events
 title: the New Dynamic
 blackfriday:
   fractions: false
