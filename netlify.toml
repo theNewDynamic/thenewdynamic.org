@@ -9,6 +9,7 @@ command = "hugo --gc --minify"
 [context.production.environment]
 HUGO_VERSION = "0.68.0"
 HUGO_ENV = "production"
+NODE_ENV = "production"
 GO_VERSION = "1.14"
 
 [context.deploy-preview]
