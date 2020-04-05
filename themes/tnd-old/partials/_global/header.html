@@ -1,0 +1,27 @@
+<header>
+	<div class="pt-6 lg:pt-12">
+				{{/*  May return to this, but for now using the image  */}}
+			<a href="/"
+			class="pl-8 sm:pl-4 font-bold text-4xl tracking-normal block text-primary-color font-brand no-underline">
+			{{.Site.Title}}
+		</a>
+		<div class="pl-8 sm:pl-4 text-base font-sans tracking-wide text-grey-darker">
+			{{ .Site.Params.subtitle | lower }}
+		</div>
+		{{/*  <a href="/"
+			class="block no-underline mt-4 ">
+			<img src="/images/tnd-logo-B50938.svg" alt="logo" class="px-8 h-12TK xxl:h-16TK sm:px-4 max-w-full">
+		</a>		  */}}
+		{{/*  <img src="/images/JAMstack-hashtag.svg" alt="logo" class="px-8 sm:px-16 mx-2 my-4 max-w-full md:w-5/6">  */}}
+		<div class="pt-8 hidden sm:block">			
+			{{ partial "_global/menus.html" . }}
+		</div>
+		<div class="flex items-center justify-center pt-8">
+			<div class="{{ if not .IsHome }} hidden sm:inline-block{{ end }}">
+				{{ partial "_components/social-follow.html" (dict "cx" . "icon_size" "26px") }}				
+			</div>
+		</div>
+		
+		
+	</div>
+</header>

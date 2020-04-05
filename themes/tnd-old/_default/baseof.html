@@ -9,7 +9,6 @@
     {{ end }}
   </head>
   <body class="{{ partial "_components/body-class" }}">
-
     <div class="bg-primary-color text-white h-full fixed pin-t pin-b w-10 sm:w-16">
       {{ partial "_global/side-nav.html" . }}
     </div>    
@@ -24,6 +23,5 @@
         </div>
       </main>      
     </div>  
-    {{ partial "scripts/fathom-analytics.html" (dict "fathom_id" site.Params.fathom_id) }}            
   </body>
 </html>

@@ -1,0 +1,10 @@
+{{- $params := dict "kind" .Kind "file" .File "layout" .Layout "env" (getenv "HUGO_ENV") -}}
+{{- $body_class := slice -}}
+{{- range $index, $value := $params -}}
+	{{- with . -}}
+	{{- $body_class = $body_class | append (printf "%s-%s" $index .) -}}
+	{{- end -}}
+{{- end -}}
+{{- with $body_class -}}
+	{{- delimit . " " -}}
+{{- end -}}

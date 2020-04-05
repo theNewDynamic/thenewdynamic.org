@@ -11,8 +11,10 @@
 {{/*  TODO: Remove when removing  fonts.com */}}
 <link rel="dns-prefetch" href="https://fast.fonts.net">  
   
-  {{ if (fileExists "./assets/output/index.js") }}
-    {{ $js := resources.Get "output/index.js" | resources.Fingerprint }}
-      <script type="text/javascript" src="{{ $js.Permalink | relURL }}" integrity="{{ $js.Data.Integrity }}" crossorigin="anonymous" defer></script>
-  {{ end }}
-  
+
+
+
+{{ $assets := .Site.Data.assets }}  
+{{ with $assets.main }}
+	<script type="text/javascript" src="{{ print .js | default "/js/main.js" }}" {{ with .jsIntegrity }}integrity="{{ print . }}" crossorigin="anonymous"{{ end }} defer></script>
+{{ end }}

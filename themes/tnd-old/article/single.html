@@ -1,0 +1,31 @@
+{{ define "header" }}{{- partial "_global/header_alt.html" . -}}{{ end }}
+{{ define "main" }} {{ $current := .}}
+
+<div class="mx-auto">
+	<div class="sm:grid lg:px-4 grid-columns-12 grid-gap-4">
+		<div class="col-span-3">
+			{{ with.Params.images }}
+			<div class="lazyload mt-4" data-noscript="">
+				<noscript>
+					<img
+						src="{{ index . 0 | absURL }}"
+						class="lazyload mb-2 mr-3 mt-2 max-w-full shadow-md"
+						alt="Image "
+					/>
+				</noscript>
+			</div>
+			{{ end }}
+		</div>
+		<div class="col-span-8">
+			<article class="h-entry nested mx-auto max-w-lg py-2 lg:pt-5 px-8">
+				{{- partial "_components/page-heading.html" . -}}
+				<section
+					class="nested leading-normal nested-no-underlines text-grey-darkest pb-32">
+					{{ .Content }}					
+				</section>
+			</article>
+		</div>
+	</div>
+</div>
+
+{{ end }}

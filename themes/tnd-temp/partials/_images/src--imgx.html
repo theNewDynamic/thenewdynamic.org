@@ -1,0 +1,33 @@
+{{/* 
+	Outputs an imgx formated URL with optional transformations.
+	
+	@author The New Dynamic
+	
+	@access private
+
+	@context . [string] The src
+		It is recommanded to build .query string with `querify` to avoid format issues
+
+	@example - Go Template
+		<img src="{{ partial "_images/src--imgx" . }}" alt="">
+
+	TODO: Find a way to have Hugo not automatically safeURL urls with query, for it double escape ampersand within amper
+*/}}
+{{- $src := . -}}
+{{/* $sep separates imgx domain and image url. If Forestry removes the slash prepending FM value, we'll have to add it
+as as $sep */}}
+{{- $sep := "" -}}
+{{- with site.Params.image_url -}}
+	{{/* We make sure the imgx url is not already in the src, 
+		 if not, we perform the replacing operations */}}
+	{{- if not (strings.Contains $src .) -}}
+		{{/* If we find `/uploads` in src, it means we're not using S3 and should replace `/uploads` with imgx domain */}}
+		{{- if in $src "/uploads" -}}
+			{{- $src = replace $src "/uploads" . -}}
+		{{- else -}}
+		{{/* Else, we use S3 and should include the seperator */}}
+			{{- $src = printf "%s%s%s" . $sep $src -}}
+		{{- end -}}
+	{{- end -}}
+{{- end -}}
+{{- $src -}}

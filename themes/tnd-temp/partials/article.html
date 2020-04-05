@@ -1,0 +1,10 @@
+<article class="h-entry">
+  {{- partial "_components/page-heading.html" . -}}
+  <section>  
+    {{ if .Date }}
+      {{ partial "_components/time.html" (dict "context" . "show_time" false) }}
+    {{ end }}
+    {{partial "_components/image-article.html" .}}        
+    {{ .Content }}
+  </section>
+</article>

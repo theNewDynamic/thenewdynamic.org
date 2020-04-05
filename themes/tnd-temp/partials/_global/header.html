@@ -1,0 +1,8 @@
+<header>
+  <div>
+    <a href="{{ .Site.Home.RelPermalink }}" class="site-title"> 
+      {{.Site.Title}}
+    </a>
+    {{- partial "_global/menu.html" (dict "page" . "menu" "main") -}}
+  </div>  
+</header>

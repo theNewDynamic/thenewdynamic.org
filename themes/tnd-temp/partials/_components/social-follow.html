@@ -1,0 +1,39 @@
+{{/*
+Partial expect as context a map with either or both or none of the following arguments:
+icon_size > sring with size in css.
+socials > slice of string of service names to overwrite the default ones and their order.
+For new services, simply add their svg file in `partials/svg/{ service }.svg`
+ */}}
+
+{{/* Defaults: */}}
+{{ $icon_size := "24px" }}
+{{ with .icon_size }}
+  {{ $icon_size = string . }}
+{{ end }}
+{{ $socials := slice "facebook" "twitter" "instagram" "linkedin" "meetup" "slack" }}
+{{ with .socials }}
+  {{ $socials = . }}
+{{ end }}
+
+{{/* If a service added later on uses a differnet pattern than https://{ service }.com, add to following: */}}
+{{ $social_urls := dict "some_service" "https://some_weird_url_for_this_service.com/" }}
+
+{{ range $socials }}
+  {{ $service := . }}
+  {{ with index site.Social $service }}
+    {{ $url := printf "https://%s.com/" $service }}
+    {{ with index $social_urls $service }}
+      {{ $url = . }}
+    {{ end }}
+    {{/* If site.Social.service value includes a protocole, we use its value as URL */}}
+    {{ if or (in . "https://") (in . "http://") }}
+      {{ $url = . }}
+    {{ else }}
+      {{ $url = printf "%s%s" $url . }}
+    {{ end }}
+    <a href="{{ $url }}" class="{{ $service }}" title="{{ $service }}" class="{{ $service }} no-underline">
+      {{ $svg_path := printf "svg/%s.svg" $service }}
+      {{ partial $svg_path (dict "size" $icon_size) }}
+    </a>
+  {{ end }}
+{{ end }}

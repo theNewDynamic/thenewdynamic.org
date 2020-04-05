@@ -1,0 +1,8 @@
+{{ define "main" }}{{/* tool/list layout is shared with taxonomy/tools */}}
+  <article id="filter" class="page-list_default mx-auto">
+    <div class="mb-16">        
+      {{ partial "page-description.html" . }}
+    </div>
+      {{- partial "tools/section.html" . -}}
+  </article>
+{{ end }}

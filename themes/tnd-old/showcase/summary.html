@@ -1,0 +1,33 @@
+{{ $image := index (.Params.images) 0 }}
+<div class="rounded overflow-hidden h-full w-full">
+	{{ with $image }}
+	<a href="{{ $.URL }}" class="no-underline">
+		{{ if in (print $.Site.BaseURL) "localhost" }}
+		<img
+			data-src="{{ . }}"
+			src="/images/placeholder.svg"
+			class="lazyload mw-100"
+		/>
+		{{ else }}
+		{{ $img := replace . "/uploads" ($.Param "dev.image_url")  }}
+		<img src="/images/placeholder.svg" data-src="{{ $img }}?{{ (querify "w" "400" "h" "247" "fit" "crop") | safeURL }}"
+		class="lazyload">
+		{{ end }}
+	</a>
+	{{ end }}
+	<div class="px-6 py-4">
+		<div class="font-bold text-base mb-2">
+			<a href="{{ .Permalink | relURL }}" class="dim text-black no-underline title">
+				{{ .Title }}
+			</a>
+		</div>
+		{{ with.Params.Description }}
+		<p class="text-grey-darker text-base">
+			{{.}}
+		</p>
+		{{ end }}
+	</div>
+	<div class="px-6 py-4">
+		{{ partial "_components/related_tools-tag.html" . }}
+	</div>
+</div>

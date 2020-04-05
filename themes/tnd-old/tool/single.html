@@ -1,0 +1,197 @@
+{{ define "main" }}
+    {{ $showcase := where (.Site.RegularPages) "Section" "showcase" }}
+    {{ $related_showcase := $showcase.RelatedTo (keyVals "related_tools" .File.Path) }}
+    {{ $tools := where (.Site.RegularPages) "Section" "tool" }}
+    {{ $related_tools := ($tools).RelatedTo (keyVals "related_tools" .File.Path) }}    
+    {{ $articles := where (.Site.RegularPages) "Section" "article" }}
+    {{ $related_articles := ($articles).RelatedTo (keyVals "related_tools" .File.Path) }}
+
+  <div class="page-list_default mx-auto min-h-screen max-w-5xl"> 
+      <div class="mb-16">
+          {{ partial "page-description.html" . }}
+      </div>
+    <div class="text-base flex-wrap flex sm:flex-row flex-col mb-8 sm:mb-16 -mt-4">
+
+      {{ with .Params.tools }}
+        <div class="mr-3">
+          Type:
+          {{ range  . }}
+            {{ $taxonomy := index (where (($.Site.GetPage "taxonomyTerm" "tools").Pages) "Data.Term" .) 0 }}
+              <a href="{{ $taxonomy.Permalink }}" class="dim font-sans inline-block bg-grey-dark mb-4 mx-2 no-underline rounded-full px-3 py-1 text-sm text-white"{{ with $taxonomy.Params.color }} style="background-color:{{ . | default "grey" }};"{{ end }}>
+                {{ $taxonomy.Title }}
+              </a>
+          {{ end }}
+        </div>
+      {{ end }}
+      {{ with .Params.interactions }}
+        <div class="mr-3">
+          
+          {{ range  . }}
+            {{ $taxonomy := index (where (($.Site.GetPage "taxonomyTerm" "interactions").Pages) "Data.Term" .) 0 }}
+              <a href="{{ $taxonomy.Permalink }}" class="dim font-sans inline-block bg-grey-dark mb-4 mx-2 no-underline rounded-full px-3 py-1 text-sm text-white"{{ with $taxonomy.Params.color }} style="background-color:{{ . | default "grey" }};"{{ end }}>
+                {{ $taxonomy.Title }}
+              </a>
+          {{ end }}
+        </div>
+      {{ end }}
+
+      {{ with .Param "headless-cms" }}
+        <div class="mr-3">
+          {{ $taxonomy := index (where (($.Site.GetPage "taxonomyTerm" "headless-CMS").Pages) "Data.Term" .) 0 }}
+            <a href="{{ $taxonomy.Permalink }}" class="dim font-sans inline-block bg-grey-dark mb-4 mx-2 no-underline rounded-full px-3 py-1 text-sm text-white">
+              Headless-CMS: {{ $taxonomy.Title }}
+            </a>
+        </div>
+        {{ end }}
+
+      {{ with .Params.language }}
+        <div class="mr-3">Language:
+          <a href="/language/{{ . | urlize }}" class="dim font-sans inline-block bg-grey-dark mb-4 mx-2 no-underline rounded-full px-3 py-1 text-sm text-white">
+            {{ . }}
+          </a>
+        </div>
+      {{ end }}
+      {{ with .Params.license }}
+        <div class="mr-3">License:
+          <a href="/license/{{ . | urlize }}" class="dim font-sans inline-block bg-grey-dark mb-4 mx-2 no-underline rounded-full px-3 py-1 text-sm text-white">{{ . }}</a>
+        </div>
+      {{ end }}
+      {{ with .Params.tags }}
+        <div class="mr-3">Tags:
+        {{ range . }}
+            <a href="/tags/{{ . | urlize }}" class="dim font-sans inline-block bg-grey-dark mb-4 mx-2 no-underline rounded-full px-3 py-1 text-sm text-white">{{ . }}</a>
+        {{ end }}
+        </div>
+      {{ end }}
+    </div>
+
+    <div class="lg:grid-columns-2 grid-gap-16 sm:grid">
+
+      <div class="max-w-smTK">
+        <h2 class="mb-4">About {{ .Title }}</h2>
+        {{ with .Content }}
+          <div class="leading-nromal nested text-lg text-grey-darkest">
+            {{- . -}}
+          </div>
+        {{ end }}
+
+        {{ with .Params.urls }}
+          <div class="mt-8 text-lg">
+            {{ range $key, $value := . }}
+              {{ with $value }}
+                <a href="{{ . }}" class="block mb-2 dim no-underline text-grey-darkest">{{ $key  | humanize }} {{ partial "svg/link-external.svg" (dict "size" "12") }}</a>
+              {{ end }}
+            {{ end }}
+          </div>
+        {{ end }}
+
+        {{ with  .Params.related_tools }}
+          <h3 class="mt-8">Related Tools</h3>
+          <ul class="list-reset">
+            {{ range .}}
+              {{ $related_tools := where ($tools) ".File.Path"  . }}
+              {{ with $related_tools }}
+                {{ range .}}
+                  {{ template "tools_link" . }}
+                {{ end }}
+              {{ end }}
+            {{ end }}
+          </ul>
+        {{ end }}
+
+        {{ with $related_articles }}
+          <h3 class="mt-8">Articles</h3>
+          <ul class="list-reset">
+            {{range .}}
+              {{ template "tools_link" . }}
+            {{ end }}
+          </ul>
+        {{ end }}
+
+        {{/* {{ with  .Params.related_tools }}
+          <h2>Related Tools a</h2>
+          <ul class="list-reset">
+            {{ range .}}
+              {{$related_tools := ($tools).RelatedTo (keyVals "related_tools" .)}}
+              {{with $related_tools}}
+                {{range .}}
+                  {{ template "tools_link" . }}
+                {{ end }}
+              {{ end }}
+            {{ end }}
+          </ul>
+        {{ end }} */}}
+
+
+        {{/* {{ with $related_tools }}
+          <h2>Related Tools b</h2>
+          <ul class="list-reset">
+            {{range .}}
+              {{ template "tools_link" . }}
+            {{ end }}
+          </ul>
+        {{ end }} */}}
+      </div>
+
+      <div class="">
+        {{ with .Params.resources }}
+          {{ if (index . 0) }}
+            <h2>Resources</h2>
+          {{ end }}
+          <ul class="list-reset mb-8">
+            {{ range .}}
+              {{ $name := .name }}
+              <li>
+                {{ with .url }}
+                  <a href="{{ . }}?{{ (querify "utm_source" $.Site.Params.utm_source "utm_medium" $.Site.Params.utm_medium "utm_campaign" $.Section ) | safeURL }}" class="block dim no-underline text-grey-darkest mb-1">{{ $name }} {{ partial "svg/link-external.svg" (dict "size" "12") }}</a>
+                {{ end }}
+              </li>
+            {{ end }}
+          </ul>
+        {{ end }}
+        
+      </div>
+
+      
+    </div>   
+    
+    
+
+    {{ with $related_showcase }}
+    <h2 class="mb-4 mt-16">
+      {{ $.Title }} Showcase Sites
+    </h2>
+    <div class="grid-columns-3 grid-gap-4 sm:grid">
+      {{ range . }}
+        {{ template "showcase_item" . }}
+      {{ end }}
+    </div>          
+  {{ end }}
+
+  </div>
+{{ end }}
+
+
+{{ define "tools_link" }}
+  <li>
+    <a href="{{ .URL }}" class="block my-1 dim no-underline text-grey-darkest">
+      {{- .Title -}}
+    </a>
+  </li>
+{{ end }}
+
+
+{{ define "showcase_item" }}
+  {{ $url := .URL }}
+  {{ $image := index (.Params.images) 0 }}
+  {{ with $image }}
+    <a href="{{ $url }}" class="no-underline bg-black h-64 mb-8 shadow hover:shadow-lg overflow-hidden">
+      {{ if in (print $.Site.BaseURL) "localhost" }}
+        <img data-src="{{ . }}" src="/images/placeholder.svg" class="lazyload mb-8 max-w-full border hover:opacity-25">
+      {{ else }}
+        {{ $img := replace . "/uploads" ($.Param "dev.image_url")  }}
+        <img src="/images/placeholder.svg" data-src="{{ $img }}?{{ (querify "w" "396" "h" "256" "fit" "crop") | safeURL }}" class="lazyload mb-8 max-w-full border hover:opacity-25">
+      {{ end }}
+    </a>
+  {{ end }}
+{{ end }}

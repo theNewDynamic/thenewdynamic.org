@@ -1,0 +1,9 @@
+<section
+	class="filteredlist content sm:grid  grid-gap-4 grid-columns-2 lg:grid-columns-3 xl:grid-columns-5"
+>
+	{{ range.Data.Pages.ByTitle }}
+	<div class="bg-white shadow hover:shadow-lg">
+		{{ .Render "summary" }}
+	</div>
+	{{ end }}
+</section>
