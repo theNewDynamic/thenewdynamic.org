@@ -145,14 +145,55 @@ collections:
         collection: tool
         searchFields:
           - title
-        valueField:
-          title
+        valueField: title
       - name: tags
         widget: select
         required: false
         default: ["news"]
         multiple: true
-        options: ["API-based", "AWS", "Cloudfront","Cron Jobs","GDPR","Google Sheets", "Laravel", "Markdown", "Node", "React", "S3", "SSR", "Serverless", "Svelte", "Traffic Analysis", "Vue", "Wordpress", "alpha", "auth", "authentication", "beta", "comments", "desktop app", "e-commerce", "education", "enterprise", "forums", "free", "great-for-documentation", "markup", "membership","performance", "react", "reference", "resources", "serverless", "services", "solr", "starter", "testing" ]
+        options:
+          [
+            "API-based",
+            "AWS",
+            "Cloudfront",
+            "Cron Jobs",
+            "GDPR",
+            "Google Sheets",
+            "Laravel",
+            "Markdown",
+            "Node",
+            "React",
+            "S3",
+            "SSR",
+            "Serverless",
+            "Svelte",
+            "Traffic Analysis",
+            "Vue",
+            "Wordpress",
+            "alpha",
+            "auth",
+            "authentication",
+            "beta",
+            "comments",
+            "desktop app",
+            "e-commerce",
+            "education",
+            "enterprise",
+            "forums",
+            "free",
+            "great-for-documentation",
+            "markup",
+            "membership",
+            "performance",
+            "react",
+            "reference",
+            "resources",
+            "serverless",
+            "services",
+            "solr",
+            "starter",
+            "testing",
+          ]
       - widget: markdown
         name: body
         label: Content
@@ -180,3 +221,38 @@ collections:
             collapsed: false
             widget: list
             field: { label: name, widget: string }
+  - name: "article"
+    label: "Articles"
+    folder: "content/article"
+    filter: { field: "exclude_collection" }
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - {
+          label: "Description",
+          name: "description",
+          widget: "string",
+          required: false,
+        }
+      - {
+          name: related_tools,
+          widget: relation,
+          multiple: true,
+          required: false,
+          create: true,
+          collection: tool,
+          searchFields: ["title"],
+          valueField: "title",
+        }
+      - label: "Featured Image"
+        name: "images"
+        widget: "image"
+        #default: "/uploads/chocolate-dogecoin.jpg"
+        media_library:
+          config:
+            multiple: true
+      - { label: "Body", name: "body", widget: "markdown", required: false }
