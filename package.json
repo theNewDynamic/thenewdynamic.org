@@ -7,44 +7,54 @@
   "author": "budparr <budparr@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "clean": "rm -rf public/ assets/output static/output resources .cache",
-    "cms": "npx netlify-cms-proxy-server",
-    "build": "run-s deploy:assets build:hugo",
-    "deploy": "run-s clean build",
-    "start": "run-s build:assets dev",
-    "dev": "run-p dev:parcel dev:hugo",
-    "dev:cms": "run-p cms dev:hugo",
-    "dev:hugo": "NODE_ENV=development hugo server --gc --disableFastRender --navigateToChanged --noHTTPCache",
-    "dev:parcel": "NODE_ENV=development parcel watch ./assets/index.js --out-dir assets/output",
-    "build:assets": "NODE_ENV=development parcel build ./assets/index.js --out-dir assets/output --no-cache",
-    "deploy:assets": "NODE_ENV=production parcel build ./assets/index.js --out-dir assets/output --no-cache",
-    "build:hugo": "env NODE_ENV=production hugo --gc --minify"
+    "gethugo": "bash get-hugo.sh",
+    "version": "auto-changelog -p --template keepachangelog --unreleased true",
+    "hugo": "HUGO_ENV=development bin/hugo* server -D --gc --navigateToChanged --noHTTPCache",
+    "hugo-prod": "HUGO_ENV=production bin/hugo* --gc --minify",
+    "webpack": "HUGO_ENV=development webpack --mode=development --progress --colors --watch",
+    "webpack-prod": "HUGO_ENV=production webpack --mode=production",
+    "clean": "rm -rf public/ static/dist resources",
+    "deploy": "run-s webpack-prod hugo-prod",
+    "start": "run-p webpack hugo"
+  },
+  "dependencies": {
+    "@fullhuman/postcss-purgecss": "^2.1.0",
+    "autoprefixer": "^9.7.5",
+    "postcss-cli": "^7.1.0",
+    "postcss-import": "^12.0.1",
+    "tailwindcss": "^1.2.0"
   },
   "devDependencies": {
-    "@fullhuman/postcss-purgecss": "^1.1.0",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
     "@vue/component-compiler-utils": "^2.6.0",
-    "autoprefixer": "^9.4.10",
-    "cssnano": "^4.1.10",
+    "assets-webpack-plugin": "^3.9.12",
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "dotenv": "^8.2.0",
     "intersection-observer": "^0.5.1",
-    "itemsjs": "^1.0.42",
-    "lazysizes": "^4.1.6",
+    "itemsjs": "^1.0.49",
+    "lazysizes": "^4.1.8",
     "npm-run-all": "^4.1.5",
-    "parcel-bundler": "1.11.0",
-    "postcss-cli": "^6.1.2",
-    "postcss-import": "^12.0.1",
-    "postcss-modules": "^1.4.1",
-    "quicklink": "^1.0.0",
-    "sass": "^1.17.2",
-    "tailwindcss": "^0.7.4",
-    "tailwindcss-aspect-ratio": "^1.0.1",
-    "tailwindcss-flexbox-order": "^1.0.0",
-    "tailwindcss-grid": "^1.2.1",
-    "typeface-nunito": "^0.0.72",
-    "vue": "^2.6.8",
-    "vue-hot-reload-api": "^2.3.3",
-    "vue-template-compiler": "^2.6.8"
+    "quicklink": "^1.0.1",
+    "vue": "^2.6.11",
+    "vue-hot-reload-api": "^2.3.4",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-subresource-integrity": "^1.4.0"
+  },
+  "hugo": {
+    "version": "0.68.0",
+    "extended": "true"
   },
   "alias": {
     "vue": "./node_modules/vue/dist/vue.js"
+  },
+  "prettier": {
+    "tabWidth": 2,
+    "useTabs": true,
+    "singleQuote": false,
+    "proseWrap": "preserve"
   }
 }
