@@ -1,3 +1,5 @@
+title: the New Dynamic
+MetaDataFormat: yaml
 DefaultContentLanguage: en
 Paginate: 300
 baseURL: 'https://www.thenewdynamic.org'
