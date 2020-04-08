@@ -1,0 +1,42 @@
+/* nav[aria-label="main"] {
+  
+} */
+/* purgecss start ignore */
+.tnd-Nav__item {
+  @apply font-sans;
+}
+
+
+.tnd-Nav__item a {
+  @apply w-full px-4 block text-gray-900 no-underline text-left leading-tight py-1 text-sm;
+}
+
+.tnd-Nav__item a:hover {
+  @apply bg-gray-500 text-gray-300 underline;
+}
+
+.tnd-Nav__item--active a{
+  @apply bg-gray-400 text-gray-900;
+}
+
+@screen xl {
+  .tnd-Nav__item a {
+    @apply text-base py-2 px-6;
+  }
+ 
+}
+#expandable-nav-side .tnd-Nav__item a {
+  @apply text-gray-200;
+}
+
+input[type=checkbox]#expandable-nav-side-input {
+  display: none;
+}
+#expandable-nav-side {
+ transform: translateX(-256px)
+}
+
+#expandable-nav-side-input:checked + #expandable-nav-side {
+ transform: translateX(0)
+}
+/* purgecss end ignore */

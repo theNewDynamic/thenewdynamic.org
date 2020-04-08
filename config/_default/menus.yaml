@@ -2,9 +2,6 @@ main:
   - name: Database
     url: /
     weight: 1
-  - name: Events
-    url: /event/
-    weight: 3
   - name: Articles
     url: /article/
     weight: 4
@@ -19,14 +16,6 @@ main:
     name: Showcase
     url: /showcase/
     weight: 7
-  - identifier: jobs
-    name: Jobs
-    url: /jobs/
-    weight: 8
-  - identifier: find-an-expert
-    name: Find an Expert
-    url: /find-an-expert/
-    weight: 8
 
 tools:
   - identifier: tools

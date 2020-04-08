@@ -1,0 +1,126 @@
+.toggle-item--menu {
+  position: absolute;
+  top: 50px;
+  left: 1px;
+  border: 0;
+  background-color: transparent;
+  box-shadow: none;
+  border-radius: 0;  
+  appearance: none;
+  width: 40px;
+  height: 40px;
+  display: block;
+  padding: 0
+}
+
+@screen sm {
+  .toggle-item--menu {
+    top: 190px;
+  left: 10px;
+  }
+  
+
+}
+.toggle-item--menu:focus {
+  outline: 0
+}
+
+/* @media (min-width: 768px) {
+  .toggle-item--menu {
+      left:2px
+  }
+}
+
+@media (min-width: 1070px) {
+  .toggle-item--menu {
+      top:35px;
+      left: 10px
+  }
+} */
+
+.toggle-item--menu:focus,.toggle-item--menu:hover {
+  cursor: pointer
+}
+
+.toggle-menu-inner,.toggle-search-inner {
+  width: 40px;
+  height: 40px;
+  outline: 0;
+  
+}
+
+.toggle-item:focus .toggle-menu-inner,.toggle-item:focus .toggle-search-inner {
+  outline: 1px dotted #f9f9f9;
+  outline: 5px auto -webkit-focus-ring-color;
+}
+
+.toggle-item--menu .toggle-item__icon {
+  top: 50%;
+  left: 10px;
+  margin-top: -1px;
+  width: 20px;
+}
+
+.toggle-item--menu .toggle-item__icon,.toggle-item--menu .toggle-item__icon:after,.toggle-item--menu .toggle-item__icon:before {
+  position: absolute;
+  transition: all .4s cubic-bezier(.215,.61,.355,1);
+  
+  height: 3px;
+  @apply bg-gray-400;
+}
+
+.toggle-item--menu .toggle-item__icon:after,.toggle-item--menu .toggle-item__icon:before {
+  content: " ";
+  display: block;
+}
+
+.toggle-item--menu .toggle-item__icon:before {
+  top: -6px;
+  left: 0;
+  width: 13px;
+}
+
+.toggle-item--menu .toggle-item__icon:after {
+  top: 6px;
+  left: 0;
+  width: 17px;
+}
+
+.js-site-menu-open .toggle-item--menu .toggle-item__icon {
+  background-color: transparent;
+}
+
+.js-site-menu-open .toggle-item--menu .toggle-item__icon:before {
+  left: 2px;
+  top: -7px;  
+  transform: rotate(45deg);  
+  transform-origin: 0 100%;
+  width: 20px;
+}
+
+.js-site-menu-open .toggle-item--menu .toggle-item__icon:after {
+  left: 2px;
+  top: 8px;
+  transform: rotate(-45deg);
+  transform-origin: 0 0;
+  width: 20px;
+}
+
+.toggle-item--menu:hover .toggle-item__icon,.toggle-item--menu:hover .toggle-item__icon:after,.toggle-item--menu:hover .toggle-item__icon:before {
+  /* background-color: #000; */
+  width: 20px;
+  @apply bg-white;
+}
+
+.toggle-item--menu:hover .toggle-item__icon {
+  /* background-color: #000; */
+  @apply bg-white;
+}
+
+.js-site-menu-open .toggle-item--menu:hover .toggle-item__icon {
+  background-color: transparent;
+}
+
+.toggle-item__text {
+  display: none;
+}

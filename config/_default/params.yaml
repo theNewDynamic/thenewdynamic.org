@@ -1,13 +1,8 @@
-background_color_class: bg-near-white
-body_classes: font-sans bg-near-white border-solid border-t-4 border-primary-color
 description: Build Better Faster Websites with JAMstack tools and techniques
 logo: ""
 subtitle: Build Better Faster Websites
 utm_medium: website
 utm_source: thenewdynamic.org
 fathom_id: FZDREAIY
-dev:
-  fonts_path: static/assets/Fonts
-  image_url: "https://thenewdynamic-org.imgix.net"
 seo:
   default_image: /images/tnd-logo-card.png

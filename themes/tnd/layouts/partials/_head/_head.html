@@ -1,0 +1,35 @@
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,minimum-scale=1">
+
+{{ hugo.Generator}}
+
+{{if and (eq (getenv "HUGO_ENV") "production") (ne .Params.private true)  }}
+  <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+{{else}}
+  <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+{{end}}
+{{ with getenv "HUGO_ENV" }}
+	<meta name="tnd:env" value="{{ . }}">
+{{ else }}
+	<meta name="tnd:env" value="noneset">
+{{ end }}
+{{ with .OutputFormats.Get "RSS" }}
+  <link href="{{.}}" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title  }}" />
+  <link href="{{.}}" rel="feed" type="application/rss+xml" title="{{ $.Site.Title }}" />
+{{end}}
+
+
+{{ partialCached "_head/performance" . }}
+
+{{ if templates.Exists "partials/tnd-seo/print.html" }}
+	{{ partial "tnd-seo/print" . }}
+{{ else }}
+	{{partial "_head/hugo-internal-templates.html" .}}
+{{ end }}
+{{if eq (getenv "HUGO_ENV") "production"}}
+  {{ template "_internal/google_analytics_async.html" . }}
+{{ end }}
+
+{{partial "_head/assets.html" .}}
+{{partial "_head/manifest.html" .}}

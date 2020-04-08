@@ -1,5 +1,4 @@
 title: the New Dynamic
-MetaDataFormat: yaml
 DefaultContentLanguage: en
 Paginate: 300
 baseURL: "https://www.thenewdynamic.org"
@@ -9,6 +8,8 @@ enableRobotsTXT: true
 languageCode: en-us
 preserveTaxonomyNames: true
 rssLimit: 20
+theme:
+  - tnd  
 #themesDir: components
 # mediaTypes:
 #   text/netlify:
@@ -25,15 +26,15 @@ rssLimit: 20
 #     isPlainText: true
 #     mediatype: text/netlify
 #     notAlternative: true
-outputs:
-  home:
-    - HTML
-#    - HEADERS
-#    - REDIR
-    - JSON
-  section:
-    - HTML
-    - JSON
+# outputs:
+#   home:
+#     - HTML
+#     #    - HEADERS
+#     #    - REDIR
+#     - JSON
+#   section:
+#     - HTML
+# #    - JSON
 
 related:
   includeNewer: true

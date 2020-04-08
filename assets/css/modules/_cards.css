@@ -1,0 +1,8 @@
+
+
+.card {
+  @apply .rounded .overflow-hidden .shadow-md .mb-8 .bg-white
+}
+.card section, .card section.tags {
+  @apply .px-6 .py-4;
+}

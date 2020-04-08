@@ -1,0 +1,6 @@
+<div id="expandable-nav-side" class="bottom-0 expandable flex flex-col fixed top-0 left-0 h-full transition bg-primary-color-500 overflow-y-scroll pt-32 w-64 max-w-full z-10" role="banner" data-search-index="false">
+  <label for="expandable-nav-side-input" class="absolute block hover:text-red pointer text-decoration-none mr-8 mt-4 text-grey-lighter toggle pin-t transition top-0 z-300">
+    {{- partial "svg/ic_close.svg" (dict "width" "44" "height" "44") -}}
+  </label>      
+  {{ partial "_global/menus.html" . }}
+</div>
