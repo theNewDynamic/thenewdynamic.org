@@ -1,0 +1,38 @@
+.bundler-task-runner {
+	/* @apply bg-primary-color text-grey-lighter; */
+	background-color: #27241d;
+	@apply text-gray-200;
+}
+.content-management {
+	/* @apply bg-primary-color text-grey-lighter; */
+	background-color: #aba194;
+	@apply text-gray-200;
+}
+.helper {
+	/* @apply bg-primary-color text-grey-lighter; */
+	background-color: #aa7942;
+	@apply text-gray-200;
+}
+.hosting-deployment {
+	@apply text-gray-200;
+	background-color: #826754;
+}
+.interaction {
+	@apply text-gray-200;
+	background-color: #6d545d;
+	color: #d6d6d6;
+}
+.serverless {
+	/* @apply bg-primary-color text-grey-lighter; */
+	background-color: #6d545d;
+	@apply text-gray-200;
+}
+.static-site-generator {
+	@apply bg-primary-color-500 text-gray-200;
+}
+.theme {
+	/* @apply bg-primary-color text-grey-lighter; */
+	background-color: #6d676e;
+	@apply text-gray-200;
+}
+/* purgecss end ignore */
