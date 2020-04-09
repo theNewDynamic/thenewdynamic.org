@@ -1,13 +1,13 @@
-@import "site";
+@import "assets/fonts";
 
-/* @import "modules/_utilities"; */
-/* @import "modules/_user-content"; */
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+
+@import "site";
 @import "modules/_social-icons-inverse";
 @import "modules/_transitions";
 @import "modules/_menu";
 @import "modules/_menu-button";
-/* @import "modules/_hugo-internal-templates"; */
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss/utilities";
