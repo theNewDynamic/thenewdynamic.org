@@ -2,53 +2,24 @@
   
 } */
 /* purgecss start ignore */
-.tnd-Nav__item {
-  @apply font-sans;
+
+.tnd-Nav {
+	@apply flex-1 px-2 bg-white pt-2;
 }
 
 
 .tnd-Nav__item a {
-  @apply w-full px-4 block text-gray-900 no-underline text-left leading-tight py-1 text-sm;
+	/* @apply  */
+	@apply font-sans flex items-center px-3 py-3 text-xl leading-5 font-medium text-black rounded-md transition ease-in-out duration-150 lowercase w-full block text-gray-900 no-underline;
 }
 
 .tnd-Nav__item a:hover {
-  @apply bg-gray-500 text-white underline;
+	@apply text-gray-100 bg-gray-600;
 }
 
-.tnd-Nav__item--active a{
-  @apply bg-gray-200 text-gray-900;
-}
-
-
-
-@screen xl {
-  .tnd-Nav__item a {
-    @apply text-base py-2 px-6;
-  }
- 
-}
-#expandable-nav-side .tnd-Nav__item a {
-  @apply text-gray-200 text-xl py-4;
-}
-
-#expandable-nav-side .tnd-Nav__item--active a{
-  @apply bg-primary-color-700 text-gray-100;
-}
-
-#expandable-nav-side .tnd-Nav__item a:hover {
-  @apply bg-primary-color-600 text-white underline;
+.tnd-Nav__item a:focus {
+	@apply bg-gray-200 outline-none;
 }
 
 
-
-input[type=checkbox]#expandable-nav-side-input {
-  display: none;
-}
-#expandable-nav-side {
- transform: translateX(-256px)
-}
-
-#expandable-nav-side-input:checked + #expandable-nav-side {
- transform: translateX(0)
-}
 /* purgecss end ignore */
