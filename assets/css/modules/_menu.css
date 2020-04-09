@@ -12,12 +12,14 @@
 }
 
 .tnd-Nav__item a:hover {
-  @apply bg-gray-500 text-gray-300 underline;
+  @apply bg-gray-500 text-white underline;
 }
 
 .tnd-Nav__item--active a{
-  @apply bg-gray-400 text-gray-900;
+  @apply bg-gray-200 text-gray-900;
 }
+
+
 
 @screen xl {
   .tnd-Nav__item a {
@@ -26,8 +28,18 @@
  
 }
 #expandable-nav-side .tnd-Nav__item a {
-  @apply text-gray-200;
+  @apply text-gray-200 text-xl py-4;
 }
+
+#expandable-nav-side .tnd-Nav__item--active a{
+  @apply bg-primary-color-700 text-gray-100;
+}
+
+#expandable-nav-side .tnd-Nav__item a:hover {
+  @apply bg-primary-color-600 text-white underline;
+}
+
+
 
 input[type=checkbox]#expandable-nav-side-input {
   display: none;
