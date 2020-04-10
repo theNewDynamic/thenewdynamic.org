@@ -1,6 +1,6 @@
 {{ define "main" }} {{ $current := .}}
 
-<div class="mx-autof max-w-2xl">
+<div class="mx-auto max-w-2xl">
 	<article class="h-entry">
 		{{/* For sections, requires $section being passed through: {{partial
 		"_components/page-heading.html" $section}} */}}
@@ -29,7 +29,5 @@
 			{{ .Content }}
 		</section>
 	</article>
-
-	
 </div>
 {{ end }}
