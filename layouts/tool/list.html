@@ -1,0 +1,17 @@
+{{ define "main" }}{{/* tool/list layout is shared with taxonomy/tools */}}
+  <article id="filter" class="page-list_default mx-auto">
+    <div class="mb-16">        
+      {{ partial "page-description.html" . }}
+    </div>
+    <section
+    class="filteredlist content sm:grid  gap-4 grid-cols-2 lg:grid-cols-3 xl:grid-cols-5"
+  >
+    {{ range.Data.Pages.ByTitle }}
+    <div class="bg-white shadow hover:shadow-lg">
+      {{ .Render "summary" }}
+    </div>
+    {{ end }}
+  </section>
+  
+  </article>
+{{ end }}

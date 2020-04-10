@@ -1,22 +1,20 @@
 {{ define "main" }}
-  <article class=" mx-auto min-h-screen text-gray-800">
+  <article class="max-w-4xl mx-auto min-h-screen text-gray-800">
     <div class="mb-16">
       {{ partial "page-description.html" . }}
     </div>
-  
     {{ with .Params.related_tools }}
-    <aside class="related_tools flex flex-wrap mb-8 md:text-xl">
-      {{ range . }}{{ $link := index (where (where $.Site.Pages ".Section" "tool") ".File.Path" "in" .) 0 }}
-      {{ partial "_components/tags" $link }}
-      {{ end }}
-    </aside>
+      <aside class="related_tools flex flex-wrap mb-8 md:text-xl">
+        {{ range . }}{{ $link := index (where (where $.Site.Pages ".Section" "tool") ".File.Path" "in" .) 0 }}
+        {{ partial "_components/tags" $link }}
+        {{ end }}
+      </aside>
     {{ end }}
-    {{/* {{- partial "_components/image-picture-element.html" . -}} */}}
-    <div class="aspect-ratio-16/9 w-full relative">
-      <iframe id="existing-iframe-example" class="absolute w-full h-full pin"
+    <div class="w-full mx-auto relative bg-blue-200 mb-16" style="padding-bottom:56.25%">
+      <iframe class="absolute w-full h-full object-cover"
         src="https://www.youtube.com/embed/{{.Params.video_id}}?enablejsapi=1" frameborder="0"></iframe>
     </div>
-    <section class="text-xl my-16 leading-normal text-grey-darkest">
+    <section class="rich-text">
       {{ .Content }}
     </section>
     {{ partial "prev-next-in-section-icon.html" . }}

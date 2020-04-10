@@ -1,0 +1,14 @@
+{{ with .Params.link_to_original }}
+  <a href="{{- . -}}" class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibolfd text-grey-darker mr-2 dim no-underline font-sans">
+    {{ with $.Params.where_published }}
+      {{- . -}}
+      {{ else }}
+    {{ replaceRE "^https?://([^/]+).*" "$1" . | safeHTMLAttr }}
+    {{ end }}    
+    <span class="inline-block ml-1">{{ partial "svg/link-external.svg" (dict "size" "12") }}</span>
+  </a>
+  {{ else }}
+    {{ with .Params.where_published }}
+      <span class="f6 i text-accent-color-dark">{{- . -}}</span>
+    {{ end }}
+{{ end }}

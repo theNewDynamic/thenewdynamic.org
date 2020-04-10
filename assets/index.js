@@ -18,6 +18,6 @@ import "./js/nojs.js";
 // 		components: { App }
 // 	});
 // } 
-console.log("NODE_ENVg=", process.env.NODE_ENV);
+console.log("NODE_ENV=", process.env.NODE_ENV);
 
 // TODO: Add back --experimental-scope-hoisting to parcel command after upgrade to 1.13 (if path issue is fixed)

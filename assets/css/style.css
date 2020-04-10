@@ -6,8 +6,7 @@
 
 @import "site";
 @import "modules/_social-icons-inverse";
-@import "modules/_transitions";
 @import "modules/_menu";
-@import "modules/_menu-button";
 
 @import "tailwindcss/utilities";
+

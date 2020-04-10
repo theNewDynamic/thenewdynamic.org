@@ -1,0 +1,7 @@
+<div class="text-base leading-normal">
+  {{ with .Params.description }}
+    {{- markdownify . -}}
+  {{ else }}
+    {{- markdownify .Summary | safeHTML | truncate 200 -}}
+  {{ end }}
+</div>

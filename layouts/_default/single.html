@@ -1,16 +1,35 @@
-{{ define "main" }}
-  <article class="h-entry mx-auto max-w-lg py-2 lg:pt-5 px-8">
-    {{- partial "_components/page-heading.html" . -}}
-    <section class="nested leading-normal text-lg nested-no-underlines nested-imgTK text-grey-darkest pb-32">
-      {{ .Content }}
-       {{ if (or (eq .Section "article") (eq .Section "event")) }} 
-        {{ if .Date }}
-          <div class="text-sm">
-            {{ partial "_components/time.html" (dict "context" . "show_time" false) }}
-          </div>
-        {{ end }} 
-        {{ end }} 
-        {{partial "_components/link-to-original.html" (dict "item" .)}}
-    </section>
-  </article>
-{{end}}
+{{ define "main" }} {{ $current := .}}
+
+<div class="mx-autof max-w-2xl">
+	<article class="h-entry">
+		{{/* For sections, requires $section being passed through: {{partial
+		"_components/page-heading.html" $section}} */}}
+		<h1 class="text-4xl font-brand">
+			{{- .Title | markdownify -}}
+		</h1>
+		{{ with .Description }}
+      <p>
+        {{- . | markdownify -}}
+      </p>
+    {{ end }} 
+    
+    {{ with.Params.images }}
+      <div class="lazyload my-4" data-noscript="">
+        <noscript>
+          <img
+            src="{{ index . 0 | absURL }}"
+            class="lazyload mb-2 mr-3 mt-2 max-w-full shadow-md"
+            alt="Image "
+          />
+        </noscript>
+      </div>
+		{{ end }}
+
+		<section class="rich-text text-lg text-gray-800">
+			{{ .Content }}
+		</section>
+	</article>
+
+	
+</div>
+{{ end }}

@@ -5,19 +5,19 @@
     {{ partial "head/scripts" . }}
   </head>
   <body>
-    <div class="bg-primary-color-500 text-white h-full fixed top-0 bottom-0 w-10 sm:w-16">
-      {{ partial "_global/side-nav.html" . }}
-    </div>    
-    <div id="content" class="content sm:grid grid-cols-12 ml-10 sm:ml-16">      
-      <div class="sm:col-span-3 xl:col-span-2 w-full border-r lg:min-h-screen flex flex-col justify-between lg:overflow-scroll lg:h-screen">
-        {{ partial "_global/header.html" . }}          
-      </div>          
-      <main role="main" class="sm:col-span-9 xl:col-span-10 lg:overflow-scroll lg:h-screen">
-        {{ block "hero" . }}{{ end }}
-        <div class="p-4 xl:p-16">
-          {{ block "main" . }}{{ end }}
+    <div class="h-screen border-t-2 border-primary-color-500 flex overflow-hidden bg-gray-100" x-data="{ sidebarOpen: false }" @keydown.window.escape="sidebarOpen = false">
+      <!-- Off-canvas menu for mobile -->
+      {{ partial "sidebar-mobile.html" . }}
+      <!-- Static sidebar for desktop -->
+      {{ partial "sidebar.html" . }}
+        <div class="flex flex-col w-0 flex-1 overflow-hidden">
+          {{ partial "topbar.html" . }}
+          <main class="flex-1 relative z-0 overflow-y-auto py-6 focus:outline-none" tabindex="0" x-data x-init="$el.focus()">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
+              {{ block "main" . }}{{ end }}
+            </div>
+          </main>
         </div>
-      </main>      
-    </div>  
+    </div>
   </body>
 </html>

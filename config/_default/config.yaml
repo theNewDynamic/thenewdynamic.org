@@ -8,8 +8,8 @@ enableRobotsTXT: true
 languageCode: en-us
 preserveTaxonomyNames: true
 rssLimit: 20
-theme:
-  - tnd  
+# theme:
+#   - tnd  
 #themesDir: components
 # mediaTypes:
 #   text/netlify:
