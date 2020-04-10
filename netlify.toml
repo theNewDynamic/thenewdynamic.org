@@ -3,14 +3,15 @@ publish = "public"
 command = "hugo --gc --minify"
 
 [context]
+GO_VERSION = "1.14"
+HUGO_VERSION = "0.68.0"
 
 [context.production]
 
 [context.production.environment]
-HUGO_VERSION = "0.68.0"
 HUGO_ENV = "production"
 NODE_ENV = "production"
-GO_VERSION = "1.14"
+
 
 [context.deploy-preview]
 command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
