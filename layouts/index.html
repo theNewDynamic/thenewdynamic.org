@@ -1,23 +1,29 @@
 {{ define "main" }}
+{{- partial "_components/page-heading.html" . -}}
+{{- partial "_components/page-content.html" . -}}
+	
+<div class="grid grid-cols-8 gap-6 mt-12">
 
-
-	<h1 class="font-brand text-2xl font-semibold text-gray-900">Dashboard</h1>
-	<!-- Replace with your content -->
-	<div class="py-4">
+	<div class="col-span-2">
+		<div class="" id="clear-refinements"></div>	
 		
-		<div class="ais-InstantSearch">
-						  
-			  <div class="w-2/3 min-h-full" id="hits"></div>
-			  <div id="refinement-list"></div>
-			</div>
-		  </div>
-		  
-
-
-
-
+		<div class="bg-gray-100" id="refinement-tool_type"></div>			
+		<div class="bg-gray-200" id="refinement-interaction_type"></div>	
+		<div class="bg-gray-300" id="refinement-data_model"></div>	
+		<div class="bg-gray-400" id="refinement-license"></div>	
+		<div class="bg-gray-500" id="refinement-tags"></div>	
 	</div>
-	<!-- /End replace -->
 
-
+	<div class="col-span-6 pt-12">
+		<div id="hits"></div>
+	</div>
+	
+	
+</div>
+	
+	
+	
+	
+	
+	
 {{ end }}

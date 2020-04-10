@@ -4,11 +4,9 @@
     {{ partial "head/styles" . }}
     {{ partial "head/scripts" . }}
 
-  <!-- <script src="https://cdn.jsdelivr.net/algoliasearch/3.32.0/algoliasearchLite.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.4.0"></script> -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.css@7.3.1/themes/reset-min.css" integrity="sha256-t2ATOGCtAIZNnzER679jwcFcKYfLlw01gli6F6oszk8=" crossorigin="anonymous">
+{{/*  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.css@7.3.1/themes/reset-min.css" integrity="sha256-t2ATOGCtAIZNnzER679jwcFcKYfLlw01gli6F6oszk8=" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.css@7.3.1/themes/algolia-min.css" integrity="sha256-HB49n/BZjuqiCtQQf49OdZn63XuKFaxcIHWf0HNKte8=" crossorigin="anonymous">  */}}
 
-  
   </head>
   <body>
     <div class="h-screen border-t-2 border-primary-color-500 flex overflow-hidden bg-gray-100" x-data="{ sidebarOpen: false }" @keydown.window.escape="sidebarOpen = false">
@@ -19,7 +17,7 @@
         <div class="flex flex-col w-0 flex-1 overflow-hidden">
           {{ partial "topbar.html" . }}
           <main class="flex-1 relative z-0 overflow-y-auto py-6 focus:outline-none" tabindex="0" x-data x-init="$el.focus()">
-            <div class="max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6">
               <img
                     class="h-16 mb-8 md:hidden"
                     src="/images/tnd-logo-B50938.svg"
