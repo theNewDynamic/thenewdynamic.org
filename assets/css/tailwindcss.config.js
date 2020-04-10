@@ -223,6 +223,9 @@ module.exports = {
 		textRendering: ["responsive"]
 	},
 	plugins: [
+		require("@tailwindcss/ui")({
+			layout: "sidebar"
+		}),
 		require("tailwindcss-typography")({
 			// all these options default to the values specified here
 			ellipsis: true, // whether to generate ellipsis utilities
