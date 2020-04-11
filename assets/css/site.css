@@ -1,38 +1,69 @@
+.ais-Hits-item > .bundler-task-runner,
 .bundler-task-runner {
 	/* @apply bg-primary-color text-grey-lighter; */
 	background-color: #27241d;
 	@apply text-gray-200;
 }
+.ais-Hits-item > .content-management,
 .content-management {
 	/* @apply bg-primary-color text-grey-lighter; */
 	background-color: #aba194;
 	@apply text-gray-200;
 }
+.ais-Hits-item > .helper,
 .helper {
 	/* @apply bg-primary-color text-grey-lighter; */
 	background-color: #aa7942;
 	@apply text-gray-200;
 }
+.ais-Hits-item > .hosting-deployment,
 .hosting-deployment {
 	@apply text-gray-200;
 	background-color: #826754;
 }
+.ais-Hits-item > .interaction,
 .interaction {
 	@apply text-gray-200;
 	background-color: #6d545d;
 	color: #d6d6d6;
 }
+.ais-Hits-item > .serverless,
 .serverless {
 	/* @apply bg-primary-color text-grey-lighter; */
 	background-color: #6d545d;
 	@apply text-gray-200;
 }
+.ais-Hits-item > .static-site-generator,
 .static-site-generator {
 	@apply bg-primary-color-500 text-gray-200;
 }
+
+.ais-Hits-item > .theme,
 .theme {
 	/* @apply bg-primary-color text-grey-lighter; */
 	background-color: #6d676e;
 	@apply text-gray-200;
+}
+
+.ais-Hits-list {
+	@apply grid grid-cols-4 gap-4;
+}
+
+.ais-Hits-list li {
+	@apply w-full border;
+}
+
+.ais-ClearRefinements-button {
+	@apply bg-gray-600 text-white px-3 py-1 rounded text-sm;
+}
+
+.ais-ClearRefinements-button--disabled {
+	@apply bg-gray-100 text-gray-100;
+}
+.ais-RefinementList-labelText {
+	@apply ;
+}
+.ais-RefinementList-count {
+	@apply text-xs text-gray-600;
 }
 /* purgecss end ignore */

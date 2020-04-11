@@ -1,29 +1,38 @@
-{{ define "main" }}
-{{- partial "_components/page-heading.html" . -}}
+{{ define "main" }} 
+{{- partial "_components/page-heading.html" . -}} 
 {{- partial "_components/page-content.html" . -}}
-	
-<div class="grid grid-cols-8 gap-6 mt-12">
 
-	<div class="col-span-2">
-		<div class="" id="clear-refinements"></div>	
-		
-		<div class="bg-gray-100" id="refinement-tool_type"></div>			
-		<div class="bg-gray-200" id="refinement-interaction_type"></div>	
-		<div class="bg-gray-300" id="refinement-data_model"></div>	
-		<div class="bg-gray-400" id="refinement-license"></div>	
-		<div class="bg-gray-500" id="refinement-tags"></div>	
+<!-- <a href="" id="fb_share" target="_blank">Share this page</a> -->
+
+<div class="grid grid-cols-12 gap-6 mt-8">
+	<div class="col-span-3 text-base text-gray-800">
+		<div class="" id="clear-refinements"></div>
+
+		<div>
+			<h3 class="font-bold font-brand text-lg">Tool Type</h3>
+			<div class="mb-10" id="refinement-tool_type"></div>
+		</div>
+		<div>
+			<h3 class="font-bold font-brand text-lg">Interaction Type</h3>
+			<div class="mb-10" id="refinement-interaction_type"></div>
+		</div>
+		<div>
+			<h3 class="font-bold font-brand text-lg">CMS Data Model</h3>
+			<div class="mb-10" id="refinement-data_model"></div>
+		</div>
+		<div>
+			<h3 class="font-bold font-brand text-lg">License</h3>
+			<div class="mb-10" id="refinement-license"></div>
+		</div>
+		<div>
+			<h3 class="font-bold font-brand text-lg">Tags</h3>
+			<div class="mb-10" id="refinement-tags"></div>
+		</div>
 	</div>
-
-	<div class="col-span-6 pt-12">
+	<div class="col-span-9 pt-12">
 		<div id="hits"></div>
 	</div>
-	
-	
 </div>
-	
-	
-	
-	
-	
-	
+<div class="mt-16" id="powered-by"></div>
+
 {{ end }}
