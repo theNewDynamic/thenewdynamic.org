@@ -8,10 +8,8 @@
 	>
 		{{ range.Data.Pages.ByTitle }}
 		<div class="bg-white shadow hover:shadow-lg">
-			<a href="{{.URL}}" class="block no-underline text-black hover:opacity-90">
-				<div
-					class="bg-grey-darkTK flex justify-between px-3 py-2 text-xs text-white{{ with .Params.tools}} {{ index . 0 | urlize }} {{ end }}"
-				>					
+			<a href="{{ .Permalink }}" class="block no-underline text-black hover:opacity-90">
+				<div class="bg-grey-darkTK flex justify-between px-3 py-2 text-xs text-white{{ with .Params.tools}} {{ index . 0 | urlize }} {{ end }}">					
 				</div>
 				<div class="p-3">
 					<dt class="title bold text-lg near-black">

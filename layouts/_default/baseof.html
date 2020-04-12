@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html lang="{{ site.LanguageCode | default "en" }}" class="no-js">
   <head>
-    {{ partial "head/styles"  . }}
     {{ partial "head/scripts" . }}
     {{ block "head_additions" . }}{{ end }}
+    {{ partial "head/styles"  . }}      
+    {{ if templates.Exists "partials/tnd-seo/print.html" }}
+      {{ partial "tnd-seo/print.html" . }}
+    {{ end }}
   </head>
   <body>
     <div class="h-screen border-t-4 border-primary-color-500 flex overflow-hidden bg-gray-100" x-data="{ sidebarOpen: false }" @keydown.window.escape="sidebarOpen = false">

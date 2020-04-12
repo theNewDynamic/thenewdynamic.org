@@ -10,7 +10,7 @@
 {{ $related_links := $links.RelatedTo (keyVals "tool" .File.Path) }}
 {{ $related_links_count := $related_links | len }}
 
-<a href="{{ .URL }}" class="block no-underline text-black hover:opacity-90">
+<a href="{{ .RelPermalink }}" class="block no-underline text-black hover:opacity-90">
   {{ with $category }}
     <div class="bg-grey-darkTK flex justify-between text-xs text-white" style="background-color:{{ .Params.color }};">    
       <div class="text-sm main-category px-4 py-2">

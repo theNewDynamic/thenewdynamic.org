@@ -8,8 +8,9 @@ enableRobotsTXT: true
 languageCode: en-us
 preserveTaxonomyNames: true
 rssLimit: 20
-# theme:
-#   - tnd  
+themes:
+  - github.com/theNewDynamic/hugo-component-tnd-seo
+
 #themesDir: components
 # mediaTypes:
 #   text/netlify:

@@ -181,7 +181,7 @@
 
 {{ define "tools_link" }}
   <li>
-    <a href="{{ .URL }}" class="block my-1 dim no-underline text-grey-darkest">
+    <a href="{{ .RelPermalink }}" class="block my-1 dim no-underline text-grey-darkest">
       {{- .Title -}}
     </a>
   </li>
@@ -189,7 +189,7 @@
 
 
 {{ define "showcase_item" }}
-  {{ $url := .URL }}
+  {{ $url := .RelPermalink }}
   {{ $image := index (.Params.images) 0 }}
   {{ with $image }}
     <a href="{{ $url }}" class="no-underline bg-black h-64 mb-8 shadow hover:shadow-md overflow-hidden">

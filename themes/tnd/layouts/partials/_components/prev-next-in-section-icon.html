@@ -1,8 +1,8 @@
 {{ with .PrevInSection }}
-  <a href="{{ .URL }}" title="{{ .Title }}">&laquo;</a>
+  <a href="{{ .RelPermalink }}" title="{{ .Title }}">&laquo;</a>
 {{ end }}
 {{ with .NextInSection }}
-  <a href="{{ .URL }}" title="{{ .Title }}">&raquo;</a>
+  <a href="{{ .RelPermalink }}" title="{{ .Title }}">&raquo;</a>
 {{ end }}
 <script>
     document.body.onkeyup = function(e){

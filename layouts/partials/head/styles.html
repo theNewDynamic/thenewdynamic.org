@@ -15,6 +15,6 @@
     >
   {{ end }}
 {{ end }}
-{{ range resources.Match "fonts/**/*.woff*" }}
+{{ range resources.Match "fonts/**/*.woff2" }}
   <link rel="prefetch" href="{{ .RelPermalink }}" as="font" crossorigin>
 {{ end }}
