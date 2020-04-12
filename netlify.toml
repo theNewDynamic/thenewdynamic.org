@@ -12,7 +12,6 @@ HUGO_VERSION = "0.68.0"
 HUGO_ENV = "production"
 NODE_ENV = "production"
 
-
 [context.deploy-preview]
 command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
 
