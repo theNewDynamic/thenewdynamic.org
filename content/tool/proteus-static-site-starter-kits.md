@@ -1,0 +1,29 @@
+---
+title: 'Proteus Starter Kits '
+date: 2015-05-02T21:16:00.000+00:00
+posted_date: 2015-05-02T21:16:00.000+00:00
+featured: false
+slug: proteus-static-site-starter-kits
+tools:
+- Helper
+urls:
+  website: http://thoughtbot.github.io/proteus/
+  github: ''
+  twitter: ''
+  other: ''
+description: ''
+license: ''
+
+language: ''
+related_tools: []
+tags: []
+resources: []
+cat_test: ''
+draft: true
+
+---
+Proteus is a collection of useful starter kits to help you launch your static site or prototype faster. They follow the thoughtbot styleguide and include thoughtbot front end tools
+
+
+
+
