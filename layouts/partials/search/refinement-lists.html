@@ -1,0 +1,34 @@
+<div x-data="{ show: false }">
+	<button
+		class="show_filters md:hidden bg-gray-700 text-white px-3 py-1 rounded mb-1 transition-opacity ease-linear duration-300"
+		@click="show = !show"
+		:aria-expanded="show ? 'true' : 'false'"
+		:class="{ 'active': show }"
+	></button>
+	<div class="md:block" :class="{ 'hidden': show === false }">
+		<div class="inline-block" id="stats"></div>
+		<div class="inline-block" id="clear-refinements"></div>
+		<div class="bg-white text-gray-500 rounded pl-4 pr-2 py-6 border">
+			<div class="mb-10" id="refinement-tool_type"></div>
+			<div class="mb-10" id="refinement-interaction_type"></div>
+			<div class="mb-10" id="refinement-data_model"></div>
+			<div class="mb-10" id="refinement-license"></div>
+			<div class="mb-10" id="refinement-tags"></div>
+			<a href="#filter_content"
+				class="md:hidden bg-gray-700 text-white px-3 py-1 rounded mb-1 transition-opacity ease-linear duration-300"
+				@click="show = !show"
+			>
+				Hide Filters
+			</a>
+		</div>
+	</div>
+</div>
+
+<style>
+	.show_filters:before {
+		content: "Show Filters";
+	}
+	.show_filters.active:before {
+		content: "Hide Filters";
+	}
+</style>

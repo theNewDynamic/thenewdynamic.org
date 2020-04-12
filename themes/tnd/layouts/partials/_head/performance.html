@@ -1,0 +1,12 @@
+{{/* 
+  
+  DNS Prefetch
+  
+  */}}
+{{ with .Site.Params.image_url }}
+  <link rel="dns-prefetch" href="{{.}}">
+{{ end }}
+
+{{ with .Site.GoogleAnalytics }}
+  <link rel="dns-prefetch" href="https://www.google-analytics.com">
+{{ end }}

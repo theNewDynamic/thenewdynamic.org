@@ -1,0 +1,33 @@
+{{/* 
+  Hugo Generates our Stylesheet.  
+  */}}
+{{/* Grab the file  */}}
+{{ $css := resources.Get "css/styles.css" }}
+  {{/* If it exists */}}
+  {{ with $css }}
+    {{/* Process the CSS file */}}
+    {{ $securecss := . | postCSS | minify | fingerprint }}  
+    <link rel="stylesheet" href="{{ $securecss.Permalink | relURL  }}" integrity="{{ $securecss.Data.Integrity }}" crossorigin="anonymous"> 
+  {{ end }}
+
+  {{/* And, Parcel generates the files to the dist directory from where we process Fonts. Grab those files to create Prefetch links, and using Pipes, also puts them in our public folder */}}
+{{ if (fileExists "./assets/dist/index.css") }}     
+  {{/* Generate a stylesheet for the fonts */}}
+  {{ $font_styles := resources.Get "dist/index.css" }}
+    {{/* If it exists */}}
+    {{ with $font_styles }}
+    {{/* Process the CSS file. Here we don't need PostCSS */}}
+      {{ $font_styles := . | minify | fingerprint }}  
+      <link rel="stylesheet" href="{{ $font_styles.Permalink | relURL  }}" integrity="{{ $font_styles.Data.Integrity }}" crossorigin="anonymous"> 
+    {{ end }}
+  {{/* Read the directory to range through the font files */}}
+  {{ $path := "./assets/dist" }}
+  {{ $files := readDir $path }}
+  {{ range $files }}
+      {{/*  We use woff2 by default, but "woff" is better for older browsers  */}}
+    {{ if in .Name "woff2" }}  
+      {{ $file := resources.Get (printf "%s%s" "dist/" .Name) }}    
+      <link rel="preload" href="{{ $file.Permalink | relURL }}" as="font" crossorigin>  
+    {{ end }}
+  {{ end }}
+{{ end }}

@@ -1,0 +1,29 @@
+/* nav[aria-label="main"] {
+  
+} */
+/* purgecss start ignore */
+
+.tnd-Nav {
+	@apply flex-1 px-2 bg-white pt-2;
+}
+
+
+.tnd-Nav__item a {
+	/* @apply  */
+	@apply font-sans flex items-center px-3 py-3 text-xl leading-5 text-black rounded-md transition ease-in-out duration-150 lowercase w-full block text-gray-500 no-underline;
+}
+
+.tnd-Nav__item a:hover {
+	@apply text-gray-100 bg-gray-600;
+}
+
+.tnd-Nav__item a:focus {
+	@apply bg-gray-200 outline-none;
+}
+
+
+.tnd-Nav__item--active a {
+	@apply font-medium text-gray-900;
+}
+
+/* purgecss end ignore */

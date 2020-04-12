@@ -1,0 +1,38 @@
+[build]
+publish = "public"
+command = "hugo --gc --minify"
+
+[context]
+GO_VERSION = "1.14"
+HUGO_VERSION = "0.68.0"
+
+[context.production]
+
+[context.production.environment]
+HUGO_ENV = "production"
+NODE_ENV = "production"
+
+
+[context.deploy-preview]
+command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
+
+[context.deploy-preview.environment]
+HUGO_VERSION = "0.68.0"
+
+[context.branch-deploy]
+command = "hugo --gc --minify -b $DEPLOY_URL"
+
+[context.branch-deploy.environment]
+HUGO_VERSION = "0.68.0"
+
+[[headers]]
+for = "/*"
+
+[headers.values]
+Content-Security-Policy = "upgrade-insecure-requests"
+Strict-Transport-Security = "max-age=15768000"
+X-Xss-Protection = "1; mode=block"
+X-Frame-Options = "DENY"
+X-Content-Type-Options = "nosniff"
+Referrer-Policy = "strict-origin-when-cross-origin"
+Feature-Policy = "camera 'none'; geolocation 'none'; microphone 'none'"

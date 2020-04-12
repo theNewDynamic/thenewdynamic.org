@@ -1,0 +1,5 @@
+{{ $assets := .Site.Data.assets }}  
+
+{{ with $assets.main }}
+	<script type="text/javascript" src="{{ with .js | default "/dist/main.js" }}{{ print . }}{{ end }}" {{ with .jsIntegrity }}integrity="{{ print . }}" crossorigin="anonymous"{{ end }} defer></script>
+{{ end }}

@@ -1,0 +1,10 @@
+<div class="mb-12 max-w-lg">
+  <h2>
+    <a href="{{ .Permalink | relURL }}" class="text-black leading-none text-2xl xl:text-3xl hover:text-primary-color no-underline">{{ .Title }}</a>
+  </h2> 
+  {{ with .Description }}    
+    <div class="text-sm leading-normal text-grey-darkest mt-2">
+      {{ . }}
+    </div>
+  {{ end }} 
+</div>

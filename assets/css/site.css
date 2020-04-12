@@ -1,0 +1,85 @@
+.ais-Hits-item > .bundler-task-runner,
+.bundler-task-runner {
+	/* @apply bg-primary-color text-grey-lighter; */
+	background-color: #27241d;
+	@apply text-gray-200;
+}
+.ais-Hits-item > .content-management,
+.content-management {
+	/* @apply bg-primary-color text-grey-lighter; */
+	background-color: #aba194;
+	@apply text-white;
+}
+.ais-Hits-item > .helper,
+.helper {
+	/* @apply bg-primary-color text-grey-lighter; */
+	background-color: #aa7942;
+	@apply text-gray-200;
+}
+.ais-Hits-item > .hosting-deployment,
+.hosting-deployment {
+	@apply text-gray-200;
+	background-color: #826754;
+}
+.ais-Hits-item > .interaction,
+.interaction {
+	@apply text-gray-200;
+	background-color: #6d545d;
+	color: #d6d6d6;
+}
+.ais-Hits-item > .serverless,
+.serverless {
+	/* @apply bg-primary-color text-grey-lighter; */
+	background-color: #6d545d;
+	@apply text-gray-200;
+}
+.ais-Hits-item > .static-site-generator,
+.static-site-generator {
+	@apply bg-primary-color-500 text-white;
+}
+
+.ais-Hits-item > .theme,
+.theme {
+	/* @apply bg-primary-color text-grey-lighter; */
+	background-color: #6d676e;
+	@apply text-gray-200;
+}
+
+.ais-ClearRefinements-button {
+	@apply bg-gray-600 text-white px-3 py-1 rounded text-sm;
+}
+
+.ais-ClearRefinements-button--disabled {
+	@apply bg-gray-100 text-gray-100;
+}
+
+.ais-RefinementList-count {
+	@apply text-xs text-gray-600;
+}
+
+.ais-RefinementList:before {
+	@apply text-xl text-gray-700 font-brand;
+}
+.ais-RefinementList--noRefinement:before {
+	@apply hidden;
+}
+
+#refinement-tool_type .ais-RefinementList:before {
+	content: "Tool Type";
+}
+#refinement-interaction_type .ais-RefinementList:before {
+	content: "Interaction Type";
+}
+
+#refinement-data_model .ais-RefinementList:before {
+	content: "Data Model";
+}
+
+#refinement-license .ais-RefinementList:before {
+	content: "License";
+}
+#refinement-tags .ais-RefinementList:before {
+	content: "Tags";
+}
+
+/* purgecss end ignore */

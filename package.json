@@ -1,0 +1,58 @@
+{
+  "name": "thenewdynamic",
+  "version": "3.0.0",
+  "description": "Build Better Faster Websites",
+  "main": "index.js",
+  "repository": "https://github.com/theNewDynamic/hugo-starter.git",
+  "author": "budparr <budparr@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "gethugo": "bash get-hugo.sh",
+    "version": "auto-changelog -p --template keepachangelog --unreleased true",
+    "hugo": "HUGO_ENV=development bin/hugo* server -D --gc --navigateToChanged --noHTTPCache",
+    "hugo-prod": "HUGO_ENV=production bin/hugo* --gc --minify",
+    "webpack": "HUGO_ENV=development webpack --mode=development --progress --colors --watch",
+    "webpack-prod": "HUGO_ENV=production webpack --mode=production",
+    "clean": "rm -rf public/ static/dist resources",
+    "deploy": "run-s webpack-prod hugo-prod",
+    "start": "run-p webpack hugo"
+  },
+  "dependencies": {
+    "@fullhuman/postcss-purgecss": "^2.1.0",
+    "@tailwindcss/ui": "^0.1.3",
+    "autoprefixer": "^9.7.5",
+    "postcss-cli": "^7.1.0",
+    "postcss-import": "^12.0.1",
+    "tailwindcss": "^1.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "algoliasearch": "^4.1.0",
+    "alpinejs": "^2.2.5",
+    "assets-webpack-plugin": "^3.9.12",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-dotenv": "^0.1.1",
+    "clean-webpack-plugin": "^3.0.0",
+    "dotenv-webpack": "^1.7.0",
+    "instantsearch.js": "^4.4.0",
+    "intersection-observer": "^0.5.1",
+    "lazysizes": "^4.1.8",
+    "npm-run-all": "^4.1.5",
+    "quicklink": "^1.0.1",
+    "tailwindcss-typography": "^3.0.1",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-subresource-integrity": "^1.4.0"
+  },
+  "hugo": {
+    "version": "0.68.0",
+    "extended": "true"
+  },
+  "prettier": {
+    "tabWidth": 2,
+    "useTabs": true,
+    "singleQuote": false,
+    "proseWrap": "preserve"
+  }
+}

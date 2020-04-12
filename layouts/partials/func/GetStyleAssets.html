@@ -1,0 +1,23 @@
+
+{{ $style_assets := slice }}
+{{ $return := slice }}
+
+{{ $to_bundle := slice }}
+{{ with resources.Get "css/style.css" }}
+  {{ $style := . | resources.PostCSS }}
+  {{ $style_assets = $style_assets | append (dict "style" $style "type" "link") }}
+{{ end }}
+
+{{ with resources.Get "fonts/index.css" }}
+  {{ $style_assets = $style_assets | append (dict "style" . "type" "critical") }}
+{{ end }}
+
+{{ range $style_assets }}
+  {{ $style := . }}
+  {{ if eq (getenv "NODE_ENV") "production" }}
+    {{ $style = dict "type" .type "style" (.style | minify | fingerprint) }}
+  {{ end }}
+  {{ $return = $return | append $style }}
+{{ end }}
+
+{{ return $return }}

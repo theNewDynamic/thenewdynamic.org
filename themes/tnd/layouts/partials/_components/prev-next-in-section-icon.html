@@ -1,0 +1,18 @@
+{{ with .PrevInSection }}
+  <a href="{{ .URL }}" title="{{ .Title }}">&laquo;</a>
+{{ end }}
+{{ with .NextInSection }}
+  <a href="{{ .URL }}" title="{{ .Title }}">&raquo;</a>
+{{ end }}
+<script>
+    document.body.onkeyup = function(e){
+    
+      {{ if .PrevInSection }}
+        if (e.keyCode == '37') { window.location = '{{ .PrevInSection.Permalink }}'; }
+      {{ end }}
+      {{ if .NextInSection }}
+        if (e.keyCode == '39') { window.location = '{{.NextInSection.Permalink }}'; }
+      {{ end }}
+    };    
+    </script>
+    

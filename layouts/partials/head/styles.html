@@ -1,0 +1,20 @@
+{{ $styles := partialCached "func/GetStyleAssets" . "GetStyleAssets" }}
+{{ range where $styles "type" "==" "critical" }}
+  {{ with .style }}
+    <style>{{ .Content | safeCSS }}</style>
+  {{ end }}
+{{ end }}
+{{ range where $styles "type" "!=" "critical" }}
+  {{ with .style }}
+    <link 
+      rel="stylesheet" 
+      href="{{ .RelPermalink }}"
+      {{ with .Data.Integrity }}
+      integrity="{{ . }}"
+      {{ end }}
+    >
+  {{ end }}
+{{ end }}
+{{ range resources.Match "fonts/**/*.woff*" }}
+  <link rel="prefetch" href="{{ .RelPermalink }}" as="font" crossorigin>
+{{ end }}

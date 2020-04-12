@@ -1,0 +1,14 @@
+<footer role="contentinfo">  
+  <div>
+    <a class="hover:text-white no-underline color-inherit" href="{{ .Site.BaseURL }}" >
+      &copy; {{ now.Format "2006" }} {{ .Site.Title }}
+    </a>
+    {{- partial "_global/menu.html" (dict "page" . "menu" "footer") -}}
+    {{ partial "_components/social-follow.html" (dict "cx" . "icon_size" "24px") }}
+  </div>
+
+  <a class="hover:text-gray no-underline color-inherit" href="https://thenewdynamic.com" >
+    site by the New Dynamic
+  </a>
+</div>
+</footer>

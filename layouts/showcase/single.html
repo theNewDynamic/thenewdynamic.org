@@ -1,0 +1,64 @@
+{{ define "main" }}
+  <article class="mx-auto max-w-4xl">
+      <div class="pb-4">
+          {{- partial "_components/page-heading.html" . -}}
+      </div>
+      {{ with .Params.related_tools }}
+        <aside class="related_tools flex flex-wrap mb-8 md:text-xl">
+          {{ range . }}{{ $link := index (where (where $.Site.Pages ".Section" "tool") ".File.Path" "in" .) 0 }}
+            {{ partial "_components/tags" $link }}
+          {{ end }}
+        </aside>
+      {{ end }}
+      {{/*  BEGIN: Temp replacement for picture element {{- partial "_components/image-picture-element.html" . -}}  */}}
+      {{ $image := index (.Params.images) 0 }}
+      {{ with $image }}
+      {{ if in (print $.Site.BaseURL) "localhost" }}
+        <img data-src="{{ . }}" src="/images/placeholder.svg" class="lazyload mw-full">
+      {{ else }}
+        {{ $img := replace . "/uploads" ($.Param "dev.image_url")  }}
+        <img src="/images/placeholder.svg" data-src="{{ $img }}?{{ (querify "w" "1200" "auto" "format") | safeURL }}" class="lazyload max-w-full">
+      {{ end }}
+    {{ end }}
+    {{/*  END  */}}
+    <aside class="py-4 border-b text-base text-grey-darkest">
+      <p class="mb-4">
+        {{ with .Params.website -}}
+          <a href="{{ . }}?{{ (querify "utm_source" $.Site.Params.utm_source "utm_medium" $.Site.Params.utm_medium "utm_campaign" $.Section ) | safeURL }}" class="no-underline">
+            {{- partial "_components/link-clean.html" . -}}
+            {{- partial "svg/link-external.svg" (dict "size" "12") -}}
+          </a>
+        {{- end }}
+        {{ with .Params.repo -}}
+          <a href="{{ . }}" class="no-underline ml-4">
+            {{- partial "_components/link-clean.html" . -}}
+            {{- partial "svg/link-external.svg" (dict "size" "12") -}}
+          </a>
+        {{- end }}
+      </p>
+      {{ with .Params.creator}}
+        {{ range . }}
+          <p>
+            {{ with .role }}{{ . }}{{ end }}
+            {{ if .name }}
+              by
+              {{ if .url}}
+                <a href="{{ .url }}?{{ (querify "utm_source" $.Site.Params.utm_source "utm_medium" $.Site.Params.utm_medium "utm_campaign" $.Section) | safeURL }}" class="no-underline">{{ .name }}</a>
+              {{ else }}
+                {{.name}}
+              {{ end }}
+            {{ end }}
+            {{ with .twitter_username -}}
+              (<a href="https://twitter.com/{{ . }}" class="no-underline">@{{- . -}}</a>)
+            {{- end }}
+          </p>
+        {{ end }}
+      {{ end }}
+    </aside>
+
+    <section class="text-xl my-16 leading-normal text-grey-darker">
+      {{ .Content }}
+    </section>
+    {{ partial "prev-next-in-section-icon.html" . }}
+  </article>
+{{ end }}

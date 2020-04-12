@@ -1,0 +1,16 @@
+<a href="{{.URL}}" class="block no-underline text-black hover:opacity-90">
+  <div class="bg-grey-darkTK flex justify-between px-3 py-2 text-xs text-white" style="background-color:{{.Params.color}};">
+      {{/* <span class="inline-block text-black">
+         article{{if gt $related_links_count 1}}s{{end}}
+      </span> */}}
+    {{/* {{if ge $related_links_count 1}}    {{end}} */}}
+  </div>
+  <div class="p-3">
+    <dt class="title bold text-lg near-black">
+      {{- .Title -}}
+    </dt>
+    <dd class="description nested-links text-sm no-underline leading-normal nested-copy-line-height">
+      {{- .Params.description -}}
+    </dd>
+  </div>
+</a>

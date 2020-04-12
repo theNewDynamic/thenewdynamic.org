@@ -1,0 +1,5 @@
+---
+title: The New Dynamic
+description: Resources to work with static site generators and the JAMstack, to build
+  fast and secure modern websites.
+---

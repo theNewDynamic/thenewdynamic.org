@@ -1,0 +1,33 @@
+{{ define "main" }} {{ $current := .}}
+
+<div class="mx-auto max-w-2xl">
+	<article class="h-entry">
+		{{/* For sections, requires $section being passed through: {{partial
+		"_components/page-heading.html" $section}} */}}
+		<h1 class="text-4xl font-brand">
+			{{- .Title | markdownify -}}
+		</h1>
+		{{ with .Description }}
+      <p>
+        {{- . | markdownify -}}
+      </p>
+    {{ end }} 
+    
+    {{ with.Params.images }}
+      <div class="lazyload my-4" data-noscript="">
+        <noscript>
+          <img
+            src="{{ index . 0 | absURL }}"
+            class="lazyload mb-2 mr-3 mt-2 max-w-full shadow-md"
+            alt="Image "
+          />
+        </noscript>
+      </div>
+		{{ end }}
+
+		<section class="rich-text text-lg text-gray-800">
+			{{ .Content }}
+		</section>
+	</article>
+</div>
+{{ end }}

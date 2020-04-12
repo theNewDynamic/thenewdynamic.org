@@ -1,0 +1,71 @@
+{{/* 
+  ### Default Classes
+  wrapperClass => tnd-Nav
+  itemClass => {wrapperClass}__item
+  linkClass => ""
+  activeClass => {itemClass}--active
+  subClass => {wrapperClass}__submenu
+  hasChildrenClass => {itemClass}--has-submenu
+  
+  ### TODOS
+  - Replace the 5 classes keys with one dict and test with reflect.IsMap/IsString (upcoming Hugo .54) if the parameter is a map of many classes or a string with just the wrapper class 
+  - Introduce user defined html tags nav>div>a vs nav>ul>li>a etc...
+*/}}
+
+{{- $wrapperClass := "tnd-Nav" -}}
+{{- with .wrapperClass -}}
+  {{- $wrapperClass =  . -}}
+{{- end -}}
+{{- $itemClass := printf "%s__item" $wrapperClass -}}
+
+{{- with .itemClass -}}
+  {{- $itemClass = . -}}
+{{- end -}}
+
+{{- $linkClass := "" }}
+{{- $subClass := printf "%s__submenu" $wrapperClass -}}
+{{- $activeClass := printf "%s--active" $itemClass -}}
+{{- $hasChildrenClass := printf "%s--has-submenu" $itemClass -}}
+
+{{- with .linkClass -}}
+  {{- $linkClass = . -}}
+{{- end -}}
+{{- with .activeClass -}}
+  {{- $activeClass = . -}}
+{{- end -}}
+{{- with .hasChildrenClass -}}
+  {{- $hasChildrenClass = . -}}
+{{- end -}}
+{{- with .subClass -}}
+  {{- $subClass = . -}}
+{{- end -}}
+
+{{- $menu := index .page.Site.Menus (.menu) -}}
+
+{{- with $menu -}}
+  <nav aria-label="{{- $.menu -}}" class="{{- $wrapperClass | safeHTMLAttr -}}">
+    {{- range . -}}
+      {{- template "tnd_hugo_starter_nav_item" (dict "page" $.page "menu" $.menu "wrapperClass" $wrapperClass "itemClass" $itemClass "linkClass" $linkClass "subClass" $subClass "hasChildrenClass" $hasChildrenClass "activeClass" $activeClass "item" .) -}}
+    {{- end -}}
+  </nav>
+{{- end -}}
+
+{{- define "tnd_hugo_starter_nav_item" -}}
+  {{- $active := false -}}
+  {{- if .page.IsMenuCurrent .menu .item -}}
+    {{- $active = true -}}
+  {{- end -}}
+  {{- if .page.HasMenuCurrent .menu .item -}}
+    {{- $active = true -}}
+  {{- end -}}
+  <div class="{{ $.itemClass }} {{ if $active }}{{ $.activeClass }}{{ end }} {{ if .item.HasChildren }}{{ $.hasChildrenClass }}{{ end }}">
+    <a {{ with $.linkClass }}class="{{ . }}"{{ end }} href="{{ .item.URL }}" title="{{ .item.Name }}">{{ .item.Name }}</a>
+    {{- with .item.Children -}}
+      <div class="{{ $.subClass }}">
+      {{- range . -}}
+        {{- template "tnd_hugo_starter_nav_item" (dict "page" $.page "menu" $.menu "wrapperClass" $.wrapperClass  "itemClass" $.itemClass "linkClass" $.linkClass "subClass" $.subClass "hasChildrenClass" $.hasChildrenClass "activeClass" $.activeClass "item" .) -}}
+      {{- end -}}
+      </div>
+    {{- end -}}
+  </div>
+{{- end -}}

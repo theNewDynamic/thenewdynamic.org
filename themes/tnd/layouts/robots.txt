@@ -1,0 +1,16 @@
+# robotstxt.org - if ENV production variable is false robots will be disallowed.
+User-agent: *
+
+{{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production")  }}
+{{range (where (where .Pages ".Params.private" true) ".Kind" "section")}}
+Disallow: {{.RelPermalink}}
+{{else}}
+Disallow: 
+{{end}}
+
+{{ else }}
+Disallow: /
+{{ end }}
+
+
+

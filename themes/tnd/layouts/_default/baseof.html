@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="{{ $.Site.LanguageCode | default "en" }}" class="no-js">
+  <head>
+    {{ block "head" .}}
+      {{- partial "_head/_head.html" . -}}
+    {{ end }}
+    {{block "scripts" .}}
+      {{ partialCached "_head/scripts.html" . }}
+    {{ end }}
+  </head>
+  <body class="{{ partial "_components/body-class" }}">
+    <div class="bg-primary-color text-white h-full fixed top-o bottom-0 w-10 sm:w-16">
+      {{ partial "_global/side-nav.html" . }}
+    </div>    
+    <div id="content" class="content sm:grid grid-cols-12 ml-10 sm:ml-16">      
+      <div class="sm:col-span-3 xl:col-span-2 w-full border-r lg:min-h-screen flex flex-col justify-between lg:overflow-scroll lg:h-screen">
+        {{ partial "_global/header.html" . }}          
+      </div>          
+      <main role="main" class="bg-red-200 sm:col-span-9 xl:col-span-10 lg:overflow-scroll lg:h-screen">
+        {{ block "hero" . }}{{ end }}
+        <div class="p-4 xl:p-16">
+          {{ block "main" . }}{{ end }}
+        </div>
+      </main>      
+    </div>  
+  </body>
+</html>
