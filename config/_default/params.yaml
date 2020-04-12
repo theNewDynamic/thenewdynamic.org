@@ -3,10 +3,10 @@ logo: ""
 subtitle: Build Better Faster Websites
 utm_medium: website
 utm_source: thenewdynamic.org
+image_url: https://thenewdynamic-org.imgix.net
 fathom_id: FZDREAIY
 seo:
   default_image: /images/tnd-logo-card.png
   jsonld: true
-div:
- image_url: https://thenewdynamic-org.imgix.net
+
   
