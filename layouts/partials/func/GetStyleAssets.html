@@ -14,7 +14,7 @@
 
 {{ range $style_assets }}
   {{ $style := . }}
-  {{ if eq (getenv "NODE_ENV") "production" }}
+  {{ if eq (getenv "HUGO_ENV") "production" }}
     {{ $style = dict "type" .type "style" (.style | minify | fingerprint) }}
   {{ end }}
   {{ $return = $return | append $style }}

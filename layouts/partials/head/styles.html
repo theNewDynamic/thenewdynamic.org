@@ -16,5 +16,5 @@
   {{ end }}
 {{ end }}
 {{ range resources.Match "fonts/**/*.woff2" }}
-  <link rel="prefetch" href="{{ .RelPermalink }}" as="font" crossorigin>
+  <link rel="prefetch" href="{{ .Permalink }}" as="font" crossorigin>
 {{ end }}
