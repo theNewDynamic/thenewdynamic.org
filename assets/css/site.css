@@ -1,3 +1,10 @@
+/* purgecss start ignore */
+ol.ais-Hits-list,
+ol.ais-Hits-list li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
 .ais-Hits-item > .bundler-task-runner,
 .bundler-task-runner {
 	/* @apply bg-primary-color text-grey-lighter; */

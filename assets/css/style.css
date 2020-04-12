@@ -4,7 +4,6 @@
 @import "tailwindcss/components";
 
 @import "site";
-@import "modules/_search";
 @import "modules/_social-icons-inverse";
 @import "modules/_menu";
 

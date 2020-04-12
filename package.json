@@ -52,7 +52,7 @@
   },
   "prettier": {
     "tabWidth": 2,
-    "useTabs": true,
+    "useTabs": false,
     "singleQuote": false,
     "proseWrap": "preserve"
   }
