@@ -1,6 +1,5 @@
 @import "assets/fonts";
 
-
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 
@@ -11,3 +10,9 @@
 
 @import "tailwindcss/utilities";
 
+html.no-js .js-only {
+	visibility: hidden;
+}
+html.js .js-only {
+	visibility: visible;
+}

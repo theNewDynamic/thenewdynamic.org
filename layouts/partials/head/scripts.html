@@ -9,3 +9,6 @@
 {{ with $assets.main }}
 	<script type="text/javascript" src="{{ print .js | default "/js/main.js" }}" {{ with .jsIntegrity }}integrity="{{ print . }}" crossorigin="anonymous"{{ end }} defer></script>
 {{ end }}
+
+
+<link rel="preconnect" href="https://EGKL8BPJHJ-dsn.algolia.net" crossorigin />

@@ -10,7 +10,7 @@
 
 .tnd-Nav__item a {
 	/* @apply  */
-	@apply font-sans flex items-center px-3 py-3 text-xl leading-5 font-medium text-black rounded-md transition ease-in-out duration-150 lowercase w-full block text-gray-900 no-underline;
+	@apply font-sans flex items-center px-3 py-3 text-xl leading-5 text-black rounded-md transition ease-in-out duration-150 lowercase w-full block text-gray-500 no-underline;
 }
 
 .tnd-Nav__item a:hover {
@@ -21,5 +21,9 @@
 	@apply bg-gray-200 outline-none;
 }
 
+
+.tnd-Nav__item--active a {
+	@apply font-medium text-gray-900;
+}
 
 /* purgecss end ignore */

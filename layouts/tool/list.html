@@ -1,17 +1,25 @@
-{{ define "main" }}{{/* tool/list layout is shared with taxonomy/tools */}}
-  <article id="filter" class="page-list_default mx-auto">
-    <div class="mb-16">        
-      {{ partial "page-description.html" . }}
-    </div>
-    <section
-    class="filteredlist content sm:grid  gap-4 grid-cols-2 lg:grid-cols-3 xl:grid-cols-5"
-  >
-    {{ range.Data.Pages.ByTitle }}
-    <div class="bg-white shadow hover:shadow-lg">
-      {{ .Render "summary" }}
-    </div>
-    {{ end }}
-  </section>
-  
-  </article>
+
+{{ define "head_additions" }}
+{{ $assets := .Site.Data.assets }}  
+  {{ with $assets.search }}
+  <script type="text/javascript" src="{{ print .js | default "/js/main.js" }}" {{ with .jsIntegrity }}integrity="{{ print . }}" crossorigin="anonymous"{{ end }} defer></script>
+  {{ end }}
+{{ end }}
+
+{{ define "main" }} 
+{{- partial "_components/page-heading.html" . -}}
+{{- partial "_components/page-content.html" . -}}
+<!-- <a href="" id="fb_share" target="_blank">Share this page</a> -->
+<div id="filter_content" class="md:grid grid-cols-16 gap-6 mt-8 js-only">
+	<div class="col-span-4 text-base text-gray-800">
+		{{ partial "search/refinement-lists.html" . }}	
+	</div>
+	<div class="col-span-12 pt-15">    
+		<!-- <div id="searchbox"></div> -->
+		{{ partial "search/searchbox.html" . }} 
+		<div id="hits"></div>
+	</div>
+</div>
+<div class="mt-16" id="powered-by"></div>
+
 {{ end }}

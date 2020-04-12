@@ -1,13 +1,7 @@
 {{ define "main" }} {{/* For sections, requires $section being passed through:
 {{partial "_components/page-heading.html" $section}} */}}
-<h1 class="text-4xl font-brand">
-	{{- .Title | markdownify -}}
-</h1>
-{{ with .Description }}
-<p>
-	{{- . | markdownify -}}
-</p>
-{{ end }}
+{{- partial "_components/page-heading.html" . -}}
+{{- partial "_components/page-content.html" . -}}
 
 <section class="mt-16">
 	{{ range.Paginator.Pages }}

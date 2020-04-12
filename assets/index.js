@@ -3,11 +3,15 @@
 
 import "./js/polyfills.js"; //MUST GO AT TOP
 import "alpinejs";
-import "./js/search/index.js";
 import "./js/lazysizes.js";
 import "./js/quicklink.js";
 import "./js/nojs.js";
 
+
+
+//const { APP_ID, SEARCH_API } = process.env;
+
+//console.log('env', process.env.APP_ID)
 // window.onload {
 // 	var getParams = function (url) {
 // 		var params = {};

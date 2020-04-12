@@ -1,35 +1,22 @@
+
+{{ define "head_additions" }}
+{{ $assets := .Site.Data.assets }}  
+  {{ with $assets.search }}
+  <script type="text/javascript" src="{{ print .js | default "/js/main.js" }}" {{ with .jsIntegrity }}integrity="{{ print . }}" crossorigin="anonymous"{{ end }} defer></script>
+  {{ end }}
+{{ end }}
+
 {{ define "main" }} 
-{{- partial "_components/page-heading.html" . -}} 
+{{- partial "_components/page-heading.html" . -}}
 {{- partial "_components/page-content.html" . -}}
-
 <!-- <a href="" id="fb_share" target="_blank">Share this page</a> -->
-
-<div class="grid grid-cols-12 gap-6 mt-8">
-	<div class="col-span-3 text-base text-gray-800">
-		<div class="" id="clear-refinements"></div>
-
-		<div>
-			<h3 class="font-bold font-brand text-lg">Tool Type</h3>
-			<div class="mb-10" id="refinement-tool_type"></div>
-		</div>
-		<div>
-			<h3 class="font-bold font-brand text-lg">Interaction Type</h3>
-			<div class="mb-10" id="refinement-interaction_type"></div>
-		</div>
-		<div>
-			<h3 class="font-bold font-brand text-lg">CMS Data Model</h3>
-			<div class="mb-10" id="refinement-data_model"></div>
-		</div>
-		<div>
-			<h3 class="font-bold font-brand text-lg">License</h3>
-			<div class="mb-10" id="refinement-license"></div>
-		</div>
-		<div>
-			<h3 class="font-bold font-brand text-lg">Tags</h3>
-			<div class="mb-10" id="refinement-tags"></div>
-		</div>
+<div id="filter_content" class="md:grid grid-cols-16 gap-6 mt-8 js-only">
+	<div class="col-span-4 text-base text-gray-800">
+		{{ partial "search/refinement-lists.html" . }}	
 	</div>
-	<div class="col-span-9 pt-12">
+	<div class="col-span-12 pt-15">    
+		<!-- <div id="searchbox"></div> -->
+		{{ partial "search/searchbox.html" . }} 
 		<div id="hits"></div>
 	</div>
 </div>

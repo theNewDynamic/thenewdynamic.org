@@ -12,20 +12,27 @@
       </div>
     <div class="text-base flex-wrap flex sm:flex-row flex-col mb-8 sm:mb-16 -mt-4">
 
-      {{ with .Params.tools }}
+
+
+
+      {{ $taxo := "tools" }} <!-- Use the plural form here -->
+      {{ if .Params.tools }}
         <div class="mr-3">
           Type:
-          {{ range  . }}
-            {{ $taxonomy := index (where (($.Site.GetPage "taxonomyTerm" "tools").Pages) "Data.Term" .) 0 }}
-              <a href="{{ $taxonomy.Permalink }}" class="dim font-sans inline-block bg-gray-600 mb-4 mx-2 no-underline rounded-full px-3 py-1 text-sm text-white"{{ with $taxonomy.Params.color }} style="background-color:{{ . | default "grey" }};"{{ end }}>
-                {{ $taxonomy.Title }}
+          {{ range .Param $taxo }}
+            {{ $name := . }}
+            {{ with $.Site.GetPage (printf "/%s/%s" $taxo ($name | urlize)) }}
+              <a href="{{ .Permalink }}" class="dim font-sans inline-block bg-gray-600 mb-4 mx-2 no-underline rounded-full px-3 py-1 text-sm text-white"{{ with .Params.color }} style="background-color:{{ . | default "grey" }};"{{ end }}>
+                {{ .Title }}
               </a>
+          {{ end }}
           {{ end }}
         </div>
       {{ end }}
+
+
       {{ with .Params.interactions }}
-        <div class="mr-3">
-          
+        <div class="mr-3">          
           {{ range  . }}
             {{ $taxonomy := index (where (($.Site.GetPage "taxonomyTerm" "interactions").Pages) "Data.Term" .) 0 }}
               <a href="{{ $taxonomy.Permalink }}" class="dim font-sans inline-block bg-gray-600 mb-4 mx-2 no-underline rounded-full px-3 py-1 text-sm text-white"{{ with $taxonomy.Params.color }} style="background-color:{{ . | default "grey" }};"{{ end }}>
@@ -67,7 +74,7 @@
 
     <div class="lg:grid-cols-2 gap-16 sm:grid">
 
-      <div class="max-w-smTK">
+      <div class="rich-text">
         <h2 class="mb-4">About {{ .Title }}</h2>
         {{ with .Content }}
           <div class="leading-nromal nested text-lg text-grey-darkest">
@@ -76,10 +83,10 @@
         {{ end }}
 
         {{ with .Params.urls }}
-          <div class="mt-8 text-lg">
+          <div class="mt-8 text-lg inline-block">
             {{ range $key, $value := . }}
               {{ with $value }}
-                <a href="{{ . }}" class="block mb-2 dim no-underline text-grey-darkest">{{ $key  | humanize }} {{ partial "svg/link-external.svg" (dict "size" "12") }}</a>
+                <a href="{{ . }}" class="flex block dim no-underline text-grey-darkest">{{ $key  | humanize }} {{ partial "svg/link-external.svg" (dict "size" "12") }}</a>
               {{ end }}
             {{ end }}
           </div>
@@ -133,17 +140,17 @@
         {{ end }} */}}
       </div>
 
-      <div class="">
+      <div class="rich-text">
         {{ with .Params.resources }}
           {{ if (index . 0) }}
-            <h2>Resources</h2>
+            <h2 class="">Resources</h2>
           {{ end }}
           <ul class="list-reset mb-8">
             {{ range .}}
               {{ $name := .name }}
-              <li>
+              <li class="flex">
                 {{ with .url }}
-                  <a href="{{ . }}?{{ (querify "utm_source" $.Site.Params.utm_source "utm_medium" $.Site.Params.utm_medium "utm_campaign" $.Section ) | safeURL }}" class="block dim no-underline text-grey-darkest mb-1">{{ $name }} {{ partial "svg/link-external.svg" (dict "size" "12") }}</a>
+                  <a href="{{ . }}?{{ (querify "utm_source" $.Site.Params.utm_source "utm_medium" $.Site.Params.utm_medium "utm_campaign" $.Section ) | safeURL }}" class="flex  no-underline text-grey-darkest">{{ $name }} {{ partial "svg/link-external.svg" (dict "size" "16") }}</a>
                 {{ end }}
               </li>
             {{ end }}

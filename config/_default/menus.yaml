@@ -1,6 +1,6 @@
 main:
-  - name: Database
-    url: /
+  - name: Tools Directory
+    url: /tool/
     weight: 1
   - name: Articles
     url: /article/

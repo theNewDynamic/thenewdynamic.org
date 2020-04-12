@@ -8,7 +8,7 @@
 .content-management {
 	/* @apply bg-primary-color text-grey-lighter; */
 	background-color: #aba194;
-	@apply text-gray-200;
+	@apply text-white;
 }
 .ais-Hits-item > .helper,
 .helper {
@@ -35,7 +35,7 @@
 }
 .ais-Hits-item > .static-site-generator,
 .static-site-generator {
-	@apply bg-primary-color-500 text-gray-200;
+	@apply bg-primary-color-500 text-white;
 }
 
 .ais-Hits-item > .theme,
@@ -45,14 +45,6 @@
 	@apply text-gray-200;
 }
 
-.ais-Hits-list {
-	@apply grid grid-cols-4 gap-4;
-}
-
-.ais-Hits-list li {
-	@apply w-full border;
-}
-
 .ais-ClearRefinements-button {
 	@apply bg-gray-600 text-white px-3 py-1 rounded text-sm;
 }
@@ -60,10 +52,34 @@
 .ais-ClearRefinements-button--disabled {
 	@apply bg-gray-100 text-gray-100;
 }
-.ais-RefinementList-labelText {
-	@apply ;
-}
+
 .ais-RefinementList-count {
 	@apply text-xs text-gray-600;
 }
+
+.ais-RefinementList:before {
+	@apply text-xl text-gray-700 font-brand;
+}
+.ais-RefinementList--noRefinement:before {
+	@apply hidden;
+}
+
+#refinement-tool_type .ais-RefinementList:before {
+	content: "Tool Type";
+}
+#refinement-interaction_type .ais-RefinementList:before {
+	content: "Interaction Type";
+}
+
+#refinement-data_model .ais-RefinementList:before {
+	content: "Data Model";
+}
+
+#refinement-license .ais-RefinementList:before {
+	content: "License";
+}
+#refinement-tags .ais-RefinementList:before {
+	content: "Tags";
+}
+
 /* purgecss end ignore */

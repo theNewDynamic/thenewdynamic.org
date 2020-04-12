@@ -950,7 +950,7 @@ video {
 
 .link {
   font-weight: 700;
-  color: #76a9fa;
+  color: #1e429f;
 }
 
 .link:hover {
@@ -1026,7 +1026,7 @@ video {
 
 .rich-text a {
   font-weight: 700;
-  color: #76a9fa;
+  color: #1e429f;
 }
 
 .rich-text a:hover {
@@ -1053,7 +1053,7 @@ video {
 .content-management {
   /* @apply bg-primary-color text-grey-lighter; */
   background-color: #aba194;
-  color: #e5e7eb;
+  color: #ffffff;
 }
 
 .ais-Hits-item > .helper,
@@ -1086,7 +1086,7 @@ video {
 .ais-Hits-item > .static-site-generator,
 .static-site-generator {
   background-color: #B50938;
-  color: #e5e7eb;
+  color: #ffffff;
 }
 
 .ais-Hits-item > .theme,
@@ -1094,18 +1094,6 @@ video {
   /* @apply bg-primary-color text-grey-lighter; */
   background-color: #6d676e;
   color: #e5e7eb;
-}
-
-.ais-Hits-list {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  grid-gap: 1rem;
-  gap: 1rem;
-}
-
-.ais-Hits-list li {
-  width: 100%;
-  border-width: 1px;
 }
 
 .ais-ClearRefinements-button {
@@ -1124,16 +1112,39 @@ video {
   color: #f4f5f7;
 }
 
-.ais-RefinementList-labelText {
-  font-size: 1rem;
-  color: #252f3f;
-  padding-left: 0.25rem;
-  margin-bottom: 0.25rem;
-}
-
 .ais-RefinementList-count {
   font-size: 0.75rem;
   color: #4b5563;
+}
+
+.ais-RefinementList:before {
+  font-size: 1.25rem;
+  color: #374151;
+  font-family: URW Franklin Gothic W01, URW Franklin Gothic, system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+.ais-RefinementList--noRefinement:before {
+  display: none;
+}
+
+#refinement-tool_type .ais-RefinementList:before {
+  content: "Tool Type";
+}
+
+#refinement-interaction_type .ais-RefinementList:before {
+  content: "Interaction Type";
+}
+
+#refinement-data_model .ais-RefinementList:before {
+  content: "Data Model";
+}
+
+#refinement-license .ais-RefinementList:before {
+  content: "License";
+}
+
+#refinement-tags .ais-RefinementList:before {
+  content: "Tags";
 }
 
 /* purgecss end ignore */
@@ -1274,7 +1285,6 @@ video {
   padding-bottom: 0.75rem;
   font-size: 1.25rem;
   line-height: 1.25rem;
-  font-weight: 500;
   color: #000000;
   border-radius: 0.375rem;
   transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
@@ -1283,7 +1293,7 @@ video {
   text-transform: lowercase;
   width: 100%;
   display: block;
-  color: #161e2e;
+  color: #6b7280;
   text-decoration: none;
 }
 
@@ -1295,6 +1305,11 @@ video {
 .tnd-Nav__item a:focus {
   background-color: #e5e7eb;
   outline: 0;
+}
+
+.tnd-Nav__item--active a {
+  font-weight: 500;
+  color: #161e2e;
 }
 
 /* purgecss end ignore */
@@ -26444,6 +26459,10 @@ video {
   grid-template-columns: repeat(12, minmax(0, 1fr));
 }
 
+.grid-cols-16 {
+  grid-template-columns: repeat(16, minmax(0, 1fr));
+}
+
 .grid-cols-none {
   grid-template-columns: none;
 }
@@ -30660,6 +30679,14 @@ video {
 
 .text-geometric-precision {
   text-rendering: geometricPrecision;
+}
+
+html.no-js .js-only {
+  visibility: hidden;
+}
+
+html.js .js-only {
+  visibility: visible;
 }
 
 @media (min-width: 640px) {
@@ -55806,6 +55833,10 @@ video {
 
   .sm\:grid-cols-12 {
     grid-template-columns: repeat(12, minmax(0, 1fr));
+  }
+
+  .sm\:grid-cols-16 {
+    grid-template-columns: repeat(16, minmax(0, 1fr));
   }
 
   .sm\:grid-cols-none {
@@ -85173,6 +85204,10 @@ video {
     grid-template-columns: repeat(12, minmax(0, 1fr));
   }
 
+  .md\:grid-cols-16 {
+    grid-template-columns: repeat(16, minmax(0, 1fr));
+  }
+
   .md\:grid-cols-none {
     grid-template-columns: none;
   }
@@ -114536,6 +114571,10 @@ video {
 
   .lg\:grid-cols-12 {
     grid-template-columns: repeat(12, minmax(0, 1fr));
+  }
+
+  .lg\:grid-cols-16 {
+    grid-template-columns: repeat(16, minmax(0, 1fr));
   }
 
   .lg\:grid-cols-none {
@@ -143903,6 +143942,10 @@ video {
     grid-template-columns: repeat(12, minmax(0, 1fr));
   }
 
+  .xl\:grid-cols-16 {
+    grid-template-columns: repeat(16, minmax(0, 1fr));
+  }
+
   .xl\:grid-cols-none {
     grid-template-columns: none;
   }
@@ -148121,4 +148164,3 @@ video {
     text-rendering: geometricPrecision;
   }
 }
-
