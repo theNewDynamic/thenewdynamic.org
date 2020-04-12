@@ -1,7 +1,0 @@
-{{ with .Params.images }}
-<div class="lazyload" data-noscript="">
-  <noscript>
-    <img src="{{ index . 0 | relURL }}" class="lazyload" alt="Image " />
-  </noscript>
-</div>
-{{ end }}
