@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="{{ site.LanguageCode | default "en" }}" class="no-js">
   <head>
+    {{ if eq (getenv "HUGO_ENV") "production" }}
+      <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+    {{ else }}
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    {{end}}
     {{ partial "head/scripts" . }}
     {{ block "head_additions" . }}{{ end }}
     {{ partial "head/styles"  . }}      
