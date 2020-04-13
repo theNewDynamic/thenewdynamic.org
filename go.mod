@@ -1,3 +1,3 @@
-module github.com/theNewDynamic/tnd-assets-js/fathom-analytics
+module github.com/theNewDynamic/thenewdynamic.org
 
 go 1.14
