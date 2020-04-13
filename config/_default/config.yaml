@@ -8,7 +8,7 @@ enableRobotsTXT: true
 languageCode: en-us
 preserveTaxonomyNames: true
 rssLimit: 20
-themes:
+theme:
   - github.com/theNewDynamic/hugo-component-tnd-seo
 
 #themesDir: components
@@ -66,4 +66,4 @@ taxonomies:
   interaction: interactions
 module:
   imports:
-    - path: github.com/theNewDynamic/tnd-assets-js/fathom-analytics
+    - path: github.com/theNewDynamic/tnd-assets-js/fathom-analytics    
