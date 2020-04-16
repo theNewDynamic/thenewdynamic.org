@@ -8,7 +8,7 @@ local_backend: true
 use_graphql: true
 media_folder: static
 public_folder: /images
-site_url: "https://www.thenewdynamic.org/"
+site_url: "https://www.thenewdynamic.org"
 slug:
   encoding: "ascii"
   clean_accents: true
