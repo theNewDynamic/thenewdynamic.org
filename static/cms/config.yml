@@ -3,6 +3,7 @@ backend:
   branch: master
   squash_merges: true
 publish_mode: editorial_workflow
+open_authoring: true
 show_preview_links: true
 local_backend: true
 use_graphql: true
