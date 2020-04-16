@@ -348,7 +348,7 @@ collections:
             required: false
       - label: "Community"
         name: "community"
-        file: "content/about/scommunity.md"
+        file: "content/about/community.md"
         fields:
           - { label: Title, name: title, widget: string }
           - { label: Description, name: description, widget: string }
