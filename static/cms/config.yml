@@ -300,14 +300,11 @@ collections:
         media_library:
           config:
             multiple: true
-      - label: Body
-        name: body
-        widget: markdown
-        required: false
+
       - label: Creators
         name: creator
-        widget: object
-        collapsed: true
+        label_singular: Creator
+        widget: list
         required: false
         fields:
           - label: Name
@@ -331,3 +328,7 @@ collections:
             required: false
             name: twitter_username
             widget: string
+      - label: Body
+        name: body
+        widget: markdown
+        required: false
