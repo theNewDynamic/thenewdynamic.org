@@ -332,3 +332,47 @@ collections:
         name: body
         widget: markdown
         required: false
+
+  - label: "Pages"
+    name: "pages"
+    files:
+      - label: "Code of Conduct"
+        name: "code-of-conduct"
+        file: "content/about/code-of-conduct.md"
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Description, name: description, widget: string }
+          - label: Body
+            name: body
+            widget: markdown
+            required: false
+      - label: "Community"
+        name: "community"
+        file: "content/about/scommunity.md"
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Description, name: description, widget: string }
+          - label: Body
+            name: body
+            widget: markdown
+            required: false
+      - label: "About"
+        name: "about"
+        file: "content/about/_index.md"
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Description, name: description, widget: string }
+          - label: Body
+            name: body
+            widget: markdown
+            required: false
+      - label: "Submit"
+        name: "submit"
+        file: "content/about/submit.md"
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Description, name: description, widget: string }
+          - label: Body
+            name: body
+            widget: markdown
+            required: false            

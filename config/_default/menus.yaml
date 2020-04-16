@@ -10,7 +10,7 @@ main:
     weight: 5
   - identifier: community
     name: Community
-    url: /community/
+    url: /about/community/
     weight: 6
   - identifier: showcase
     name: Showcase
