@@ -6,7 +6,7 @@ publish_mode: editorial_workflow
 show_preview_links: true
 local_backend: true
 use_graphql: true
-media_folder: static
+media_folder: static/uploads
 public_folder: /images
 site_url: "https://www.thenewdynamic.org"
 slug:
