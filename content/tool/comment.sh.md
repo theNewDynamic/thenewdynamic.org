@@ -1,6 +1,6 @@
 ---
-title: Comment
-repo: .sh
+title: Comment.sh
+repo: 
 date: 2018-04-30 09:00:48 -0400
 description: Lightweight hosted comments powered by Isso
 tools:
