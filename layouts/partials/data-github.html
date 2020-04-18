@@ -1,0 +1,23 @@
+{{ $github := "https://api.github.com/repos/" }}
+
+{{ $access_token := (getenv "ACCESS_TOKEN") }}
+{{ with .Params.repo }}    
+  {{ $repo_data := print (string .) "?access_token=" $access_token }}
+  {{ $githubData := getJSON $github $repo_data }}  
+    <div class="w-full mb-16 flex text-sm">
+      {{with $githubData.stargazers_count}}
+          <div class="flex">
+            <span class="text-yellow-300">
+              {{ partial "svg/mdi_stars.svg" . }}
+            </span> 
+            {{.}}
+          </div>
+      {{end }}    
+      {{with $githubData.updated_at}}
+        <div class="ml-4">
+          Latest Github Update: 
+        {{dateFormat "January 2, 2006" .  }} 
+        </div>
+      {{end }}
+    </div>
+{{ end }}
