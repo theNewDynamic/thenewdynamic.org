@@ -5,16 +5,16 @@
     {{ $related_tools := ($tools).RelatedTo (keyVals "related_tools" .File.Path) }}    
     {{ $articles := where (.Site.RegularPages) "Section" "article" }}
     {{ $related_articles := ($articles).RelatedTo (keyVals "related_tools" .File.Path) }}
+    
 
   <div class="page-list_default mx-auto min-h-screen max-w-5xl"> 
       <div class="mb-16">
           {{ partial "page-description.html" . }}
+          {{ partial "data-github.html" . }}
+          
+
       </div>
-    <div class="text-base flex-wrap flex sm:flex-row flex-col mb-8 sm:mb-16 -mt-4">
-
-
-
-
+    <div class="text-base flex-wrap flex sm:flex-row flex-col mb-8 sm:mb-16 -mt-4">  
       {{ $taxo := "tools" }} <!-- Use the plural form here -->
       {{ if .Params.tools }}
         <div class="mr-3">
