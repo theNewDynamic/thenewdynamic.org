@@ -1,6 +1,7 @@
 ---
 date: 2019-12-07T09:23:14-05:00
-title: metomic_
+title: metomic
+repo: 
 weight: 
 description: Metomic is the best way for websites and mobile apps to meet modern data
   privacy standards.

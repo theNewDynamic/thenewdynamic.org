@@ -1,5 +1,6 @@
 ---
-title: Fuse.js Search
+title: Fuse
+repo: .js Search
 date: 2015-12-14 21:46:00 -0500
 posted_date: 2015-12-15T02:46:00.000+00:00
 featured: false

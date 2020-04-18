@@ -1,8 +1,10 @@
 ---
-title: Alembic Theme & Starter
+title: Alembic Theme 
+repo: & Starter
 date: 2016-10-24T00:00:00.000+00:00
 tools:
 - Theme
+repo: daviddarnes/alembic
 urls:
   website: ''
   github: https://github.com/daviddarnes/alembic

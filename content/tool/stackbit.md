@@ -1,5 +1,6 @@
 ---
 title: Stackbit
+repo: 
 weight: 1
 description: Combine any Theme, Site Generator and CMS without complicated integrations
 date: 2019-03-01T05:00:00.000+00:00

@@ -1,5 +1,6 @@
 ---
-title: BowTie.io
+title: BowTie
+repo: .io
 date: 2016-01-14T18:47:00.000+00:00
 tools:
 - Content Management

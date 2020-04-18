@@ -1,6 +1,7 @@
 ---
 date: 2019-10-16T10:10:27-04:00
 title: TinaCMS
+repo: 
 weight: 1
 description: Open source editing toolkit for JS-based frameworks allowing developers
   to build real time editing into JAMstack websites.

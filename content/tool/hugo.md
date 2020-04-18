@@ -1,12 +1,14 @@
 ---
 title: Hugo
+repo: 
 date: 2015-05-02T01:41:00.000+00:00
 featured: true
 tools:
 - Static Site Generator
+repo: gohugoio/hugo
 urls:
   website: http://gohugo.io/
-  github: https://github.com/spf13/hugo
+  github: https://github.com/gohugoio/hugo
   twitter: https://twitter.com/GoHugoIO
   other: ''
 resources:

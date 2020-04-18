@@ -1,6 +1,7 @@
 ---
 date: 2020-02-27T10:01:16-05:00
 title: Websolr
+repo: 
 weight: 
 description: Apache Solr Search Made Simple
 tools:

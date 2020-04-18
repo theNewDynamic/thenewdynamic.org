@@ -1,5 +1,6 @@
 ---
 title: Azure Storage
+repo: 
 date: 2018-06-28 21:58:19 -0400
 description: Azure Storage now offers static website hosting, enabling you to deploy
   cost-effective and scalable modern web applications.

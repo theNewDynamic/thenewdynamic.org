@@ -1,5 +1,6 @@
 ---
 title: Firebase Authentication
+repo: 
 weight: ''
 description: Simple, free multi-platform sign-in
 date: 2018-06-21 00:00:00 -0400

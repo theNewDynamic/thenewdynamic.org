@@ -1,5 +1,6 @@
 ---
-title: Zola (was Gutenberg)
+title: Zola 
+repo: (was Gutenberg)
 date: 2018-10-26 19:04:56 -0400
 weight: ''
 description: A fast static site generator in a single binary with everything built-in. 

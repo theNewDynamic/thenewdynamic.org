@@ -1,6 +1,7 @@
 ---
 date: 2019-08-20T18:27:08-04:00
-title: Learn JAMstack!
+title: Learn JAMstack
+repo: !
 weight: 
 description: A curated list of courses, articles and tips about JAMstack
 tools:

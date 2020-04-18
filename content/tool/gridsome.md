@@ -11,6 +11,7 @@ resources: []
 tags:
   - Vue
 title: Gridsome
+repo: 
 tools:
   - Static Site Generator
 weight: 3

@@ -8,6 +8,7 @@ tags:
   - Wordpress
   - beta
 title: Strattic
+repo: 
 tools:
   - Static Site Generator
   - Hosting-Deployment

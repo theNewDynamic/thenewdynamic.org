@@ -1,5 +1,6 @@
 ---
 title: YoYo
+repo: 
 date: 2018-06-02T01:24:56.000+00:00
 description: A dead simple comment engine alternative to Disqus.
 tools:

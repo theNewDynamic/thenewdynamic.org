@@ -1,6 +1,7 @@
 ---
 date: 2019-10-21T15:53:03-04:00
 title: JAMstack Themes
+repo: 
 weight: 
 description: An extensive list of community themes filterable by static site generator
   and CMS support.

@@ -1,5 +1,6 @@
 ---
-title: Next.js
+title: Next
+repo: .js
 date: 2018-03-24T08:52:50.000+00:00
 tools:
 - Static Site Generator
