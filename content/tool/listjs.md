@@ -1,6 +1,6 @@
 ---
-title: List
-repo: .js
+title: List.js
+repo: javve/list.js
 date: 2015-05-16T22:53:00.000+00:00
 posted_date: 2015-05-16T22:53:00.000+00:00
 featured: false

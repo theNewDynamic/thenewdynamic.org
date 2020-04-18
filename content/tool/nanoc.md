@@ -1,6 +1,6 @@
 ---
 title: Nanoc
-repo: 
+repo: nanoc/nanoc
 date: 2015-10-11T17:38:00.000+00:00
 posted_date: 2015-10-11T17:38:00.000+00:00
 featured: false

@@ -1,6 +1,6 @@
 ---
 title: Word to Markdown converter
-repo: 
+repo: benbalter/word-to-markdown
 date: 2018-04-20 15:34:53 -0400
 description: Convert Microsoft Word documents to Markdown
 tools:

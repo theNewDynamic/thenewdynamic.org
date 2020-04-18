@@ -1,6 +1,6 @@
 ---
 title: Gatsby
-repo: 
+repo: gatsbyjs/gatsby
 date: 2015-10-02T21:18:00.000+00:00
 posted_date: '2015-10-02T21:18:00.000+00:00'
 featured: true

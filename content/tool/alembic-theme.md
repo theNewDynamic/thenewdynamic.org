@@ -1,6 +1,5 @@
 ---
-title: Alembic Theme 
-repo: & Starter
+title: Alembic Theme & Starter
 date: 2016-10-24T00:00:00.000+00:00
 tools:
 - Theme

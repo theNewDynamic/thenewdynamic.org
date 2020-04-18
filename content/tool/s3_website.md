@@ -1,6 +1,6 @@
 ---
 title: S3 Website
-repo: 
+repo: laurilehmijoki/s3_website
 date: 2015-12-02T03:30:00.000+00:00
 posted_date: 2015-12-02T03:30:00.000+00:00
 featured: false

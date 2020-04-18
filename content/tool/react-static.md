@@ -1,6 +1,6 @@
 ---
 title: React Static
-repo: 
+repo: nozzle/react-static
 date: 2017-09-08T21:18:00.000+00:00
 featured: false
 tags:

@@ -1,10 +1,9 @@
 ---
 title: Assemble
-repo: 
+repo: assemble/assemble
 date: 2014-07-23T00:00:00.000+00:00
 tools:
 - "Static Site Generator"
-repo: assemble/assemble
 urls:
   website: http://assemble.io/
   github: https://github.com/assemble/assemble/

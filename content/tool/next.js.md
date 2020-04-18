@@ -1,6 +1,6 @@
 ---
-title: Next
-repo: .js
+title: Next.js
+repo: zeit/next.js
 date: 2018-03-24T08:52:50.000+00:00
 tools:
 - Static Site Generator

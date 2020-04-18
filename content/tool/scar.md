@@ -1,7 +1,7 @@
 ---
 date: 2019-05-24T21:05:06-04:00
 title: SCAR
-repo: 
+repo: cloudkj/scar
 weight: 
 description: 1-click static website deployment on AWS
 tools:

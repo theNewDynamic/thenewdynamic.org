@@ -1,6 +1,6 @@
 ---
 title: Jekyll Gdrive Plugin
-repo: 
+repo: netlify/jekyll-gdrive
 date: 2015-12-02T19:10:00.000+00:00
 posted_date: 2015-12-02T19:10:00.000+00:00
 featured: false

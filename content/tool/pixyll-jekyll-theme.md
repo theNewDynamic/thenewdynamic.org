@@ -1,6 +1,6 @@
 ---
 title: Pixyll Jekyll Theme
-repo: 
+repo: johnotander/pixyll
 date: 2015-11-12T19:21:00.000+00:00
 posted_date: 2015-11-12T19:21:00.000+00:00
 featured: false

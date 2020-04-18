@@ -1,6 +1,6 @@
 ---
 title: Cloudinary-to-Hugo
-repo: 
+repo: matfin/cloudinary_to_hugo
 date: 2017-06-18T12:12:00.000+00:00
 tools:
 - Helper

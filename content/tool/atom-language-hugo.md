@@ -1,6 +1,6 @@
 ---
 title: Hugo support in Atom
-repo: 
+repo: mattstratton/language-hugo
 date: 2018-04-20 15:30:49 -0400
 description: Hugo grammar, snippets and shortcodes
 tools:

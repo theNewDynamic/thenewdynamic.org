@@ -1,6 +1,6 @@
 ---
 title: Cecil
-repo: 
+repo: Cecilapp/Cecil
 date: 2019-09-04
 featured: false
 tools:

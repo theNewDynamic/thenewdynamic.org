@@ -1,6 +1,6 @@
 ---
 title: Markdown Proofer
-repo: 
+repo: felicianotech/md-proofer
 date: 2018-06-15 16:52:57 -0400
 description: Tool to validate Markdown files.
 tools:

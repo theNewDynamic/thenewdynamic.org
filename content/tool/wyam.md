@@ -1,6 +1,6 @@
 ---
 title: Wyam
-repo: 
+repo: Wyamio/Wyam
 date: 2017-01-09T00:00:00.000+00:00
 tools:
 - "Static Site Generator"

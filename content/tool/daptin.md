@@ -1,6 +1,6 @@
 ---
 title: Daptin
-repo: 
+repo: daptin/daptin
 date: 2018-02-16T16:05:59.000+00:00
 tools:
 - "Content Management"

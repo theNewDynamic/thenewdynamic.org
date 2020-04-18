@@ -1,6 +1,6 @@
 ---
 title: Discharge
-repo: 
+repo: brandonweiss/discharge
 weight: ''
 description: "A simple, easy way to deploy static websites to Amazon S3 with \nCDN
   (CloudFront) and HTTPS/TLS support."

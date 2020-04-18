@@ -1,6 +1,6 @@
 ---
 title: Hugo Themes
-repo: 
+repo: gohugoio/hugoThemes
 date: 2015-11-13T02:58:00.000+00:00
 posted_date: '2015-11-13T02:58:00.000+00:00'
 featured: false

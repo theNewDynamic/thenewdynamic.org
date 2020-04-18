@@ -1,7 +1,7 @@
 ---
 date: 2019-12-07T11:33:53-05:00
 title: Segment Consent Manager
-repo: 
+repo: segmentio/consent-manager
 weight: 
 description: The Segment Consent Manager is an analytics.js add-on with support to
   consent management.

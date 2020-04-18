@@ -1,6 +1,6 @@
 ---
 title: Serverless Cost Calculator
-repo: 
+repo: sbarski/serverless-calculator
 description: 'This is the description for '
 date: 2018-04-20T14:44:09.000+00:00
 color: ''

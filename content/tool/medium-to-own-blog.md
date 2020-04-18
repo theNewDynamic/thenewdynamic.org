@@ -1,7 +1,7 @@
 ---
 date: 2019-05-31T10:31:10-04:00
 title: Medium to Own Blog
-repo: 
+repo: mathieudutour/medium-to-own-blog
 weight: 
 description: Switch from Medium to your own blog in a few minutes
 tools:

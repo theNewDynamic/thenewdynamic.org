@@ -1,6 +1,6 @@
 ---
 title: Meet Hyde
-repo: 
+repo: MeetHyde/MeetHyde
 date: 2015-11-10T04:21:00.000+00:00
 posted_date: 2015-11-10T04:21:00.000+00:00
 featured: false

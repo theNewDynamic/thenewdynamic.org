@@ -1,6 +1,6 @@
 ---
 title: Markdown Components
-repo: 
+repo: flexiodata/markdown-components
 date: 2018-07-09 19:40:56 -0400
 weight: ''
 description: Extend Markdown capabilities on static sites with simple, inline JavaScript

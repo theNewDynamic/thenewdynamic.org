@@ -1,6 +1,6 @@
 ---
 title: Free Jekyll Website Template for Nonprofits
-repo: 
+repo: smartergiving/free-nonprofit-starter-website
 date: 2015-11-19T17:33:00.000+00:00
 posted_date: '2015-11-19T17:33:00.000+00:00'
 featured: false

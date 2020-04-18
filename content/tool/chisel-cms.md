@@ -1,7 +1,7 @@
 ---
 date: 2019-12-09T08:27:34-05:00
 title: Chisel CMS
-repo: 
+repo: beachio/chisel
 weight: 
 description: An API-first content management app built on parse-server with Reactjs
 tools:

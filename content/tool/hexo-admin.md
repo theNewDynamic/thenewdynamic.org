@@ -1,6 +1,6 @@
 ---
 title: Hexo Admin
-repo: 
+repo: jaredly/hexo-admin
 date: 2015-10-19T23:12:00.000+00:00
 posted_date: 2015-10-19T23:12:00.000+00:00
 featured: false

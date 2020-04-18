@@ -1,6 +1,6 @@
 ---
 title: Metalsmith
-repo: 
+repo: segmentio/metalsmith.io
 date: 2015-05-02T01:54:00.000+00:00
 featured: false
 tools:
@@ -24,7 +24,7 @@ cat_test: ''
 weight: 
 interactions: []
 data_model: ''
-draft: true
+draft: false
 
 ---
 An extremely simple, pluggable static site generator.
