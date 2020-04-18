@@ -1,6 +1,6 @@
 ---
-title: Now
-repo: , by Zeit
+title: Now, by Zeit
+repo: 
 date: 2018-11-28 14:52:38 -0500
 weight: ''
 description: Global Serverless Deployments

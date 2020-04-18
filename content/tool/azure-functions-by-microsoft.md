@@ -1,6 +1,6 @@
 ---
 title: Azure Functions
-repo: , by Microsoft
+repo: 
 date: 2018-11-28 14:58:26 -0500
 weight: ''
 description: Accelerate your development with an event-driven, serverless compute
