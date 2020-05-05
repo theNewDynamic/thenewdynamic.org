@@ -8,12 +8,14 @@ license: ""
 data_model: ""
 language: ""
 urls:
-  website: https://zeit.co/now
-  github: ""
-  twitter: ""
+  website: https://vercel.com/home
+  github: https://github.com/zeit
+  twitter: https://twitter.com/vercel
   other: ""
 resources: []
-related_tools: []
+related_tools:
+  - Next.js
+  - TinaCMS
 repo: null
 weight: ""
 tags: []
