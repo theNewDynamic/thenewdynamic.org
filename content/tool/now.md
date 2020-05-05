@@ -1,5 +1,5 @@
 ---
-title: Now, by Zeit
+title: Now, by Vercel
 description: Global Serverless Deployments
 date: 2018-11-28 14:52:38 -0500
 tools:
