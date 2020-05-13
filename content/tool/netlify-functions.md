@@ -1,23 +1,23 @@
 ---
-title: Netlify Functions
-repo: 
-date: 2018-05-19T15:48:33.000+00:00
-urls:
-  website: https://www.netlify.com/docs/functions/
-  github: ''
-  twitter: ''
-  other: ''
-description: Lambda functions on Netlify
+title: Netlify Functions (Examples)
+description: Examples and Tutorials on using Lambda functions on Netlify
+date: 2018-05-19T15:48:33.000Z
 tools:
-- Serverless
+  - Serverless
+  - Helper
 license: Commercial
-related_tools:
-- tool/netlify.md
-language: ''
-tags:
+language: ""
+urls:
+  website: https://functions.netlify.com/
+  github: ""
+  twitter: ""
+  other: ""
 resources: []
-weight: ''
-
+related_tools:
+  - tool/netlify.md
+repo: null
+weight: ""
+tags: null
 ---
 AWS Lambda functions open a world of possibilities for running on-demand, server-side code without having to run a dedicated server. However, managing service discovery, configuring API gateways, and coordinating deployments between your app and your functions can quickly become overwhelming.
 
