@@ -11,5 +11,5 @@ license: Open Source
 urls:
   website: https://jamstackfns.com/
 tags:
-  - news
+  - Serverless
 ---
