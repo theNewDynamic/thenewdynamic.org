@@ -33,6 +33,10 @@ search.addWidgets([
       input:
         "block border -mt-4 w-full h-full pl-8 pr-3 py-2 rounded text-gray-900 placeholder-gray-500 focus:outline-none focus:placeholder-gray-400 sm:text-sm",
     },
+    queryHook(query, refine) {
+      clearTimeout(timerId);
+      timerId = setTimeout(() => refine(query), 500);
+    },
   }),
 
   hits({
