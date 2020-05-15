@@ -9,7 +9,7 @@
   "scripts": {
     "cms": "npx netlify-cms-proxy-server",
     "dev:cms": "run-p cms hugo",
-    "gethugo": "bash get-hugo.sh",    
+    "gethugo": "bash get-hugo.sh",
     "version": "auto-changelog -p --template keepachangelog --unreleased true",
     "hugo": "HUGO_ENV=development bin/hugo* server -D --gc --navigateToChanged --noHTTPCache",
     "hugo-prod": "HUGO_ENV=production bin/hugo* --gc --minify",
