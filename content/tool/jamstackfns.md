@@ -10,6 +10,9 @@ tools:
 license: Open Source
 urls:
   website: https://jamstackfns.com/
+related_tools:
+  - Netlify Functions (Examples)
+  - Vercel
 tags:
   - Serverless
 ---
