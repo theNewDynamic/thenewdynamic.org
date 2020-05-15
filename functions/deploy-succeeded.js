@@ -12,8 +12,8 @@ exports.handler = function (event, context, callback) {
    *
    */
   if (
-    process.env.ALGOLIA_SCRIPT_KEY &&
-    event.queryStringParameters.key != process.env.ALGOLIA_SCRIPT_KEY
+    process.env.APP_ID &&
+    event.queryStringParameters.key != process.env.APP_ID
   ) {
     const bodyResponse = {
       error: "Forbidden: wrong key",
