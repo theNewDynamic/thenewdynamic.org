@@ -95,7 +95,7 @@
         {{ end }}
 
         {{ with  .Params.related_tools }}
-          <h3 class="mt-8">Related Tools</h3>
+          <h4 class="mt-8">Related Tools</h4>
           <ul class="list-reset">
             {{ range .}}
               {{ $related_tools := where ($tools) ".File.Path"  . }}
@@ -167,14 +167,16 @@
     
 
     {{ with $related_showcase }}
-    <h2 class="mb-4 mt-16">
-      {{ $.Title }} Showcase Sites
-    </h2>
-    <div class="grid-cols-3 gap-4 sm:grid">
-      {{ range . }}
-        {{ template "showcase_item" . }}
-      {{ end }}
-    </div>          
+      <div class="rich-text">
+        <h2 class="mb-4 mt-16">
+          {{ $.Title }} Showcase Sites
+        </h2>
+        <div class="grid-cols-3 gap-4 sm:grid">
+          {{ range . }}
+            {{ template "showcase_item" . }}
+          {{ end }}
+        </div>       
+      </div>   
   {{ end }}
 
   </div>
@@ -198,7 +200,7 @@
       {{ if in (print $.Site.BaseURL) "localhost" }}
         <img data-src="{{ . }}" src="/images/placeholder.svg" class="lazyload mb-8 max-w-full border hover:opacity-75">
       {{ else }}
-        {{ $img := replace . "/uploads" ($.Param "dev.image_url")  }}
+        {{ $img := replace . "/uploads" ($.Param "image_url")  }}
         <img src="/images/placeholder.svg" data-src="{{ $img }}?{{ (querify "w" "396" "h" "256" "fit" "crop") | safeURL }}" class="lazyload mb-8 max-w-full border hover:opacity-25">
       {{ end }}
     </a>
