@@ -3,7 +3,7 @@
 var atomicalgolia = require("atomic-algolia");
 var request = require("request-promise-native");
 
-exports.handler = function (event, context, callback) {
+exports.handler = function(event, context, callback) {
   /*
    * If the function is hit by a cron job and not an event from Netlify (deploy-succeeded), it is recommanded to guard the function
    * from public hits.
@@ -12,16 +12,16 @@ exports.handler = function (event, context, callback) {
    *
    */
   if (
-    process.env.APP_ID &&
-    event.queryStringParameters.key != process.env.APP_ID
+    process.env.ALGOLIA_SCRIPT_KEY &&
+    event.queryStringParameters.key != process.env.ALGOLIA_SCRIPT_KEY
   ) {
     const bodyResponse = {
-      error: "Forbidden: wrong key",
+      error: "Forbidden: wrong key"
     };
     callback(null, {
       statusCode: 403,
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(bodyResponse),
+      body: JSON.stringify(bodyResponse)
     });
     return;
   }
@@ -31,24 +31,25 @@ exports.handler = function (event, context, callback) {
   var indexURL = process.env.ALGOLIA_INDEX_URL;
 
   request({ url: indexURL, json: true })
-    .then(function (data) {
+    .then(function(data) {
       updateIndex(indexName, data, callback);
     })
-    .catch(function (err) {
+    .catch(function(err) {
       callback(err);
     });
 };
 
 var updateIndex = (indexName, data, callback) => {
-  return atomicalgolia(indexName, data, { verbose: true }, function (err, res) {
+  return atomicalgolia(indexName, data, { verbose: true }, function(err, res) {
     if (err) {
       callback(err);
     } else {
       callback(null, {
         statusCode: 200,
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(res),
+        body: JSON.stringify(res)
       });
     }
   });
 };
+ 
