@@ -50,6 +50,7 @@ collections:
         options:
           - Bundler/Task Runner
           - Content Management
+          - Database
           - Helper
           - Hosting-Deployment
           - Interaction
