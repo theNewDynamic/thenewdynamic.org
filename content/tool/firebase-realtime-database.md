@@ -1,24 +1,23 @@
 ---
 title: Firebase Realtime Database
-repo: 
-date: 2018-04-20T13:31:58.000+00:00
 description: Real time syncing for JSON data
+date: 2018-04-20T13:31:58.000Z
 tools:
-- Interaction
+  - Database
 license: Commercial
-related_tools:
-- tool/firebase-hosting.md
+language: ""
 urls:
   website: https://firebase.google.com/products/realtime-database/
-  github: ''
-  twitter: ''
-  other: ''
-language: ''
-tags: []
+  github: ""
+  twitter: ""
+  other: ""
 resources:
-- name: Documentation
-  url: https://firebase.google.com/docs/database/
-cat_test: ''
-weight: ''
-
+  - name: Documentation
+    url: https://firebase.google.com/docs/database/
+related_tools:
+  - tool/firebase-hosting.md
+repo: null
+weight: ""
+tags: []
+cat_test: ""
 ---
