@@ -17,5 +17,5 @@ tnd_redirects:
       target: /?jamstack-tools%5BrefinementList%5D%5Btool_type%5D%5B0%5D=Content%20Management&jamstack-tools%5BrefinementList%5D%5Bdata_model%5D%5B0%5D=API-based
     - origin: /jamstack-tools-interaction-commerce
       target: /?jamstack-tools%5BrefinementList%5D%5Btool_type%5D%5B0%5D=Interaction&jamstack-tools%5BrefinementList%5D%5Binteraction_type%5D%5B0%5D=commerce
-      - origin: /jamstack-tools-ssg-opensource
+    - origin: /jamstack-tools-ssg-opensource
       target: ?jamstack-tools%5BrefinementList%5D%5Btool_type%5D%5B0%5D=Static%20Site%20Generator&jamstack-tools%5BrefinementList%5D%5Blicense%5D%5B0%5D=Open%20Source
