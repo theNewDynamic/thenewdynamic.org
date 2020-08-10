@@ -1,7 +1,7 @@
 outputFormats:
   homepage:
     - HTML
-    - tnd_redirects_netlify
+    - tnd_hredirects_netlify
   HEADERS:
     baseName: _headers
     isPlainText: true
