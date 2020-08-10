@@ -1,5 +1,7 @@
 github.com/theNewDynamic/hugo-component-tnd-seo v0.2.7 h1:wOCvJAwM50nfb6bCS6jxLnLIhK3BrieniUBuifKCaMY=
 github.com/theNewDynamic/hugo-component-tnd-seo v0.2.7/go.mod h1:SJVLlQV63vODtaYKFi4NXM8LzQZfkMpRjPAtHy4ORK0=
+github.com/theNewDynamic/hugo-module-tnd-redirects v1.2.3 h1:oOaDbXKmug33cDvV7G+iuk2XUg+d98CgRVta1HDvUdY=
+github.com/theNewDynamic/hugo-module-tnd-redirects v1.2.3/go.mod h1:UG+i6GOMCwA+ZbpQ9DXX8ImoW4IEY0tKfJ0/EiUZLLg=
 github.com/theNewDynamic/tnd-assets-js v0.0.0-20200211033838-8fe424c34a0e h1:ctiO4qlLf7zpPbqI/Q8HraRBAKsrHe6up607g08mbQI=
 github.com/theNewDynamic/tnd-assets-js/fathom-analytics v0.0.0-20200211033838-8fe424c34a0e h1:VK8Jvja2QMSF2GjKY5stGic0qDH2Hbu85D8lHkaKs2Y=
 github.com/theNewDynamic/tnd-assets-js/fathom-analytics v0.0.0-20200211033838-8fe424c34a0e/go.mod h1:5FViy9g47HX6odftW4G4YnqYZ1H/ayrhOiDLcm0aEJI=
