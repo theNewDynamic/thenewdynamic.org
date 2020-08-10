@@ -10,7 +10,6 @@ seo:
   jsonld: true
 tnd_redirects:
     use_aliases: true
-tnd_redirects:
     rules:
       - origin: /tools-content-mgmt-git
         target: /?jamstack-tools%5BrefinementList%5D%5Btool_type%5D%5B0%5D=Content%20Management&jamstack-tools%5BrefinementList%5D%5Bdata_model%5D%5B0%5D=Git-based
