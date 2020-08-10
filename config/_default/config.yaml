@@ -66,5 +66,5 @@ taxonomies:
   interaction: interactions
 module:
   imports:
-    - path: github.com/theNewDynamic/tnd-assets-js/fathom-analytics  
-    - path: github.com/theNewDynamic/hugo-module-tnd-redirects  
+    - path: github.com/theNewDynamic/tnd-assets-js/fathom-analytics
+    - path: github.com/theNewDynamic/hugo-module-tnd-redirects

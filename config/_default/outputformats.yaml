@@ -1,5 +1,5 @@
 outputFormats:
-  homepage: 
+  homepage:
     - HTML
     - tnd_redirects_netlify
   HEADERS:
