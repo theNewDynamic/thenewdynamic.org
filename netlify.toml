@@ -5,18 +5,18 @@ functions = "functions"
 
 [context.production.environment]
 GO_VERSION = "1.14"
-HUGO_VERSION = "0.68.0"
+HUGO_VERSION = "0.73.0"
 NODE_VERSION="10.13.0"
 HUGO_ENV = "production"
 
 [context.deploy-preview.environment]
-HUGO_VERSION = "0.68.0"
+HUGO_VERSION = "0.73.0"
 NODE_VERSION="10.13.0"
 GO_VERSION = "1.14"
 HUGO_ENV = "preview"
 
 [context.branch-deploy.environment]
-HUGO_VERSION = "0.68.0"
+HUGO_VERSION = "0.73.0"
 NODE_VERSION="10.13.0"
 GO_VERSION = "1.14"
 HUGO_ENV = "staging"
