@@ -27,9 +27,11 @@ theme:
 #     isPlainText: true
 #     mediatype: text/netlify
 #     notAlternative: true
+
 outputs:
   home:
     - HTML
+    - tnd_redirects_netlify
     #    - HEADERS
     #    - REDIR
     - JSON
