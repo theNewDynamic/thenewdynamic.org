@@ -1,11 +1,9 @@
 outputFormats:
+  homepage: 
+    - HTML
+    - tnd_redirects_netlify
   HEADERS:
     baseName: _headers
-    isPlainText: true
-    mediatype: text/netlify
-    notAlternative: true
-  REDIR:
-    baseName: _redirects
     isPlainText: true
     mediatype: text/netlify
     notAlternative: true
