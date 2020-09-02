@@ -17,6 +17,7 @@ description: "Kirby: the CMS that adapts to any project, loved by developers and
   editors alike"
 tools:
   - Content Management
+  - Static Site Generator
 data_model: ""
 weight: ""
 language: PHP
