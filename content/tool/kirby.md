@@ -1,26 +1,25 @@
 ---
-title: Kirby
-repo: 
-date: 2015-10-04T13:04:00.000+00:00
-posted_date: 2015-10-04T13:04:00.000+00:00
-slug: kirby
-tools:
-- Content Management
-urls:
-  website: http://getkirby.com/
-  github: ''
-  twitter: ''
-  other: https://github.com/getkirby/kirby
-weight: ''
-description: Kirby is the content management system that adapts to your projects like
-  no other
 interactions: []
 license: Open Source
-data_model: ''
-language: ''
-related_tools: []
-tags: []
+urls:
+  website: http://getkirby.com/
+  github: ""
+  twitter: ""
+  other: https://github.com/getkirby/kirby
 resources: []
-
+related_tools: []
+slug: kirby
+posted_date: 2015-10-04T13:04:00.000Z
+date: 2015-10-04T13:04:00.000Z
+repo: null
+title: Kirby
+description: "Kirby: the CMS that adapts to any project, loved by developers and
+  editors alike"
+tools:
+  - Content Management
+data_model: ""
+weight: ""
+language: PHP
+tags: []
 ---
-Kirby is a file‑based CMS. Easy to setup. Easy to use. Flexible as hell.
+Kirby is a file‑based CMS with a static site generator plugin: https://getkirby.com/plugins/d4l-data4life/static-site-generator
