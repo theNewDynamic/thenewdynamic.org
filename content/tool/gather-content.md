@@ -1,5 +1,6 @@
 ---
 title: Gather Content
+description: A structured Content Editor for scalable team content creation
 date: 2021-01-04T17:41:31.191Z
 tools:
   - Content Management
