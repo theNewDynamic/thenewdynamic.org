@@ -8,8 +8,6 @@ license: Open Source
 urls:
   github: https://github.com/getmeli/meli
   twitter: https://twitter.com/getmeli
-tags:
-  - news
 ---
 Meli is an open source platform built for deploying static sites and frontend applications.
 
