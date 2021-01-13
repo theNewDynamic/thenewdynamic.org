@@ -11,3 +11,6 @@ urls:
 tags:
   - news
 ---
+Meli is an open source platform built for deploying static sites and frontend applications.
+
+Meli uses[Caddy](https://caddyserver.com/)to serve deployed sites, and offers zero-downtime.
