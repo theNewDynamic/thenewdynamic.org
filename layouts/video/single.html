@@ -10,12 +10,17 @@
         {{ end }}
       </aside>
     {{ end }}
-    <div class="w-full mx-auto relative bg-blue-200 mb-16" style="padding-bottom:56.25%">
-      <iframe class="absolute w-full h-full object-cover"
-        src="https://www.youtube.com/embed/{{.Params.video_id}}?enablejsapi=1" frameborder="0"></iframe>
-    </div>
+    {{ with .Params.video_id }}
+      <div class="w-full mx-auto relative bg-blue-200 mb-16" style="padding-bottom:56.25%">      
+        <iframe class="absolute w-full h-full object-cover"
+        src="https://www.youtube.com/embed/{{ . }}?enablejsapi=1" frameborder="0"></iframe>      
+      </div>
+    {{ end }}
     <section class="rich-text">
       {{ .Content }}
+      {{ with .Params.link_to_original }}
+          <a href="{{.}}" class="text-3xl  lh-title text-black my-16">Link</a>
+      {{ end }}
     </section>
     {{ partial "prev-next-in-section-icon.html" . }}
   </article>
