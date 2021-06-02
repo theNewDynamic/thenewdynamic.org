@@ -1,5 +1,6 @@
 import algoliasearch from "algoliasearch/lite";
 import instantsearch from "instantsearch.js";
+import { params } from '@params';
 import {
   searchBox,
   hits,
@@ -9,10 +10,10 @@ import {
   poweredBy,
 } from "instantsearch.js/es/widgets";
 
-const searchClient = algoliasearch(process.env.APP_ID, process.env.SEARCH_API);
+const searchClient = algoliasearch(params.app_id, params.search_api);
 
 const search = instantsearch({
-  indexName: "jamstack-tools",
+  indexName: "jamstack-tools-v2",
   routing: true,
   // TODO routing: searchRouting,
   searchClient,

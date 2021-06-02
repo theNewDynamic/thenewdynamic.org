@@ -1,0 +1,12 @@
+/* TailwindCSS Custom Utilities 
+ *  https://tailwindcss.com/docs/adding-new-utilities
+ *************************************************** */
+@layer utilities {
+  @variants responsive, hover{
+    /* Remove example when starting project */
+    .twcheck::after{
+      @apply fixed border px-4 py-2 bottom-0 right-0 text-xs;
+      content: "TailwindCSS 👍";
+    }
+  }
+}

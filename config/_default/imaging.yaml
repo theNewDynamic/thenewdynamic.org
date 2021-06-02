@@ -1,0 +1,11 @@
+# Imaging
+# If using Hugo's image processing
+# https://gohugo.io/content-management/image-processing/#image-processing-config
+# ################################
+quality: 95
+#Full list of resampleFilter: https://github.com/disintegration/imaging#image-resizing
+resampleFilter: box
+exif:
+  disableDate: true
+  disableLatLong: true
+  excludeFields: .*

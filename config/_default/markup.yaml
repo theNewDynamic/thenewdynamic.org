@@ -1,0 +1,14 @@
+# Markup
+# We assume we're using Goldmark
+# https://gohugo.io/getting-started/configuration-markup#readout
+# ################################
+highlight:
+  style: monokai
+  noClasses: false
+goldmark:
+  renderer:
+    unsafe: true
+  parser:
+    attribute:
+      block: true
+      title: true

@@ -1,0 +1,7 @@
+# Privacy
+# https://gohugo.io/about/hugo-and-gdpr/#all-privacy-settings
+# ################################
+youtube:
+  privacyEnhanced: true
+twitter:
+  enableDNT: true

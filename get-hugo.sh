@@ -1,8 +1,16 @@
 #!/bin/bash
 DIR=${PWD}
+
+HUGO_TYPE='extended'
+# Check for positional parameter, if found we assume it's the intended version
+if [ ! $1 ]; then
 #Required to be SET. TODO: Test for this, and if version is not present load from present. Use something like https://zwbetz.com/script-to-install-latest-hugo-release-on-linux-and-mac/
-HUGO_VERSION=$(node -p "require('./package.json').hugo.version")
-HUGO_TYPE=$(node -p "require('./package.json').hugo.extended")
+    HUGO_VERSION=$(node -p "require('./package.json').hugo.version")
+    HUGO_TYPE=$(node -p "require('./package.json').hugo.extended")
+else
+    HUGO_VERSION=$1
+fi
+
 FILE=hugo_${HUGO_VERSION}
 
 set -e

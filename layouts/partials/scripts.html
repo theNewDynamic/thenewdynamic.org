@@ -1,0 +1,7 @@
+{{ with resources.Get "/js/index.js" }}
+  {{ $js := . | js.Build (dict "target" "es2015")}}
+  {{ if partialCached "tnd-func/IsProduction" "IsProduction" }}
+    {{ $js = $js | fingerprint }}
+  {{ end }}
+  <script type="text/javascript" src="{{ $js.RelPermalink }}" crossorigin="anonymous" defer></script>
+{{ end }}

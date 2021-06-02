@@ -1,0 +1,21 @@
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width,minimum-scale=1">
+{{ hugo.Generator }}
+
+{{ with .OutputFormats.Get "RSS" }}
+  <link href="{{ .RelPermalink }}" rel="alternate" type="application/rss+xml" title="{{ site.Title }}" />
+  <link href="{{ .RelPermalink }}" rel="feed" type="application/rss+xml" title="{{ site.Title }}" />
+{{ end }}
+
+{{ if partialCached "tnd-func/IsProduction" . }}
+  {{ template "_internal/google_analytics_async.html" . }}
+{{end}}
+
+{{ partial "tnd-seo/tags.html" . }}
+{{/* Remove following if Projects uses its own classes on forms */}}
+{{ partial "tnd-forms/head.html" . }}
+
+{{ partialCached "tnd-styles/tags.html" . }}
+
+{{ partialCached "tnd-scripts/tags.html" (slice "main") }}

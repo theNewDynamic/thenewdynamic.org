@@ -3,19 +3,141 @@ logo: ""
 subtitle: Build Better Faster Websites
 utm_medium: website
 utm_source: thenewdynamic.org
-image_url: https://thenewdynamic-org.imgix.net
 fathom_id: FZDREAIY
-seo:
+
+# ###############
+# TND SEO
+# https://github.com/theNewDynamic/hugo-module-tnd-seo#settings
+# ###############
+tnd_seo:
   default_image: /images/tnd-logo-card.png
   jsonld: true
+  enable_follow: true
+  disable_title: false
+
+# ###############
+# TND STYLES
+# https://github.com/theNewDynamic/hugo-module-tnd-styles#fonts
+# ###############
+tnd_styles:
+  fonts:
+  - family: URW Franklin Gothic W01
+    file: fonts/urw-franklin-gothic-w01-700
+    weight: 700
+    style: normal
+
+# ###############
+# TND SCRIPTS
+# https://github.com/theNewDynamic/hugo-module-tnd-scripts
+# ###############
+tnd_scripts:
+  scripts:
+    - name: main
+      path: /js/index.js
+    - name: search
+      path: /js/search/index.js
+      format: cjs
+      params:
+        app_id: EGKL8BPJHJ
+        search_api: 542f26c0c09bbd36ee0979cd0895c48a
+
+
+# ###############
+# TND MEDIA
+# https://github.com/theNewDynamic/hugo-module-tnd-media#settings
+# If used in combination with imgix:
+# https://github.com/theNewDynamic/hugo-module-tnd-imgix#settings
+# ###############
+tnd_media:
+  storage: bundle
+  # If imgix is used:
+  imgix: 
+    domain: thenewdynamic-org.imgix.net
+    defaults:
+      auto: format
+      ch: Width,DPR
+      q: 95
+
+# ###############
+# TND SOCIALS
+# https://github.com/theNewDynamic/hugo-module-tnd-socials#configure
+# ###############
+tnd_socials:
+  services:
+  - name: meetup
+    handle: JAMstack-nyc
+    url: https://www.meetup.com/JAMstack-nyc/
+  - name: slack
+    handle: thenewdynamic
+    url: https://join.slack.com/t/thenewdynamic/shared_invite/enQtMjkwNjYwNTY0NjkxLTFkNGQ1YjMwZGNjNjY0YzY4MmM2YTBhZTY0YjkyOTBmYmE4NjMwY2M3ODMzZDIwNzg2ZTBkZjdjYjVlM2Q2ZDA
+  - name: twitter
+    handle: thenewdynamic
+  - name: youtube
+    handle: thenewdynamic
+
+# ###############
+# TND FORMS
+# ###############
+tnd_forms:
+  css:
+    form: 'my-10 mx-auto'
+    control: mb-3
+    hidden: 'hidden'
+    submit: block w-full mt-6 border border-green-500 bg-green-200
+    input: border
+    textarea: border
+    select: block border w-fullw
+    select_wrapper: inline-block relative w-full mb-3
+
+# ###############
+# TND REDIRECTS
+# https://github.com/theNewDynamic/hugo-module-tnd-redirects#api
+# ###############
 tnd_redirects:
   use_aliases: true
   rules:
-    - origin: /jamstack-tools-cms-git
-      target: /?jamstack-tools%5BrefinementList%5D%5Btool_type%5D%5B0%5D=Content%20Management&jamstack-tools%5BrefinementList%5D%5Bdata_model%5D%5B0%5D=Git-based
-    - origin: /jamstack-tools-cms-api
-      target: /?jamstack-tools%5BrefinementList%5D%5Btool_type%5D%5B0%5D=Content%20Management&jamstack-tools%5BrefinementList%5D%5Bdata_model%5D%5B0%5D=API-based
-    - origin: /jamstack-tools-interaction-commerce
-      target: /?jamstack-tools%5BrefinementList%5D%5Btool_type%5D%5B0%5D=Interaction&jamstack-tools%5BrefinementList%5D%5Binteraction_type%5D%5B0%5D=commerce
-    - origin: /jamstack-tools-ssg-opensource
-      target: ?jamstack-tools%5BrefinementList%5D%5Btool_type%5D%5B0%5D=Static%20Site%20Generator&jamstack-tools%5BrefinementList%5D%5Blicense%5D%5B0%5D=Open%20Source
+  # Following rule for production
+  # - origin: https://that-project.netlify.com/*
+  #   target: https://www.that-project.com/:splat
+  #   code: 301
+  #   force: true
+  - origin: /jamstack-tools-cms-git
+    target: /?jamstack-tools%5BrefinementList%5D%5Btool_type%5D%5B0%5D=Content%20Management&jamstack-tools%5BrefinementList%5D%5Bdata_model%5D%5B0%5D=Git-based
+  - origin: /jamstack-tools-cms-api
+    target: /?jamstack-tools%5BrefinementList%5D%5Btool_type%5D%5B0%5D=Content%20Management&jamstack-tools%5BrefinementList%5D%5Bdata_model%5D%5B0%5D=API-based
+  - origin: /jamstack-tools-interaction-commerce
+    target: /?jamstack-tools%5BrefinementList%5D%5Btool_type%5D%5B0%5D=Interaction&jamstack-tools%5BrefinementList%5D%5Binteraction_type%5D%5B0%5D=commerce
+  - origin: /jamstack-tools-ssg-opensource
+    target: ?jamstack-tools%5BrefinementList%5D%5Btool_type%5D%5B0%5D=Static%20Site%20Generator&jamstack-tools%5BrefinementList%5D%5Blicense%5D%5B0%5D=Open%20Source
+
+
+# ###############
+# TND HEADERS
+# https://github.com/theNewDynamic/hugo-module-tnd-headers#adding-custom-headers
+# ###############
+tnd_headers:
+  groups:
+    - headers:
+      - field: Content-Security-Policy
+        value: upgrade-insecure-requests
+      - field: Strict-Transport-Security
+        value: max-age=15768000
+      - field: X-Xss-Protection
+        value: 1; mode=block
+      - field: X-Frame-Options
+        value: DENY
+      - field: X-Content-Type-Options
+        value: nosniff
+      - field: Referrer-Policy
+        value: strict-origin-when-cross-origin
+      - field: Feature-Policy
+        value: camera 'none'; geolocation 'none'; microphone 'none';
+
+# ###############
+# TND Search
+# https://github.com/theNewDynamic/hugo-module-tnd-search/tree/master#settings
+# ###############
+tnd_search:
+  service: algolia
+  params: 
+    - description

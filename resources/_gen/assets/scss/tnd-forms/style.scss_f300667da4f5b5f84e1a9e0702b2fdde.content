@@ -1,0 +1,28 @@
+.tnd-form__label {
+  display: block; }
+
+.tnd-form__control {
+  margin-top: 1rem;
+  margin-bottom: 1rem; }
+
+.tnd-form__input, .tnd-form__select_wrapper, .tnd-form__submit {
+  border: 1px solid currentColor;
+  padding: 0.7rem 1rem;
+  width: 100%; }
+
+.tnd-form__select_wrapper select {
+  width: 100%; }
+
+.tnd-form__radio_wrapper, .tnd-form__checkbox_wrapper {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem; }
+
+.tnd-form__radio_label, .tnd-form__checkbox_label {
+  display: inline-block;
+  margin-right: 1rem; }
+
+.tnd-form__submit {
+  margin-top: 1rem;
+  margin-bottom: 1rem; }
+  .tnd-form__submit:hover {
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); }

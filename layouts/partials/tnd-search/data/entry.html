@@ -1,0 +1,56 @@
+{{/* Original:
+  "title" .Title 
+  "objectID" (md5 .File.Path) 
+  "date" (.Date.Format "January 2, 2006") 
+  "sort_date" .Date.Unix 
+  "uri" .RelPermalink 
+  "description" .Params.description 
+  "interaction_type" (.Params.interactions) 
+  "license" .Params.license 
+  "tool_type" (index .Params.tools) 
+  "primary_section" (urlize (index .Params.tools 0)) 
+  "tags" .Params.tags 
+  "data_model" .Params.data_model 
+  "content" (.Plain | truncate 300))
+ */}}
+
+{{ $s := newScratch }}
+{{ $s.Set "data" dict }}
+
+{{ $s.SetInMap "data" "uri" .RelPermalink }}
+
+{{ with .Date }}
+  {{ $s.SetInMap "data" "sort_date" .Unix }}
+{{ end }}
+
+
+{{ with .Params.description }}
+  {{ $s.SetInMap "data" "description" . }}
+{{ end }}
+
+{{ with .Params.interactions }}
+  {{ $s.SetInMap "data" "interaction_type" . }}
+{{ end }}
+
+{{ with .Params.tools }}
+  {{ $s.SetInMap "data" "tool_type" . }}
+  {{ with index . 0 }}
+    {{ $s.SetInMap "data" "primary_section" (urlize .) }}
+  {{ end }}
+{{ end }}
+
+{{ with .Params.tags }}
+  {{ $s.SetInMap "data" "tags" . }}
+{{ end }}
+
+{{ with .Params.data_model }}
+  {{ $s.SetInMap "data" "data_model" . }}
+{{ end }}
+
+{{ with .Content }}
+  {{ $s.SetInMap "data" "content" ($.Plain | truncate 300) }}
+{{ end }}
+
+{{ return $s.Get "data" }}
+
+

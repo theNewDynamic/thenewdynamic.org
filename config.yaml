@@ -1,0 +1,4 @@
+# Forestry needs a config.yaml at the root.
+# Is overwriten by config/_default/config.yaml
+# ###################################
+forestry: Here you go
