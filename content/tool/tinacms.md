@@ -4,7 +4,7 @@ title: TinaCMS
 repo: tinacms/tinacms
 weight: 1
 description: Open source editing toolkit for JS-based frameworks allowing developers
-  to build real time editing into JAMstack websites.
+  to build real time editing into Jamstack websites.
 tools:
 - Content Management
 interactions: []
@@ -12,45 +12,33 @@ license: Open Source
 data_model: Git-based
 language: Javascript
 related_tools:
-- tool/gatsby.md
 - tool/next.js.md
 tags: []
 urls:
-  website: https://tinacms.org
+  website: https://tina.io
   github: https://github.com/tinacms/tinacms
   twitter: tina_cms
-  other: tinacms.slack.com
+  other: https://tina-tailwind-sidebar-demo-git-main-tinacms.vercel.app/
 resources:
-- name: Tina Announcement at JAMstack Conf San Francisco
+- name: Sidebar editing demo with Next.js and Tailwind CSS
+  url: https://tina-tailwind-sidebar-demo-git-main-tinacms.vercel.app/
+- name: Tina Cloud, headless CMS backend powered by GraphQL and Git
+  url: https://tina.io/cloud/
+- name: Tina Announcement at Jamstack Conf San Francisco
   url: https://www.youtube.com/watch?v=iPDCmbaEF0Y
 
 ---
-Tina is a **lightweight but powerful toolkit** for creating a content editing interface with JavaScript components. Tina surfaces superpowers for developers to create an intuitive UI for real-time content editing, built directly into their website.
 
-## The Next Generation of Content Management
+TinaCMS surfaces superpowers for JS developers to build a CMS UI to provide real-time content editing, on top of your website without any performance impact.
 
-![tina-gif](https://res.cloudinary.com/forestry-demo/video/upload/du_16,w_700,e_loop/v1571159974/tina-hero-demo.gif)Tina is optimized for next-gen JAMstack tools. It is written in JavaScript and easily adapted to multiple different frameworks.
+![Sidebar editing with TinaCMS](https://tina.io/img/edit-alongside-content.gif)
 
-Tina currently supports React-based frameworks, including:
+Tina is written in JavaScript, mainly React for now, but is designed to be adapted to other frameworks like Vue or Svelte.
+Next.js is currently the default recommended framework.
 
-* Create-React-App
-* Gatsby
-* NextJS
+## Resources
 
-Plans to support Vue.js, NuxtJS, Gridsome and write to third party API based services (Contentful, WordPress, Airtable, etc.)
-
-## Get Started
-
-To use Tina, you should have a good working knowledge of your JavaScript framework & JAMstack tools of choice.
-
-To get a better idea of what Tina is all about, take a look at [how Tina works](https://tinacms.org/docs/getting-started/how-tina-works "How Tina Works").
-
-If you’re itching to see what Tina can do, head over to the [Gatsby Quickstart Guide](https://tinacms.org/docs/gatsby/quickstart) to get up and running fast.
-
-## Get Involved
-
-Want to help out with Tina’s development? Please visit our [Contributing](https://tinacms.org/docs/contributing/guidelines) section in our docs to learn more.
-
-Looking for help with Tina, or want to stay on top of the latest developments? [Join our Slack Community](https://tinacms.slack.com/ "Join the TinaCMS Slack") to chat with other Tina enthusiasts.
+- [Next.js TinaCMS starter](https://tina.io/guides/nextjs/adding-tina/overview/):  add TinaCMS to a Next.js website.
+- [Tina Cloud starter](https://tina.io/guides/tina-cloud/starter/overview/): connect your static Next.js site to Tina Cloud, a headless CMS backed by GitHub.
 
 Tina is developed by [Forestry.io](https://forestry.io)
