@@ -14,7 +14,10 @@
    "tailwindcss": "project"
   }
  },
- "dependencies": {},
+ "dependencies": {
+  "atomic-algolia": "^0.3.19",
+  "request-promise-native": "^1.0.9"
+ },
  "description": "Replace this description with project's",
  "devDependencies": {
   "@tailwindcss/typography": "^0.4.0",
