@@ -1,1 +1,2 @@
-{{ return where (where site.RegularPages ".Section" "tool") ".Params.private" "ne" true }}
+{{ $entries := where (where site.RegularPages ".Section" "tool") ".Params.private" "ne" true }}
+{{ return $entries.ByTitle }}

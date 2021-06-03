@@ -26,7 +26,7 @@ tnd_styles:
     weight: 700
     style: normal
 
-# ###############
+# ##############f#
 # TND SCRIPTS
 # https://github.com/theNewDynamic/hugo-module-tnd-scripts
 # ###############
@@ -34,12 +34,6 @@ tnd_scripts:
   scripts:
     - name: main
       path: /js/index.js
-    - name: search
-      path: /js/search/index.js
-      format: cjs
-      params:
-        app_id: EGKL8BPJHJ
-        search_api: 542f26c0c09bbd36ee0979cd0895c48a
 
 
 # ###############
@@ -115,6 +109,77 @@ tnd_redirects:
 # https://github.com/theNewDynamic/hugo-module-tnd-search/tree/master#settings
 # ###############
 tnd_search:
-  service: algolia
-  params: 
-    - description
+  service: meili
+  params:
+  - description
+  instantsearch:
+  - name: tools
+    indexName: tnd-dev
+    appId: https://search.thenewdynamic.dev
+    apiKey: daa081e4233fac2f641033885a79f622cf60e1d83450417498a468bd18ddf274
+    widgets:
+      - name: searchBox
+        placeholder: "Search for Jamstack tools"
+        js: searchBox
+        showReset: 0
+        showSubmit: 0
+        classes:
+          input: block border -mt-4 w-full h-full pl-8 pr-3 py-2 rounded text-gray-900 placeholder-gray-500 focus:outline-none focus:placeholder-gray-400 sm:text-sm
+      - name: hits
+        classes:
+          item: tool_type w-full border text-3xl
+          list: w-full m-0 sm:grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4
+        templates:
+          item: |
+            <a href="{{uri}}" class="bg-white rounded-b block w-full h-full no-underline shadow-md hover:shadow-xl">
+            <div class="{{primary_section}}">
+              <div class="px-2 py-1 text-xs font-semibold uppercase">{{tool_type}}</div>
+            </div>
+              <div class="p-3">
+              <h2 class="font-bold text-xl text-gray-700 leading-tight mb-2">
+                {{title}}
+              </h2>
+              <p class="text-sm text-gray-700">{{description}}</p>
+              </div>
+            </a>
+          empty: |
+            <h3 class="text-2xl">No results for <q>{{query}}</q></h3>
+      - name: clearRefinement
+        container: '#clear-refinement'
+        templates:
+          resetLabel: Clear filter
+      - name: refinementList
+        container: "#refinement-tool_type"
+        attribute: interaction_type
+        limit: 25
+        js: refinementBase
+      - name: refinementList
+        attribute: interaction_type
+        container: "#refinement-interaction_type"
+        limit: 25
+        js: refinementBase
+      - name: refinementList
+        attribute: data_model
+        container: "#refinement-data_model"
+        limit: 25
+        js: refinementBase
+      - name: refinementList
+        attribute: license
+        container: "#refinement-license"
+        limit: 25
+        js: refinementBase
+      - name: refinementList
+        attribute: tags
+        container: "#refinement-tags"
+        limit: 10
+        showMoreLimit: 50
+        showMore: true
+        js: refinementBase
+      - name: stats
+        classes:
+          text: mr-2 font-medium text-base text-gray-700
+        templates:
+          text: |
+            {{#hasNoResults}}No tools{{/hasNoResults}}
+            {{#hasOneResult}}1 tool{{/hasOneResult}}
+            {{#hasManyResults}}{{#helpers.formatNumber}}{{nbHits}}{{/helpers.formatNumber}} tools{{/hasManyResults}}

@@ -1,55 +1,61 @@
-"use strict";
+const { MeiliSearch } = require('meilisearch')
 
-var atomicalgolia = require("atomic-algolia");
-var request = require("request-promise-native");
-
-exports.handler = function(event, context, callback) {
-  /*
-   * If the function is hit by a cron job and not an event from Netlify (deploy-succeeded), it is recommanded to guard the function
-   * from public hits.
-   * To do so, simply an ALOGLIA_SCRIPT_KEY env variable. When found, the function will try and match it to a query parameter passed to
-   * functions endpoint's url. (.netlify/functions/algolia-update?key=xxxxxx)
-   *
-   */
-  if (
-    process.env.ALGOLIA_SCRIPT_KEY &&
-    event.queryStringParameters.key != process.env.ALGOLIA_SCRIPT_KEY
-  ) {
-    const bodyResponse = {
-      error: "Forbidden: wrong key"
-    };
-    callback(null, {
-      statusCode: 403,
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(bodyResponse)
-    });
-    return;
+// Following functions decode context data and turns it into an object:
+const extractNetlifySiteFromContext = function(context) {
+  let site = {site_url: "http://localhost:8888"}
+  if(typeof context.clientContext.custom !== "undefined") {
+    site = JSON.parse(Buffer.from(context.clientContext.custom.netlify, "base64").toString("utf-8"))
   }
+  return site
+}
 
-  var indexName = process.env.ALGOLIA_INDEX_NAME;
-  // TODO: Ideally we'd rather use DEPLOY_URL or else as we are hitting the algolia endpoint
-  var indexURL = process.env.ALGOLIA_INDEX_URL;
+exports.handler = async function(event, context) {
 
-  request({ url: indexURL, json: true })
-    .then(function(data) {
-      updateIndex(indexName, data, callback);
+  try {
+    const client = new MeiliSearch({
+      host: process.env.MEILI_HOST,
+      apiKey: process.env.MEILI_PRIVATE_KEY,
     })
-    .catch(function(err) {
-      callback(err);
-    });
-};
-
-var updateIndex = (indexName, data, callback) => {
-  return atomicalgolia(indexName, data, { verbose: true }, function(err, res) {
-    if (err) {
-      callback(err);
-    } else {
-      callback(null, {
-        statusCode: 200,
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(res)
-      });
+  
+    const {site_url} = extractNetlifySiteFromContext(context)
+    // An index is where the documents are stored.
+    const envVars = ['MEILI_HOST', 'MEILI_PRIVATE_KEY', 'TND_SITE_ID']
+    envVars.forEach(item => {
+      if(!process.env[item]) {
+        const error = `You need to set an environment variable for ${item}`
+        console.error(error)
+        throw error;
+      }
+    })
+    
+    const indexName = process.env.TND_SITE_ID
+  
+    const index = client.index(indexName)
+  
+    const documents = await fetch(`${site_url}/tnd_search_index.json`).then(response => {
+      if(response.ok) {
+        return response.json()
+      }
+    })
+  
+    // If the index 'movies' does not exist, MeiliSearch creates it when you first add the documents.
+    let response = await index.addDocuments(documents)
+    const body = {
+      response,
+      index: indexName,
+      documents: documents.length
     }
-  });
-};
- 
+    console.log(body)
+    return {
+      statusCode: 200,
+      body: JSON.stringify(body)
+    };
+  } catch(error) {
+      return {
+        statusCode: 403,
+        body: JSON.stringify({
+          error
+        })
+      }
+  }
+}
