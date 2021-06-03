@@ -110,29 +110,6 @@ tnd_redirects:
   - origin: /jamstack-tools-ssg-opensource
     target: /?jamstack-tools%5BrefinementList%5D%5Btool_type%5D%5B0%5D=Static%20Site%20Generator&jamstack-tools%5BrefinementList%5D%5Blicense%5D%5B0%5D=Open%20Source
 
-
-# ###############
-# TND HEADERS
-# https://github.com/theNewDynamic/hugo-module-tnd-headers#adding-custom-headers
-# ###############
-tnd_headers:
-  groups:
-    - headers:
-      - field: Content-Security-Policy
-        value: upgrade-insecure-requests
-      - field: Strict-Transport-Security
-        value: max-age=15768000
-      - field: X-Xss-Protection
-        value: 1; mode=block
-      - field: X-Frame-Options
-        value: DENY
-      - field: X-Content-Type-Options
-        value: nosniff
-      - field: Referrer-Policy
-        value: strict-origin-when-cross-origin
-      - field: Feature-Policy
-        value: camera 'none'; geolocation 'none'; microphone 'none';
-
 # ###############
 # TND Search
 # https://github.com/theNewDynamic/hugo-module-tnd-search/tree/master#settings
