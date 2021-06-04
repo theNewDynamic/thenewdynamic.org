@@ -16,7 +16,7 @@ require (
 	github.com/theNewDynamic/hugo-module-tnd-netlifycms v0.1.71 // indirect
 	github.com/theNewDynamic/hugo-module-tnd-redirects v1.2.4 // indirect
 	github.com/theNewDynamic/hugo-module-tnd-scripts v0.0.0-20210512182152-9e0809896a22 // indirect
-	github.com/theNewDynamic/hugo-module-tnd-search v0.2.3 // indirect
+	github.com/theNewDynamic/hugo-module-tnd-search v0.2.4-0.20210604150245-8da3c39e6eab // indirect
 	github.com/theNewDynamic/hugo-module-tnd-seo v0.1.10 // indirect
 	github.com/theNewDynamic/hugo-module-tnd-socials v0.1.5 // indirect
 	github.com/theNewDynamic/hugo-module-tnd-styles v0.7.4 // indirect

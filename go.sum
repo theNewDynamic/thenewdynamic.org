@@ -30,6 +30,8 @@ github.com/theNewDynamic/hugo-module-tnd-scripts v0.0.0-20210512182152-9e0809896
 github.com/theNewDynamic/hugo-module-tnd-scripts v0.0.0-20210512182152-9e0809896a22/go.mod h1:6hs37u8aFKho7Rb9EypgTSTzWaP+4Pg+G78+8QyaYV0=
 github.com/theNewDynamic/hugo-module-tnd-search v0.2.3 h1:HAuM5rSmE1LRR4DGVrb//+E+7wWLnFupBTlSAjYHDzU=
 github.com/theNewDynamic/hugo-module-tnd-search v0.2.3/go.mod h1:ALY3j5/mYy5M/cXzQrbOVpAP4CiSO4L4AHc6rORONkk=
+github.com/theNewDynamic/hugo-module-tnd-search v0.2.4-0.20210604150245-8da3c39e6eab h1:is1cfwULJosnl+ToAfHM2REP3C17DY/xK8ZmB59pGdM=
+github.com/theNewDynamic/hugo-module-tnd-search v0.2.4-0.20210604150245-8da3c39e6eab/go.mod h1:ALY3j5/mYy5M/cXzQrbOVpAP4CiSO4L4AHc6rORONkk=
 github.com/theNewDynamic/hugo-module-tnd-seo v0.1.10 h1:wmYG3ybNYFOjtlxuAigeEDE6enxgxbjUZLvauRfhMiI=
 github.com/theNewDynamic/hugo-module-tnd-seo v0.1.10/go.mod h1:VY3Qvzif9T0Z0rjR85ufUQE1wrS/M5VZC9Dx1V8Vo8Y=
 github.com/theNewDynamic/hugo-module-tnd-socials v0.1.5 h1:5fQNPKsKZlA3sGOsihVhOretItUMZs1JXmLHO7CzWQ8=

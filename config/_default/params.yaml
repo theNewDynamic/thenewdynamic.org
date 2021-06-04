@@ -153,7 +153,7 @@ tnd_search:
           resetLabel: Clear filter
       - name: refinementList
         container: "#refinement-tool_type"
-        attribute: interaction_type
+        attribute: tool_type
         limit: 25
         js: refinementBase
       - name: refinementList
