@@ -16,10 +16,12 @@
  },
  "dependencies": {
   "atomic-algolia": "^0.3.19",
+  "meilisearch": "^0.18.2",
   "request-promise-native": "^1.0.9"
  },
  "description": "Replace this description with project's",
  "devDependencies": {
+  "@meilisearch/instant-meilisearch": "^0.5.0",
   "@tailwindcss/typography": "^0.4.0",
   "algoliasearch": "^4.8.6",
   "alpinejs": "^2.2.5",

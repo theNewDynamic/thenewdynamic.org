@@ -4,7 +4,7 @@ module.exports = {
     './hugo_stats.json',
     './func/*.html',
     './layouts/**/*.html',
-    './assets/js/search/index.js'
+    './config/_default/params.yaml'
   ],
   extractors: [
     {
