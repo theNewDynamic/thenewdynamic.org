@@ -11,15 +11,13 @@
         </aside>
       {{ end }}
       {{/*  BEGIN: Temp replacement for picture element {{- partial "_components/image-picture-element.html" . -}}  */}}
-      {{ $image := index (.Params.images) 0 }}
+      {{ $image := index .Params.images 0 }}
       {{ with $image }}
-      {{ if in (print $.Site.BaseURL) "localhost" }}
-        <img data-src="{{ . }}" src="/images/placeholder.svg" class="lazyload mw-full">
-      {{ else }}
-        {{ $img := replace . "/uploads" ($.Param "image_url")  }}
-        <img src="/images/placeholder.svg" data-src="{{ $img }}?{{ (querify "w" "1200" "auto" "format") | safeURL }}" class="lazyload max-w-full">
+        {{ $args := dict "path" $image "width" 1200 }}
+        {{ with partialCached "tnd-media/Get" $args $args }}
+          <img src="/images/placeholder.svg" data-src="{{ .Permalink }}" class="lazyload max-w-full">
+        {{ end }}
       {{ end }}
-    {{ end }}
     {{/*  END  */}}
     <aside class="py-4 border-b text-base text-grey-darkest">
       <p class="mb-4">
