@@ -109,17 +109,18 @@ tnd_redirects:
 # https://github.com/theNewDynamic/hugo-module-tnd-search/tree/master#settings
 # ###############
 tnd_search:
-  service: meili
+  service: algolia
   params:
   - description
   instantsearch:
   - name: tools
-    indexName: tnd-dev
-    appId: https://search.thenewdynamic.dev
-    apiKey: daa081e4233fac2f641033885a79f622cf60e1d83450417498a468bd18ddf274
-    # indexName: jamstack-tools-v2
-    # appId: EGKL8BPJHJ
-    # apiKey: 542f26c0c09bbd36ee0979cd0895c48a
+    # indexName: tnd-dev
+    # appId: https://search.thenewdynamic.dev
+    # apiKey: daa081e4233fac2f641033885a79f622cf60e1d83450417498a468bd18ddf274
+    indexName: jamstack-tools-v2
+    appId: EGKL8BPJHJ
+    apiKey: 542f26c0c09bbd36ee0979cd0895c48a
+    routing: true
     widgets:
       - name: searchBox
         placeholder: "Search for Jamstack tools"
@@ -134,12 +135,12 @@ tnd_search:
           list: w-full m-0 sm:grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4
         templates:
           item: |
-            <a href="{{uri}}" class="bg-white rounded-b block w-full h-full no-underline shadow-md hover:shadow-xl">
+            <a href="{{uri}}" class="block w-full h-full no-underline bg-white rounded-b shadow-md hover:shadow-xl">
             <div class="{{primary_section}}">
               <div class="px-2 py-1 text-xs font-semibold uppercase">{{tool_type}}</div>
             </div>
               <div class="p-3">
-              <h2 class="font-bold text-xl text-gray-700 leading-tight mb-2">
+              <h2 class="mb-2 text-xl font-bold leading-tight text-gray-700">
                 {{title}}
               </h2>
               <p class="text-sm text-gray-700">{{description}}</p>
