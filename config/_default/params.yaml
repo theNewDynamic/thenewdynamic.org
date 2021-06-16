@@ -109,18 +109,19 @@ tnd_redirects:
 # https://github.com/theNewDynamic/hugo-module-tnd-search/tree/master#settings
 # ###############
 tnd_search:
-  service: algolia
+  service: meili
   params:
   - description
   instantsearch:
   - name: tools
-    # indexName: tnd-dev
-    # appId: https://search.thenewdynamic.dev
-    # apiKey: daa081e4233fac2f641033885a79f622cf60e1d83450417498a468bd18ddf274
-    indexName: jamstack-tools-v2
-    appId: EGKL8BPJHJ
-    apiKey: 542f26c0c09bbd36ee0979cd0895c48a
+    indexName: tnd-dev
+    appId: https://search.thenewdynamic.dev
+    apiKey: daa081e4233fac2f641033885a79f622cf60e1d83450417498a468bd18ddf274
+    # indexName: jamstack-tools-v2
+    # appId: EGKL8BPJHJ
+    # apiKey: 542f26c0c09bbd36ee0979cd0895c48a
     routing: true
+    hitsPerPage: 1000
     widgets:
       - name: searchBox
         placeholder: "Search for Jamstack tools"
