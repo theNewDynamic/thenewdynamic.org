@@ -4,10 +4,21 @@
 {{ end }}
 
 {{ define "main" }} 
+
+
+
+
+
+<a href="https://www.surveymonkey.com/r/jamstack-survey-new-dynamic" style="display:block;margin-bottom: 3rem;margin-left:auto;margin-right:auto;width:600px;">
+	<img src="/images/Jamstack-survey-2021-2.svg" alt="Jamstack Survey" width="600">
+</a>
+
+
+
 {{- partial "_components/page-heading.html" . -}}
 {{- partial "_components/page-content.html" . -}}
 <!-- <a href="" id="fb_share" target="_blank">Share this page</a> -->
-<div id="filter_content" class="md:grid grid-cols-16 gap-6 mt-8 js-only">
+<div id="filter_content" class="gap-6 mt-8 md:grid grid-cols-16 js-only">
 	<div class="col-span-4 text-base text-gray-800">
 		{{ partial "search/refinement-lists.html" . }}	
 	</div>
