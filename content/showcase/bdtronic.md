@@ -4,11 +4,11 @@ date: 2021-10-06T18:33:52.264Z
 description: Nuxt.js, Prismic, Algolia, Netlify, Hubspot
 website: https://www.bdtronic.com
 related_tools:
-  - NuxtJS
-  - Prismic
-  - Algolia
-  - Netlify
+  - tool/nuxtjs.md
+  - tool/prismic.md
+  - tool/algolia.md
+  - tool/netlify.md
 images: 
- - /images/screen-shot-2021-10-06-at-2.35.14-pm.jpg
+ - /uploads/screen-shot-2021-10-06-at-2.35.14-pm.jpg
 creator:
 ---
