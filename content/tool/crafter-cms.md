@@ -4,7 +4,7 @@ description: Git-based Headless CMS for the Enterprise
 date: 2021-06-01T16:27:49.770Z
 tools:
   - Content Management
-data_model: Git-based
+data_model: API-based
 urls:
   website: https://craftercms.org
 tags:
