@@ -1,9 +1,6 @@
 
-{{ define "head_additions" }}
-{{ $assets := .Site.Data.assets }}  
-  {{ with $assets.search }}
-  <script type="text/javascript" src="{{ print .js | default "/js/main.js" }}" {{ with .jsIntegrity }}integrity="{{ print . }}" crossorigin="anonymous"{{ end }} defer></script>
-  {{ end }}
+{{ define "addtohead" }}
+{{ partial "tnd-search/instantsearch/tags" (slice "tools") }}
 {{ end }}
 
 {{ define "main" }} 

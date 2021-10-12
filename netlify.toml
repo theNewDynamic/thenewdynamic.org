@@ -1,31 +1,30 @@
 [build]
 publish = "public"
-command = "hugo --gc --minify"
-functions = "functions"
+command = "hugo --minify -e cached"
+
+[build.environment]
+  GO_VERSION = "1.14"
+  NODE_VERSION = "15.4.0"
+  HUGO_VERSION = "0.83.1"
+  TND_SITE_ID = "tnd-org"
+
+[functions]
+  directory = "functions"
+
+[context.production]
 
 [context.production.environment]
-GO_VERSION = "1.14"
-HUGO_VERSION = "0.73.0"
-NODE_VERSION="10.13.0"
 HUGO_ENV = "production"
 
+[context.deploy-preview]
+command = "hugo --minify -e cached -D -b $DEPLOY_PRIME_URL"
 [context.deploy-preview.environment]
-HUGO_VERSION = "0.73.0"
-NODE_VERSION="10.13.0"
-GO_VERSION = "1.14"
-HUGO_ENV = "preview"
-
-[context.branch-deploy.environment]
-HUGO_VERSION = "0.73.0"
-NODE_VERSION="10.13.0"
-GO_VERSION = "1.14"
 HUGO_ENV = "staging"
 
-[context.deploy-preview]
-command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
-
 [context.branch-deploy]
-command = "hugo --gc --minify -b $DEPLOY_URL"
+command = "hugo --minify -e cached -b $DEPLOY_URL"
+[context.branch-deploy.environment]
+HUGO_ENV = "staging"
 
 [[headers]]
 for = "/*"
@@ -38,3 +37,6 @@ X-Frame-Options = "DENY"
 X-Content-Type-Options = "nosniff"
 Referrer-Policy = "strict-origin-when-cross-origin"
 Feature-Policy = "camera 'none'; geolocation 'none'; microphone 'none'"
+
+[dev]
+functions = "functions"

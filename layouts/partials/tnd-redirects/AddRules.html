@@ -1,0 +1,23 @@
+{{/*
+  AddRedirects
+  
+  In this project, every posts with `.Params.redirect_ca` set to true should redirect
+  canadian visitors to a dedicated information page.
+
+  @author @user
+
+  @context Any (.)
+
+  @access public
+
+*/}}
+{{ $redirs := slice }}
+{{/* EXAMPLE:
+
+{{ $posts := where site.RegularPages "Params.redirect_ca" "==" true }}
+{{ range $posts }}
+  {{ $rule := dict "origin" .RelPermalink "target" "/canadian-regulation" "country" "ca" }}
+  {{ $redirs = $redirs | append $rule }}
+{{ end }}
+*/}}
+{{ return $redirs }}

@@ -1,0 +1,13 @@
+<header class="py-8 mb-8 border-t border-b">
+  <div class="relative tnd-container">
+    <h1 class="text-4xl font-bold hover:smiley"><a href="{{ site.Home.RelPermalink }}">{{ site.Title }}</a></h1>
+    {{ partial "nav.html" . }}
+    {{ with partial "tnd-func/GetTranslations" . }}
+      <div class="absolute top-0 right-0">
+        {{ range . }}
+        <a class="uppercase hover:text-primary-500" href="{{ .RelPermalink }}">{{ .Language.Lang }}</a>
+        {{ end }}
+      </div>
+    {{ end }}
+  </div>
+</header>

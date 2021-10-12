@@ -9,7 +9,7 @@
       {{ range (.Paginator 20).Pages }}
       <dl class="border border-grey-200 bg-white mb-6">
         {{ $vendor := .Params.vendor }}
-        {{ $url := .URL }}
+        {{ $url := .RelPermalink }}
         {{ $title := .Title }}
         {{ $image := "" }}
         {{ with .Params.images }}

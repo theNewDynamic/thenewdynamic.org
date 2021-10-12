@@ -1,0 +1,32 @@
+{{/* 
+	Add/Edit SEO Scratch Object
+	
+	@author {user}
+	
+	@access public
+
+  @context Map
+    Page (.Page)
+		Map (.seo)
+		
+
+	User does not load the partial, as the component will. 
+	This allows to overwrite some SEO Data with project's own.
+	Project's partial should live under `layouts/partials/tnd-seo/AddSEOData.html`
+
+	@example In Partial
+    {{ $seo := dict }}
+    {{ $s := newScratch }}
+    {{ $s.Set "seo" dict }}
+		{{$locales := dict "fr" "fr_FR" "en" "en_US" }}
+		{{$s.SetInMap "seo" "locale" (index $locales .Lang) }}
+
+		{{ if .IsHome }}
+		  {{ $s.SetInMap "seo" "title" "Welcome Home" }}
+    {{ end }}
+		{{ return merge .seo ($s.Get "seo") }}
+		
+	@example see: https://github.com/theNewDynamic/hugo-module-tnd-seo/blob/main/README.md#example
+ */}}
+
+ {{ return merge .seo dict }}

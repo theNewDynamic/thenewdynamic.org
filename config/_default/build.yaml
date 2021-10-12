@@ -1,0 +1,3 @@
+writeStats: true
+# js.Build writes a file to help VS code but until we understand it... let's leave it out of our repos.
+noJSConfigInAssets: true

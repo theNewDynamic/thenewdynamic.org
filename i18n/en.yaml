@@ -1,4 +1,2 @@
-- id: minutes_read
-  translation: 
-    one: "minute read"
-    other: "minutes read"
+- id: copyright
+  translation: Copyright

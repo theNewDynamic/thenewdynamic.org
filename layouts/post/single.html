@@ -1,0 +1,11 @@
+{{ define "main" }}
+<div class="max-w-3xl mx-auto">
+  <h1 class="text-3xl font-bold text-center">{{ .Title }}</h1>
+  {{ with .Date }}
+    <time datetime="{{ . }}">{{ .Format "Monday January 2, 2006" }}</time>
+  {{ end }}
+  <div class="my-12 prose max-w-none">
+    {{ .Content }}
+  </div>
+</div>
+{{ end }}

@@ -1,16 +1,14 @@
 
-{{ define "head_additions" }}
-{{ $assets := .Site.Data.assets }}  
-  {{ with $assets.search }}
-  <script type="text/javascript" src="{{ print .js | default "/js/main.js" }}" {{ with .jsIntegrity }}integrity="{{ print . }}" crossorigin="anonymous"{{ end }} defer></script>
-  {{ end }}
+{{ define "addtohead" }}
+	{{ partial "tnd-search/instantsearch/tags" (slice "tools") }}
 {{ end }}
 
 {{ define "main" }} 
+
 {{- partial "_components/page-heading.html" . -}}
 {{- partial "_components/page-content.html" . -}}
 <!-- <a href="" id="fb_share" target="_blank">Share this page</a> -->
-<div id="filter_content" class="md:grid grid-cols-16 gap-6 mt-8 js-only">
+<div id="filter_content" class="gap-6 mt-8 md:grid grid-cols-16 js-only">
 	<div class="col-span-4 text-base text-gray-800">
 		{{ partial "search/refinement-lists.html" . }}	
 	</div>

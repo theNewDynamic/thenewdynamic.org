@@ -1,0 +1,44 @@
+{{ $args := dict "menu" "main" "Page" $ }}
+{{ with partial "tnd-menus/GetMenu" $args }}
+<div class="flex mt-8">
+  {{ range $MenuEntry := . }}
+    {{ template "tnd_menus_menu_entry" . }}
+  {{ end }}
+</div>
+{{ end }}
+
+{{ define "tnd_menus_menu_entry" }}
+  {{ $MenuEntry := . }}
+  <div class="relative {{ with .Children }} has-dropdown {{ end }}">
+  {{ $tag := `span` }}
+  {{ with .URL }}
+    {{ $tag = `a` }}
+  {{ end }}
+  {{ $open := printf `<%s` $tag | safeHTML }}
+  {{ $close := printf `</%s>` $tag | safeHTML }}
+
+  {{ $open }} 
+    class="block py-1 px-4 border-b hover:bg-gray-500 hover:text-white {{ if .Active }} bg-gray-200 border-gray-4 {{ end }} "
+  href="{{ .URL }}">
+    {{ .Name }}
+    {{ if .External }}
+    <span class="text-xs">&nearr;</span>
+    {{ end }}
+    {{ with .Children }}
+    <span class="text-xs">&or;</span>
+    {{ end }}
+  {{ $close }}
+
+  {{ with .Children }}
+    {{ $position := "left-1/5 -translate-1/5 top-full" }}
+    {{ if gt $MenuEntry.Level 1 }}
+      {{ $position = "left-full top-0" }}
+    {{ end }}
+    <div class="dropdown text-center border bg-white w-screen max-w-xs absolute z-10 {{ $position }}">
+      {{ range . }}
+        {{ template "tnd_menus_menu_entry" . }}
+      {{ end }}
+    </div>
+  {{ end }}
+  </div>
+{{ end }}

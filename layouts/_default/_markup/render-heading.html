@@ -1,0 +1,6 @@
+{{- $classes := dict "1" "text-3xl" "2" "text-2xl" "3" "text-xl" -}}
+{{- $class := "text-lg" -}}
+{{- with index $classes (string .Level) -}}
+  {{- $class = . -}}
+{{- end }}
+<h{{ .Level }} id="{{ .Anchor | safeURL }}" class="{{ $class }} relative group font-bold mb-4 mt-4m">{{ .Text | safeHTML }} <a class="hidden group-hover:inline absolute ml-1 hover:text-blue-500" href="#{{ .Anchor | safeURL }}">#</a></h{{ .Level }}>

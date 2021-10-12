@@ -1,0 +1,11 @@
+name: seo
+label: SEO
+widget: object
+collapsed: true
+fields:
+  - import field description
+  - import field image
+  - label: Canonical URL
+    name: canonical
+    widget: string
+    required: false

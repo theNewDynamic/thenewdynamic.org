@@ -1,0 +1,9 @@
+{{ range partialCached "tnd-socials/GetSocials" . . }}
+  <a href="{{ .URL }}" title="{{ .Name }}" class="{{ urlize .Name }} fill-current w-8 mx-2 no-underline">
+    {{ with .SVG }}
+      {{ . }}
+    {{ else }}
+      {{ .Name }}
+    {{ end }}
+  </a>
+{{ end }}

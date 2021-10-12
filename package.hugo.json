@@ -1,0 +1,50 @@
+{
+ "author": "theNewDynamic",
+ "comments": {
+  "dependencies": {},
+  "devDependencies": {
+   "postcss-cli": "github.com/theNewDynamic/hugo-module-tnd-styles",
+   "postcss-import": "github.com/theNewDynamic/hugo-module-tnd-styles",
+   "tailwindcss": "github.com/theNewDynamic/hugo-module-tnd-styles"
+  }
+ },
+ "description": "Replace this description with project's",
+ "devDependencies": {
+  "lazysizes": "^5.3.0",
+  "npm-run-all": "^4.1.5",
+  "postcss-cli": "^8.0.0",
+  "postcss-import": "^12.0.1",
+  "quicklink": "^2.0.0",
+  "tailwindcss": "^2.0.2"
+ },
+ "hugo": {
+  "extended": "true",
+  "version": "0.83.1"
+ },
+ "keywords": [
+  "template"
+ ],
+ "license": "ISC",
+ "main": "index.js",
+ "name": "tnd-dev",
+ "repository": {
+  "type": "git",
+  "url": "https://github.com/theNewDynamic/thenewdynamic.org"
+ },
+ "scripts": {
+  "cms": "npx netlify-cms-proxy-server",
+  "hugo-cms": "HUGO_ENV=development bin/hugo* server -D --gc --noHTTPCache",
+  "dev:cms": "run-p cms hugo-cms",
+  "gethugo": "bash get-hugo.sh",
+  "modpack": "bin/hugo* mod npm pack",
+  "modinit": "bin/hugo* mod init $REPO",
+  "version": "auto-changelog -p --template keepachangelog --unreleased true",
+  "dev:hugo": "HUGO_ENV=development bin/hugo* server --minify -D --gc --navigateToChanged --noHTTPCache",
+  "prod:hugo": "HUGO_ENV=production bin/hugo* --gc --minify --cleanDestinationDir",
+  "dev:netlify": "netlify dev -l",
+  "clean": "rm -rf public/ static/dist resources",
+  "deploy": "npm run prod:hugo",
+  "start": "npm run dev:hugo"
+ },
+ "version": "0.1.0"
+}

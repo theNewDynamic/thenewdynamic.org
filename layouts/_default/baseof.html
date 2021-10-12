@@ -1,17 +1,8 @@
-<!DOCTYPE html>
-<html lang="{{ site.LanguageCode | default "en" }}" class="no-js">
+<!doctype html>
+<html lang="{{ site.Language.Lang }}" class="no-js">
   <head>
-    {{ if eq (getenv "HUGO_ENV") "production" }}
-      <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
-    {{ else }}
-      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
-    {{end}}
-    {{ partial "head/scripts" . }}
-    {{ block "head_additions" . }}{{ end }}
-    {{ partial "head/styles"  . }}      
-    {{ if templates.Exists "partials/tnd-seo/print.html" }}
-      {{ partial "tnd-seo/print.html" . }}
-    {{ end }}
+    {{ partial "head.html" . }}
+    {{ block "addtohead" . }}{{ end }}
   </head>
   <body>
     <div class="h-screen border-t-4 border-primary-color-500 flex overflow-hidden bg-gray-100" x-data="{ sidebarOpen: false }" @keydown.window.escape="sidebarOpen = false">
@@ -33,6 +24,9 @@
           </main>
         </div>
     </div>
-    {{ partial "scripts/fathom-analytics.html" (dict "fathom_id" site.Params.fathom_id) }}            
+
+    {{ with site.Params.fathom_id }}
+      {{ partialCached "fathom-analytics.html" . }}
+    {{ end }}
   </body>
 </html>

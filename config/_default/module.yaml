@@ -1,0 +1,35 @@
+# Module
+# https://gohugo.io/hugo-modules/configuration/
+# https://www.thenewdynamic.com/article/hugo-modules-everything-from-imports-to-create/
+# ################################
+mounts:
+  - source: layouts
+    target: layouts
+  # Returning partials are core elements which should sit at the root of the project.
+  - source: func
+    target: layouts/partials/func
+  # We'll keep the uploads dir at the root of the repo while mounting it underneath `content/upload`.
+  # This allow us to easily change the location of the directory to `static/` or `assets/` if needed.
+  # See https://github.com/theNewDynamic/hugo-module-tnd-media#storage
+  - source: content
+    target: content
+  - source: uploads
+    target: content/uploads
+imports:
+  - path: github.com/theNewDynamic/hugo-module-tnd-seo
+  - path: github.com/theNewDynamic/hugo-module-tnd-styles
+  - path: github.com/theNewDynamic/hugo-module-tnd-scripts
+  - path: github.com/theNewDynamic/hugo-module-tnd-media
+  - path: github.com/theNewDynamic/hugo-module-tnd-forms
+  - path: github.com/theNewDynamic/hugo-module-tnd-socials
+  - path: github.com/theNewDynamic/hugo-module-tnd-headers
+  - path: github.com/theNewDynamic/hugo-module-tnd-redirects
+  - path: github.com/theNewDynamic/hugo-module-tnd-netlifycms
+  - path: github.com/theNewDynamic/hugo-module-tnd-search
+  - path: github.com/theNewDynamic/hugo-module-tnd-icons
+  - path: github.com/theNewDynamic/hugo-module-tnd-menus
+  - path: github.com/theNewDynamic/hugo-component-tnd-blocks
+  - path: github.com/theNewDynamic/hugo-module-tnd-func
+  - path: github.com/theNewDynamic/hugo-module-tnd-env
+  # If we need iuebenda
+  # - path: github.com/theNewDynamic/hugo-module-tnd-iubenda

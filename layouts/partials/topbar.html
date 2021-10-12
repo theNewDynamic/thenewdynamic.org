@@ -17,8 +17,8 @@
 		<div class="flex-1 flex">
 			{{/* {{ partial "search/searchbox.html" . }} */}}
 		</div>
-		<div class="ml-4 flex items-center md:ml-6">
-			{{ partial "social-follow.html" (dict "cx" . "icon_size" "26px") }}
+		<div class="ml-4 flex items-center md:ml-6 text-gray-400">
+			{{ partialCached "tnd-socials/follow" (slice "twitter" "meetup" "slack") }}
 		</div>
 	</div>
 </div>

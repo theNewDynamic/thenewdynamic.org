@@ -1,0 +1,16 @@
+name: "posts"
+label: "Posts"
+label_singular: "Post"
+description: This is what we do best. Writing blog posts.
+folder: "content/en/post"
+filter: { field: "exclude_collection" }
+create: true
+sortableFields: ['title']
+preview_path: blog/{{slug}}
+fields:
+  - import field title
+  - import field date
+  - import field description
+  - import field body
+  - import field seo
+
