@@ -13,7 +13,7 @@ urls:
   github: https://github.com/cloudcannon
   twitter: https://twitter.com/CloudCannon
   other: ''
-description: The Cloud CMS for Jekyll
+description: The Jamstack CMS, backed by Git
 resources: []
 related_tools:
 - tool/jekyll.md
@@ -21,4 +21,4 @@ license: Commercial
 language: ''
 
 ---
-A source control backed CMS for developers working with non-developers
+CloudCannon is a Git-based content management system (CMS) for Jamstack-powered websites. CloudCannon empowers everyone in your team — developers have full control over their webdev workflow, while editors benefit from intuitive and powerful content management workflows.
