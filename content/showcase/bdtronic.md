@@ -8,7 +8,7 @@ related_tools:
   - Prismic
   - Algolia
   - Netlify
-images: /images/screen-shot-2021-10-06-at-2.35.14-pm.jpg
+images: 
+ - /images/screen-shot-2021-10-06-at-2.35.14-pm.jpg
 creator:
-  - {}
 ---
