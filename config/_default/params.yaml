@@ -35,7 +35,6 @@ tnd_scripts:
     - name: main
       path: /js/index.js
 
-
 # ###############
 # TND MEDIA
 # https://github.com/theNewDynamic/hugo-module-tnd-media#settings
@@ -116,7 +115,7 @@ tnd_search:
   - name: tools
     indexName: tnd-dev
     appId: https://search.thenewdynamic.dev
-    apiKey: daa081e4233fac2f641033885a79f622cf60e1d83450417498a468bd18ddf274
+    apiKey: aa6b2b0314a213142e2c59b041211bb588b58a6b4b1ad6482097e723e656502d
     # indexName: jamstack-tools-v2
     # appId: EGKL8BPJHJ
     # apiKey: 542f26c0c09bbd36ee0979cd0895c48a
