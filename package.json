@@ -21,7 +21,7 @@
  },
  "description": "Replace this description with project's",
  "devDependencies": {
-  "@meilisearch/instant-meilisearch": "^0.5.0",
+  "@meilisearch/instant-meilisearch": "^0.8.0",
   "@tailwindcss/typography": "^0.4.0",
   "algoliasearch": "^4.8.6",
   "alpinejs": "^2.2.5",
